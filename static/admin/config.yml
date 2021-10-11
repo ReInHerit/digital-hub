@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: main
-local_backend: true
+local_backend: true             # true if accessed local dev instance of netlify cms port 8081 
 media_folder: "images/uploads"
 
 # collections config see here: https://www.netlifycms.org/docs/widgets/#object
