@@ -1,12 +1,6 @@
 
-# How to create API token acces keys for Google APIs (drive and docs)
+# ReInHerit - Digital Hub
 
-- .env on roots needs api tokens etc. ([detailed_manual](https://www.gatsbyjs.com/plugins/gatsby-source-google-docs/?=google-docs))
+## Dev setup
 
-- need run own script inside the node_modules/gatsby-source-google-docs/generate-token.js (or something like that)
-
-- [Github repo](https://github.com/cedricdelpoux/gatsby-source-google-docs)
-
-## Tutorial readme
-
-- playing around
+- Install local dev version of netfliy CMS (+ setup requirements): https://www.netlifycms.org/docs/beta-features/
