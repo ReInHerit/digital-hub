@@ -13,6 +13,7 @@ import AppsPanel from "../components/apps-panel"
 
 const IndexPage = () => (
   <React.Fragment>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO title="Home" />
