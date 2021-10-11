@@ -49,12 +49,12 @@ const Header = ({ companyName }: Props) => {
     setOpen(false)
   }
 
-  const navLinks = [
+  const navLinks: {displayText: string, link: string, external?: boolean}[] = [
     { displayText: "Home", link: "/" },
     { displayText: "Project Management", link: "/discord" },
     { displayText: "Services", link: "/services" },
     { displayText: "Apps", link: "/apps" },
-    { displayText: "Blog", link: "/blog" },
+    { displayText: "Admin", link: "/admin/#", external: true },
   ]
 
   return (
@@ -83,7 +83,7 @@ const Header = ({ companyName }: Props) => {
           <Hidden xsDown>
             {navLinks.map(item => (
               <Button color="inherit" key={item.displayText}>
-                <Link style={{color:"inherit", textDecoration:"inherit"}} to={item.link}>{item.displayText}</Link>
+                {item.external ? <a target="_blank" style={{color:"inherit", textDecoration:"inherit"}} href={item.link}>{item.displayText}</a> : <Link style={{color:"inherit", textDecoration:"inherit"}} to={item.link}>{item.displayText}</Link>}
               </Button>
             ))}
           </Hidden>
