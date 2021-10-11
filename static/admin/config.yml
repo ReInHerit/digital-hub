@@ -4,10 +4,12 @@ backend:
 local_backend: true
 media_folder: "images/uploads"
 
+# collections config see here: https://www.netlifycms.org/docs/widgets/#object
 collections:
   - name: "blog"
     label: "Blog posts"
     folder: "content/blog"
+    description: Here you may provide all your blog posts etc... Make sure that you have ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -24,6 +26,15 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Code", name: "code", widget: "code" }
+  - name: "exhibitions"
+    label: "Digital exhibitions"
+    folder: "content/exhibitions"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      # - { label: "Code", name: "code", widget: "code" }
   - label: "Pages"
     name: "pages"
     files:
