@@ -19,16 +19,6 @@ interface Props {
 }
 
 const Layout = ({ children }: Props) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <React.Fragment>
       <Header />
@@ -47,8 +37,5 @@ const Layout = ({ children }: Props) => {
   )
 }
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
 
 export default Layout
