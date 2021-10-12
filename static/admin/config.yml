@@ -12,7 +12,7 @@ media_folder: "images/uploads"
 # collections config see here: https://www.netlifycms.org/docs/widgets/#object
 collections:
   - name: "blog"
-    label: "Blog posts"
+    label: "News"
     folder: "content/blog"
     description: Here you may provide all your blog posts etc... Make sure that you have ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
     create: true
