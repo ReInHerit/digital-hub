@@ -6,7 +6,7 @@ import ThemeProvider from "@material-ui/styles/ThemeProvider"
 import theme from "../theme"
 import CMSPage from "../components/shared/CMSPage"
 
-const IndexPage = () => (
+const AboutPage = () => (
   <React.Fragment>
     <ThemeProvider theme={theme}>
       <Layout>
@@ -18,4 +18,4 @@ const IndexPage = () => (
   </React.Fragment>
 )
 
-export default IndexPage
+export default AboutPage;
