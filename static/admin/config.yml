@@ -40,7 +40,7 @@ collections:
     files:
       - label: "About Page"
         name: "about"
-        file: "sites/about.json"
+        file: "static/sites/about.json"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
