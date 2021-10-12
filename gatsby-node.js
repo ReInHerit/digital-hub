@@ -10,8 +10,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
 exports.onPostBuild = () => {
   console.log("*********************onPOSTBUILD****************");
   console.log("CUSTOM-Script: ...setting netlify cms config local backend to false");
-  console.log("************************************************");
-
+  
   // set netlify-cms local backend parameter to false when building the app.
   fs.readFile(".\\public\\admin\\config.yml",'utf8', (err, data) => {
     if(err)return;
@@ -19,7 +18,8 @@ exports.onPostBuild = () => {
 
     fs.writeFile(".\\public\\admin\\config.yml", refFile, 'utf8', function(err) {
       if (err) return console.log(err);
-      console.log("WROTE NEW FILE");
+      console.log("WROTE NEW NETLIFY-CMS config.yml TO THE PUBLIC FOLDER");
+      console.log("******************************************************");
     });
   });
  }
