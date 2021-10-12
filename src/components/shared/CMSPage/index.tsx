@@ -1,4 +1,5 @@
 import React from "react"
+import MarkdownTransformer from "../MarkdownTransformer"
 
 interface Props {
   url: string
@@ -38,7 +39,8 @@ const CMSPage: React.FC<Props> = props => {
   return pageData ? (
     <div>
       <p>{pageData.title && pageData.title}</p>
-      <p>{pageData.intro && pageData.intro}</p>
+      
+      <p>{pageData.intro && <MarkdownTransformer markdown={pageData.intro}></MarkdownTransformer>}</p>
     </div>
   ) : null
 }
