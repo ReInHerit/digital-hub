@@ -5,6 +5,7 @@
 
 - git
 - node LTS 14
+- vscode (stronlgy recommended)
 - gatsby-cli
 - yarn (not necessary if using npm -- but still recommended)
 
@@ -21,18 +22,34 @@
 
 ## Dev setup
 
+### 1. Start netlify-cms local backend
+
 ```sh
 # run if setup from below already completed:
 npx netlify-cms-proxy-server
 
 ```
 
-
-
 - Install local dev version of netfliy CMS (+ setup requirements): https://www.netlifycms.org/docs/beta-features/
   there is an easy command via npx available
   -> must be a configuration entry setup in admin/config.yaml
   -> + a seperate development server started on port 8081 (for more see online documentation)
+
+
+### 2. Start gatsby development setup 
+
+```sh
+# cd into node package / git local clone
+# where package.json is 
+cd c:/path/to/my/local/clone
+
+# start gatsby development server
+# requires gatsby-cli to be installed
+gatsby develop
+
+# gatsby runs now on port displayed in cli
+
+```
 
 
 ## Deployment
