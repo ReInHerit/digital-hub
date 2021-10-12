@@ -12,16 +12,26 @@ media_folder: "images/uploads"
 # collections config see here: https://www.netlifycms.org/docs/widgets/#object
 collections:
   - name: "blog"
-    label: "News"
+    label: "News"             # Used in the UI
+    label_singular: 'Message' # Used in the UI, ie: "New Post"
     folder: "content/blog"
     description: Here you may provide all your blog posts etc... Make sure that you have ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
-    create: true
+    create: true              # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "events"
+    label: "Events"
+    folder: "content/events"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      # - { label: "Code", name: "code", widget: "code" }
   - name: "code"
     label: "Code-snippets"
     folder: "content/code"
