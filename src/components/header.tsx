@@ -53,7 +53,7 @@ const Header = ({ companyName }: Props) => {
     { displayText: "Home", link: "/" },
     { displayText: "Project Management", link: "/discord" },
     { displayText: "Services", link: "/services" },
-    { displayText: "Apps", link: "/apps" },
+    { displayText: "About", link: "/about" },
     { displayText: "Admin", link: "/admin/#", external: true },
   ]
 
