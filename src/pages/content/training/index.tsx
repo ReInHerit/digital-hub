@@ -1,9 +1,10 @@
 import React from "react";
+import BaseLayout from "../../../components/static/BaseLayout";
 
 
 const TrainingPage = () => {
 
-  return <p>TrainingPage</p>
+  return <BaseLayout>Training</BaseLayout>
 
 }
 

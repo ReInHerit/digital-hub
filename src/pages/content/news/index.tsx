@@ -1,9 +1,10 @@
 import React from "react";
+import BaseLayout from "../../../components/static/BaseLayout";
 
 
 const NewsPage = () => {
 
-  return <p>NewsPage</p>
+  return <BaseLayout>News page</BaseLayout>
 
 }
 

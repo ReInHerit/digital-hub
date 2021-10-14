@@ -1,9 +1,10 @@
 import React from "react";
+import BaseLayout from "../../../components/static/BaseLayout";
 
 
 const PerformancePage = () => {
 
-  return <p>PerformancePage</p>
+  return <BaseLayout>Performance</BaseLayout>
 
 }
 
