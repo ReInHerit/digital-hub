@@ -71,6 +71,18 @@ const Navbar: React.FC = () => {
   // internal project management -> drive / discord / stuff
 
 
+    // url examples:
+    // https://reinherit.bla.eu/content/apps/1?mode=researcher
+    // https://reinherit.bla.eu/content/trainings/1?mode=researcher
+
+    // https://reinherit.bla.eu/
+    // https://reinherit.bla.eu/portal
+    // https://reinherit.bla.eu/portal/researcher -> https://reinherit.bla.eu/content/apps/1?mode=researcher
+    // https://reinherit.bla.eu/portal/policyMaker -> https://reinherit.bla.eu/content/apps/1?mode=policyMaker
+    // https://reinherit.bla.eu/portal/visitor -> https://reinherit.bla.eu/content/apps/1?mode=visitor
+
+    // https://reinherit.bla.eu/portal?mode=researcher -> https://reinherit.bla.eu/content/apps/1?mode=researcher
+
   const classes = useStyles()
   const [open, setOpen] = React.useState(false)
 
