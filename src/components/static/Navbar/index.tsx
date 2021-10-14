@@ -44,9 +44,13 @@ interface Props {
 
 const Navbar: React.FC = () => {
 
-  // Trainingsmaterial: Webinare + Text
+  // show navbar not on landing -> on landing only ask for the use-case
+    // or ask on content page who you are / the other one is 
+
 
   // --- Content /  --- 
+
+  // Trainingsmaterial: Webinare + Text
 
   // Apps: Text + Link
 
@@ -79,8 +83,8 @@ const Navbar: React.FC = () => {
 
   const navLinks: {displayText: string, link: string, external?: boolean}[] = [
     { displayText: "Home", link: "/" },
-    { displayText: "Project Management", link: "/discord" },
-    { displayText: "Services", link: "/services" },
+    { displayText: "Content", link: "/discord" },
+    { displayText: "News", link: "/services" },
     { displayText: "About", link: "/about" },
     { displayText: "Admin", link: "/admin/#", external: true },
   ]
