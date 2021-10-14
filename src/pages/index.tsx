@@ -1,9 +1,6 @@
 import React from "react"
-
 import SEO from "../components/seo"
 import Hero from "../components/hero"
-import ThemeProvider from "@material-ui/styles/ThemeProvider"
-import theme from "../theme"
 import BaseLayout from "../components/static/BaseLayout"
 
 const IndexPage = () => (
