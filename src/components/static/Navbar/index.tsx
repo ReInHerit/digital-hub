@@ -1,54 +1,11 @@
-import React from "react";
+import React from "react"
+import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap"
 
-import PropTypes from "prop-types"
-
-import AppBar from "@material-ui/core/AppBar"
-import Toolbar from "@material-ui/core/Toolbar"
-import Typography from "@material-ui/core/Typography"
-import Button from "@material-ui/core/Button"
-import { makeStyles } from "@material-ui/core/styles"
-import IconButton from "@material-ui/core/IconButton"
-import MenuIcon from "@material-ui/icons/Menu"
-import Hidden from "@material-ui/core/Hidden"
-import Drawer from "@material-ui/core/Drawer"
-import ListItem from "@material-ui/core/ListItem"
-import ListItemText from "@material-ui/core/ListItemText"
-import List from "@material-ui/core/List"
-import { Link } from "gatsby"
-
-
-const useStyles = makeStyles(theme => ({
-  appBar: {
-    color: "#233348",
-    backgroundColor: "#FFF",
-  },
-  toolbar: {
-    flexWrap: "wrap",
-  },
-  toolbarTitle: {
-    flexGrow: 1,
-  },
-  drawerList: {
-    width: 250,
-  },
-  drawerToggle: {
-    padding: 20,
-  },
-}))
-
-
-interface Props {
-  companyName: string
-}
-
-
-const Navbar: React.FC = () => {
-
+const ReinNavbar: React.FC = () => {
   // show navbar not on landing -> on landing only ask for the use-case
-    // or ask on content page who you are / the other one is 
+  // or ask on content page who you are / the other one is
 
-
-  // --- Content /  --- 
+  // --- Content /  ---
 
   // Trainingsmaterial: Webinare + Text
 
@@ -59,41 +16,33 @@ const Navbar: React.FC = () => {
   // Exhibitions: ?? unclear
 
   // Performance:
-      // embedded live stream et.c
+  // embedded live stream et.c
 
   // news entries
 
   // eshop-page
 
-
   // ----
 
   // internal project management -> drive / discord / stuff
 
+  // url examples:
+  // https://reinherit.bla.eu/content/apps/1?mode=researcher
+  // https://reinherit.bla.eu/content/trainings/1?mode=researcher
 
-    // url examples:
-    // https://reinherit.bla.eu/content/apps/1?mode=researcher
-    // https://reinherit.bla.eu/content/trainings/1?mode=researcher
+  // https://reinherit.bla.eu/
+  // https://reinherit.bla.eu/portal
+  // https://reinherit.bla.eu/portal/researcher -> https://reinherit.bla.eu/content/apps/1?mode=researcher
+  // https://reinherit.bla.eu/portal/policyMaker -> https://reinherit.bla.eu/content/apps/1?mode=policyMaker
+  // https://reinherit.bla.eu/portal/visitor -> https://reinherit.bla.eu/content/apps/1?mode=visitor
 
-    // https://reinherit.bla.eu/
-    // https://reinherit.bla.eu/portal
-    // https://reinherit.bla.eu/portal/researcher -> https://reinherit.bla.eu/content/apps/1?mode=researcher
-    // https://reinherit.bla.eu/portal/policyMaker -> https://reinherit.bla.eu/content/apps/1?mode=policyMaker
-    // https://reinherit.bla.eu/portal/visitor -> https://reinherit.bla.eu/content/apps/1?mode=visitor
+  // https://reinherit.bla.eu/portal?mode=researcher -> https://reinherit.bla.eu/content/apps/1?mode=researcher
 
-    // https://reinherit.bla.eu/portal?mode=researcher -> https://reinherit.bla.eu/content/apps/1?mode=researcher
-
-  const classes = useStyles()
-  const [open, setOpen] = React.useState(false)
-
-  const handleDrawerOpen = () => {
-    setOpen(true)
-  }
-  const handleDrawerClose = () => {
-    setOpen(false)
-  }
-
-  const navLinks: {displayText: string, link: string, external?: boolean}[] = [
+  const navLinks: {
+    displayText: string
+    link: string
+    external?: boolean
+  }[] = [
     { displayText: "Home", link: "/" },
     { displayText: "Content", link: "/discord" },
     { displayText: "News", link: "/services" },
@@ -103,60 +52,39 @@ const Navbar: React.FC = () => {
 
   return (
     <React.Fragment>
-      <AppBar position="static" elevation={0} className={classes.appBar}>
-        <Toolbar className={classes.toolbar}>
-          <Hidden smUp>
-            <IconButton
-              className={classes.drawerToggle}
-              color="inherit"
-              aria-label="open drawer"
-              onClick={handleDrawerOpen}
-              edge="start"
-            >
-              <MenuIcon />
-            </IconButton>
-          </Hidden>
-          <Typography
-            variant="h6"
-            color="inherit"
-            className={classes.toolbarTitle}
-          >
-            ReInherit
-          </Typography>
-
-          <Hidden xsDown>
-            {navLinks.map(item => (
-              <Button color="inherit" key={item.displayText}>
-                {item.external ? <a target="_blank" style={{color:"inherit", textDecoration:"inherit"}} href={item.link}>{item.displayText}</a> : <Link style={{color:"inherit", textDecoration:"inherit"}} to={item.link}>{item.displayText}</Link>}
-              </Button>
-            ))}
-          </Hidden>
-        </Toolbar>
-      </AppBar>
-      <Drawer
-        variant="temporary"
-        anchor="left"
-        open={open}
-        onEscapeKeyDown={handleDrawerClose}
-        onBackdropClick={handleDrawerClose}
-        ModalProps={{
-          keepMounted: true, // Better open performance on mobile.
-        }}
-      >
-        <List className={classes.drawerList}>
-
-          {navLinks.map((item, index) => (
-            <ListItem button key={item.displayText}>
-              <ListItemText primary={item.displayText} />
-            </ListItem>
-          ))}
-        </List>
-      </Drawer>
+      <Navbar collapseOnSelect expand="lg">
+        <Container fluid>
+          <Navbar.Brand href="#home">ReInHerit</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="#features">Home</Nav.Link>
+              <Nav.Link href="#pricing">News</Nav.Link>
+              <NavDropdown title="Content" id="collasible-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">
+                  Another action
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">
+                  Something
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.4">
+                  Separated link
+                </NavDropdown.Item>
+              </NavDropdown>
+            </Nav>
+            <Nav>
+              <Nav.Link href="#deets">More deets</Nav.Link>
+              <Nav.Link eventKey={2} href="#memes">
+                Admin
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </React.Fragment>
   )
-
-  
 }
 
-
-export default Navbar;
+export default ReinNavbar
