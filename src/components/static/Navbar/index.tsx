@@ -61,16 +61,22 @@ const ReinNavbar: React.FC = () => {
               <Nav.Link href="#features">Home</Nav.Link>
               <Nav.Link href="#pricing">News</Nav.Link>
               <NavDropdown title="Content" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.1">Training</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
-                  Another action
+                  Apps
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">
-                  Something
+                  Game(s)
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">
-                  Separated link
+                  Exhibtions
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4">
+                  Performance(s)
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4">
+                  E-shop(s)
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
