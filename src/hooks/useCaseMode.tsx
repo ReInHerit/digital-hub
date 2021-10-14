@@ -1,8 +1,7 @@
 
 import React from "react";
 import { useLocation } from '@reach/router';
-
-type ReinheritRESTMode = "researcher" | "visitor" | "bla"
+import { ReinheritRESTMode } from "../types/reinherit";
 
 
 /**
