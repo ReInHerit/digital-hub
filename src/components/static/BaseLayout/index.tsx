@@ -22,12 +22,6 @@
        <Header />
        <NavBar/>
        <Container
-        // style={{
-        //   margin: `0 auto`,
-        //   maxWidth: 960,
-        //   minHeight:"60vh",
-        //   padding: `0 1.0875rem 1.45rem`,
-        // }}
        >
         {children}
        </Container>
