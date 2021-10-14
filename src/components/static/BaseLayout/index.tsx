@@ -8,11 +8,11 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "../../../styles/index.css"
 import React from "react"
 import Header from "../Header"
-import { Container } from "react-bootstrap"
+import { Button, Container } from "react-bootstrap"
 import ReinNavBar from "../Navbar"
 import Footer from "../Footer"
 import { ReinheritRESTMode } from "../../../types/reinherit"
-import { useCaseMode } from "../../../hooks/useCaseMode";
+import { useCaseMode } from "../../../hooks/useCaseMode"
 import { useReinMode } from "../../../hooks/useReinMode"
 
 interface Props {
@@ -20,13 +20,16 @@ interface Props {
 }
 
 const BaseLayout = ({ children }: Props) => {
-
-  const { modeVal, getModeColorClass } = useReinMode();
+  const { modeVal, getModeColorClass, setMode } = useReinMode()
 
   return (
     <React.Fragment>
       <Header />
-      <ReinNavBar navColor={getModeColorClass()} modeVal={modeVal} />
+      <ReinNavBar
+        navColor={getModeColorClass()}
+        modeVal={modeVal}
+        setMode={setMode}
+      />
       <Container>{children}</Container>
       <Footer />
     </React.Fragment>

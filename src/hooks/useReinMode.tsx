@@ -4,7 +4,7 @@ import { useCaseMode } from "./useCaseMode"
 
 export const useReinMode = () => {
 
-  const { modeVal } = useCaseMode();
+  const { modeVal, setMode } = useCaseMode();
 
   let modeBsColorMap = new Map<ReinheritRESTMode, "primary" | "secondary">();
   modeBsColorMap.set("researcher", "primary");
@@ -15,7 +15,8 @@ export const useReinMode = () => {
 
   return {
     modeVal,
-    getModeColorClass
+    getModeColorClass,
+    setMode
   }
 
 }

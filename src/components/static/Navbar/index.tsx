@@ -1,10 +1,11 @@
 import { Link } from "gatsby"
 import React from "react"
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap"
+import { Navbar, Container, Nav, NavDropdown, Form } from "react-bootstrap"
 
 interface Props {
   navColor: "primary" | "secondary",
-  modeVal: string
+  modeVal: string,
+  setMode: (val: string) => void 
 }
 
 const ReinNavbar: React.FC<Props> = (props) => {
@@ -78,6 +79,10 @@ const ReinNavbar: React.FC<Props> = (props) => {
               </NavDropdown>
             </Nav>
             <Nav>
+            <Form.Select aria-label="Default select example" onChange={(evt) => props.setMode(evt.currentTarget.value)}>
+              <option selected={props.modeVal === "visitor"} value="visitor">Visitor</option>
+              <option selected={props.modeVal === "researcher"} value="researcher">Researcher</option>
+            </Form.Select>
               <Nav.Link as="div"><Link to={addMode("/about", props.modeVal)} className="text-secondary text-decoration-none">About</Link></Nav.Link>
               <Nav.Link as="div" eventKey={2}>
                 <a target="blank" href="/admin" className="text-secondary text-decoration-none">Admin</a>

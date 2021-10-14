@@ -28,6 +28,11 @@ export const useCaseMode = () => {
     }
   }
 
+  const setMode = (value: string) => {
+    window.location.search = `?mode=${value}`;
+  }
+
+
   // gatsby wouldn't run useffect 
   React.useEffect(() => {
     setModeVal(handleLoc());
@@ -35,6 +40,7 @@ export const useCaseMode = () => {
 
 
   return {
+    setMode,
     modeVal
   }
 
