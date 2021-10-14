@@ -4,12 +4,12 @@
  *
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
-
+ import 'bootstrap/dist/css/bootstrap.min.css';
  import React from "react"
  import Header from "../Header";
+ import {Container} from "react-bootstrap"
  import NavBar from "../Navbar";
- //import Footer from "./footer"
- import Box from "@material-ui/core/Box"
+ import Footer from "../Footer";
  
  interface Props {
    children?: any
@@ -20,17 +20,17 @@
      <React.Fragment>
        <Header />
        <NavBar/>
-       <Box
-         style={{
-           margin: `0 auto`,
-           maxWidth: 960,
-           minHeight:"60vh",
-           padding: `0 1.0875rem 1.45rem`,
-         }}
+       <Container
+        // style={{
+        //   margin: `0 auto`,
+        //   maxWidth: 960,
+        //   minHeight:"60vh",
+        //   padding: `0 1.0875rem 1.45rem`,
+        // }}
        >
-         {children}
-       </Box>
-       {/* <Footer /> */}
+        {children}
+       </Container>
+       <Footer />
      </React.Fragment>
    )
  }
