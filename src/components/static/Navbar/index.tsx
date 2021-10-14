@@ -51,6 +51,10 @@ const ReinNavbar: React.FC = () => {
     { displayText: "Admin", link: "/admin/#", external: true },
   ]
 
+  const navAStyle = {
+    color:""
+  }
+
   return (
     <React.Fragment>
       <Navbar collapseOnSelect expand="lg">
@@ -59,10 +63,10 @@ const ReinNavbar: React.FC = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as="div" href="#features"><Link to="/">Home</Link></Nav.Link>
-              <Nav.Link as="div" href="#pricing"><Link to="/content/news">News</Link></Nav.Link>
+              <Nav.Link as="div" href="#features"><Link className="text-secondary text-decoration-none" to="/">Home</Link></Nav.Link>
+              <Nav.Link as="div" href="#pricing"><Link to="/content/news" className="text-secondary text-decoration-none">News</Link></Nav.Link>
               <NavDropdown title="Content" id="collasible-nav-dropdown">
-                <NavDropdown.Item as="div" href="#action/3.1"><Link to="/content/training">Training</Link></NavDropdown.Item>
+                <NavDropdown.Item as="div" href="#action/3.1"><Link to="/content/training" className="text-secondary text-decoration-none">Training</Link></NavDropdown.Item>
                 <NavDropdown.Item as="div" href="#action/3.2">
                   Apps
                 </NavDropdown.Item>
@@ -82,9 +86,9 @@ const ReinNavbar: React.FC = () => {
               </NavDropdown>
             </Nav>
             <Nav>
-              <Nav.Link as="div" href="#deets"><Link to="/about">About</Link></Nav.Link>
-              <Nav.Link as="div" eventKey={2} href="#memes">
-                <a target="blank" href="/admin">Admin</a>
+              <Nav.Link as="div"><Link to="/about" className="text-secondary text-decoration-none">About</Link></Nav.Link>
+              <Nav.Link as="div" eventKey={2}>
+                <a target="blank" href="/admin" className="text-secondary text-decoration-none">Admin</a>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
