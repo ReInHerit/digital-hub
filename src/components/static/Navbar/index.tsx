@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap"
 
@@ -54,36 +55,36 @@ const ReinNavbar: React.FC = () => {
     <React.Fragment>
       <Navbar collapseOnSelect expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#home">ReInHerit</Navbar.Brand>
+          <Navbar.Brand href="#home" as="div"><Link to="/">ReInHerit</Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#features">Home</Nav.Link>
-              <Nav.Link href="#pricing">News</Nav.Link>
+              <Nav.Link as="div" href="#features"><Link to="/">Home</Link></Nav.Link>
+              <Nav.Link as="div" href="#pricing"><Link to="/content/news">News</Link></Nav.Link>
               <NavDropdown title="Content" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Training</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item as="div" href="#action/3.1"><Link to="/content/training">Training</Link></NavDropdown.Item>
+                <NavDropdown.Item as="div" href="#action/3.2">
                   Apps
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item as="div" href="#action/3.3">
                   Game(s)
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
+                <NavDropdown.Item as="div" href="#action/3.4">
                   Exhibtions
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">
+                <NavDropdown.Item as="div" href="#action/3.4">
                   Performance(s)
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">
+                <NavDropdown.Item as="div" href="#action/3.4">
                   E-shop(s)
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <Nav>
-              <Nav.Link href="#deets">More deets</Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
-                Admin
+              <Nav.Link as="div" href="#deets"><Link to="/about">About</Link></Nav.Link>
+              <Nav.Link as="div" eventKey={2} href="#memes">
+                <a target="blank" href="/admin">Admin</a>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
