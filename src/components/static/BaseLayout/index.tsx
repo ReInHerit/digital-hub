@@ -17,10 +17,9 @@ import { useReinMode } from "../../../hooks/useReinMode"
 
 interface Props {
   children?: any
-  mode?: ReinheritRESTMode
 }
 
-const BaseLayout = ({ children, mode = "visitor" }: Props) => {
+const BaseLayout = ({ children }: Props) => {
 
   const { modeVal, getModeColorClass } = useReinMode();
 
