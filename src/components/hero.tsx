@@ -15,7 +15,7 @@ const Hero = () => {
     <Row>
       <Col lg={6}>
         <h1>HORIZON 2020 ReInHerit</h1>
-        <h2><small>Redefining the future of cultural heritage, through a disruptive model of sustainability</small></h2>
+        <h2 className="fw-lighter text-secondary h5">Redefining the future of cultural heritage, through a disruptive model of sustainability</h2>
         <Button variant="primary">Join us!</Button>
       </Col>
       <Col lg={6}>
