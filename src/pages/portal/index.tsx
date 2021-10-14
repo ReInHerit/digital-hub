@@ -1,36 +1,18 @@
-import React from "react";
-import { useLocation } from '@reach/router';
+import React from "react"
+import { useCaseMode } from "../../hooks/useCaseMode"
+import BaseLayout from "../../components/static/BaseLayout"
 
 const PortalPage = () => {
+  const { modeVal } = useCaseMode();
 
-  // --> has to be solved via gatsby's graphql layer and not via reading out location?
-  // see https://www.gatsbyjs.com/docs/adding-pagination/
-  // see https://www.gatsbyjs.com/docs/adding-app-and-website-functionality/
-  const loc = useLocation();
-
-  const [modeVal, setModeVal] = React.useState(0);
-
-  // gatsby wouldn't run useffect 
-  React.useEffect(() => {
-    setModeVal(handleLoc());
-  }, []);
-
-  const handleLoc = () => {
-    if (typeof window === "undefined") return 1;
-    
-    let url = new URL(loc.href);
-  
-    console.log(url.searchParams.get("mode"));
-    let modeVal = parseInt(url.searchParams.get("mode"));
-    return modeVal;
-  }
-
- 
-
-  return <p style={{color: modeVal < 100 ? "red" : "green"}}>Portal page</p>
-
-  
-
+  return (
+    <BaseLayout>
+      <>
+        <p>{modeVal}</p>
+        <h1 style={{color: modeVal === "visitor" ? "green" : "red"}}>Portal</h1>
+      </>
+    </BaseLayout>
+  )
 }
 
-export default PortalPage;
+export default PortalPage
