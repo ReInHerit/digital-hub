@@ -39,22 +39,6 @@ const ReinNavbar: React.FC = () => {
 
   // https://reinherit.bla.eu/portal?mode=researcher -> https://reinherit.bla.eu/content/apps/1?mode=researcher
 
-  const navLinks: {
-    displayText: string
-    link: string
-    external?: boolean
-  }[] = [
-    { displayText: "Home", link: "/" },
-    { displayText: "Content", link: "/discord" },
-    { displayText: "News", link: "/services" },
-    { displayText: "About", link: "/about" },
-    { displayText: "Admin", link: "/admin/#", external: true },
-  ]
-
-  const navAStyle = {
-    color:""
-  }
-
   return (
     <React.Fragment>
       <Navbar collapseOnSelect expand="lg">
