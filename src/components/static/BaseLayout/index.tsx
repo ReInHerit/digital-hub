@@ -4,32 +4,34 @@
  *
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
- import 'bootstrap/dist/css/bootstrap.min.css';
- import '../../../styles/index.css';
- import React from "react"
- import Header from "../Header";
- import {Container} from "react-bootstrap"
- import NavBar from "../Navbar";
- import Footer from "../Footer";
- 
- interface Props {
-   children?: any
- }
- 
- const BaseLayout = ({ children }: Props) => {
-   return (
-     <React.Fragment>
-       <Header />
-       <NavBar/>
-       <Container
-       >
-        {children}
-       </Container>
-       <Footer />
-     </React.Fragment>
-   )
- }
- 
- 
- export default BaseLayout
- 
+import "bootstrap/dist/css/bootstrap.min.css"
+import "../../../styles/index.css"
+import React from "react"
+import Header from "../Header"
+import { Container } from "react-bootstrap"
+import ReinNavBar from "../Navbar"
+import Footer from "../Footer"
+import { ReinheritRESTMode } from "../../../types/reinherit"
+import { useCaseMode } from "../../../hooks/useCaseMode";
+import { useReinMode } from "../../../hooks/useReinMode"
+
+interface Props {
+  children?: any
+  mode?: ReinheritRESTMode
+}
+
+const BaseLayout = ({ children, mode = "visitor" }: Props) => {
+
+  const { modeVal, getModeColorClass } = useReinMode();
+
+  return (
+    <React.Fragment>
+      <Header />
+      <ReinNavBar navColor={getModeColorClass()} modeVal={modeVal} />
+      <Container>{children}</Container>
+      <Footer />
+    </React.Fragment>
+  )
+}
+
+export default BaseLayout

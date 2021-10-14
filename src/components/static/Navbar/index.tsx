@@ -2,7 +2,12 @@ import { Link } from "gatsby"
 import React from "react"
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap"
 
-const ReinNavbar: React.FC = () => {
+interface Props {
+  navColor: "primary" | "secondary",
+  modeVal: string
+}
+
+const ReinNavbar: React.FC<Props> = (props) => {
   // show navbar not on landing -> on landing only ask for the use-case
   // or ask on content page who you are / the other one is
 
@@ -39,18 +44,21 @@ const ReinNavbar: React.FC = () => {
 
   // https://reinherit.bla.eu/portal?mode=researcher -> https://reinherit.bla.eu/content/apps/1?mode=researcher
 
+
+  const addMode = (url: string, mode: string) => `${url}?mode=${mode}`;
+
   return (
     <React.Fragment>
-      <Navbar collapseOnSelect expand="lg">
+      <Navbar collapseOnSelect className={`border-${props.navColor} border-bottom border-3`} expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#home" as="div"><Link to="/">ReInHerit</Link></Navbar.Brand>
+          <Navbar.Brand href="#home" as="div"><Link to={addMode("/", props.modeVal)}>ReInHerit</Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as="div" href="#features"><Link className="text-secondary text-decoration-none" to="/">Home</Link></Nav.Link>
-              <Nav.Link as="div" href="#pricing"><Link to="/content/news" className="text-secondary text-decoration-none">News</Link></Nav.Link>
+              <Nav.Link as="div" href="#features"><Link className="text-secondary text-decoration-none" to={addMode("/", props.modeVal)}>Home</Link></Nav.Link>
+              <Nav.Link as="div" href="#pricing"><Link to={addMode("/content/news", props.modeVal)} className="text-secondary text-decoration-none">News</Link></Nav.Link>
               <NavDropdown title="Content" id="collasible-nav-dropdown">
-                <NavDropdown.Item as="div" href="#action/3.1"><Link to="/content/training" className="text-secondary text-decoration-none">Training</Link></NavDropdown.Item>
+                <NavDropdown.Item as="div" href="#action/3.1"><Link to={addMode("/content/training", props.modeVal)} className="text-secondary text-decoration-none">Training</Link></NavDropdown.Item>
                 <NavDropdown.Item as="div" href="#action/3.2">
                   Apps
                 </NavDropdown.Item>
@@ -70,7 +78,7 @@ const ReinNavbar: React.FC = () => {
               </NavDropdown>
             </Nav>
             <Nav>
-              <Nav.Link as="div"><Link to="/about" className="text-secondary text-decoration-none">About</Link></Nav.Link>
+              <Nav.Link as="div"><Link to={addMode("/about", props.modeVal)} className="text-secondary text-decoration-none">About</Link></Nav.Link>
               <Nav.Link as="div" eventKey={2}>
                 <a target="blank" href="/admin" className="text-secondary text-decoration-none">Admin</a>
               </Nav.Link>
