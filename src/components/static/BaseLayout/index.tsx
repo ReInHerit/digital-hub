@@ -5,6 +5,7 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
  import 'bootstrap/dist/css/bootstrap.min.css';
+ import '../../../styles/index.css';
  import React from "react"
  import Header from "../Header";
  import {Container} from "react-bootstrap"
