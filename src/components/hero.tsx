@@ -14,14 +14,16 @@ const Hero = () => {
     <br />
     <Row>
       <Col lg={6}>
+        <br />
+        <br />
         <h1>HORIZON 2020 ReInHerit</h1>
         <h2 className="fw-lighter text-secondary h5">Redefining the future of cultural heritage, through a disruptive model of sustainability</h2>
         <Button variant="primary">Join us!</Button>
       </Col>
       <Col lg={6}>
         <div style={{ width: "100%" }}>
-            <Image alt="Virtual Healthcare for you" filename="rein_logo.jpg" style={{maxWidth: "50%"}}/>
-            <Image alt="Virtual Healthcare for you" filename="rein_eu.png" style={{maxWidth: "50%"}}/>
+            <Image alt="Virtual Healthcare for you" filename="rein_logo.jpg" style={{maxWidth: "40%"}}/>
+            <Image alt="Virtual Healthcare for you" filename="rein_eu.png" style={{maxWidth: "40%"}}/>
           </div>
       </Col>
     </Row>
