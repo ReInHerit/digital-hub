@@ -4,7 +4,7 @@ import Typed from "react-typed"
 import { Col, Row, Button } from "react-bootstrap"
 
 
-const roles = ["on the development of a digital cultural heritage ecosystem, offering an open and collaborative space to experiment, share and innovate. ", "EU", "Team Player", "React JS", "Angular"];
+const roles = ["on the development of a digital cultural heritage ecosystem ", "EU", "Team Player", "React JS", "Angular"];
 const Hero = () => {
   return (
     <>
