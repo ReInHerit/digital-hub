@@ -3,4 +3,8 @@
   font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
 }
 
-
+@media (min-width: 1400px) {
+  .rein_main_container {
+    width: 55%;
+  }
+}

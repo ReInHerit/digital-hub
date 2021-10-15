@@ -37,7 +37,9 @@ const BaseLayout = ({ children }: Props) => {
         modeVal={modeVal}
         setMode={setMode}
       />
-      <Container>{children}</Container>
+      <Container
+        className="rein_main_container"
+      >{children}</Container>
       <Footer />
     </React.Fragment>
   )
