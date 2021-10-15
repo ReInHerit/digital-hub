@@ -1,5 +1,6 @@
 
 import React from "react";
+import NetlifyCMSAuth from "./NetlifyCMSAuth";
 
 /**
  * Component adds NetlifyCMSAdmin portal when rendered. 
@@ -7,7 +8,7 @@ import React from "react";
  */
 const NetlifyCMSAdmin = () => {
   return <>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <NetlifyCMSAuth/>
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script></>
 }
 
