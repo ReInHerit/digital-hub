@@ -17,7 +17,7 @@ const Landing = () => {
   return (
     <Row xs={1} md={2} lg={3} xl={4} className="g-4">
       <Col>
-        <Link to="/portal?mode=visitor" className="text-decoration-none">
+        <Link to="/portal?mode=visitor" className="text-decoration-none text-dark">
           <Card>
             <Card.Body>
               <Card.Title>Visitor</Card.Title>
@@ -31,7 +31,7 @@ const Landing = () => {
         </Link>
       </Col>
       <Col>
-        <Link to="/portal?mode=professional" className="text-decoration-none">
+        <Link to="/portal?mode=professional" className="text-decoration-none text-dark">
           <Card>
             <Card.Body>
               <Card.Title>CH-Professional</Card.Title>
@@ -44,7 +44,7 @@ const Landing = () => {
         </Link>
       </Col>
       <Col>
-        <Link to="/portal?mode=policy" className="text-decoration-none">
+        <Link to="/portal?mode=policy" className="text-decoration-none text-dark">
           <Card>
             <Card.Body>
               <Card.Title>Policy Maker</Card.Title>
@@ -57,7 +57,7 @@ const Landing = () => {
         </Link>
       </Col>
       <Col>
-        <Link to="/portal?mode=researcher" className="text-decoration-none">
+        <Link to="/portal?mode=researcher" className="text-decoration-none text-dark">
           <Card>
             <Card.Body>
               <Card.Title>Researcher</Card.Title>
