@@ -3,6 +3,7 @@ import SEO from "../components/seo"
 import Hero from "../components/hero"
 import BaseLayout from "../components/static/BaseLayout"
 import NetlifyCMSAuth from "../components/shared/NetlifyCMSAdmin/NetlifyCMSAuth"
+import Landing from "../components/static/Landing"
 
 const IndexPage = () => (
   <React.Fragment>
@@ -10,6 +11,7 @@ const IndexPage = () => (
       <BaseLayout>
         <SEO title="Home" />
           <Hero />
+          <Landing></Landing>
       </BaseLayout>
   </React.Fragment>
 )
