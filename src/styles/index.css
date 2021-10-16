@@ -8,3 +8,9 @@
     width: 55%;
   }
 }
+
+@media (min-width: 974px) {
+  .rein_main_container {
+    width: 75%;
+  }
+}
