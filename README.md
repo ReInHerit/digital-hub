@@ -69,6 +69,18 @@ gatsby develop
 
 - netlify is setup to deploy from the deploy-netlify branch.
   -> don't push against the branch via code / only pull request new code to branch.
+  -> building on the server will be __initiated by hand__ atm.
 
+```sh
+# netlify runs on the server -> runs 'gatsby build' -> deploys files 
+yarn build
+
+```
+
+#### Netlify CMS Auth
+
+- needed to be setup in netlify web interface
+  - allowing to access the linked github repository.
+  - for pushing the cms AND for building the gatsby deployment version.
 
 - check: identity + gatsby build procedures etc.
