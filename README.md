@@ -63,4 +63,12 @@ gatsby develop
 
 ### 2. Netlify
 
+- general workflow pattern:
+  -> develop in master (or other branches) -> pull request to netlify-deploy
+  -> releases will be handled in the future according to different milestones and semantic versioning.
+
+- netlify is setup to deploy from the deploy-netlify branch.
+  -> don't push against the branch via code / only pull request new code to branch.
+
+
 - check: identity + gatsby build procedures etc.
