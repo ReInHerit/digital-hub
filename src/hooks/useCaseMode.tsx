@@ -8,24 +8,15 @@ import { ReinheritRESTMode } from "../types/reinherit";
  * Hook that reads out given mode parameter and returns allowed values. Defaults to "visitor".
  * @returns current value of the mode parameter.
  */
-export const useCaseMode = () => {
+export const useModeParam = () => {
 
   const loc = useLocation();
-  const [modeVal, setModeVal] = React.useState<ReinheritRESTMode>("visitor");
+  const [modeVal, setModeVal] = React.useState("");
 
   const handleLoc = () => {
-  
     let url = new URL(loc.href);
     let modeVal = url.searchParams.get("mode");
-
-    switch(modeVal){
-      case "researcher":
-        return modeVal;
-      case "visitor":
-        return modeVal;
-      default:
-        return "visitor";
-    }
+    return modeVal;
   }
 
   const setMode = (value: string) => {

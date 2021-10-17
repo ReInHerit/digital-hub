@@ -12,7 +12,6 @@ import { Button, Container } from "react-bootstrap"
 import ReinNavBar from "../Navbar"
 import Footer from "../Footer"
 import { ReinheritRESTMode } from "../../../types/reinherit"
-import { useCaseMode } from "../../../hooks/useCaseMode"
 import { useReinMode } from "../../../hooks/useReinMode"
 
 // The following import prevents a Font Awesome icon server-side rendering bug,
@@ -20,20 +19,23 @@ import { useReinMode } from "../../../hooks/useReinMode"
 import '@fortawesome/fontawesome-svg-core/styles.css';
 // Prevent fontawesome from adding its CSS since we did it manually above:
 import { config } from '@fortawesome/fontawesome-svg-core';
+import { reinheritThemes } from "../../../data/reinheritThemes"
 config.autoAddCss = false; /* eslint-disable import/first */
 
 interface Props {
   children?: any
 }
 
+export const ThemeContext = React.createContext(reinheritThemes.VISITOR);
+
 const BaseLayout = ({ children }: Props) => {
-  const { modeVal, getModeColorClass, setMode } = useReinMode()
+  const { modeVal, setMode, theme } = useReinMode();
 
   return (
-    <React.Fragment>
+    <ThemeContext.Provider value={theme}>
       <Header />
       <ReinNavBar
-        navColor={getModeColorClass()}
+        navColor={theme.BS_COLOR_CLASS}
         modeVal={modeVal}
         setMode={setMode}
       />
@@ -41,7 +43,7 @@ const BaseLayout = ({ children }: Props) => {
         className="rein_main_container"
       >{children}</Container>
       <Footer />
-    </React.Fragment>
+    </ThemeContext.Provider>
   )
 }
 

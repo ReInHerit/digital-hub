@@ -3,7 +3,7 @@ import React from "react"
 import { Navbar, Container, Nav, NavDropdown, Form } from "react-bootstrap"
 
 interface Props {
-  navColor: "primary" | "secondary",
+  navColor: string,
   modeVal: string,
   setMode: (val: string) => void 
 }

@@ -1,21 +1,39 @@
-import { ReinheritRESTMode } from "../types/reinherit";
-import { useCaseMode } from "./useCaseMode"
-
+import { reinheritStatics } from "../data/reinheritStatics";
+import { ReinheritTheme, reinheritThemes } from "../data/reinheritThemes";
+import { ReinheritRESTMode, REINHERIT_PERSONS } from "../types/reinherit";
+import { useModeParam } from "./useCaseMode"
+import React from "react";
 
 export const useReinMode = () => {
 
-  const { modeVal, setMode } = useCaseMode();
+  const { modeVal, setMode } = useModeParam();
 
-  let modeBsColorMap = new Map<ReinheritRESTMode, "primary" | "secondary">();
-  modeBsColorMap.set("researcher", "primary");
-  modeBsColorMap.set("visitor", "secondary");
+  const [theme, setTheme] = React.useState(reinheritThemes.VISITOR);
 
+  const getTheme = () => {
+    let reinPersonTheme: null | ReinheritTheme = null;
+    Object.keys(REINHERIT_PERSONS).forEach((key) => {
+      if(modeVal === reinheritStatics[key].REST_MODE_VAL){
+        reinPersonTheme = reinheritThemes[key];
+      }
+    });
 
-  const getModeColorClass = () => modeBsColorMap.get(modeVal);
+    if(!reinPersonTheme){
+      console.warn(`No theme found for mode: ${modeVal}. Defaulting to visitor theme.`)
+      return reinheritThemes.VISITOR;
+    }
+
+    return reinPersonTheme; 
+  }
+
+  React.useEffect(() => {
+    if(!modeVal)return;
+    setTheme(getTheme());
+  }, [modeVal]);
 
   return {
     modeVal,
-    getModeColorClass,
+    theme,
     setMode
   }
 
