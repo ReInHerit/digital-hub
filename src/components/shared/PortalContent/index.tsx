@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
-import { ThemeContext } from "../../static/BaseLayout";
+import { useTheme } from "../../../hooks/contexts/useTheme";
 
 
 const PortalContent = () => {
 
-  const theme = useContext(ThemeContext);
+  const { theme } = useTheme();
 
-  return <h1 className={`bg-${theme.BS_COLOR_CLASS}`}>Portal page</h1>
+  return <h1 className={`bg-${theme.styles.BS_COLOR_CLASS}`}>Portal page</h1>
 
 }
 
