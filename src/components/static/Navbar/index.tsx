@@ -50,9 +50,9 @@ const ReinNavbar: React.FC = () => {
 
   return (
     <React.Fragment>
-      <Navbar collapseOnSelect className={`border-${theme.styles.BS_COLOR_CLASS} border-bottom border-3`} expand="lg">
+      <Navbar collapseOnSelect className={`bg-warning border-bottom box-shadow`} expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)}>ReInHerit</Link></Navbar.Brand>
+          <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none">ReInHerit</Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
