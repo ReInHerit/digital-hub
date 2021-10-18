@@ -17,7 +17,6 @@ const Landing = () => {
   //
 
   const assignFa = (userGroup: keyof REINHERIT_AUDIENCE) => {
-    console.log(userGroup);
       switch(userGroup){
         case "VISITOR":
           return faUsers
