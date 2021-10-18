@@ -14,13 +14,13 @@ export const useReinModeTheme = () => {
   const { modeVal, setMode } = useModeParam();
 
   const [theme, setTheme] = React.useState(reinheritThemes.VISITOR);
+  const [groupKey, setGroupKey] = React.useState<keyof REINHERIT_AUDIENCE>("VISITOR");
 
   /**
    * Returns the Reinherit theme according to given REST mode parameter.
    * @returns the related reinherit theme.
    */
-  const getTheme = () => {
-    let groupKey = validateToGroupKey(modeVal);
+  const getTheme = (groupKey: keyof REINHERIT_AUDIENCE) => {
     let relTheme = reinheritThemes[groupKey];
     return relTheme
   }
@@ -50,11 +50,14 @@ export const useReinModeTheme = () => {
 
   React.useEffect(() => {
     if(!modeVal)return;
-    setTheme(getTheme());
+    const grouKeyLoc = validateToGroupKey(modeVal);
+    setTheme(getTheme(grouKeyLoc));
+    setGroupKey(grouKeyLoc);
   }, [modeVal]);
 
   return {
     modeVal,
+    groupKey,
     theme,
     setMode
   }
