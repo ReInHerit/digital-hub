@@ -7,7 +7,7 @@ const PortalContent = () => {
 
   const { theme } = useReinTheme();
 
-  return <h1 className={`bg-${theme.styles.BS_COLOR_CLASS}`}>Portal page - {reinheritStatics[theme.groupKey].LABEL}</h1>
+  return <h1 className={`text-${theme.styles.BS_COLOR_CLASS}`}>Portal page - {reinheritStatics[theme.groupKey].LABEL}</h1>
 
 }
 
