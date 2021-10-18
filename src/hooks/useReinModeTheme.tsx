@@ -4,7 +4,12 @@ import { ReinheritRESTMode, REINHERIT_PERSONS } from "../types/reinherit";
 import { useModeParam } from "./useCaseMode"
 import React from "react";
 
-export const useReinMode = () => {
+/**
+ * Returns correct reinherit theme object according to specified mode REST-param.
+ * By default / unknown mode -> returns visitor theme and sets mode accordinlgy.
+ * @returns 
+ */
+export const useReinModeTheme = () => {
 
   const { modeVal, setMode } = useModeParam();
 
