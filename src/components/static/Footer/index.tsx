@@ -6,7 +6,7 @@ import { Col, Container, Row } from "react-bootstrap"
 
 const Footer: React.FC = () => {
   return (
-    <div className="border-1 border-top pt-2">
+    <div className="border-1 border-top pt-2 mt-lg-5">
       <Container>
         <Row>
           <Col lg={4}>
