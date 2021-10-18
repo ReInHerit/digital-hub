@@ -12,24 +12,26 @@ export type ReinheritThemes = {
 
 export const reinheritThemes: ReinheritThemes = (() => {
 
+  // add: #F2E205
+
   const VISITOR: ReinheritTheme = {
     BS_COLOR_CLASS: "primary",
-    MAIN_COLOR: "lightred"
+    MAIN_COLOR: "#F2CB05"
   }
 
   const RESEARCHER: ReinheritTheme = {
     BS_COLOR_CLASS: "secondary",
-    MAIN_COLOR: "lightblue"
+    MAIN_COLOR: "#D93D93"
   }
 
   const POLICY_MAKER: ReinheritTheme = {
     BS_COLOR_CLASS: "warning",
-    MAIN_COLOR: "lightgreen"
+    MAIN_COLOR: "#04B2D9"
   }
 
   const CH_PROFESSIONAL: ReinheritTheme = {
     BS_COLOR_CLASS: "light",
-    MAIN_COLOR: "orange"
+    MAIN_COLOR: "#8DBF41"
   }
 
   return {
