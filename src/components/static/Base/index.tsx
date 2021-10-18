@@ -10,8 +10,6 @@ import { config } from '@fortawesome/fontawesome-svg-core';
 import { useReinTheme } from "../../../hooks/contexts/useReinTheme";
 config.autoAddCss = false; /* eslint-disable import/first */
 
-export const ThemeContext = React.createContext(reinheritThemes.VISITOR);
-
 interface Props {
   children: JSX.Element | JSX.Element[]
 }

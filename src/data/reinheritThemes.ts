@@ -23,7 +23,7 @@ export const reinheritThemes: ReinheritThemes = (() => {
   }
 
   const POLICY_MAKER: ReinheritTheme = {
-    BS_COLOR_CLASS: "dark",
+    BS_COLOR_CLASS: "warning",
     MAIN_COLOR: "lightgreen"
   }
 

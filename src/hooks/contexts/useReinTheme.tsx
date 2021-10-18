@@ -1,11 +1,18 @@
 
 import React from "react";
 import { reinheritStatics } from "../../data/reinheritStatics";
-import { reinheritThemes } from "../../data/reinheritThemes";
-import { ReinheritRESTMode } from "../../types/reinherit";
+import { ReinheritTheme, reinheritThemes } from "../../data/reinheritThemes";
+import { ReinheritRESTMode, REINHERIT_AUDIENCE } from "../../types/reinherit";
 import { useReinModeTheme } from "../useReinModeTheme";
 
-const ReinheritThemeContext = React.createContext({mode: reinheritStatics.VISITOR.REST_MODE_VAL as string, styles: reinheritThemes.VISITOR, changeTheme: (val: string) => undefined});
+interface ReinheritThemeContextData {
+  changeTheme: (val: string) => void;
+  mode: string;
+  groupKey: keyof REINHERIT_AUDIENCE;
+  styles: ReinheritTheme;
+}
+
+const ReinheritThemeContext = React.createContext<undefined | ReinheritThemeContextData>(undefined);
 
 /**
  * Hook handling reading of mode REST-Param and mapping it to the related 
