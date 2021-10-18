@@ -12,6 +12,6 @@
 @media (min-width: 974px) {
   .rein_main_container {
     width: 75%;
-    min-height: 85vh;
+    min-height: 100vh;
   }
 }
