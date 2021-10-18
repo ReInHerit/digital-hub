@@ -3,11 +3,9 @@ import React from "react"
 import { Navbar, Container, Nav, NavDropdown, Form } from "react-bootstrap"
 import { useTheme } from "../../../hooks/contexts/useTheme"
 
-interface Props {
-  setMode: (val: string) => void 
-}
 
-const ReinNavbar: React.FC<Props> = (props) => {
+
+const ReinNavbar: React.FC = () => {
   // show navbar not on landing -> on landing only ask for the use-case
   // or ask on content page who you are / the other one is
 
@@ -80,7 +78,7 @@ const ReinNavbar: React.FC<Props> = (props) => {
               </NavDropdown>
             </Nav>
             <Nav>
-            <Form.Select aria-label="Default select example" onChange={(evt) => props.setMode(evt.currentTarget.value)}>
+            <Form.Select aria-label="Default select example" onChange={(evt) => theme.changeTheme(evt.currentTarget.value as any)}>
               <option selected={theme.mode === "visitor"} value="visitor">Visitor</option>
               <option selected={theme.mode === "researcher"} value="researcher">Researcher</option>
             </Form.Select>

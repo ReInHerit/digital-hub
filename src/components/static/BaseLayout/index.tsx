@@ -19,14 +19,10 @@ interface Props {
 }
 
 const BaseLayout = ({ children }: Props) => {
-  const { modeVal, setMode, theme } = useReinMode();
-
   return (
     <Base>
       <Header />
-      <ReinNavBar
-        setMode={setMode}
-      />
+      <ReinNavBar/>
       <Container
         className="rein_main_container"
       >{children}</Container>
