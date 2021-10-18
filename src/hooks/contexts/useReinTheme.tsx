@@ -3,7 +3,7 @@ import React from "react";
 import { reinheritStatics } from "../../data/reinheritStatics";
 import { reinheritThemes } from "../../data/reinheritThemes";
 import { ReinheritRESTMode } from "../../types/reinherit";
-import { useReinMode } from "../useReinModeTheme";
+import { useReinModeTheme } from "../useReinModeTheme";
 
 const ReinheritThemeContext = React.createContext({mode: reinheritStatics.VISITOR.REST_MODE_VAL, styles: reinheritThemes.VISITOR, changeTheme: (val: string) => undefined});
 
@@ -15,7 +15,7 @@ const ReinheritThemeContext = React.createContext({mode: reinheritStatics.VISITO
 export const useReinTheme = () => {
 
   // retrieves mode + active-theme
-  const rein = useReinMode();
+  const rein = useReinModeTheme();
 
   /**
    * Handles changing of reinherit modes dependent on REST parameter.
