@@ -16,7 +16,7 @@ const PortalContent = () => {
         <Breadcrumb.Item><Link to={`/?mode=${theme.mode}`}>Home</Link></Breadcrumb.Item>
         <Breadcrumb.Item>{ reinheritStatics[theme.groupKey].LABEL} Portal</Breadcrumb.Item>
       </Breadcrumb>
-      <h1 className={`text-${theme.styles.BS_COLOR_CLASS}`}>{reinheritStatics[theme.groupKey].LABEL}</h1>
+      <h1 style={{color: theme.styles.MAIN_COLOR}}>{reinheritStatics[theme.groupKey].LABEL}</h1>
 
       <Row xs={1} md={2} lg={3} xl={3} className="g-5">
       {theme.groupKey === "VISITOR" ? [1,2,3,4,5,6].map((val, i) => <Col key={"col_" + i}>
