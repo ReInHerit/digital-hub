@@ -12,7 +12,7 @@ const ReinheritThemeContext = React.createContext({mode: reinheritStatics.VISITO
  * theme in Reinherit.
  * @returns context specific provider hook and context itself. Additionally variables to enable usage of the hook.
  */
-export const useTheme = () => {
+export const useReinTheme = () => {
 
   // retrieves mode + active-theme
   const rein = useReinMode();

@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import { Navbar, Container, Nav, NavDropdown, Form } from "react-bootstrap"
-import { useTheme } from "../../../hooks/contexts/useTheme"
+import { useReinTheme } from "../../../hooks/contexts/useReinTheme"
 
 
 
@@ -43,7 +43,7 @@ const ReinNavbar: React.FC = () => {
   // https://reinherit.bla.eu/portal?mode=researcher -> https://reinherit.bla.eu/content/apps/1?mode=researcher
 
 
-  const { theme } = useTheme();
+  const { theme } = useReinTheme();
 
   const addMode = (url: string, mode: string) => `${url}?mode=${mode}`;
 

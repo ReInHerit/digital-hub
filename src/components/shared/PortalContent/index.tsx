@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
-import { useTheme } from "../../../hooks/contexts/useTheme";
+import { useReinTheme } from "../../../hooks/contexts/useReinTheme";
 
 
 const PortalContent = () => {
 
-  const { theme } = useTheme();
+  const { theme } = useReinTheme();
 
   return <h1 className={`bg-${theme.styles.BS_COLOR_CLASS}`}>Portal page</h1>
 

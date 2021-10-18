@@ -7,7 +7,7 @@ import { reinheritThemes } from "../../../data/reinheritThemes";
 import '@fortawesome/fontawesome-svg-core/styles.css';
 // Prevent fontawesome from adding its CSS since we did it manually above:
 import { config } from '@fortawesome/fontawesome-svg-core';
-import { useTheme } from "../../../hooks/contexts/useTheme";
+import { useReinTheme } from "../../../hooks/contexts/useReinTheme";
 config.autoAddCss = false; /* eslint-disable import/first */
 
 export const ThemeContext = React.createContext(reinheritThemes.VISITOR);
@@ -21,7 +21,7 @@ interface Props {
  */
 const Base: React.FC<Props> = (props) => {
 
-  const { ReinheritThemeProvider } = useTheme();
+  const { ReinheritThemeProvider } = useReinTheme();
   return <ReinheritThemeProvider>{props.children}</ReinheritThemeProvider>
 }
 
