@@ -1,6 +1,6 @@
 import { reinheritStatics } from "../data/reinheritStatics";
 import { ReinheritTheme, reinheritThemes } from "../data/reinheritThemes";
-import { ReinheritRESTMode, REINHERIT_PERSONS } from "../types/reinherit";
+import { ReinheritRESTMode, REINHERIT_AUDIENCE, REINHERIT_PERSONS } from "../types/reinherit";
 import { useModeParam } from "./useModeParam"
 import React from "react";
 
@@ -20,19 +20,32 @@ export const useReinModeTheme = () => {
    * @returns the related reinherit theme.
    */
   const getTheme = () => {
-    let reinPersonTheme: null | ReinheritTheme = null;
-    Object.keys(REINHERIT_PERSONS).forEach((key) => {
-      if(modeVal === reinheritStatics[key].REST_MODE_VAL){
-        reinPersonTheme = reinheritThemes[key];
+    let groupKey = validateToGroupKey(modeVal);
+    let relTheme = reinheritThemes[groupKey];
+    return relTheme
+  }
+
+  /**
+   * Takes in a string. Return related Reinherit audience key.
+   * @param restModeValue 
+   * @returns key of related reinherit audience. default to visitor.
+   */
+  const validateToGroupKey = (restModeValue: string): keyof REINHERIT_AUDIENCE => {
+
+    let reinPersonKey: null | keyof REINHERIT_AUDIENCE = null;
+    Object.keys(REINHERIT_PERSONS).some((key) => {
+      if(restModeValue === reinheritStatics[key].REST_MODE_VAL){
+        reinPersonKey = key as keyof REINHERIT_AUDIENCE;
+        return true;
       }
     });
 
-    if(!reinPersonTheme){
+    if(!reinPersonKey){
       console.warn(`No theme found for mode: ${modeVal}. Defaulting to visitor theme.`)
-      return reinheritThemes.VISITOR;
+      return "VISITOR";
     }
 
-    return reinPersonTheme; 
+    return reinPersonKey; 
   }
 
   React.useEffect(() => {
