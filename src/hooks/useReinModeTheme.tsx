@@ -6,7 +6,7 @@ import React from "react";
 
 /**
  * Returns correct reinherit theme object according to specified mode REST-param.
- * By default / unknown mode -> returns visitor theme and sets mode accordinlgy.
+ * By default / unknown mode -> returns visitor theme.
  * @returns 
  */
 export const useReinModeTheme = () => {
