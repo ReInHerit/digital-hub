@@ -23,7 +23,7 @@ const BaseLayout = ({ children }: Props) => {
       <Header />
       <ReinNavBar/>
       <Container
-        className="rein_main_container"
+        className="rein_main_container mt-md-5"
       >{children}</Container>
       <Footer />
     </Base>

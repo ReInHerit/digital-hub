@@ -8,10 +8,6 @@ const roles = ["digital cultural heritage ecosystem ", "EU", "Team Player", "Rea
 const Hero = () => {
   return (
     <>
-    <br />
-    <br />
-    <br />
-    <br />
     <Row>
       <Col lg={6}>
         <br />
