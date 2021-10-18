@@ -1,7 +1,7 @@
 import { reinheritStatics } from "../data/reinheritStatics";
 import { ReinheritTheme, reinheritThemes } from "../data/reinheritThemes";
 import { ReinheritRESTMode, REINHERIT_PERSONS } from "../types/reinherit";
-import { useModeParam } from "./useCaseMode"
+import { useModeParam } from "./useModeParam"
 import React from "react";
 
 /**

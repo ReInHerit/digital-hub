@@ -5,7 +5,7 @@ import { ReinheritRESTMode } from "../types/reinherit";
 
 
 /**
- * Hook that reads out given mode parameter and returns allowed values. Defaults to "visitor".
+ * Hook that reads out given mode parameter and returns it.
  * @returns current value of the mode parameter.
  */
 export const useModeParam = () => {
