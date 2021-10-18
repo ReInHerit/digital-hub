@@ -11,7 +11,7 @@ import Header from "../Header"
 import { Container } from "react-bootstrap"
 import ReinNavBar from "../Navbar"
 import Footer from "../Footer"
-import { useReinMode } from "../../../hooks/useReinMode"
+import { useReinMode } from "../../../hooks/useReinModeTheme"
 import Base from "../Base"
 
 interface Props {

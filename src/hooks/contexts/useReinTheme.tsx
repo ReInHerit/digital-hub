@@ -3,7 +3,7 @@ import React from "react";
 import { reinheritStatics } from "../../data/reinheritStatics";
 import { reinheritThemes } from "../../data/reinheritThemes";
 import { ReinheritRESTMode } from "../../types/reinherit";
-import { useReinMode } from "../useReinMode";
+import { useReinMode } from "../useReinModeTheme";
 
 const ReinheritThemeContext = React.createContext({mode: reinheritStatics.VISITOR.REST_MODE_VAL, styles: reinheritThemes.VISITOR, changeTheme: (val: string) => undefined});
 
