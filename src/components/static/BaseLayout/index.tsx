@@ -25,8 +25,6 @@ const BaseLayout = ({ children }: Props) => {
     <Base>
       <Header />
       <ReinNavBar
-        navColor={theme.BS_COLOR_CLASS}
-        modeVal={modeVal}
         setMode={setMode}
       />
       <Container

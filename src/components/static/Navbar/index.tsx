@@ -1,10 +1,9 @@
 import { Link } from "gatsby"
 import React from "react"
 import { Navbar, Container, Nav, NavDropdown, Form } from "react-bootstrap"
+import { useTheme } from "../../../hooks/contexts/useTheme"
 
 interface Props {
-  navColor: string,
-  modeVal: string,
   setMode: (val: string) => void 
 }
 
@@ -46,20 +45,22 @@ const ReinNavbar: React.FC<Props> = (props) => {
   // https://reinherit.bla.eu/portal?mode=researcher -> https://reinherit.bla.eu/content/apps/1?mode=researcher
 
 
+  const { theme } = useTheme();
+
   const addMode = (url: string, mode: string) => `${url}?mode=${mode}`;
 
   return (
     <React.Fragment>
-      <Navbar collapseOnSelect className={`border-${props.navColor} border-bottom border-3`} expand="lg">
+      <Navbar collapseOnSelect className={`border-${theme.styles.BS_COLOR_CLASS} border-bottom border-3`} expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#home" as="div"><Link to={addMode("/", props.modeVal)}>ReInHerit</Link></Navbar.Brand>
+          <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)}>ReInHerit</Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as="div" href="#features"><Link className="text-secondary text-decoration-none" to={addMode("/", props.modeVal)}>Home</Link></Nav.Link>
-              <Nav.Link as="div" href="#pricing"><Link to={addMode("/content/news", props.modeVal)} className="text-secondary text-decoration-none">News</Link></Nav.Link>
+              <Nav.Link as="div" href="#features"><Link className="text-secondary text-decoration-none" to={addMode("/", theme.mode)}>Home</Link></Nav.Link>
+              <Nav.Link as="div" href="#pricing"><Link to={addMode("/content/news", theme.mode)} className="text-secondary text-decoration-none">News</Link></Nav.Link>
               <NavDropdown title="Content" id="collasible-nav-dropdown">
-                <NavDropdown.Item as="div" href="#action/3.1"><Link to={addMode("/content/training", props.modeVal)} className="text-secondary text-decoration-none">Training</Link></NavDropdown.Item>
+                <NavDropdown.Item as="div" href="#action/3.1"><Link to={addMode("/content/training", theme.mode)} className="text-secondary text-decoration-none">Training</Link></NavDropdown.Item>
                 <NavDropdown.Item as="div" href="#action/3.2">
                   Apps
                 </NavDropdown.Item>
@@ -80,10 +81,10 @@ const ReinNavbar: React.FC<Props> = (props) => {
             </Nav>
             <Nav>
             <Form.Select aria-label="Default select example" onChange={(evt) => props.setMode(evt.currentTarget.value)}>
-              <option selected={props.modeVal === "visitor"} value="visitor">Visitor</option>
-              <option selected={props.modeVal === "researcher"} value="researcher">Researcher</option>
+              <option selected={theme.mode === "visitor"} value="visitor">Visitor</option>
+              <option selected={theme.mode === "researcher"} value="researcher">Researcher</option>
             </Form.Select>
-              <Nav.Link as="div"><Link to={addMode("/about", props.modeVal)} className="text-secondary text-decoration-none">About</Link></Nav.Link>
+              <Nav.Link as="div"><Link to={addMode("/about", theme.mode)} className="text-secondary text-decoration-none">About</Link></Nav.Link>
               <Nav.Link as="div" eventKey={2}>
                 <a target="blank" href="/admin" className="text-secondary text-decoration-none">Admin</a>
               </Nav.Link>
