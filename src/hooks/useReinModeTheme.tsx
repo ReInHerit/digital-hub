@@ -15,6 +15,10 @@ export const useReinModeTheme = () => {
 
   const [theme, setTheme] = React.useState(reinheritThemes.VISITOR);
 
+  /**
+   * Returns the Reinherit theme according to given REST mode parameter.
+   * @returns the related reinherit theme.
+   */
   const getTheme = () => {
     let reinPersonTheme: null | ReinheritTheme = null;
     Object.keys(REINHERIT_PERSONS).forEach((key) => {
