@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import { Navbar, Container, Nav, NavDropdown, Form } from "react-bootstrap"
+import { reinheritStatics } from "../../../data/reinheritStatics"
 import { useReinTheme } from "../../../hooks/contexts/useReinTheme"
 
 
@@ -79,8 +80,7 @@ const ReinNavbar: React.FC = () => {
             </Nav>
             <Nav>
             <Form.Select aria-label="Default select example" onChange={(evt) => theme.changeTheme(evt.currentTarget.value as any)}>
-              <option selected={theme.mode === "visitor"} value="visitor">Visitor</option>
-              <option selected={theme.mode === "researcher"} value="researcher">Researcher</option>
+              {Object.entries(reinheritStatics).map(([key, propVal]) => <option key={`restmode_select_${propVal.REST_MODE_VAL}`} selected={theme.mode === propVal.REST_MODE_VAL} value={propVal.REST_MODE_VAL}>{propVal.LABEL}</option>)}
             </Form.Select>
               <Nav.Link as="div"><Link to={addMode("/about", theme.mode)} className="text-secondary text-decoration-none">About</Link></Nav.Link>
               <Nav.Link as="div" eventKey={2}>
