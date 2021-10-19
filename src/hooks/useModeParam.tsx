@@ -22,7 +22,7 @@ export const useModeParam = () => {
 
   const setMode = (value: string) => {
     // using gatsby to update modeval
-    navigate(`${window.location.origin}${window.location.pathname}?mode=${value}`)
+    navigate(`${window.location.pathname}?mode=${value}`)
   }
 
 
