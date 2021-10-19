@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "DigitalHub Demo",
+    title: "Reinherit Digital-Hub",
     description: "coming soon",
     author: "Sebastian Stoff"
   },
