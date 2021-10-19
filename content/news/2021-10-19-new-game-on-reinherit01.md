@@ -5,6 +5,8 @@ title: New game on Reinherit01
 date: 2021-10-19T11:03:50.059Z
 target-audience:
   - VISITOR
+  - POLICY_MAKER
+  - CH_PROFESSIONAL
 ---
 ## Test yourself
 
