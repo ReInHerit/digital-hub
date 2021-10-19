@@ -22,10 +22,10 @@ const NewsFeed: React.FC = () => {
    */
   const handleBadgeMode = (groupKey: string) => {
 
+    const isBrowser = () => typeof window !== "undefined"
     // needs to be done to solve SSR rendering errors for gatsby.
-    if(!window)return; 
-    if(typeof window !== "undefined"){
-      return `${window.location.pathname}?mode=${reinheritStatics[groupKey].REST_MODE_VAL}`
+    if(isBrowser()){
+      return `${location.pathname}?mode=${reinheritStatics[groupKey].REST_MODE_VAL}`
     } else {
       return ""
     }
