@@ -2,6 +2,9 @@
 layout: blog
 title: New game on reinherit!
 date: 2021-10-19T06:19:09.772Z
+target-audience:
+  - POLICY_MAKER
+  - VISITOR
 ---
 ## Test yourself 
 
