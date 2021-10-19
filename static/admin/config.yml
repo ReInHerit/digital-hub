@@ -25,15 +25,18 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["RESEARCHER", "VISITOR", "POLICY_MAKER", "CH_PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "events"
-    label: "Events"
-    folder: "content/events"
+  - name: "training"
+    label: "Training material"
+    folder: "content/training"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - { label: "Type", name: "type", widget: "hidden", default: "training" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      # - { label: "Code", name: "code", widget: "code" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["RESEARCHER", "VISITOR", "POLICY_MAKER", "CH_PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: false }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "code"
     label: "Code-snippets"
     folder: "content/code"
