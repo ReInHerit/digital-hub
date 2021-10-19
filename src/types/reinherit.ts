@@ -19,3 +19,13 @@ export enum ReinheritModeClassMap {
   visitor = "primary",
   researcher = "secondary"
 }
+
+export enum REINHERIT_CONTENT_TYPE {
+  NEWS = "news",
+  TRAINING = "training",
+  APPS = "app",
+  GAME = "game",
+  EXHIBITION = "exhibition",
+  PERFORMANCE = "performance",
+  SHOP = "shop"
+}

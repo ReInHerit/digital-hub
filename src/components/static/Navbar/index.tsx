@@ -50,16 +50,16 @@ const ReinNavbar: React.FC = () => {
 
   return (
     <React.Fragment>
-      <Navbar collapseOnSelect style={{background: theme.styles.MAIN_COLOR}} className={`shadow`} expand="lg">
+      <Navbar collapseOnSelect style={{background: theme.styles.MAIN_COLOR}} expand="lg">
         <Container fluid>
           <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none">ReInHerit</Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as="div" href="#features"><Link className="text-secondary text-decoration-none" to={addMode("/", theme.mode)}>Home</Link></Nav.Link>
-              <Nav.Link as="div" href="#pricing"><Link to={addMode("/content/news", theme.mode)} className="text-secondary text-decoration-none">News</Link></Nav.Link>
+              <Nav.Link as="div"><Link className="text-dark text-decoration-none" to={addMode("/", theme.mode)}>Home</Link></Nav.Link>
+              <Nav.Link as="div"><Link to={addMode("/content/news", theme.mode)} className="text-dark text-decoration-none">News</Link></Nav.Link>
               <NavDropdown title="Content" id="collasible-nav-dropdown">
-                <NavDropdown.Item as="div" href="#action/3.1"><Link to={addMode("/content/training", theme.mode)} className="text-secondary text-decoration-none">Training</Link></NavDropdown.Item>
+                <NavDropdown.Item as="div" href="#action/3.1"><Link to={addMode("/content/training", theme.mode)} className="text-dark text-decoration-none">Training</Link></NavDropdown.Item>
                 <NavDropdown.Item as="div" href="#action/3.2">
                   Apps
                 </NavDropdown.Item>
@@ -82,9 +82,9 @@ const ReinNavbar: React.FC = () => {
             <Form.Select aria-label="Default select example" onChange={(evt) => theme.changeTheme(evt.currentTarget.value as any)}>
               {Object.entries(reinheritStatics).map(([key, propVal]) => <option key={`restmode_select_${propVal.REST_MODE_VAL}`} selected={theme.mode === propVal.REST_MODE_VAL} value={propVal.REST_MODE_VAL}>{propVal.LABEL}</option>)}
             </Form.Select>
-              <Nav.Link as="div"><Link to={addMode("/about", theme.mode)} className="text-secondary text-decoration-none">About</Link></Nav.Link>
+              <Nav.Link as="div"><Link to={addMode("/about", theme.mode)} className="text-dark text-decoration-none">About</Link></Nav.Link>
               <Nav.Link as="div" eventKey={2}>
-                <a target="blank" href="/admin" className="text-secondary text-decoration-none">Admin</a>
+                <a target="blank" href="/admin" className="text-dark text-decoration-none">Admin</a>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
