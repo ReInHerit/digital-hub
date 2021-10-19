@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "DigitalHub Demo",
+    title: "Reinherit Digital-Hub",
     description: "coming soon",
     author: "Sebastian Stoff"
   },
@@ -21,6 +21,14 @@ module.exports = {
         jsxPragma: `jsx`, // defaults to "React"
         allExtensions: true, // defaults to false
       },
-    }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/content/news`,
+      },
+    },
+    `gatsby-transformer-remark`
   ]
 }

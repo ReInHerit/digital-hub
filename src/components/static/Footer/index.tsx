@@ -1,0 +1,41 @@
+import { faFacebook, faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Link } from "gatsby"
+import React from "react"
+import { Col, Container, Row } from "react-bootstrap"
+
+const Footer: React.FC = () => {
+  return (
+    <div className="border-1 border-top pt-2 mt-lg-5">
+      <Container>
+        <Row>
+          <Col lg={4}>
+            <ul style={{listStyle: "none"}}>
+              <li className="mb-lg-5">
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/dataprot">Data protection</Link>
+              </li>
+              <li>
+                <Link to="/imprint">Imprint</Link>
+              </li>
+            </ul>
+          </Col>
+          <Col lg={4}>
+              <p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101004545” </p>
+          </Col>
+          <Col>
+            <p>Follow us on: </p>
+            <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon> 
+            <FontAwesomeIcon className="ms-1" icon={faLinkedin}></FontAwesomeIcon> 
+            <FontAwesomeIcon className="ms-1" icon={faInstagram}></FontAwesomeIcon> 
+            <FontAwesomeIcon className="ms-1" icon={faFacebook}></FontAwesomeIcon> 
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  )
+}
+
+export default Footer

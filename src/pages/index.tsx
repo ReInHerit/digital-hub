@@ -1,30 +1,18 @@
 import React from "react"
-
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/hero"
-import Services from "../components/services"
-import AboutPanel from "../components/about-panel"
-import Testimonials from "../components/testimonials"
-import Articles from "../components/articles"
-import ThemeProvider from "@material-ui/styles/ThemeProvider"
-import theme from "../theme"
-import AppsPanel from "../components/apps-panel"
+import BaseLayout from "../components/static/BaseLayout"
+import NetlifyCMSAuth from "../components/shared/NetlifyCMSAdmin/NetlifyCMSAuth"
+import Landing from "../components/static/Landing"
 
 const IndexPage = () => (
   <React.Fragment>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <ThemeProvider theme={theme}>
-      <Layout>
+      <NetlifyCMSAuth/>
+      <BaseLayout>
         <SEO title="Home" />
-        <Hero />
-        <Services />
-        <AboutPanel />
-        <AppsPanel />
-        {/* <Testimonials /> */}
-        <Articles />
-      </Layout>
-    </ThemeProvider>
+          <Hero />
+          <Landing></Landing>
+      </BaseLayout>
   </React.Fragment>
 )
 
