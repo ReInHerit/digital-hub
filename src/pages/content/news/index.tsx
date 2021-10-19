@@ -1,10 +1,33 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import NewsFeed from "../../../components/shared/NewsFeed";
 import BaseLayout from "../../../components/static/BaseLayout";
 
 
-const NewsPage = () => {
+const NewsPage: React.FC = () => {
 
-  return <BaseLayout>News page</BaseLayout>
+  return (
+    <BaseLayout>
+      <Row>
+        <Col lg={7}>
+        <h1>News</h1>
+          <NewsFeed/>
+        </Col>
+        <Col lg={2} md={0}></Col>
+        <Col>
+          <Container className="shadow p-4">
+            <h2 className="h5">Stuff happening somewhere else</h2>
+            <p>Social media</p>
+          </Container>
+          <br />
+          <Container className="shadow p-4">
+            <h2 className="h5">Got to XYZ</h2>
+            <p>Social media</p>
+          </Container>
+        </Col>
+      </Row>
+    </BaseLayout>
+  )
 
 }
 
