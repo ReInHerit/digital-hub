@@ -32,7 +32,7 @@ const NewsFeed: React.FC = () => {
 
   return (
     <>
-      <p>You are currently seeing news available for: {reinheritStatics[theme.groupKey].LABEL}</p>
+      <p>You are currently seeing news available for: <b>{reinheritStatics[theme.groupKey].LABEL}</b></p>
       {data.allMarkdownRemark.edges.map(edge => {
         if(!edge.node.frontmatter.target_audience.includes(theme.groupKey))return null;
         return (
