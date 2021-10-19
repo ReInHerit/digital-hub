@@ -1,7 +1,13 @@
 
 # ReInHerit - Digital Hub
 
-## Installation Requirements
+## Prototype page on netlify
+
+- https://distracted-torvalds-d96327.netlify.app/
+
+## Dev setup
+
+### 0a. Installation Requirements
 
 - git
 - node LTS 14
@@ -9,8 +15,7 @@
 - gatsby-cli
 - yarn (not necessary if using npm -- but still recommended)
 
-
-## "Conceptual" requirements 
+### 0b. "Conceptual" requirements 
 
 - git workflow
 - js basics
@@ -19,8 +24,6 @@
 - ssr: gatsby
 - typescript basics
 
-
-## Dev setup
 
 ### 1. Start netlify-cms local backend
 
@@ -53,6 +56,9 @@ gatsby develop
 
 
 ## Deployment
+
+- link to pre-released digi-hub page here -> https://distracted-torvalds-d96327.netlify.app/
+
 
 ### 1. Manual preperations
 
@@ -89,3 +95,8 @@ yarn build
 
 - check: identity + gatsby build procedures etc.
   -> implementation details here: https://github.com/ReInHerit/digital-hub/issues/9
+
+
+## Production
+
+COMING_SOON
