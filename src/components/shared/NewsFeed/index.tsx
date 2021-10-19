@@ -1,6 +1,8 @@
-import { graphql, useStaticQuery } from "gatsby"
+import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
-import { Container } from "react-bootstrap"
+import { Badge, Container } from "react-bootstrap"
+import { reinheritStatics } from "../../../data/reinheritStatics";
+import { reinheritThemes } from "../../../data/reinheritThemes";
 import { useReinTheme } from "../../../hooks/contexts/useReinTheme";
 
 /**
@@ -13,8 +15,24 @@ const NewsFeed: React.FC = () => {
   // used to display data conditionally to target audience
   const { theme } = useReinTheme();
 
+  /**
+   * Calculates gatsby routes to be sent via clicking on a badge in the news cards.
+   * @param groupKey 
+   * @returns 
+   */
+  const handleBadgeMode = (groupKey: string) => {
+
+    // needs to be done to solve SSR rendering errors for gatsby. 
+    if(typeof window !== undefined){
+      return `${window.location.pathname}?mode=${reinheritStatics[groupKey].REST_MODE_VAL}`
+    } else {
+      return ""
+    }
+  }
+
   return (
     <>
+      <p>You are currently seeing news available for: {reinheritStatics[theme.groupKey].LABEL}</p>
       {data.allMarkdownRemark.edges.map(edge => {
         if(!edge.node.frontmatter.target_audience.includes(theme.groupKey))return null;
         return (
@@ -22,6 +40,8 @@ const NewsFeed: React.FC = () => {
         <h2 className="h6"><small>{edge.node.frontmatter.title}</small></h2>
         <Container className="shadow p-4 mb-4">
           <div dangerouslySetInnerHTML={{__html: edge.node.html}}></div>
+          {edge.node.frontmatter.target_audience.map(audience => <Link className="text-decoration-none" to={handleBadgeMode(audience)}><Badge bg="none"  className="m-1" style={{background: reinheritThemes[audience].MAIN_COLOR}}>{reinheritStatics[audience].LABEL}</Badge></Link>)}
+          
         </Container>
         </>
       )})}
