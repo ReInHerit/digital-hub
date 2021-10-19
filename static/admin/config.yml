@@ -11,11 +11,11 @@ media_folder: "images/uploads"
 
 # collections config see here: https://www.netlifycms.org/docs/widgets/#object
 collections:
-  - name: "blog"
+  - name: "news"
     label: "News"             # Used in the UI
-    label_singular: 'Message' # Used in the UI, ie: "New Post"
-    folder: "content/blog"
-    description: Here you may provide all your blog posts etc... Make sure that you have ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+    label_singular: 'message' # Used in the UI, ie: "New Post"
+    folder: "content/news"
+    description: Here you may provide all your news posts etc... Make sure that you have ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
     create: true              # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
