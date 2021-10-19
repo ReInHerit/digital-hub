@@ -53,7 +53,7 @@ export default NewsFeed
 
 const NEWS_QUERY = graphql`
   query NewsQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(filter: {frontmatter: {type: {eq: "news"}}}) {
       edges {
         node {
           html
@@ -61,12 +61,12 @@ const NEWS_QUERY = graphql`
             title
             date(fromNow: true)
             target_audience
+            layout
           }
         }
       }
     }
   }
-
 `
 
 declare module NewsQueryData {
