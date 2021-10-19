@@ -2,6 +2,7 @@
 import React from "react";
 import { useLocation } from '@reach/router';
 import { ReinheritRESTMode } from "../types/reinherit";
+import { navigate } from "gatsby";
 
 
 /**
@@ -20,14 +21,15 @@ export const useModeParam = () => {
   }
 
   const setMode = (value: string) => {
-    window.location.search = `?mode=${value}`;
+    // using gatsby to update modeval
+    navigate(`${window.location.origin}${window.location.pathname}?mode=${value}`)
   }
 
 
   // gatsby wouldn't run useffect 
   React.useEffect(() => {
     setModeVal(handleLoc());
-  }, []);
+  }, [loc]);
 
 
   return {
