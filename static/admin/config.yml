@@ -3,6 +3,7 @@ backend:
   branch: main
 local_backend: true             # true if accessed local dev instance of netlify cms port 8081 | How tu run a local dev server: https://www.netlifycms.org/docs/beta-features/
 media_folder: "images/uploads"
+search: false   # disables search for collections -> hidden collections could be found with other config!
 
 # for open authoring / kanban view for moderation processes
 # warning -> still in beta!
