@@ -8,6 +8,7 @@ const TrainingFeed: React.FC = () => {
   return (
     <>
       <h2 className="h4">Training Feed</h2>
+      <a href="/admin/#/collections/training" target="_blank">Add Training material here</a>
       {data.allMarkdownRemark.edges.map(edge => (
         <Container className="p-3 shadow">
           <p>{edge.node.frontmatter.title}</p>
