@@ -4,6 +4,7 @@ backend:
 local_backend: true             # true if accessed local dev instance of netlify cms port 8081 | How tu run a local dev server: https://www.netlifycms.org/docs/beta-features/
 media_folder: "images/uploads"
 search: false   # disables search for collections -> hidden collections could be found with other config!
+logo_url: /images/rein_logo.jpg   # setting a custom logo used by the CMS. Displayed ad login screen.
 
 # for open authoring / kanban view for moderation processes
 # warning -> still in beta!
