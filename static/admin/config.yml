@@ -27,6 +27,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "training"
     label: "Training material"
+    hide: true                # hides specific collection -> still available if you have the link!
     folder: "content/training"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -48,6 +49,7 @@ collections:
       - { label: "Code", name: "code", widget: "code" }
   - name: "exhibitions"
     label: "Digital exhibitions"
+    hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/exhibitions"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
