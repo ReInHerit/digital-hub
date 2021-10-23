@@ -7,7 +7,7 @@ import Landing from "../components/static/Landing"
 
 const IndexPage = () => (
   <React.Fragment>
-      <NetlifyCMSAuth/>
+      {/*<NetlifyCMSAuth/>*/}
       <BaseLayout>
         <SEO title="Home" />
           <Hero />
