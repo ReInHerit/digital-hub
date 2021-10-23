@@ -2,7 +2,7 @@ import React from "react"
 import SEO from "../components/seo"
 import Hero from "../components/hero"
 import BaseLayout from "../components/static/BaseLayout"
-import NetlifyCMSAuth from "../components/shared/NetlifyCMSAdmin/NetlifyCMSAuth"
+import NetlifyCMSAuth from "../components/shared/NetlifyCMSAdminCDN/NetlifyCMSAuth"
 import Landing from "../components/static/Landing"
 
 const IndexPage = () => (
