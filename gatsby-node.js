@@ -1,5 +1,6 @@
 const path = require('path');
 const fs = require('fs'); //import filesystem module
+const express = require('express');
 
 module.exports.createPages = async ({ graphql, actions}) => {
     const { createPage } = actions
@@ -23,6 +24,11 @@ exports.onPostBuild = () => {
     });
   });
  }
+
+ // Serve files from `static` in development
+exports.onCreateDevServer = ({ app }) => {
+  app.use(express.static("static"))
+}
 
 
 exports.onCreatePage = async ({ page, actions }) => {
