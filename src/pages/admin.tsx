@@ -1,5 +1,5 @@
 import React from "react"
-import NetlifyCMSAdmin from "../components/shared/NetlifyCMSAdmin";
+//import NetlifyCMSAdmin from "../components/shared/NetlifyCMSAdminCDN";
 //import CMS from 'netlify-cms-app'
 
 
@@ -19,7 +19,7 @@ const Admin = () => {
 
 
   return <>
-    <NetlifyCMSAdmin/> 
+    {/*<NetlifyCMSAdmin/>*/} 
     {/* <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> */}
     {/* <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script> */}
   </>

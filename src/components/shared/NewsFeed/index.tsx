@@ -33,7 +33,7 @@ const NewsFeed: React.FC = () => {
 
   return (
     <>
-      <p>You are currently seeing news available for: <b>{reinheritStatics[theme.groupKey].LABEL}</b></p>
+      <p><a href="/admin/admin.html#/collections/news" target="_blank"><Badge bg="" style={{background: theme.styles.MAIN_COLOR}}> + </Badge></a> You are currently seeing news available for: <b>{reinheritStatics[theme.groupKey].LABEL}</b></p>
       {data.allMarkdownRemark.edges.map(edge => {
         if(!edge.node.frontmatter.target_audience.includes(theme.groupKey))return null;
         return (

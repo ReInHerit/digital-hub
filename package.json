@@ -38,6 +38,7 @@
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
     "@types/react-helmet": "^6.1.0",
+    "express": "^4.17.1",
     "prettier": "2.2.1"
   },
   "repository": {

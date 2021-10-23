@@ -84,7 +84,7 @@ const ReinNavbar: React.FC = () => {
             </Form.Select>
               <Nav.Link as="div"><Link to={addMode("/about", theme.mode)} className="text-dark text-decoration-none">About</Link></Nav.Link>
               <Nav.Link as="div" eventKey={2}>
-                <a target="blank" href="/admin" className="text-dark text-decoration-none">Admin</a>
+                <a href="/admin/admin.html" target="_blank" className="text-dark text-decoration-none">Admin</a>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
