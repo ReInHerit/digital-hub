@@ -26,6 +26,8 @@ exports.onPostBuild = () => {
  }
 
  // Serve files from `static` in development
+ // needed for NetlifyCMS -> /admin/admin.html is statically served from dev server!#
+ // (express is only installed as dev dep)
 exports.onCreateDevServer = ({ app }) => {
   app.use(express.static("static"))
 }
