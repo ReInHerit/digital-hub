@@ -36,7 +36,7 @@ const Landing = () => {
             <Card.Body>
               <Card.Title>{group.LABEL}</Card.Title>
               <Card.Text>
-                This is a longer card with 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultricies, orci in tempor blandit, augue purus fermentum ligula, ullamcorper facilisis lectus magna sit amet mi.
               </Card.Text>
               <FontAwesomeIcon icon={assignFa(key as keyof REINHERIT_AUDIENCE)} size="2x"/>
             </Card.Body>
