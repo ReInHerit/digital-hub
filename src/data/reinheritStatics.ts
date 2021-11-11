@@ -16,26 +16,14 @@ export const reinheritStatics: ReinheritStatics = (() => {
     LABEL: "Visitors"
   }
 
-  const RESEARCHER: ReinheritStatic = {
-    REST_MODE_VAL: REINHERIT_PERSONS.RESEARCHER,
-    LABEL: "Researcher"
-  }
-
-  const POLICY_MAKER: ReinheritStatic = {
-    REST_MODE_VAL: REINHERIT_PERSONS.POLICY_MAKER,
-    LABEL: "Policy-makers"
-  }
-
-  const CH_PROFESSIONAL: ReinheritStatic = {
-    REST_MODE_VAL: REINHERIT_PERSONS.CH_PROFESSIONAL,
-    LABEL: "CH-professionals"
+  const PROFESSIONAL: ReinheritStatic = {
+    REST_MODE_VAL: REINHERIT_PERSONS.PROFESSIONAL,
+    LABEL: "Professionals"
   }
 
   return {
     VISITOR,
-    RESEARCHER,
-    POLICY_MAKER,
-    CH_PROFESSIONAL
+    PROFESSIONAL
   }
 
 })();
