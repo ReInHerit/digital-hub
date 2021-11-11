@@ -4,17 +4,25 @@ import Typed from "react-typed"
 import { Col, Row, Button } from "react-bootstrap"
 
 
-const roles = ["digital cultural heritage ecosystem ", "EU", "Team Player", "React JS", "Angular"];
+const roles = ["digital cultural heritage ecosystem ", "EU", "Exchange", "Collaboration", "Teamwork"];
 const Hero = () => {
   return (
-    <>
-    <Row>
-      <Col lg={6}>
-        <br />
+    <div className="text-white" style={{background:" lightblue url('/images/ReinHerit-1.jpg') no-repeat fixed center", minHeight:"75vh"}}>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    <Row className="p-md-3 w-75" style={{background:"rgba(0, 0, 0, 0.5)"}}>
+      <Col lg={12}>
         <h1>HORIZON 2020 ReInHerit</h1>
-        <h2 className="fw-lighter text-secondary h5">Redefining the future of cultural heritage, through a disruptive model of sustainability</h2>
-        <Button variant="primary">Join us!</Button>
-        <br />
+        <h2 className="text-lighter h3">Redefining the future of cultural heritage, through a disruptive model of sustainability</h2>
     <br />
       <Typed
         loop
@@ -31,19 +39,13 @@ const Hero = () => {
       </Col>
       <Col lg={6}>
         <div style={{ width: "100%" }}>
-            <Image alt="Virtual Healthcare for you" filename="rein_logo.jpg" style={{maxWidth: "40%"}}/>
-            <Image alt="Virtual Healthcare for you" filename="rein_eu.png" style={{maxWidth: "40%"}}/>
+            {/* <Image alt="Virtual Healthcare for you" filename="rein_logo.jpg" style={{maxWidth: "40%"}}/> */}
+            {/* <Image alt="Virtual Healthcare for you" filename="rein_eu.png" style={{maxWidth: "40%"}}/> */}
           </div>
       </Col>
     </Row>
     
-    
-    
-    
-  <br></br>
-  <br></br>
-  <br></br>
-  </>
+  </div>
   )
 }
 export default Hero

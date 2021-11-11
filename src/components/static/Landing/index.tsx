@@ -29,6 +29,7 @@ const Landing = () => {
 
 
   return (
+    <div>
     <Row xs={1} md={2} className="g-6">
       {Object.entries(reinheritStatics).map(([key, group], i) => <Col key={key + "_" + i}>
         <Link to={`/portal?mode=${group.REST_MODE_VAL}`} className="text-decoration-none text-dark">
@@ -44,6 +45,7 @@ const Landing = () => {
         </Link>
       </Col>)}
     </Row>
+    </div>
   )
 }
 

@@ -52,7 +52,7 @@ const ReinNavbar: React.FC = () => {
     <React.Fragment>
       <Navbar collapseOnSelect style={{background: theme.styles.MAIN_COLOR}} expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none">ReInHerit</Link></Navbar.Brand>
+          <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none"><img style={{maxWidth:"50px"}} src="/images/rein_logo.jpg"></img></Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
@@ -86,6 +86,9 @@ const ReinNavbar: React.FC = () => {
               <Nav.Link as="div" eventKey={2}>
                 <a href="/admin/admin.html" target="_blank" className="text-dark text-decoration-none">Admin</a>
               </Nav.Link>
+            </Nav>
+            <Nav>
+            <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none"><img style={{maxWidth:"60px"}} src="/images/rein_eu.png"></img></Link></Navbar.Brand>
             </Nav>
           </Navbar.Collapse>
         </Container>
