@@ -58,6 +58,7 @@ const ReinNavbar: React.FC = () => {
             <Nav className="me-auto">
               <Nav.Link as="div"><Link className="text-dark text-decoration-none" to={addMode("/", theme.mode)}>Home</Link></Nav.Link>
               <Nav.Link as="div"><Link to={addMode("/content/news", theme.mode)} className="text-dark text-decoration-none">News</Link></Nav.Link>
+              <Nav.Link as="div"><Link to="/dataprot" className="text-dark text-decoration-none">Image editor</Link></Nav.Link>
               <NavDropdown title="Content" id="collasible-nav-dropdown">
                 <NavDropdown.Item as="div" href="#action/3.1"><Link to={addMode("/content/training", theme.mode)} className="text-dark text-decoration-none">Training</Link></NavDropdown.Item>
                 <NavDropdown.Item as="div" href="#action/3.2">
