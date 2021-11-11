@@ -21,7 +21,7 @@ const Hero = () => {
       <br />
     <Row className="p-md-3 w-75" style={{background:"rgba(0, 0, 0, 0.5)", borderLeft:"5px solid black"}}>
       <Col lg={12}>
-        <h1>HORIZON 2020 ReInHerit - Digital Hub</h1>
+        <h1><span style={{color:"rgba(52 ,  166,  194, 1)"}}>Digital Hub</span> - HORIZON 2020 ReInHerit</h1>
         <h2 className="text-lighter h3">Redefining the future of cultural heritage, through a disruptive model of sustainability</h2>
     <br />
     <span className="me-md-3">We stand for: </span>
