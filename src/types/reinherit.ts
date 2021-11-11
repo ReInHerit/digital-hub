@@ -1,19 +1,15 @@
 
 export interface REINHERIT_AUDIENCE {
   VISITOR: "visitor",
-  RESEARCHER: "researcher",
-  POLICY_MAKER: "policy-maker",
-  CH_PROFESSIONAL: "ch-professional"
+  PROFESSIONAL: "professional"
 }
 
 export enum REINHERIT_PERSONS {
   VISITOR = "visitor",
-  RESEARCHER = "researcher",
-  CH_PROFESSIONAL = "ch-professional",
-  POLICY_MAKER = "policy-maker"
+  PROFESSIONAL = "professional"
 }
 
-export type ReinheritRESTMode = REINHERIT_PERSONS.RESEARCHER | REINHERIT_PERSONS.VISITOR | REINHERIT_PERSONS.CH_PROFESSIONAL | REINHERIT_PERSONS.POLICY_MAKER
+export type ReinheritRESTMode = REINHERIT_PERSONS.PROFESSIONAL | REINHERIT_PERSONS.VISITOR
 
 export enum ReinheritModeClassMap {
   visitor = "primary",
