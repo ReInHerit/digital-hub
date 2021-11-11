@@ -65,6 +65,7 @@ collections:
       # - { label: "Code", name: "code", widget: "code" }
   - label: "Pages"
     name: "pages"
+    hide: true # hides specific collection -> still available if you have the link!
     files:
       - label: "About Page"
         name: "about"
