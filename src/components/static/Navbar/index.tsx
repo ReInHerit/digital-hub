@@ -76,6 +76,9 @@ const ReinNavbar: React.FC = () => {
                 <NavDropdown.Item as="div" href="#action/3.4">
                   E-shop(s)
                 </NavDropdown.Item>
+                <NavDropdown.Item as="div" href="#action/3.4">
+                <Link to="/dataprot" className="text-dark text-decoration-none">Image Editor</Link>
+                </NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <Nav>
