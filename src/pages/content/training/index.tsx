@@ -9,7 +9,7 @@ const TrainingPage = () => {
   return (
     <BaseLayout>
       <h1>Training material </h1> 
-      <NetlifyEmbed htmlLoc="/admin/admin.html#/" style={{width:"100%", height:"100vh", border:"2px solid lightgrey"}}/>
+      <NetlifyEmbed htmlLoc="/admin/admin.html#/collections/training/" style={{width:"100%", height:"100vh", border:"2px solid lightgrey"}}/>
       <TrainingFeed></TrainingFeed> 
     </BaseLayout>
   )
