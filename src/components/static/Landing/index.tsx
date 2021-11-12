@@ -20,12 +20,8 @@ const Landing = () => {
       switch(userGroup){
         case "VISITOR":
           return faUsers
-        case "CH_PROFESSIONAL":
+        case "PROFESSIONAL":
           return faHome;
-        case "RESEARCHER":
-          return faBook;
-        case "POLICY_MAKER":
-          return faUserPlus;
         default:
             return faUsers;
       }
@@ -33,14 +29,15 @@ const Landing = () => {
 
 
   return (
-    <Row xs={1} md={2} lg={3} xl={4} className="g-4">
+    <div>
+    <Row xs={1} md={2} className="g-6">
       {Object.entries(reinheritStatics).map(([key, group], i) => <Col key={key + "_" + i}>
         <Link to={`/portal?mode=${group.REST_MODE_VAL}`} className="text-decoration-none text-dark">
           <Card style={{borderRadius:"0"}} className="shadow">
             <Card.Body>
               <Card.Title>{group.LABEL}</Card.Title>
               <Card.Text>
-                This is a longer card with 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultricies, orci in tempor blandit, augue purus fermentum ligula, ullamcorper facilisis lectus magna sit amet mi.
               </Card.Text>
               <FontAwesomeIcon icon={assignFa(key as keyof REINHERIT_AUDIENCE)} size="2x"/>
             </Card.Body>
@@ -48,6 +45,7 @@ const Landing = () => {
         </Link>
       </Col>)}
     </Row>
+    </div>
   )
 }
 

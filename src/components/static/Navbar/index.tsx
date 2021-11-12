@@ -52,12 +52,13 @@ const ReinNavbar: React.FC = () => {
     <React.Fragment>
       <Navbar collapseOnSelect style={{background: theme.styles.MAIN_COLOR}} expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none">ReInHerit</Link></Navbar.Brand>
+          <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none"><img style={{maxWidth:"50px"}} src="/images/rein_logo.jpg"></img></Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link as="div"><Link className="text-dark text-decoration-none" to={addMode("/", theme.mode)}>Home</Link></Nav.Link>
               <Nav.Link as="div"><Link to={addMode("/content/news", theme.mode)} className="text-dark text-decoration-none">News</Link></Nav.Link>
+              <Nav.Link as="div"><Link to="/dataprot" className="text-dark text-decoration-none">Image editor</Link></Nav.Link>
               <NavDropdown title="Content" id="collasible-nav-dropdown">
                 <NavDropdown.Item as="div" href="#action/3.1"><Link to={addMode("/content/training", theme.mode)} className="text-dark text-decoration-none">Training</Link></NavDropdown.Item>
                 <NavDropdown.Item as="div" href="#action/3.2">
@@ -76,6 +77,9 @@ const ReinNavbar: React.FC = () => {
                 <NavDropdown.Item as="div" href="#action/3.4">
                   E-shop(s)
                 </NavDropdown.Item>
+                <NavDropdown.Item as="div" href="#action/3.4">
+                <Link to="/dataprot" className="text-dark text-decoration-none">Image Editor</Link>
+                </NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <Nav>
@@ -86,6 +90,9 @@ const ReinNavbar: React.FC = () => {
               <Nav.Link as="div" eventKey={2}>
                 <a href="/admin/admin.html" target="_blank" className="text-dark text-decoration-none">Admin</a>
               </Nav.Link>
+            </Nav>
+            <Nav>
+            <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none"><img style={{maxWidth:"60px"}} src="/images/rein_eu.png"></img></Link></Navbar.Brand>
             </Nav>
           </Navbar.Collapse>
         </Container>

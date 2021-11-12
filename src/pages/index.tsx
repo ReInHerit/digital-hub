@@ -11,7 +11,9 @@ const IndexPage = () => (
       <BaseLayout>
         <SEO title="Home" />
           <Hero />
+          <br />
           <Landing></Landing>
+          <NetlifyCMSAuth></NetlifyCMSAuth>
       </BaseLayout>
   </React.Fragment>
 )
