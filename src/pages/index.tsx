@@ -13,6 +13,7 @@ const IndexPage = () => (
           <Hero />
           <br />
           <Landing></Landing>
+          <NetlifyCMSAuth></NetlifyCMSAuth>
       </BaseLayout>
   </React.Fragment>
 )
