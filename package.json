@@ -20,7 +20,6 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.15",
-    "@toast-ui/react-image-editor": "3.15.2",
     "bootstrap": "^5.1.1",
     "gatsby": "^3.2.1",
     "gatsby-plugin-react-helmet": "^3.3.10",
@@ -32,7 +31,8 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-markdown": "^7.0.1",
-    "react-typed": "^1.2.0"
+    "react-typed": "^1.2.0",
+    "tui-image-editor": "^3.15.2"
   },
   "devDependencies": {
     "@types/node": "^14.14.41",
