@@ -31,7 +31,8 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-markdown": "^7.0.1",
-    "react-typed": "^1.2.0"
+    "react-typed": "^1.2.0",
+    "tui-image-editor": "^3.15.2"
   },
   "devDependencies": {
     "@types/node": "^14.14.41",

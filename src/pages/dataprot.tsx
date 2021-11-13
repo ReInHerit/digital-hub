@@ -1,20 +1,19 @@
 import React from "react"
+import ImageEditor from "../components/shared/ImageEditor";
 import BaseLayout from "../components/static/BaseLayout"
 
-const myTheme = {
-  // Theme object to extends default dark theme.
-};
-
 const DataProtectionPage = () => {
+
+  const [url, setUrl] = React.useState("https://picsum.photos/id/227/600/400");
+
   return (
     <BaseLayout>
-      <h1>Data protection</h1>
+      <h1>Image Editor</h1>
+      <p>Test playground for image-editor</p>
+      <p>{url}</p>
       
-      <link
-        rel="stylesheet"
-        href="https://uicdn.toast.com/tui-image-editor/latest/tui-image-editor.css"
-      />
-      <script src="https://uicdn.toast.com/tui-image-editor/latest/tui-image-editor.js"></script>
+      <ImageEditor imgAddress={url}></ImageEditor>
+      
     </BaseLayout>
   )
 }
