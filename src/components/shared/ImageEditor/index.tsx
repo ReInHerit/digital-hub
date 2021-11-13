@@ -1,11 +1,16 @@
 import React from "react"
+import { propTypes } from "react-bootstrap/esm/Image";
 
 
 // maybe need more deps like FileSaver for downloading stuff
 
 //according to: http://nhn.github.io/tui.image-editor/latest/#via-package-manager
 
-const ImageEditor = () => {
+interface Props {
+  imgAddress: string
+}
+
+const ImageEditor: React.FC<Props> = (props) => {
 
   const isBrowser = typeof window !== "undefined"
 
@@ -24,7 +29,7 @@ const ImageEditor = () => {
         includeUI: {
           loadImage: {
             // path: '/images/ReInHerit-1.jpg',
-            path: 'https://picsum.photos/id/237/200/300',
+            path: props.imgAddress,
             name: 'SampleImage',
           },
           initMenu: 'filter',
