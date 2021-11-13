@@ -45,3 +45,22 @@ exports.onCreatePage = async ({ page, actions }) => {
     createPage(page)
   }
 }
+
+
+exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
+
+  // disable SSR ToastTUI image editor -> will break because it references window object. 
+  // see: https://www.gatsbyjs.com/docs/debugging-html-builds/#how-to-check-if-window-is-defined
+  if (stage === "build-html" || stage === "develop-html") {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /tui-image-editor/,
+            use: loaders.null(),
+          },
+        ],
+      },
+    })
+  }
+}
