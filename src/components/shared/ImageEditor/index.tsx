@@ -36,7 +36,7 @@ const ImageEditor: React.FC<Props> = (props) => {
           menuBarPosition: 'bottom',
           uiSize: {
             width: "70vw",
-            height: "100vh"
+            height: "120vh"
           },
         },
         cssMaxWidth: 1000,

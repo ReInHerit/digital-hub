@@ -4,21 +4,13 @@ import BaseLayout from "../components/static/BaseLayout"
 
 const DataProtectionPage = () => {
 
-  const [url, setUrl] = React.useState("https://picsum.photos/id/237/200/300");
-
-  React.useEffect(() => {
-    // small example code increasing the counter for the id accessed every 5 secs
-    let counter = 1;
-    setInterval(() => {
-      counter++;
-      setUrl(`https://picsum.photos/id/${counter}/200/300`)
-    }, 5000)
-
-  }, [])
+  const [url, setUrl] = React.useState("https://picsum.photos/id/227/600/400");
 
   return (
     <BaseLayout>
-      <h1>Data protection</h1>
+      <h1>Image Editor</h1>
+      <p>Test playground for image-editor</p>
+      <p>{url}</p>
       
       <ImageEditor imgAddress={url}></ImageEditor>
       
