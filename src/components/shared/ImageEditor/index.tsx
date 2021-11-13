@@ -12,7 +12,7 @@ const ImageEditor = () => {
   return <TUIImageEditor
   includeUI={{
     loadImage: {
-      path: '/images/rein_eu.png',
+      path: '/images/ReInHerit-1.jpg',
       name: 'SampleImage',
     },
     menu: ['shape', 'filter','text'],
