@@ -6,6 +6,7 @@ import React from "react"
 // https://cdn.jsdelivr.net/npm/tui-color-picker@2.2.7/dist/tui-color-picker.css
 import "./tui-image-editor_3.15.2.css"
 import "./tui-color-picker_2_2_7.css"
+import "./custom.css"
 
 // maybe need more deps like FileSaver for downloading stuff
 
