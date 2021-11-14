@@ -1,6 +1,7 @@
 import React from "react"
 import ImageEditor from "../components/shared/ImageEditor";
 import BaseLayout from "../components/static/BaseLayout"
+import EngageImage from "../components/shared/EngageImage";
 
 const DataProtectionPage = () => {
 
@@ -12,8 +13,12 @@ const DataProtectionPage = () => {
       <p>Test playground for image-editor</p>
       <p>{url}</p>
       
-      <ImageEditor imgAddress={url}></ImageEditor>
+      {/* <ImageEditor imgAddress={url}></ImageEditor> */}
       
+      <hr/>
+
+      <EngageImage imgAddress={url}></EngageImage>
+
     </BaseLayout>
   )
 }
