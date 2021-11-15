@@ -2,6 +2,12 @@ import React from "react"
 
 type UserRolesType = "extern" | "admin"
 
+// keys used in local storage
+enum ReinAuthStoreKeys {
+  SIGNED_IN = "reinauth_signedIn",
+  USER_ROLE = "reinauth_userRole"
+}
+
 /**
  * Handles very lightweight authorization via local-storage.
  * @returns
@@ -24,8 +30,8 @@ export const useSoftAuth = () => {
     if (!isBrowser) return
 
     // read out from local-storage
-    const signedInVal = localStorage.getItem("reinauth_signedIn")
-    const userRoleVal = localStorage.getItem("reinauth_userRole")
+    const signedInVal = localStorage.getItem(ReinAuthStoreKeys.SIGNED_IN)
+    const userRoleVal = localStorage.getItem(ReinAuthStoreKeys.USER_ROLE)
 
     // check + assign storage values.
     let signedIn: boolean = false
@@ -63,8 +69,8 @@ export const useSoftAuth = () => {
       setCurUserRole(userRole as UserRolesType)
       if (isBrowser) {
         console.log("SETTING NOW!");
-        localStorage.setItem("reinauth_signedIn", "true")
-        localStorage.setItem("reinauth_userRole", userRole)
+        localStorage.setItem(ReinAuthStoreKeys.SIGNED_IN, "true")
+        localStorage.setItem(ReinAuthStoreKeys.USER_ROLE, userRole)
       } else {
         return "false"
       }
@@ -75,8 +81,8 @@ export const useSoftAuth = () => {
     if (!isBrowser) return
     setSignedIn(false)
     setCurUserRole("extern")
-    localStorage.setItem("reinauth_signedIn", "false")
-    localStorage.setItem("reinauth_userRole", "extern")
+    localStorage.setItem(ReinAuthStoreKeys.SIGNED_IN, "false")
+    localStorage.setItem(ReinAuthStoreKeys.USER_ROLE, "extern")
   }
 
   return {
