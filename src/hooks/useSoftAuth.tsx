@@ -16,7 +16,8 @@ export const useSoftAuth = () => {
   const isBrowser = typeof window !== "undefined"
 
   /**
-   *
+   * Retrieves login status and signed in user-role from
+   * local storage.
    * @returns
    */
   const retrieveAuthStorage = (): [boolean, UserRolesType] => {
@@ -25,18 +26,21 @@ export const useSoftAuth = () => {
     // read out from local-storage
     const signedInVal = localStorage.getItem("reinauth_signedIn")
     const userRoleVal = localStorage.getItem("reinauth_userRole")
-    let signedIn: boolean = false
-    let userRole: UserRolesType;
 
     // check + assign storage values.
+    let signedIn: boolean = false
+    let userRole: string = "extern";
     if (signedInVal) signedIn = JSON.parse(signedInVal)
-    if (userRole) userRole = JSON.parse(userRoleVal)
+    if (userRoleVal) userRole = userRoleVal;
+    
+    if(!userRoles.includes(userRole as UserRolesType)) userRole = "extern";
 
-    if(!userRoles.includes(userRole as UserRolesType)) userRole = "extern" as UserRolesType
-
-    return [signedIn, userRole]
+    return [signedIn, userRole as UserRolesType]
   }
 
+  /**
+   * Sets login state.
+   */
   React.useEffect(() => {
     const [storeSignedInd, storeCurRole] = retrieveAuthStorage();
     setSignedIn(storeSignedInd);
@@ -58,7 +62,9 @@ export const useSoftAuth = () => {
       setSignedIn(true)
       setCurUserRole(userRole as UserRolesType)
       if (isBrowser) {
+        console.log("SETTING NOW!");
         localStorage.setItem("reinauth_signedIn", "true")
+        localStorage.setItem("reinauth_userRole", userRole)
       } else {
         return "false"
       }
@@ -70,6 +76,7 @@ export const useSoftAuth = () => {
     setSignedIn(false)
     setCurUserRole("extern")
     localStorage.setItem("reinauth_signedIn", "false")
+    localStorage.setItem("reinauth_userRole", "extern")
   }
 
   return {
