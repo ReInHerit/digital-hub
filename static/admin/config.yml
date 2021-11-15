@@ -17,8 +17,85 @@ media_library:      # comment out will make media available.
 
 # collections config see here: https://www.netlifycms.org/docs/widgets/#object
 collections:
+  - name: "training"
+    label: "WP3: Training"
+    label_singular: 'entry'
+    hide: false                # hides specific collection -> still available if you have the link!
+    folder: "content/training"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Type", name: "type", widget: "hidden", default: "training" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "apps"
+    label: "WP3: Apps"
+    label_singular: "app"
+    hide: false                # hides specific collection -> still available if you have the link!
+    folder: "content/apps"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Type", name: "type", widget: "hidden", default: "training" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "games"
+    label: "WP3: Games"
+    label_singular: "game"
+    hide: false                # hides specific collection -> still available if you have the link!
+    folder: "content/games"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Type", name: "type", widget: "hidden", default: "training" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "code"
+    label: "Code-snippets"
+    hide: true                # hides specific collection -> still available if you have the link!
+    folder: "content/code"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Code", name: "code", widget: "code" }
+  - name: "performaces"
+    label: "WP4: Performances"
+    label_singular: "performance"
+    hide: false                # hides specific collection -> still available if you have the link!
+    folder: "content/games"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Type", name: "type", widget: "hidden", default: "training" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "exhibitions"
+    label: "WP6: Digital exhibitions"
+    label_singular: 'exhibition'
+    hide: false                # hides specific collection -> still available if you have the link!
+    folder: "content/exhibitions"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      # - { label: "Code", name: "code", widget: "code" }
   - name: "news"
-    label: "News"             # Used in the UI
+    label: "WP7: News"             # Used in the UI
     label_singular: 'message' # Used in the UI, ie: "New Post"
     folder: "content/news"
     description: Here you may provide all your news posts etc... Make sure that you have ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
@@ -31,38 +108,6 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "training"
-    label: "Training material"
-    hide: true                # hides specific collection -> still available if you have the link!
-    folder: "content/training"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Type", name: "type", widget: "hidden", default: "training" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: false }
-      - { label: "Body", name: "body", widget: "markdown" }
-  - name: "code"
-    label: "Code-snippets"
-    folder: "content/code"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Code", name: "code", widget: "code" }
-  - name: "exhibitions"
-    label: "Digital exhibitions"
-    hide: false                # hides specific collection -> still available if you have the link!
-    folder: "content/exhibitions"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      # - { label: "Code", name: "code", widget: "code" }
   - label: "Pages"
     name: "pages"
     hide: true # hides specific collection -> still available if you have the link!
