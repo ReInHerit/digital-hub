@@ -3,6 +3,7 @@ import React from "react"
 import { Badge, Container } from "react-bootstrap"
 import { reinheritStatics } from "../../../data/reinheritStatics";
 import { reinheritThemes } from "../../../data/reinheritThemes";
+import { useReinSoftAuth } from "../../../hooks/contexts/useReinSoftAuth";
 import { useReinTheme } from "../../../hooks/contexts/useReinTheme";
 
 /**
@@ -11,6 +12,8 @@ import { useReinTheme } from "../../../hooks/contexts/useReinTheme";
  */
 const NewsFeed: React.FC = () => {
   const data: NewsQueryData.Data = useStaticQuery(NEWS_QUERY);
+
+  const auth = useReinSoftAuth();
 
   // used to display data conditionally to target audience
   const { theme } = useReinTheme();
@@ -33,6 +36,7 @@ const NewsFeed: React.FC = () => {
 
   return (
     <>
+      <p>Login example. User role: {auth.curUserRole}</p>
       <p><a href="/admin/admin.html#/collections/news" target="_blank"><Badge bg="" style={{background: theme.styles.MAIN_COLOR}}>Add + </Badge></a> You are currently seeing news available for: <b>{reinheritStatics[theme.groupKey].LABEL}</b></p>
       {data.allMarkdownRemark.edges.map(edge => {
         if(!edge.node.frontmatter.target_audience.includes(theme.groupKey))return null;
