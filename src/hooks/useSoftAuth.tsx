@@ -10,7 +10,13 @@ enum ReinAuthStoreKeys {
 
 /**
  * Handles very lightweight authorization via local-storage.
- * @returns
+ * @returns Object {
+ * curUserRole - current active user role.
+ * loggedIn - boolean if user is logged in.
+ * login - allows to login. Needs certain user-roles as input.
+ * logout - sets state to logout
+ * userRoles - array of all available user-roles.
+ * }
  */
 export const useSoftAuth = () => {
   const [curUserRole, setCurUserRole] = React.useState<UserRolesType>("extern")
@@ -56,13 +62,14 @@ export const useSoftAuth = () => {
   
 
   /**
-   * 
+   * Prompts for user for password and checks if available in intern password map.
+   * Sets state(s) to logged in.
    * @param userRole 
    * @returns 
    */
   const login = (userRole: string) => {
     if(!isBrowser)return;
-    let pw = prompt("Enter admin password")
+    let pw = prompt("Please enter the administrator password")
 
     if (!(userRoles as string[]).includes(userRole)) return
 
@@ -75,9 +82,13 @@ export const useSoftAuth = () => {
       setCurUserRole(userRole as UserRolesType)
       localStorage.setItem(ReinAuthStoreKeys.SIGNED_IN, "true")
       localStorage.setItem(ReinAuthStoreKeys.USER_ROLE, userRole)
-    }
+    } 
   }
 
+  /**
+   * Sets states to logout.
+   * @returns 
+   */
   const logout = () => {
     if (!isBrowser) return
     setSignedIn(false)
