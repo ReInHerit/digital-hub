@@ -9,11 +9,12 @@ interface ReinheritSoftAuthContextData {
   logout: () => void
 }
 
+// created context
 const ReinheritSoftAuthContext = React.createContext<undefined | ReinheritSoftAuthContextData>(undefined);
 
 /**
  * Provides local storage based softAuth functionality to the 
- * Gatsby app.
+ * Gatsby app based on context API.
  * @param props 
  * @returns 
  */
@@ -22,7 +23,7 @@ export const ReinheritSoftAuthProvider: React.FC = (props) => {
   // handles lightweight authentication
   const { curUserRole, handleAuth, userRoles, signedIn, logout } = useSoftAuth();
 
-  
+  // default values accesible via context api
   const contextObj: ReinheritSoftAuthContextData = {
     handleAuth,
     userRoles,
