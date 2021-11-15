@@ -2,52 +2,62 @@ import React from "react"
 
 type UserRolesType = "extern" | "admin"
 
-export const useSoftAuth = () =>  {
-
-  const isBrowser = typeof window !== "undefined";
-
-  const [curUserRole, setCurUserRole] = React.useState<UserRolesType>("extern");
-
-  const retrieveAuthStorage = (): boolean => {
-    console.log("AUTH RETRIEVAL");
-
-    if(isBrowser){
-      console.log("BROWSER HERE")
-      console.log(localStorage.getItem("reinauth_signedIn"));
-      return localStorage.getItem("reinauth_signedIn") ? JSON.parse(localStorage.getItem("reinauth_signedIn")) : false
-    } else {
-      return false
-    }
-  }
-
-  
-
-
-  const [signedIn, setSignedIn] = React.useState<boolean>(false); 
-
-  React.useEffect(() => {
-    setSignedIn(retrieveAuthStorage())
-  }, [signedIn])
-
+/**
+ * Handles very lightweight authorization via local-storage.
+ * @returns
+ */
+export const useSoftAuth = () => {
+  const [curUserRole, setCurUserRole] = React.useState<UserRolesType>("extern")
+  const [signedIn, setSignedIn] = React.useState<boolean>(false)
 
   const userRoles: UserRolesType[] = ["admin", "extern"]
+
+  // check necessary for gatsby
+  const isBrowser = typeof window !== "undefined"
+
+  /**
+   *
+   * @returns
+   */
+  const retrieveAuthStorage = (): [boolean, UserRolesType] => {
+    if (!isBrowser) return
+
+    // read out from local-storage
+    const signedInVal = localStorage.getItem("reinauth_signedIn")
+    const userRoleVal = localStorage.getItem("reinauth_userRole")
+    let signedIn: boolean = false
+    let userRole: UserRolesType;
+
+    // check + assign storage values.
+    if (signedInVal) signedIn = JSON.parse(signedInVal)
+    if (userRole) userRole = JSON.parse(userRoleVal)
+
+    if(!userRoles.includes(userRole as UserRolesType)) userRole = "extern" as UserRolesType
+
+    return [signedIn, userRole]
+  }
+
+  React.useEffect(() => {
+    const [storeSignedInd, storeCurRole] = retrieveAuthStorage();
+    setSignedIn(storeSignedInd);
+    setCurUserRole(storeCurRole);
+  }, [signedIn])
 
   
 
   const handleAuth = (userRole: string) => {
+    let pw = prompt("Enter admin password")
 
-    let pw = prompt("Enter admin password");
-
-    if(!(userRoles as string[]).includes(userRole))return;
+    if (!(userRoles as string[]).includes(userRole)) return
 
     const pwMap = {
-      admin: "testpw"
+      admin: "testpw",
     }
 
-    if(pwMap[userRole] === pw){
+    if (pwMap[userRole] === pw) {
       setSignedIn(true)
       setCurUserRole(userRole as UserRolesType)
-      if(isBrowser) {
+      if (isBrowser) {
         localStorage.setItem("reinauth_signedIn", "true")
       } else {
         return "false"
@@ -56,9 +66,9 @@ export const useSoftAuth = () =>  {
   }
 
   const logout = () => {
-    if(!isBrowser)return;
+    if (!isBrowser) return
     setSignedIn(false)
-    setCurUserRole("extern");
+    setCurUserRole("extern")
     localStorage.setItem("reinauth_signedIn", "false")
   }
 
@@ -67,7 +77,6 @@ export const useSoftAuth = () =>  {
     signedIn,
     userRoles,
     handleAuth,
-    logout
+    logout,
   }
-
 }
