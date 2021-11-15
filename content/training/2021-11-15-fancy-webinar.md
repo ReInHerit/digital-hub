@@ -4,7 +4,8 @@ title: Fancy Webinar
 date: 2021-11-15T08:54:00.401Z
 target-audience:
   - VISITOR
-training-type: WEBINAR
+training-type:
+  - WEBINAR
 ---
 # Fancy Webinar
 

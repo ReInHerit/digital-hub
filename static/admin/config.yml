@@ -29,7 +29,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: false }
+      - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: true, required: true }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "apps"
     label: "WP3: Apps"
