@@ -1,5 +1,8 @@
+
 import React from "react"
+import SoftAuthForm from "../components/shared/SoftAuthForm";
 import BaseLayout from "../components/static/BaseLayout"
+
 
 
 /**
@@ -8,14 +11,14 @@ import BaseLayout from "../components/static/BaseLayout"
  */
 const Intern = () => {
 
-
-
   return <>
     <BaseLayout>
       <h1>Internal area</h1>
+      
       <p>Intern area of project - e.g. access to netlify CMS etc. / manuals on how to add images on pinterest etc.</p>
       <br />
-      <a href="/admin/admin.html" target="_blank">Link to Netlify CMS</a>
+      <SoftAuthForm></SoftAuthForm>
+      
     </BaseLayout>
   </>
 }
