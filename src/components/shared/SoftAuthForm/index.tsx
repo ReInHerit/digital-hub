@@ -4,14 +4,14 @@ import {Button} from "react-bootstrap"
 
 const SoftAuthForm = () => {
 
-  const { curUserRole, signedIn, handleAuth, logout } = useReinSoftAuth();
+  const { curUserRole, signedIn, login, logout } = useReinSoftAuth();
 
   return <>
     <p>Your are logged in as: {curUserRole}</p>
     <p>Your login status is: {signedIn ? "logged-in" : "logged-out"}</p>
 
     <p>Passwort: 'testpw'</p>
-    <Button onClick={() => handleAuth && handleAuth("admin")}>Login</Button>
+    <Button onClick={() => login && login("admin")}>Login</Button>
     <br />
     <br />
     <Button onClick={() => logout()}>Logout</Button>

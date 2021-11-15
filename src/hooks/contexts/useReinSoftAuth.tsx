@@ -2,7 +2,7 @@ import React from "react";
 import { useSoftAuth } from "../useSoftAuth";
 
 interface ReinheritSoftAuthContextData {
-  handleAuth: (userRole: string) => void;
+  login: (userRole: string) => void;
   userRoles: string[];
   curUserRole: string;
   signedIn: boolean,
@@ -21,11 +21,11 @@ const ReinheritSoftAuthContext = React.createContext<undefined | ReinheritSoftAu
 export const ReinheritSoftAuthProvider: React.FC = (props) => {
 
   // handles lightweight authentication
-  const { curUserRole, handleAuth, userRoles, signedIn, logout } = useSoftAuth();
+  const { curUserRole, login, userRoles, signedIn, logout } = useSoftAuth();
 
   // default values accesible via context api
   const contextObj: ReinheritSoftAuthContextData = {
-    handleAuth,
+    login,
     userRoles,
     curUserRole,
     signedIn,

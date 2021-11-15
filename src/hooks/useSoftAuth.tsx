@@ -55,7 +55,13 @@ export const useSoftAuth = () => {
 
   
 
-  const handleAuth = (userRole: string) => {
+  /**
+   * 
+   * @param userRole 
+   * @returns 
+   */
+  const login = (userRole: string) => {
+    if(!isBrowser)return;
     let pw = prompt("Enter admin password")
 
     if (!(userRoles as string[]).includes(userRole)) return
@@ -67,13 +73,8 @@ export const useSoftAuth = () => {
     if (pwMap[userRole] === pw) {
       setSignedIn(true)
       setCurUserRole(userRole as UserRolesType)
-      if (isBrowser) {
-        console.log("SETTING NOW!");
-        localStorage.setItem(ReinAuthStoreKeys.SIGNED_IN, "true")
-        localStorage.setItem(ReinAuthStoreKeys.USER_ROLE, userRole)
-      } else {
-        return "false"
-      }
+      localStorage.setItem(ReinAuthStoreKeys.SIGNED_IN, "true")
+      localStorage.setItem(ReinAuthStoreKeys.USER_ROLE, userRole)
     }
   }
 
@@ -89,7 +90,7 @@ export const useSoftAuth = () => {
     curUserRole,
     signedIn,
     userRoles,
-    handleAuth,
+    login,
     logout,
   }
 }
