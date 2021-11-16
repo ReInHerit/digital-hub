@@ -1,4 +1,4 @@
-import { graphql, useStaticQuery } from "gatsby"
+import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
 import { Container } from "react-bootstrap"
 import { useReinSoftAuth } from "../../../hooks/contexts/useReinSoftAuth"
@@ -31,6 +31,7 @@ const TrainingFeed: React.FC = () => {
         <Container className="p-3 shadow">
           <p>{edge.node.frontmatter.title}</p>
           <div dangerouslySetInnerHTML={{ __html: edge.node.html }}></div>
+          <Link to={`/content/training/${edge.node.id}`}>Link</Link>
         </Container>
       ))}
     </>
@@ -45,6 +46,7 @@ const TRAINING_QUERY = graphql`
       edges {
         node {
           html
+          id
           frontmatter {
             title
             date(fromNow: true)
@@ -67,6 +69,7 @@ declare module TrainingModel {
 
   export interface Node {
     html: string
+    id: string
     frontmatter: Frontmatter
   }
 
