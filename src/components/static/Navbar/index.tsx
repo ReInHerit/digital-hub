@@ -2,51 +2,28 @@ import { Link } from "gatsby"
 import React from "react"
 import { Navbar, Container, Nav, NavDropdown, Form } from "react-bootstrap"
 import { reinheritStatics } from "../../../data/reinheritStatics"
+import { useReinSoftAuth } from "../../../hooks/contexts/useReinSoftAuth"
 import { useReinTheme } from "../../../hooks/contexts/useReinTheme"
 
 
 
 const ReinNavbar: React.FC = () => {
-  // show navbar not on landing -> on landing only ask for the use-case
-  // or ask on content page who you are / the other one is
-
-  // --- Content /  ---
-
-  // Trainingsmaterial: Webinare + Text
-
-  // Apps: Text + Link
-
-  // Game: Text + Link
-
-  // Exhibitions: ?? unclear
-
-  // Performance:
-  // embedded live stream et.c
-
-  // news entries
-
-  // eshop-page
-
-  // ----
-
-  // internal project management -> drive / discord / stuff
-
-  // url examples:
-  // https://reinherit.bla.eu/content/apps/1?mode=researcher
-  // https://reinherit.bla.eu/content/trainings/1?mode=researcher
-
-  // https://reinherit.bla.eu/
-  // https://reinherit.bla.eu/portal
-  // https://reinherit.bla.eu/portal/researcher -> https://reinherit.bla.eu/content/apps/1?mode=researcher
-  // https://reinherit.bla.eu/portal/policyMaker -> https://reinherit.bla.eu/content/apps/1?mode=policyMaker
-  // https://reinherit.bla.eu/portal/visitor -> https://reinherit.bla.eu/content/apps/1?mode=visitor
-
-  // https://reinherit.bla.eu/portal?mode=researcher -> https://reinherit.bla.eu/content/apps/1?mode=researcher
-
 
   const { theme } = useReinTheme();
+  const auth = useReinSoftAuth()
 
   const addMode = (url: string, mode: string) => `${url}?mode=${mode}`;
+
+  /**
+   * Handles login logout on specific navlink click.
+   */
+  const handleAuth = () => {
+    if(auth.signedIn){
+      auth.logout()
+    } else {
+      auth.login("admin")
+    }
+  }
 
   return (
     <React.Fragment>
@@ -88,8 +65,9 @@ const ReinNavbar: React.FC = () => {
             </Form.Select>
               <Nav.Link as="div"><Link to={addMode("/about", theme.mode)} className="text-dark text-decoration-none">About</Link></Nav.Link>
               <Nav.Link as="div" eventKey={2}>
-                <a href="/admin/admin.html" target="_blank" className="text-dark text-decoration-none">Admin</a>
+                <Link to={addMode("/intern", theme.mode)} className="text-dark text-decoration-none">Admin</Link>
               </Nav.Link>
+              <Nav.Link as="div" eventKey={3} onClick={handleAuth}><a href="#">{ auth.signedIn ? "Logout" : "Login"}</a></Nav.Link>
             </Nav>
             <Nav>
             <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none"><img style={{maxWidth:"60px"}} src="/images/rein_eu.png"></img></Link></Navbar.Brand>

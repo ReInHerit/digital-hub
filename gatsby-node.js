@@ -3,7 +3,50 @@ const fs = require('fs'); //import filesystem module
 const express = require('express');
 
 module.exports.createPages = async ({ graphql, actions}) => {
-    const { createPage } = actions
+
+  // adding markdown as training
+  let res = await graphql(`
+    query MyQuery {
+      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/training/"}}) {
+        edges {
+          node {
+            id
+          }
+        }
+      }
+    }
+  
+  `)
+  res.data.allMarkdownRemark.edges.forEach(edge => {
+    const mdId = edge.node.id
+    actions.createPage({
+      path: `/content/training/${mdId}`,
+      component: require.resolve(`./src/templates/training.js`),
+      context: { id: mdId },
+    })
+  })
+
+  // adding news data from markdown
+  const { data } = await graphql(`
+    query MyQuery {
+      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/news/"}}) {
+        edges {
+          node {
+            id
+          }
+        }
+      }
+    }
+  
+  `)
+  data.allMarkdownRemark.edges.forEach(edge => {
+    const mdId = edge.node.id
+    actions.createPage({
+      path: `/content/news/${mdId}`,
+      component: require.resolve(`./src/templates/training.js`),
+      context: { id: mdId },
+    })
+  })
 
 }
 

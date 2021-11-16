@@ -3,6 +3,7 @@ import React from "react"
 import { Badge, Container } from "react-bootstrap"
 import { reinheritStatics } from "../../../data/reinheritStatics";
 import { reinheritThemes } from "../../../data/reinheritThemes";
+import { useReinSoftAuth } from "../../../hooks/contexts/useReinSoftAuth";
 import { useReinTheme } from "../../../hooks/contexts/useReinTheme";
 
 /**
@@ -11,6 +12,8 @@ import { useReinTheme } from "../../../hooks/contexts/useReinTheme";
  */
 const NewsFeed: React.FC = () => {
   const data: NewsQueryData.Data = useStaticQuery(NEWS_QUERY);
+
+  const auth = useReinSoftAuth();
 
   // used to display data conditionally to target audience
   const { theme } = useReinTheme();
@@ -33,7 +36,8 @@ const NewsFeed: React.FC = () => {
 
   return (
     <>
-      <p><a href="/admin/admin.html#/collections/news" target="_blank"><Badge bg="" style={{background: theme.styles.MAIN_COLOR}}>Add + </Badge></a> You are currently seeing news available for: <b>{reinheritStatics[theme.groupKey].LABEL}</b></p>
+      <p>Login example. User role: {auth.curUserRole}</p>
+      { auth.signedIn && <p><a href="/admin/admin.html#/collections/news" target="_blank"><Badge bg="" style={{background: theme.styles.MAIN_COLOR}}>Add + </Badge></a> You are currently seeing news available for: <b>{reinheritStatics[theme.groupKey].LABEL}</b></p>}
       {data.allMarkdownRemark.edges.map(edge => {
         if(!edge.node.frontmatter.target_audience.includes(theme.groupKey))return null;
         return (
@@ -42,7 +46,7 @@ const NewsFeed: React.FC = () => {
         <Container className="shadow p-4 mb-4">
           <div dangerouslySetInnerHTML={{__html: edge.node.html}}></div>
           {edge.node.frontmatter.target_audience.map(audience => <Link className="text-decoration-none" to={handleBadgeMode(audience)}><Badge bg="none"  className="m-1" style={{background: reinheritThemes[audience].MAIN_COLOR}}>{reinheritStatics[audience].LABEL}</Badge></Link>)}
-          
+          <Link to={`/content/news/${edge.node.id}?mode=${theme.mode}`}><small>Read more</small></Link>
         </Container>
         </>
       )})}
@@ -54,9 +58,10 @@ export default NewsFeed
 
 const NEWS_QUERY = graphql`
   query NewsQuery {
-    allMarkdownRemark(filter: {frontmatter: {type: {eq: "news"}}}) {
+    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/news/"}}) {
       edges {
         node {
+          id
           html
           frontmatter {
             title
@@ -79,6 +84,7 @@ declare module NewsQueryData {
 
   export interface Node {
     html: string
+    id: string
     frontmatter: Frontmatter
   }
 
