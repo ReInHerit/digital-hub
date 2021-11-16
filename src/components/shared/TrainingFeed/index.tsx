@@ -1,14 +1,32 @@
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import { Container } from "react-bootstrap"
+import { useReinSoftAuth } from "../../../hooks/contexts/useReinSoftAuth"
+import NetlifyEmbed from "../NetlifyEmbed"
 
 const TrainingFeed: React.FC = () => {
   const data: TrainingModel.Data = useStaticQuery(TRAINING_QUERY)
+  const auth = useReinSoftAuth()
 
   return (
     <>
       <h2 className="h4">Training Feed</h2>
-      <a href="/admin/admin.html#/collections/training" target="_blank">Add Training material here</a>
+      {auth.signedIn && (
+        <>
+          <a href="/admin/admin.html#/collections/training" target="_blank">
+            Add Training material here
+          </a>
+          <NetlifyEmbed
+            htmlLoc="/admin/admin.html#/collections/training/"
+            style={{
+              width: "100%",
+              height: "100vh",
+              border: "2px solid lightgrey",
+            }}
+          />
+        </>
+      )}
+
       {data.allMarkdownRemark.edges.map(edge => (
         <Container className="p-3 shadow">
           <p>{edge.node.frontmatter.title}</p>
