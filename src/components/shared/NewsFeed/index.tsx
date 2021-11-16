@@ -46,7 +46,7 @@ const NewsFeed: React.FC = () => {
         <Container className="shadow p-4 mb-4">
           <div dangerouslySetInnerHTML={{__html: edge.node.html}}></div>
           {edge.node.frontmatter.target_audience.map(audience => <Link className="text-decoration-none" to={handleBadgeMode(audience)}><Badge bg="none"  className="m-1" style={{background: reinheritThemes[audience].MAIN_COLOR}}>{reinheritStatics[audience].LABEL}</Badge></Link>)}
-          
+          <Link to={`/content/news/${edge.node.id}?mode=${theme.mode}`}><small>Read more</small></Link>
         </Container>
         </>
       )})}
@@ -61,6 +61,7 @@ const NEWS_QUERY = graphql`
     allMarkdownRemark(filter: {frontmatter: {type: {eq: "news"}}}) {
       edges {
         node {
+          id
           html
           frontmatter {
             title
@@ -83,6 +84,7 @@ declare module NewsQueryData {
 
   export interface Node {
     html: string
+    id: string
     frontmatter: Frontmatter
   }
 
