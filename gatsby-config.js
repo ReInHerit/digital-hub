@@ -29,6 +29,13 @@ module.exports = {
         path: `${__dirname}/content/`,
       },
     },
-    `gatsby-transformer-remark`
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-embed-video`
+        ],
+      },
+    }
   ]
 }
