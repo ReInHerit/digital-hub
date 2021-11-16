@@ -42,7 +42,7 @@ export default TrainingFeed
 
 const TRAINING_QUERY = graphql`
   query TrainingQuery {
-    allMarkdownRemark(filter: { frontmatter: { type: { eq: "training" } } }) {
+    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/training/"}}) {
       edges {
         node {
           html
