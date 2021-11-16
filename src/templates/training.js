@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import BaseLayout from "../../../components/static/BaseLayout"
+import BaseLayout from "../components/static/BaseLayout"
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
