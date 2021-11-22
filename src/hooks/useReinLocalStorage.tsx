@@ -1,7 +1,5 @@
 import { ReinUtils } from "../utils/ReinUtil"
 
-import React from "react";
-
 interface ReinCollectAble {
   id: string;
   value: any;
