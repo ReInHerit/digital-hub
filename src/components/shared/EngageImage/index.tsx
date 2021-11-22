@@ -3,7 +3,7 @@ import ImageEditor from "../ImageEditor"
 import { Modal, Button, Container, Card, Form } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faToolbox } from "@fortawesome/free-solid-svg-icons"
-import { useReinLocalStorage } from "../../../hooks/useLocalStorage"
+import { useReinLocalStorage } from "../../../hooks/useReinLocalStorage"
 
 interface Props {
   imgAddress: string
