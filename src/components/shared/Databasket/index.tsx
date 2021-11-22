@@ -1,6 +1,6 @@
 import React from "react"
 import { Button, ListGroup } from "react-bootstrap"
-import { useReinLocalStorage } from "../../../hooks/useReinLocalStorage"
+import { ReinCollectAble, useReinLocalStorage } from "../../../hooks/useReinLocalStorage"
 import { ReinUtils } from "../../../utils/ReinUtil"
 
 /**
@@ -31,11 +31,16 @@ const Databasket = () => {
 
   return (
     <ListGroup>
-      {collection.map(item => (
+      {collection.map((item: ReinCollectAble<unknown>) => (
+        <>
         <ListGroup.Item>
+          <h2 className="h4">{item.title}</h2>
+          <p>type: {item.type}</p>
           <p>{item.value}</p>
           <Button onClick={() => handleToggle(item)} variant="danger">-</Button>
         </ListGroup.Item>
+        <br />
+        </>
       ))}
     </ListGroup>
   )

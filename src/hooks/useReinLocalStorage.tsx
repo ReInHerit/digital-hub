@@ -1,8 +1,15 @@
 import { ReinUtils } from "../utils/ReinUtil"
 
-interface ReinCollectAble<T> {
+export interface ReinCollectAble<T> {
   id: string;
+  title: string;
+  type:"image" | "unknown"
   value: T;
+}
+
+export interface ReinImageObject {
+  src: string,
+
 }
 
 
