@@ -8,7 +8,7 @@ import { ReinUtils } from "../../../utils/ReinUtil"
  * @returns 
  */
 const Databasket = () => {
-  const { retrieveCollection, toggleItem } = useReinLocalStorage()
+  const { retrieveCollection, toggleItem } = useReinLocalStorage<boolean>()
 
   const [collection, setCollection] = React.useState([])
 
