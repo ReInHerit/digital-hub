@@ -1,10 +1,11 @@
 import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
-import { Badge, Container } from "react-bootstrap"
+import { Badge, Container, Form } from "react-bootstrap"
 import { reinheritStatics } from "../../../data/reinheritStatics";
 import { reinheritThemes } from "../../../data/reinheritThemes";
 import { useReinSoftAuth } from "../../../hooks/contexts/useReinSoftAuth";
 import { useReinTheme } from "../../../hooks/contexts/useReinTheme";
+import { useReinLocalStorage } from "../../../hooks/useReinLocalStorage";
 
 /**
  * Component reading out data from markdown files at build time using gatsby.
@@ -14,6 +15,7 @@ const NewsFeed: React.FC = () => {
   const data: NewsQueryData.Data = useStaticQuery(NEWS_QUERY);
 
   const auth = useReinSoftAuth();
+  const ReinStorage = useReinLocalStorage<boolean>();
 
   // used to display data conditionally to target audience
   const { theme } = useReinTheme();
@@ -47,6 +49,14 @@ const NewsFeed: React.FC = () => {
           <div dangerouslySetInnerHTML={{__html: edge.node.html}}></div>
           {edge.node.frontmatter.target_audience.map(audience => <Link className="text-decoration-none" to={handleBadgeMode(audience)}><Badge bg="none"  className="m-1" style={{background: reinheritThemes[audience].MAIN_COLOR}}>{reinheritStatics[audience].LABEL}</Badge></Link>)}
           <Link to={`/content/news/${edge.node.id}?mode=${theme.mode}`}><small>Read more</small></Link>
+          <br />
+          <br />
+          <Form.Check
+            type="checkbox"
+            label="Save to collection"
+            defaultChecked={ReinStorage.retrieveItem(edge.node.id) ? true : false}
+            onClick={() => ReinStorage.toggleItem({value: false, id:edge.node.id, title: edge.node.frontmatter.title, type:"news"})}
+          />
         </Container>
         </>
       )})}

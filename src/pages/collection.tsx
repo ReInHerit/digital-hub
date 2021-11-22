@@ -5,7 +5,7 @@ import BaseLayout from "../components/static/BaseLayout";
 const CollectionPage = () => {
   
   return <BaseLayout>
-    <h2>Your collection</h2>
+    <h2>My collection</h2>
     <br />
     <Databasket></Databasket>
   
