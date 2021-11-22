@@ -15,7 +15,7 @@ interface ReinCollectAble {
  * @returns
  */
 export const useReinLocalStorage: (
-  storeKey: string,
+  collectableId: string,
 ) => {
   retrieveItem: () => ReinCollectAble | null
   toggleItem: (toSave: ReinCollectAble) => void;
