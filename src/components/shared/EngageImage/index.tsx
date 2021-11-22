@@ -14,7 +14,7 @@ const EngageImage: React.FC<Props> = props => {
   // modal code
   const [show, setShow] = React.useState(false)
 
-  const ReinStorage = useReinLocalStorage(props.compId);
+  const ReinStorage = useReinLocalStorage();
 
   const handleClose = () => setShow(false)
   const handleShow = () => setShow(true)
@@ -29,7 +29,7 @@ const EngageImage: React.FC<Props> = props => {
           <Form.Check
             type="checkbox"
             label="Check me out"
-            defaultChecked={ReinStorage.retrieveItem() ? true : false}
+            defaultChecked={ReinStorage.retrieveItem(props.compId) ? true : false}
             onClick={() => ReinStorage.toggleItem({value: props.imgAddress, id:props.compId})}
           />
           Example image heading...

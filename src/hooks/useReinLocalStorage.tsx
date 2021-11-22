@@ -13,12 +13,11 @@ interface ReinCollectAble {
  * @returns
  */
 export const useReinLocalStorage: (
-  collectableId: string,
 ) => {
-  retrieveItem: () => ReinCollectAble | null
+  retrieveItem: (itemId: string) => ReinCollectAble | null
   toggleItem: (toSave: ReinCollectAble) => void;
   retrieveCollection: () => ReinCollectAble[]
-} = (collectableId) => {
+} = () => {
 
   const COLLECTION_ID = "REINHERIT_COLLECTION";
 
@@ -27,13 +26,13 @@ export const useReinLocalStorage: (
    * Returns item with corresponent id given to the hook.
    * @returns Saved item and null if nothing found. 
    */
-  const retrieveItem = () => {
+  const retrieveItem = (itemId: string) => {
     if (ReinUtils.checkSSR()) return
     
     const parsedCollection = retrieveCollection();
     if(parsedCollection.length === 0)return null;
 
-    const retrievedCollectable = parsedCollection.find(val => val.id === collectableId)
+    const retrievedCollectable = parsedCollection.find(val => val.id === itemId)
     if(!retrievedCollectable)return null;
 
     return retrievedCollectable;
@@ -70,14 +69,14 @@ export const useReinLocalStorage: (
     //const strToSave = JSON.stringify(toSave)
     //localStorage.setItem(collectableId, strToSave)
     let parsedCollection = retrieveCollection();
-    let found = parsedCollection.find(val => val.id === collectableId);
+    let found = parsedCollection.find(val => val.id === obj.id);
     if(!found){
       let newARr = JSON.parse(JSON.stringify(parsedCollection))
       newARr.push(obj);
       localStorage.setItem(COLLECTION_ID, JSON.stringify(newARr));
     } else {
       //let index = parsedCollection.indexOf(found);
-      const filtered = parsedCollection.filter(val => val.id !== collectableId);
+      const filtered = parsedCollection.filter(val => val.id !== obj.id);
       localStorage.setItem(COLLECTION_ID, JSON.stringify(filtered))
     }
   }
