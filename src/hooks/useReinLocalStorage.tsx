@@ -1,10 +1,9 @@
 import { ReinUtils } from "../utils/ReinUtil"
 
-interface ReinCollectAble {
+interface ReinCollectAble<T> {
   id: string;
-  value: any;
+  value: T;
 }
-
 
 
 /**
@@ -12,12 +11,7 @@ interface ReinCollectAble {
  * @param storeKey key used to save given item.
  * @returns
  */
-export const useReinLocalStorage: (
-) => {
-  retrieveItem: (itemId: string) => ReinCollectAble | null
-  toggleItem: (toSave: ReinCollectAble) => ReinCollectAble[];
-  retrieveCollection: () => ReinCollectAble[]
-} = () => {
+export const useReinLocalStorage = <T extends unknown> () => {
 
   const COLLECTION_ID = "REINHERIT_COLLECTION";
 
@@ -51,7 +45,7 @@ export const useReinLocalStorage: (
       localStorage.setItem(COLLECTION_ID, "[]");
       return []
     }
-    const parsedCollection: ReinCollectAble[] = JSON.parse(retrievedCollection);
+    const parsedCollection: ReinCollectAble<T>[] = JSON.parse(retrievedCollection);
     if(!parsedCollection){
       localStorage.setItem(COLLECTION_ID, "[]");
       return []
@@ -64,7 +58,7 @@ export const useReinLocalStorage: (
    * Removes / adds items according to id property and given id to the hook.
    * @param toSave Object to be saved.
    */
-  const toggleItem = (obj: ReinCollectAble) => {
+  const toggleItem = (obj: ReinCollectAble<T>): ReinCollectAble<T>[] => {
     if (ReinUtils.checkSSR()) return
     //const strToSave = JSON.stringify(toSave)
     //localStorage.setItem(collectableId, strToSave)
@@ -90,3 +84,5 @@ export const useReinLocalStorage: (
     retrieveCollection
   }
 }
+
+useReinLocalStorage<boolean>()
