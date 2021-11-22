@@ -20,20 +20,20 @@ const DataProtectionPage = () => {
 
       <Row>
         <Col md={5}>
-          <EngageImage imgAddress={url}></EngageImage>
+          <EngageImage compId="DataProtectionPage_img1" imgAddress={url}></EngageImage>
         </Col>
         <Col md={5}>
-          <EngageImage imgAddress={"https://picsum.photos/id/220/600/400"}></EngageImage>
+          <EngageImage compId="DataProtectionPage_img2" imgAddress={"https://picsum.photos/id/220/600/400"}></EngageImage>
         </Col>
       </Row>
       <br />
       <Row>
         <Col md={10}>
-        <EngageImage imgAddress={"https://picsum.photos/id/22/400/300"}></EngageImage>
+        <EngageImage compId="DataProtectionPage_img3" imgAddress={"https://picsum.photos/id/22/400/300"}></EngageImage>
         </Col>
       </Row>
       <br />
-      <EngageImage imgAddress={"https://picsum.photos/id/12/1000/1000"}></EngageImage>
+      <EngageImage compId="DataProtectionPage_img4" imgAddress={"https://picsum.photos/id/12/1000/1000"}></EngageImage>
       
 
     </BaseLayout>
