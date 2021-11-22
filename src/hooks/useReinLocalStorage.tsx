@@ -1,5 +1,7 @@
 import { ReinUtils } from "../utils/ReinUtil"
 
+import React from "react";
+
 interface ReinCollectAble {
   id: string;
   value: any;
@@ -17,11 +19,22 @@ export const useReinLocalStorage: (
 ) => {
   retrieveItem: () => ReinCollectAble | null
   toggleItem: (toSave: ReinCollectAble) => void;
-  retrieveCollection: () => ReinCollectAble[]
+  retrieveCollection: () => ReinCollectAble[];
+  collectionState: ReinCollectAble[]
 } = (collectableId) => {
 
   const COLLECTION_ID = "REINHERIT_COLLECTION";
 
+  const [ collectionState, setCollectionState ] = React.useState<ReinCollectAble[]>([]);
+
+
+  /**
+   * Sets state on mount.
+   */
+  React.useEffect(() => {
+    let storageArr = retrieveCollection()
+    setCollectionState(storageArr);
+  }, []);
 
 
   /**
@@ -75,10 +88,12 @@ export const useReinLocalStorage: (
     if(!found){
       let newARr = JSON.parse(JSON.stringify(parsedCollection))
       newARr.push(obj);
+      setCollectionState(newARr)
       localStorage.setItem(COLLECTION_ID, JSON.stringify(newARr));
     } else {
       //let index = parsedCollection.indexOf(found);
       const filtered = parsedCollection.filter(val => val.id !== collectableId);
+      setCollectionState(filtered);
       localStorage.setItem(COLLECTION_ID, JSON.stringify(filtered))
     }
   }
@@ -86,6 +101,7 @@ export const useReinLocalStorage: (
 
   return {
     retrieveItem,
+    collectionState,
     toggleItem,
     retrieveCollection
   }
