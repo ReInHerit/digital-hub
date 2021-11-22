@@ -15,7 +15,7 @@ interface ReinCollectAble {
 export const useReinLocalStorage: (
 ) => {
   retrieveItem: (itemId: string) => ReinCollectAble | null
-  toggleItem: (toSave: ReinCollectAble) => void;
+  toggleItem: (toSave: ReinCollectAble) => ReinCollectAble[];
   retrieveCollection: () => ReinCollectAble[]
 } = () => {
 
@@ -74,10 +74,12 @@ export const useReinLocalStorage: (
       let newARr = JSON.parse(JSON.stringify(parsedCollection))
       newARr.push(obj);
       localStorage.setItem(COLLECTION_ID, JSON.stringify(newARr));
+      return newARr;
     } else {
       //let index = parsedCollection.indexOf(found);
       const filtered = parsedCollection.filter(val => val.id !== obj.id);
       localStorage.setItem(COLLECTION_ID, JSON.stringify(filtered))
+      return filtered;
     }
   }
 
