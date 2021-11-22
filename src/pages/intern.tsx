@@ -2,6 +2,7 @@
 import React from "react"
 import SoftAuthForm from "../components/shared/SoftAuthForm";
 import BaseLayout from "../components/static/BaseLayout"
+import { useReinLocalStorage } from "../hooks/useReinLocalStorage";
 
 
 
@@ -11,6 +12,9 @@ import BaseLayout from "../components/static/BaseLayout"
  */
 const Intern = () => {
 
+  const { retrieveCollection } = useReinLocalStorage("none");
+
+
   return <>
     <BaseLayout>
       <h1>Internal area</h1>
@@ -19,6 +23,8 @@ const Intern = () => {
       <br />
       <SoftAuthForm></SoftAuthForm>
       
+      <ul>{retrieveCollection().map(item => <li>{item.value}</li>)}</ul>
+
     </BaseLayout>
   </>
 }

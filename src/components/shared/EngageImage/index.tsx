@@ -30,7 +30,7 @@ const EngageImage: React.FC<Props> = props => {
             type="checkbox"
             label="Check me out"
             defaultChecked={ReinStorage.retrieveItem() ? true : false}
-            onClick={() => ReinStorage.toggleItem({value: false, id:props.compId})}
+            onClick={() => ReinStorage.toggleItem({value: props.imgAddress, id:props.compId})}
           />
           Example image heading...
         </Card.Header>
