@@ -1,14 +1,16 @@
-import { faChalkboard } from "@fortawesome/free-solid-svg-icons"
+import { faLeanpub } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
 import { Card, Col, Container, Row } from "react-bootstrap"
 import { useReinSoftAuth } from "../../../hooks/contexts/useReinSoftAuth"
+import { useReinTheme } from "../../../hooks/contexts/useReinTheme"
 import NetlifyEmbed from "../NetlifyEmbed"
 
 const TrainingFeed: React.FC = () => {
   const data: TrainingModel.Data = useStaticQuery(TRAINING_QUERY)
   const auth = useReinSoftAuth()
+  const { theme } = useReinTheme();
 
   return (
     <>
@@ -33,7 +35,7 @@ const TrainingFeed: React.FC = () => {
               <Link to={`/content/training/${training.node.id}`} className="text-decoration-none text-dark">
                 <Card className="shadow rounded border-light">
                   <Card.Body>
-                    <Card.Title><FontAwesomeIcon icon={faChalkboard} size="1x"/> {training.node.frontmatter.title}</Card.Title>
+                    <Card.Title><FontAwesomeIcon icon={faLeanpub} size="1x"/> {training.node.frontmatter.title}</Card.Title>
                     <br/>
                     <Card.Text>
                       {training.node.excerpt}
