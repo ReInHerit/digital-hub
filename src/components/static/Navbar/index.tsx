@@ -48,14 +48,8 @@ const ReinNavbar: React.FC = () => {
                 <Link to={addMode("/content/training", theme.mode)} className="text-dark text-decoration-none">Training / Webinars</Link>
                 </NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown title="Content" id="collasible-nav-dropdown">
-                <NavDropdown.Item as="div" href="#action/3.4">
-                  Performance(s)
-                </NavDropdown.Item>
-                <NavDropdown.Item as="div" href="#action/3.4">
-                  E-shop(s)
-                </NavDropdown.Item>
-              </NavDropdown>
+              <Nav.Link as="div"><Link to="#" className="text-dark text-decoration-none">Performance(s)</Link></Nav.Link>
+              <Nav.Link as="div"><Link to="#" className="text-dark text-decoration-none">E-Shop</Link></Nav.Link>
             </Nav>
             <Nav>
             <Form.Select className="border-0" aria-label="Default select example" onChange={(evt) => theme.changeTheme(evt.currentTarget.value as any)}>
