@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 import SEO from "../components/seo"
 import CMSPage from "../components/shared/CMSPage"
@@ -9,6 +10,7 @@ const AboutPage = () => (
       <BaseLayout>
       <SEO title="About" />
         <h1>About page</h1>
+        <Link to="/dataprot">Image Editor test page</Link>
         <p>Content is rendered out of netlify CMS. </p>
         <p>Pages is hidden under the CMS and only listed here in the embed.</p>
         <CMSPage url="/sites/about.json"/>

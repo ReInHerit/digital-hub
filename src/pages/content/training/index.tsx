@@ -8,7 +8,8 @@ const TrainingPage = () => {
 
   return (
     <BaseLayout>
-      <h1>Training material </h1> 
+      <h1 className="h2">Training</h1>
+      <br /> 
       <TrainingFeed></TrainingFeed> 
     </BaseLayout>
   )

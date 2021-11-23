@@ -7,7 +7,7 @@ import { Col, Row, Button } from "react-bootstrap"
 const roles = ["Digital cultural heritage", "Scientific exchange", "Collaboration", "Teamwork"];
 const Hero = () => {
   return (
-    <div className="text-white" style={{background:" lightblue url('/images/ReinHerit-1.jpg') no-repeat fixed center", minHeight:"75vh"}}>
+    <div className="text-white rounded" style={{background:" lightblue url('/images/ReinHerit-1.jpg') no-repeat fixed center", minHeight:"75vh"}}>
       <br />
       <br />
       <br />
@@ -19,7 +19,7 @@ const Hero = () => {
       <br />
       <br />
       <br />
-    <Row className="p-md-3 w-75" style={{background:"rgba(0, 0, 0, 0.5)", borderLeft:"5px solid black"}}>
+    <Row className="p-md-3 w-75" style={{background:"rgba(0, 0, 0, 0.8)", borderLeft:"5px solid black"}}>
       <Col lg={12}>
         <h1><span style={{color:"rgba(52 ,  166,  194, 1)"}}>Digital Hub</span> - HORIZON 2020 ReInHerit</h1>
         <h2 className="text-lighter h3">Redefining the future of cultural heritage, through a disruptive model of sustainability</h2>

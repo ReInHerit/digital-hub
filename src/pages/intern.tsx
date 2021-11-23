@@ -1,7 +1,9 @@
 
+import { Link } from "gatsby";
 import React from "react"
 import SoftAuthForm from "../components/shared/SoftAuthForm";
 import BaseLayout from "../components/static/BaseLayout"
+import { useReinLocalStorage } from "../hooks/useReinLocalStorage";
 
 
 
@@ -11,6 +13,7 @@ import BaseLayout from "../components/static/BaseLayout"
  */
 const Intern = () => {
 
+
   return <>
     <BaseLayout>
       <h1>Internal area</h1>
@@ -18,7 +21,12 @@ const Intern = () => {
       <p>Intern area of project - e.g. access to netlify CMS etc. / manuals on how to add images on pinterest etc.</p>
       <br />
       <SoftAuthForm></SoftAuthForm>
-      
+
+      <br />
+      <br />
+      <br />
+      <Link to="/collection"> Visit your collection</Link>
+
     </BaseLayout>
   </>
 }

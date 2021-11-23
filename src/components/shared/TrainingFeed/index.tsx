@@ -1,16 +1,24 @@
+import { faLeanpub } from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
-import { Container } from "react-bootstrap"
+import { Card, Col, Container, Form, Row } from "react-bootstrap"
 import { useReinSoftAuth } from "../../../hooks/contexts/useReinSoftAuth"
+import { useReinTheme } from "../../../hooks/contexts/useReinTheme"
+import { useReinLocalStorage } from "../../../hooks/useReinLocalStorage"
+import { useReinModeTheme } from "../../../hooks/useReinModeTheme"
 import NetlifyEmbed from "../NetlifyEmbed"
+import ReinCardGrid from "../ReinCardGrid"
+import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 
 const TrainingFeed: React.FC = () => {
   const data: TrainingModel.Data = useStaticQuery(TRAINING_QUERY)
   const auth = useReinSoftAuth()
+  const ReinStorage = useReinLocalStorage<boolean>()
+  const { modeVal } = useReinModeTheme()
 
   return (
     <>
-      <h2 className="h4">Training Feed</h2>
       {auth.signedIn && (
         <>
           <a href="/admin/admin.html#/collections/training" target="_blank">
@@ -27,13 +35,53 @@ const TrainingFeed: React.FC = () => {
         </>
       )}
 
-      {data.allMarkdownRemark.edges.map(edge => (
-        <Container className="p-3 shadow">
-          <p>{edge.node.frontmatter.title}</p>
-          <div dangerouslySetInnerHTML={{ __html: edge.node.html }}></div>
-          <Link to={`/content/training/${edge.node.id}`}>Link</Link>
-        </Container>
-      ))}
+      <Row>
+        <Col className="d-none d-lg-block" lg={2}>
+          <div>
+            <b className="text-secondary">Summary</b>
+          </div>
+          <p>
+            Here you'll find a small overview ... oids pleasure itself, because
+            it is pleasure, but because those who do not know how to pursue
+            pleasure rationally encounter ...
+          </p>
+          <div>
+            <b className="text-secondary">Content</b>
+          </div>
+          <ul className="m-0 p-1 pt-0" style={{ listStyle: "none" }}>
+            {data.allMarkdownRemark.edges.map(edge => (
+              <li className="p-0 m-0">
+                <small>
+                  <Link
+                    to={`/content/training/${edge.node.id}`}
+                    className="text-dark"
+                  >
+                    {edge.node.frontmatter.title}
+                  </Link>{" "}
+                  <span className="text-muted">
+                    ({edge.node.frontmatter.date})
+                  </span>
+                </small>
+              </li>
+            ))}
+          </ul>
+        </Col>
+        <Col>
+          <ReinCardGrid>
+            {data.allMarkdownRemark.edges.map((training, i) => (
+              <ReinGridCard
+                url={`/content/training/${training.node.id}?mode=${modeVal}`}
+                title={training.node.frontmatter.title}
+                excerpt={training.node.excerpt}
+                faIcon={faLeanpub}
+                targetAudience={training.node.frontmatter.target_audience}
+                type="training"
+                uid={training.node.id}
+              ></ReinGridCard>
+            ))}
+          </ReinCardGrid>
+        </Col>
+      </Row>
     </>
   )
 }
@@ -42,11 +90,12 @@ export default TrainingFeed
 
 const TRAINING_QUERY = graphql`
   query TrainingQuery {
-    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/training/"}}) {
+    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/training/" } }) {
       edges {
         node {
           html
           id
+          excerpt
           frontmatter {
             title
             date(fromNow: true)
@@ -70,6 +119,7 @@ declare module TrainingModel {
   export interface Node {
     html: string
     id: string
+    excerpt: string
     frontmatter: Frontmatter
   }
 
