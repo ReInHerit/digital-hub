@@ -1,7 +1,11 @@
+import { faStore, faTrash } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import React from "react"
 import { Button, ListGroup } from "react-bootstrap"
 import { ReinCollectAble, useReinLocalStorage } from "../../../hooks/useReinLocalStorage"
 import { ReinUtils } from "../../../utils/ReinUtil"
+import ReinCardGrid from "../ReinCardGrid"
+import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 
 /**
  * Component handles rendering of saved content.
@@ -30,19 +34,19 @@ const Databasket = () => {
   }
 
   return (
-    <ListGroup>
+    <ReinCardGrid>
       {collection.map((item: ReinCollectAble<unknown>) => (
-        <>
-        <ListGroup.Item>
-          <h2 className="h4">{item.title}</h2>
-          <p>type: {item.type}</p>
-          <p>{item.value}</p>
-          <Button onClick={() => handleToggle(item)} variant="danger">-</Button>
-        </ListGroup.Item>
-        <br />
-        </>
+        <ReinGridCard 
+          excerpt="testexcerpt"
+          faIcon={faStore}
+          targetAudience={["visitor"]}
+          title={item.title}
+          type={item.type}
+          url={`/content/${item.type}/${item.id}`}
+          footerContent={<Button variant="light" onClick={() => handleToggle(item)}><FontAwesomeIcon icon={faTrash}/></Button>}
+        ></ReinGridCard>
       ))}
-    </ListGroup>
+    </ReinCardGrid>
   )
 }
 
