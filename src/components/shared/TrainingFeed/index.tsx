@@ -6,12 +6,16 @@ import { Card, Col, Container, Form, Row } from "react-bootstrap"
 import { useReinSoftAuth } from "../../../hooks/contexts/useReinSoftAuth"
 import { useReinTheme } from "../../../hooks/contexts/useReinTheme"
 import { useReinLocalStorage } from "../../../hooks/useReinLocalStorage"
+import { useReinModeTheme } from "../../../hooks/useReinModeTheme"
 import NetlifyEmbed from "../NetlifyEmbed"
+import ReinCardGrid from "../ReinCardGrid"
+import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 
 const TrainingFeed: React.FC = () => {
   const data: TrainingModel.Data = useStaticQuery(TRAINING_QUERY)
   const auth = useReinSoftAuth()
-  const ReinStorage = useReinLocalStorage<boolean>();
+  const ReinStorage = useReinLocalStorage<boolean>()
+  const { modeVal } = useReinModeTheme()
 
   return (
     <>
@@ -33,44 +37,51 @@ const TrainingFeed: React.FC = () => {
 
       <Row>
         <Col className="d-none d-lg-block" lg={2}>
-            <div><b className="text-secondary">Summary</b></div>
-            <p>Here you'll find a small overview ... oids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter ...</p>
-            <div><b className="text-secondary">Content</b></div>
-            <ul className="m-0 p-1 pt-0" style={{listStyle:"none"}}>{data.allMarkdownRemark.edges.map(edge => <li className="p-0 m-0"><small><Link to={`/content/training/${edge.node.id}`} className="text-dark">{edge.node.frontmatter.title}</Link> <span className="text-muted">({edge.node.frontmatter.date})</span></small></li>)}</ul>
+          <div>
+            <b className="text-secondary">Summary</b>
+          </div>
+          <p>
+            Here you'll find a small overview ... oids pleasure itself, because
+            it is pleasure, but because those who do not know how to pursue
+            pleasure rationally encounter ...
+          </p>
+          <div>
+            <b className="text-secondary">Content</b>
+          </div>
+          <ul className="m-0 p-1 pt-0" style={{ listStyle: "none" }}>
+            {data.allMarkdownRemark.edges.map(edge => (
+              <li className="p-0 m-0">
+                <small>
+                  <Link
+                    to={`/content/training/${edge.node.id}`}
+                    className="text-dark"
+                  >
+                    {edge.node.frontmatter.title}
+                  </Link>{" "}
+                  <span className="text-muted">
+                    ({edge.node.frontmatter.date})
+                  </span>
+                </small>
+              </li>
+            ))}
+          </ul>
         </Col>
         <Col>
-          <Row xs={1} md={2} xl={3} className="g-3">
-            {data.allMarkdownRemark.edges.map((training, i) => <Col key={training.node.id + "_" + i}>
-              
-                <Card className="shadow rounded border-light">
-                <Link to={`/content/training/${training.node.id}`} className="text-decoration-none text-dark">
-                  <Card.Body>
-                    <Card.Title><FontAwesomeIcon icon={faLeanpub} size="1x"/> {training.node.frontmatter.title}</Card.Title>
-                    <br/>
-                    <Card.Text>
-                      {training.node.excerpt}
-                    </Card.Text>
-                    <br></br>
-                    {/* <FontAwesomeIcon icon={assignFa(key as keyof REINHERIT_AUDIENCE)} size="2x"/> */}
-                  </Card.Body>
-                  </Link>
-                  <Card.Footer className="bg-light border-0">
-                      <small className="text-muted d-inline">{training.node.frontmatter.target_audience.map(aud => `${aud} `)}
-                      <Form.Check
-                        type="checkbox"
-                        label="(save to personal collection)"
-                        defaultChecked={ReinStorage.retrieveItem(training.node.id) ? true : false}
-                        onClick={() => ReinStorage.toggleItem({value: false, id:training.node.id, title: training.node.frontmatter.title, type:"training"})}
-                      /></small>
-                    </Card.Footer>
-                </Card>
-              
-            </Col>)}
-          </Row>
+          <ReinCardGrid>
+            {data.allMarkdownRemark.edges.map((training, i) => (
+              <ReinGridCard
+                url={`/content/training/${training.node.id}?mode=${modeVal}`}
+                title={training.node.frontmatter.title}
+                excerpt={training.node.excerpt}
+                faIcon={faLeanpub}
+                targetAudience={training.node.frontmatter.target_audience}
+                type="training"
+                uid={training.node.id}
+              ></ReinGridCard>
+            ))}
+          </ReinCardGrid>
         </Col>
       </Row>
-      
-
     </>
   )
 }
@@ -79,7 +90,7 @@ export default TrainingFeed
 
 const TRAINING_QUERY = graphql`
   query TrainingQuery {
-    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/training/"}}) {
+    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/training/" } }) {
       edges {
         node {
           html
