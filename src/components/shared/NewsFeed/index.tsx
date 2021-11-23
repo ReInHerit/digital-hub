@@ -62,7 +62,7 @@ const NewsFeed: React.FC = () => {
             faIcon={faRss}
             targetAudience={edge.node.frontmatter.target_audience}
             title={edge.node.frontmatter.title}
-            type="testtype"
+            type="news"
             url={`/content/news/${edge.node.id}?mode=${theme.mode}`}
             uid={edge.node.id}
           ></ReinGridCard>
