@@ -33,6 +33,9 @@ const TrainingFeed: React.FC = () => {
 
       <Row>
         <Col className="d-none d-lg-block" lg={2}>
+            <div><b className="text-secondary">Summary</b></div>
+            <p>Here you'll find a small overview ... oids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter ...</p>
+            <div><b className="text-secondary">Content</b></div>
             <ul className="m-0 p-1 pt-0" style={{listStyle:"none"}}>{data.allMarkdownRemark.edges.map(edge => <li className="p-0 m-0"><small><Link to={`/content/training/${edge.node.id}`} className="text-dark">{edge.node.frontmatter.title}</Link> <span className="text-muted">({edge.node.frontmatter.date})</span></small></li>)}</ul>
         </Col>
         <Col>

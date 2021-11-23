@@ -16,19 +16,19 @@ export default function Template({
           <Row>
             <Col lg={2}>
 
-              <div><b>Author(s)</b></div>
+              <div><b className="text-secondary">Author(s)</b></div>
               <div>Max Mustermann</div>
               <br/>
 
-              <div><b>Date</b></div>
+              <div><b className="text-secondary">Date</b></div>
               <div>{frontmatter.date}</div>
               <br/>
 
-              <div><b>Cite as</b></div>
+              <div><b className="text-secondary">Cite as</b></div>
               <div>"Mustermann, Max; Doing development, ... "</div>
               <br/>
 
-              <div><b>Terms or reuse</b></div>
+              <div><b className="text-secondary">Terms or reuse</b></div>
               <div>MIT - CC BY 4.0</div>
               <br/>
             </Col>
