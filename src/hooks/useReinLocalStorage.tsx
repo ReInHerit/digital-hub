@@ -3,7 +3,7 @@ import { ReinUtils } from "../utils/ReinUtil"
 export interface ReinCollectAble<T> {
   id: string;
   title: string;
-  type:"image" | "news" | "unknown"
+  type:"image" | "news" | "unknown" | "training"
   value: T;
 }
 

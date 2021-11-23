@@ -2,15 +2,16 @@ import { faLeanpub } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
-import { Card, Col, Container, Row } from "react-bootstrap"
+import { Card, Col, Container, Form, Row } from "react-bootstrap"
 import { useReinSoftAuth } from "../../../hooks/contexts/useReinSoftAuth"
 import { useReinTheme } from "../../../hooks/contexts/useReinTheme"
+import { useReinLocalStorage } from "../../../hooks/useReinLocalStorage"
 import NetlifyEmbed from "../NetlifyEmbed"
 
 const TrainingFeed: React.FC = () => {
   const data: TrainingModel.Data = useStaticQuery(TRAINING_QUERY)
   const auth = useReinSoftAuth()
-  const { theme } = useReinTheme();
+  const ReinStorage = useReinLocalStorage<boolean>();
 
   return (
     <>
@@ -37,8 +38,9 @@ const TrainingFeed: React.FC = () => {
         <Col>
           <Row xs={1} md={2} xl={3} className="g-3">
             {data.allMarkdownRemark.edges.map((training, i) => <Col key={training.node.id + "_" + i}>
-              <Link to={`/content/training/${training.node.id}`} className="text-decoration-none text-dark">
+              
                 <Card className="shadow rounded border-light">
+                <Link to={`/content/training/${training.node.id}`} className="text-decoration-none text-dark">
                   <Card.Body>
                     <Card.Title><FontAwesomeIcon icon={faLeanpub} size="1x"/> {training.node.frontmatter.title}</Card.Title>
                     <br/>
@@ -48,11 +50,18 @@ const TrainingFeed: React.FC = () => {
                     <br></br>
                     {/* <FontAwesomeIcon icon={assignFa(key as keyof REINHERIT_AUDIENCE)} size="2x"/> */}
                   </Card.Body>
+                  </Link>
                   <Card.Footer className="bg-light border-0">
-                      {training.node.frontmatter.target_audience.map(aud => <small className="text-muted">{aud}-</small>)}
+                      <small className="text-muted d-inline">{training.node.frontmatter.target_audience.map(aud => `${aud} `)}
+                      <Form.Check
+                        type="checkbox"
+                        label="(save to personal collection)"
+                        defaultChecked={ReinStorage.retrieveItem(training.node.id) ? true : false}
+                        onClick={() => ReinStorage.toggleItem({value: false, id:training.node.id, title: training.node.frontmatter.title, type:"training"})}
+                      /></small>
                     </Card.Footer>
                 </Card>
-              </Link>
+              
             </Col>)}
           </Row>
         </Col>
