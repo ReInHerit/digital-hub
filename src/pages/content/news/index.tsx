@@ -9,12 +9,11 @@ const NewsPage: React.FC = () => {
   return (
     <BaseLayout>
       <Row>
-        <Col lg={7}>
+        <Col lg={12}>
         <h1>News</h1>
           <NewsFeed/>
         </Col>
-        <Col lg={2} md={0}></Col>
-        <Col>
+        {/* <Col>
           <Container className="shadow p-4">
             <h2 className="h5">Stuff happening somewhere else</h2>
             <p>Social media</p>
@@ -24,7 +23,7 @@ const NewsPage: React.FC = () => {
             <h2 className="h5">Got to XYZ</h2>
             <p>Social media</p>
           </Container>
-        </Col>
+        </Col> */}
       </Row>
     </BaseLayout>
   )
