@@ -1,6 +1,6 @@
 
 * {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  font-family: Roboto,system-ui,sans-serif !important;
 }
 
 @media (min-width: 1400px) {
