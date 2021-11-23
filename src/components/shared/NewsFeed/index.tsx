@@ -68,27 +68,6 @@ const NewsFeed: React.FC = () => {
           ></ReinGridCard>
         )})}
       </ReinCardGrid>
-
-      {/* {data.allMarkdownRemark.edges.map(edge => {
-        if(!edge.node.frontmatter.target_audience.includes(theme.groupKey))return null;
-        return (
-        <>
-        <h2 className="h6"><small>{edge.node.frontmatter.title}</small></h2>
-        <Container className="shadow p-4 mb-4">
-          <div dangerouslySetInnerHTML={{__html: edge.node.html}}></div>
-          {edge.node.frontmatter.target_audience.map(audience => <Link className="text-decoration-none" to={handleBadgeMode(audience)}><Badge bg="none"  className="m-1" style={{background: reinheritThemes[audience].MAIN_COLOR}}>{reinheritStatics[audience].LABEL}</Badge></Link>)}
-          <Link to={`/content/news/${edge.node.id}?mode=${theme.mode}`}><small>Read more</small></Link>
-          <br />
-          <br />
-          <Form.Check
-            type="checkbox"
-            label="Save to collection"
-            defaultChecked={ReinStorage.retrieveItem(edge.node.id) ? true : false}
-            onClick={() => ReinStorage.toggleItem({value: false, id:edge.node.id, title: edge.node.frontmatter.title, type:"news"})}
-          />
-        </Container>
-        </>
-      )})} */}
     </>
   )
 }
