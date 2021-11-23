@@ -7,7 +7,7 @@ import { Col, Row, Button } from "react-bootstrap"
 const roles = ["Digital cultural heritage", "Scientific exchange", "Collaboration", "Teamwork"];
 const Hero = () => {
   return (
-    <div className="text-white" style={{background:" lightblue url('/images/ReinHerit-1.jpg') no-repeat fixed center", minHeight:"75vh"}}>
+    <div className="text-white rounded" style={{background:" lightblue url('/images/ReinHerit-1.jpg') no-repeat fixed center", minHeight:"75vh"}}>
       <br />
       <br />
       <br />
