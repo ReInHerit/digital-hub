@@ -1,4 +1,4 @@
-import { faStore, faTrash } from "@fortawesome/free-solid-svg-icons"
+import { faDatabase, faTrash } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import React from "react"
 import { Button, ListGroup } from "react-bootstrap"
@@ -38,12 +38,12 @@ const Databasket = () => {
       {collection.map((item: ReinCollectAble<unknown>) => (
         <ReinGridCard 
           excerpt="testexcerpt"
-          faIcon={faStore}
+          faIcon={faDatabase}
           targetAudience={["visitor"]}
           title={item.title}
           type={item.type}
           url={`/content/${item.type}/${item.id}`}
-          footerContent={<Button variant="light" onClick={() => handleToggle(item)}><FontAwesomeIcon icon={faTrash}/></Button>}
+          footerContent={<Button variant="light" onClick={() => handleToggle(item)}><FontAwesomeIcon color="lightgrey" icon={faTrash}/></Button>}
         ></ReinGridCard>
       ))}
     </ReinCardGrid>
