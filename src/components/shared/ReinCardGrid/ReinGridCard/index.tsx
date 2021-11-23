@@ -1,0 +1,55 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "gatsby";
+import React from "react";
+import { Card, Col, Form } from "react-bootstrap";
+import { useReinLocalStorage } from "../../../../hooks/useReinLocalStorage";
+
+interface Props {
+  uid: string,
+  url: string,
+  title: string,
+  type: string,
+  excerpt: string,
+  targetAudience: string[]
+  faIcon: any
+}
+
+/**
+ * To be used in combination with ReinCardGrid.
+ * @param props 
+ * @returns 
+ */
+const ReinGridCard: React.FC<Props> = (props) => {
+
+  const ReinStorage = useReinLocalStorage();
+
+  return <Col key={props.uid}>
+    
+      <Card className="shadow rounded border-light">
+      <Link to={props.url} className="text-decoration-none text-dark">
+        <Card.Body>
+          <Card.Title><FontAwesomeIcon icon={props.faIcon} size="1x"/> {props.title}</Card.Title>
+          <br/>
+          <Card.Text>
+            {props.excerpt}
+          </Card.Text>
+          <br></br>
+          {/* <FontAwesomeIcon icon={assignFa(key as keyof REINHERIT_AUDIENCE)} size="2x"/> */}
+        </Card.Body>
+        </Link>
+        <Card.Footer className="bg-light border-0">
+            <small className="text-muted d-inline">{props.targetAudience.map(aud => `${aud} `)}
+            <Form.Check
+              type="checkbox"
+              label="(save to personal collection)"
+              defaultChecked={ReinStorage.retrieveItem(props.uid) ? true : false}
+              onClick={() => ReinStorage.toggleItem({value: false, id:props.uid, title: props.title, type:props.type as any})}
+            /></small>
+          </Card.Footer>
+      </Card>
+    
+  </Col>
+}
+
+
+export default ReinGridCard;
