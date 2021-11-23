@@ -1,6 +1,8 @@
+import { faChalkboard } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
-import { Container } from "react-bootstrap"
+import { Card, Col, Container, Row } from "react-bootstrap"
 import { useReinSoftAuth } from "../../../hooks/contexts/useReinSoftAuth"
 import NetlifyEmbed from "../NetlifyEmbed"
 
@@ -10,7 +12,6 @@ const TrainingFeed: React.FC = () => {
 
   return (
     <>
-      <h2 className="h4">Training Feed</h2>
       {auth.signedIn && (
         <>
           <a href="/admin/admin.html#/collections/training" target="_blank">
@@ -27,13 +28,27 @@ const TrainingFeed: React.FC = () => {
         </>
       )}
 
-      {data.allMarkdownRemark.edges.map(edge => (
-        <Container className="p-3 shadow">
-          <p>{edge.node.frontmatter.title}</p>
-          <div dangerouslySetInnerHTML={{ __html: edge.node.html }}></div>
-          <Link to={`/content/training/${edge.node.id}`}>Link</Link>
-        </Container>
-      ))}
+      <Row xs={1} md={2} xl={3} className="g-3">
+            {data.allMarkdownRemark.edges.map((training, i) => <Col key={training.node.id + "_" + i}>
+              <Link to={`/content/training/${training.node.id}`} className="text-decoration-none text-dark">
+                <Card className="shadow rounded border-light">
+                  <Card.Body>
+                    <Card.Title><FontAwesomeIcon icon={faChalkboard} size="1x"/> {training.node.frontmatter.title}</Card.Title>
+                    <br/>
+                    <Card.Text>
+                      {training.node.excerpt}
+                    </Card.Text>
+                    <br></br>
+                    {/* <FontAwesomeIcon icon={assignFa(key as keyof REINHERIT_AUDIENCE)} size="2x"/> */}
+                  </Card.Body>
+                  <Card.Footer className="bg-light border-0">
+                      {training.node.frontmatter.target_audience.map(aud => <small className="text-muted">{aud}-</small>)}
+                    </Card.Footer>
+                </Card>
+              </Link>
+            </Col>)}
+          </Row>
+
     </>
   )
 }
@@ -47,6 +62,7 @@ const TRAINING_QUERY = graphql`
         node {
           html
           id
+          excerpt
           frontmatter {
             title
             date(fromNow: true)
@@ -70,6 +86,7 @@ declare module TrainingModel {
   export interface Node {
     html: string
     id: string
+    excerpt: string
     frontmatter: Frontmatter
   }
 
