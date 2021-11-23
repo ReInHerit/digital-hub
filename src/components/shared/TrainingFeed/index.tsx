@@ -30,7 +30,12 @@ const TrainingFeed: React.FC = () => {
         </>
       )}
 
-      <Row xs={1} md={2} xl={3} className="g-3">
+      <Row>
+        <Col className="d-none d-lg-block" lg={2}>
+            <ul className="m-0 p-1 pt-0" style={{listStyle:"none"}}>{data.allMarkdownRemark.edges.map(edge => <li className="p-0 m-0"><small><Link to={`/content/training/${edge.node.id}`} className="text-dark">{edge.node.frontmatter.title}</Link> <span className="text-muted">({edge.node.frontmatter.date})</span></small></li>)}</ul>
+        </Col>
+        <Col>
+          <Row xs={1} md={2} xl={3} className="g-3">
             {data.allMarkdownRemark.edges.map((training, i) => <Col key={training.node.id + "_" + i}>
               <Link to={`/content/training/${training.node.id}`} className="text-decoration-none text-dark">
                 <Card className="shadow rounded border-light">
@@ -50,6 +55,9 @@ const TrainingFeed: React.FC = () => {
               </Link>
             </Col>)}
           </Row>
+        </Col>
+      </Row>
+      
 
     </>
   )
