@@ -12,7 +12,8 @@ interface Props {
   excerpt: string,
   targetAudience: string[]
   faIcon: any;
-  footerContent?: JSX.Element
+  footerContent?: JSX.Element;
+  children?: any
 }
 
 /**
@@ -35,6 +36,7 @@ const ReinGridCard: React.FC<Props> = (props) => {
           </Card.Text>
           <br></br>
           {/* <FontAwesomeIcon icon={assignFa(key as keyof REINHERIT_AUDIENCE)} size="2x"/> */}
+          {props.children}
         </Card.Body>
         </Link>
         <Card.Footer className="bg-light border-0">
