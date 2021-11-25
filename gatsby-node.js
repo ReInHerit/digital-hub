@@ -1,29 +1,28 @@
 const path = require('path');
 const fs = require('fs'); //import filesystem module
 const express = require('express');
+const pageIdJSON = require('./static/pageIds.json');
 
 // needed as outer scope variables
 let _remarkTypeCountId = null;
-let _newsCount = 1;
-let _trainCount = 1;
+let _newsCount = pageIdJSON;
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
 
-  if(!node.frontmatter)return;
-  if(!node.frontmatter.type)return;
+  if (node.internal.type !== "MarkdownRemark")return;
 
-  switch(node.frontmatter.type){
-    case "news":
-      _remarkTypeCountId = `n${_newsCount}`;
-      _newsCount++;
-      break;
-    case "training":
-      _remarkTypeCountId = `t${_trainCount}`;
-      _trainCount++;
-      break;
-    default:
-      _remarkTypeCountId = null
-      break
+
+  let filePathId = node.fileAbsolutePath.split("/content/")[1]
+
+  let firstCharType = node.frontmatter.type[0]
+
+  // improve here https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/
+  if(!_newsCount.includes(filePathId)){
+    _newsCount.push(filePathId);
+    _remarkTypeCountId = `${firstCharType}${_newsCount.length}`;  
+  } else {
+    let index = _newsCount.indexOf(filePathId) + 1;
+    _remarkTypeCountId = `${firstCharType}${index}`;  
   }
 
   createNodeField({
@@ -32,6 +31,31 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     value: _remarkTypeCountId
   })
   
+  let newJson = pageIdJSON
+  newJson = _newsCount;
+
+  fs.writeFileSync(`.${path.sep}static${path.sep}pageIds.json`, JSON.stringify(newJson));
+
+}
+
+
+/**
+ * Write down filenames as key -> 
+ */
+const handleStablePageId = (key, toWrite) => {
+  let pageIdMap = JSON.parse(pageIdJSON);
+  let pageIdVal = null;
+
+  try {
+    pageIdVal = pageIdMap[key];
+  } catch(e){
+    pageIdMap[key] = toWrite;
+    fs.writeFileSync(`.${path.sep}static${path.sep}pageIds.json`, JSON.stringify(pageIdMap));
+    pageIdVal = toWrite;
+  } finally {
+    return pageIdVal
+  }
+
 
 }
 
