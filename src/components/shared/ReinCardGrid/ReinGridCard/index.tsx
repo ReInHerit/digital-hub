@@ -26,11 +26,10 @@ const ReinGridCard: React.FC<Props> = (props) => {
 
   return <Col key={props.uid && props.uid}>
     
-      <Card className="shadow rounded border-light">
+      <Card className="shadow rounded border-light" style={{fontSize: ".95em"}}>
       <Link to={props.url} className="text-decoration-none text-dark">
         <Card.Body>
-          <Card.Title><FontAwesomeIcon icon={props.faIcon} size="1x"/> {props.title}</Card.Title>
-          <br/>
+          <Card.Title style={{fontSize:"1.2em"}}><FontAwesomeIcon icon={props.faIcon} size="1x"/> {props.title}</Card.Title>
           <Card.Text>
             {props.excerpt}
           </Card.Text>
