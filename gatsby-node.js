@@ -2,6 +2,40 @@ const path = require('path');
 const fs = require('fs'); //import filesystem module
 const express = require('express');
 
+// needed as outer scope variables
+let _remarkTypeCountId = null;
+let _newsCount = 1;
+let _trainCount = 1;
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
+
+  if(!node.frontmatter)return;
+  if(!node.frontmatter.type)return;
+
+  switch(node.frontmatter.type){
+    case "news":
+      _remarkTypeCountId = `n${_newsCount}`;
+      _newsCount++;
+      break;
+    case "training":
+      _remarkTypeCountId = `t${_trainCount}`;
+      _trainCount++;
+      break;
+    default:
+      _remarkTypeCountId = null
+      break
+  }
+
+  createNodeField({
+    node,
+    name:"typeCountId",
+    value: _remarkTypeCountId
+  })
+  
+
+}
+
+
 module.exports.createPages = async ({ graphql, actions}) => {
 
   // adding markdown as training
@@ -11,40 +45,48 @@ module.exports.createPages = async ({ graphql, actions}) => {
         edges {
           node {
             id
+            fields {
+              typeCountId
+            }
           }
         }
       }
     }
   
   `)
-  res.data.allMarkdownRemark.edges.forEach(edge => {
-    const mdId = edge.node.id
+  res.data.allMarkdownRemark.edges.forEach((edge) => {
+    // id is added by my own to node inside onCreateNode
+    const mdId = edge.node.fields.typeCountId
     actions.createPage({
       path: `/content/training/${mdId}`,
       component: require.resolve(`./src/templates/training.js`),
-      context: { id: mdId },
+      context: { id: edge.node.id },
     })
   })
 
   // adding news data from markdown
   const { data } = await graphql(`
-    query MyQuery {
-      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/news/"}}) {
-        edges {
-          node {
-            id
+  query MyQuery {
+    allMarkdownRemark(filter: {frontmatter: {type: {eq: "news"}}}) {
+      edges {
+        node {
+          id
+          fields {
+            typeCountId
           }
         }
       }
     }
+  }
+  
   
   `)
   data.allMarkdownRemark.edges.forEach(edge => {
-    const mdId = edge.node.id
+    const mdId = edge.node.fields.typeCountId
     actions.createPage({
       path: `/content/news/${mdId}`,
       component: require.resolve(`./src/templates/training.js`),
-      context: { id: mdId },
+      context: { id: edge.node.id },
     })
   })
 
