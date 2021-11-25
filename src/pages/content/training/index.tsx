@@ -1,5 +1,4 @@
 import React from "react";
-import NetlifyEmbed from "../../../components/shared/NetlifyEmbed";
 import TrainingFeed from "../../../components/shared/TrainingFeed";
 import BaseLayout from "../../../components/static/BaseLayout";
 
