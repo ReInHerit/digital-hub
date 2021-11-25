@@ -5,7 +5,7 @@ const pageIdJSON = require('./static/pageIds.json');
 
 // needed as outer scope variables
 let _remarkTypeCountId = null;
-let _newsCount = pageIdJSON;
+let _filePathArray = pageIdJSON;
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
 
@@ -17,11 +17,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   let firstCharType = node.frontmatter.type[0]
 
   // improve here https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/
-  if(!_newsCount.includes(filePathId)){
-    _newsCount.push(filePathId);
-    _remarkTypeCountId = `${firstCharType}${_newsCount.length}`;  
+  if(!_filePathArray.includes(filePathId)){
+    _filePathArray.push(filePathId);
+    _remarkTypeCountId = `${firstCharType}${_filePathArray.length}`;  
   } else {
-    let index = _newsCount.indexOf(filePathId) + 1;
+    let index = _filePathArray.indexOf(filePathId) + 1;
     _remarkTypeCountId = `${firstCharType}${index}`;  
   }
 
@@ -30,11 +30,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     name:"typeCountId",
     value: _remarkTypeCountId
   })
-  
-  let newJson = pageIdJSON
-  newJson = _newsCount;
 
-  fs.writeFileSync(`.${path.sep}static${path.sep}pageIds.json`, JSON.stringify(newJson));
+  fs.writeFileSync(`.${path.sep}static${path.sep}pageIds.json`, JSON.stringify(_filePathArray));
 
 }
 
