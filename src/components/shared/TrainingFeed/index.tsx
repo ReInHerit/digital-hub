@@ -70,13 +70,14 @@ const TrainingFeed: React.FC = () => {
         <ReinCardGrid>
           {data.allMarkdownRemark.edges.map((training, i) => (
             <ReinGridCard
-              url={`/content/training/${training.node.id}?mode=${modeVal}`}
+              key={training.node.id}
+              url={`/content/training/${training.node.fields.typeCountId}?mode=${modeVal}`}
               title={training.node.frontmatter.title}
               excerpt={training.node.excerpt}
               faIcon={faLeanpub}
               targetAudience={training.node.frontmatter.target_audience}
               type="training"
-              uid={training.node.id}
+              uid={training.node.fields.typeCountId}
             ></ReinGridCard>
           ))}
         </ReinCardGrid>
@@ -95,6 +96,9 @@ const TRAINING_QUERY = graphql`
           html
           id
           excerpt
+          fields {
+            typeCountId
+          }
           frontmatter {
             title
             date(fromNow: true)
@@ -119,7 +123,10 @@ declare module TrainingModel {
     html: string
     id: string
     excerpt: string
-    frontmatter: Frontmatter
+    frontmatter: Frontmatter,
+    fields: {
+      typeCountId: string
+    }
   }
 
   export interface Edge {
