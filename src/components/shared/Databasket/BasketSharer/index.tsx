@@ -1,4 +1,4 @@
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, navigate, useStaticQuery } from "gatsby";
 import React from "react";
 import { ReinUtils } from "../../../../utils/ReinUtil";
 
@@ -32,13 +32,21 @@ const BasketSharer: React.FC<Props> = (props) => {
       return {
           id: edge.node.fields.typeCountId,
           title: edge.node.frontmatter.title,
-          type: edge.node.frontmatter.target_audience
+          type: edge.node.frontmatter.type
       }
     })
 
     props.import(refactored);
+
     // would also need to write to local storage
-    console.log("SET TO: ", refactored);
+    
+
+    // reset query param + remove from history?
+    //curUrl.searchParams.set("basket", "");
+    curUrl.searchParams.delete("basket");
+    navigate(curUrl.toString());
+    //window.location.href = curUrl.toString();
+
 
   }, [])
 
