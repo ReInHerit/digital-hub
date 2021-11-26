@@ -58,14 +58,15 @@ const NewsFeed: React.FC = () => {
           if(!edge.node.frontmatter.target_audience.includes(theme.groupKey))return null;
           return (
           <ReinGridCard
+            key={edge.node.fields.typeCountId}
             excerpt={edge.node.excerpt}
             faIcon={faRss}
             targetAudience={edge.node.frontmatter.target_audience}
             title={edge.node.frontmatter.title}
             type="news"
-            url={`/content/news/${edge.node.id}?mode=${theme.mode}`}
-            uid={edge.node.id}
-          ></ReinGridCard>
+            url={`/content/news/${edge.node.fields.typeCountId}?mode=${theme.mode}`}
+            uid={edge.node.fields.typeCountId}
+          ><span>{edge.node.fields.typeCountId}</span></ReinGridCard>
         )})}
       </ReinCardGrid>
     </>
@@ -82,6 +83,9 @@ const NEWS_QUERY = graphql`
           id
           html
           excerpt
+          fields {
+            typeCountId
+          },
           frontmatter {
             title
             date(fromNow: true)
@@ -106,6 +110,9 @@ declare module NewsQueryData {
     id: string
     excerpt: string
     frontmatter: Frontmatter
+    fields: {
+      typeCountId: string
+    }
   }
 
   export interface Edge {
