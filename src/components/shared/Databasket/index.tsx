@@ -44,8 +44,23 @@ const Databasket = () => {
     saveCollection(data);
   }
 
+
+  /**
+   * Method for sharing current collection via link.
+   * @returns 
+   */
+  const buildShareLink = () => {
+    if(ReinUtils.checkSSR())return;
+    let curUrl = new URL(window.location.href);
+    let basketVal = collection.map(item => item.id).join(",");
+    curUrl.searchParams.set("basket",basketVal);
+    alert(curUrl.toString());
+  }
+
+
   return (
     <>
+    <Button variant="secondary" onClick={buildShareLink}>Share my collection</Button>
     { collection.length !== 0 && <BasketSharer import={handleImport}></BasketSharer>}
     <ReinCardGrid>
       {collection.map((item: ReinCollectAble<unknown>) => (
