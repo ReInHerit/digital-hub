@@ -42,6 +42,18 @@ export const useReinLocalStorage = <T extends unknown> () => {
 
 
   /**
+   * Overwrites / saves collection to Reinherit namespace.
+   * @param data Data to be saved to local storage.
+   * @returns 
+   */
+  const saveCollection = (data: ReinCollectAble<T>[]) => {
+    if(ReinUtils.checkSSR())return;
+    localStorage.setItem(COLLECTION_ID, JSON.stringify(data));
+
+  }
+
+
+  /**
    * Returns the complete saved collection inside the local storage.
    * @returns Array of Objects.
    */
@@ -88,7 +100,8 @@ export const useReinLocalStorage = <T extends unknown> () => {
   return {
     retrieveItem,
     toggleItem,
-    retrieveCollection
+    retrieveCollection,
+    saveCollection
   }
 }
 
