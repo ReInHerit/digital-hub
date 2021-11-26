@@ -20,8 +20,8 @@ const BasketSharer: React.FC<Props> = (props) => {
     let wantsImport = confirm("Datected values: do you want to import?");
     if(!wantsImport)return;
 
-    // 1,2,4,5,6,2,2,3,
-    let parsedVals = basketParamVal.split(",");
+    // needs to be decoded
+    let parsedVals = decodeURIComponent(basketParamVal).split(",");
 
     console.log(parsedVals, data);
 
