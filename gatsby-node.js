@@ -10,6 +10,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
   // 
   // Assigns unique and stable ids to all generated markdown pages. 
+  // Saves and loads values to json file to keep values stable across build processes 
   // adds leading character that describes type of given item.
   //
 
