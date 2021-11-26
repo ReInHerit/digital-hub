@@ -6,14 +6,15 @@ const mdPagesArray = require('./static/pageIds.json');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-
   if (node.internal.type !== "MarkdownRemark")return;
 
-  // id is set later on
+  // 
+  // Assigns unique and stable ids to all generated markdown pages. 
+  // adds leading character that describes type of given item.
+  //
+
   let _remarkTypeCountId = null;
-
   let filePathId = node.fileAbsolutePath.split("/content/")[1]
-
   let firstCharType = node.frontmatter.type[0]
 
   // improve here https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/
@@ -32,27 +33,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   })
 
   fs.writeFileSync(`.${path.sep}static${path.sep}pageIds.json`, JSON.stringify(mdPagesArray));
-
-}
-
-
-/**
- * Write down filenames as key -> 
- */
-const handleStablePageId = (key, toWrite) => {
-  let pageIdMap = JSON.parse(pageIdJSON);
-  let pageIdVal = null;
-
-  try {
-    pageIdVal = pageIdMap[key];
-  } catch(e){
-    pageIdMap[key] = toWrite;
-    fs.writeFileSync(`.${path.sep}static${path.sep}pageIds.json`, JSON.stringify(pageIdMap));
-    pageIdVal = toWrite;
-  } finally {
-    return pageIdVal
-  }
-
 
 }
 
