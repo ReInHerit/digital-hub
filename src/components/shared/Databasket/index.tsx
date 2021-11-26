@@ -13,7 +13,7 @@ import BasketSharer from "./BasketSharer"
  * @returns 
  */
 const Databasket = () => {
-  const { retrieveCollection, toggleItem } = useReinLocalStorage<boolean>()
+  const { retrieveCollection, toggleItem, saveCollection } = useReinLocalStorage<unknown>()
 
   const [collection, setCollection] = React.useState([])
 
@@ -34,9 +34,19 @@ const Databasket = () => {
     setCollection(newArr)
   }
 
+  /**
+   * Updates state and saves value to local storage.
+   * @param data Data to be saved
+   */
+  const handleImport = (data: ReinCollectAble<unknown>[]) => {
+    if(ReinUtils.checkSSR())return;
+    setCollection(data);
+    saveCollection(data);
+  }
+
   return (
     <>
-    { collection.length !== 0 && <BasketSharer import={setCollection}></BasketSharer>}
+    { collection.length !== 0 && <BasketSharer import={handleImport}></BasketSharer>}
     <ReinCardGrid>
       {collection.map((item: ReinCollectAble<unknown>) => (
         <ReinGridCard 
