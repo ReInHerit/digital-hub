@@ -16,15 +16,14 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
   let _remarkTypeCountId = null;
   let filePathId = node.fileAbsolutePath.split("/content/")[1]
-  let firstCharType = node.frontmatter.type[0]
 
   // improve here https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/
   if(!mdPagesArray.includes(filePathId)){
     mdPagesArray.push(filePathId);
-    _remarkTypeCountId = `${firstCharType}${mdPagesArray.length}`;  
+    _remarkTypeCountId = mdPagesArray.length;  
   } else {
     let index = mdPagesArray.indexOf(filePathId) + 1;
-    _remarkTypeCountId = `${firstCharType}${index}`;  
+    _remarkTypeCountId = index;  
   }
 
   createNodeField({
