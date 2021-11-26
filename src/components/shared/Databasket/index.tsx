@@ -6,6 +6,7 @@ import { ReinCollectAble, useReinLocalStorage } from "../../../hooks/useReinLoca
 import { ReinUtils } from "../../../utils/ReinUtil"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
+import BasketSharer from "./BasketSharer"
 
 /**
  * Component handles rendering of saved content.
@@ -34,6 +35,8 @@ const Databasket = () => {
   }
 
   return (
+    <>
+    { collection.length !== 0 && <BasketSharer import={setCollection}></BasketSharer>}
     <ReinCardGrid>
       {collection.map((item: ReinCollectAble<unknown>) => (
         <ReinGridCard 
@@ -47,6 +50,7 @@ const Databasket = () => {
         ></ReinGridCard>
       ))}
     </ReinCardGrid>
+    </>
   )
 }
 
