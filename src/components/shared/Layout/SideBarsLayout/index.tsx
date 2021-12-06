@@ -2,7 +2,7 @@ import React from "react"
 import { Col, Row } from "react-bootstrap"
 
 interface Props {
-  children: JSX.Element
+  children: JSX.Element | JSX.Element[]
   left?: JSX.Element
   right?: JSX.Element
 }
