@@ -55,7 +55,7 @@ const ReinNavbar: React.FC = () => {
             <Form.Select className="border-0" aria-label="Default select example" onChange={(evt) => theme.changeTheme(evt.currentTarget.value as any)}>
               {Object.entries(reinheritStatics).map(([key, propVal]) => <option key={`restmode_select_${propVal.REST_MODE_VAL}`} selected={theme.mode === propVal.REST_MODE_VAL} value={propVal.REST_MODE_VAL}>{propVal.LABEL}</option>)}
             </Form.Select>
-              <Nav.Link as="div"><Link to={addMode("/about", theme.mode)} className="text-dark text-decoration-none">About</Link></Nav.Link>
+              <Nav.Link as="div"><Link to={addMode("/doc", theme.mode)} className="text-dark text-decoration-none">Documentation</Link></Nav.Link>
               <Nav.Link as="div" eventKey={2}>
                 <Link to={addMode("/intern", theme.mode)} className="text-dark text-decoration-none">Admin</Link>
               </Nav.Link>
