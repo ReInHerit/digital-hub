@@ -15,7 +15,7 @@ interface Props {
 const SideBarsLayout: React.FC<Props> = props => {
   return (
     <Row>
-      <Col xl={1}>{props.left}</Col>
+      <Col xl={2}>{props.left}</Col>
       <Col>{props.children}</Col>
       <Col xl={1}>{props.right}</Col>
     </Row>

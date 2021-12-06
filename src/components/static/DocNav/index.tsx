@@ -1,5 +1,6 @@
 import { Link } from "gatsby";
 import React from "react";
+import { ListGroup, ListGroupItem } from "react-bootstrap";
 
 
 /**
@@ -8,23 +9,23 @@ import React from "react";
  */
 const DocNav = () => {
 
-  return <ul>
-    <li>
+  return <ListGroup>
+    <ListGroupItem>
       <Link to="/doc">About</Link>
-    </li>
-    <li>
+    </ListGroupItem>
+    <ListGroupItem>
       <Link to="/doc/architecture">Architecture</Link>
-    </li>
-    <li>
+    </ListGroupItem>
+    <ListGroupItem>
       <Link to="/doc/datamodel">Datamodel</Link>
-    </li>
-    <li>
+    </ListGroupItem>
+    <ListGroupItem>
       <Link to="/doc/reqs">Requirements</Link>
-    </li>
-    <li>
+    </ListGroupItem>
+    <ListGroupItem>
       <Link to="/doc/workflows">Workflows</Link>
-    </li>
-  </ul>
+    </ListGroupItem>
+  </ListGroup>
 
 }
 
