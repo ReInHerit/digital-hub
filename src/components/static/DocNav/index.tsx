@@ -3,7 +3,7 @@ import React from "react";
 
 
 /**
- * 
+ * Navigation for documentation page of the Digital Hub.
  * @returns 
  */
 const DocNav = () => {
