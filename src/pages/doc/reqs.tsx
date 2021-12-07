@@ -10,7 +10,7 @@ const Requirements = () => {
     <SideBarsLayout
       left={<DocNav/>}
       right={
-      <ul>
+      <ul className="sticky-top">
         <li>
           <Link to="#use_case">Use case diagram</Link>
         </li>
