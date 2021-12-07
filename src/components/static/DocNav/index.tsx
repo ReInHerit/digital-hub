@@ -9,7 +9,7 @@ import { ListGroup, ListGroupItem } from "react-bootstrap";
  */
 const DocNav = () => {
 
-  return <ListGroup>
+  return <ListGroup variant="flush">
     <ListGroupItem>
       <Link to="/doc">About</Link>
     </ListGroupItem>
