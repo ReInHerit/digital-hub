@@ -10,7 +10,10 @@ const Requirements = () => {
       left={<DocNav/>}
     >
       <h1>Requirements</h1>
+      <br />
       <h2>UML Use case diagram</h2>
+      <br />
+      <img src="/images/diagrams/use_case.JPG" alt="UML use case diagram" style={{maxWidth: "100%"}}></img>
     </SideBarsLayout>
   </BaseLayout>
 
