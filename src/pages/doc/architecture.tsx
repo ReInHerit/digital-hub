@@ -21,10 +21,13 @@ const Architecture = () => {
         <p>uat tortor. Curabitur dnt vel aliquet justo, sagittis egestas nunc. Aliquam vitae felis blandit ex tempus facilisis. Nam imperdiet, lorem condimentum facilisis efficitur, felis justo commodo lorem, commodo tincidunt nisl felis nec quam.</p>
         <br />
         <br />
+        <br />
+        <br />
         <h2 className="h3">1. <b>C</b>ontext: System context diagram</h2>
         <p>Shows most abstract context of the planned system -- in our case the Digital Hub. Details connection between central use-cases, actors, internal and external systems.</p>
         <br />
         <a href="/images/diagrams/c4_system_context.jpg" target="_blank"><img src="/images/diagrams/c4_system_context.jpg" alt="c4 system context diagram" style={{maxWidth: "100%"}}></img></a>
+        <br />
         <br />
         <br />
         <br />
@@ -41,8 +44,18 @@ const Architecture = () => {
         <p>uat tortor. Curabitur dnt vel aliquet justo, sagittis egestas nunc. Aliquam vitae felis blandit ex tempus facilisis. Nam imperdiet, lorem condimentum facilisis efficitur, felis justo commodo lorem, commodo tincidunt nisl felis nec quam.</p>
         <br />
         <h3 className="h4">3a. Client Side Application(s) - Component</h3>
+        <p>uat tortor. Curabitur dnt vel aliquet justo, sagittis egestas nunc. Aliquam vitae felis blandit ex tempus facilisis. Nam imperdiet, lorem condimentum facilisis efficitur, felis justo commodo lorem, commodo tincidunt nisl felis nec quam.</p>
         <br />
         <a href="/images/diagrams/rein_c4_3component_a.jpg" target="_blank"><img src="/images/diagrams/rein_c4_3component_a.jpg" alt="c4 container diagram" style={{maxWidth: "100%"}}></img></a>
+        <br />
+        <br />
+        <br />
+        <br />
+        <h3 className="h4">3b. Web-App - Component</h3>
+        <p>uat tortor. Curabitur dnt vel aliquet justo, sagittis egestas nunc. Aliquam vitae felis blandit ex tempus facilisis. Nam imperdiet, lorem condimentum facilisis efficitur, felis justo commodo lorem, commodo tincidunt nisl felis nec quam.</p>
+        <br />
+        <a href="/images/diagrams/rein_c4_component_staticsite.jpg" target="_blank"><img src="/images/diagrams/rein_c4_component_staticsite.jpg" alt="c4 container diagram" style={{maxWidth: "100%"}}></img></a>
+        <br />
       </SideBarsLayout>
       
     </BaseLayout>
