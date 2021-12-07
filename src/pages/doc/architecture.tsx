@@ -32,7 +32,17 @@ const Architecture = () => {
         <h2 className="h3">2. <b>C</b>ontainer: Container diagram</h2>
         <p>Focuses on individial systems defined in the system context diagram</p>
         <a href="/images/diagrams/rein_c4_2container.jpg" target="_blank"><img src="/images/diagrams/rein_c4_2container.jpg" alt="c4 container diagram" style={{maxWidth: "100%"}}></img></a>
-      
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2 className="h3">3. <b>C</b>ontainer: Component diagram</h2>
+        <p>Focuses on individual containers as described in the container diagram. </p>
+        <p>uat tortor. Curabitur dnt vel aliquet justo, sagittis egestas nunc. Aliquam vitae felis blandit ex tempus facilisis. Nam imperdiet, lorem condimentum facilisis efficitur, felis justo commodo lorem, commodo tincidunt nisl felis nec quam.</p>
+        <br />
+        <h3 className="h4">3a. Client Side Application(s) - Component</h3>
+        <br />
+        <a href="/images/diagrams/rein_c4_3component_a.jpg" target="_blank"><img src="/images/diagrams/rein_c4_3component_a.jpg" alt="c4 container diagram" style={{maxWidth: "100%"}}></img></a>
       </SideBarsLayout>
       
     </BaseLayout>
