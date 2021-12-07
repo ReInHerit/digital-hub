@@ -14,13 +14,13 @@ const DocNav = () => {
       <Link to="/doc">About</Link>
     </ListGroupItem>
     <ListGroupItem>
+      <Link to="/doc/reqs">Requirement analysis (use cases)</Link>
+    </ListGroupItem>
+    <ListGroupItem>
       <Link to="/doc/architecture">Architecture</Link>
     </ListGroupItem>
     <ListGroupItem>
       <Link to="/doc/datamodel">Datamodel</Link>
-    </ListGroupItem>
-    <ListGroupItem>
-      <Link to="/doc/reqs">Requirements</Link>
     </ListGroupItem>
     <ListGroupItem>
       <Link to="/doc/workflows">Workflows</Link>
