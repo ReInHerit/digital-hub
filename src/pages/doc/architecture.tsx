@@ -36,7 +36,7 @@ const Architecture = () => {
         <br />
         <br />
         <br />
-        <h2 className="h3">3. <b>C</b>ontainer: Component diagram</h2>
+        <h2 className="h3">3. <b>C</b>omponent: Component diagram</h2>
         <p>Focuses on individual containers as described in the container diagram. </p>
         <p>uat tortor. Curabitur dnt vel aliquet justo, sagittis egestas nunc. Aliquam vitae felis blandit ex tempus facilisis. Nam imperdiet, lorem condimentum facilisis efficitur, felis justo commodo lorem, commodo tincidunt nisl felis nec quam.</p>
         <br />
