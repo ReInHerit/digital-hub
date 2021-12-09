@@ -10,8 +10,8 @@ const DataProtectionPage = () => {
 
   return (
     <BaseLayout>
-      <h1>Image Editor</h1>
-      <p>Test playground for image-editor</p>
+      <h1>E-shop items (= Digital Objects)</h1>
+      <p>Prototype for e-shop use-cases</p>
       <p>{url}</p>
       
       {/* <ImageEditor imgAddress={url}></ImageEditor> */}
