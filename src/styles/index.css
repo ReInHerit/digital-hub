@@ -3,6 +3,10 @@
   font-family: Roboto,system-ui,sans-serif !important;
 }
 
+a {
+  color: black;
+}
+
 @media (min-width: 1400px) {
   .rein_main_container {
     width: 55%;

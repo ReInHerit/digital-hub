@@ -6,13 +6,14 @@ import { ReinCollectAble, useReinLocalStorage } from "../../../hooks/useReinLoca
 import { ReinUtils } from "../../../utils/ReinUtil"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
+import BasketSharer from "./BasketSharer"
 
 /**
  * Component handles rendering of saved content.
  * @returns 
  */
 const Databasket = () => {
-  const { retrieveCollection, toggleItem } = useReinLocalStorage<boolean>()
+  const { retrieveCollection, toggleItem, saveCollection } = useReinLocalStorage<unknown>()
 
   const [collection, setCollection] = React.useState([])
 
@@ -33,7 +34,34 @@ const Databasket = () => {
     setCollection(newArr)
   }
 
+  /**
+   * Updates state and saves value to local storage.
+   * @param data Data to be saved
+   */
+  const handleImport = (data: ReinCollectAble<unknown>[]) => {
+    if(ReinUtils.checkSSR())return;
+    setCollection(data);
+    saveCollection(data);
+  }
+
+
+  /**
+   * Method for sharing current collection via link.
+   * @returns 
+   */
+  const buildShareLink = () => {
+    if(ReinUtils.checkSSR())return;
+    let curUrl = new URL(window.location.href);
+    let basketVal = collection.map(item => item.id).join(",");
+    curUrl.searchParams.set("basket",basketVal);
+    alert(curUrl.toString());
+  }
+
+
   return (
+    <>
+    <Button variant="secondary" onClick={buildShareLink}>Share my collection</Button>
+    { collection.length !== 0 && <BasketSharer import={handleImport}></BasketSharer>}
     <ReinCardGrid>
       {collection.map((item: ReinCollectAble<unknown>) => (
         <ReinGridCard 
@@ -47,6 +75,7 @@ const Databasket = () => {
         ></ReinGridCard>
       ))}
     </ReinCardGrid>
+    </>
   )
 }
 

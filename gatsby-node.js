@@ -1,6 +1,41 @@
 const path = require('path');
 const fs = require('fs'); //import filesystem module
 const express = require('express');
+const mdPagesArray = require('./static/pageIds.json');
+
+
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
+  if (node.internal.type !== "MarkdownRemark")return;
+
+  // 
+  // Assigns unique and stable ids to all generated markdown pages. 
+  // Saves and loads values to json file to keep values stable across build processes 
+  // adds leading character that describes type of given item.
+  //
+
+  let _remarkTypeCountId = null;
+  let filePathId = node.fileAbsolutePath.split("/content/")[1]
+
+  // improve here https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/
+  if(!mdPagesArray.includes(filePathId)){
+    mdPagesArray.push(filePathId);
+    _remarkTypeCountId = mdPagesArray.length;  
+  } else {
+    let index = mdPagesArray.indexOf(filePathId) + 1;
+    _remarkTypeCountId = index;  
+  }
+
+  createNodeField({
+    node,
+    name:"typeCountId",
+    value: _remarkTypeCountId
+  })
+
+  fs.writeFileSync(`.${path.sep}static${path.sep}pageIds.json`, JSON.stringify(mdPagesArray));
+
+}
+
 
 module.exports.createPages = async ({ graphql, actions}) => {
 
@@ -11,40 +46,48 @@ module.exports.createPages = async ({ graphql, actions}) => {
         edges {
           node {
             id
+            fields {
+              typeCountId
+            }
           }
         }
       }
     }
   
   `)
-  res.data.allMarkdownRemark.edges.forEach(edge => {
-    const mdId = edge.node.id
+  res.data.allMarkdownRemark.edges.forEach((edge) => {
+    // id is added by my own to node inside onCreateNode
+    const mdId = edge.node.fields.typeCountId
     actions.createPage({
       path: `/content/training/${mdId}`,
       component: require.resolve(`./src/templates/training.js`),
-      context: { id: mdId },
+      context: { id: edge.node.id },
     })
   })
 
   // adding news data from markdown
   const { data } = await graphql(`
-    query MyQuery {
-      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/news/"}}) {
-        edges {
-          node {
-            id
+  query MyQuery {
+    allMarkdownRemark(filter: {frontmatter: {type: {eq: "news"}}}) {
+      edges {
+        node {
+          id
+          fields {
+            typeCountId
           }
         }
       }
     }
+  }
+  
   
   `)
   data.allMarkdownRemark.edges.forEach(edge => {
-    const mdId = edge.node.id
+    const mdId = edge.node.fields.typeCountId
     actions.createPage({
       path: `/content/news/${mdId}`,
       component: require.resolve(`./src/templates/training.js`),
-      context: { id: mdId },
+      context: { id: edge.node.id },
     })
   })
 
