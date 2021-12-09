@@ -36,8 +36,9 @@ const ReinNavbar: React.FC = () => {
               <Nav.Link as="div"><Link className="text-dark text-decoration-none" to={addMode("/", theme.mode)}>Home</Link></Nav.Link>
               <Nav.Link as="div"><Link to={addMode("/content/news", theme.mode)} className="text-dark text-decoration-none">News</Link></Nav.Link>
               <Nav.Link as="div"><Link to="#" className="text-dark text-decoration-none">Digital Exhibitions</Link></Nav.Link>
+              <Nav.Link as="div"><Link to="/toolkit" className="text-dark text-decoration-none">Toolkit</Link></Nav.Link>
               
-              <NavDropdown title="Toolkit" id="nav_toolkit">
+              {/* <NavDropdown title="Toolkit" id="nav_toolkit">
                 <NavDropdown.Item as="div" href="#action/3.2">
                   Apps
                 </NavDropdown.Item>
@@ -47,7 +48,7 @@ const ReinNavbar: React.FC = () => {
                 <NavDropdown.Item as="div" href="#action/3.3">
                 <Link to={addMode("/content/training", theme.mode)} className="text-dark text-decoration-none">Training / Webinars</Link>
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
               <Nav.Link as="div"><Link to="#" className="text-dark text-decoration-none">Performance(s)</Link></Nav.Link>
               <Nav.Link as="div"><Link to="/dataprot" className="text-dark text-decoration-none">E-Shop</Link></Nav.Link>
             </Nav>
