@@ -6,7 +6,7 @@ training available: false
 target-audience:
   - VISITOR
   - PROFESSIONAL
-training-type:
+tool-type:
   - REST-API
   - Web-Interface
   - Javascript

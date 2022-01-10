@@ -5,7 +5,7 @@ date: 2021-12-13T07:27:10.700Z
 training available: true
 target-audience:
   - VISITOR
-training-type:
+tool-type:
   - Python
   - machine learning
   - library
