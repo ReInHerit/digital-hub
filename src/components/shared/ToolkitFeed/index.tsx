@@ -38,12 +38,10 @@ const ToolkitFeed: React.FC = () => {
       {tags && tags.join(" - ")}
       <ReinCardGrid>
         {data.allMarkdownRemark.edges.map(edge => {
+          // filter only if no tags were selected
           if( (tags.length !== 0) && !tags.some(curTag => edge.node.frontmatter.tool_type.includes(curTag))){ 
-            console.log("INCLUDE")
             return;
           } else {
-            console.log("NOT INCLUDE")
-            console.log(edge.node.frontmatter.tool_type, tags);
             return <ReinGridCard
             key={edge.node.fields.typeCountId}
             excerpt={edge.node.excerpt}
