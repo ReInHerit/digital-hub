@@ -1,6 +1,7 @@
 import { faRss } from "@fortawesome/free-solid-svg-icons"
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
+import { Form } from "react-bootstrap"
 import SideMainLayout from "../Layout/SideMainLayout"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
@@ -17,25 +18,26 @@ const ToolkitFeed: React.FC = () => {
   const ALL_TAGS = ["REST-API", "Library", "Web-Interface", "GraphQL-API", "Application", "CLI", "Python", "Java", "X-Technologies", "Javascript", "Typescript", "Web development", "Economics", "Cultural Heritage", "History", "Museology", "Machine Learning", "Topic Modeling", "NLP", "GIS", "Relational DB"]
 
 
-  const toggleTag = (evt: React.MouseEvent<HTMLElement, MouseEvent>) => {
+  const toggleTag = (evt: React.MouseEvent<HTMLInputElement, MouseEvent>) => {
     let tagsCopied = [...tags];
-    if( tags.includes(evt.currentTarget.textContent)){
-      let filtered = tagsCopied.filter((curTag) => evt.currentTarget.textContent !== curTag);
+    if( tags.includes(evt.currentTarget.value)){
+      let filtered = tagsCopied.filter((curTag) => evt.currentTarget.value !== curTag);
       setTags(() => filtered);
     } else {
-      tagsCopied.push(evt.currentTarget.textContent);
+      tagsCopied.push(evt.currentTarget.value);
       setTags(() => tagsCopied);
     }
   }
 
   return (
     <SideMainLayout
-      side={<ul>
-        {ALL_TAGS.sort().map(curTag => <li key={curTag} onClick={toggleTag}>{curTag}</li>)}
-      </ul>}
+      side={<>
+        {ALL_TAGS.sort().map(curTag => <Form.Check type="checkbox" defaultChecked={false} key={curTag} onClick={toggleTag} label={curTag} value={curTag}></Form.Check>)}
+      </>}
     >
       <>
       {tags && tags.join(" - ")}
+      <hr></hr>
       <ReinCardGrid>
         {data.allMarkdownRemark.edges.map(edge => {
           // filter only if no tags were selected
