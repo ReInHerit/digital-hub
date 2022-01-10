@@ -15,7 +15,7 @@ const SideMainLayout: React.FC<Props> = props => {
   return (
     <Row>
       <Col>{props.side}</Col>
-      <Col lg={12} xxl={10}>
+      <Col lg={9} xxl={10}>
         {props.children}
       </Col>
     </Row>
