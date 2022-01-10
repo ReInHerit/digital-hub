@@ -91,6 +91,31 @@ module.exports.createPages = async ({ graphql, actions}) => {
     })
   })
 
+  // adding toolkit entries according to netlify CMS
+  let toolkitResult = await graphql(`
+    query MyQuery {
+      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/tools/"}}) {
+        edges {
+          node {
+            id
+            fields {
+              typeCountId
+            }
+          }
+        }
+      }
+    }
+  `)
+  toolkitResult.data.allMarkdownRemark.edges.forEach((edge) => {
+    // id is added by my own to node inside onCreateNode
+    const mdId = edge.node.fields.typeCountId
+    actions.createPage({
+      path: `/content/toolkits/${mdId}`,
+      component: require.resolve(`./src/templates/training.js`),
+      context: { id: edge.node.id },
+    })
+  })
+
 }
 
 
