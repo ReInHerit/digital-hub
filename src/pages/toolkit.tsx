@@ -8,14 +8,12 @@ import BaseLayout from "../components/static/BaseLayout"
 const Toolkit = () => {
   return (
     <BaseLayout>
-      <h1>Toolkit</h1>
+      <h1>ReInHerit Toolkit</h1>
+      <p>Tools available via the ReInHerit toolkit.</p>
+      <br />
       <SideMainLayout
         	side={
             <>
-              <p>
-                Filter categories and concepts
-              </p>
-              <h3 className="h6">Tool/API-Type</h3>
               <ul style={{listStyle:"none", padding:0}}>
                 <li>
                   REST-API
@@ -35,9 +33,6 @@ const Toolkit = () => {
                 <li>
                   CLI
                 </li>
-              </ul>
-              <h3 className="h6">Programming background</h3>
-              <ul style={{listStyle:"none", padding:0}}>
                 <li>
                   Python
                 </li>
@@ -56,9 +51,6 @@ const Toolkit = () => {
                 <li>
                   Web development
                 </li>
-              </ul>
-              <h3 className="h6">Domain</h3>
-              <ul style={{listStyle:"none", padding:0}}>
                 <li>
                   Economics
                 </li>
@@ -71,9 +63,6 @@ const Toolkit = () => {
                 <li>
                   Museology
                 </li>
-              </ul>
-              <h3 className="h6">Methodology</h3>
-              <ul style={{listStyle:"none", padding:0}}>
                 <li>
                   Machine Learning
                 </li>
@@ -93,7 +82,6 @@ const Toolkit = () => {
             </>
           }
       >
-        <p>Tools available via the ReInHerit toolkit.</p>
         <ReinCardGrid>
           <ReinGridCard
             url="/"
