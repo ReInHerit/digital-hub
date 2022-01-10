@@ -31,12 +31,12 @@ const ToolkitFeed: React.FC = () => {
 
   return (
     <SideMainLayout
-      side={<>
+      side={<div className="bg-light p-4">
         {ALL_TAGS.sort().map(curTag => <Form.Check type="checkbox" defaultChecked={false} key={curTag} onClick={toggleTag} label={curTag} value={curTag}></Form.Check>)}
-      </>}
+      </div>}
     >
       <>
-      {tags && tags.join(" - ")}
+      {tags.length !== 0 ? tags.join(" - ") : ' * '}
       <hr></hr>
       <ReinCardGrid>
         {data.allMarkdownRemark.edges.map(edge => {
