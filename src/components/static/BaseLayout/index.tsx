@@ -24,6 +24,7 @@ const BaseLayout = ({ children }: Props) => {
       <ReinNavBar/>
       <Container
         className="rein_main_container mt-md-5"
+        fluid
       >{children}</Container>
       <Footer />
     </Base>

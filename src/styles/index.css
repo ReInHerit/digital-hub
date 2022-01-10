@@ -15,7 +15,13 @@ a {
 
 @media (min-width: 974px) {
   .rein_main_container {
-    width: 75%;
+    width: 95%;
     min-height: 100vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .rein_main_container {
+    width: 90%;
   }
 }
