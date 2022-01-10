@@ -12,20 +12,39 @@ import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 const ToolkitFeed: React.FC = () => {
   const data: ToolsQueryData.Data = useStaticQuery(ToolsQuery);
 
-  const [tags, setTags] = React.useState();
+  const [tags, setTags] = React.useState([]);
 
   const ALL_TAGS = ["REST-API", "Library", "Web-Interface", "GraphQL-API", "Application", "CLI", "Python", "Java", "X-Technologies", "Javascript", "Typescript", "Web development", "Economics", "Cultural Heritage", "History", "Museology", "Machine Learning", "Topic Modeling", "NLP", "GIS", "Relational DB"]
 
 
+  const toggleTag = (evt: React.MouseEvent<HTMLElement, MouseEvent>) => {
+    let tagsCopied = [...tags];
+    if( tags.includes(evt.currentTarget.textContent)){
+      let filtered = tagsCopied.filter((curTag) => evt.currentTarget.textContent !== curTag);
+      setTags(() => filtered);
+    } else {
+      tagsCopied.push(evt.currentTarget.textContent);
+      setTags(() => tagsCopied);
+    }
+  }
+
   return (
     <SideMainLayout
       side={<ul>
-        {ALL_TAGS.map(curTag => <li>{curTag}</li>)}
+        {ALL_TAGS.sort().map(curTag => <li key={curTag} onClick={toggleTag}>{curTag}</li>)}
       </ul>}
     >
+      <>
+      {tags && tags.join(" - ")}
       <ReinCardGrid>
-        {data.allMarkdownRemark.edges.map(edge => (
-          <ReinGridCard
+        {data.allMarkdownRemark.edges.map(edge => {
+          if( (tags.length !== 0) && !tags.some(curTag => edge.node.frontmatter.tool_type.includes(curTag))){ 
+            console.log("INCLUDE")
+            return;
+          } else {
+            console.log("NOT INCLUDE")
+            console.log(edge.node.frontmatter.tool_type, tags);
+            return <ReinGridCard
             key={edge.node.fields.typeCountId}
             excerpt={edge.node.excerpt}
             faIcon={faRss}
@@ -37,8 +56,11 @@ const ToolkitFeed: React.FC = () => {
           >
             <span>{edge.node.fields.typeCountId}</span>
           </ReinGridCard>
-        ))}
+          }
+          }
+        )}
       </ReinCardGrid>
+      </>
     </SideMainLayout>
   )
 }
@@ -47,7 +69,9 @@ export default ToolkitFeed
 
 const ToolsQuery = graphql`
   query ToolsQuery {
-    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/tools/" } }) {
+    allMarkdownRemark(
+      filter: {fileAbsolutePath: {regex: "/tools/"}, frontmatter: {}}
+    ) {
       edges {
         node {
           id
@@ -61,49 +85,63 @@ const ToolsQuery = graphql`
             date(fromNow: true)
             target_audience
             layout
+            author
+            training_available
+            tool_type
+            type
           }
         }
       }
     }
   }
+
 `
 
+
 declare module ToolsQueryData {
+
   export interface Fields {
-    typeCountId: string
+      typeCountId: string;
   }
 
   export interface Frontmatter {
-    title: string
-    date: string
-    target_audience: string[]
-    layout?: any
+      title: string;
+      date: string;
+      target_audience: string[];
+      layout?: any;
+      author?: any;
+      training_available: boolean;
+      tool_type?: any;
+      type: string;
   }
 
   export interface Node {
-    id: string
-    html: string
-    excerpt: string
-    fields: Fields
-    frontmatter: Frontmatter
+      id: string;
+      html: string;
+      excerpt: string;
+      fields: Fields;
+      frontmatter: Frontmatter;
   }
 
   export interface Edge {
-    node: Node
+      node: Node;
   }
 
   export interface AllMarkdownRemark {
-    edges: Edge[]
+      edges: Edge[];
   }
 
   export interface Data {
-    allMarkdownRemark: AllMarkdownRemark
+      allMarkdownRemark: AllMarkdownRemark;
   }
 
-  export interface Extensions {}
+  export interface Extensions {
+  }
 
   export interface RootObject {
-    data: Data
-    extensions: Extensions
+      data: Data;
+      extensions: Extensions;
   }
+
 }
+
