@@ -7,6 +7,12 @@ a {
   color: black;
 }
 
+hr {
+  color: lightgrey;
+  padding: .125em;
+  border-radius: .5em;
+}
+
 @media (min-width: 1400px) {
   .rein_main_container {
     width: 55%;
