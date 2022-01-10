@@ -33,7 +33,7 @@ export default function Template({
               <div>MIT - CC BY 4.0</div>
               <br/>
             </Col>
-            <Col lg={10} xl={8}>
+            <Col lg={10}>
               <Container fluid className="bg-white rounded shadow p-4">
                 <div
                   className="blog-post-content"
