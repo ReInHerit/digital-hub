@@ -7,8 +7,7 @@ target-audience:
   - VISITOR
 tool-type:
   - Python
-  - machine learning
-  - library
+  - CLI
 ---
 # A machine learning library
 
