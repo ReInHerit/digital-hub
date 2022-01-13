@@ -1,4 +1,4 @@
-import { faRss } from "@fortawesome/free-solid-svg-icons"
+import { faTools } from "@fortawesome/free-solid-svg-icons"
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import { Badge, Form } from "react-bootstrap"
@@ -97,7 +97,7 @@ const ToolkitFeed: React.FC = () => {
                 <ReinGridCard
                   key={edge.node.fields.typeCountId}
                   excerpt={edge.node.excerpt}
-                  faIcon={faRss}
+                  faIcon={faTools}
                   targetAudience={edge.node.frontmatter.target_audience}
                   title={edge.node.frontmatter.title}
                   type="news"
