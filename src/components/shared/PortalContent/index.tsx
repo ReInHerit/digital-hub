@@ -8,7 +8,10 @@ import { useReinTheme } from "../../../hooks/contexts/useReinTheme";
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 
-
+/** 
+ * Handles content displayed on the portal page. 
+ * 
+*/
 const PortalContent = () => {
 
   const { theme } = useReinTheme();
