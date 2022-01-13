@@ -27,20 +27,23 @@ const ReinGridCard: React.FC<Props> = (props) => {
 
   return <Col key={props.uid && props.uid}>
     
-      <Card className="shadow rounded border-light" style={{fontSize: ".95em"}}>
+      <Card className="rounded border-light bg-light" style={{fontSize: ".95em"}}>
       <Link to={props.url} className="text-decoration-none text-dark">
         <Card.Body>
-          <Card.Title style={{fontSize:"1.2em"}}><FontAwesomeIcon icon={props.faIcon} size="1x"/> {props.title}</Card.Title>
+          <Card.Title style={{fontSize:"1.2em"}}>
+            <FontAwesomeIcon icon={props.faIcon} size="2x" color="lightgrey"/> 
+            <br />
+            <br />
+            {props.title}</Card.Title>
           <Card.Text>
             {props.excerpt}
           </Card.Text>
           <br></br>
-          {/* <FontAwesomeIcon icon={assignFa(key as keyof REINHERIT_AUDIENCE)} size="2x"/> */}
           {props.children}
         </Card.Body>
         </Link>
-        <Card.Footer className="bg-light border-0">
-            <small className="text-muted d-inline">{props.targetAudience.map(aud => `${aud} `)}
+        {(props.footerContent || props.uid) && <Card.Footer className="bg-light border-0">
+            <small className="text-muted d-inline">
             {props.uid && <Form.Check
               type="checkbox"
               label="(save to personal collection)"
@@ -49,7 +52,7 @@ const ReinGridCard: React.FC<Props> = (props) => {
             />}
             {props.footerContent && props.footerContent}
             </small>
-          </Card.Footer>
+          </Card.Footer>}
       </Card>
     
   </Col>
