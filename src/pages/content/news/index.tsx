@@ -11,7 +11,7 @@ const NewsPage: React.FC = () => {
       <br />
       <SideMainLayout
         side={
-          <div className="p-4 border">
+          <div className="p-4 border reincard">
             <p>All news relevant for Reinherit ... </p>
             <p>Scroll down / click on card etc. ... </p>
           </div>

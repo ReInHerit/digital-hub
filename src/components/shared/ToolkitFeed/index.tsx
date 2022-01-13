@@ -53,7 +53,7 @@ const ToolkitFeed: React.FC = () => {
   return (
     <SideMainLayout
       side={
-        <div className="border p-4">
+        <div className="border p-4 reincard">
           Filter categories
           <br/>
           {tags.length !== 0
