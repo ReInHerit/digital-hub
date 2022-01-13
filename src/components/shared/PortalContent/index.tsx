@@ -33,6 +33,7 @@ const PortalContent = () => {
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
           url="/content/news"
+          footerContent="News"
         ></ReinGridCard>
         <ReinGridCard
           title="Explore digital exhibitions"
@@ -41,6 +42,7 @@ const PortalContent = () => {
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
           url="/content/news"
+          footerContent="Digital Exhibitions"
         ></ReinGridCard>
         <ReinGridCard
           title="Watch performances"
@@ -49,6 +51,7 @@ const PortalContent = () => {
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
           url="/content/news"
+          footerContent="Performances"
         ></ReinGridCard>
         <ReinGridCard
           title="Browse through toolkit"
@@ -57,6 +60,7 @@ const PortalContent = () => {
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
           url="/toolkit"
+          footerContent="Toolkit"
         ></ReinGridCard>
         <ReinGridCard
           title="Manage personal collection"
@@ -65,6 +69,7 @@ const PortalContent = () => {
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
           url="/collection"
+          footerContent="Collected items"
         ></ReinGridCard>
         <ReinGridCard
           title="Provide data for the Hub"
@@ -73,6 +78,7 @@ const PortalContent = () => {
           targetAudience={["PROFESSIONAL"]}
           type="news"
           url="/content/news"
+          footerContent="CMS"
         ></ReinGridCard>
         <ReinGridCard
           title="Exchange with others"
@@ -81,6 +87,7 @@ const PortalContent = () => {
           targetAudience={["PROFESSIONAL"]}
           type="news"
           url="/content/news"
+          footerContent="Chat"
         ></ReinGridCard>
         <ReinGridCard
           title="Get the technical documentation"
@@ -89,6 +96,7 @@ const PortalContent = () => {
           targetAudience={["PROFESSIONAL"]}
           type="news"
           url="/content/news"
+          footerContent="Documentation"
         ></ReinGridCard>
         <ReinGridCard
           title="Contact the project team"
@@ -97,6 +105,7 @@ const PortalContent = () => {
           targetAudience={["PROFESSIONAL"]}
           type="news"
           url="/content/news"
+          footerContent="About"
         ></ReinGridCard>
         <ReinGridCard
           title="Project aims and background"
@@ -105,6 +114,7 @@ const PortalContent = () => {
           targetAudience={["PROFESSIONAL"]}
           type="news"
           url="/content/news"
+          footerContent="General"
         ></ReinGridCard>
       </ReinCardGrid>
     </>)

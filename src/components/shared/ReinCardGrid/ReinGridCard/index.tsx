@@ -12,7 +12,7 @@ interface Props {
   excerpt: string,
   targetAudience: string[]
   faIcon: any;
-  footerContent?: JSX.Element;
+  footerContent?: any;
   children?: any
 }
 
