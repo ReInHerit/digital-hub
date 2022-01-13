@@ -66,7 +66,7 @@ const NewsFeed: React.FC = () => {
             type="news"
             url={`/content/news/${edge.node.fields.typeCountId}?mode=${theme.mode}`}
             uid={edge.node.fields.typeCountId}
-          ><span>{edge.node.fields.typeCountId}</span></ReinGridCard>
+          ></ReinGridCard>
         )})}
       </ReinCardGrid>
     </>
