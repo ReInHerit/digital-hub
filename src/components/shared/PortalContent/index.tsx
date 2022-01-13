@@ -79,15 +79,7 @@ const PortalContent = () => {
           url="/content/news"
         ></ReinGridCard>
         <ReinGridCard
-          title="Get technical documentation"
-          excerpt="Small description of..."
-          faIcon={faBook}
-          targetAudience={["PROFESSIONAL"]}
-          type="news"
-          url="/content/news"
-        ></ReinGridCard>
-        <ReinGridCard
-          title="Get technical documentation"
+          title="Get the technical documentation"
           excerpt="Small description of..."
           faIcon={faNewspaper}
           targetAudience={["PROFESSIONAL"]}
@@ -111,48 +103,6 @@ const PortalContent = () => {
           url="/content/news"
         ></ReinGridCard>
       </ReinCardGrid>
-      
-      <Link to="/collection"> Visit your collection</Link>
-      <a href="/admin/admin.html" target="_blank">Link to Netlify CMS</a>
-      <Link to="/doc" className="text-dark text-decoration-none">Documentation</Link>
-      <br />
-      
-      <br />
-
-      <Row xs={1} md={2} lg={3} xl={3} className="g-5">
-
-        <Col key={"col_1"}>
-          <Link to={`/content/training?mode=${reinheritStatics[theme.groupKey].REST_MODE_VAL}`} className="text-decoration-none text-dark">
-            <Card className="shadow">
-              <Card.Body>
-                <Card.Title>Training</Card.Title>
-                <Card.Text>
-                  This is a longer card with 
-                </Card.Text>
-                <br />
-                <br />
-                <br />
-              </Card.Body>
-            </Card>
-          </Link>
-        </Col>
-        
-        {theme.groupKey === "VISITOR" ? [2,3,4,5,6].map((val, i) => <Col key={"col_" + i}>
-          <Link to="#" className="text-decoration-none text-dark">
-            <Card className="shadow">
-              <Card.Body>
-                <Card.Title>{val}</Card.Title>
-                <Card.Text>
-                  This is a longer card with 
-                </Card.Text>
-                <br />
-                <br />
-                <br />
-              </Card.Body>
-            </Card>
-          </Link>
-        </Col>) : <h2>Only for visitors render rest!</h2>}
-    </Row>
     </>)
 
 }
