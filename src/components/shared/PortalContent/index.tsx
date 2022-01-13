@@ -25,7 +25,7 @@ const PortalContent = () => {
       <ReinCardGrid>
         <ReinGridCard
           title="What's new?"
-          excerpt="Small description of..."
+          excerpt="News about cultural heritage, digital museology, uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
           faIcon={faRss}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
@@ -33,7 +33,7 @@ const PortalContent = () => {
         ></ReinGridCard>
         <ReinGridCard
           title="Explore digital exhibitions"
-          excerpt="Small description of..."
+          excerpt="dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           faIcon={faUniversity}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
@@ -41,7 +41,7 @@ const PortalContent = () => {
         ></ReinGridCard>
         <ReinGridCard
           title="Watch performances"
-          excerpt="Small description of..."
+          excerpt="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
           faIcon={faCalendarDay}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
@@ -49,14 +49,14 @@ const PortalContent = () => {
         ></ReinGridCard>
         <ReinGridCard
           title="Browse through toolkit"
-          excerpt="Small description of..."
+          excerpt="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           faIcon={faToolbox}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
           url="/toolkit"
         ></ReinGridCard>
         <ReinGridCard
-          title="Personal collection"
+          title="Manage personal collection"
           excerpt="Small description of..."
           faIcon={faDatabase}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
@@ -73,7 +73,7 @@ const PortalContent = () => {
         ></ReinGridCard>
         <ReinGridCard
           title="Exchange with others"
-          excerpt="Small description of..."
+          excerpt="Ut enim ad minim veniam, quis nostrud exercitation ullamco"
           faIcon={faComments}
           targetAudience={["PROFESSIONAL"]}
           type="news"
@@ -89,6 +89,22 @@ const PortalContent = () => {
         ></ReinGridCard>
         <ReinGridCard
           title="Get technical documentation"
+          excerpt="Small description of..."
+          faIcon={faNewspaper}
+          targetAudience={["PROFESSIONAL"]}
+          type="news"
+          url="/content/news"
+        ></ReinGridCard>
+        <ReinGridCard
+          title="Contact the project team"
+          excerpt="Small description of..."
+          faIcon={faNewspaper}
+          targetAudience={["PROFESSIONAL"]}
+          type="news"
+          url="/content/news"
+        ></ReinGridCard>
+        <ReinGridCard
+          title="Project aims and background"
           excerpt="Small description of..."
           faIcon={faNewspaper}
           targetAudience={["PROFESSIONAL"]}
