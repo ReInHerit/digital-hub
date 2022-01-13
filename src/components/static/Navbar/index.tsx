@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import React from "react"
 import { Navbar, Container, Nav, NavDropdown, Form } from "react-bootstrap"
 import { reinheritStatics } from "../../../data/reinheritStatics"
-import { useReinSoftAuth } from "../../../hooks/contexts/useReinSoftAuth"
 import { useReinTheme } from "../../../hooks/contexts/useReinTheme"
 
 
