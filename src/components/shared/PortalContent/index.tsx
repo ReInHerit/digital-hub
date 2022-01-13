@@ -1,5 +1,5 @@
-import { faNewspaper } from "@fortawesome/free-regular-svg-icons";
-import { faRss } from "@fortawesome/free-solid-svg-icons";
+import { faComments, faNewspaper } from "@fortawesome/free-regular-svg-icons";
+import { faBook, faCalendarDay, faDatabase, faPlusCircle, faRss, faToolbox, faUniversity } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "gatsby";
 import React from "react";
 import { Breadcrumb, Card, Col, Row } from "react-bootstrap";
@@ -34,7 +34,7 @@ const PortalContent = () => {
         <ReinGridCard
           title="Explore digital exhibitions"
           excerpt="Small description of..."
-          faIcon={faNewspaper}
+          faIcon={faUniversity}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
           url="/content/news"
@@ -42,7 +42,7 @@ const PortalContent = () => {
         <ReinGridCard
           title="Watch performances"
           excerpt="Small description of..."
-          faIcon={faNewspaper}
+          faIcon={faCalendarDay}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
           url="/content/news"
@@ -50,7 +50,7 @@ const PortalContent = () => {
         <ReinGridCard
           title="Browse through toolkit"
           excerpt="Small description of..."
-          faIcon={faNewspaper}
+          faIcon={faToolbox}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
           url="/toolkit"
@@ -58,7 +58,7 @@ const PortalContent = () => {
         <ReinGridCard
           title="Personal collection"
           excerpt="Small description of..."
-          faIcon={faNewspaper}
+          faIcon={faDatabase}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
           url="/collection"
@@ -66,7 +66,7 @@ const PortalContent = () => {
         <ReinGridCard
           title="Provide data for the Hub"
           excerpt="Small description of..."
-          faIcon={faNewspaper}
+          faIcon={faPlusCircle}
           targetAudience={["PROFESSIONAL"]}
           type="news"
           url="/content/news"
@@ -74,7 +74,7 @@ const PortalContent = () => {
         <ReinGridCard
           title="Exchange with others"
           excerpt="Small description of..."
-          faIcon={faNewspaper}
+          faIcon={faComments}
           targetAudience={["PROFESSIONAL"]}
           type="news"
           url="/content/news"
@@ -82,7 +82,7 @@ const PortalContent = () => {
         <ReinGridCard
           title="Get technical documentation"
           excerpt="Small description of..."
-          faIcon={faNewspaper}
+          faIcon={faBook}
           targetAudience={["PROFESSIONAL"]}
           type="news"
           url="/content/news"
