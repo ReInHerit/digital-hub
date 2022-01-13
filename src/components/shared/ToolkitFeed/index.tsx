@@ -53,7 +53,18 @@ const ToolkitFeed: React.FC = () => {
   return (
     <SideMainLayout
       side={
-        <div className="bg-light p-4">
+        <div>
+          {tags.length !== 0
+          ? tags.map(tag => (
+              <Badge onClick={() => toggleTag(tag)} bg="white" color="black" text={"black" as "white"} className="me-1 btn border">
+                {tag}
+              </Badge>
+            ))
+          : <Badge className="me-1 btn border" bg="white" color="black" text={"black" as "white"}>
+          *
+        </Badge>}
+        <br></br>
+        <br></br>
           {ALL_TAGS.sort().map(curTag => (
             <Form.Check
               type="checkbox"
@@ -69,16 +80,6 @@ const ToolkitFeed: React.FC = () => {
       }
     >
       <>
-        {tags.length !== 0
-          ? tags.map(tag => (
-              <Badge onClick={() => toggleTag(tag)} className="me-1 secondary">
-                {tag}
-              </Badge>
-            ))
-          : <Badge className="me-1 light">
-          *
-        </Badge>}
-        <hr></hr>
         <ReinCardGrid>
           {data.allMarkdownRemark.edges.map(edge => {
             // filter only if no tags were selected
@@ -102,9 +103,7 @@ const ToolkitFeed: React.FC = () => {
                     edge.node.fields.typeCountId
                   }?mode=${""}`}
                   uid={edge.node.fields.typeCountId}
-                >
-                  <span>{edge.node.fields.typeCountId}</span>
-                </ReinGridCard>
+                ></ReinGridCard>
               )
             }
           })}
