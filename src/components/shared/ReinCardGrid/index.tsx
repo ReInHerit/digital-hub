@@ -13,7 +13,7 @@ interface props {
  */
 const ReinCardGrid: React.FC = props => {
   return (
-    <Row xs={1} md={2} xxl={3} className="g-3">
+    <Row xs={1} md={3} xxl={3} className="g-3">
       {props.children}
     </Row>
   )
