@@ -53,7 +53,9 @@ const ToolkitFeed: React.FC = () => {
   return (
     <SideMainLayout
       side={
-        <div>
+        <div className="border p-4">
+          Filter categories
+          <br/>
           {tags.length !== 0
           ? tags.map(tag => (
               <Badge onClick={() => toggleTag(tag)} bg="white" color="black" text={"black" as "white"} className="me-1 btn border">
