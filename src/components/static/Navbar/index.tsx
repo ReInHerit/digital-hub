@@ -10,20 +10,8 @@ import { useReinTheme } from "../../../hooks/contexts/useReinTheme"
 const ReinNavbar: React.FC = () => {
 
   const { theme } = useReinTheme();
-  const auth = useReinSoftAuth()
 
   const addMode = (url: string, mode: string) => `${url}?mode=${mode}`;
-
-  /**
-   * Handles login logout on specific navlink click.
-   */
-  const handleAuth = () => {
-    if(auth.signedIn){
-      auth.logout()
-    } else {
-      auth.login("admin")
-    }
-  }
 
   return (
     <React.Fragment>
@@ -60,7 +48,6 @@ const ReinNavbar: React.FC = () => {
               <Nav.Link as="div" eventKey={2}>
                 <Link to={addMode("/intern", theme.mode)} className="text-dark text-decoration-none">Admin</Link>
               </Nav.Link>
-              <Nav.Link as="div" eventKey={3} onClick={handleAuth}><a href="#">{ auth.signedIn ? "Logout" : "Login"}</a></Nav.Link>
             </Nav>
             <Nav>
             <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none"><img style={{maxWidth:"60px"}} src="/images/rein_eu.png"></img></Link></Navbar.Brand>
