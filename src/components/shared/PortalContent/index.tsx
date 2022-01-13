@@ -1,9 +1,8 @@
 import { Link } from "gatsby";
-import React, { useContext } from "react";
+import React from "react";
 import { Breadcrumb, Card, Col, Row } from "react-bootstrap";
 import { reinheritStatics } from "../../../data/reinheritStatics";
 import { useReinTheme } from "../../../hooks/contexts/useReinTheme";
-import { REINHERIT_AUDIENCE } from "../../../types/reinherit";
 
 
 const PortalContent = () => {
