@@ -40,18 +40,6 @@ const NewsFeed: React.FC = () => {
 
   return (
     <>
-      <p>Login example. User role: {auth.curUserRole}</p>
-      {auth.signedIn && (
-        <p>
-          <a href="/admin/admin.html#/collections/news" target="_blank">
-            <Badge bg="" style={{ background: theme.styles.MAIN_COLOR }}>
-              Add +{" "}
-            </Badge>
-          </a>{" "}
-          You are currently seeing news available for:{" "}
-          <b>{reinheritStatics[theme.groupKey].LABEL}</b>
-        </p>
-      )}
 
       <ReinCardGrid>
         {data.allMarkdownRemark.edges.map(edge => {
