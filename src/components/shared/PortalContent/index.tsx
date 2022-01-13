@@ -13,6 +13,9 @@ const PortalContent = () => {
   return (
     <>
       <Link to="/collection"> Visit your collection</Link>
+      <a href="/admin/admin.html" target="_blank">Link to Netlify CMS</a>
+      <Link to="/doc" className="text-dark text-decoration-none">Documentation</Link>
+      <br />
       <Breadcrumb>
         <Breadcrumb.Item><Link to={`/?mode=${theme.mode}`}>Home</Link></Breadcrumb.Item>
         <Breadcrumb.Item>{ reinheritStatics[theme.groupKey].LABEL} Portal</Breadcrumb.Item>
