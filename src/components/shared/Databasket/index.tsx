@@ -1,9 +1,11 @@
 import { faDatabase, faTrash } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Link } from "gatsby"
 import React from "react"
 import { Button, ListGroup } from "react-bootstrap"
 import { ReinCollectAble, useReinLocalStorage } from "../../../hooks/useReinLocalStorage"
 import { ReinUtils } from "../../../utils/ReinUtil"
+import SideMainLayout from "../Layout/SideMainLayout"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 import BasketSharer from "./BasketSharer"
@@ -59,8 +61,54 @@ const Databasket = () => {
 
 
   return (
-    <>
-    <Button variant="secondary" onClick={buildShareLink}>Share my collection</Button>
+    <SideMainLayout
+    side={
+      <div className="card reincard p-4">
+        <Button variant="outline-secondary" onClick={buildShareLink}>Share my collection</Button>
+        <br />
+        <div>
+          <b className="text-secondary">What is this?</b>
+        </div>
+        <p>Here you find all your collected items...</p>
+        <div>
+          <b className="text-secondary">Training (5)</b>
+        </div>
+        <ul className="m-0 p-1 pt-0" style={{ listStyle: "none" }}>
+          <li className="p-0 m-0">
+            <small>
+              <Link to={`/content/training/test`} className="text-dark">
+                Sample material
+              </Link>{" "}
+              <span className="text-muted">(12.4.2012)</span>
+            </small>
+          </li>
+          <li className="p-0 m-0">
+            <small>
+              <Link to={`/content/training/test`} className="text-dark">
+                Testme
+              </Link>{" "}
+              <span className="text-muted">(12.4.2012)</span>
+            </small>
+          </li>
+        </ul>
+        <br />
+        <div>
+          <b className="text-secondary">News (3)</b>
+        </div>
+        <ul className="m-0 p-1 pt-0" style={{ listStyle: "none" }}>
+          <li className="p-0 m-0">
+            <small>
+              <Link to={`/content/training/test`} className="text-dark">
+                Another sample
+              </Link>{" "}
+              <span className="text-muted">(12.4.2012)</span>
+            </small>
+          </li>
+        </ul>
+      </div>
+    }
+    >
+    
     { collection.length !== 0 && <BasketSharer import={handleImport}></BasketSharer>}
     <ReinCardGrid>
       {collection.map((item: ReinCollectAble<unknown>) => (
@@ -75,7 +123,7 @@ const Databasket = () => {
         ></ReinGridCard>
       ))}
     </ReinCardGrid>
-    </>
+    </SideMainLayout>
   )
 }
 
