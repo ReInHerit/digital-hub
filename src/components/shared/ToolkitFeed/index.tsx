@@ -100,7 +100,7 @@ const ToolkitFeed: React.FC = () => {
                   faIcon={faTools}
                   targetAudience={edge.node.frontmatter.target_audience}
                   title={edge.node.frontmatter.title}
-                  type="tool"
+                  type="tools"
                   url={`/tools/${
                     edge.node.fields.typeCountId
                   }?mode=${""}`}
