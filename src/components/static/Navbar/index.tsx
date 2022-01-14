@@ -21,9 +21,9 @@ const ReinNavbar: React.FC = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link as="div"><Link className="text-dark text-decoration-none" to={addMode("/", theme.mode)}>Home</Link></Nav.Link>
-              <Nav.Link as="div"><Link to={addMode("/content/news", theme.mode)} className="text-dark text-decoration-none">News</Link></Nav.Link>
+              <Nav.Link as="div"><Link to={addMode("/news", theme.mode)} className="text-dark text-decoration-none">News</Link></Nav.Link>
               <Nav.Link as="div"><Link to="#" className="text-dark text-decoration-none">Digital Exhibitions</Link></Nav.Link>
-              <Nav.Link as="div"><Link to="/toolkit" className="text-dark text-decoration-none">Toolkit</Link></Nav.Link>
+              <Nav.Link as="div"><Link to="/tools" className="text-dark text-decoration-none">Toolkit</Link></Nav.Link>
               
               {/* <NavDropdown title="Toolkit" id="nav_toolkit">
                 <NavDropdown.Item as="div" href="#action/3.2">

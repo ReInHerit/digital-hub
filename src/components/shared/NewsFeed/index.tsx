@@ -52,7 +52,7 @@ const NewsFeed: React.FC = () => {
             targetAudience={edge.node.frontmatter.target_audience}
             title={edge.node.frontmatter.title}
             type="news"
-            url={`/content/news/${edge.node.fields.typeCountId}?mode=${theme.mode}`}
+            url={`/news/${edge.node.fields.typeCountId}?mode=${theme.mode}`}
             uid={edge.node.fields.typeCountId}
           ></ReinGridCard>
         )})}

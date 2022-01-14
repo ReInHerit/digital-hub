@@ -32,7 +32,7 @@ const PortalContent = () => {
           faIcon={faRss}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
-          url="/content/news"
+          url="/news"
           footerContent="News"
         ></ReinGridCard>
         <ReinGridCard
@@ -41,7 +41,7 @@ const PortalContent = () => {
           faIcon={faUniversity}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
-          url="/content/news"
+          url="/news"
           footerContent="Digital Exhibitions"
         ></ReinGridCard>
         <ReinGridCard
@@ -50,7 +50,7 @@ const PortalContent = () => {
           faIcon={faCalendarDay}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
-          url="/content/news"
+          url="/news"
           footerContent="Performances"
         ></ReinGridCard>
         <ReinGridCard
@@ -59,7 +59,7 @@ const PortalContent = () => {
           faIcon={faToolbox}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
-          url="/toolkit"
+          url="/tools"
           footerContent="Toolkit"
         ></ReinGridCard>
         <ReinGridCard
@@ -77,7 +77,7 @@ const PortalContent = () => {
           faIcon={faPlusCircle}
           targetAudience={["PROFESSIONAL"]}
           type="news"
-          url="/content/news"
+          url="/news"
           footerContent="CMS"
         ></ReinGridCard>
         <ReinGridCard
@@ -86,7 +86,7 @@ const PortalContent = () => {
           faIcon={faComments}
           targetAudience={["PROFESSIONAL"]}
           type="news"
-          url="/content/news"
+          url="/news"
           footerContent="Chat"
         ></ReinGridCard>
         <ReinGridCard
@@ -95,7 +95,7 @@ const PortalContent = () => {
           faIcon={faNewspaper}
           targetAudience={["PROFESSIONAL"]}
           type="news"
-          url="/content/news"
+          url="/doc"
           footerContent="Documentation"
         ></ReinGridCard>
         <ReinGridCard
@@ -104,7 +104,7 @@ const PortalContent = () => {
           faIcon={faNewspaper}
           targetAudience={["PROFESSIONAL"]}
           type="news"
-          url="/content/news"
+          url="/news"
           footerContent="About"
         ></ReinGridCard>
         <ReinGridCard
@@ -113,7 +113,7 @@ const PortalContent = () => {
           faIcon={faNewspaper}
           targetAudience={["PROFESSIONAL"]}
           type="news"
-          url="/content/news"
+          url="/news"
           footerContent="General"
         ></ReinGridCard>
       </ReinCardGrid>

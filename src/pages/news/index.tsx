@@ -1,8 +1,8 @@
 import React from "react"
 import { Col, Container, Row } from "react-bootstrap"
-import SideMainLayout from "../../../components/shared/Layout/SideMainLayout"
-import NewsFeed from "../../../components/shared/NewsFeed"
-import BaseLayout from "../../../components/static/BaseLayout"
+import SideMainLayout from "../../components/shared/Layout/SideMainLayout"
+import NewsFeed from "../../components/shared/NewsFeed"
+import BaseLayout from "../../components/static/BaseLayout"
 
 const NewsPage: React.FC = () => {
   return (
