@@ -1,3 +1,4 @@
+import { faDatabase, faRss, faTools } from "@fortawesome/free-solid-svg-icons";
 import { ReinUtils } from "../utils/ReinUtil"
 
 export interface ReinCollectAble<T> {
@@ -96,12 +97,28 @@ export const useReinLocalStorage = <T extends unknown> () => {
     }
   }
 
+  /** 
+   * Returns corresponding fa-icon to collected item. 
+  */
+  const mapFaSymbol = (collectable: ReinCollectAble<T>) => {
+    switch(collectable.type){
+      case "news":
+        return faRss
+      case "tools":
+        return faTools;
+      default:
+        return faDatabase;
+    }
+
+  }
+
 
   return {
     retrieveItem,
     toggleItem,
     retrieveCollection,
-    saveCollection
+    saveCollection,
+    mapFaSymbol
   }
 }
 
