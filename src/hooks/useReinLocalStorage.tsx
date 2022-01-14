@@ -4,7 +4,8 @@ import { ReinUtils } from "../utils/ReinUtil"
 export interface ReinCollectAble<T> {
   id: string;
   title: string;
-  type:"news" | "tools"
+  type:"news" | "tools";
+  excerpt?: string;
   value: T;
 }
 
