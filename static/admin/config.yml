@@ -25,7 +25,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Tags", name: "type", widget: "hidden", default: "training" }
+      - { label: "Type", name: "type", widget: "hidden", default: "tools" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Training available", name: "training available", widget: "boolean", default: false}

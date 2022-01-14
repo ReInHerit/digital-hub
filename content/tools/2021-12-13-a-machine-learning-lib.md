@@ -1,5 +1,5 @@
 ---
-type: training
+type: tools
 title: A machine learning lib
 date: 2021-12-13T07:27:10.700Z
 training available: true

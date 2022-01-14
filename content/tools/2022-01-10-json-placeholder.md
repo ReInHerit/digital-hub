@@ -1,5 +1,5 @@
 ---
-type: training
+type: tools
 title: JSON Placeholder
 date: 2022-01-10T10:12:18.153Z
 training available: false

@@ -1,5 +1,5 @@
 ---
-type: training
+type: tools
 title: Tensor Flow
 date: 2022-01-10T10:06:37.544Z
 training available: false
