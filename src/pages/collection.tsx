@@ -11,7 +11,7 @@ const CollectionPage = () => {
   return (
     <BaseLayout>
       <h2>Personal collection</h2>
-      <Link className="text-secondary" to="/intern">
+      <Link className="text-secondary" to="/portal">
         <FontAwesomeIcon icon={faArrowAltCircleLeft} /> Back to personal space
       </Link>
       <br />
