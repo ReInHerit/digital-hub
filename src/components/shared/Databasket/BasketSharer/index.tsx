@@ -32,7 +32,8 @@ const BasketSharer: React.FC<Props> = (props) => {
       return {
           id: edge.node.fields.typeCountId,
           title: edge.node.frontmatter.title,
-          type: edge.node.frontmatter.type
+          type: edge.node.frontmatter.type,
+          excerpt: edge.node.excerpt
       }
     })
 
@@ -64,6 +65,7 @@ const BASKET_ALL_QUERY = graphql`
       edges {
         node {
           id
+          excerpt
           frontmatter {
             title
             date
@@ -94,6 +96,7 @@ declare module BasketGraphql {
 
   export interface Node {
       id: string;
+      excerpt: string;
       fields: {
         typeCountId: number
       }
