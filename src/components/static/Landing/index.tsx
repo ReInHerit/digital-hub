@@ -33,7 +33,7 @@ const Landing = () => {
     <Row xs={1} md={2} className="g-6">
       {Object.entries(reinheritStatics).map(([key, group], i) => <Col key={key + "_" + i}>
         <Link to={`/portal?mode=${group.REST_MODE_VAL}`} className="text-decoration-none text-dark">
-          <Card style={{borderRadius:"0"}} className="shadow">
+          <Card style={{borderRadius:"0"}} className="shadow reincard">
             <Card.Body>
               <Card.Title>{group.LABEL}</Card.Title>
               <Card.Text>
