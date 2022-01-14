@@ -48,7 +48,7 @@ const ReinGridCard: React.FC<Props> = (props) => {
               type="checkbox"
               label="(save to personal collection)"
               defaultChecked={ReinStorage.retrieveItem(props.uid) ? true : false}
-              onClick={() => ReinStorage.toggleItem({value: false, id:props.uid, title: props.title, type:props.type as any})}
+              onClick={() => ReinStorage.toggleItem({value: false, id:props.uid, title: props.title, type:props.type as any, excerpt: props.excerpt})}
             />}
             {props.footerContent && props.footerContent}
             </small>
