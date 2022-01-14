@@ -13,7 +13,7 @@ import BasketSharer from "./BasketSharer"
  * @returns 
  */
 const Databasket = () => {
-  const { retrieveCollection, toggleItem, saveCollection } = useReinLocalStorage<unknown>()
+  const { retrieveCollection, toggleItem, saveCollection, mapFaSymbol } = useReinLocalStorage<unknown>()
 
   const [collection, setCollection] = React.useState([])
 
@@ -66,13 +66,13 @@ const Databasket = () => {
       {collection.map((item: ReinCollectAble<unknown>) => (
         <ReinGridCard 
           excerpt="testexcerpt"
-          faIcon={faDatabase}
+          faIcon={ mapFaSymbol(item)}
           targetAudience={["visitor"]}
           title={item.title}
           type={item.type}
-          url={`/content/${item.type}/${item.id}`}
+          url={`/${item.type}/${item.id}`}
           footerContent={<Button variant="light" onClick={() => handleToggle(item)}><FontAwesomeIcon color="lightgrey" icon={faTrash}/></Button>}
-        ></ReinGridCard>
+        >{item.type}</ReinGridCard>
       ))}
     </ReinCardGrid>
     </>
