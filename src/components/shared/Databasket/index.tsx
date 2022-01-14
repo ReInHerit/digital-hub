@@ -60,6 +60,8 @@ const Databasket = () => {
   }
 
 
+
+
   return (
     <SideMainLayout
     side={
@@ -71,40 +73,21 @@ const Databasket = () => {
         </div>
         <p>Here you find all your collected items...</p>
         <div>
-          <b className="text-secondary">Training (5)</b>
+          <b className="text-secondary">Collection overview</b>
+          <p>There are <b>{collection.length}</b> items in your collection</p>
         </div>
         <ul className="m-0 p-1 pt-0" style={{ listStyle: "none" }}>
-          <li className="p-0 m-0">
+
+          {collection.map(item => <li className="p-0 m-0">
             <small>
-              <Link to={`/content/training/test`} className="text-dark">
-                Sample material
+              <Link to={`/${item.type}/${item.id}`} className="text-dark">
+                {item.title}
               </Link>{" "}
-              <span className="text-muted">(12.4.2012)</span>
+              <span className="text-muted">/ {item.type}</span>
             </small>
-          </li>
-          <li className="p-0 m-0">
-            <small>
-              <Link to={`/content/training/test`} className="text-dark">
-                Testme
-              </Link>{" "}
-              <span className="text-muted">(12.4.2012)</span>
-            </small>
-          </li>
+          </li>)}
         </ul>
         <br />
-        <div>
-          <b className="text-secondary">News (3)</b>
-        </div>
-        <ul className="m-0 p-1 pt-0" style={{ listStyle: "none" }}>
-          <li className="p-0 m-0">
-            <small>
-              <Link to={`/content/training/test`} className="text-dark">
-                Another sample
-              </Link>{" "}
-              <span className="text-muted">(12.4.2012)</span>
-            </small>
-          </li>
-        </ul>
       </div>
     }
     >
