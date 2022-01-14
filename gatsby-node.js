@@ -59,7 +59,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
     // id is added by my own to node inside onCreateNode
     const mdId = edge.node.fields.typeCountId
     actions.createPage({
-      path: `/content/training/${mdId}`,
+      path: `/training/${mdId}`,
       component: require.resolve(`./src/templates/training.js`),
       context: { id: edge.node.id },
     })
@@ -85,7 +85,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
   data.allMarkdownRemark.edges.forEach(edge => {
     const mdId = edge.node.fields.typeCountId
     actions.createPage({
-      path: `/content/news/${mdId}`,
+      path: `/news/${mdId}`,
       component: require.resolve(`./src/templates/training.js`),
       context: { id: edge.node.id },
     })
@@ -110,7 +110,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
     // id is added by my own to node inside onCreateNode
     const mdId = edge.node.fields.typeCountId
     actions.createPage({
-      path: `/content/toolkits/${mdId}`,
+      path: `/tools/${mdId}`,
       component: require.resolve(`./src/templates/training.js`),
       context: { id: edge.node.id },
     })
