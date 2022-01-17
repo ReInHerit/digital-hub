@@ -26,6 +26,7 @@ export default function Template({
               icon={mapFaSymbol(frontmatter.type)}
             ></FontAwesomeIcon>
           </h1>
+          <p className="w-75"><b>Excerpt: </b>{markdownRemark.excerpt}</p>
           <p>
             <FontAwesomeIcon color="lightgrey" icon={faArrowAltCircleLeft} />{" "}
             <Link to={`/${frontmatter.type}`}>
@@ -94,6 +95,7 @@ export const pageQuery = graphql`
         author
       }
       id
+      excerpt
     }
   }
 `
