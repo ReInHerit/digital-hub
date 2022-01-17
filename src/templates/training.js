@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import BaseLayout from "../components/static/BaseLayout"
-import { Col, Container, Row } from "react-bootstrap"
+import { Container} from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowAltCircleLeft } from "@fortawesome/free-solid-svg-icons"
 import { useReinLocalStorage } from "../hooks/useReinLocalStorage"
