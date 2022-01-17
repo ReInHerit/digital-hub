@@ -1,5 +1,5 @@
 import { faComments, faNewspaper } from "@fortawesome/free-regular-svg-icons";
-import { faBook, faCalendarDay, faDatabase, faPlusCircle, faRss, faToolbox, faUniversity } from "@fortawesome/free-solid-svg-icons";
+import { faBook, faBug, faCalendarDay, faDatabase, faPlusCircle, faRss, faToolbox, faUniversity } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "gatsby";
 import React from "react";
 import { Breadcrumb, Card, Col, Row } from "react-bootstrap";
@@ -114,6 +114,15 @@ const PortalContent = () => {
           targetAudience={["PROFESSIONAL"]}
           type="news"
           url="/news"
+          footerContent="General"
+        ></ReinGridCard>
+        <ReinGridCard
+          title="Report a bug"
+          excerpt="Small description of..."
+          faIcon={faBug}
+          targetAudience={["PROFESSIONAL"]}
+          type="news"
+          url="https://github.com/ReInHerit/digital-hub/issues"
           footerContent="General"
         ></ReinGridCard>
       </ReinCardGrid>
