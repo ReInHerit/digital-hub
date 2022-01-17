@@ -10,11 +10,11 @@ const QuickAccessBar: React.FC = () => {
 
   return (
     <Container
-      className="border p-2 d-none d-lg-block bg-white reincard shadow"
+      className="border p-2 d-none d-lg-block bg-white reincard shadow-sm"
       style={{
         position: "fixed",
         left: "0%",
-        top: "17%",
+        top: "100px",
         maxWidth: "40px",
       }}
     >
