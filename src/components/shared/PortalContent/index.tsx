@@ -77,7 +77,7 @@ const PortalContent = () => {
           faIcon={faPlusCircle}
           targetAudience={["PROFESSIONAL"]}
           type="news"
-          url="/news"
+          url="/portal/cms"
           footerContent={<a className="text-secondary" href="/admin/admin.html" target="blank">Quick access</a>}
         ></ReinGridCard>
         <ReinGridCard
