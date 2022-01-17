@@ -1,5 +1,5 @@
 import { faComments } from "@fortawesome/free-regular-svg-icons"
-import { faComment, faDatabase, faPlus, faPlusCircle, faRss, faUser, faUsers } from "@fortawesome/free-solid-svg-icons"
+import { faComment, faDatabase, faPlus, faPlusCircle, faRss, faSearch, faUser, faUsers } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "gatsby"
 import React from "react"
@@ -14,7 +14,7 @@ const QuickAccessBar: React.FC = () => {
       style={{
         position: "fixed",
         left: "0%",
-        top: "20%",
+        top: "17%",
         maxWidth: "40px",
       }}
     >
@@ -41,6 +41,12 @@ const QuickAccessBar: React.FC = () => {
         href="/collection"
         toolTipheader={"Quick access personal collection"}
         toolTipbody={<>Quick access personal collection.</>}
+      ></BarElem>
+      <BarElem
+        faIcon={faSearch}
+        href="/collection"
+        toolTipheader={"Quick access search"}
+        toolTipbody={<>Search across all the material provided.</>}
       ></BarElem>
       
       
