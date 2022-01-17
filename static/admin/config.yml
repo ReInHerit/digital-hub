@@ -17,10 +17,25 @@ media_library:      # comment out will make media available.
 
 # collections config see here: https://www.netlifycms.org/docs/widgets/#object
 collections:
+  - name: "tools"
+    label: "WP3-Toolkit: Tools"
+    label_singular: 'tool'
+    hide: false                # hides specific collection -> still available if you have the link!
+    folder: "content/tools"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Type", name: "type", widget: "hidden", default: "tools" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Training available", name: "training available", widget: "boolean", default: false}
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Type", name: "tool-type", widget: "select", options: ["REST-API", "Library", "Web-Interface","GraphQL-API","Application","CLI","Python","Java","X-Technologies","Javascript","Typescript","Web Development","Economics","Cultural Heritage","History","Museology","Machine Learning","Topic Modeling","NLP","GIS","Relational DB"], default: ["NLP"], multiple: true, required: true }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "training"
     label: "WP3: Training"
     label_singular: 'entry'
-    hide: false                # hides specific collection -> still available if you have the link!
+    hide: true                # hides specific collection -> still available if you have the link!
     folder: "content/training"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -34,7 +49,7 @@ collections:
   - name: "apps"
     label: "WP3: Apps"
     label_singular: "app"
-    hide: false                # hides specific collection -> still available if you have the link!
+    hide: true                # hides specific collection -> still available if you have the link!
     folder: "content/apps"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -48,7 +63,7 @@ collections:
   - name: "games"
     label: "WP3: Games"
     label_singular: "game"
-    hide: false                # hides specific collection -> still available if you have the link!
+    hide: true                # hides specific collection -> still available if you have the link!
     folder: "content/games"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"

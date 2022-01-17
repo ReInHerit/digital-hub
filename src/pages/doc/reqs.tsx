@@ -7,10 +7,13 @@ import DocNav from "../../components/static/DocNav";
 const Requirements = () => {
 
   return <BaseLayout>
+    <h1>Technical documentation</h1>
+      <p>Description of the underlying software architecture of the Digital Hub.</p>
+      <br />
     <SideBarsLayout
       left={<DocNav/>}
       right={
-      <ul className="sticky-top">
+      <ul>
         <li>
           <Link to="#use_case">Use case diagram</Link>
         </li>
@@ -20,7 +23,7 @@ const Requirements = () => {
       </ul>
       }
     >
-      <h1>Requirement Analysis</h1>
+      <h2>Requirement Analysis</h2>
       <p>Praesent vel aliquet justo, sagittis egestas nunc.</p>
       <br/>
       <h2 id="use_case" className="h3">UML Use case diagram</h2>

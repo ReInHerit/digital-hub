@@ -12,6 +12,7 @@ import { Container } from "react-bootstrap"
 import ReinNavBar from "../Navbar"
 import Footer from "../Footer"
 import Base from "../Base"
+import QuickAccessBar from "../QuickAccessBar";
 
 interface Props {
   children?: any
@@ -22,8 +23,10 @@ const BaseLayout = ({ children }: Props) => {
     <Base>
       <Header />
       <ReinNavBar/>
+      <QuickAccessBar/>
       <Container
         className="rein_main_container mt-md-5"
+        fluid
       >{children}</Container>
       <Footer />
     </Base>

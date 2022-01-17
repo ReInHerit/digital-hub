@@ -6,8 +6,8 @@ import { Col, Container, Row } from "react-bootstrap"
 
 const Footer: React.FC = () => {
   return (
-    <div className="border-1 border-top pt-2 mt-lg-5">
-      <Container>
+    <div className="border-1 border-top pt-2 mt-lg-5 shadow">
+      <Container fluid>
         <Row>
           <Col lg={4}>
             <ul style={{listStyle: "none"}}>
@@ -24,6 +24,7 @@ const Footer: React.FC = () => {
           </Col>
           <Col lg={4}>
               <p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101004545” </p>
+              <img style={{maxWidth:"60px"}} src="/images/rein_eu.png"></img>
           </Col>
           <Col>
             <p>Follow us on: </p>

@@ -16,7 +16,7 @@ const SideBarsLayout: React.FC<Props> = props => {
   return (
     <Row>
       <Col xl={2}>{props.left}</Col>
-      <Col>
+      <Col xl={6}>
         <Container>{props.children}</Container>
       </Col>
       <Col xl={2}>{props.right}</Col>

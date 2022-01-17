@@ -1,9 +1,13 @@
+import { faDatabase, faRss, faTools } from "@fortawesome/free-solid-svg-icons";
 import { ReinUtils } from "../utils/ReinUtil"
+
+export type ReinMaterialType = "news" | "tools";
 
 export interface ReinCollectAble<T> {
   id: string;
   title: string;
-  type:"image" | "news" | "unknown" | "training"
+  type:ReinMaterialType;
+  excerpt?: string;
   value: T;
 }
 
@@ -96,12 +100,32 @@ export const useReinLocalStorage = <T extends unknown> () => {
     }
   }
 
+  /** 
+   * Returns corresponding fa-icon to collected item. 
+  */
+  const mapFaSymbol = (collectable: ReinCollectAble<T> | ReinMaterialType) => {
+
+    // first typecheck
+    let matType = typeof collectable === "string" ? collectable : collectable.type;
+
+    switch(matType){
+      case "news":
+        return faRss
+      case "tools":
+        return faTools;
+      default:
+        return faDatabase;
+    }
+
+  }
+
 
   return {
     retrieveItem,
     toggleItem,
     retrieveCollection,
-    saveCollection
+    saveCollection,
+    mapFaSymbol
   }
 }
 
