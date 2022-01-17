@@ -69,7 +69,7 @@ export default function Template({
               </div>
             }
           >
-            <Container fluid className="bg-white">
+            <Container fluid className="bg-white card p-4">
               <div
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}
