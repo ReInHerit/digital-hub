@@ -45,9 +45,6 @@ const ReinNavbar: React.FC = () => {
             </Form.Select>
               <Nav.Link as="div"><Link to={addMode("/portal", theme.mode)} className="text-dark text-decoration-none">Portal</Link></Nav.Link>
             </Nav>
-            <Nav>
-            <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none"><img style={{maxWidth:"60px"}} src="/images/rein_eu.png"></img></Link></Navbar.Brand>
-            </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
