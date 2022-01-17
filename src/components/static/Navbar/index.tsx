@@ -14,7 +14,7 @@ const ReinNavbar: React.FC = () => {
 
   return (
     <React.Fragment>
-      <Navbar collapseOnSelect style={{borderLeft: `10px solid ${theme.styles.MAIN_COLOR}`}} expand="lg">
+      <Navbar sticky="top" collapseOnSelect style={{borderLeft: `10px solid ${theme.styles.MAIN_COLOR}`}} expand="lg" className="bg-light">
         <Container fluid>
           <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none"><img style={{maxWidth:"50px"}} src="/images/rein_logo.jpg"></img></Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

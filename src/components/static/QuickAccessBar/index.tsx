@@ -1,0 +1,50 @@
+import { faComments } from "@fortawesome/free-regular-svg-icons"
+import { faComment, faDatabase, faPlus, faPlusCircle, faRss, faUser, faUsers } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Link } from "gatsby"
+import React from "react"
+import { Button, Container, Overlay, OverlayTrigger, Popover } from "react-bootstrap"
+import BarElem from "./BarElem"
+
+const QuickAccessBar: React.FC = () => {
+
+  return (
+    <Container
+      style={{
+        position: "fixed",
+        left: "0%",
+        top: "20%",
+        maxWidth: "3%",
+      }}
+    >
+      <BarElem
+        faIcon={faUsers}
+        href="https://github.com/ReInHerit/digital-hub/issues"
+        toolTipheader={"Quick access forum"}
+        toolTipbody={<>Contribute to, or read through <strong>public</strong> discussions.</>}
+      ></BarElem>
+      <BarElem
+        faIcon={faComment}
+        href="https://gitter.im/explore"
+        toolTipheader={"Quick access chat"}
+        toolTipbody={<>Chat with fellow professionals.</>}
+      ></BarElem>
+      <BarElem
+        faIcon={faPlusCircle}
+        href="/admin/admin.html"
+        toolTipheader={"Quick access CMS"}
+        toolTipbody={<>Provide data to the Digital Hub.</>}
+      ></BarElem>
+      <BarElem
+        faIcon={faDatabase}
+        href="/collection"
+        toolTipheader={"Quick access personal collection"}
+        toolTipbody={<>Quick access personal collection.</>}
+      ></BarElem>
+      
+      
+    </Container>
+  )
+}
+
+export default QuickAccessBar
