@@ -1,7 +1,10 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import BaseLayout from "../components/static/BaseLayout"
 import { Col, Container, Row } from "react-bootstrap"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faArrowAltCircleLeft } from "@fortawesome/free-solid-svg-icons"
+
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
@@ -11,17 +14,17 @@ export default function Template({
     <BaseLayout>
       <div className="blog-post-container">
         <div className="blog-post">
-          <h1 className="h2">Article</h1>
-          <p>{frontmatter.title}</p>
+          <h1 className="h2">{frontmatter.title}</h1>
+          <p><FontAwesomeIcon icon={faArrowAltCircleLeft} /> <Link to={`/${frontmatter.type}`}>{frontmatter.type.charAt(0).toUpperCase() + frontmatter.type.slice(1)} overview</Link></p>
           <br/>
           <Row>
             <Col lg={2}>
-
+              {/* {markdownRemark.id} */}
               <div><b className="text-secondary">Author(s)</b></div>
-              <div>Max Mustermann</div>
+              <div>{markdownRemark.author ? markdownRemark.author : "ReInHerit project team"}</div>
               <br/>
 
-              <div><b className="text-secondary">Date</b></div>
+              <div><b className="text-secondary">Publication date</b></div>
               <div>{frontmatter.date}</div>
               <br/>
 
@@ -29,7 +32,7 @@ export default function Template({
               <div>"Mustermann, Max; Doing development, ... "</div>
               <br/>
 
-              <div><b className="text-secondary">Terms or reuse</b></div>
+              <div><b className="text-secondary">Terms of reuse</b></div>
               <div>MIT - CC BY 4.0</div>
               <br/>
             </Col>
@@ -55,6 +58,11 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        type
+        target_audience
+        tool_type
+        author
       }
+      id
     }
   }`
