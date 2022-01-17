@@ -7,10 +7,13 @@ import DocNav from "../../components/static/DocNav";
 const Contribute = () => {
 
   return <BaseLayout>
+    <h2>Technical documentation</h2>
+      <p>Description of the underlying software architecture of the Digital Hub.</p>
+      <br />
     <SideBarsLayout
       left={<DocNav/>}
     >
-      <h1>Contribute to ReInherit</h1>
+      <h2>Contribute to ReInherit</h2>
     </SideBarsLayout>
     
   </BaseLayout>

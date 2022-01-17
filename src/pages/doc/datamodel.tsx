@@ -7,10 +7,13 @@ import DocNav from "../../components/static/DocNav";
 const DataModel = () => {
 
   return <BaseLayout>
+    <h1>Technical documentation</h1>
+      <p>Description of the underlying software architecture of the Digital Hub.</p>
+      <br />
     <SideBarsLayout
       left={<DocNav/>}
     >
-      <h1>Data model of ReinHerit</h1>
+      <h2>Data model of ReinHerit</h2>
       <h2>ER Diagram?</h2>
     </SideBarsLayout>
     

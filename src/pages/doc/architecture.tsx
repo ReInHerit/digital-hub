@@ -6,10 +6,13 @@ import DocNav from "../../components/static/DocNav"
 const Architecture = () => {
   return (
     <BaseLayout>
+      <h1>Technical documentation</h1>
+      <p>Description of the underlying software architecture of the Digital Hub.</p>
+      <br />
       <SideBarsLayout
         left={<DocNav/>}
       >
-        <h1>Software architecture of ReinHerit</h1>
+        <h2>Software architecture of ReinHerit</h2>
         <p>Praesent vel aliquet justo, sagittis egestas nunc.</p>
         
         
