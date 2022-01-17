@@ -2,14 +2,17 @@ import { Link } from "gatsby";
 import React from "react";
 import { ListGroup, ListGroupItem } from "react-bootstrap";
 
+interface Props {
+  sticky?: boolean
+}
 
 /**
  * Navigation for documentation page of the Digital Hub.
  * @returns 
  */
-const DocNav = () => {
+const DocNav: React.FC<Props> = (props) => {
 
-  return <ListGroup className="sticky-top" variant="flush">
+  return <ListGroup className={props.sticky && "sticky-top"} variant="flush">
     <ListGroupItem>
       <Link to="/doc">About</Link>
     </ListGroupItem>
