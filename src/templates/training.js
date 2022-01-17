@@ -4,18 +4,23 @@ import BaseLayout from "../components/static/BaseLayout"
 import { Col, Container, Row } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowAltCircleLeft } from "@fortawesome/free-solid-svg-icons"
+import { useReinLocalStorage } from "../hooks/useReinLocalStorage"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
+
+  const { mapFaSymbol } = useReinLocalStorage();
+
   return (
     <BaseLayout>
       <div className="blog-post-container">
         <div className="blog-post">
-          <h1 className="h2">{frontmatter.title}</h1>
-          <p><FontAwesomeIcon icon={faArrowAltCircleLeft} /> <Link to={`/${frontmatter.type}`}>{frontmatter.type.charAt(0).toUpperCase() + frontmatter.type.slice(1)} overview</Link></p>
+          
+          <h1 className="h2">{frontmatter.title} <FontAwesomeIcon color="lightgrey" icon={mapFaSymbol(frontmatter.type)}></FontAwesomeIcon></h1>
+          <p><FontAwesomeIcon color="lightgrey" icon={faArrowAltCircleLeft} /> <Link to={`/${frontmatter.type}`}>{frontmatter.type.charAt(0).toUpperCase() + frontmatter.type.slice(1)} overview</Link></p>
           <br/>
           <Row>
             <Col lg={2}>
