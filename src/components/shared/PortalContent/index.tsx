@@ -1,5 +1,5 @@
 import { faComments, faNewspaper } from "@fortawesome/free-regular-svg-icons";
-import { faBook, faBug, faCalendarDay, faDatabase, faPlusCircle, faRss, faToolbox, faUniversity } from "@fortawesome/free-solid-svg-icons";
+import { faBook, faBug, faCalendarDay, faDatabase, faLink, faPlusCircle, faRss, faToolbox, faUniversity } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "gatsby";
 import React from "react";
 import { Breadcrumb, Card, Col, Row } from "react-bootstrap";
@@ -78,7 +78,7 @@ const PortalContent = () => {
           targetAudience={["PROFESSIONAL"]}
           type="news"
           url="/news"
-          footerContent="CMS"
+          footerContent={<a className="text-secondary" href="/admin/admin.html" target="blank">Quick access</a>}
         ></ReinGridCard>
         <ReinGridCard
           title="Exchange with others"
