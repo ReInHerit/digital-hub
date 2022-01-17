@@ -12,7 +12,7 @@ const CollectionPage = () => {
     <BaseLayout>
       <h2>Personal collection</h2>
       <Link className="text-secondary" to="/portal">
-        <FontAwesomeIcon icon={faArrowAltCircleLeft} /> Back to personal space
+        <FontAwesomeIcon icon={faArrowAltCircleLeft} /> Back to the portal
       </Link>
       <br />
       <br />
