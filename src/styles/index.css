@@ -33,6 +33,13 @@ hr {
   border-bottom: 3px solid lightgrey;
 }
 
+/*
+Ensures that nav does not overlap the gitter chat
+*/
+.gitter-chat-embed {
+  z-index: 999999;
+}
+
 
 @media (min-width: 1400px) {
   .rein_main_container {
