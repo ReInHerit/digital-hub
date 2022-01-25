@@ -20,13 +20,13 @@ const QuickAccessBar: React.FC = () => {
     >
       <BarElem
         faIcon={faUsers}
-        href="https://github.com/ReInHerit/digital-hub/issues"
+        href="https://github.com/ReInHerit/digital-exchange/issues"
         toolTipheader={"Quick access forum"}
         toolTipbody={<>Contribute to, or read through <strong>public</strong> discussions.</>}
       ></BarElem>
       <BarElem
         faIcon={faComment}
-        href="https://gitter.im/explore"
+        href="https://gitter.im/ReInHerit/community"
         toolTipheader={"Quick access chat"}
         toolTipbody={<>Chat with fellow professionals.</>}
       ></BarElem>
