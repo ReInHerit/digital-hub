@@ -2,7 +2,9 @@ import React from "react"
 
 
 /**
- * Component adds 
+ * Component adds gitter functionality to the page via embedment.
+ * - based on: https://sidecar.gitter.im/
+ * - places an iframe of gitter on the page
  * @returns 
  */
 const GitterSiderCar: React.FC = () => {
