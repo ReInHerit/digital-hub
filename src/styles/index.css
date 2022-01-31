@@ -24,13 +24,14 @@ hr {
 }
 
 #reinnav a {
-  transition: .125s all cubic-bezier(.155,1.105,.295,1.12);
+  transition: .125s color cubic-bezier(.155,1.105,.295,1.12);
 }
 
 #reinnav a:hover {
   /* text-decoration: underline !important; */
   /* transform: scale(1.53) !important; */
-  border-bottom: 3px solid lightgrey;
+  /* border-bottom: 3px solid lightgrey; */
+  color: rgb(242, 203, 5) !important;
 }
 
 /*
