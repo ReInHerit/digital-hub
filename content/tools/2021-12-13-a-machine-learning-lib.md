@@ -1,6 +1,7 @@
 ---
 type: tools
 title: A machine learning lib
+link: https://google.com
 date: 2021-12-13T07:27:10.700Z
 training available: true
 target-audience:
