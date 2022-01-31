@@ -84,19 +84,19 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Code", name: "code", widget: "code" }
-  - name: "performaces"
+  - name: "performances"
     label: "WP4: Performances"
     label_singular: "performance"
     hide: false                # hides specific collection -> still available if you have the link!
-    folder: "content/games"
+    folder: "content/performances"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Type", name: "type", widget: "hidden", default: "training" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "performance" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: false }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "exhibitions"
     label: "WP6: Digital exhibitions"
