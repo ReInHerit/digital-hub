@@ -27,6 +27,7 @@ collections:
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "tools" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Link", name: "link", widget: "string"}
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Training available", name: "training available", widget: "boolean", default: false}
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
