@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowAltCircleLeft, faLink } from "@fortawesome/free-solid-svg-icons"
 import { useReinLocalStorage } from "../hooks/useReinLocalStorage"
 import SideBarsLayout from "../components/shared/Layout/SideBarsLayout"
+import SideMainLayout from "../components/shared/Layout/SideMainLayout"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -37,8 +38,8 @@ export default function Template({
           </p>
           <br />
 
-          <SideBarsLayout
-            left={
+          <SideMainLayout
+            side={
               <div className="reincard card p-4">
 
                 {frontmatter.link && <><div>
@@ -82,7 +83,7 @@ export default function Template({
                 dangerouslySetInnerHTML={{ __html: html }}
               />
             </Container>
-          </SideBarsLayout>
+          </SideMainLayout>
         </div>
       </div>
     </BaseLayout>
