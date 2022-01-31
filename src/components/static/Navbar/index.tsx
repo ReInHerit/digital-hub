@@ -40,10 +40,9 @@ const ReinNavbar: React.FC = () => {
                 <Link to={addMode("/content/training", theme.mode)} className="text-dark text-decoration-none">Training / Webinars</Link>
                 </NavDropdown.Item>
               </NavDropdown> */}
-              <Nav.Link as="div"><Link to="#" className="text-dark text-decoration-none">Performance(s)</Link></Nav.Link>
-              <NavDropdown title="Exhibitions" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1"><Link to="/performances/1" className="text-dark text-decoration-none">Performance 1</Link></NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1"><Link to="/performances/2" className="text-dark text-decoration-none">Performance 2</Link></NavDropdown.Item>
+              <NavDropdown title="Performances" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1"><Link to="/content/performances/perf1" className="text-dark text-decoration-none">Performance 1</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.1"><Link to="/content/performances/perf2" className="text-dark text-decoration-none">Performance 2</Link></NavDropdown.Item>
               </NavDropdown>
               
               <Nav.Link as="div"><Link to="/dataprot" className="text-dark text-decoration-none">E-Shop</Link></Nav.Link>
