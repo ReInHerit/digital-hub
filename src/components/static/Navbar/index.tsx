@@ -23,8 +23,8 @@ const ReinNavbar: React.FC = () => {
               <Nav.Link as="div"><Link className="text-dark text-decoration-none" to={addMode("/", theme.mode)}>Home</Link></Nav.Link>
               <Nav.Link as="div"><Link to={addMode("/news", theme.mode)} className="text-dark text-decoration-none">News</Link></Nav.Link>
               <NavDropdown title="Exhibitions" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1"><Link to="#" className="text-dark text-decoration-none">Digital Exhibition</Link></NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1"><Link to="#" className="text-dark text-decoration-none">Traveling Exhibition</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.1"><Link to="/exhibs/digital" className="text-dark text-decoration-none">Digital Exhibition</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.1"><Link to="/exhibs/travel" className="text-dark text-decoration-none">Traveling Exhibition</Link></NavDropdown.Item>
               </NavDropdown>
               
               <Nav.Link as="div"><Link to="/tools" className="text-dark text-decoration-none">Toolkit</Link></Nav.Link>
