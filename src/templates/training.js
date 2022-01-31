@@ -7,6 +7,7 @@ import { faArrowAltCircleLeft, faLink } from "@fortawesome/free-solid-svg-icons"
 import { useReinLocalStorage } from "../hooks/useReinLocalStorage"
 import SideBarsLayout from "../components/shared/Layout/SideBarsLayout"
 import SideMainLayout from "../components/shared/Layout/SideMainLayout"
+import ReactMarkdown from "react-markdown"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -83,6 +84,14 @@ export default function Template({
                 dangerouslySetInnerHTML={{ __html: html }}
               />
             </Container>
+            {frontmatter.tutorial && <>
+              <br></br>
+              <h2>Tutorials</h2>
+              <ReactMarkdown
+              >
+                {frontmatter.tutorial.replace("youtube: ", "")}
+              </ReactMarkdown>
+            </>}
           </SideMainLayout>
         </div>
       </div>
@@ -101,6 +110,7 @@ export const pageQuery = graphql`
         target_audience
         tool_type
         author
+        tutorial
       }
       id
       excerpt
