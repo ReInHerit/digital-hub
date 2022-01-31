@@ -52,9 +52,7 @@ export default function Template({
                   <b className="text-secondary">Author(s)</b>
                 </div>
                 <div>
-                  {markdownRemark.author
-                    ? markdownRemark.author
-                    : "ReInHerit project team"}
+                  ReInHerit Project
                 </div>
                 <br />
 
