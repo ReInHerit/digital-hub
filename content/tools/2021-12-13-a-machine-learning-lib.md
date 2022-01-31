@@ -9,6 +9,10 @@ target-audience:
 tool-type:
   - Python
   - CLI
+tutorial: |-
+  # Tutorial 1
+
+  Demo text here
 ---
 # A machine learning library
 
