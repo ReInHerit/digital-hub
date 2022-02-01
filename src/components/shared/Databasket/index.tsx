@@ -80,10 +80,11 @@ const Databasket = () => {
 
           {collection.map(item => <li className="p-0 m-0">
             <small>
+            <span className="text-muted">#{item.type} / </span>
               <Link to={`/${item.type}/${item.id}`} className="text-dark">
                 {item.title}
               </Link>{" "}
-              <span className="text-muted">/ {item.type}</span>
+              
             </small>
           </li>)}
         </ul>

@@ -22,7 +22,11 @@ const ReinNavbar: React.FC = () => {
             <Nav className="me-auto">
               <Nav.Link as="div"><Link className="text-dark text-decoration-none" to={addMode("/", theme.mode)}>Home</Link></Nav.Link>
               <Nav.Link as="div"><Link to={addMode("/news", theme.mode)} className="text-dark text-decoration-none">News</Link></Nav.Link>
-              <Nav.Link as="div"><Link to="#" className="text-dark text-decoration-none">Digital Exhibitions</Link></Nav.Link>
+              <NavDropdown title="Exhibitions" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1"><Link to="/exhibs/digital" className="text-dark text-decoration-none">Digital Exhibition</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.1"><Link to="/exhibs/travel" className="text-dark text-decoration-none">Traveling Exhibition</Link></NavDropdown.Item>
+              </NavDropdown>
+              
               <Nav.Link as="div"><Link to="/tools" className="text-dark text-decoration-none">Toolkit</Link></Nav.Link>
               
               {/* <NavDropdown title="Toolkit" id="nav_toolkit">
@@ -36,7 +40,11 @@ const ReinNavbar: React.FC = () => {
                 <Link to={addMode("/content/training", theme.mode)} className="text-dark text-decoration-none">Training / Webinars</Link>
                 </NavDropdown.Item>
               </NavDropdown> */}
-              <Nav.Link as="div"><Link to="#" className="text-dark text-decoration-none">Performance(s)</Link></Nav.Link>
+              <NavDropdown title="Performances" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1"><Link to="/content/performances/perf1" className="text-dark text-decoration-none">Performance 1</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.1"><Link to="/content/performances/perf2" className="text-dark text-decoration-none">Performance 2</Link></NavDropdown.Item>
+              </NavDropdown>
+              
               <Nav.Link as="div"><Link to="/dataprot" className="text-dark text-decoration-none">E-Shop</Link></Nav.Link>
             </Nav>
             <Nav>

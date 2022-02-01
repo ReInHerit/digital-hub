@@ -9,6 +9,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css"
 import { config } from "@fortawesome/fontawesome-svg-core"
 import { useReinTheme } from "../../../hooks/contexts/useReinTheme"
 import { ReinheritSoftAuthProvider } from "../../../hooks/contexts/useReinSoftAuth"
+import GitterSiderCar from "../../shared/GitterSideCar"
 config.autoAddCss = false /* eslint-disable import/first */
 
 interface Props {
@@ -22,6 +23,7 @@ const Base: React.FC<Props> = props => {
   const { ReinheritThemeProvider } = useReinTheme()
   return (
     <ReinheritThemeProvider>
+      <GitterSiderCar></GitterSiderCar>
       <ReinheritSoftAuthProvider>{props.children}</ReinheritSoftAuthProvider>
     </ReinheritThemeProvider>
   )

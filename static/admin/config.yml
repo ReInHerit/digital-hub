@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github                  # set to 'git-gateway' when using neltlify git-gateway
+  repo: ReInHerit/digital-hub   # comment out line when using neltlify git-gateway
   branch: main
 local_backend: true             # true if accessed local dev instance of netlify cms port 8081 | How tu run a local dev server: https://www.netlifycms.org/docs/beta-features/
 search: false   # disables search for collections -> hidden collections could be found with other config!
@@ -27,11 +28,13 @@ collections:
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "tools" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Link", name: "link", widget: "string"}
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Training available", name: "training available", widget: "boolean", default: false}
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Type", name: "tool-type", widget: "select", options: ["REST-API", "Library", "Web-Interface","GraphQL-API","Application","CLI","Python","Java","X-Technologies","Javascript","Typescript","Web Development","Economics","Cultural Heritage","History","Museology","Machine Learning","Topic Modeling","NLP","GIS","Relational DB"], default: ["NLP"], multiple: true, required: true }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tutorial", name: "tutorial", widget: "markdown" }
   - name: "training"
     label: "WP3: Training"
     label_singular: 'entry'
@@ -84,19 +87,19 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Code", name: "code", widget: "code" }
-  - name: "performaces"
+  - name: "performances"
     label: "WP4: Performances"
     label_singular: "performance"
     hide: false                # hides specific collection -> still available if you have the link!
-    folder: "content/games"
+    folder: "content/performances"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Type", name: "type", widget: "hidden", default: "training" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "performance" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: false }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "exhibitions"
     label: "WP6: Digital exhibitions"
@@ -121,6 +124,21 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "news" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Author(s)", name: "author", widget: "select", options: ["sina", "chiara","project"], default: "project", multiple: true }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "designs"
+    label: "WP?: Designs"
+    label_singular: "design"
+    hide: false                # hides specific collection -> still available if you have the link!
+    folder: "content/designs"
+    description: E-Shop items
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "design" }
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Body", name: "body", widget: "markdown" }

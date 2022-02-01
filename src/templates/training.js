@@ -3,9 +3,11 @@ import { graphql, Link } from "gatsby"
 import BaseLayout from "../components/static/BaseLayout"
 import { Container} from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faArrowAltCircleLeft } from "@fortawesome/free-solid-svg-icons"
+import { faArrowAltCircleLeft, faLink } from "@fortawesome/free-solid-svg-icons"
 import { useReinLocalStorage } from "../hooks/useReinLocalStorage"
 import SideBarsLayout from "../components/shared/Layout/SideBarsLayout"
+import SideMainLayout from "../components/shared/Layout/SideMainLayout"
+import ReactMarkdown from "react-markdown"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -37,16 +39,22 @@ export default function Template({
           </p>
           <br />
 
-          <SideBarsLayout
-            left={
+          <SideMainLayout
+            side={
               <div className="reincard card p-4">
+
+                {frontmatter.link && <><div>
+                  <b className="text-secondary">Link</b>
+                </div>
+                <div>
+                  <a target="_blank" href={frontmatter.link}><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a>
+                </div><br/></>}
+
                 <div>
                   <b className="text-secondary">Author(s)</b>
                 </div>
                 <div>
-                  {markdownRemark.author
-                    ? markdownRemark.author
-                    : "ReInHerit project team"}
+                  ReInHerit Project
                 </div>
                 <br />
 
@@ -76,7 +84,15 @@ export default function Template({
                 dangerouslySetInnerHTML={{ __html: html }}
               />
             </Container>
-          </SideBarsLayout>
+            {frontmatter.tutorial && <>
+              <br></br>
+              <h2>Tutorials</h2>
+              <ReactMarkdown
+              >
+                {frontmatter.tutorial.replace("youtube: ", "")}
+              </ReactMarkdown>
+            </>}
+          </SideMainLayout>
         </div>
       </div>
     </BaseLayout>
@@ -89,10 +105,12 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        link
         type
         target_audience
         tool_type
         author
+        tutorial
       }
       id
       excerpt
