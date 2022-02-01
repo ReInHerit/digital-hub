@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github                  # set to 'git-gateway' when using neltlify git-gateway
+  repo: ReInHerit/digital-hub   # comment out line when using neltlify git-gateway
   branch: main
 local_backend: true             # true if accessed local dev instance of netlify cms port 8081 | How tu run a local dev server: https://www.netlifycms.org/docs/beta-features/
 search: false   # disables search for collections -> hidden collections could be found with other config!
