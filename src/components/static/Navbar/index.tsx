@@ -23,6 +23,8 @@ const ReinNavbar: React.FC = () => {
               <Nav.Link as="div"><Link className="text-dark text-decoration-none" to={addMode("/", theme.mode)}>Home</Link></Nav.Link>
               <Nav.Link as="div"><Link to={addMode("/news", theme.mode)} className="text-dark text-decoration-none">News</Link></Nav.Link>
               <NavDropdown title="Exhibitions" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.0"><Link to="/portal/exhibs" className="text-dark text-decoration-none">Overview</Link></NavDropdown.Item>
+                <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.1"><Link to="/exhibs/digital" className="text-dark text-decoration-none">Digital Exhibition</Link></NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.1"><Link to="/exhibs/travel" className="text-dark text-decoration-none">Traveling Exhibition</Link></NavDropdown.Item>
               </NavDropdown>
@@ -41,6 +43,8 @@ const ReinNavbar: React.FC = () => {
                 </NavDropdown.Item>
               </NavDropdown> */}
               <NavDropdown title="Performances" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.0"><Link to="/portal/performances" className="text-dark text-decoration-none">Overview</Link></NavDropdown.Item>
+                <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.1"><Link to="/content/performances/perf1" className="text-dark text-decoration-none">Performance 1</Link></NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.1"><Link to="/content/performances/perf2" className="text-dark text-decoration-none">Performance 2</Link></NavDropdown.Item>
               </NavDropdown>
