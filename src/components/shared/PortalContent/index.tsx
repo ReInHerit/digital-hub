@@ -86,7 +86,7 @@ const PortalContent = () => {
           faIcon={faComments}
           targetAudience={["PROFESSIONAL"]}
           type="news"
-          url="/news"
+          url="/portal/exchange"
           footerContent="Chat"
         ></ReinGridCard>
         <ReinGridCard
