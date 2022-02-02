@@ -45,7 +45,7 @@ const ReinNavbar: React.FC = () => {
                 <NavDropdown.Item href="#action/3.1"><Link to="/content/performances/perf2" className="text-dark text-decoration-none">Performance 2</Link></NavDropdown.Item>
               </NavDropdown>
               
-              <Nav.Link as="div"><Link to="/dataprot" className="text-dark text-decoration-none">E-Shop</Link></Nav.Link>
+              <Nav.Link as="div"><Link to="/designs" className="text-dark text-decoration-none">Designs</Link></Nav.Link>
             </Nav>
             <Nav>
             <Form.Select className="border-0" aria-label="Default select example" onChange={(evt) => theme.changeTheme(evt.currentTarget.value as any)}>
