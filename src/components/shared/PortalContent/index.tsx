@@ -41,7 +41,7 @@ const PortalContent = () => {
           faIcon={faUniversity}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
-          url="/news"
+          url="/portal/exhibs"
           footerContent="Digital Exhibitions"
         ></ReinGridCard>
         <ReinGridCard
@@ -50,7 +50,7 @@ const PortalContent = () => {
           faIcon={faCalendarDay}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
-          url="/news"
+          url="/portal/performances"
           footerContent="Performances"
         ></ReinGridCard>
         <ReinGridCard
