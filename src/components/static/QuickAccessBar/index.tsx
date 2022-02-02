@@ -14,7 +14,7 @@ const QuickAccessBar: React.FC = () => {
       style={{
         position: "fixed",
         right: "0%",
-        top: "40%",
+        top: "45%",
         maxWidth: "40px",
       }}
     >
