@@ -1,3 +1,4 @@
+import { faObjectUngroup } from "@fortawesome/free-regular-svg-icons"
 import { faTools } from "@fortawesome/free-solid-svg-icons"
 import React from "react"
 import SideMainLayout from "../../components/shared/Layout/SideMainLayout"
@@ -15,7 +16,7 @@ const Designs = () => {
           <ReinGridCard
             key={"edge.node.fields.typeCountId"}
             excerpt={"edge.node.excerpt"}
-            faIcon={faTools}
+            faIcon={faObjectUngroup}
             targetAudience={["VISITOR"]}
             title="Design1"
             type="tools"
@@ -25,7 +26,7 @@ const Designs = () => {
           <ReinGridCard
             key={"edge.node.fields.typeCountIddasd"}
             excerpt={"edge.node.excerpt"}
-            faIcon={faTools}
+            faIcon={faObjectUngroup}
             targetAudience={["VISITOR"]}
             title="Design1"
             type="tools"
@@ -35,7 +36,27 @@ const Designs = () => {
           <ReinGridCard
             key={"edge.node.fields.typeCountIdddddd"}
             excerpt={"edge.node.excerpt"}
-            faIcon={faTools}
+            faIcon={faObjectUngroup}
+            targetAudience={["VISITOR"]}
+            title="Design1"
+            type="tools"
+            url={`google.com`}
+            uid="123233"
+          ></ReinGridCard>
+          <ReinGridCard
+            key={"5"}
+            excerpt={"edge.node.excerpt"}
+            faIcon={faObjectUngroup}
+            targetAudience={["VISITOR"]}
+            title="Design1"
+            type="tools"
+            url={`google.com`}
+            uid="123233"
+          ></ReinGridCard>
+          <ReinGridCard
+            key={"99"}
+            excerpt={"edge.node.excerpt"}
+            faIcon={faObjectUngroup}
             targetAudience={["VISITOR"]}
             title="Design1"
             type="tools"
