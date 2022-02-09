@@ -18,7 +18,7 @@ const Hero = () => {
     <div className="rounded" style={{ minHeight: "75vh" }}>
       <Row className="w-75">
         <Col lg={12}>
-          <MainHeading className="ps-3" style={{ color: "rgba(52 ,  166,  194, 1)", borderLeft:"5px solid rgba(52 ,  166,  194, 1)" }}>ReInherit Digital Hub</MainHeading>
+          <MainHeading className="ps-3" style={{borderLeft:"4px solid rgba(52 ,  166,  194, 1)", fontSize:"3em"}}>ReInherit Digital Hub</MainHeading>
           <h2 className="h4">
             <span>
               Redefining the future of cultural heritage, through a disruptive
