@@ -18,16 +18,14 @@ const Hero = () => {
     <div className="rounded" style={{ minHeight: "75vh" }}>
       <Row className="w-75">
         <Col lg={12}>
-          <MainHeading>ReInherit Digital Hub</MainHeading>
-          <h2 className="text-lighter h3">
+          <MainHeading className="ps-3" style={{ color: "rgba(52 ,  166,  194, 1)", borderLeft:"5px solid rgba(52 ,  166,  194, 1)" }}>ReInherit Digital Hub</MainHeading>
+          <h2 className="h4">
             <span>
               Redefining the future of cultural heritage, through a disruptive
               model of sustainability
             </span>
           </h2>
-
           <hr></hr>
-
           <p>
             The ReinHerit Digital Hub functions as a digital ecosystem for
             information and exchange on cultural heritage. In this hub, both
