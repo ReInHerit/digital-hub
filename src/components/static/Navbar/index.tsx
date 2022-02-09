@@ -20,7 +20,13 @@ const ReinNavbar: React.FC = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as="div"><Link className="text-dark text-decoration-none" to={addMode("/", theme.mode)}>Home</Link></Nav.Link>
+              <Nav.Link as="div"><Link className="text-dark text-decoration-none" to={addMode("/", theme.mode)}>Digital Hub</Link></Nav.Link>
+              <NavDropdown title="Project" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.0"><Link to="/about" className="text-dark text-decoration-none">About</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.1"><Link to="/team" className="text-dark text-decoration-none">Team</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.1"><Link to="/imprint" className="text-dark text-decoration-none">Imprint</Link></NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.1"><Link to="/dataprot" className="text-dark text-decoration-none">Data protection</Link></NavDropdown.Item>
+              </NavDropdown>
               <Nav.Link as="div"><Link to={addMode("/news", theme.mode)} className="text-dark text-decoration-none">News</Link></Nav.Link>
               <NavDropdown title="Exhibitions" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.0"><Link to="/portal/exhibs" className="text-dark text-decoration-none">Overview</Link></NavDropdown.Item>
@@ -49,7 +55,7 @@ const ReinNavbar: React.FC = () => {
                 <NavDropdown.Item href="#action/3.1"><Link to="/content/performances/perf2" className="text-dark text-decoration-none">Performance 2</Link></NavDropdown.Item>
               </NavDropdown>
               
-              <Nav.Link as="div"><Link to="/designs" className="text-dark text-decoration-none">Designs</Link></Nav.Link>
+              <Nav.Link as="div"><Link to="/designs" className="text-dark text-decoration-none">E-Shop</Link></Nav.Link>
             </Nav>
             <Nav>
             <Form.Select className="border-0" aria-label="Default select example" onChange={(evt) => theme.changeTheme(evt.currentTarget.value as any)}>
