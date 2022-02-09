@@ -68,7 +68,7 @@ const Landing = () => {
                   with other peers to discuss cultural heritage themed issues?
                   <p className="mt-2">Then this path might be the one for you!</p>
                 </Card.Text>
-                <Button variant="outline-secondary">Join Visitors Portal <FontAwesomeIcon icon={faUsers} /></Button>
+                <Button variant="outline-secondary">Join Professionals Portal <FontAwesomeIcon icon={faUsers} /></Button>
                 {/* <FontAwesomeIcon icon={faUsers} size="2x" /> */}
               </Card.Body>
             </Card>
