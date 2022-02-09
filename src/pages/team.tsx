@@ -26,7 +26,6 @@ const TeamPage = () => {
             <p>Bank of Cyprus Cultural Foundation</p>
             <p><img src="https://www.boccf.org/PageFiles/5/boc_logo_EN.jpg" width={200}></img></p>
             <p>Destination: Greece</p>
-              <p>Teammembers: Dr. Ioanna Hadjicosti; Dr. Chistodoulos A. Hadjichristodoulou; Dr. Monika Asimenou; Dr. Polina Nikolaou; Dimitrios Bourboulas</p>
               <p>Homepage: https://www.boccf.org/</p>
           </div>
 
