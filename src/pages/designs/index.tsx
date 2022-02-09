@@ -13,7 +13,7 @@ const Designs = () => {
 
   return (
     <BaseLayout>
-      <h2>Designs</h2>
+      <h2>E-Shop</h2>
       <p>Available via the hub</p>
 
       <SideMainLayout
