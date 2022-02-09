@@ -13,8 +13,7 @@ const AboutPage = () => (
         <Link to="/dataprot">Image Editor test page</Link>
         <p>Content is rendered out of netlify CMS. </p>
         <p>Pages is hidden under the CMS and only listed here in the embed.</p>
-        <CMSPage url="/sites/about.json"/>
-        <NetlifyEmbed htmlLoc="/admin/admin.html#/collections/pages/entries/about" style={{width:"100%", height:"100vh", border:"2px solid lightgrey"}}/>
+
       </BaseLayout>
   </React.Fragment>
 )
