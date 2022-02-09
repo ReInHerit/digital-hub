@@ -4,23 +4,21 @@ import Typed from "react-typed"
 import { Col, Row, Button } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
+import MainHeading from "./static/MainHeading"
 
 const roles = [
   "#Choose your path",
   "#Make it your own",
   "#Redefine #makeityourown",
   "#Teamwork",
+  "#Aiming at international cooperation and networking for cultural heritage actors"
 ]
 const Hero = () => {
   return (
     <div className="rounded" style={{ minHeight: "75vh" }}>
-      <Row className="p-md-3 w-75">
+      <Row className="w-75">
         <Col lg={12}>
-          <h1>
-            <span style={{ color: "rgba(52 ,  166,  194, 1)" }}>
-              ReInherit Digital Hub
-            </span>
-          </h1>
+          <MainHeading>ReInherit Digital Hub</MainHeading>
           <h2 className="text-lighter h3">
             <span>
               Redefining the future of cultural heritage, through a disruptive
@@ -36,7 +34,7 @@ const Hero = () => {
             visitors and professionals can find information on cultural heritage
             management and digitization, and also have the chance to get to know
             the tools and events developed in the course of the ReInherit
-            project.{" "}
+            project.
           </p>
           {/* <p>Are you ready to see what the future of cultural heritage may hold?</p> */}
           {/* <p>Then .. </p> */}
