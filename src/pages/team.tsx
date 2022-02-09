@@ -44,10 +44,172 @@ const TeamPage = () => {
               faIcon={faAddressCard}
               targetAudience={["visitors"]}
               type="asd"
-              url="sad"
+              url="https://www.artesostenible.org/"
             ></ReinGridCard>
+            <ReinGridCard
+              key={"2"}
+              title="Università degli studi di Firenze - UNIFI - MICC"
+              excerpt="Destination: Italy
+              Teammembers: 
+              Alberto Del Bimbo
+              Marco Bertini
+              Paolo Mazzanti
+              Lorenzo Seidenari
+              Andrew D. Bagdanov
+              "
+              faIcon={faAddressCard}
+              targetAudience={["visitors"]}
+              type="asd"
+              url="http://www.micc.unifi.it/"
+            ></ReinGridCard>
+            <ReinGridCard
+              key={"3"}
+              title="European Cultural Tourism Network - ECTN"
+              excerpt="Destination: Belgium
+              Teammembers: 
+              Nasos Hadjigeorgiou
+              Emmanouil (Manos) Vougioukas
+              Mr Raitis Sijats
+              Simina Manea              
+              "
+              faIcon={faAddressCard}
+              targetAudience={["visitors"]}
+              type="asd"
+              url="https://ectn.eu/ "
+            ></ReinGridCard>
+            
+            
+            <ReinGridCard
+              key={"5"}
+              title="University of Nicosia - School of Law"
+              excerpt="Destination: Cyprus
+              Teammembers:
+              Prof. Achilles C. Emilianides
+              Irini Stamatoudi
+              Dimitrios A. Kourtis
+              Konstantinos Roussos                        
+              "
+              faIcon={faAddressCard}
+              targetAudience={["visitors"]}
+              type="asd"
+              url="https://www.unic.ac.cy/school-of-law/ "
+            ></ReinGridCard>
+
+            <ReinGridCard
+              key={"6"}
+              title="Materahub"
+              excerpt="Destination: Italy"
+              faIcon={faAddressCard}
+              targetAudience={["visitors"]}
+              type="asd"
+              url="https://www.materahub.com/en/"
+            ></ReinGridCard>
+
+            <ReinGridCard
+              key={"7"}
+              title="Museum of Cycladic Art"
+              excerpt="Destination: Greece
+              Teammembers:
+              Marina Plati
+              Eleni Markou
+              Maria Malichoutsaki
+              Stella Tsgkaraki
+              Nefeli Bantela
+              Stamatis Manikis
+              Dr. Ioannis Fappas
+              "
+              faIcon={faAddressCard}
+              targetAudience={["visitors"]}
+              type="asd"
+              url="https://cycladic.gr/en"
+            ></ReinGridCard>
+
+          <ReinGridCard
+              key={"8"}
+              title="University of Graz"
+              excerpt="Destination: Austria
+              Teammembers: 
+              Dr. Chiara Zuanni
+              Dr. Wolfgang Fischer
+              Jörn Harfst
+              Jasmin Sandriester
+              Sebastian Stoff
+              Sina Krottmaier              
+              "
+              faIcon={faAddressCard}
+              targetAudience={["visitors"]}
+              type="asd"
+              url="https://informationsmodellierung.uni-graz.at/en/"
+            ></ReinGridCard>
+
+            <ReinGridCard
+              key={"9"}
+              title="CYENS"
+              excerpt="Destination: Cyprus
+              Teammembers:
+              Dr. Panayiotis Charalambous
+              Dr. Kleanthis Neokleous
+              Myrto Aristidou;
+              Stefanos Papadas
+              Dr. Andreas Papapetrou
+              Theopisti Stylianou-Lambert
+              Maria Shehade                           
+              "
+              faIcon={faAddressCard}
+              targetAudience={["visitors"]}
+              type="asd"
+              url="https://www.cyens.org.cy/en-gb/"
+            ></ReinGridCard>
+
+            <ReinGridCard
+              key={"10"}
+              title="Blue Shield"
+              excerpt="Destination: Greece
+              Teammembers: 
+              Elena Korka
+              Antonia Zervaki
+              Sofia Stavrianopoulou
+              "
+              faIcon={faAddressCard}
+              targetAudience={["visitors"]}
+              type="asd"
+              url="https://hellenicblueshield.com/en/home/"
+            ></ReinGridCard>
+
+            <ReinGridCard
+              key={"11"}
+              title="University of Applied Science - Arcada"
+              excerpt="Destination: Finland
+              Teammembers: 
+              Susanne Ådahl
+              Maria Bäck
+              Tomas Träskman              
+              "
+              faIcon={faAddressCard}
+              targetAudience={["visitors"]}
+              type="asd"
+              url="https://www.arcada.fi/en"
+            ></ReinGridCard>
+            
+            <ReinGridCard
+              key={"12"}
+              title="GrazMuseum"
+              excerpt="Destination: Austria
+              Teammembers: 
+              Sybille Dienesch
+              Antonia Nussmüller                          
+              "
+              faIcon={faAddressCard}
+              targetAudience={["visitors"]}
+              type="asd"
+              url="https://www.grazmuseum.at/"
+            ></ReinGridCard>
+
+
           </ReinCardGrid>
 
+          <br></br>
+          <p>More information on the Reinherit team can be found at <a href="https://www.reinherit.eu/the-team" target="_blank">https://www.reinherit.eu/the-team</a></p>
 
         </Col>
       </Row>
