@@ -36,11 +36,7 @@ const TeamPage = () => {
             <ReinGridCard
               key={"1"}
               title="Arte Sostenible"
-              excerpt="Destination: Spain 
-              Teammembers: 
-              Jaime Lopez
-              Alfredo Liétor
-              "
+              excerpt="Destination: Spain"
               faIcon={faAddressCard}
               targetAudience={["visitors"]}
               type="asd"
@@ -49,14 +45,7 @@ const TeamPage = () => {
             <ReinGridCard
               key={"2"}
               title="Università degli studi di Firenze - UNIFI - MICC"
-              excerpt="Destination: Italy
-              Teammembers: 
-              Alberto Del Bimbo
-              Marco Bertini
-              Paolo Mazzanti
-              Lorenzo Seidenari
-              Andrew D. Bagdanov
-              "
+              excerpt="Destination: Italy"
               faIcon={faAddressCard}
               targetAudience={["visitors"]}
               type="asd"
@@ -65,13 +54,7 @@ const TeamPage = () => {
             <ReinGridCard
               key={"3"}
               title="European Cultural Tourism Network - ECTN"
-              excerpt="Destination: Belgium
-              Teammembers: 
-              Nasos Hadjigeorgiou
-              Emmanouil (Manos) Vougioukas
-              Mr Raitis Sijats
-              Simina Manea              
-              "
+              excerpt="Destination: Belgium           "
               faIcon={faAddressCard}
               targetAudience={["visitors"]}
               type="asd"
@@ -82,13 +65,7 @@ const TeamPage = () => {
             <ReinGridCard
               key={"5"}
               title="University of Nicosia - School of Law"
-              excerpt="Destination: Cyprus
-              Teammembers:
-              Prof. Achilles C. Emilianides
-              Irini Stamatoudi
-              Dimitrios A. Kourtis
-              Konstantinos Roussos                        
-              "
+              excerpt="Destination: Cyprus"
               faIcon={faAddressCard}
               targetAudience={["visitors"]}
               type="asd"
@@ -108,16 +85,7 @@ const TeamPage = () => {
             <ReinGridCard
               key={"7"}
               title="Museum of Cycladic Art"
-              excerpt="Destination: Greece
-              Teammembers:
-              Marina Plati
-              Eleni Markou
-              Maria Malichoutsaki
-              Stella Tsgkaraki
-              Nefeli Bantela
-              Stamatis Manikis
-              Dr. Ioannis Fappas
-              "
+              excerpt="Destination: Greece"
               faIcon={faAddressCard}
               targetAudience={["visitors"]}
               type="asd"
@@ -127,15 +95,7 @@ const TeamPage = () => {
           <ReinGridCard
               key={"8"}
               title="University of Graz"
-              excerpt="Destination: Austria
-              Teammembers: 
-              Dr. Chiara Zuanni
-              Dr. Wolfgang Fischer
-              Jörn Harfst
-              Jasmin Sandriester
-              Sebastian Stoff
-              Sina Krottmaier              
-              "
+              excerpt="Destination: Austria"
               faIcon={faAddressCard}
               targetAudience={["visitors"]}
               type="asd"
@@ -145,16 +105,7 @@ const TeamPage = () => {
             <ReinGridCard
               key={"9"}
               title="CYENS"
-              excerpt="Destination: Cyprus
-              Teammembers:
-              Dr. Panayiotis Charalambous
-              Dr. Kleanthis Neokleous
-              Myrto Aristidou;
-              Stefanos Papadas
-              Dr. Andreas Papapetrou
-              Theopisti Stylianou-Lambert
-              Maria Shehade                           
-              "
+              excerpt="Destination: Cyprus"
               faIcon={faAddressCard}
               targetAudience={["visitors"]}
               type="asd"
@@ -164,12 +115,7 @@ const TeamPage = () => {
             <ReinGridCard
               key={"10"}
               title="Blue Shield"
-              excerpt="Destination: Greece
-              Teammembers: 
-              Elena Korka
-              Antonia Zervaki
-              Sofia Stavrianopoulou
-              "
+              excerpt="Destination: Greece"
               faIcon={faAddressCard}
               targetAudience={["visitors"]}
               type="asd"
@@ -179,12 +125,7 @@ const TeamPage = () => {
             <ReinGridCard
               key={"11"}
               title="University of Applied Science - Arcada"
-              excerpt="Destination: Finland
-              Teammembers: 
-              Susanne Ådahl
-              Maria Bäck
-              Tomas Träskman              
-              "
+              excerpt="Destination: Finland"
               faIcon={faAddressCard}
               targetAudience={["visitors"]}
               type="asd"
@@ -194,11 +135,7 @@ const TeamPage = () => {
             <ReinGridCard
               key={"12"}
               title="GrazMuseum"
-              excerpt="Destination: Austria
-              Teammembers: 
-              Sybille Dienesch
-              Antonia Nussmüller                          
-              "
+              excerpt="Destination: Austria"
               faIcon={faAddressCard}
               targetAudience={["visitors"]}
               type="asd"
