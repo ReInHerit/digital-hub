@@ -6,6 +6,7 @@ import SideMainLayout from "../../components/shared/Layout/SideMainLayout"
 import ReinCardGrid from "../../components/shared/ReinCardGrid"
 import ReinGridCard from "../../components/shared/ReinCardGrid/ReinGridCard"
 import BaseLayout from "../../components/static/BaseLayout"
+import MainHeading from "../../components/static/MainHeading"
 
 const Designs = () => {
 
@@ -13,8 +14,9 @@ const Designs = () => {
 
   return (
     <BaseLayout>
-      <h2>E-Shop</h2>
-      <p>Available via the hub</p>
+      <MainHeading
+        subHeading="Designs available on the digital hub"
+      >E-Shop</MainHeading>
 
       <SideMainLayout
         side={<div className="border p-4 reincard">
