@@ -1,6 +1,7 @@
 
 * {
-  font-family: Roboto,system-ui,sans-serif !important;
+  /* font-family: Roboto,system-ui,sans-serif !important; */
+  font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif !important;
 }
 
 a {
