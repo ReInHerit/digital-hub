@@ -9,9 +9,8 @@ interface Props {
 const MainHeading: React.FC<Props> = props => (
   <>
     <h1 {...props}>{props.children}</h1>
-    {props.subHeading && <h2 className="h5">{props.subHeading}</h2>
+    {props.subHeading && <h2 className="h5">{props.subHeading}</h2>}
     
-    }
   </>
 )
 
