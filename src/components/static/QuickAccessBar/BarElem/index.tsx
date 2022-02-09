@@ -22,7 +22,7 @@ const BarElem: React.FC<Props> = (props) => {
 
   return <div className="text-align-center">
   <OverlayTrigger trigger="hover" placement="left" overlay={popover}>
-    <a style={{color:"lightgrey"}} href={props.href} target="_blank">
+    <a style={{color:"grey"}} href={props.href} target="_blank">
       <FontAwesomeIcon icon={props.faIcon}></FontAwesomeIcon>
     </a>
   </OverlayTrigger>
