@@ -3,11 +3,14 @@ import { Col, Container, Row } from "react-bootstrap"
 import SideMainLayout from "../../components/shared/Layout/SideMainLayout"
 import NewsFeed from "../../components/shared/NewsFeed"
 import BaseLayout from "../../components/static/BaseLayout"
+import MainHeading from "../../components/static/MainHeading"
 
 const NewsPage: React.FC = () => {
   return (
     <BaseLayout>
-      <h1>News</h1>
+      <MainHeading subHeading="All relevant news for the digital hub">
+        News
+      </MainHeading>
       <br />
       <SideMainLayout
         side={
