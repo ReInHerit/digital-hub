@@ -19,12 +19,15 @@ const PortalContent = () => {
 
   return (
     <>
-      {/* <h1 style={{color: theme.styles.MAIN_COLOR}}>Portal</h1> */}
-      <MainHeading style={{color:"black"}}>Portal</MainHeading>
-      <Breadcrumb>
+      <MainHeading 
+        style={{color:"black"}}
+        subHeading="Overview over all available functionalities on the digital hub."
+        >Portal</MainHeading>
+      {/* <Breadcrumb>
         <Breadcrumb.Item><Link to={`/?mode=${theme.mode}`}>Home</Link></Breadcrumb.Item>
         <Breadcrumb.Item>{ reinheritStatics[theme.groupKey].LABEL} Portal</Breadcrumb.Item>
-      </Breadcrumb>
+      </Breadcrumb> */}
+      <br />
       
       <ReinCardGrid>
         <ReinGridCard
