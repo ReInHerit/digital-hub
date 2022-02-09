@@ -6,10 +6,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
 
 const roles = [
-  "Choose your path",
-  "Make it your own",
-  "Collaboration",
-  "Teamwork",
+  "#Choose your path",
+  "#Make it your own",
+  "#Redefine #makeityourown",
+  "#Teamwork",
 ]
 const Hero = () => {
   return (
