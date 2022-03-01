@@ -7,13 +7,10 @@ import Landing from "../components/static/Landing"
 
 const IndexPage = () => (
   <React.Fragment>
-      {/*<NetlifyCMSAuth/>*/}
       <BaseLayout>
         <SEO title="Home" />
           <Hero />
-          <br />
           <Landing></Landing>
-
           {/* Necessary for users to allow seting a pw after getting the invite mail  */}
           <NetlifyCMSAuth></NetlifyCMSAuth>
       </BaseLayout>

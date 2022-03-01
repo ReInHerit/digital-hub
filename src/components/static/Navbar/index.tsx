@@ -14,44 +14,43 @@ const ReinNavbar: React.FC = () => {
 
   return (
     <React.Fragment>
-      <Navbar id="reinnav" sticky="top" collapseOnSelect style={{borderLeft: `10px solid ${theme.styles.MAIN_COLOR}`}} expand="lg" className="bg-light shadow-sm">
+      <Navbar id="reinnav" sticky="top" collapseOnSelect style={{borderLeft: `10px solid ${theme.styles.MAIN_COLOR}`}} expand="lg" className="bg-white shadow-sm">
         <Container fluid>
           <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none"><img style={{maxWidth:"50px"}} src="/images/rein_logo.jpg"></img></Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as="div"><Link className="text-dark text-decoration-none" to={addMode("/", theme.mode)}>Home</Link></Nav.Link>
-              <Nav.Link as="div"><Link to={addMode("/news", theme.mode)} className="text-dark text-decoration-none">News</Link></Nav.Link>
+              <Link className="text-dark text-decoration-none nav-link" to={addMode("/", theme.mode)}>Digital Hub</Link>
+              <NavDropdown title="Project" id="basic-nav-dropdown">
+                <Link className="text-dark text-decoration-none dropdown-item" to="/about">About</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/team">Team</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/imprint">Imprint</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/dataprot">Data protection</Link>
+              </NavDropdown>
+              <Nav.Link as="div"><Link to="/news" className="text-dark text-decoration-none">News</Link></Nav.Link>
               <NavDropdown title="Exhibitions" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1"><Link to="/exhibs/digital" className="text-dark text-decoration-none">Digital Exhibition</Link></NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1"><Link to="/exhibs/travel" className="text-dark text-decoration-none">Traveling Exhibition</Link></NavDropdown.Item>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/portal/exhibs">Overview</Link>
+                <NavDropdown.Divider />
+                <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/digital">Digital Exhibition</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/travel">Traveling Exhibition</Link>
               </NavDropdown>
+
+              <Link className="text-dark text-decoration-none nav-link" to={addMode("/tools", theme.mode)}>Toolkit</Link>
               
-              <Nav.Link as="div"><Link to="/tools" className="text-dark text-decoration-none">Toolkit</Link></Nav.Link>
-              
-              {/* <NavDropdown title="Toolkit" id="nav_toolkit">
-                <NavDropdown.Item as="div" href="#action/3.2">
-                  Apps
-                </NavDropdown.Item>
-                <NavDropdown.Item as="div" href="#action/3.3">
-                  Game(s)
-                </NavDropdown.Item>
-                <NavDropdown.Item as="div" href="#action/3.3">
-                <Link to={addMode("/content/training", theme.mode)} className="text-dark text-decoration-none">Training / Webinars</Link>
-                </NavDropdown.Item>
-              </NavDropdown> */}
               <NavDropdown title="Performances" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1"><Link to="/content/performances/perf1" className="text-dark text-decoration-none">Performance 1</Link></NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1"><Link to="/content/performances/perf2" className="text-dark text-decoration-none">Performance 2</Link></NavDropdown.Item>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/portal/performances">Overview</Link>
+                <NavDropdown.Divider />
+                <Link className="text-dark text-decoration-none dropdown-item" to="/content/performances/perf1">Performance 1</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/content/performances/perf2">Performance 2</Link>
               </NavDropdown>
-              
-              <Nav.Link as="div"><Link to="/dataprot" className="text-dark text-decoration-none">E-Shop</Link></Nav.Link>
+
+              <Link className="text-dark text-decoration-none nav-link" to={addMode("/designs", theme.mode)}>E-shop</Link>
             </Nav>
             <Nav>
             <Form.Select className="border-0" aria-label="Default select example" onChange={(evt) => theme.changeTheme(evt.currentTarget.value as any)}>
               {Object.entries(reinheritStatics).map(([key, propVal]) => <option key={`restmode_select_${propVal.REST_MODE_VAL}`} selected={theme.mode === propVal.REST_MODE_VAL} value={propVal.REST_MODE_VAL}>{propVal.LABEL}</option>)}
             </Form.Select>
-              <Nav.Link as="div"><Link to={addMode("/portal", theme.mode)} className="text-dark text-decoration-none">Portal</Link></Nav.Link>
+              <Link className="text-dark text-decoration-none nav-link" to={addMode("/portal", theme.mode)}>Portal</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

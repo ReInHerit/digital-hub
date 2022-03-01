@@ -5,6 +5,7 @@ import React from "react";
 import { Breadcrumb, Card, Col, Row } from "react-bootstrap";
 import { reinheritStatics } from "../../../data/reinheritStatics";
 import { useReinTheme } from "../../../hooks/contexts/useReinTheme";
+import MainHeading from "../../static/MainHeading";
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 
@@ -18,12 +19,15 @@ const PortalContent = () => {
 
   return (
     <>
-      {/* <h1 style={{color: theme.styles.MAIN_COLOR}}>Portal</h1> */}
-      <h1>Portal</h1>
-      <Breadcrumb>
+      <MainHeading 
+        style={{color:"black"}}
+        subHeading="Overview over all available functionalities on the digital hub."
+        >Portal</MainHeading>
+      {/* <Breadcrumb>
         <Breadcrumb.Item><Link to={`/?mode=${theme.mode}`}>Home</Link></Breadcrumb.Item>
         <Breadcrumb.Item>{ reinheritStatics[theme.groupKey].LABEL} Portal</Breadcrumb.Item>
-      </Breadcrumb>
+      </Breadcrumb> */}
+      <br />
       
       <ReinCardGrid>
         <ReinGridCard
@@ -41,7 +45,7 @@ const PortalContent = () => {
           faIcon={faUniversity}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
-          url="/news"
+          url="/portal/exhibs"
           footerContent="Digital Exhibitions"
         ></ReinGridCard>
         <ReinGridCard
@@ -50,7 +54,7 @@ const PortalContent = () => {
           faIcon={faCalendarDay}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
-          url="/news"
+          url="/portal/performances"
           footerContent="Performances"
         ></ReinGridCard>
         <ReinGridCard
@@ -86,7 +90,7 @@ const PortalContent = () => {
           faIcon={faComments}
           targetAudience={["PROFESSIONAL"]}
           type="news"
-          url="/news"
+          url="/portal/exchange"
           footerContent="Chat"
         ></ReinGridCard>
         <ReinGridCard

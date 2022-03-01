@@ -27,7 +27,7 @@ const ReinGridCard: React.FC<Props> = (props) => {
 
   return <Col key={props.uid && props.uid}>
     
-      <Card className="rounded border rounded-0 reincard" style={{fontSize: ".95em"}}>
+      <Card className="rounded border rounded-0 reincard" style={{fontSize: ".95em", borderColor:"black"}}>
       <Link to={props.url} className="text-decoration-none text-dark">
         <Card.Body>
           <Card.Title style={{fontSize:"1.2em"}}>
