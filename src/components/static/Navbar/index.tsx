@@ -20,19 +20,20 @@ const ReinNavbar: React.FC = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as="div"><Link className="text-dark text-decoration-none" to={addMode("/", theme.mode)}>Digital Hub</Link></Nav.Link>
+              <Link className="text-dark text-decoration-none nav-link" to={addMode("/", theme.mode)}>Digital Hub</Link>
+              {/* <Nav.Link as="div"><Link className="text-dark text-decoration-none" to={addMode("/", theme.mode)}>Digital Hub</Link></Nav.Link> */}
               <NavDropdown title="Project" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.0"><Link to="/about" className="text-dark text-decoration-none">About</Link></NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1"><Link to="/team" className="text-dark text-decoration-none">Team</Link></NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1"><Link to="/imprint" className="text-dark text-decoration-none">Imprint</Link></NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1"><Link to="/dataprot" className="text-dark text-decoration-none">Data protection</Link></NavDropdown.Item>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/about">About</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/team">Team</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/imprint">Imprint</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/dataprot">Data protection</Link>
               </NavDropdown>
-              <Nav.Link as="div"><Link to={addMode("/news", theme.mode)} className="text-dark text-decoration-none">News</Link></Nav.Link>
+              <Nav.Link as="div"><Link to="/news" className="text-dark text-decoration-none">News</Link></Nav.Link>
               <NavDropdown title="Exhibitions" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.0"><Link to="/portal/exhibs" className="text-dark text-decoration-none">Overview</Link></NavDropdown.Item>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/portal/exhibs">Overview</Link>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.1"><Link to="/exhibs/digital" className="text-dark text-decoration-none">Digital Exhibition</Link></NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1"><Link to="/exhibs/travel" className="text-dark text-decoration-none">Traveling Exhibition</Link></NavDropdown.Item>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/digital">Digital Exhibition</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/travel">Traveling Exhibition</Link>
               </NavDropdown>
               
               <Nav.Link as="div"><Link to="/tools" className="text-dark text-decoration-none">Toolkit</Link></Nav.Link>
