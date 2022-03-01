@@ -27,6 +27,7 @@ const CMSDesc = () => {
           <li>Unknown (=Professional Lvl) (account - OAUTH via github / twitter / gitlab): join public rooms, get invited to all rooms, add people (when access to chatroom), no CMS --- No Reinherit Github member + No Team Moderator + Any OAUTH method</li>
           <li>Member: Create chatrooms (public / private), invite others, no CMS. --- Reinherit Github member + NO TEAM MODERATOR ASSIGNMENT + Github acc required</li>
           <li>Moderator: full CMS Access, full chat access (except from private) --- Reinherit Github member + Team Moderator Github + Github acc required</li>
+          <li>Admin: Full access (github dev environment / deployment locations etc.)</li>
         </ol>
     
     </SideBarsLayout>
