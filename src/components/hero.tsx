@@ -18,7 +18,7 @@ const Hero = () => {
     <div className="rounded" style={{ minHeight: "75vh" }}>
       <Row className="w-75">
         <Col lg={12}>
-          <MainHeading className="ps-3" style={{borderLeft:"4px solid rgba(52 ,  166,  194, 1)", fontSize:"3em"}}>ReInherit Digital Hub</MainHeading>
+          <MainHeading className="ps-3" style={{borderLeft:"4px solid rgba(52 ,  166,  194, 1)", fontSize:"3em"}}>ReInHerit Digital Hub</MainHeading>
           <h2 className="h4">
             <span>
               Redefining the future of cultural heritage, through a disruptive
@@ -27,7 +27,7 @@ const Hero = () => {
           </h2>
           <hr></hr>
           <p>
-            The ReinHerit Digital Hub functions as a digital ecosystem for
+            The ReInHerit Digital Hub functions as a digital ecosystem for
             information and exchange on cultural heritage. In this hub, both
             visitors and professionals can find information on cultural heritage
             management and digitization, and also have the chance to get to know
