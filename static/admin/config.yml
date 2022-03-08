@@ -19,7 +19,7 @@ media_library:      # comment out will make media available.
 # collections config see here: https://www.netlifycms.org/docs/widgets/#object
 collections:
   - name: "tools"
-    label: "WP3-Toolkit: Tools"
+    label: "Toolkit: tools"
     label_singular: 'tool'
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/tools"
@@ -36,7 +36,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tutorial", name: "tutorial", widget: "markdown" }
   - name: "training"
-    label: "WP3: Training"
+    label: "Training"
     label_singular: 'entry'
     hide: true                # hides specific collection -> still available if you have the link!
     folder: "content/training"
@@ -50,7 +50,7 @@ collections:
       - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: true, required: true }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "apps"
-    label: "WP3: Apps"
+    label: "Apps"
     label_singular: "app"
     hide: true                # hides specific collection -> still available if you have the link!
     folder: "content/apps"
@@ -64,7 +64,7 @@ collections:
       - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: false }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "games"
-    label: "WP3: Games"
+    label: "Games"
     label_singular: "game"
     hide: true                # hides specific collection -> still available if you have the link!
     folder: "content/games"
@@ -88,7 +88,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Code", name: "code", widget: "code" }
   - name: "performances"
-    label: "WP4: Performances"
+    label: "Performances"
     label_singular: "performance"
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/performances"
@@ -102,7 +102,7 @@ collections:
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "exhibitions"
-    label: "WP6: Digital exhibitions"
+    label: "Digital exhibitions"
     label_singular: 'exhibition'
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/exhibitions"
@@ -113,7 +113,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       # - { label: "Code", name: "code", widget: "code" }
   - name: "news"
-    label: "WP7: News"             # Used in the UI
+    label: "News"             # Used in the UI
     label_singular: 'message' # Used in the UI, ie: "New Post"
     folder: "content/news"
     description: Here you may provide all your news posts etc... Make sure that you have ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
@@ -128,7 +128,7 @@ collections:
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "designs"
-    label: "E-shop designs"
+    label: "E-shop: designs"
     label_singular: "design"
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/designs"
