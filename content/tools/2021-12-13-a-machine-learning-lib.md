@@ -1,6 +1,7 @@
 ---
 type: tools
-title: A very useful machine learning lib
+title: "A very useful machine learning lib - for museum sites and cultural
+  heritage institutions "
 link: https://google.com
 date: 2021-12-13T07:27:10.700Z
 training available: true
