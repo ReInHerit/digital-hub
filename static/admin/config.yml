@@ -38,13 +38,15 @@ collections:
   - name: "training"
     label: "Training"
     label_singular: 'entry'
-    hide: true                # hides specific collection -> still available if you have the link!
+    hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/training"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "training" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Linked tool", name: "relation1", widget: "relation", collection: "tools", value_field: "title", search_fields: ["title"], multiple: true, required: false }
+      - { label: "Linked news", name: "relation2", widget: "relation", collection: "news", value_field: "title", search_fields: ["title"], multiple: true, required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: true, required: true }
