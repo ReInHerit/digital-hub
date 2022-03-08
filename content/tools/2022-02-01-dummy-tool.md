@@ -34,4 +34,6 @@ This Tool is the best tool there is for you.
 
 For testing purposes - text ext text 
 
-testrun 2
+testrun 2 
+
+testrun 3 ..... all them tests
