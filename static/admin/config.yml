@@ -128,7 +128,7 @@ collections:
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "designs"
-    label: "WP?: Designs"
+    label: "E-shop designs"
     label_singular: "design"
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/designs"
