@@ -1,12 +1,8 @@
 ---
 type: training
 title: First material
-relation1:
-  - APIS.is (iceland, nordic)
-  - "JSON Placeholder - yeahij "
-relation2:
-  - New game on Reinherit - out now
-  - Summarizing flowers
+relation1: []
+relation2: []
 date: 2021-10-19T11:20:09.353Z
 target-audience:
   - VISITOR
