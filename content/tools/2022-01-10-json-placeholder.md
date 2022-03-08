@@ -1,6 +1,7 @@
 ---
 type: tools
-title: JSON Placeholder
+title: "JSON Placeholder - yeahij "
+link: https://google.com
 date: 2022-01-10T10:12:18.153Z
 training available: false
 target-audience:
@@ -10,6 +11,7 @@ tool-type:
   - REST-API
   - Web-Interface
   - Javascript
+tutorial: training
 ---
 ## Description
 
