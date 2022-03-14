@@ -34,23 +34,6 @@ const Hero = () => {
             the tools and events developed in the course of the ReInherit
             project.
           </p>
-          <Typed
-            loop
-            typeSpeed={10}
-            backSpeed={20}
-            strings={roles}
-            backDelay={1000}
-            loopCount={0}
-            showCursor={true}
-            className="self-typed"
-            cursorChar="|"
-            //style={{fontSize:"25px"}}
-            style={{
-              color: "rgba(52 ,  166,  194, 1)",
-              fontWeight: 600,
-              fontSize: "1.5em",
-            }}
-          ></Typed>
           <br />
           <br />
           <FontAwesomeIcon
