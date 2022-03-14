@@ -30,11 +30,11 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Link", name: "link", widget: "string"}
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Linked training", name: "linkedTraining", widget: "relation", collection: "training", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Training available", name: "training available", widget: "boolean", default: false}
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Type", name: "tool-type", widget: "select", options: ["REST-API", "Library", "Web-Interface","GraphQL-API","Application","CLI","Python","Java","X-Technologies","Javascript","Typescript","Web Development","Economics","Cultural Heritage","History","Museology","Machine Learning","Topic Modeling","NLP","GIS","Relational DB"], default: ["NLP"], multiple: true, required: true }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Tutorial", name: "tutorial", widget: "markdown" }
   - name: "training"
     label: "Training"
     label_singular: 'entry'
@@ -45,8 +45,8 @@ collections:
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "training" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Linked tool", name: "relation1", widget: "relation", collection: "tools", value_field: "title", search_fields: ["title"], multiple: true, required: false }
-      - { label: "Linked news", name: "relation2", widget: "relation", collection: "news", value_field: "title", search_fields: ["title"], multiple: true, required: false }
+      # - { label: "Linked tool", name: "linkedTool", widget: "relation", collection: "tools", value_field: "date", search_fields: ["title"], multiple: true, required: false }
+      # - { label: "Linked news", name: "relation2", widget: "relation", collection: "news", value_field: "title", search_fields: ["title"], multiple: true, required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: true, required: true }
