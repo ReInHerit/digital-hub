@@ -1,6 +1,6 @@
 ---
 type: training
-title: Newest Material
+title: Newest Material.
 date: 2021-11-16T10:17:23.673Z
 target-audience:
   - VISITOR
