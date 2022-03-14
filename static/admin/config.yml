@@ -45,7 +45,7 @@ collections:
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "training" }
       - { label: "Title", name: "title", widget: "string" }
-      # - { label: "Linked tool", name: "linkedTool", widget: "relation", collection: "tools", value_field: "date", search_fields: ["title"], multiple: true, required: false }
+      # - { label: "Linked tool", name: "linkedTool", widget: "relation", collection: "tools", value_field: "title", search_fields: ["title"], multiple: true, required: false }
       # - { label: "Linked news", name: "relation2", widget: "relation", collection: "news", value_field: "title", search_fields: ["title"], multiple: true, required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
