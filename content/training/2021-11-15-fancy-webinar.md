@@ -1,7 +1,7 @@
 ---
 type: training
 title: Fancy Webinar.
-date: 2021-11-15T08:54:00.401Z
+date: 2022-03-14T08:54:07.466Z
 target-audience:
   - VISITOR
 training-type:
