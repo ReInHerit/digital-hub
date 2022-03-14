@@ -40,7 +40,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 module.exports.createPages = async ({ graphql, actions}) => {
 
   // adding markdown as training
-  let res = await graphql(`
+  let trainingResult = await graphql(`
     query MyQuery {
       allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/training/"}}) {
         edges {
@@ -55,7 +55,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
     }
   
   `)
-  res.data.allMarkdownRemark.edges.forEach((edge) => {
+  trainingResult.data.allMarkdownRemark.edges.forEach((edge) => {
     // id is added by my own to node inside onCreateNode
     const mdId = edge.node.fields.typeCountId
     actions.createPage({
