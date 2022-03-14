@@ -3,6 +3,8 @@ type: tools
 title: "A machine learning lib - for CH-institutions :) "
 link: https://google.com
 date: 2021-12-13T07:27:10.700Z
+linkedTraining:
+  - Demo04
 training available: true
 target-audience:
   - VISITOR
