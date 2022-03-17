@@ -23,7 +23,7 @@ const Base: React.FC<Props> = props => {
   const { ReinheritThemeProvider } = useReinTheme()
   return (
     <ReinheritThemeProvider>
-      {/* <GitterSiderCar></GitterSiderCar> */}
+      <GitterSiderCar></GitterSiderCar>
       <ReinheritSoftAuthProvider>{props.children}</ReinheritSoftAuthProvider>
     </ReinheritThemeProvider>
   )

@@ -12,11 +12,11 @@
 
   <script>
       CMS.init();
-      CMS.registerMediaLibrary({
-        name: 'disabled',
-        //@ts-ignore
-        init: () => ({ show: () => alert("Not available. Please use 'Insert from URL instead'."), enableStandalone: () => false }),
-      });
+      // CMS.registerMediaLibrary({
+      //   name: 'disabled',
+      //   //@ts-ignore
+      //   init: () => ({ show: () => alert("Not available. Please use 'Insert from URL instead'."), enableStandalone: () => false }),
+      // });
 
       CMS.registerEditorComponent({
         id: "youtube",
@@ -43,5 +43,11 @@
       });
 
   </script>
+
+  <style>
+    nav ul li button {
+      display: none !important;
+    }
+  </style>
 </body>
 </html>

@@ -11,11 +11,12 @@ import ReactMarkdown from "react-markdown"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
+  pageContext, // pagecontext provided by gatsby
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
 
-  const { mapFaSymbol } = useReinLocalStorage()
+  const { mapFaSymbol } = useReinLocalStorage();
 
   return (
     <BaseLayout>
@@ -44,11 +45,22 @@ export default function Template({
               <div className="reincard card p-4">
 
                 {frontmatter.link && <><div>
-                  <b className="text-secondary">Link</b>
+                  <b className="text-secondary">Main reference</b>
                 </div>
                 <div>
                   <a target="_blank" href={frontmatter.link}><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a>
                 </div><br/></>}
+
+                {(pageContext.refTrainingCollections && pageContext.refTrainingCollections.length !== 0) && <>
+                  <div>
+                    <b className="text-secondary">Referenced training</b>
+                  </div>
+                  <div>
+                    <ul>
+                      {pageContext.refTrainingCollections.map(training => <li><Link to={training.path}>{training.title}</Link></li>)}
+                    </ul>
+                  </div>
+                <br></br></>}
 
                 <div>
                   <b className="text-secondary">Author(s)</b>

@@ -40,7 +40,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 module.exports.createPages = async ({ graphql, actions}) => {
 
   // adding markdown as training
-  let res = await graphql(`
+  let trainingResult = await graphql(`
     query MyQuery {
       allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/training/"}}) {
         edges {
@@ -49,13 +49,16 @@ module.exports.createPages = async ({ graphql, actions}) => {
             fields {
               typeCountId
             }
+            frontmatter {
+              title
+            }
           }
         }
       }
     }
   
   `)
-  res.data.allMarkdownRemark.edges.forEach((edge) => {
+  trainingResult.data.allMarkdownRemark.edges.forEach((edge) => {
     // id is added by my own to node inside onCreateNode
     const mdId = edge.node.fields.typeCountId
     actions.createPage({
@@ -101,6 +104,9 @@ module.exports.createPages = async ({ graphql, actions}) => {
             fields {
               typeCountId
             }
+            frontmatter {
+              linkedTraining
+            }
           }
         }
       }
@@ -108,11 +114,31 @@ module.exports.createPages = async ({ graphql, actions}) => {
   `)
   toolkitResult.data.allMarkdownRemark.edges.forEach((edge) => {
     // id is added by my own to node inside onCreateNode
-    const mdId = edge.node.fields.typeCountId
+    const mdId = edge.node.fields.typeCountId;
+    
+    /**
+     * Holds reference via netlify CMS relations to training collection
+     * {null | string[]}
+     */
+    const linkedTrainingTitles = edge.node.frontmatter.linkedTraining;
+    const linkedTrainings = [];
+    // loop through all training material and link tool with linked training material.
+    if(linkedTrainingTitles){
+      trainingResult.data.allMarkdownRemark.edges.forEach(edge => {
+        let trainTitle = edge.node.frontmatter.title;
+        if(linkedTrainingTitles.includes(trainTitle)){
+          linkedTrainings.push({
+            title: trainTitle,
+            path: "/training/" + edge.node.fields.typeCountId
+          })
+        }
+      })
+    }
+    // additionally pass to context referenced trainingMaterial
     actions.createPage({
       path: `/tools/${mdId}`,
       component: require.resolve(`./src/templates/training.js`),
-      context: { id: edge.node.id },
+      context: { id: edge.node.id, refTrainingCollections: linkedTrainings },
     })
   })
 
