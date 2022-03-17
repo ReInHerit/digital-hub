@@ -32,11 +32,11 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Link", name: "link", widget: "string"}
       - { label: "Linked training", name: "linkedTraining", widget: "relation", collection: "training", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       # - { label: "Training available", name: "training available", widget: "boolean", default: false}
-    
-      - { label: "Tags", name: "tool-type", widget: "select", options: ["REST-API", "Library", "Web-Interface","GraphQL-API","Application","CLI","Python","Java","X-Technologies","Javascript","Typescript","Web Development","Economics","Cultural Heritage","History","Museology","Machine Learning","Topic Modeling","NLP","GIS","Relational DB"], default: ["NLP"], multiple: true, required: true }
+      # - { label: "Tags", name: "tool-type", widget: "select", options: ["REST-API", "Library", "Web-Interface","GraphQL-API","Application","CLI","Python","Java","X-Technologies","Javascript","Typescript","Web Development","Economics","Cultural Heritage","History","Museology","Machine Learning","Topic Modeling","NLP","GIS","Relational DB"], default: ["NLP"], multiple: true, required: true }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "training"
     label: "Training"
@@ -52,6 +52,7 @@ collections:
       # - { label: "Linked news", name: "relation2", widget: "relation", collection: "news", value_field: "title", search_fields: ["title"], multiple: true, required: false }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Type of training", name: "training-type", widget: "select", options: ["Webinar", "Textguide", "Course", "Podcast", "Videotutorial"], default: ["WEBINAR"], multiple: true, required: true }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "apps"
@@ -66,6 +67,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "games"
@@ -80,6 +82,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "code"
@@ -105,6 +108,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "exhibitions"
     label: "Exhibitions"
@@ -118,6 +122,7 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Type", name: "exhibition-tpye", widget: "select", options: ["Digital exhibition", "Traveling exhibition"], default: ["WEBINAR"], multiple: false }
+      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
       # - { label: "Code", name: "code", widget: "code" }
   - name: "news"
@@ -134,6 +139,7 @@ collections:
       # - { label: "Author(s)", name: "author", widget: "select", options: ["sina", "chiara","project"], default: "project", multiple: true }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "designs"
     label: "E-shop: designs"
@@ -149,8 +155,24 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Design", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 1000000}}} # in bytes, only for default media library}
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+  - name: "tags"
+    label: "Digital-Hub: Collection tags"
+    label_singular: 'tag'
+    hide: false                # hides specific collection -> still available if you have the link!
+    folder: "content/tags"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Type", name: "type", widget: "hidden", default: "tag" }
+      - { label: "Tag name", name: "title", widget: "string" }
+      # - { label: "Linked tool", name: "linkedTool", widget: "relation", collection: "tools", value_field: "title", search_fields: ["title"], multiple: true, required: false }
+      # - { label: "Linked news", name: "relation2", widget: "relation", collection: "news", value_field: "title", search_fields: ["title"], multiple: true, required: false }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tag description", name: "desc", widget: "string", required: true }
+      - { label: "Body", name: "body", widget: "markdown",required: false, media_library: {config: {max_file_size: 100000}} }
   - name: "faq"
     label: "Digital-Hub: FAQ"             # Used in the UI
     label_singular: 'entry' # Used in the UI, ie: "New Post"
