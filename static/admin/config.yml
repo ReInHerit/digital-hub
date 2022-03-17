@@ -74,7 +74,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Type", name: "type", widget: "hidden", default: "training" }
+      - { label: "Type", name: "type", widget: "hidden", default: "game" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
@@ -147,7 +147,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "faq"
     label: "Digital-Hub: FAQ"             # Used in the UI
-    label_singular: 'paragraph' # Used in the UI, ie: "New Post"
+    label_singular: 'entry' # Used in the UI, ie: "New Post"
     folder: "content/faq"
     description: FAQ for the digital hub. Short questions and answers. 
     create: true              # Allow users to create new documents in this collection
@@ -155,18 +155,18 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "faq" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+      - { label: "Question", name: "question", widget: "string" }
+      - { label: "Answer", name: "answer", widget: "string" }
   - name: "howtos"
-    label: "Digital-Hub: HOW-TOs"             # Used in the UI
+    label: "Digital-Hub: Manuals and how-tos"             # Used in the UI
     label_singular: 'entry' # Used in the UI, ie: "New Post"
     folder: "content/howtos"
-    description: How tos for the digital hub. Like how to request access to the CMS
+    description: How-tos and manuals for the digital hub. Like how to request access to the CMS
     create: true              # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "faq" }
+      - { label: "Type", name: "type", widget: "hidden", default: "howto" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "statics"
