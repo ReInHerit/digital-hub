@@ -20,6 +20,7 @@ media_library:      # comment out will make media available.
 collections:
   - name: "tools"
     label: "Toolkit: tools"
+    description: "Here you may add tools for the ReInHerit Toolkit as defined in WP3."
     label_singular: 'tool'
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/tools"
@@ -27,14 +28,15 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "tools" }
-      - { label: "Image", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
+      # - { label: "Image", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Link", name: "link", widget: "string"}
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Linked training", name: "linkedTraining", widget: "relation", collection: "training", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Training available", name: "training available", widget: "boolean", default: false}
+      - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Type", name: "tool-type", widget: "select", options: ["REST-API", "Library", "Web-Interface","GraphQL-API","Application","CLI","Python","Java","X-Technologies","Javascript","Typescript","Web Development","Economics","Cultural Heritage","History","Museology","Machine Learning","Topic Modeling","NLP","GIS","Relational DB"], default: ["NLP"], multiple: true, required: true }
+      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
+      - { label: "Link", name: "link", widget: "string"}
+      - { label: "Linked training", name: "linkedTraining", widget: "relation", collection: "training", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
+      # - { label: "Training available", name: "training available", widget: "boolean", default: false}
+      # - { label: "Tags", name: "tool-type", widget: "select", options: ["REST-API", "Library", "Web-Interface","GraphQL-API","Application","CLI","Python","Java","X-Technologies","Javascript","Typescript","Web Development","Economics","Cultural Heritage","History","Museology","Machine Learning","Topic Modeling","NLP","GIS","Relational DB"], default: ["NLP"], multiple: true, required: true }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "training"
     label: "Training"
@@ -48,9 +50,9 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       # - { label: "Linked tool", name: "linkedTool", widget: "relation", collection: "tools", value_field: "title", search_fields: ["title"], multiple: true, required: false }
       # - { label: "Linked news", name: "relation2", widget: "relation", collection: "news", value_field: "title", search_fields: ["title"], multiple: true, required: false }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: true, required: true }
+      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "apps"
     label: "Apps"
@@ -62,9 +64,9 @@ collections:
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "training" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: false }
+      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "games"
     label: "Games"
@@ -76,9 +78,9 @@ collections:
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "game" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Type", name: "training-type", widget: "select", options: ["WEBINAR", "COURSE"], default: ["WEBINAR"], multiple: false }
+      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "code"
     label: "Code-snippets"
@@ -88,7 +90,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Code", name: "code", widget: "code" }
   - name: "performances"
     label: "Performances"
@@ -101,11 +103,12 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "performance" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "exhibitions"
-    label: "Digital exhibitions"
+    label: "Exhibitions"
     label_singular: 'exhibition'
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/exhibitions"
@@ -113,7 +116,11 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Type", name: "exhibition-tpye", widget: "select", options: ["Digital exhibition", "Traveling exhibition"], default: ["WEBINAR"], multiple: false }
+      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
+      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
       # - { label: "Code", name: "code", widget: "code" }
   - name: "news"
     label: "News"             # Used in the UI
@@ -126,9 +133,10 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "news" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Author(s)", name: "author", widget: "select", options: ["sina", "chiara","project"], default: "project", multiple: true }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      # - { label: "Author(s)", name: "author", widget: "select", options: ["sina", "chiara","project"], default: "project", multiple: true }
+      - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "designs"
     label: "E-shop: designs"
@@ -142,9 +150,26 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "design" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
+      - { label: "Design", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 1000000}}} # in bytes, only for default media library}
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+  - name: "tags"
+    label: "Digital-Hub: Collection tags"
+    label_singular: 'tag'
+    hide: false                # hides specific collection -> still available if you have the link!
+    folder: "content/tags"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Type", name: "type", widget: "hidden", default: "tag" }
+      - { label: "Tag name", name: "title", widget: "string" }
+      # - { label: "Linked tool", name: "linkedTool", widget: "relation", collection: "tools", value_field: "title", search_fields: ["title"], multiple: true, required: false }
+      # - { label: "Linked news", name: "relation2", widget: "relation", collection: "news", value_field: "title", search_fields: ["title"], multiple: true, required: false }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tag description", name: "desc", widget: "string", required: true }
+      - { label: "Body", name: "body", widget: "markdown",required: false, media_library: {config: {max_file_size: 100000}} }
   - name: "faq"
     label: "Digital-Hub: FAQ"             # Used in the UI
     label_singular: 'entry' # Used in the UI, ie: "New Post"
@@ -157,6 +182,7 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "faq" }
       - { label: "Question", name: "question", widget: "string" }
       - { label: "Answer", name: "answer", widget: "string" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
   - name: "howtos"
     label: "Digital-Hub: Manuals and how-tos"             # Used in the UI
     label_singular: 'entry' # Used in the UI, ie: "New Post"
@@ -168,6 +194,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "howto" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "statics"
     label: "Digital-Hub: Static texts"             # Used in the UI
