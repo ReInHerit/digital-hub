@@ -169,6 +169,18 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "faq" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+  - name: "statics"
+    label: "Digital-Hub: Static texts"             # Used in the UI
+    label_singular: 'entry' # Used in the UI, ie: "New Post"
+    folder: "content/statics"
+    description: Static texts for the digital hub. Like about page / team description / project goals / documentation etc.
+    create: true              # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "static" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - label: "Pages"
     name: "pages"
     hide: true # hides specific collection -> still available if you have the link!
