@@ -25,7 +25,6 @@ const EventForm = () => {
           </Form.Text>
         </Form.Group>
 
-
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label htmlFor='message'>Text</Form.Label>
           <Form.Control id='message' name='message' type="text" placeholder="message" />
