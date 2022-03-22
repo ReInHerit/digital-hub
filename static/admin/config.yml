@@ -208,6 +208,23 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "static" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+  - name: "events"
+    label: "Digital-Hub: Events"             # Used in the UI
+    label_singular: 'event' # Used in the UI, ie: "New Post"
+    folder: "content/events"
+    description: Events for the digital hub.
+    create: true              # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "event" }
+      - { label: "Event title", name: "title", widget: "string" }
+      - { label: "Host instutition", name: "host", widget: "string" }
+      - { label: "Description", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+      - { label: "Location of the event", name: "location", widget: "string" }
+      - { label: "Start of the event", name: "startDate", widget: "date" }
+      - { label: "End of the event", name: "endDate", widget: "date" }
+      - { label: "Email adress", name: "email", widget: "string" }
   - label: "Pages"
     name: "pages"
     hide: true # hides specific collection -> still available if you have the link!
