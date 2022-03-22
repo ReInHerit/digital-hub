@@ -225,6 +225,18 @@ collections:
       - { label: "Start of the event", name: "startDate", widget: "date" }
       - { label: "End of the event", name: "endDate", widget: "date" }
       - { label: "Email adress", name: "email", widget: "string" }
+  - name: "showcase"
+    label: "Digital-Hub: Showcase entries"             # Used in the UI
+    label_singular: 'entry' # Used in the UI, ie: "New Post"
+    folder: "content/showcase"
+    description: Showcase entry for the digital hub.
+    create: true              # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "event" }
+      - { label: "Showcase description", name: "title", widget: "string" }
+      - { label: "Description", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - label: "Pages"
     name: "pages"
     hide: true # hides specific collection -> still available if you have the link!
