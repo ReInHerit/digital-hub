@@ -7,12 +7,26 @@ import { Button, Form } from 'react-bootstrap';
 const EventForm = () => {
   const [state, handleSubmit] = useForm("mqknlgze");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return <p>Thanks for providing your event! Your announcement will be visible after the moderation has approved your request.</p>;
   }
   return (
       <Form onSubmit={handleSubmit} className="w-50 border p-4">
 
-<Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Group className="mb-3">
+            <Form.Label htmlFor='title'>Name of event</Form.Label>
+            <Form.Control id='title' type="text" name='title' placeholder="Enter event name" />
+            <ValidationError 
+              prefix="Title" 
+              field="title"
+            errors={state.errors}
+            />
+            <Form.Text className="text-muted">
+              Event title to be displayed
+            </Form.Text>
+          </Form.Group>
+
+
+        <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label htmlFor='host'>Host instution</Form.Label>
           <Form.Control id='host' type="text" name='host' placeholder="Enter host name" />
           <ValidationError 
@@ -26,7 +40,7 @@ const EventForm = () => {
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Label htmlFor='message'>Text</Form.Label>
+          <Form.Label htmlFor='message'>Description</Form.Label>
           <Form.Control id='message' name='message' type="text" placeholder="message" />
           <ValidationError 
             prefix="Message" 
@@ -37,6 +51,19 @@ const EventForm = () => {
             Basic description of the event
           </Form.Text>
         </Form.Group>
+
+          <Form.Group className="mb-3">
+            <Form.Label htmlFor='title'>Location of the event</Form.Label>
+            <Form.Control id='location' type="location" name='location' placeholder="Enter event location" />
+            <ValidationError 
+              prefix="Location" 
+              field="location"
+            errors={state.errors}
+            />
+            <Form.Text className="text-muted">
+              Event location to be displayed
+            </Form.Text>
+          </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label htmlFor='date'>Start of the event</Form.Label>
