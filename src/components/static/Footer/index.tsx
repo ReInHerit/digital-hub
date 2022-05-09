@@ -28,7 +28,6 @@ const Footer: React.FC = () => {
           </Col>
           <Col>
             <p>Follow us on: </p>
-            <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon> 
             <FontAwesomeIcon className="ms-1" icon={faLinkedin}></FontAwesomeIcon> 
             <FontAwesomeIcon className="ms-1" icon={faInstagram}></FontAwesomeIcon> 
             <FontAwesomeIcon className="ms-1" icon={faFacebook}></FontAwesomeIcon> 
