@@ -6,6 +6,11 @@ import React from "react"
 import { Button, Container, Overlay, OverlayTrigger, Popover } from "react-bootstrap"
 import BarElem from "./BarElem"
 
+/**
+ * Sidebar meant as quick access to the main use case-fulfilling systems
+ * on the digital-hub.
+ * @returns 
+ */
 const QuickAccessBar: React.FC = () => {
 
   return (
