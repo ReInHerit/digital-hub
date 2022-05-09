@@ -11,7 +11,7 @@ import React from "react";
  */
 export const useReinModeTheme = () => {
 
-  const { modeVal, setMode } = useModeParam();
+  const { modeVal, setMode } = useModeParam("VISITOR");
 
   const [theme, setTheme] = React.useState(reinheritThemes.VISITOR);
   const [groupKey, setGroupKey] = React.useState<keyof REINHERIT_AUDIENCE>("VISITOR");

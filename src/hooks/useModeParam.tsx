@@ -9,10 +9,10 @@ import { navigate } from "gatsby";
  * Hook that reads out given mode parameter and returns it.
  * @returns current value of the mode parameter.
  */
-export const useModeParam = () => {
+export const useModeParam = (defaultMode?: string) => {
 
   const loc = useLocation();
-  const [modeVal, setModeVal] = React.useState("");
+  const [modeVal, setModeVal] = React.useState<string | undefined>(defaultMode);
 
   const handleLoc = () => {
     let url = new URL(loc.href);
@@ -28,6 +28,8 @@ export const useModeParam = () => {
 
   // gatsby wouldn't run useffect 
   React.useEffect(() => {
+    let modeVal = handleLoc();
+    if(!modeVal)return setMode(defaultMode);
     setModeVal(handleLoc());
   }, [loc]);
 
