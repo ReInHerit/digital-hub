@@ -97,8 +97,11 @@ collections:
     label_singular: "performance"
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/performances"
-    create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    # disables creation + deletion of items in collection
+    delete: false
+    create: false
+    # 
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "performance" }
@@ -112,8 +115,11 @@ collections:
     label_singular: 'exhibition'
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/exhibitions"
-    create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    # disables creation + deletion of items in collection
+    # delete: false
+    create: true
+    # 
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
@@ -160,8 +166,11 @@ collections:
     label_singular: 'tag'
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/tags"
-    create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    # disables deletion of items in collection
+    delete: false
+    create: true
+    # 
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "tag" }
       - { label: "Tag name", name: "title", widget: "string" }
@@ -201,8 +210,11 @@ collections:
     label_singular: 'entry' # Used in the UI, ie: "New Post"
     folder: "content/statics"
     description: Static texts for the digital hub. Like about page / team description / project goals / documentation etc.
-    create: true              # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    # disables creation + deletion of items in collection
+    delete: false
+    create: false
+    # 
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "static" }
