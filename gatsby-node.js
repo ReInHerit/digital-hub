@@ -60,7 +60,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
   `)
   trainingResult.data.allMarkdownRemark.edges.forEach((edge) => {
     // id is added by my own to node inside onCreateNode
-    const mdId = edge.node.fields.typeCountId
+    const mdId = edge.node.id
     actions.createPage({
       path: `/training/${mdId}`,
       component: require.resolve(`./src/templates/training.js`),
@@ -86,7 +86,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
   
   `)
   data.allMarkdownRemark.edges.forEach(edge => {
-    const mdId = edge.node.fields.typeCountId
+    const mdId = edge.node.id
     actions.createPage({
       path: `/news/${mdId}`,
       component: require.resolve(`./src/templates/training.js`),
@@ -114,7 +114,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
   `)
   toolkitResult.data.allMarkdownRemark.edges.forEach((edge) => {
     // id is added by my own to node inside onCreateNode
-    const mdId = edge.node.fields.typeCountId;
+    const mdId = edge.node.id;
     
     /**
      * Holds reference via netlify CMS relations to training collection
