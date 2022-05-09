@@ -1,10 +1,7 @@
 import { faRss } from "@fortawesome/free-solid-svg-icons"
-import { graphql, Link, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
-import { Badge, Container, Form } from "react-bootstrap"
 import { reinheritStatics } from "../../../data/reinheritStatics"
-import { reinheritThemes } from "../../../data/reinheritThemes"
-import { useReinSoftAuth } from "../../../hooks/contexts/useReinSoftAuth"
 import { useReinTheme } from "../../../hooks/contexts/useReinTheme"
 import { useReinLocalStorage } from "../../../hooks/useReinLocalStorage"
 import ReinCardGrid from "../ReinCardGrid"
@@ -17,7 +14,6 @@ import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 const NewsFeed: React.FC = () => {
   const data: NewsQueryData.Data = useStaticQuery(NEWS_QUERY)
 
-  const auth = useReinSoftAuth()
   const ReinStorage = useReinLocalStorage<boolean>()
 
   // used to display data conditionally to target audience

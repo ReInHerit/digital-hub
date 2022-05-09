@@ -1,38 +1,17 @@
 import { faLeanpub } from "@fortawesome/free-brands-svg-icons"
 import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
-import { useReinSoftAuth } from "../../../hooks/contexts/useReinSoftAuth"
-import { useReinLocalStorage } from "../../../hooks/useReinLocalStorage"
 import { useReinModeTheme } from "../../../hooks/useReinModeTheme"
 import SideMainLayout from "../Layout/SideMainLayout"
-import NetlifyEmbed from "../NetlifyEmbed"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 
 const TrainingFeed: React.FC = () => {
   const data: TrainingModel.Data = useStaticQuery(TRAINING_QUERY)
-  const auth = useReinSoftAuth()
-  const ReinStorage = useReinLocalStorage<boolean>()
   const { modeVal } = useReinModeTheme()
 
   return (
     <>
-      {auth.signedIn && (
-        <>
-          <a href="/admin/admin.html#/collections/training" target="_blank">
-            Add Training material here
-          </a>
-          <NetlifyEmbed
-            htmlLoc="/admin/admin.html#/collections/training/"
-            style={{
-              width: "100%",
-              height: "100vh",
-              border: "2px solid lightgrey",
-            }}
-          />
-        </>
-      )}
-
       <SideMainLayout
         side={
           <>
