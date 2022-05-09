@@ -1,9 +1,9 @@
 backend:
-  name: github                  # set to 'git-gateway' when using neltlify git-gateway
+  name: github                  # set to 'git-gateway' when using netlify git-gateway
   repo: ReInHerit/digital-hub   # comment out line when using neltlify git-gateway
   branch: main
 local_backend: true             # true if accessed local dev instance of netlify cms port 8081 | How tu run a local dev server: https://www.netlifycms.org/docs/beta-features/
-search: false   # disables search for collections -> hidden collections could be found with other config!
+search: true   # disables search for collections -> hidden collections could be found with other config!
 logo_url: /images/rein_logo.jpg   # setting a custom logo used by the CMS. Displayed ad login screen.
 
 media_folder: "images/uploads"
@@ -54,44 +54,6 @@ collections:
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
-  - name: "apps"
-    label: "Apps"
-    label_singular: "app"
-    hide: true                # hides specific collection -> still available if you have the link!
-    folder: "content/apps"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Type", name: "type", widget: "hidden", default: "training" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
-  - name: "games"
-    label: "Games"
-    label_singular: "game"
-    hide: true                # hides specific collection -> still available if you have the link!
-    folder: "content/games"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Type", name: "type", widget: "hidden", default: "game" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
-  - name: "code"
-    label: "Code-snippets"
-    hide: true                # hides specific collection -> still available if you have the link!
-    folder: "content/code"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Code", name: "code", widget: "code" }
   - name: "performances"
     label: "Performances"
     label_singular: "performance"
@@ -244,37 +206,10 @@ collections:
     description: Showcase entry for the digital hub.
     create: true              # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    # hides specific collection -> still available if you have the link!
+    hide: false 
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "event" }
       - { label: "Showcase description", name: "title", widget: "string" }
       - { label: "Description", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
-  - label: "Pages"
-    name: "pages"
-    hide: true # hides specific collection -> still available if you have the link!
-    files:
-      - label: "About Page"
-        name: "about"
-        file: "static/sites/about.json"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Team
-            name: team
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Position, name: position, widget: string}
-              - {label: Photo, name: photo, widget: image}
-      - label: "Locations Page"
-        name: "locations"
-        file: "static/sites/locations.json"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Locations
-            name: locations
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Address, name: address, widget: string}
