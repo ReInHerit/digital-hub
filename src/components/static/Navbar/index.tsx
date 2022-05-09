@@ -40,8 +40,8 @@ const ReinNavbar: React.FC = () => {
               <NavDropdown title="Performances" id="basic-nav-dropdown">
                 <Link className="text-dark text-decoration-none dropdown-item" to="/portal/performances">Overview</Link>
                 <NavDropdown.Divider />
-                <Link className="text-dark text-decoration-none dropdown-item" to="/content/performances/perf1">Performance 1</Link>
-                <Link className="text-dark text-decoration-none dropdown-item" to="/content/performances/perf2">Performance 2</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/performances/perf1">Performance 1</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/performances/perf2">Performance 2</Link>
               </NavDropdown>
 
               <Link className="text-dark text-decoration-none nav-link" to={addMode("/designs", theme.mode)}>E-shop</Link>
