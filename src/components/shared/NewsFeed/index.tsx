@@ -46,14 +46,14 @@ const NewsFeed: React.FC = () => {
           if(!edge.node.frontmatter.target_audience.includes(theme.groupKey))return null;
           return (
           <ReinGridCard
-            key={edge.node.fields.typeCountId}
+            key={edge.node.id}
             excerpt={edge.node.excerpt}
             faIcon={faRss}
             targetAudience={edge.node.frontmatter.target_audience}
             title={edge.node.frontmatter.title}
             type="news"
-            url={`/news/${edge.node.fields.typeCountId}?mode=${theme.mode}`}
-            uid={edge.node.fields.typeCountId}
+            url={`/news/${edge.node.id}?mode=${theme.mode}`}
+            uid={edge.node.id}
           ></ReinGridCard>
         )})}
       </ReinCardGrid>

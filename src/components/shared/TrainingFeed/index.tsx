@@ -71,13 +71,13 @@ const TrainingFeed: React.FC = () => {
           {data.allMarkdownRemark.edges.map((training, i) => (
             <ReinGridCard
               key={training.node.id}
-              url={`/content/training/${training.node.fields.typeCountId}?mode=${modeVal}`}
+              url={`/content/training/${training.node.id}?mode=${modeVal}`}
               title={training.node.frontmatter.title}
               excerpt={training.node.excerpt}
               faIcon={faLeanpub}
               targetAudience={training.node.frontmatter.target_audience}
               type="training"
-              uid={training.node.fields.typeCountId}
+              uid={training.node.id}
             ></ReinGridCard>
           ))}
         </ReinCardGrid>

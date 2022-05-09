@@ -95,16 +95,16 @@ const ToolkitFeed: React.FC = () => {
             } else {
               return (
                 <ReinGridCard
-                  key={edge.node.fields.typeCountId}
+                  key={edge.node.id}
                   excerpt={edge.node.excerpt}
                   faIcon={faTools}
                   targetAudience={edge.node.frontmatter.target_audience}
                   title={edge.node.frontmatter.title}
                   type="tools"
                   url={`/tools/${
-                    edge.node.fields.typeCountId
+                    edge.node.id
                   }?mode=${""}`}
-                  uid={edge.node.fields.typeCountId}
+                  uid={edge.node.id}
                 ></ReinGridCard>
               )
             }
