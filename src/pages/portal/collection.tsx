@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "gatsby"
 import React from "react"
 import { Col, Row } from "react-bootstrap"
-import Databasket from "../components/shared/Databasket"
-import SideMainLayout from "../components/shared/Layout/SideMainLayout"
-import BaseLayout from "../components/static/BaseLayout"
+import Databasket from "../../components/shared/Databasket"
+import SideMainLayout from "../../components/shared/Layout/SideMainLayout"
+import BaseLayout from "../../components/static/BaseLayout"
 
 const CollectionPage = () => {
   return (

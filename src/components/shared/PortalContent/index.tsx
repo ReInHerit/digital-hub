@@ -72,7 +72,7 @@ const PortalContent = () => {
           faIcon={faDatabase}
           targetAudience={["VISITOR", "PROFESSIONAL"]}
           type="news"
-          url="/collection"
+          url="/portal/collection"
           footerContent="Collected items"
         ></ReinGridCard>
         <ReinGridCard
