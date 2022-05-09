@@ -1,5 +1,10 @@
 import React from "react"
 
+/**
+ * Handles embedment / provision of links etc. of the digital hub forum
+ * and chat functionalities.
+ * @returns 
+ */
 const Forum: React.FC = () => {
   return (
     <div>
