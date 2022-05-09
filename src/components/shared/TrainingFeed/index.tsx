@@ -96,9 +96,6 @@ const TRAINING_QUERY = graphql`
           html
           id
           excerpt
-          fields {
-            typeCountId
-          }
           frontmatter {
             title
             date(fromNow: true)
@@ -124,9 +121,6 @@ declare module TrainingModel {
     id: string
     excerpt: string
     frontmatter: Frontmatter,
-    fields: {
-      typeCountId: string
-    }
   }
 
   export interface Edge {

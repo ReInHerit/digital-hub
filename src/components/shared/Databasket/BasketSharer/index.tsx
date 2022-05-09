@@ -26,11 +26,11 @@ const BasketSharer: React.FC<Props> = (props) => {
     console.log(parsedVals, data);
 
 
-    let toImport = data.allMarkdownRemark.edges.filter(edge => parsedVals.includes(edge.node.fields.typeCountId.toString()))
+    let toImport = data.allMarkdownRemark.edges.filter(edge => parsedVals.includes(edge.node.id.toString()))
 
     let refactored = toImport.map(edge => {
       return {
-          id: edge.node.fields.typeCountId,
+          id: edge.node.id,
           title: edge.node.frontmatter.title,
           type: edge.node.frontmatter.type,
           excerpt: edge.node.excerpt
@@ -73,9 +73,6 @@ const BASKET_ALL_QUERY = graphql`
             layout
             type
           }
-          fields {
-            typeCountId
-          }
         }
       }
     }
@@ -97,9 +94,6 @@ declare module BasketGraphql {
   export interface Node {
       id: string;
       excerpt: string;
-      fields: {
-        typeCountId: number
-      }
       frontmatter: Frontmatter;
   }
 

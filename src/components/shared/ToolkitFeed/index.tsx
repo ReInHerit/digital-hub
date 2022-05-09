@@ -127,9 +127,6 @@ const ToolsQuery = graphql`
           id
           html
           excerpt
-          fields {
-            typeCountId
-          }
           frontmatter {
             title
             date(fromNow: true)
@@ -147,9 +144,6 @@ const ToolsQuery = graphql`
 `
 
 declare module ToolsQueryData {
-  export interface Fields {
-    typeCountId: string
-  }
 
   export interface Frontmatter {
     title: string
@@ -166,7 +160,6 @@ declare module ToolsQueryData {
     id: string
     html: string
     excerpt: string
-    fields: Fields
     frontmatter: Frontmatter
   }
 
