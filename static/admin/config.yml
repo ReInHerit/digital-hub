@@ -139,7 +139,8 @@ collections:
       # - { label: "Linked tool", name: "linkedTool", widget: "relation", collection: "tools", value_field: "title", search_fields: ["title"], multiple: true, required: false }
       # - { label: "Linked news", name: "relation2", widget: "relation", collection: "news", value_field: "title", search_fields: ["title"], multiple: true, required: false }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Tag description", name: "desc", widget: "string", required: true }
+      - { label: "Tag group", name: "tag_group", widget: "select", options: ["TOOLKIT", "NEWS", "E-SHOP", "PERFORMANCE", "EXHIBITION", "TRAINING"], default: ["NEWS"], multiple: true, required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: true }
       - { label: "Body", name: "body", widget: "markdown",required: false, media_library: {config: {max_file_size: 100000}} }
   - name: "faq"
     label: "Digital-Hub: FAQ"             # Used in the UI
