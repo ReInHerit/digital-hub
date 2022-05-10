@@ -30,6 +30,7 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "tools" }
       # - { label: "Image", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
@@ -48,6 +49,7 @@ collections:
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "training" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       # - { label: "Linked tool", name: "linkedTool", widget: "relation", collection: "tools", value_field: "title", search_fields: ["title"], multiple: true, required: false }
       # - { label: "Linked news", name: "relation2", widget: "relation", collection: "news", value_field: "title", search_fields: ["title"], multiple: true, required: false }
       - { label: "Date", name: "date", widget: "datetime" }
@@ -68,6 +70,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "performance" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
@@ -85,6 +88,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Type", name: "exhibition-tpye", widget: "select", options: ["Digital exhibition", "Traveling exhibition"], default: ["WEBINAR"], multiple: false }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
@@ -101,6 +105,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "news" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       # - { label: "Author(s)", name: "author", widget: "select", options: ["sina", "chiara","project"], default: "project", multiple: true }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
@@ -118,6 +123,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "design" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
@@ -136,6 +142,7 @@ collections:
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "tag" }
       - { label: "Tag name", name: "title", widget: "string" }
+      - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       # - { label: "Linked tool", name: "linkedTool", widget: "relation", collection: "tools", value_field: "title", search_fields: ["title"], multiple: true, required: false }
       # - { label: "Linked news", name: "relation2", widget: "relation", collection: "news", value_field: "title", search_fields: ["title"], multiple: true, required: false }
       - { label: "Date", name: "date", widget: "datetime" }
@@ -152,6 +159,7 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "faq" }
+      - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       - { label: "Question", name: "question", widget: "string" }
       - { label: "Answer", name: "answer", widget: "string" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
@@ -166,6 +174,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "howto" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "statics"
@@ -182,6 +191,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "static" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "events"
     label: "Digital-Hub: Events"             # Used in the UI
@@ -194,6 +204,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "event" }
       - { label: "Event title", name: "title", widget: "string" }
+      - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       - { label: "Host instutition", name: "host", widget: "string" }
       - { label: "Description", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
       - { label: "Location of the event", name: "location", widget: "string" }
@@ -213,4 +224,5 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "event" }
       - { label: "Showcase description", name: "title", widget: "string" }
+      - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       - { label: "Description", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
