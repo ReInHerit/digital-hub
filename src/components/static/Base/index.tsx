@@ -5,8 +5,6 @@ import React from "react"
 import "@fortawesome/fontawesome-svg-core/styles.css"
 // Prevent fontawesome from adding its CSS since we did it manually above:
 import { config } from "@fortawesome/fontawesome-svg-core"
-import { useReinTheme } from "../../../hooks/contexts/useReinTheme"
-import GitterSiderCar from "../../shared/GitterSideCar"
 config.autoAddCss = false /* eslint-disable import/first */
 
 interface Props {
@@ -17,12 +15,10 @@ interface Props {
  * Handles base setup of PageComponents fr the Reinherit project via Gatsby.
  */
 const Base: React.FC<Props> = props => {
-  const { ReinheritThemeProvider } = useReinTheme()
   return (
-    <ReinheritThemeProvider>
-      {/* <GitterSiderCar></GitterSiderCar> */}
+    <>
       {props.children}
-    </ReinheritThemeProvider>
+    </>
   )
 }
 

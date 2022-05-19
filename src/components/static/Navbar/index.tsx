@@ -1,26 +1,19 @@
 import { Link } from "gatsby"
 import React from "react"
-import { Navbar, Container, Nav, NavDropdown, Form } from "react-bootstrap"
-import { reinheritStatics } from "../../../data/reinheritStatics"
-import { useReinTheme } from "../../../hooks/contexts/useReinTheme"
-
+import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap"
 
 
 const ReinNavbar: React.FC = () => {
 
-  const { theme } = useReinTheme();
-
-  const addMode = (url: string, mode: string) => `${url}?mode=${mode}`;
-
   return (
     <React.Fragment>
-      <Navbar id="reinnav" sticky="top" collapseOnSelect style={{borderLeft: `10px solid ${theme.styles.MAIN_COLOR}`}} expand="lg" className="bg-white shadow-sm">
+      <Navbar id="reinnav" sticky="top" collapseOnSelect expand="lg" className="bg-white shadow-sm p-3">
         <Container fluid>
-          <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none"><img style={{maxWidth:"50px"}} src="/images/rein_logo.jpg"></img></Link></Navbar.Brand>
+          {/* <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none"><img style={{maxWidth:"50px"}} src="/images/rein_logo.jpg"></img></Link></Navbar.Brand> */}
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Link className="text-dark text-decoration-none nav-link" to={addMode("/", theme.mode)}>Digital Hub</Link>
+              <Link className="text-dark text-decoration-none nav-link" to="/">Digital Hub</Link>
               <NavDropdown title="Project" id="basic-nav-dropdown">
                 <Link className="text-dark text-decoration-none dropdown-item" to="/about">About</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/team">Team</Link>
@@ -35,7 +28,7 @@ const ReinNavbar: React.FC = () => {
                 <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/travel">Traveling Exhibition</Link>
               </NavDropdown>
 
-              <Link className="text-dark text-decoration-none nav-link" to={addMode("/tools", theme.mode)}>Toolkit</Link>
+              <Link className="text-dark text-decoration-none nav-link" to="/tools">Toolkit</Link>
               
               <NavDropdown title="Performances" id="basic-nav-dropdown">
                 <Link className="text-dark text-decoration-none dropdown-item" to="/portal/performances">Overview</Link>
@@ -44,13 +37,10 @@ const ReinNavbar: React.FC = () => {
                 <Link className="text-dark text-decoration-none dropdown-item" to="/performances/perf2">Performance 2</Link>
               </NavDropdown>
 
-              <Link className="text-dark text-decoration-none nav-link" to={addMode("/designs", theme.mode)}>E-shop</Link>
+              <Link className="text-dark text-decoration-none nav-link" to="/designs">E-shop</Link>
             </Nav>
             <Nav>
-            <Form.Select className="border-0" aria-label="Default select example" onChange={(evt) => theme.changeTheme(evt.currentTarget.value as any)}>
-              {Object.entries(reinheritStatics).map(([key, propVal]) => <option key={`restmode_select_${propVal.REST_MODE_VAL}`} selected={theme.mode === propVal.REST_MODE_VAL} value={propVal.REST_MODE_VAL}>{propVal.LABEL}</option>)}
-            </Form.Select>
-              <Link className="text-dark text-decoration-none nav-link" to={addMode("/portal", theme.mode)}>Portal</Link>
+              <Link className="text-dark text-decoration-none nav-link" to="/portal">Portal</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

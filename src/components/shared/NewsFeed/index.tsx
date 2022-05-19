@@ -2,7 +2,6 @@ import { faRss } from "@fortawesome/free-solid-svg-icons"
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import { reinheritStatics } from "../../../data/reinheritStatics"
-import { useReinTheme } from "../../../hooks/contexts/useReinTheme"
 import { useReinLocalStorage } from "../../../hooks/useReinLocalStorage"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
@@ -15,9 +14,6 @@ const NewsFeed: React.FC = () => {
   const data: NewsQueryData.Data = useStaticQuery(NEWS_QUERY)
 
   const ReinStorage = useReinLocalStorage<boolean>()
-
-  // used to display data conditionally to target audience
-  const { theme } = useReinTheme()
 
   /**
    * Calculates gatsby routes to be sent via clicking on a badge in the news cards.
@@ -39,7 +35,7 @@ const NewsFeed: React.FC = () => {
 
       <ReinCardGrid>
         {data.allMarkdownRemark.edges.map(edge => {
-          if(!edge.node.frontmatter.target_audience.includes(theme.groupKey))return null;
+          // if(!edge.node.frontmatter.target_audience.includes(theme.groupKey))return null;
           return (
           <ReinGridCard
             key={edge.node.id}
@@ -48,7 +44,7 @@ const NewsFeed: React.FC = () => {
             targetAudience={edge.node.frontmatter.target_audience}
             title={edge.node.frontmatter.title}
             type="news"
-            url={`/news/${edge.node.id}?mode=${theme.mode}`}
+            url={`/news/${edge.node.id}`}
             uid={edge.node.id}
           ></ReinGridCard>
         )})}

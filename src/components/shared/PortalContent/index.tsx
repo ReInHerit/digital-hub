@@ -1,10 +1,6 @@
 import { faComments, faNewspaper } from "@fortawesome/free-regular-svg-icons";
 import { faBook, faBug, faCalendarDay, faDatabase, faLink, faPlusCircle, faRss, faToolbox, faUniversity } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "gatsby";
 import React from "react";
-import { Breadcrumb, Card, Col, Row } from "react-bootstrap";
-import { reinheritStatics } from "../../../data/reinheritStatics";
-import { useReinTheme } from "../../../hooks/contexts/useReinTheme";
 import MainHeading from "../../static/MainHeading";
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
@@ -14,8 +10,6 @@ import ReinGridCard from "../ReinCardGrid/ReinGridCard"
  * 
 */
 const PortalContent = () => {
-
-  const { theme } = useReinTheme();
 
   return (
     <>
