@@ -84,7 +84,7 @@ const Hero = () => {
             ></div>
           </Col>
           <Col md={8} className="reincard">
-          <Link to="portal" style={{color:"black", textDecoration:"none"}}>
+          <Link to="networkinghub" style={{color:"black", textDecoration:"none"}}>
             <Container className="mt-md-5 p-md-5 h-100 w-100">
               <h4 className="h5">Share your experience and connect!</h4>
               <p>Here you can find a forum organised around key themes in cultural heritage management, collecting best practices and lessons learnt in developing collaborations across tourism, heritage sites, museums, policy makers, and the public.</p>
