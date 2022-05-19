@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "./image"
 import Typed from "react-typed"
-import { Col, Row, Button } from "react-bootstrap"
+import { Col, Row, Button, Container } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
 import MainHeading from "./static/MainHeading"
@@ -15,10 +15,38 @@ const roles = [
 ]
 const Hero = () => {
   return (
-    <div className="rounded" style={{ minHeight: "75vh" }}>
-      <Row className="w-75">
+    <div style={{ minHeight: "75vh" }}>
+      <div
+        style={{
+          backgroundImage:
+            'url("https://www.reinherit.eu/images/Backgrounds/ReInHerit-Slider-1.jpg")',
+          width: "99vw",
+          height: "85vh",
+          backgroundRepeat:"no-repeat",
+          backgroundPosition: "center",
+          backgroundSize: "cover"
+        }}
+      >
+        <Row>
+          <Col md={7}>
+
+          </Col>
+          <Col>
+            <div style={{marginTop:"35vh"}}></div>
+            <h1 className="h1" style={{color:"#5f4136", fontWeight:400, fontSize:"3em", textAlign:"center"}}>ReInHerit Digital Hub</h1>
+            <br></br>
+            <h2 style={{textAlign:"center", fontWeight:500, color:"#5f4136"}} className="h5">Resources, information, and collaboration in cultural heritage</h2>
+          </Col>
+          <Col md={1}></Col>
+        </Row>
+        
+      </div>
+
+      {/* <img style={{maxWidth:"99vw", maxHeight:"50vh"}} src="https://www.reinherit.eu/images/Backgrounds/ReInHerit-Slider-1.jpg"></img> */}
+
+      {/* <Row className="w-75">
         <Col lg={12}>
-          <MainHeading className="ps-3" style={{borderLeft:"4px solid rgba(52 ,  166,  194, 1)", fontSize:"3em"}}>ReInHerit Digital Hub</MainHeading>
+          '<MainHeading className="ps-3" style={{borderLeft:"4px solid rgba(52 ,  166,  194, 1)", fontSize:"3em"}}>ReInHerit Digital Hub</MainHeading>
           <h2 className="h4">
             <span>
               Redefining the future of cultural heritage, through a disruptive
@@ -42,7 +70,11 @@ const Hero = () => {
             icon={faChevronDown}
           ></FontAwesomeIcon>
         </Col>
-      </Row>
+      </Row>' */}
+
+      <Container>
+        <p className="p-md-4" style={{textAlign:"center", fontSize:"1.25em"}}>The Digital Hub of the ReInHerit project presents resources for cultural heritage professionals and a networking hub. It also showcases the project exhibitions and gives access to engaging content for anyone passionate about heritage.</p>
+      </Container>
     </div>
   )
 }
