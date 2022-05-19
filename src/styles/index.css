@@ -1,7 +1,7 @@
 
 * {
   /* font-family: Roboto,system-ui,sans-serif !important; */
-  font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif !important;
+  /* font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif !important; */
 }
 
 a {
@@ -51,13 +51,13 @@ Ensures that nav does not overlap the gitter chat
 
 @media (min-width: 974px) {
   .rein_main_container {
-    width: 95%;
+    width: 100%;
     min-height: 100vh;
   }
 }
 
 @media (min-width: 1200px) {
   .rein_main_container {
-    width: 90%;
+    width: 100%;
   }
 }
