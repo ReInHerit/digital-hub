@@ -19,7 +19,7 @@ const Designs = () => {
       >E-Shop</MainHeading>
 
       <SideMainLayout
-        side={<div className="border p-4 reincard">
+        side={<div className="border border-dark p-4 reincard">
         Filter categories
         <br/>
         {tags.length !== 0

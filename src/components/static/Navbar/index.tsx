@@ -28,19 +28,20 @@ const ReinNavbar: React.FC = () => {
                 <Link className="text-dark text-decoration-none dropdown-item" to="/game">Game</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/portal/performances">Performances</Link>
               </NavDropdown>
-              <NavDropdown title="Exhibitions" id="basic-nav-dropdown">
+              <Link className="text-dark text-decoration-none nav-link" to="/">Events</Link>
+              <NavDropdown title="Digital Exhibitions" id="basic-nav-dropdown">
                 <Link className="text-dark text-decoration-none dropdown-item" to="/portal/exhibs">Overview</Link>
                 <NavDropdown.Divider />
-                <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/digital">Digital Exhibition</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/digital">Digital Exhibitions</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/travel">Traveling Exhibition</Link>
               </NavDropdown>
               
-              <NavDropdown title="Performances" id="basic-nav-dropdown">
+              {/* <NavDropdown title="Performances" id="basic-nav-dropdown">
                 <Link className="text-dark text-decoration-none dropdown-item" to="/portal/performances">Overview</Link>
                 <NavDropdown.Divider />
                 <Link className="text-dark text-decoration-none dropdown-item" to="/performances/perf1">Performance 1</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/performances/perf2">Performance 2</Link>
-              </NavDropdown>
+              </NavDropdown> */}
 
               <Link className="text-dark text-decoration-none nav-link" to="/designs">E-shop</Link>
             </Nav>
