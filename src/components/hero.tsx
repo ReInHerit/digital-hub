@@ -35,7 +35,7 @@ const Hero = () => {
             <div style={{marginTop:"35vh"}}></div>
             <h1 className="h1" style={{color:"#7F4734", fontWeight:400, fontSize:"3em", textAlign:"center"}}>ReInHerit Digital Hub</h1>
             <br></br>
-            <h2 style={{textAlign:"center", fontWeight:500, color:"#5f4136"}} className="h4">Resources, information, and collaboration in cultural heritage</h2>
+            <h2 style={{textAlign:"center", fontWeight:400, color:"#5f4136"}} className="h5">Resources, information, and collaboration in cultural heritage</h2>
           </Col>
           <Col md={1}></Col>
         </Row>
