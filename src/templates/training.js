@@ -24,10 +24,10 @@ export default function Template({
         <div className="blog-post">
           <h1 className="h2">
             {frontmatter.title}{" "}
-            <FontAwesomeIcon
+            {/* <FontAwesomeIcon
               color="lightgrey"
               icon={mapFaSymbol(frontmatter.type)}
-            ></FontAwesomeIcon>
+            ></FontAwesomeIcon> */}
           </h1>
           <p className="w-75"><b>Excerpt: </b>{markdownRemark.excerpt}</p>
           <p>
