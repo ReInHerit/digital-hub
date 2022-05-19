@@ -1,10 +1,8 @@
 import React from "react"
-import Image from "./image"
-import Typed from "react-typed"
-import { Col, Row, Button, Container } from "react-bootstrap"
+import { Col, Row, Container } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
-import MainHeading from "./static/MainHeading"
+import { Link } from "gatsby"
 
 const roles = [
   "#Choose your path",
@@ -57,11 +55,13 @@ const Hero = () => {
       <br />
       
       <Row style={{backgroundColor:"#dceff3", minHeight:"50vh", textAlign:"center"}}>
-          <Col md={8} className="reinCard">
-            <Container className="mt-md-5 h-100">
-              <h4 className="h5">Discover the ReInHerit resources!</h4>
-              <p>Here you can find webinars, a toolkit, and documentation. There are step-by-step guides to the development and implementation of innovative digital tools - and best practices in cultural heritage management and engagement.</p>
-            </Container>
+          <Col md={8} className="reincard">
+            <Link to="portal" style={{color:"black", textDecoration:"none"}}>
+              <Container className="mt-md-5 p-md-5 h-100 w-100">
+                <h4 className="h5">Discover the ReInHerit resources!</h4>
+                <p>Here you can find webinars, a toolkit, and documentation. There are step-by-step guides to the development and implementation of innovative digital tools - and best practices in cultural heritage management and engagement.</p>
+              </Container>
+            </Link>
           </Col>
           <Col md={4}>
             <div
@@ -90,21 +90,25 @@ const Hero = () => {
               }}
             ></div>
           </Col>
-          <Col md={8}>
-          <Container className="mt-md-5">
+          <Col md={8} className="reincard">
+          <Link to="portal" style={{color:"black", textDecoration:"none"}}>
+            <Container className="mt-md-5 p-md-5 h-100 w-100">
               <h4 className="h5">Share your experience and connect!</h4>
               <p>Here you can find a forum organised around key themes in cultural heritage management, collecting best practices and lessons learnt in developing collaborations across tourism, heritage sites, museums, policy makers, and the public.</p>
             </Container>
+          </Link>
           </Col>
       </Row>
 
 
       <Row style={{backgroundColor:"#b6ca76", minHeight:"50vh", textAlign:"center"}}>
-          <Col md={8}>
-          <Container className="mt-md-5">
-              <h4 className="h5">Enjoy cultural heritage online!</h4>
-              <p>Here you can find the project digital exhibitions, videos and images from the project immersive performances, and apps that let you play and interact with cultural heritage in innovative ways.</p>
-            </Container>
+          <Col md={8} className="reincard">
+            <Link to="portal" style={{color:"black", textDecoration:"none"}}>
+              <Container className="mt-md-5 h-100 w-100 p-md-5">
+                  <h4 className="h5">Enjoy cultural heritage online!</h4>
+                  <p>Here you can find the project digital exhibitions, videos and images from the project immersive performances, and apps that let you play and interact with cultural heritage in innovative ways.</p>
+              </Container>
+            </Link>
           </Col>
           <Col md={4}>
             <div
