@@ -54,7 +54,7 @@ const ToolkitFeed: React.FC = () => {
     <SideMainLayout
       side={
         <div className="border p-4 reincard">
-          Filter categories
+          <b style={{color:"#2eacc8"}}>Filter categories</b>
           <br/>
           {tags.length !== 0
           ? tags.map(tag => (
