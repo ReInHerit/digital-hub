@@ -30,11 +30,12 @@ const ReinGridCard: React.FC<Props> = (props) => {
       <Card className="rounded border rounded-0 reincard" style={{fontSize: ".95em", borderColor:"black"}}>
       <Link to={props.url} className="text-decoration-none text-dark">
         <Card.Body>
-          <Card.Title style={{fontSize:"1.2em"}}>
-            <FontAwesomeIcon icon={props.faIcon} size="2x" color="lightgrey"/> 
-            <br />
-            <br />
+          <Card.Title style={{fontSize:"1em"}}>
+            {/* <FontAwesomeIcon icon={props.faIcon} size="1x" color="lightgrey"/>  */}
+            {/* <br /> */}
+            {/* <br /> */}
             {props.title}</Card.Title>
+            <hr/>
           <Card.Text>
             {props.excerpt}
           </Card.Text>
@@ -42,15 +43,16 @@ const ReinGridCard: React.FC<Props> = (props) => {
           {props.children}
         </Card.Body>
         </Link>
-        {(props.footerContent || props.uid) && <Card.Footer className="bg-light border-0">
+        {(props.footerContent || props.uid) && <Card.Footer className="bg-white border-0">
             <small className="text-muted d-inline">
-            {props.uid && <Form.Check
+            {/* {props.uid && <Form.Check
               type="checkbox"
               label="(save to personal collection)"
               defaultChecked={ReinStorage.retrieveItem(props.uid) ? true : false}
               onClick={() => ReinStorage.toggleItem({value: false, id:props.uid, title: props.title, type:props.type as any, excerpt: props.excerpt})}
-            />}
+            />} */}
             {props.footerContent && props.footerContent}
+            <br></br>
             </small>
           </Card.Footer>}
       </Card>
