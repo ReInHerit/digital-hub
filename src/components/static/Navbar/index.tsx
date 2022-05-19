@@ -14,13 +14,20 @@ const ReinNavbar: React.FC = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Link className="text-dark text-decoration-none nav-link" to="/">Digital Hub</Link>
-              <NavDropdown title="Project" id="basic-nav-dropdown">
-                <Link className="text-dark text-decoration-none dropdown-item" to="/about">About</Link>
+              <NavDropdown title="About" id="basic-nav-dropdown">
+                <Link className="text-dark text-decoration-none dropdown-item" to="/about">Project</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/team">Team</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/imprint">Imprint</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/dataprot">Data protection</Link>
               </NavDropdown>
               <Nav.Link as="div"><Link to="/news" className="text-dark text-decoration-none">News</Link></Nav.Link>
+              <NavDropdown title="Resources" id="basic-nav-dropdown">
+                <Link className="text-dark text-decoration-none dropdown-item" to="/resources">Overview</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/tools">Tools</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/webinars">Webinars</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/game">Game</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/portal/performances">Performances</Link>
+              </NavDropdown>
               <NavDropdown title="Exhibitions" id="basic-nav-dropdown">
                 <Link className="text-dark text-decoration-none dropdown-item" to="/portal/exhibs">Overview</Link>
                 <NavDropdown.Divider />

@@ -49,7 +49,7 @@ const Hero = () => {
       
       <Row style={{backgroundColor:"#dceff3", minHeight:"50vh", textAlign:"center"}}>
           <Col md={8} className="reincard">
-            <Link to="portal" style={{color:"black", textDecoration:"none"}}>
+            <Link to="resources" style={{color:"black", textDecoration:"none"}}>
               <Container className="mt-md-5 p-md-5 h-100 w-100">
                 <h4 className="h5">Discover the ReInHerit resources!</h4>
                 <p>Here you can find webinars, a toolkit, and documentation. There are step-by-step guides to the development and implementation of innovative digital tools - and best practices in cultural heritage management and engagement.</p>
