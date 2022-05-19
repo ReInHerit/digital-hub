@@ -96,7 +96,7 @@ const Hero = () => {
 
       <Row style={{backgroundColor:"#b6ca76", minHeight:"50vh", textAlign:"center"}}>
           <Col md={8} className="reincard">
-            <Link to="portal" style={{color:"black", textDecoration:"none"}}>
+            <Link to="visitorhub" style={{color:"black", textDecoration:"none"}}>
               <Container className="mt-md-5 h-100 w-100 p-md-5">
                   <h4 className="h5">Enjoy cultural heritage online!</h4>
                   <p>Here you can find the project digital exhibitions, videos and images from the project immersive performances, and apps that let you play and interact with cultural heritage in innovative ways.</p>

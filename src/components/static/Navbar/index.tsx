@@ -7,7 +7,7 @@ const ReinNavbar: React.FC = () => {
 
   return (
     <React.Fragment>
-      <Navbar id="reinnav" sticky="top" collapseOnSelect expand="lg" className="bg-white p-3">
+      <Navbar id="reinnav" sticky="top" collapseOnSelect expand="lg" className="bg-white p-3 ps-4">
         <Container fluid>
           {/* <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none"><img style={{maxWidth:"50px"}} src="/images/rein_logo.jpg"></img></Link></Navbar.Brand> */}
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -34,8 +34,6 @@ const ReinNavbar: React.FC = () => {
                 <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/digital">Digital Exhibition</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/travel">Traveling Exhibition</Link>
               </NavDropdown>
-
-              <Link className="text-dark text-decoration-none nav-link" to="/tools">Toolkit</Link>
               
               <NavDropdown title="Performances" id="basic-nav-dropdown">
                 <Link className="text-dark text-decoration-none dropdown-item" to="/portal/performances">Overview</Link>
