@@ -6,7 +6,7 @@ import { Col, Container, Row } from "react-bootstrap"
 
 const Footer: React.FC = () => {
   return (
-    <div className="border-1 border-top pt-2 mt-lg-5 shadow">
+    <div className="border-1 border-top pt-4 mt-lg-5 shadow">
       <Container fluid>
         <Row>
           <Col lg={4}>
@@ -27,6 +27,7 @@ const Footer: React.FC = () => {
               <img style={{maxWidth:"60px"}} src="/images/rein_eu.png"></img>
           </Col>
           <Col>
+            <p><Link to="/portal/cms">Login to CMS</Link></p>
             <p>Follow us on: </p>
             <FontAwesomeIcon className="ms-1" icon={faLinkedin}></FontAwesomeIcon> 
             <FontAwesomeIcon className="ms-1" icon={faFacebook}></FontAwesomeIcon> 
