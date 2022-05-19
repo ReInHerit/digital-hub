@@ -4,13 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
 import { Link } from "gatsby"
 
-const roles = [
-  "#Choose your path",
-  "#Make it your own",
-  "#Redefine #makeityourown",
-  "#Teamwork",
-  "#Aiming at international cooperation and networking for cultural heritage actors",
-]
 const Hero = () => {
   return (
     <div style={{ minHeight: "75vh" }}>
