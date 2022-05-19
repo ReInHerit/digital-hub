@@ -10,7 +10,9 @@ const ResourcesPage = () => {
   return (
     <BaseLayout>
 
-      <MainHeading>Resources</MainHeading>
+      <MainHeading
+        subHeading="Resources available on the Digital Hub"
+      >Resources</MainHeading>
 
       <ReinCardGrid>
         <ReinGridCard
