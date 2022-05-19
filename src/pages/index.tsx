@@ -10,7 +10,7 @@ const IndexPage = () => (
       <BaseLayout>
         <SEO title="Home" />
           <Hero />
-          <Landing></Landing>
+          {/* <Landing></Landing> */}
           {/* Necessary for users to allow seting a pw after getting the invite mail  */}
           <NetlifyCMSAuth></NetlifyCMSAuth>
       </BaseLayout>
