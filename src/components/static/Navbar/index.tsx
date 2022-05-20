@@ -38,8 +38,9 @@ const ReinNavbar: React.FC = () => {
               <NavDropdown title="Digital Exhibitions" id="basic-nav-dropdown">
                 <Link className="text-dark text-decoration-none dropdown-item" to="/portal/exhibs">Overview</Link>
                 <NavDropdown.Divider />
-                <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/digital">Digital Exhibitions</Link>
-                <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/travel">Traveling Exhibition</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/digital">Digital Exhibition 1</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/digital">Digital Exhibition 2</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/digital">Digital Exhibition 3</Link>
               </NavDropdown>
               {/* <NavDropdown title="Performances" id="basic-nav-dropdown">
                 <Link className="text-dark text-decoration-none dropdown-item" to="/portal/performances">Overview</Link>
@@ -48,7 +49,7 @@ const ReinNavbar: React.FC = () => {
                 <Link className="text-dark text-decoration-none dropdown-item" to="/performances/perf2">Performance 2</Link>
               </NavDropdown> */}
 
-              <Link className="text-dark text-decoration-none nav-link" to="/designs">E-shop</Link>
+              <Link className="text-dark text-decoration-none nav-link" to="/designs">eShop</Link>
               <NavDropdown title="Paths" id="basic-nav-dropdown">
                 <Link className="text-dark text-decoration-none dropdown-item" to="/networkinghub">Networking</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/visitorhub">Visitors</Link>
