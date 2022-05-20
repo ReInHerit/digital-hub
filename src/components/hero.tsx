@@ -36,7 +36,7 @@ const Hero = () => {
       
 
       <Container className="p-md-4 ps-md-5 pe-md-5 text-center">
-        <p className="ms-5 me-5 ps-5 pe-5" style={{fontSize:"1.35em", fontWeight:400}}>The Digital Hub of the ReInHerit project presents resources for cultural heritage professionals and a networking hub. It also showcases the project exhibitions and gives access to engaging content for anyone passionate about heritage.</p>
+        <p className="ms-5 me-5 ps-sm-5 pe-sm-5" style={{fontSize:"1.35em", fontWeight:400}}>The Digital Hub of the ReInHerit project presents resources for cultural heritage professionals and a networking hub. It also showcases the project exhibitions and gives access to engaging content for anyone passionate about heritage.</p>
         <div><img style={{width:100}} src="https://www.reinherit.eu/templates/g5_helium/custom/images/ReInHerit%20logo%20Final-Redefining.jpg"></img></div>
         
         <FontAwesomeIcon icon={faChevronDown} style={{fontSize:"3em", color:"lightgrey"}}></FontAwesomeIcon>
@@ -62,6 +62,7 @@ const Hero = () => {
                 backgroundImage:"url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')",
                 width:"100%",
                 height:"100%",
+                minHeight:"100px",
                 backgroundRepeat:"no-repeat",
                 backgroundPosition: "center",
                 backgroundSize: "cover"
@@ -79,7 +80,8 @@ const Hero = () => {
                 height:"100%",
                 backgroundRepeat:"no-repeat",
                 backgroundPosition: "center",
-                backgroundSize: "cover"
+                backgroundSize: "cover",
+                minHeight:"100px"
               }}
             ></div>
           </Col>
@@ -111,7 +113,8 @@ const Hero = () => {
                   height:"100%",
                   backgroundRepeat:"no-repeat",
                   backgroundPosition: "center",
-                  backgroundSize: "cover"
+                  backgroundSize: "cover",
+                  minHeight:"100px"
                 }}
               ></div>
           </Col>
