@@ -88,7 +88,10 @@ const ToolkitFeed: React.FC = () => {
             if (
               tags.length !== 0 &&
               !tags.some(curTag =>
-                edge.node.frontmatter.tool_type.includes(curTag)
+                {
+                  if(!edge.node.frontmatter.tool_type)return false;
+                  return edge.node.frontmatter.tool_type.includes(curTag)
+                }
               )
             ) {
               return
