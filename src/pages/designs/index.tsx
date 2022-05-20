@@ -16,7 +16,7 @@ const Designs = () => {
     <BaseLayout>
       <MainHeading
         subHeading="Designs available on the digital hub"
-      >E-Shop</MainHeading>
+      >eShop</MainHeading>
 
       <SideMainLayout
         side={<div className="border border-dark p-4 reincard">
