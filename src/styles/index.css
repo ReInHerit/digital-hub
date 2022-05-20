@@ -50,3 +50,15 @@ Ensures that nav does not overlap the gitter chat
   }
 }
 
+
+@media (min-width: 1600px) {
+  .rein_main_container {
+    min-height: 100vh;
+    padding: 10em;
+  }
+
+  #reinnav > div {
+    padding-left: 8em;
+  }
+}
+

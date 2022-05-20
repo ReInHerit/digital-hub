@@ -7,7 +7,7 @@ const ReinNavbar: React.FC = () => {
 
   return (
     <React.Fragment>
-      <Navbar id="reinnav" collapseOnSelect expand="lg" className="bg-white p-3 ps-4">
+      <Navbar id="reinnav" collapseOnSelect expand="lg" className="bg-white p-sm-3 ps-sm-4">
         <Container fluid>
           {/* <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none"><img style={{maxWidth:"50px"}} src="/images/rein_logo.jpg"></img></Link></Navbar.Brand> */}
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
