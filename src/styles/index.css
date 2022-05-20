@@ -43,22 +43,10 @@ Ensures that nav does not overlap the gitter chat
   z-index: 999999;
 }
 
-
-@media (min-width: 1400px) {
-  .rein_main_container {
-    width: 55%;
-  }
-}
-
 @media (min-width: 974px) {
   .rein_main_container {
-    width: 100%;
     min-height: 100vh;
+    padding: 2.7em;
   }
 }
 
-@media (min-width: 1200px) {
-  .rein_main_container {
-    width: 100%;
-  }
-}
