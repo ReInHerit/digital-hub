@@ -8,6 +8,7 @@ import { useReinLocalStorage } from "../hooks/useReinLocalStorage"
 import SideBarsLayout from "../components/shared/Layout/SideBarsLayout"
 import SideMainLayout from "../components/shared/Layout/SideMainLayout"
 import ReactMarkdown from "react-markdown"
+import MainHeading from "../components/static/MainHeading"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -22,30 +23,26 @@ export default function Template({
     <BaseLayout>
       <div className="blog-post-container">
         <div className="blog-post">
-          <h1 className="h2">
-            {frontmatter.title}{" "}
-            {/* <FontAwesomeIcon
-              color="lightgrey"
-              icon={mapFaSymbol(frontmatter.type)}
-            ></FontAwesomeIcon> */}
-          </h1>
-          <p className="w-75"><b>Excerpt: </b>{markdownRemark.excerpt}</p>
+          <MainHeading
+            subHeading={<>This resource is part of the <Link style={{textDecoration:"none", color:"#2eacc8"}} to={`/${frontmatter.type}`}>{frontmatter.type}</Link> section.</>}
+          >{frontmatter.title}</MainHeading>
+          <p className="w-75"><i>Excerpt: </i>{markdownRemark.excerpt}</p>
           <p>
-            <FontAwesomeIcon color="lightgrey" icon={faArrowAltCircleLeft} />{" "}
-            <Link to={`/${frontmatter.type}`}>
+            {/* <FontAwesomeIcon color="lightgrey" icon={faArrowAltCircleLeft} />{" "} */}
+            {/* <Link to={`/${frontmatter.type}`}>
               {frontmatter.type.charAt(0).toUpperCase() +
                 frontmatter.type.slice(1)}{" "}
               overview
-            </Link>
+            </Link> */}
           </p>
-          <br />
+          {/* <br></br> */}
 
           <SideMainLayout
             side={
-              <div className="reincard card p-4">
+              <div style={{border:"1px solid grey", borderRadius:0}} className="card p-4 border-radius-0">
 
                 {frontmatter.link && <><div>
-                  <b className="text-secondary">Main reference</b>
+                  <i>Main reference</i>
                 </div>
                 <div>
                   <a target="_blank" href={frontmatter.link}><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a>
@@ -53,7 +50,7 @@ export default function Template({
 
                 {(pageContext.refTrainingCollections && pageContext.refTrainingCollections.length !== 0) && <>
                   <div>
-                    <b className="text-secondary">Referenced training</b>
+                    <i>Referenced training</i>
                   </div>
                   <div>
                     <ul>
@@ -63,7 +60,7 @@ export default function Template({
                 <br></br></>}
 
                 <div>
-                  <b className="text-secondary">Author(s)</b>
+                  <i>Author(s)</i>
                 </div>
                 <div>
                   ReInHerit Project
@@ -71,26 +68,26 @@ export default function Template({
                 <br />
 
                 <div>
-                  <b className="text-secondary">Publication date</b>
+                  <i>Publication date</i>
                 </div>
                 <div>{frontmatter.date}</div>
                 <br />
 
                 <div>
-                  <b className="text-secondary">Cite as</b>
+                  <i>Cite as</i>
                 </div>
                 <div>"Mustermann, Max; Doing development, ... "</div>
                 <br />
 
                 <div>
-                  <b className="text-secondary">Terms of reuse</b>
+                  <i>Terms of reuse</i>
                 </div>
                 <div>MIT - CC BY 4.0</div>
                 <br />
               </div>
             }
           >
-            <Container fluid className="bg-white card p-4">
+            <Container fluid className="bg-white card p-4" style={{border:"1px solid grey", borderRadius:0}}>
               <div
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}

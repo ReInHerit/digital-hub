@@ -2,7 +2,7 @@ import React from "react"
 
 interface Props {
   children: string
-  subHeading?: string
+  subHeading?: string |JSX.Element
   [property: string]: any
 }
 
