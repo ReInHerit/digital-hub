@@ -8,7 +8,7 @@ import MainHeading from "../components/static/MainHeading"
 const VisitorHubPage = () => {
   return (
     <BaseLayout>
-      <MainHeading subHeading="coming soon...">Visitory overview</MainHeading>
+      <MainHeading subHeading="coming soon...">Visitors overview</MainHeading>
       <ReinCardGrid>
         <ReinGridCard
           excerpt="coming soon"
@@ -52,7 +52,6 @@ const VisitorHubPage = () => {
         />
         
       </ReinCardGrid>
-      
     </BaseLayout>
   )
 }
