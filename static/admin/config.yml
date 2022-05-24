@@ -11,6 +11,8 @@ media_folder: "images/uploads"
 media_library:      # comment out will make media available.
   name: 'disabled'  # comment out will make media available.
 
+display_url: https://reinherit.github.io
+
 # for open authoring / kanban view for moderation processes
 # warning -> still in beta!
 # https://www.netlifycms.org/docs/open-authoring/#enabling-open-authoring
