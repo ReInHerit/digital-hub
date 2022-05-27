@@ -36,12 +36,12 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Link", name: "link", widget: "string"}
+      - { label: "Main reference", name: "link", widget: "string"}
       - { label: "Linked training", name: "linkedTraining", widget: "relation", collection: "training", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       # - { label: "Training available", name: "training available", widget: "boolean", default: false}
       # - { label: "Tags", name: "tool-type", widget: "select", options: ["REST-API", "Library", "Web-Interface","GraphQL-API","Application","CLI","Python","Java","X-Technologies","Javascript","Typescript","Web Development","Economics","Cultural Heritage","History","Museology","Machine Learning","Topic Modeling","NLP","GIS","Relational DB"], default: ["NLP"], multiple: true, required: true }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
-  - name: "apps"
+  - name: "tools_apps"
     label: "Toolkit: apps"
     description: "Here you may add apps for the ReInHerit Toolkit as defined in WP3."
     label_singular: 'app'
@@ -51,7 +51,6 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "tools" }
-      # - { label: "Image", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       - { label: "Date", name: "date", widget: "datetime" }
@@ -59,7 +58,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Link", name: "link", widget: "string"}
       - { label: "Linked training", name: "linkedTraining", widget: "relation", collection: "training", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      # - { label: "Training available", name: "training available", widget: "boolean", default: false}
+      - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "tools", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
       # - { label: "Tags", name: "tool-type", widget: "select", options: ["REST-API", "Library", "Web-Interface","GraphQL-API","Application","CLI","Python","Java","X-Technologies","Javascript","Typescript","Web Development","Economics","Cultural Heritage","History","Museology","Machine Learning","Topic Modeling","NLP","GIS","Relational DB"], default: ["NLP"], multiple: true, required: true }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "training"
