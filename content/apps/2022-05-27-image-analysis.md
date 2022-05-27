@@ -13,8 +13,8 @@ linkedTraining:
   - Demo04
   - Newest Material.
 linkedToolkitComponents:
-  - APIS.is (iceland, nordic)
   - Lorem Picsum
   - "JSON Placeholder - yeahij "
+  - APIS.is (iceland, nordic)
 ---
 Demo
