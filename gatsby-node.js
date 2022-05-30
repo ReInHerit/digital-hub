@@ -117,7 +117,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
     const mdId = edge.node.id
     actions.createPage({
       path: `/eshop/${mdId}`,
-      component: require.resolve(`./src/templates/training.js`),
+      component: require.resolve(`./src/templates/eshop.js`),
       context: { id: edge.node.id },
     })
   })
