@@ -110,6 +110,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Short description", name: "desc", widget: "string" }
       - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Type", name: "exhibition-tpye", widget: "select", options: ["Digital exhibition", "Traveling exhibition"], default: ["WEBINAR"], multiple: false }
