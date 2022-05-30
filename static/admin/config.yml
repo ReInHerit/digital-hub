@@ -129,28 +129,27 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "news" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
-      # - { label: "Author(s)", name: "author", widget: "select", options: ["sina", "chiara","project"], default: "project", multiple: true }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "designs"
-    label: "E-shop: designs"
-    label_singular: "design"
+    label: "eShop"
+    label_singular: "item"
     hide: false                # hides specific collection -> still available if you have the link!
-    folder: "content/designs"
-    description: E-Shop items
+    folder: "content/eshop"
+    description: eShop items
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "design" }
+      - { label: "Type", name: "type", widget: "hidden", default: "eshop" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Design", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 1000000}}} # in bytes, only for default media library}
+      - { label: "Design / Image", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 1000000}}} # in bytes, only for default media library}
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "tags"
     label: "Digital-Hub: Collection tags"
