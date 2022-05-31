@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
               <img style={{maxWidth:"60px"}} src="/images/rein_eu.png"></img>
           </Col>
           <Col>
-            <p><Link to="/portal/cms">Login to CMS</Link></p>
+            <p><Link to="/cms">Login to CMS</Link></p>
             <p>Follow us on: </p>
             <FontAwesomeIcon className="ms-1" icon={faLinkedin}></FontAwesomeIcon> 
             <FontAwesomeIcon className="ms-1" icon={faFacebook}></FontAwesomeIcon> 
