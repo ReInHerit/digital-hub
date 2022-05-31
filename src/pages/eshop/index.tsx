@@ -10,6 +10,7 @@ const Designs = () => {
       <MainHeading
         subHeading="Designs available on the digital hub"
       >eShop</MainHeading>
+      <p>Here could be some text ... e.g. an introduction about the content etc.</p>
       <EShopFeed></EShopFeed>
     </BaseLayout>
   )
