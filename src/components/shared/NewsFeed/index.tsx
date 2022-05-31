@@ -1,8 +1,6 @@
-import { faRss } from "@fortawesome/free-solid-svg-icons"
+
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
-import { reinheritStatics } from "../../../data/reinheritStatics"
-import { useReinLocalStorage } from "../../../hooks/useReinLocalStorage"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 
@@ -13,29 +11,11 @@ import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 const NewsFeed: React.FC = () => {
   const data: NewsQueryData.Data = useStaticQuery(NEWS_QUERY)
 
-  const ReinStorage = useReinLocalStorage<boolean>()
-
-  /**
-   * Calculates gatsby routes to be sent via clicking on a badge in the news cards.
-   * @param groupKey
-   * @returns
-   */
-  const handleBadgeMode = (groupKey: string) => {
-    const isBrowser = () => typeof window !== "undefined"
-    // needs to be done to solve SSR rendering errors for gatsby.
-    if (isBrowser()) {
-      return `${location.pathname}?mode=${reinheritStatics[groupKey].REST_MODE_VAL}`
-    } else {
-      return ""
-    }
-  }
-
   return (
     <>
 
       <ReinCardGrid>
         {data.allMarkdownRemark.edges.map(edge => {
-          // if(!edge.node.frontmatter.target_audience.includes(theme.groupKey))return null;
           return (
           <ReinGridCard
             key={edge.node.id}
