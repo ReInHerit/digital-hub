@@ -1,4 +1,3 @@
-import { faTools } from "@fortawesome/free-solid-svg-icons"
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import { Badge, Form } from "react-bootstrap"
@@ -53,7 +52,7 @@ const ToolkitFeed: React.FC = () => {
   return (
     <SideMainLayout
       side={
-        <div className="border border-dark p-4 reincard">
+        <div className="border border-dark p-4">
           <b style={{color:"#2eacc8"}}>Filter categories</b>
           <br/>
           {tags.length !== 0
