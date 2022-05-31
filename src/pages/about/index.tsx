@@ -1,9 +1,9 @@
-import { Link } from "gatsby"
+
 import React from "react"
 import { Col, Row } from "react-bootstrap"
-import SEO from "../components/seo"
-import BaseLayout from "../components/static/BaseLayout"
-import MainHeading from "../components/static/MainHeading"
+import SEO from "../../components/seo"
+import BaseLayout from "../../components/static/BaseLayout"
+import MainHeading from "../../components/static/MainHeading"
 
 const AboutPage = () => (
   <React.Fragment>

@@ -1,10 +1,10 @@
 import { faAddressCard, faAnchor, faSchool } from "@fortawesome/free-solid-svg-icons"
 import React from "react"
 import { Col, Row } from "react-bootstrap"
-import ReinCardGrid from "../components/shared/ReinCardGrid"
-import ReinGridCard from "../components/shared/ReinCardGrid/ReinGridCard"
-import BaseLayout from "../components/static/BaseLayout"
-import MainHeading from "../components/static/MainHeading"
+import ReinCardGrid from "../../components/shared/ReinCardGrid"
+import ReinGridCard from "../../components/shared/ReinCardGrid/ReinGridCard"
+import BaseLayout from "../../components/static/BaseLayout"
+import MainHeading from "../../components/static/MainHeading"
 
 const TeamPage = () => {
   return (
