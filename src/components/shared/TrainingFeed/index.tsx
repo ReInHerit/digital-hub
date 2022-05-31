@@ -1,14 +1,12 @@
 import { faLeanpub } from "@fortawesome/free-brands-svg-icons"
 import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
-import { useReinModeTheme } from "../../../hooks/useReinModeTheme"
 import SideMainLayout from "../Layout/SideMainLayout"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 
 const TrainingFeed: React.FC = () => {
   const data: TrainingModel.Data = useStaticQuery(TRAINING_QUERY)
-  const { modeVal } = useReinModeTheme()
 
   return (
     <>
@@ -50,12 +48,9 @@ const TrainingFeed: React.FC = () => {
           {data.allMarkdownRemark.edges.map((training, i) => (
             <ReinGridCard
               key={training.node.id}
-              url={`/content/training/${training.node.id}?mode=${modeVal}`}
+              url={`/content/training/${training.node.id}`}
               title={training.node.frontmatter.title}
-              excerpt={training.node.excerpt}
-              faIcon={faLeanpub}
-              targetAudience={training.node.frontmatter.target_audience}
-              type="training"
+              body={training.node.excerpt}
               uid={training.node.id}
             ></ReinGridCard>
           ))}

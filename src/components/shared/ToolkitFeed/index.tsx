@@ -99,11 +99,8 @@ const ToolkitFeed: React.FC = () => {
               return (
                 <ReinGridCard
                   key={edge.node.id}
-                  excerpt={edge.node.excerpt}
-                  faIcon={faTools}
-                  targetAudience={edge.node.frontmatter.target_audience}
+                  body={edge.node.excerpt}
                   title={edge.node.frontmatter.title}
-                  type="tools"
                   url={`/tools/${
                     edge.node.id
                   }?mode=${""}`}

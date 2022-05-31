@@ -15,11 +15,8 @@ const EShopFeed: React.FC = () => {
     <ReinCardGrid>
       {data.allMarkdownRemark.edges.map(edge => (
         <ReinGridCard
-          excerpt={edge.node.excerpt}
-          faIcon={faImage}
-          targetAudience={["VISITOR"]}
+          body={edge.node.excerpt}
           title={edge.node.frontmatter.title}
-          type="eshop"
           url={`/eshop/${edge.node.id}`}
           uid={edge.node.id}
         >

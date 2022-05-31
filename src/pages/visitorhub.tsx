@@ -1,54 +1,41 @@
-import { faNetworkWired } from "@fortawesome/free-solid-svg-icons"
 import React from "react"
 import ReinCardGrid from "../components/shared/ReinCardGrid"
 import ReinGridCard from "../components/shared/ReinCardGrid/ReinGridCard"
 import BaseLayout from "../components/static/BaseLayout"
 import MainHeading from "../components/static/MainHeading"
 
+/** 
+ * Provides navigational overview for visitors target group
+*/
 const VisitorHubPage = () => {
   return (
     <BaseLayout>
       <MainHeading subHeading="coming soon...">Visitors overview</MainHeading>
       <ReinCardGrid>
         <ReinGridCard
-          excerpt="coming soon"
-          faIcon={faNetworkWired}
-          targetAudience={[]}
+          body="coming soon"
           title="eShop"
           url="/designs"
-          type=""
         />
         <ReinGridCard
-          excerpt="coming soon"
-          faIcon={faNetworkWired}
-          targetAudience={[]}
+          body="coming soon"
           title="Digital exhibition"
           url="/exhibs/digital"
-          type=""
         />
         <ReinGridCard
-          excerpt="coming soon"
-          faIcon={faNetworkWired}
-          targetAudience={[]}
+          body="coming soon"
           title="Performances"
           url="/portal/performances"
-          type=""
         />
         <ReinGridCard
-          excerpt="coming soon"
-          faIcon={faNetworkWired}
-          targetAudience={[]}
+          body="coming soon"
           title="Travelling exhibitions"
           url="/exhibs/travel"
-          type=""
         />
         <ReinGridCard
-          excerpt="coming soon"
-          faIcon={faNetworkWired}
-          targetAudience={[]}
+          body="coming soon"
           title="Hackathon"
           url="/"
-          type=""
         />
         
       </ReinCardGrid>

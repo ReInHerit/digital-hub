@@ -6,10 +6,7 @@ interface Props {
   uid?: string
   url: string
   title: string
-  type: string
-  excerpt: string
-  targetAudience: string[]
-  faIcon: any
+  body: string
   footerContent?: any
   children?: any
 }
@@ -30,7 +27,7 @@ const ReinGridCard: React.FC<Props> = props => {
           <Card.Body>
             <Card.Title style={{ fontSize: "1em" }}>{props.title}</Card.Title>
             <hr />
-            <Card.Text>{props.excerpt}</Card.Text>
+            <Card.Text>{props.body}</Card.Text>
             <br></br>
             {props.children}
           </Card.Body>

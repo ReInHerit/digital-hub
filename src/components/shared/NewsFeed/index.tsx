@@ -39,11 +39,8 @@ const NewsFeed: React.FC = () => {
           return (
           <ReinGridCard
             key={edge.node.id}
-            excerpt={edge.node.excerpt}
-            faIcon={faRss}
-            targetAudience={edge.node.frontmatter.target_audience}
+            body={edge.node.excerpt}
             title={edge.node.frontmatter.title}
-            type="news"
             url={`/news/${edge.node.id}`}
             uid={edge.node.id}
           ></ReinGridCard>
