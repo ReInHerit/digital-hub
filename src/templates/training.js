@@ -27,16 +27,6 @@ export default function Template({
             subHeading={<>This resource is part of the <Link style={{textDecoration:"none", color:"#2eacc8"}} to={`/${frontmatter.type}`}>{frontmatter.type}</Link> section.</>}
           >{frontmatter.title}</MainHeading>
           <p className="w-75"><i>Excerpt: </i>{markdownRemark.excerpt}</p>
-          <p>
-            {/* <FontAwesomeIcon color="lightgrey" icon={faArrowAltCircleLeft} />{" "} */}
-            {/* <Link to={`/${frontmatter.type}`}>
-              {frontmatter.type.charAt(0).toUpperCase() +
-                frontmatter.type.slice(1)}{" "}
-              overview
-            </Link> */}
-          </p>
-          {/* <br></br> */}
-
           <SideMainLayout
             side={
               <div style={{border:"1px solid grey", borderRadius:0}} className="card p-4 border-radius-0">
@@ -73,11 +63,11 @@ export default function Template({
                 <div>{frontmatter.date}</div>
                 <br />
 
-                <div>
+                {/* <div>
                   <i>Cite as</i>
                 </div>
                 <div>"Mustermann, Max; Doing development, ... "</div>
-                <br />
+                <br /> */}
 
                 <div>
                   <i>Terms of reuse</i>
