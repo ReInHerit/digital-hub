@@ -26,7 +26,7 @@ const ReinNavbar: React.FC = () => {
                 <Link className="text-dark text-decoration-none dropdown-item" to="/tools">Tools</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/webinars">Webinars</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/game">Game</Link>
-                <Link className="text-dark text-decoration-none dropdown-item" to="/portal/performances">Performances</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/performances">Performances</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/doc">Documentation</Link>
               </NavDropdown>
               {/* <Link className="text-dark text-decoration-none nav-link" to="/">Events</Link> */}
@@ -43,18 +43,7 @@ const ReinNavbar: React.FC = () => {
                 <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/digital">Digital Exhibition 2</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/exhibs/digital">Digital Exhibition 3</Link>
               </NavDropdown>
-              {/* <NavDropdown title="Performances" id="basic-nav-dropdown">
-                <Link className="text-dark text-decoration-none dropdown-item" to="/portal/performances">Overview</Link>
-                <NavDropdown.Divider />
-                <Link className="text-dark text-decoration-none dropdown-item" to="/performances/perf1">Performance 1</Link>
-                <Link className="text-dark text-decoration-none dropdown-item" to="/performances/perf2">Performance 2</Link>
-              </NavDropdown> */}
-
               <Link className="text-dark text-decoration-none nav-link" to="/eshop">eShop</Link>
-              <NavDropdown title="Paths" id="basic-nav-dropdown">
-                <Link className="text-dark text-decoration-none dropdown-item" to="/networkinghub">Networking</Link>
-                <Link className="text-dark text-decoration-none dropdown-item" to="/visitorhub">Visitors</Link>
-              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>
