@@ -99,4 +99,3 @@ yarn build
 
 ## Production
 
-COMING_SOON
