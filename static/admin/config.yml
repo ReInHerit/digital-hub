@@ -29,7 +29,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Type", name: "type", widget: "hidden", default: "tools" }
+      - { label: "Type", name: "type", widget: "hidden", default: "toolcomponent" }
       - { label: "Page-ID", name: "pageId", widget: "uuid", hint: "You might use this number to reference this item in another collection. Like: '/tools/components/ITEM_ID'"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
@@ -48,7 +48,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Type", name: "type", widget: "hidden", default: "tools" }
+      - { label: "Type", name: "type", widget: "hidden", default: "toolapp" }
       - { label: "Page-ID", name: "pageId", widget: "uuid", hint: "You might use this number to reference this item in another collection. Like: '/tools/apps/ITEM_ID'"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
@@ -56,7 +56,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Main reference", name: "mainReference", widget: "string"}
       - { label: "Linked webinars", name: "linkedWebinars", widget: "relation", collection: "webinars", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolapps", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
+      - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolapps", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
       - { label: "License", name: "license", widget: "string", default: "MIT - CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "webinars"
@@ -108,6 +108,7 @@ collections:
     # 
     fields:
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
+      - { label: "Type", name: "type", widget: "hidden", default: "exhibition" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Short description", name: "desc", widget: "string" }
