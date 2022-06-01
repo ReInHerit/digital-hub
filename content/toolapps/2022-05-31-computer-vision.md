@@ -11,8 +11,8 @@ tags:
   - NLP
 mainReference: http://google.com
 linkedWebinar:
-  - Demo04
-  - Newest Material.
+  - 9241577a-49ae-499a-90ec-dee2e934ac27____Demo04
+  - 732aebbf-6543-4998-b8d6-6c5d548ead84____Fancy Webinar.
 linkedTraining:
   - Fancy Webinar.
   - Newest Material.
