@@ -1,6 +1,7 @@
 ---
 layout: blog
 type: faq
+pageId: 2b52aa56-9f12-4a74-b8af-21c98f7964d0
 title: How to reduce the size of your image to upload to the CMS
 target-audience:
   - PROFESSIONAL
