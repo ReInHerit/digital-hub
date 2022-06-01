@@ -1,4 +1,5 @@
 ---
+type: tools
 id: 6b922075-1450-4f8d-8d39-fbabd594400f
 title: "JSON Placeholder - yeahij "
 target-audience:
@@ -11,8 +12,9 @@ tool-type:
   - REST-API
   - Web-Interface
   - Javascript
-type: tools
 mainReference: https://google.com
+linkedWebinar:
+  - Demo04
 link: https://google.com
 tutorial: training
 ---
