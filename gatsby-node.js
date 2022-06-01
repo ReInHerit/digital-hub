@@ -19,11 +19,11 @@ module.exports.createPages = async ({ graphql, actions}) => {
     }
   `)
   trainingResult.data.allMarkdownRemark.edges.forEach((edge) => {
-    // id is added by my own to node inside onCreateNode
+    // id is added by my own to node inside onCreateNod
     const mdId = edge.node.id
     actions.createPage({
       path: `/training/${mdId}`,
-      component: require.resolve(`./src/templates/training.js`),
+      component: require.resolve(`./src/templates/toolkit.js`),
       context: { id: edge.node.id },
     })
   })
@@ -44,7 +44,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
     const mdId = edge.node.id
     actions.createPage({
       path: `/news/${mdId}`,
-      component: require.resolve(`./src/templates/training.js`),
+      component: require.resolve(`./src/templates/toolkit.js`),
       context: { id: edge.node.id },
     })
   })
@@ -89,7 +89,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
     // additionally pass to context referenced trainingMaterial
     actions.createPage({
       path: `/tools/${mdId}`,
-      component: require.resolve(`./src/templates/training.js`),
+      component: require.resolve(`./src/templates/toolkit.js`),
       context: { id: edge.node.id, refTrainingCollections: linkedTrainings },
     })
   })
