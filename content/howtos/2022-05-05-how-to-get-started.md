@@ -1,6 +1,7 @@
 ---
 layout: blog
 type: howto
+pageId: ff39842c-0637-4fe1-9af7-2b35fe3b52d2
 title: How to get started
 target-audience:
   - VISITOR
