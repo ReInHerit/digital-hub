@@ -1,16 +1,19 @@
 ---
-type: tools
+id: 6b922075-1450-4f8d-8d39-fbabd594400f
 title: "JSON Placeholder - yeahij "
-link: https://google.com
-date: 2022-01-10T10:12:18.153Z
-training available: false
 target-audience:
   - VISITOR
   - PROFESSIONAL
+license: CC BY 4.0
+training available: false
+date: 2022-01-10T10:12:18.153Z
 tool-type:
   - REST-API
   - Web-Interface
   - Javascript
+type: tools
+mainReference: https://google.com
+link: https://google.com
 tutorial: training
 ---
 ## Description
