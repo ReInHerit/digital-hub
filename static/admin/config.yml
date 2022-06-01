@@ -129,7 +129,7 @@ collections:
     label_singular: "item"
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/eshop"
-    description: eShop items
+    description: "This collection is intended for submitting texts on the eshop (and the e-shop items themselves), which will be provided on the Hub. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -138,7 +138,6 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Design / Image", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 1000000}}} # in bytes, only for default media library}
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "tags"
