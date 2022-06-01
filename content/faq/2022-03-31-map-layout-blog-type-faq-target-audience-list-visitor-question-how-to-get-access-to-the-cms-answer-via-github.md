@@ -1,6 +1,7 @@
 ---
 layout: blog
 type: faq
+pageId: 68287848-8a07-4add-baf7-fd3b8c2f06b5
 question: I am a cultural heritage professional and would like to add
   interesting content to the Hub. How can I do that?
 answer: "If you want to add content to the hub, please do so via the forms we
