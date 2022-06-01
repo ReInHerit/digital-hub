@@ -1,10 +1,12 @@
 ---
+pageId: 93b58e7f-854f-4ee2-8710-16ad3af1a4cc
 layout: blog
 type: news
 title: New game on Reinherit - out now
 date: 2021-10-19T11:03:50.059Z
 target-audience:
   - VISITOR
+newsType: ANNOUNCEMENT
 ---
 ## Test yourself
 
