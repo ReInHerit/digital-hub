@@ -13,7 +13,6 @@ tool-type:
 mainReference: http://google.com
 linkedWebinar:
   - Fancy Webinar.
-id: ca00be7f-5bd4-4ca4-96ce-6aff6ca3daae
 ---
 # Description
 

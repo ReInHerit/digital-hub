@@ -16,7 +16,6 @@ linkedWebinar:
 linkedTraining:
   - Demo04
 link: https://google.com
-id: ca28dcec-799a-4c9d-a7b4-7ebe767f40dc
 tutorial: |-
   # Tutorial 1
 

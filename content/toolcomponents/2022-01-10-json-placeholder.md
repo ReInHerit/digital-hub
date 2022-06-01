@@ -16,7 +16,6 @@ mainReference: https://google.com
 linkedWebinar:
   - Demo04
 link: https://google.com
-id: 6b922075-1450-4f8d-8d39-fbabd594400f
 tutorial: training
 ---
 ## Description
