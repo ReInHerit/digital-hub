@@ -9,9 +9,9 @@ module.exports.createPages = async ({ graphql, actions}) => {
       allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/webinars/"}}) {
         edges {
           node {
-            id
             frontmatter {
               title
+              pageId
             }
           }
         }
@@ -20,7 +20,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
   `)
   trainingResult.data.allMarkdownRemark.edges.forEach((edge) => {
     // id is added by my own to node inside onCreateNod
-    const mdId = edge.node.id
+    const mdId = edge.node.frontmatter.pageId
     actions.createPage({
       path: `/training/${mdId}`,
       component: require.resolve(`./src/templates/toolkit.js`),
@@ -35,17 +35,20 @@ module.exports.createPages = async ({ graphql, actions}) => {
         edges {
           node {
             id
+            frontmatter {
+              pageId
+            }
           }
         }
       }
     }
   `)
   data.allMarkdownRemark.edges.forEach(edge => {
-    const mdId = edge.node.id
+    const mdId = edge.node.frontmatter.pageId
     actions.createPage({
       path: `/news/${mdId}`,
       component: require.resolve(`./src/templates/toolkit.js`),
-      context: { id: edge.node.id },
+      context: { id: mdId },
     })
   })
 
@@ -83,7 +86,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
         if(linkedTrainingTitles.includes(trainTitle)){
           linkedTrainings.push({
             title: trainTitle,
-            path: "/training/" + edge.node.id
+            path: "/training/" + edge.node.frontmatter.pageId
           })
         }
       })
@@ -92,7 +95,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
     actions.createPage({
       path: `/tools/${mdId}`,
       component: require.resolve(`./src/templates/toolkit.js`),
-      context: { id: edge.node.id, refTrainingCollections: linkedTrainings },
+      context: { id: edge.node.frontmatter.pageId, refTrainingCollections: linkedTrainings },
     })
   })
 
@@ -105,7 +108,9 @@ module.exports.createPages = async ({ graphql, actions}) => {
       ) {
         edges {
           node {
-            id
+            frontmatter {
+              pageId
+            }
           }
         }
       }
@@ -113,11 +118,11 @@ module.exports.createPages = async ({ graphql, actions}) => {
   `);
 
   eshopResult.data.allMarkdownRemark.edges.forEach(edge => {
-    const mdId = edge.node.id
+    const mdId = edge.node.frontmatter.pageId
     actions.createPage({
       path: `/eshop/${mdId}`,
       component: require.resolve(`./src/templates/eshop.js`),
-      context: { id: edge.node.id },
+      context: { id: mdId },
     })
   })
 
@@ -130,7 +135,9 @@ module.exports.createPages = async ({ graphql, actions}) => {
       ) {
         edges {
           node {
-            id
+            frontmatter {
+              pageId
+            }
           }
         }
       }
@@ -138,11 +145,11 @@ module.exports.createPages = async ({ graphql, actions}) => {
   `);
 
   webinarsResult.data.allMarkdownRemark.edges.forEach(edge => {
-    const mdId = edge.node.id
+    const mdId = edge.node.frontmatter.pageId
     actions.createPage({
       path: `/webinars/${mdId}`,
       component: require.resolve(`./src/templates/toolkit.js`),
-      context: { id: edge.node.id },
+      context: { id: mdId },
     })
   })
 
