@@ -1,5 +1,6 @@
 ---
 type: tools
+id: 49677607-4e53-44bb-9f55-2d9766e7b295
 title: TEST & Fragen
 date: 2022-05-05T13:54:23.994Z
 target-audience:
@@ -10,6 +11,8 @@ tags:
   - NLP
   - Game
   - REST-API
+mainReference: http://google.com
+license: "-"
 link: Zum Tool?
 ---
 1. Frage: Einmal stellt er es so rein, dann so? Wie ist es gewollt bzw bei dir schaut das wieder anders aus :D ah ok über plus...soll man dann immer so nehmen oder?
