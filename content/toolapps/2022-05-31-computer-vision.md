@@ -1,20 +1,21 @@
 ---
 type: tools
 title: Computer Vision
-draft: true
-date: 2022-05-31T11:33:46.192Z
 target-audience:
   - VISITOR
+license: "-"
+draft: true
+date: 2022-05-31T11:33:46.192Z
 tags:
   - NLP
-link: https://google.com
+mainReference: http://google.com
+linkedWebinar:
+  - Fancy Webinar.
 linkedTraining:
   - Fancy Webinar.
   - Newest Material.
+link: https://google.com
 linkedToolkitComponents:
-  - APIS.is (iceland, nordic)
-  - Lorem Picsum
-  - NLTK
-  - "JSON Placeholder - yeahij "
+  - "Image analysis "
 ---
 This is an example
