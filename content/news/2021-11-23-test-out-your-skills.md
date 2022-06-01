@@ -1,13 +1,15 @@
 ---
+pageId: f9dc5db2-71fe-426d-8725-8eabc3fc5c2c
 layout: blog
 type: news
 title: Test out your skills!
-author:
-  - project
 date: 2021-11-23T11:14:58.710Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
+author:
+  - project
+newsType: EVENT
 ---
 # Example
 
