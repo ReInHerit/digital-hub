@@ -60,6 +60,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "webinars"
     label: "Webinars"
+    description: "This collection is intended for submitting webinars either on the tools developed in the ReInHerit-project or generally on digitization in the CH sector, CH management and preservation. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
     label_singular: 'entry'
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/training"
