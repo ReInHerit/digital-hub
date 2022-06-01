@@ -1,6 +1,7 @@
 ---
 layout: blog
 type: howto
+pageId: 1e6448db-bd2e-4977-93bc-e32b95ebb7af
 title: Roles in the Digital Hub
 target-audience:
   - VISITOR
