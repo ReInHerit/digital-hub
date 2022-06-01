@@ -1,14 +1,16 @@
 ---
+pageId: c69529c1-a50a-40b7-8749-7b10f4d52b27
 layout: blog
 type: news
 title: Summarizing flowers
-author:
-  - sina
-  - project
 date: 2021-11-23T11:17:31.546Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
+author:
+  - sina
+  - project
+newsType: EVENT
 ---
 # Summary
 
