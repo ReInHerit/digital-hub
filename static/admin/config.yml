@@ -61,9 +61,9 @@ collections:
   - name: "webinars"
     label: "Webinars"
     description: "This collection is intended for submitting webinars either on the tools developed in the ReInHerit-project or generally on digitization in the CH sector, CH management and preservation. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
-    label_singular: 'entry'
+    label_singular: 'webinar'
     hide: false                # hides specific collection -> still available if you have the link!
-    folder: "content/training"
+    folder: "content/webinars"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
