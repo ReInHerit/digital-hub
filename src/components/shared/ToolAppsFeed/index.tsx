@@ -100,9 +100,9 @@ const ToolkitFeed: React.FC = () => {
                   key={edge.node.frontmatter.pageId}
                   body={edge.node.excerpt}
                   title={edge.node.frontmatter.title}
-                  url={`/tools/${
+                  url={`/tools/apps/${
                     edge.node.frontmatter.pageId
-                  }?mode=${""}`}
+                  }`}
                   uid={edge.node.frontmatter.pageId}
                 ></ReinGridCard>
               )
