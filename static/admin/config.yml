@@ -95,6 +95,7 @@ collections:
   - name: "exhibitions"
     label: "Exhibitions"
     label_singular: 'exhibition'
+    description: "This collection is intended for submitting texts on the exhibitions, which will be developed and carried out in the ReInHerit project. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/exhibitions"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -107,7 +108,6 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Short description", name: "desc", widget: "string" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "news"
     label: "News"             # Used in the UI
