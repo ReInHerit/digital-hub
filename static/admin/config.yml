@@ -69,6 +69,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "webinar" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
@@ -88,6 +89,7 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "performance" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
@@ -105,6 +107,7 @@ collections:
     create: true
     # 
     fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Short description", name: "desc", widget: "string" }
@@ -118,6 +121,7 @@ collections:
     create: true              # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "news" }
       - { label: "Title", name: "title", widget: "string" }
@@ -136,11 +140,12 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "eshop" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Design / Image", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 1000000}}} # in bytes, only for default media library}
-      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+      - { label: "Body", name: "body", widget: "markdown", media_library: {config: {max_file_size: 100000}} }
   - name: "tags"
     label: "Digital-Hub: Collection tags"
     label_singular: 'tag'
@@ -153,6 +158,7 @@ collections:
     # 
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "tag" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Tag name", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tag group", name: "tag_group", widget: "select", options: ["TOOLKIT", "NEWS", "E-SHOP", "PERFORMANCE", "EXHIBITION", "TRAINING"], default: ["NEWS"], multiple: true, required: true }
@@ -168,6 +174,7 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "faq" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Question", name: "question", widget: "string" }
       - { label: "Answer", name: "answer", widget: "string" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
@@ -181,6 +188,7 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "howto" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
@@ -197,6 +205,7 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "static" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "events"
@@ -209,6 +218,7 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "event" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Event title", name: "title", widget: "string" }
       - { label: "Host instutition", name: "host", widget: "string" }
       - { label: "Description", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
@@ -228,6 +238,7 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "event" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Showcase description", name: "title", widget: "string" }
       - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       - { label: "Description", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
