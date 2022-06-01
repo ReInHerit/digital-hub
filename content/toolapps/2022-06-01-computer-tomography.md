@@ -11,8 +11,7 @@ mainReference: https://google.com
 linkedWebinars:
   - 732aebbf-6543-4998-b8d6-6c5d548ead84____Fancy Webinar.
 linkedToolkitComponents:
-  - APIS.is (iceland, nordic)
-  - Lorem Picsum
+  - 1ea8415d-0f87-46ac-9e94-9a42eed0b9e6____Computer tomography
 license: MIT - CC BY 2.0
 ---
 # Tools and apps
