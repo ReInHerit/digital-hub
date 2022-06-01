@@ -41,17 +41,11 @@ export default function Template({
                 <div>{frontmatter.date}</div>
                 <br />
 
-                <div>
-                  <i>Cite as</i>
-                </div>
-                <div>"Mustermann, Max; Doing development, ... "</div>
-                <br />
-
-                <div>
+                {/* <div>
                   <i>Terms of reuse</i>
                 </div>
                 <div>MIT - CC BY 4.0</div>
-                <br />
+                <br /> */}
               </div>
             }
           >
