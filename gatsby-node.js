@@ -6,7 +6,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
   // adding markdown as training
   let trainingResult = await graphql(`
     query MyQuery {
-      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/training/"}}) {
+      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/webinars/"}}) {
         edges {
           node {
             id
@@ -55,7 +55,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
   // adding toolkit entries according to netlify CMS
   let toolkitResult = await graphql(`
     query MyQuery {
-      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/tools/"}}) {
+      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/toolapps/"}}) {
         edges {
           node {
             id
