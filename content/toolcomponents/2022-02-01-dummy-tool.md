@@ -1,15 +1,20 @@
 ---
 type: tools
+id: 5425f200-d160-40d1-9dc7-cfc4d409a5f0
 title: "Dummy Tool "
-link: https://consent.dariah.eu/
-date: 2022-02-01T08:31:38.081Z
-training available: true
 target-audience:
   - PROFESSIONAL
+license: "-"
+training available: true
+date: 2022-02-01T08:31:38.081Z
 tool-type:
   - NLP
   - Cultural Heritage
   - Application
+mainReference: http://google.com
+linkedWebinar:
+  - Fancy Webinar.
+link: https://consent.dariah.eu/
 tutorial: |-
   # Tool Tutorial
 
