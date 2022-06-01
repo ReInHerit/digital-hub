@@ -13,6 +13,7 @@ tool-type:
 mainReference: https://google.com
 linkedWebinar:
   - Newest Material.
+  - Fancy Webinar.
 linkedTraining:
   - Demo04
 link: https://google.com
