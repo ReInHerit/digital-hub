@@ -4,7 +4,7 @@ const express = require('express');
 module.exports.createPages = async ({ graphql, actions}) => {
 
   // adding markdown as training
-  let trainingResult = await graphql(`
+  let webinarsResult = await graphql(`
     query MyQuery {
       allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/webinars/"}}) {
         edges {
@@ -18,13 +18,13 @@ module.exports.createPages = async ({ graphql, actions}) => {
       }
     }
   `)
-  trainingResult.data.allMarkdownRemark.edges.forEach((edge) => {
-    // id is added by my own to node inside onCreateNod
+  webinarsResult.data.allMarkdownRemark.edges.forEach((edge) => {
+    // id is added by my own to node inside onCreateNode
     const mdId = edge.node.frontmatter.pageId
     actions.createPage({
-      path: `/training/${mdId}`,
+      path: `/webinars/${mdId}`,
       component: require.resolve(`./src/templates/toolkit.js`),
-      context: { id: edge.node.id },
+      context: { id: mdId },
     })
   })
 
@@ -81,7 +81,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
     const linkedTrainings = [];
     // loop through all training material and link tool with linked training material.
     if(linkedTrainingTitles){
-      trainingResult.data.allMarkdownRemark.edges.forEach(edge => {
+      webinarsResult.data.allMarkdownRemark.edges.forEach(edge => {
         let trainTitle = edge.node.frontmatter.title;
         if(linkedTrainingTitles.includes(trainTitle)){
           linkedTrainings.push({
@@ -122,33 +122,6 @@ module.exports.createPages = async ({ graphql, actions}) => {
     actions.createPage({
       path: `/eshop/${mdId}`,
       component: require.resolve(`./src/templates/eshop.js`),
-      context: { id: mdId },
-    })
-  })
-
-
-  // create webinars overview
-  let webinarsResult = await graphql(`
-    query WebinarPageQuery {
-      allMarkdownRemark(
-        filter: {fileAbsolutePath: {regex: "/webinars/"}, frontmatter: {}}
-      ) {
-        edges {
-          node {
-            frontmatter {
-              pageId
-            }
-          }
-        }
-      }
-    }
-  `);
-
-  webinarsResult.data.allMarkdownRemark.edges.forEach(edge => {
-    const mdId = edge.node.frontmatter.pageId
-    actions.createPage({
-      path: `/webinars/${mdId}`,
-      component: require.resolve(`./src/templates/toolkit.js`),
       context: { id: mdId },
     })
   })
