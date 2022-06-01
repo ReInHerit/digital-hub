@@ -163,7 +163,7 @@ collections:
     label: "Digital-Hub: FAQ"             # Used in the UI
     label_singular: 'entry' # Used in the UI, ie: "New Post"
     folder: "content/faq"
-    description: FAQ for the digital hub. Short questions and answers. 
+    description: "FAQ for the digital hub. Short questions and answers."
     create: true              # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -176,7 +176,7 @@ collections:
     label: "Digital-Hub: Manuals and how-tos"             # Used in the UI
     label_singular: 'entry' # Used in the UI, ie: "New Post"
     folder: "content/howtos"
-    description: How-tos and manuals for the digital hub. Like how to request access to the CMS
+    description: "This collection is intended for submitting Manuals and How-Tos about Hub-functionalities, e.g. usage of the CMS, usage of forum and chat, provision of data as an external professional, etc. The entries will be manually added to the Hub, after revision by the CMS administration."
     create: true              # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -189,7 +189,7 @@ collections:
     label: "Digital-Hub: Static texts"             # Used in the UI
     label_singular: 'entry' # Used in the UI, ie: "New Post"
     folder: "content/statics"
-    description: Static texts for the digital hub. Like about page / team description / project goals / documentation etc.
+    description: "This collection is intended for submitting all the 'static' texts, which are necessary for a webpage, e.g. imprint & data privacy.  The entries will be manually added to the Hub, after revision by the CMS administration."
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     # disables creation + deletion of items in collection
     delete: false
