@@ -50,7 +50,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
   })
 
   // adding toolkit entries according to netlify CMS
-  let toolkitResult = await graphql(`
+  let toolAppsResult = await graphql(`
     query MyQuery {
       allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/toolapps/"}}) {
         edges {
@@ -58,15 +58,17 @@ module.exports.createPages = async ({ graphql, actions}) => {
             id
             frontmatter {
               linkedWebinar
+              pageId
             }
           }
         }
       }
     }
+  
   `)
-  toolkitResult.data.allMarkdownRemark.edges.forEach((edge) => {
+  toolAppsResult.data.allMarkdownRemark.edges.forEach((edge) => {
     // id is added by my own to node inside onCreateNode
-    const mdId = edge.node.id;
+    const mdId = edge.node.frontmatter.pageId;
     
     /**
      * Holds reference via netlify CMS relations to training collection

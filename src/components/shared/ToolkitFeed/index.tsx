@@ -97,13 +97,13 @@ const ToolkitFeed: React.FC = () => {
             } else {
               return (
                 <ReinGridCard
-                  key={edge.node.id}
+                  key={edge.node.frontmatter.pageId}
                   body={edge.node.excerpt}
                   title={edge.node.frontmatter.title}
                   url={`/tools/${
-                    edge.node.id
+                    edge.node.frontmatter.pageId
                   }?mode=${""}`}
-                  uid={edge.node.id}
+                  uid={edge.node.frontmatter.pageId}
                 ></ReinGridCard>
               )
             }
@@ -123,7 +123,6 @@ const ToolsQuery = graphql`
     ) {
       edges {
         node {
-          id
           html
           excerpt
           frontmatter {
@@ -132,6 +131,7 @@ const ToolsQuery = graphql`
             target_audience
             layout
             type
+            pageId
           }
         }
       }
@@ -150,10 +150,10 @@ declare module ToolsQueryData {
     training_available: boolean
     tool_type?: any
     type: string
+    pageId: string
   }
 
   export interface Node {
-    id: string
     html: string
     excerpt: string
     frontmatter: Frontmatter
