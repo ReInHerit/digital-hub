@@ -63,7 +63,7 @@ export default function Template({
                       
                         const [componentId, componentTitle] = componentString.split("____");
 
-                        return <li><Link to={`/tools/apps/${componentId}`}>{componentTitle}</Link></li>
+                        return <li><Link to={`/tools/components/${componentId}`}>{componentTitle}</Link></li>
                       })}
                     </ul>
                   </div>
