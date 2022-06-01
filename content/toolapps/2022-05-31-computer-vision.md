@@ -11,7 +11,8 @@ tags:
   - NLP
 mainReference: http://google.com
 linkedWebinar:
-  - Fancy Webinar.
+  - Demo04
+  - Newest Material.
 linkedTraining:
   - Fancy Webinar.
   - Newest Material.
