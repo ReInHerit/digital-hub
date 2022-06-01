@@ -9,7 +9,7 @@ tags:
   - Game
 mainReference: https://google.com
 linkedWebinar:
-  - Demo05
+  - 732aebbf-6543-4998-b8d6-6c5d548ead84____Fancy Webinar.
 linkedToolkitComponents:
   - APIS.is (iceland, nordic)
   - Lorem Picsum
