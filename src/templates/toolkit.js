@@ -12,7 +12,6 @@ import MainHeading from "../components/static/MainHeading"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
-  pageContext, // pagecontext provided by gatsby
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
@@ -38,13 +37,18 @@ export default function Template({
                   <a target="_blank" href={frontmatter.link}><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a>
                 </div><br/></>}
 
-                {(pageContext.refTrainingCollections && pageContext.refTrainingCollections.length !== 0) && <>
+                {(frontmatter.linkedWebinars && frontmatter.linkedWebinars.length !== 0) && <>
                   <div>
-                    <i>Referenced webinar</i>
+                    <i>Referenced webinar(s)</i>
                   </div>
                   <div>
                     <ul>
-                      {pageContext.refTrainingCollections.map(training => <li><Link to={training.path}>{training.title}</Link></li>)}
+                      {frontmatter.linkedWebinars.map(webinarString => {
+                      
+                        const [webinarId, webinarTitle] = webinarString.split("____");
+
+                        return <li><Link to={`${webinarId}`}>{webinarTitle}</Link></li>
+                      })}
                     </ul>
                   </div>
                 <br></br></>}
@@ -109,6 +113,7 @@ export const pageQuery = graphql`
         target_audience
         author
         tutorial
+        linkedWebinars
       }
       id
       excerpt
