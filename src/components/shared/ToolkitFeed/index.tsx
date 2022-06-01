@@ -119,7 +119,7 @@ export default ToolkitFeed
 const ToolsQuery = graphql`
   query ToolsQuery {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/tools/" }, frontmatter: {} }
+      filter: { fileAbsolutePath: { regex: "/toolapps/" }, frontmatter: {} }
     ) {
       edges {
         node {
@@ -131,9 +131,6 @@ const ToolsQuery = graphql`
             date(fromNow: true)
             target_audience
             layout
-            author
-            training_available
-            tool_type
             type
           }
         }

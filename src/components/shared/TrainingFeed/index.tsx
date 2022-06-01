@@ -64,7 +64,7 @@ export default TrainingFeed
 
 const TRAINING_QUERY = graphql`
   query TrainingQuery {
-    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/training/" } }) {
+    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/webinars/" } }) {
       edges {
         node {
           html
@@ -74,7 +74,6 @@ const TRAINING_QUERY = graphql`
             title
             date(fromNow: true)
             target_audience
-            training_type
           }
         }
       }
@@ -87,7 +86,6 @@ declare module TrainingModel {
     title: string
     date: string
     target_audience: string[]
-    training_type: string[]
   }
 
   export interface Node {
