@@ -66,7 +66,7 @@ export default function Template({
 }
 export const pageQuery = graphql`
   query($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+    markdownRemark(frontmatter: {pageId : {eq:$id}}) {
       html
       frontmatter {
         date
