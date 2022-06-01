@@ -29,7 +29,7 @@ const TrainingFeed: React.FC = () => {
                 <li className="p-0 m-0">
                   <small>
                     <Link
-                      to={`/content/training/${edge.node.frontmatter.pageId}`}
+                      to={`/webinars/${edge.node.frontmatter.pageId}`}
                       className="text-dark"
                     >
                       {edge.node.frontmatter.title}
@@ -48,7 +48,7 @@ const TrainingFeed: React.FC = () => {
           {data.allMarkdownRemark.edges.map((training, i) => (
             <ReinGridCard
               key={training.node.frontmatter.pageId}
-              url={`/content/training/${training.node.frontmatter.pageId}`}
+              url={`/webinars/${training.node.frontmatter.pageId}`}
               title={training.node.frontmatter.title}
               body={training.node.excerpt}
               uid={training.node.frontmatter.pageId}
