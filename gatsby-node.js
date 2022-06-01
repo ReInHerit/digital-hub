@@ -17,7 +17,6 @@ module.exports.createPages = async ({ graphql, actions}) => {
         }
       }
     }
-  
   `)
   trainingResult.data.allMarkdownRemark.edges.forEach((edge) => {
     // id is added by my own to node inside onCreateNode
@@ -31,17 +30,15 @@ module.exports.createPages = async ({ graphql, actions}) => {
 
   // adding news data from markdown
   const { data } = await graphql(`
-  query MyQuery {
-    allMarkdownRemark(filter: {frontmatter: {type: {eq: "news"}}}) {
-      edges {
-        node {
-          id
+    query MyQuery {
+      allMarkdownRemark(filter: {frontmatter: {type: {eq: "news"}}}) {
+        edges {
+          node {
+            id
+          }
         }
       }
     }
-  }
-  
-  
   `)
   data.allMarkdownRemark.edges.forEach(edge => {
     const mdId = edge.node.id
@@ -60,7 +57,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
           node {
             id
             frontmatter {
-              linkedTraining
+              linkedWebinar
             }
           }
         }
