@@ -47,7 +47,23 @@ export default function Template({
                       
                         const [webinarId, webinarTitle] = webinarString.split("____");
 
-                        return <li><Link to={`${webinarId}`}>{webinarTitle}</Link></li>
+                        return <li><Link to={`/webinars/${webinarId}`}>{webinarTitle}</Link></li>
+                      })}
+                    </ul>
+                  </div>
+                <br></br></>}
+
+                {(frontmatter.linkedToolkitComponents && frontmatter.linkedToolkitComponents.length !== 0) && <>
+                  <div>
+                    <i>Referenced components(s)</i>
+                  </div>
+                  <div>
+                    <ul>
+                      {frontmatter.linkedToolkitComponents.map(componentString => {
+                      
+                        const [componentId, componentTitle] = componentString.split("____");
+
+                        return <li><Link to={`/tools/apps/${componentId}`}>{componentTitle}</Link></li>
                       })}
                     </ul>
                   </div>
@@ -114,6 +130,7 @@ export const pageQuery = graphql`
         author
         tutorial
         linkedWebinars
+        linkedToolkitComponents
       }
       id
       excerpt
