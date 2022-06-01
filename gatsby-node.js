@@ -30,22 +30,8 @@ module.exports.createPages = async ({ graphql, actions}) => {
   })
 
   // adding toolkit entries according to netlify CMS
-  let toolAppsResult = await graphql(`
-    query MyQuery {
-      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/toolapps/"}}) {
-        edges {
-          node {
-            id
-            frontmatter {
-              linkedWebinar
-              pageId
-            }
-          }
-        }
-      }
-    }
-  
-  `)
+  let toolAppsResult = await graphql(DIGIHUB_QUERIES.TOOLS_PAGES);
+
   toolAppsResult.data.allMarkdownRemark.edges.forEach((edge) => {
     // id is added by my own to node inside onCreateNode
     const mdId = edge.node.frontmatter.pageId;
@@ -63,7 +49,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
         if(linkedTrainingTitles.includes(trainTitle)){
           linkedTrainings.push({
             title: trainTitle,
-            path: "/training/" + edge.node.frontmatter.pageId
+            path: "/webinar/" + edge.node.frontmatter.pageId
           })
         }
       })
@@ -78,21 +64,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
 
 
   // adding eshop data from markdown
-  const eshopResult = await graphql(`
-    query EshopQuery {
-      allMarkdownRemark(
-        filter: {fileAbsolutePath: {regex: "/eshop/"}, frontmatter: {}}
-      ) {
-        edges {
-          node {
-            frontmatter {
-              pageId
-            }
-          }
-        }
-      }
-    }
-  `);
+  const eshopResult = await graphql(DIGIHUB_QUERIES.ESHOP_PAGES);
 
   eshopResult.data.allMarkdownRemark.edges.forEach(edge => {
     const mdId = edge.node.frontmatter.pageId

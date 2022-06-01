@@ -28,8 +28,41 @@ module.exports.DIGIHUB_QUERIES = (() => {
     }
   `
 
+  const TOOLS_PAGES = `
+    query MyQuery {
+      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/toolapps/"}}) {
+        edges {
+          node {
+            frontmatter {
+              linkedWebinar
+              pageId
+            }
+          }
+        }
+      }
+    }
+  ` 
+
+  const ESHOP_PAGES = `
+    query EshopQuery {
+      allMarkdownRemark(
+        filter: {fileAbsolutePath: {regex: "/eshop/"}, frontmatter: {}}
+      ) {
+        edges {
+          node {
+            frontmatter {
+              pageId
+            }
+          }
+        }
+      }
+    }
+  `
+
   return {
     WEBINARS_PAGES,
-    NEWS_PAGES
+    NEWS_PAGES,
+    TOOLS_PAGES,
+    ESHOP_PAGES
   }
 })()
