@@ -9,7 +9,7 @@ tags:
   - Game
 mainReference: https://google.com
 linkedWebinar:
-  - Fancy Webinar.
+  - Demo05
 linkedToolkitComponents:
   - APIS.is (iceland, nordic)
   - Lorem Picsum
