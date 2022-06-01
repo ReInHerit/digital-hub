@@ -23,7 +23,7 @@ collections:
   - name: "tools"
     label: "Toolkit: components"
     description: "This collection is intended for submitting texts on tool components that are either developed within the ReInHerit project or play an important role for CH management or preservation. The entries are not immediately visible on the Hub, but will be published in the course of the next rebuild process."
-    label_singular: 'tool'
+    label_singular: 'component'
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/tools"
     create: true
