@@ -16,7 +16,7 @@ display_url: https://reinherit.github.io
 # for open authoring / kanban view for moderation processes
 # warning -> (still in beta!)
 # https://www.netlifycms.org/docs/open-authoring/#enabling-open-authoring
-publish_mode: editorial_workflow   
+# publish_mode: editorial_workflow   
 
 # collections config see here: https://www.netlifycms.org/docs/widgets/#object
 collections:
@@ -30,7 +30,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "tools" }
-      # - { label: "Image", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
+      - { label: "Page-ID", name: "pageId", widget: "uuid", hint: "You might use this number to reference this item in another collection. Like: '/tools/components/ITEM_ID'"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
@@ -49,13 +49,14 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "tools" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid", hint: "You might use this number to reference this item in another collection. Like: '/tools/apps/ITEM_ID'"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Main reference", name: "mainReference", widget: "string"}
       - { label: "Linked webinars", name: "linkedWebinar", widget: "relation", collection: "webinars", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "tools", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
+      - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolapps", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
       - { label: "License", name: "license", widget: "string", default: "MIT - CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "webinars"
