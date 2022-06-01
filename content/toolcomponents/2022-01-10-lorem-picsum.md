@@ -11,7 +11,7 @@ tool-type:
   - REST-API
   - Web-Interface
 mainReference: --
-linkedWebinar:
+linkedWebinars:
   - d8d9f895-d120-491a-80b0-ccaca6d89649____Newest Material.
 ---
 # Description

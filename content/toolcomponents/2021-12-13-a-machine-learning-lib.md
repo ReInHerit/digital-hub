@@ -11,7 +11,7 @@ tool-type:
   - Python
   - CLI
 mainReference: https://google.com
-linkedWebinar:
+linkedWebinars:
   - 9241577a-49ae-499a-90ec-dee2e934ac27____Demo04
   - d02eb0c3-c65c-44a1-ba61-2c0aece039de____Demo05
   - d8d9f895-d120-491a-80b0-ccaca6d89649____Newest Material.

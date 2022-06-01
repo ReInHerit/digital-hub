@@ -34,7 +34,7 @@ module.exports.DIGIHUB_QUERIES = (() => {
         edges {
           node {
             frontmatter {
-              linkedWebinar
+              linkedWebinars
               pageId
             }
           }

@@ -36,7 +36,7 @@ collections:
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Main reference", name: "mainReference", widget: "string"}
-      - { label: "Linked webinars", name: "linkedWebinar", widget: "relation", collection: "webinars", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
+      - { label: "Linked webinars", name: "linkedWebinars", widget: "relation", collection: "webinars", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "License", name: "license", widget: "string", default: "MIT - CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "toolapps"
@@ -55,7 +55,7 @@ collections:
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Main reference", name: "mainReference", widget: "string"}
-      - { label: "Linked webinars", name: "linkedWebinar", widget: "relation", collection: "webinars", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
+      - { label: "Linked webinars", name: "linkedWebinars", widget: "relation", collection: "webinars", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolapps", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
       - { label: "License", name: "license", widget: "string", default: "MIT - CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }

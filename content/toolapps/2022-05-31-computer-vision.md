@@ -10,7 +10,7 @@ date: 2022-05-31T11:33:46.192Z
 tags:
   - NLP
 mainReference: http://google.com
-linkedWebinar:
+linkedWebinars:
   - 9241577a-49ae-499a-90ec-dee2e934ac27____Demo04
   - 732aebbf-6543-4998-b8d6-6c5d548ead84____Fancy Webinar.
 linkedTraining:
