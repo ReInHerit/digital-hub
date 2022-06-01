@@ -1,7 +1,7 @@
 import React from "react"
-import ToolAppsFeed from "../components/shared/ToolAppsFeed"
-import BaseLayout from "../components/static/BaseLayout"
-import MainHeading from "../components/static/MainHeading"
+import ToolAppsFeed from "../../components/shared/ToolAppsFeed"
+import BaseLayout from "../../components/static/BaseLayout"
+import MainHeading from "../../components/static/MainHeading"
 
 const Toolkit = () => {
   return (
