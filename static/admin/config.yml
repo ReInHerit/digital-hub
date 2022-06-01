@@ -153,8 +153,6 @@ collections:
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "tag" }
       - { label: "Tag name", name: "title", widget: "string" }
-      # - { label: "Linked tool", name: "linkedTool", widget: "relation", collection: "tools", value_field: "title", search_fields: ["title"], multiple: true, required: false }
-      # - { label: "Linked news", name: "relation2", widget: "relation", collection: "news", value_field: "title", search_fields: ["title"], multiple: true, required: false }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tag group", name: "tag_group", widget: "select", options: ["TOOLKIT", "NEWS", "E-SHOP", "PERFORMANCE", "EXHIBITION", "TRAINING"], default: ["NEWS"], multiple: true, required: true }
       - { label: "Short description", name: "desc", widget: "string", required: true }
