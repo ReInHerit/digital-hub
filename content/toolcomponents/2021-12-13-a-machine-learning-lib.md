@@ -12,9 +12,9 @@ tool-type:
   - CLI
 mainReference: https://google.com
 linkedWebinar:
-  - Newest Material.
-  - Fancy Webinar.
-  - Demo04
+  - 9241577a-49ae-499a-90ec-dee2e934ac27 - Demo04
+  - d8d9f895-d120-491a-80b0-ccaca6d89649 - Newest Material.
+  - d02eb0c3-c65c-44a1-ba61-2c0aece039de - Demo05
 linkedTraining:
   - Demo04
 link: https://google.com
