@@ -18,21 +18,9 @@ module.exports.createPages = async ({ graphql, actions}) => {
   })
 
   // adding news data from markdown
-  const { data } = await graphql(`
-    query MyQuery {
-      allMarkdownRemark(filter: {frontmatter: {type: {eq: "news"}}}) {
-        edges {
-          node {
-            id
-            frontmatter {
-              pageId
-            }
-          }
-        }
-      }
-    }
-  `)
-  data.allMarkdownRemark.edges.forEach(edge => {
+  const newsResult = await graphql(DIGIHUB_QUERIES.NEWS_PAGES);
+
+  newsResult.data.allMarkdownRemark.edges.forEach(edge => {
     const mdId = edge.node.frontmatter.pageId
     actions.createPage({
       path: `/news/${mdId}`,
