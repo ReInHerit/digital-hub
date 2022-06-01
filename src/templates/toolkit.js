@@ -40,7 +40,7 @@ export default function Template({
 
                 {(pageContext.refTrainingCollections && pageContext.refTrainingCollections.length !== 0) && <>
                   <div>
-                    <i>Referenced training</i>
+                    <i>Referenced webinar</i>
                   </div>
                   <div>
                     <ul>
