@@ -1,23 +1,12 @@
 const fs = require('fs'); //import filesystem module
 const express = require('express');
+const DIGIHUB_QUERIES = require('./gatsby/queries.js').DIGIHUB_QUERIES;
 
 module.exports.createPages = async ({ graphql, actions}) => {
 
   // adding markdown as training
-  let webinarsResult = await graphql(`
-    query MyQuery {
-      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/webinars/"}}) {
-        edges {
-          node {
-            frontmatter {
-              title
-              pageId
-            }
-          }
-        }
-      }
-    }
-  `)
+  let webinarsResult = await graphql(DIGIHUB_QUERIES.WEBINARS_PAGES);
+    
   webinarsResult.data.allMarkdownRemark.edges.forEach((edge) => {
     // id is added by my own to node inside onCreateNode
     const mdId = edge.node.frontmatter.pageId
