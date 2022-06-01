@@ -18,6 +18,7 @@ linkedTraining:
   - Newest Material.
 link: https://google.com
 linkedToolkitComponents:
-  - "Image analysis "
+  - 3ba29a7b-2b05-48fc-a1fa-536ff4bf1d37____Computer Vision
+  - 1ea8415d-0f87-46ac-9e94-9a42eed0b9e6____Computer tomography
 ---
 This is an example
