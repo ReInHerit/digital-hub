@@ -17,8 +17,8 @@ const EShopFeed: React.FC = () => {
         <ReinGridCard
           body={edge.node.excerpt}
           title={edge.node.frontmatter.title}
-          url={`/eshop/${edge.node.id}`}
-          uid={edge.node.id}
+          url={`/eshop/${edge.node.frontmatter.pageId}`}
+          uid={edge.node.frontmatter.pageId}
         >
           <img style={{maxWidth:200}} src={edge.node.frontmatter.thumbnail}></img>
         </ReinGridCard>
@@ -36,9 +36,9 @@ const EshopQuery = graphql`
     ) {
       edges {
         node {
-          id
           excerpt
           frontmatter {
+            pageId
             title
             thumbnail
           }
@@ -52,10 +52,10 @@ declare module EshopQueryData {
   export interface Frontmatter {
     title: string
     thumbnail: string
+    pageId: string
   }
 
   export interface Node {
-    id: string
     excerpt: string
     frontmatter: Frontmatter
   }

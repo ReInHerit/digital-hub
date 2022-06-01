@@ -29,7 +29,7 @@ const TrainingFeed: React.FC = () => {
                 <li className="p-0 m-0">
                   <small>
                     <Link
-                      to={`/content/training/${edge.node.id}`}
+                      to={`/content/training/${edge.node.frontmatter.pageId}`}
                       className="text-dark"
                     >
                       {edge.node.frontmatter.title}
@@ -47,11 +47,11 @@ const TrainingFeed: React.FC = () => {
         <ReinCardGrid>
           {data.allMarkdownRemark.edges.map((training, i) => (
             <ReinGridCard
-              key={training.node.id}
-              url={`/content/training/${training.node.id}`}
+              key={training.node.frontmatter.pageId}
+              url={`/content/training/${training.node.frontmatter.pageId}`}
               title={training.node.frontmatter.title}
               body={training.node.excerpt}
-              uid={training.node.id}
+              uid={training.node.frontmatter.pageId}
             ></ReinGridCard>
           ))}
         </ReinCardGrid>
@@ -68,9 +68,9 @@ const TRAINING_QUERY = graphql`
       edges {
         node {
           html
-          id
           excerpt
           frontmatter {
+            pageId
             title
             date(fromNow: true)
             target_audience
@@ -86,11 +86,11 @@ declare module TrainingModel {
     title: string
     date: string
     target_audience: string[]
+    pageId: string
   }
 
   export interface Node {
     html: string
-    id: string
     excerpt: string
     frontmatter: Frontmatter,
   }
