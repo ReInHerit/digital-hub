@@ -29,43 +29,20 @@ module.exports.createPages = async ({ graphql, actions}) => {
     })
   })
 
-  // adding toolkit entries according to netlify CMS
+  // adding toolkit apps according to netlify CMS
   let toolAppsResult = await graphql(DIGIHUB_QUERIES.TOOLS_PAGES);
-
   toolAppsResult.data.allMarkdownRemark.edges.forEach((edge) => {
-    // id is added by my own to node inside onCreateNode
     const mdId = edge.node.frontmatter.pageId;
-    
-    /**
-     * Holds reference via netlify CMS relations to training collection
-     * {null | string[]}
-     */
-    const linkedTrainingTitles = edge.node.frontmatter.linkedTraining;
-    const linkedTrainings = [];
-    // loop through all training material and link tool with linked training material.
-    if(linkedTrainingTitles){
-      webinarsResult.data.allMarkdownRemark.edges.forEach(edge => {
-        let trainTitle = edge.node.frontmatter.title;
-        if(linkedTrainingTitles.includes(trainTitle)){
-          linkedTrainings.push({
-            title: trainTitle,
-            path: "/webinar/" + edge.node.frontmatter.pageId
-          })
-        }
-      })
-    }
-    // additionally pass to context referenced trainingMaterial
     actions.createPage({
       path: `/tools/${mdId}`,
       component: require.resolve(`./src/templates/toolkit.js`),
-      context: { id: edge.node.frontmatter.pageId, refTrainingCollections: linkedTrainings },
+      context: { id: edge.node.frontmatter.pageId},
     })
   })
 
 
   // adding eshop data from markdown
   const eshopResult = await graphql(DIGIHUB_QUERIES.ESHOP_PAGES);
-
   eshopResult.data.allMarkdownRemark.edges.forEach(edge => {
     const mdId = edge.node.frontmatter.pageId
     actions.createPage({
