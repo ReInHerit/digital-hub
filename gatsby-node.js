@@ -34,7 +34,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
   toolAppsResult.data.allMarkdownRemark.edges.forEach((edge) => {
     const mdId = edge.node.frontmatter.pageId;
     actions.createPage({
-      path: `/tools/${mdId}`,
+      path: `/tools/apps/${mdId}`,
       component: require.resolve(`./src/templates/toolkit.js`),
       context: { id: edge.node.frontmatter.pageId},
     })
