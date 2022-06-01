@@ -120,6 +120,30 @@ module.exports.createPages = async ({ graphql, actions}) => {
   })
 
 
+  // create webinars overview
+  let webinarsResult = await graphql(`
+    query WebinarPageQuery {
+      allMarkdownRemark(
+        filter: {fileAbsolutePath: {regex: "/webinars/"}, frontmatter: {}}
+      ) {
+        edges {
+          node {
+            id
+          }
+        }
+      }
+    }
+  `);
+
+  webinarsResult.data.allMarkdownRemark.edges.forEach(edge => {
+    const mdId = edge.node.id
+    actions.createPage({
+      path: `/webinars/${mdId}`,
+      component: require.resolve(`./src/templates/toolkit.js`),
+      context: { id: edge.node.id },
+    })
+  })
+
 }
 
 
