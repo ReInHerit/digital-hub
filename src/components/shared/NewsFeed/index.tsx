@@ -18,11 +18,11 @@ const NewsFeed: React.FC = () => {
         {data.allMarkdownRemark.edges.map(edge => {
           return (
           <ReinGridCard
-            key={edge.node.id}
+            key={edge.node.frontmatter.pageId}
             body={edge.node.excerpt}
             title={edge.node.frontmatter.title}
-            url={`/news/${edge.node.id}`}
-            uid={edge.node.id}
+            url={`/news/${edge.node.frontmatter.pageId}`}
+            uid={edge.node.frontmatter.pageId}
           ></ReinGridCard>
         )})}
       </ReinCardGrid>
@@ -37,11 +37,11 @@ const NEWS_QUERY = graphql`
     allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/news/" } }) {
       edges {
         node {
-          id
           html
           excerpt
           frontmatter {
             title
+            pageId
             date(fromNow: true)
             target_audience
             layout
@@ -57,11 +57,11 @@ declare module NewsQueryData {
     title: string
     date: string
     target_audience: string[]
+    pageId: string
   }
 
   export interface Node {
     html: string
-    id: string
     excerpt: string
     frontmatter: Frontmatter
   }
