@@ -128,7 +128,6 @@ export const pageQuery = graphql`
         type
         target_audience
         author
-        tutorial
         linkedWebinars
         linkedToolkitComponents
       }
