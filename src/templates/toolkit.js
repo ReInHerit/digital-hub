@@ -69,6 +69,22 @@ export default function Template({
                   </div>
                 <br></br></>}
 
+                {(frontmatter.linkedToolkitApps && frontmatter.linkedToolkitApps.length !== 0) && <>
+                  <div>
+                    <i>Referenced app(s)</i>
+                  </div>
+                  <div>
+                    <ul>
+                      {frontmatter.linkedToolkitApps.map(appString => {
+                      
+                        const [appId, appTitle] = appString.split("____");
+
+                        return <li><Link to={`/tools/apps/${appId}`}>{appTitle}</Link></li>
+                      })}
+                    </ul>
+                  </div>
+                <br></br></>}
+
                 <div>
                   <i>Author(s)</i>
                 </div>
@@ -130,6 +146,7 @@ export const pageQuery = graphql`
         author
         linkedWebinars
         linkedToolkitComponents
+        linkedToolkitApps
       }
       id
       excerpt
