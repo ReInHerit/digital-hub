@@ -41,7 +41,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
   })
 
   // adding toolkit components according to netlify CMS
-  let toolComponentsResult = await graphql(DIGIHUB_QUERIES.TOOL_APPS_PAGES);
+  let toolComponentsResult = await graphql(DIGIHUB_QUERIES.TOOL_COMPONENTS_PAGES);
   toolComponentsResult.data.allMarkdownRemark.edges.forEach((edge) => {
     const mdId = edge.node.frontmatter.pageId;
     actions.createPage({
