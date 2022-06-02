@@ -3,6 +3,11 @@ import ToolComponentsFeed from "../../components/shared/ToolComponentsFeed"
 import BaseLayout from "../../components/static/BaseLayout"
 import MainHeading from "../../components/static/MainHeading"
 
+/**
+ * Main page for toolkit components (should render some kind of overview
+ * over available toolkit components)
+ * @returns 
+ */
 const ToolkitComponentsPage = () => {
   return (
     <BaseLayout>
