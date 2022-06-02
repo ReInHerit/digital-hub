@@ -1,9 +1,9 @@
 backend:
-  name: github                  # set to 'git-gateway' when using neltlify git-gateway
+  name: github                  # set to 'git-gateway' when using netlify git-gateway
   repo: ReInHerit/digital-hub   # comment out line when using neltlify git-gateway
   branch: main
 local_backend: true             # true if accessed local dev instance of netlify cms port 8081 | How tu run a local dev server: https://www.netlifycms.org/docs/beta-features/
-search: false   # disables search for collections -> hidden collections could be found with other config!
+search: true   # disables search for collections -> hidden collections could be found with other config!
 logo_url: /images/rein_logo.jpg   # setting a custom logo used by the CMS. Displayed ad login screen.
 
 media_folder: "images/uploads"
@@ -11,97 +11,88 @@ media_folder: "images/uploads"
 media_library:      # comment out will make media available.
   name: 'disabled'  # comment out will make media available.
 
+display_url: https://reinherit.github.io
+
 # for open authoring / kanban view for moderation processes
-# warning -> still in beta!
+# warning -> (still in beta!)
 # https://www.netlifycms.org/docs/open-authoring/#enabling-open-authoring
 # publish_mode: editorial_workflow   
 
 # collections config see here: https://www.netlifycms.org/docs/widgets/#object
 collections:
-  - name: "tools"
-    label: "Toolkit: tools"
-    description: "Here you may add tools for the ReInHerit Toolkit as defined in WP3."
-    label_singular: 'tool'
+  - name: "toolcomponents"
+    label: "Toolkit: components"
+    description: "This collection is intended for submitting texts on tool components that are either developed within the ReInHerit project or play an important role for CH management or preservation. The entries are not immediately visible on the Hub, but will be published in the course of the next rebuild process."
+    label_singular: 'component'
     hide: false                # hides specific collection -> still available if you have the link!
-    folder: "content/tools"
+    folder: "content/toolcomponents"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Type", name: "type", widget: "hidden", default: "tools" }
-      # - { label: "Image", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
+      - { label: "Type", name: "type", widget: "hidden", default: "toolcomponent" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid", hint: "You might use this number to reference this item in another collection. Like: '/tools/components/PAGE-ID'"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Link", name: "link", widget: "string"}
-      - { label: "Linked training", name: "linkedTraining", widget: "relation", collection: "training", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      # - { label: "Training available", name: "training available", widget: "boolean", default: false}
-      # - { label: "Tags", name: "tool-type", widget: "select", options: ["REST-API", "Library", "Web-Interface","GraphQL-API","Application","CLI","Python","Java","X-Technologies","Javascript","Typescript","Web Development","Economics","Cultural Heritage","History","Museology","Machine Learning","Topic Modeling","NLP","GIS","Relational DB"], default: ["NLP"], multiple: true, required: true }
+      - { label: "Main reference", name: "mainReference", widget: "string"}
+      - { label: "Linked webinars", name: "linkedWebinars", widget: "relation", collection: "webinars", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
+      - { label: "Linked toolkit apps", name: "linkedToolkitApps", widget: "relation", collection: "toolapps", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
+      - { label: "License", name: "license", widget: "string", default: "MIT - CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
-  - name: "training"
-    label: "Training"
-    label_singular: 'entry'
+  - name: "toolapps"
+    label: "Toolkit: apps"
+    description: "This collection is intended for submitting texts on tool apps that are either developed within the ReInHerit project or play an important role for CH management or preservation. The entries are not immediately visible on the Hub, but will be published in the course of the next rebuild process."
+    label_singular: 'app'
     hide: false                # hides specific collection -> still available if you have the link!
-    folder: "content/training"
+    folder: "content/toolapps"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Type", name: "type", widget: "hidden", default: "training" }
-      - { label: "Title", name: "title", widget: "string" }
-      # - { label: "Linked tool", name: "linkedTool", widget: "relation", collection: "tools", value_field: "title", search_fields: ["title"], multiple: true, required: false }
-      # - { label: "Linked news", name: "relation2", widget: "relation", collection: "news", value_field: "title", search_fields: ["title"], multiple: true, required: false }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
-  - name: "apps"
-    label: "Apps"
-    label_singular: "app"
-    hide: true                # hides specific collection -> still available if you have the link!
-    folder: "content/apps"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Type", name: "type", widget: "hidden", default: "training" }
+      - { label: "Type", name: "type", widget: "hidden", default: "toolapp" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid", hint: "You might use this number to reference this item in another collection. Like: '/tools/apps/ITEM_ID'"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
+      - { label: "Main reference", name: "mainReference", widget: "string"}
+      - { label: "Linked webinars", name: "linkedWebinars", widget: "relation", collection: "webinars", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
+      - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolcomponents", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
+      - { label: "License", name: "license", widget: "string", default: "MIT - CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
-  - name: "games"
-    label: "Games"
-    label_singular: "game"
-    hide: true                # hides specific collection -> still available if you have the link!
-    folder: "content/games"
+  - name: "webinars"
+    label: "Webinars"
+    description: "This collection is intended for submitting webinars either on the tools developed in the ReInHerit-project or generally on digitization in the CH sector, CH management and preservation. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
+    label_singular: 'webinar'
+    hide: false                # hides specific collection -> still available if you have the link!
+    folder: "content/webinars"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Type", name: "type", widget: "hidden", default: "game" }
+      - { label: "Type", name: "type", widget: "hidden", default: "webinar" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
+      - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolcomponents", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
+      - { label: "Linked toolkit apps", name: "linkedToolkitApps", widget: "relation", collection: "toolapps", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
-  - name: "code"
-    label: "Code-snippets"
-    hide: true                # hides specific collection -> still available if you have the link!
-    folder: "content/code"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Code", name: "code", widget: "code" }
   - name: "performances"
     label: "Performances"
+    description: "This collection is intended for submitting texts on the performances, developed and carried out in the course of the ReInHerit project. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
     label_singular: "performance"
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/performances"
-    create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    # disables creation + deletion of items in collection
+    delete: false
+    create: false
+    # 
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "performance" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
@@ -110,18 +101,22 @@ collections:
   - name: "exhibitions"
     label: "Exhibitions"
     label_singular: 'exhibition'
+    description: "This collection is intended for submitting texts on the exhibitions, which will be developed and carried out in the ReInHerit project. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/exhibitions"
-    create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    # disables creation + deletion of items in collection
+    # delete: false
+    create: true
+    # 
     fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
+      - { label: "Type", name: "type", widget: "hidden", default: "exhibition" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Short description", name: "desc", widget: "string" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Type", name: "exhibition-tpye", widget: "select", options: ["Digital exhibition", "Traveling exhibition"], default: ["WEBINAR"], multiple: false }
-      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
-      # - { label: "Code", name: "code", widget: "code" }
   - name: "news"
     label: "News"             # Used in the UI
     label_singular: 'message' # Used in the UI, ie: "New Post"
@@ -130,56 +125,60 @@ collections:
     create: true              # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "news" }
       - { label: "Title", name: "title", widget: "string" }
-      # - { label: "Author(s)", name: "author", widget: "select", options: ["sina", "chiara","project"], default: "project", multiple: true }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
+      - { label: "News type", name: "newsType", widget: "select", options: ["EVENT", "ANNOUNCEMENT"], default: "ANNOUNCEMENT", multiple: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
-  - name: "designs"
-    label: "E-shop: designs"
-    label_singular: "design"
+  - name: "eshopitems"
+    label: "eShop"
+    label_singular: "item"
     hide: false                # hides specific collection -> still available if you have the link!
-    folder: "content/designs"
-    description: E-Shop items
+    folder: "content/eshop"
+    description: "This collection is intended for submitting texts on the eshop (and the e-shop items themselves), which will be provided on the Hub. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "design" }
+      - { label: "Type", name: "type", widget: "hidden", default: "eshop" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Design", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 1000000}}} # in bytes, only for default media library}
-      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+      - { label: "Design / Image", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 1000000}}} # in bytes, only for default media library}
+      - { label: "Body", name: "body", widget: "markdown", media_library: {config: {max_file_size: 100000}} }
   - name: "tags"
     label: "Digital-Hub: Collection tags"
     label_singular: 'tag'
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/tags"
-    create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    # disables deletion of items in collection
+    delete: false
+    create: true
+    # 
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "tag" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Tag name", name: "title", widget: "string" }
-      # - { label: "Linked tool", name: "linkedTool", widget: "relation", collection: "tools", value_field: "title", search_fields: ["title"], multiple: true, required: false }
-      # - { label: "Linked news", name: "relation2", widget: "relation", collection: "news", value_field: "title", search_fields: ["title"], multiple: true, required: false }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Tag description", name: "desc", widget: "string", required: true }
+      - { label: "Tag group", name: "tag_group", widget: "select", options: ["TOOLKIT", "NEWS", "E-SHOP", "PERFORMANCE", "EXHIBITION", "TRAINING"], default: ["NEWS"], multiple: true, required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: true }
       - { label: "Body", name: "body", widget: "markdown",required: false, media_library: {config: {max_file_size: 100000}} }
   - name: "faq"
     label: "Digital-Hub: FAQ"             # Used in the UI
     label_singular: 'entry' # Used in the UI, ie: "New Post"
     folder: "content/faq"
-    description: FAQ for the digital hub. Short questions and answers. 
+    description: "FAQ for the digital hub. Short questions and answers."
     create: true              # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "faq" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Question", name: "question", widget: "string" }
       - { label: "Answer", name: "answer", widget: "string" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
@@ -187,12 +186,13 @@ collections:
     label: "Digital-Hub: Manuals and how-tos"             # Used in the UI
     label_singular: 'entry' # Used in the UI, ie: "New Post"
     folder: "content/howtos"
-    description: How-tos and manuals for the digital hub. Like how to request access to the CMS
+    description: "This collection is intended for submitting Manuals and How-Tos about Hub-functionalities, e.g. usage of the CMS, usage of forum and chat, provision of data as an external professional, etc. The entries will be manually added to the Hub, after revision by the CMS administration."
     create: true              # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "howto" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
@@ -200,40 +200,49 @@ collections:
     label: "Digital-Hub: Static texts"             # Used in the UI
     label_singular: 'entry' # Used in the UI, ie: "New Post"
     folder: "content/statics"
-    description: Static texts for the digital hub. Like about page / team description / project goals / documentation etc.
+    description: "This collection is intended for submitting all the 'static' texts, which are necessary for a webpage, e.g. imprint & data privacy.  The entries will be manually added to the Hub, after revision by the CMS administration."
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    # disables creation + deletion of items in collection
+    delete: false
+    create: false
+    # 
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "static" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+  - name: "events"
+    label: "Digital-Hub: Events"             # Used in the UI
+    label_singular: 'event' # Used in the UI, ie: "New Post"
+    folder: "content/events"
+    description: Events for the digital hub.
     create: true              # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "static" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
-  - label: "Pages"
-    name: "pages"
-    hide: true # hides specific collection -> still available if you have the link!
-    files:
-      - label: "About Page"
-        name: "about"
-        file: "static/sites/about.json"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Team
-            name: team
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Position, name: position, widget: string}
-              - {label: Photo, name: photo, widget: image}
-      - label: "Locations Page"
-        name: "locations"
-        file: "static/sites/locations.json"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Locations
-            name: locations
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Address, name: address, widget: string}
+      - { label: "Type", name: "type", widget: "hidden", default: "event" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
+      - { label: "Event title", name: "title", widget: "string" }
+      - { label: "Host instutition", name: "host", widget: "string" }
+      - { label: "Description", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+      - { label: "Location of the event", name: "location", widget: "string" }
+      - { label: "Start of the event", name: "startDate", widget: "date" }
+      - { label: "End of the event", name: "endDate", widget: "date" }
+      - { label: "Email adress", name: "email", widget: "string" }
+  - name: "showcase"
+    label: "Digital-Hub: Showcase entries"             # Used in the UI
+    label_singular: 'entry' # Used in the UI, ie: "New Post"
+    folder: "content/showcase"
+    description: Showcase entry for the digital hub.
+    create: true              # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    # hides specific collection -> still available if you have the link!
+    hide: false 
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "event" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
+      - { label: "Showcase description", name: "title", widget: "string" }
+      - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
+      - { label: "Description", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }

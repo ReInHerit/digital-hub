@@ -2,10 +2,6 @@ import React from "react"
 import { Row } from "react-bootstrap"
 import ReinGridCard from "./ReinGridCard"
 
-interface props {
-  children: typeof ReinGridCard[]
-}
-
 /**
  * Used together with ReinGridCard to display card grids.
  * @param props 

@@ -1,7 +1,7 @@
 
 * {
   /* font-family: Roboto,system-ui,sans-serif !important; */
-  font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif !important;
+  /* font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif !important; */
 }
 
 a {
@@ -20,8 +20,9 @@ hr {
 
 .reincard:hover{
   background: white !important;
-  transform: scale(1.03);
-  box-shadow: 0 5px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  transform: scale(1.05);
+  /* box-shadow: 0 5px 10px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06); */
+  cursor: pointer;
 }
 
 #reinnav a {
@@ -42,22 +43,22 @@ Ensures that nav does not overlap the gitter chat
   z-index: 999999;
 }
 
-
-@media (min-width: 1400px) {
-  .rein_main_container {
-    width: 55%;
-  }
-}
-
 @media (min-width: 974px) {
   .rein_main_container {
-    width: 95%;
     min-height: 100vh;
+    padding: 2.7em;
   }
 }
 
-@media (min-width: 1200px) {
+
+@media (min-width: 1600px) {
   .rein_main_container {
-    width: 90%;
+    min-height: 100vh;
+    padding: 10em;
+  }
+
+  #reinnav > div {
+    padding-left: 8em;
   }
 }
+

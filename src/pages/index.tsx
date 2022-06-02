@@ -1,19 +1,22 @@
 import React from "react"
-import SEO from "../components/seo"
 import Hero from "../components/hero"
-import BaseLayout from "../components/static/BaseLayout"
 import NetlifyCMSAuth from "../components/shared/NetlifyCMSAdminCDN/NetlifyCMSAuth"
-import Landing from "../components/static/Landing"
+import Base from "../components/static/Base"
+import Footer from "../components/static/Footer"
+import Header from "../components/static/Header"
+import ReinNavbar from "../components/static/Navbar"
 
 const IndexPage = () => (
   <React.Fragment>
-      <BaseLayout>
-        <SEO title="Home" />
-          <Hero />
-          <Landing></Landing>
-          {/* Necessary for users to allow seting a pw after getting the invite mail  */}
-          <NetlifyCMSAuth></NetlifyCMSAuth>
-      </BaseLayout>
+    {/* Entry page has different layout - therefore using this components directly! */}
+    <Base>
+      <Header />
+      <ReinNavbar />
+      <Hero />
+      {/* Necessary for users to allow seting a pw after getting the invite mail  */}
+      <NetlifyCMSAuth></NetlifyCMSAuth>
+      <Footer></Footer>
+    </Base>
   </React.Fragment>
 )
 

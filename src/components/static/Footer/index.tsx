@@ -1,4 +1,4 @@
-import { faFacebook, faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "gatsby"
 import React from "react"
@@ -6,7 +6,7 @@ import { Col, Container, Row } from "react-bootstrap"
 
 const Footer: React.FC = () => {
   return (
-    <div className="border-1 border-top pt-2 mt-lg-5 shadow">
+    <div className="border-1 border-top pt-4 mt-lg-5 shadow">
       <Container fluid>
         <Row>
           <Col lg={4}>
@@ -27,10 +27,9 @@ const Footer: React.FC = () => {
               <img style={{maxWidth:"60px"}} src="/images/rein_eu.png"></img>
           </Col>
           <Col>
+            <p><Link to="/cms">Login to CMS</Link></p>
             <p>Follow us on: </p>
-            <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon> 
             <FontAwesomeIcon className="ms-1" icon={faLinkedin}></FontAwesomeIcon> 
-            <FontAwesomeIcon className="ms-1" icon={faInstagram}></FontAwesomeIcon> 
             <FontAwesomeIcon className="ms-1" icon={faFacebook}></FontAwesomeIcon> 
           </Col>
         </Row>

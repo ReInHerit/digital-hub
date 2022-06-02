@@ -23,9 +23,9 @@ const BaseLayout = ({ children }: Props) => {
     <Base>
       <Header />
       <ReinNavBar/>
-      <QuickAccessBar/>
+      {/* <QuickAccessBar/> */}
       <Container
-        className="rein_main_container mt-md-5"
+        className="rein_main_container pt-3"
         fluid
       >{children}</Container>
       <Footer />

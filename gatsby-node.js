@@ -1,144 +1,65 @@
-const path = require('path');
 const fs = require('fs'); //import filesystem module
 const express = require('express');
-const mdPagesArray = require('./static/pageIds.json');
-
-
-exports.onCreateNode = ({ node, getNode, actions }) => {
-  const { createNodeField } = actions
-  if (node.internal.type !== "MarkdownRemark")return;
-
-  // 
-  // Assigns unique and stable ids to all generated markdown pages. 
-  // Saves and loads values to json file to keep values stable across build processes 
-  // adds leading character that describes type of given item.
-  //
-
-  let _remarkTypeCountId = null;
-  let filePathId = node.fileAbsolutePath.split("/content/")[1]
-
-  // improve here https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/
-  if(!mdPagesArray.includes(filePathId)){
-    mdPagesArray.push(filePathId);
-    _remarkTypeCountId = mdPagesArray.length;  
-  } else {
-    let index = mdPagesArray.indexOf(filePathId) + 1;
-    _remarkTypeCountId = index;  
-  }
-
-  createNodeField({
-    node,
-    name:"typeCountId",
-    value: _remarkTypeCountId
-  })
-
-  fs.writeFileSync(`.${path.sep}static${path.sep}pageIds.json`, JSON.stringify(mdPagesArray));
-
-}
-
+const DIGIHUB_QUERIES = require('./gatsby/queries.js').DIGIHUB_QUERIES;
 
 module.exports.createPages = async ({ graphql, actions}) => {
 
   // adding markdown as training
-  let trainingResult = await graphql(`
-    query MyQuery {
-      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/training/"}}) {
-        edges {
-          node {
-            id
-            fields {
-              typeCountId
-            }
-            frontmatter {
-              title
-            }
-          }
-        }
-      }
-    }
-  
-  `)
-  trainingResult.data.allMarkdownRemark.edges.forEach((edge) => {
+  let webinarsResult = await graphql(DIGIHUB_QUERIES.WEBINARS_PAGES);
+    
+  webinarsResult.data.allMarkdownRemark.edges.forEach((edge) => {
     // id is added by my own to node inside onCreateNode
-    const mdId = edge.node.fields.typeCountId
+    const mdId = edge.node.frontmatter.pageId
     actions.createPage({
-      path: `/training/${mdId}`,
-      component: require.resolve(`./src/templates/training.js`),
-      context: { id: edge.node.id },
+      path: `/webinars/${mdId}`,
+      component: require.resolve(`./src/templates/toolkit.js`),
+      context: { id: mdId },
     })
   })
 
   // adding news data from markdown
-  const { data } = await graphql(`
-  query MyQuery {
-    allMarkdownRemark(filter: {frontmatter: {type: {eq: "news"}}}) {
-      edges {
-        node {
-          id
-          fields {
-            typeCountId
-          }
-        }
-      }
-    }
-  }
-  
-  
-  `)
-  data.allMarkdownRemark.edges.forEach(edge => {
-    const mdId = edge.node.fields.typeCountId
+  const newsResult = await graphql(DIGIHUB_QUERIES.NEWS_PAGES);
+
+  newsResult.data.allMarkdownRemark.edges.forEach(edge => {
+    const mdId = edge.node.frontmatter.pageId
     actions.createPage({
       path: `/news/${mdId}`,
-      component: require.resolve(`./src/templates/training.js`),
-      context: { id: edge.node.id },
+      component: require.resolve(`./src/templates/toolkit.js`),
+      context: { id: mdId },
     })
   })
 
-  // adding toolkit entries according to netlify CMS
-  let toolkitResult = await graphql(`
-    query MyQuery {
-      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/tools/"}}) {
-        edges {
-          node {
-            id
-            fields {
-              typeCountId
-            }
-            frontmatter {
-              linkedTraining
-            }
-          }
-        }
-      }
-    }
-  `)
-  toolkitResult.data.allMarkdownRemark.edges.forEach((edge) => {
-    // id is added by my own to node inside onCreateNode
-    const mdId = edge.node.fields.typeCountId;
-    
-    /**
-     * Holds reference via netlify CMS relations to training collection
-     * {null | string[]}
-     */
-    const linkedTrainingTitles = edge.node.frontmatter.linkedTraining;
-    const linkedTrainings = [];
-    // loop through all training material and link tool with linked training material.
-    if(linkedTrainingTitles){
-      trainingResult.data.allMarkdownRemark.edges.forEach(edge => {
-        let trainTitle = edge.node.frontmatter.title;
-        if(linkedTrainingTitles.includes(trainTitle)){
-          linkedTrainings.push({
-            title: trainTitle,
-            path: "/training/" + edge.node.fields.typeCountId
-          })
-        }
-      })
-    }
-    // additionally pass to context referenced trainingMaterial
+  // adding toolkit apps according to netlify CMS
+  let toolAppsResult = await graphql(DIGIHUB_QUERIES.TOOL_APPS_PAGES);
+  toolAppsResult.data.allMarkdownRemark.edges.forEach((edge) => {
+    const mdId = edge.node.frontmatter.pageId;
     actions.createPage({
-      path: `/tools/${mdId}`,
-      component: require.resolve(`./src/templates/training.js`),
-      context: { id: edge.node.id, refTrainingCollections: linkedTrainings },
+      path: `/tools/apps/${mdId}`,
+      component: require.resolve(`./src/templates/toolkit.js`),
+      context: { id: edge.node.frontmatter.pageId},
+    })
+  })
+
+  // adding toolkit components according to netlify CMS
+  let toolComponentsResult = await graphql(DIGIHUB_QUERIES.TOOL_COMPONENTS_PAGES);
+  toolComponentsResult.data.allMarkdownRemark.edges.forEach((edge) => {
+    const mdId = edge.node.frontmatter.pageId;
+    actions.createPage({
+      path: `/tools/components/${mdId}`,
+      component: require.resolve(`./src/templates/toolkit.js`),
+      context: { id: edge.node.frontmatter.pageId},
+    })
+  })
+
+
+  // adding eshop data from markdown
+  const eshopResult = await graphql(DIGIHUB_QUERIES.ESHOP_PAGES);
+  eshopResult.data.allMarkdownRemark.edges.forEach(edge => {
+    const mdId = edge.node.frontmatter.pageId
+    actions.createPage({
+      path: `/eshop/${mdId}`,
+      component: require.resolve(`./src/templates/eshop.js`),
+      context: { id: mdId },
     })
   })
 

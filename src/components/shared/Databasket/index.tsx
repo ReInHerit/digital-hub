@@ -97,11 +97,8 @@ const Databasket = () => {
     <ReinCardGrid>
       {collection.map((item: ReinCollectAble<unknown>) => (
         <ReinGridCard 
-          excerpt={item.excerpt}
-          faIcon={ mapFaSymbol(item)}
-          targetAudience={["visitor", "professional"]}
+          body={item.excerpt}
           title={item.title}
-          type={item.type}
           url={`/${item.type}/${item.id}`}
           footerContent={<Button variant="light" onClick={() => handleToggle(item)}><FontAwesomeIcon color="lightgrey" icon={faTrash}/></Button>}
         ></ReinGridCard>

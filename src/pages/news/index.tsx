@@ -11,17 +11,8 @@ const NewsPage: React.FC = () => {
       <MainHeading subHeading="All relevant news for the digital hub">
         News
       </MainHeading>
-      <br />
-      <SideMainLayout
-        side={
-          <div className="p-4 border reincard">
-            <p>All news relevant for Reinherit ... </p>
-            <p>Scroll down / click on card etc. ... </p>
-          </div>
-        }
-      >
-        <NewsFeed />
-      </SideMainLayout>
+      <p>Here you'll find <b style={{color:"#2eacc8"}}>explicit news</b> messages provided by the ReInHerit team. This page is not meant as display of recent activity</p>
+      <NewsFeed></NewsFeed>
     </BaseLayout>
   )
 }

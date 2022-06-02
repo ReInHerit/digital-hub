@@ -8,7 +8,11 @@
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script></>
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script src="https://unpkg.com/netlify-cms-widget-uuid-v4@^1.0.12/dist/index.js"></script>
+  <script type="text/javascript">
+    CMS.registerWidget('uuid', uuidWidget.UuidControl, uuidWidget.UuidPreview)
+  </script>
 
   <script>
       CMS.init();
@@ -48,6 +52,17 @@
     nav ul li button {
       display: none !important;
     }
+
+    /* Hides the quick add button */
+    nav + div > div:first-child > span {
+      display: none !important;
+    }
+
+    /* Hide 'Collections' label on the left */
+    aside > h2 {
+      display: none !important;
+    }
+
   </style>
 </body>
 </html>
