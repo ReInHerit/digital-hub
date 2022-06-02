@@ -1,10 +1,15 @@
 ---
 type: training
+pageId: 732aebbf-6543-4998-b8d6-6c5d548ead84
 title: Fancy Webinar.
 date: 2022-03-14T08:54:07.466Z
 target-audience:
   - VISITOR
-pageId: 732aebbf-6543-4998-b8d6-6c5d548ead84
+linkedToolkitComponents:
+  - 92c57c85-1c70-46c2-9413-7f7a1bfcfae8____Lorem Picsum
+linkedToolkitApps:
+  - 1ea8415d-0f87-46ac-9e94-9a42eed0b9e6____Computer tomography
+  - 3ba29a7b-2b05-48fc-a1fa-536ff4bf1d37____Computer Vision
 ---
 # Fancy Webinar
 
