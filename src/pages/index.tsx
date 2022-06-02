@@ -8,15 +8,15 @@ import ReinNavbar from "../components/static/Navbar"
 
 const IndexPage = () => (
   <React.Fragment>
-      {/* Entry page has different layout - therefore using this components directly! */}
-      <Base>
-        <Header />
-        <ReinNavbar/>
-        <Hero />
-            {/* Necessary for users to allow seting a pw after getting the invite mail  */}
-            <NetlifyCMSAuth></NetlifyCMSAuth>
-        <Footer></Footer>
-      </Base>
+    {/* Entry page has different layout - therefore using this components directly! */}
+    <Base>
+      <Header />
+      <ReinNavbar />
+      <Hero />
+      {/* Necessary for users to allow seting a pw after getting the invite mail  */}
+      <NetlifyCMSAuth></NetlifyCMSAuth>
+      <Footer></Footer>
+    </Base>
   </React.Fragment>
 )
 

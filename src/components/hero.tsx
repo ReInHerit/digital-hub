@@ -8,6 +8,7 @@ const Hero = () => {
   return (
     <div style={{ minHeight: "75vh" }}>
       <div
+        className="d-none d-md-block"
         style={{
           backgroundImage:
             'url("https://www.reinherit.eu/images/Backgrounds/ReInHerit-Slider-1.jpg")',
@@ -29,11 +30,17 @@ const Hero = () => {
             <h2 style={{textAlign:"center", fontWeight:400, color:"#5f4136"}} className="h5">Resources, information, and collaboration in cultural heritage</h2>
           </Col>
           <Col md={1}></Col>
-        </Row>
-        
+        </Row>  
       </div>
-
       
+      <div className="d-md-none text-center">
+        <br/>
+        <h1 className="h1" style={{color:"#7F4734", fontWeight:400, fontSize:"3em", textAlign:"center"}}>ReInHerit Digital Hub</h1>  
+        <br></br>
+        <img src="https://www.reinherit.eu/images/Backgrounds/ReInHerit-Slider-1.jpg" width={300}></img>
+        <br/>
+        <br/>
+      </div>
 
       <Container className="p-md-4 ps-md-5 pe-md-5 text-center">
         <p className="ms-5 me-5 ps-sm-5 pe-sm-5" style={{fontSize:"1.35em", fontWeight:400}}>The Digital Hub of the ReInHerit project presents resources for cultural heritage professionals and a networking hub. It also showcases the project exhibitions and gives access to engaging content for anyone passionate about heritage.</p>
