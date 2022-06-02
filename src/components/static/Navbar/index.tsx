@@ -24,7 +24,7 @@ const ReinNavbar: React.FC = () => {
               <NavDropdown title="Resources" id="basic-nav-dropdown">
                 <Link className="text-dark text-decoration-none dropdown-item" to="/resources">Overview</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/tools/apps">Tool apps</Link>
-                <Link className="text-dark text-decoration-none dropdown-item" to="/tools">Tool components</Link>
+                <Link className="text-dark text-decoration-none dropdown-item" to="/tools/components">Tool components</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/webinars">Webinars</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/game">Game</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/performances">Performances</Link>
