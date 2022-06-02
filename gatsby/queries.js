@@ -28,7 +28,7 @@ module.exports.DIGIHUB_QUERIES = (() => {
     }
   `
 
-  const TOOLS_PAGES = `
+  const TOOL_APPS_PAGES = `
     query MyQuery {
       allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/toolapps/"}}) {
         edges {
@@ -41,6 +41,20 @@ module.exports.DIGIHUB_QUERIES = (() => {
       }
     }
   ` 
+
+  const TOOL_COMPONENTS_PAGES = `
+    query MyQuery {
+      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/toolcomponents/"}}) {
+        edges {
+          node {
+            frontmatter {
+              pageId
+            }
+          }
+        }
+      }
+    }
+  `
 
   const ESHOP_PAGES = `
     query EshopQuery {
@@ -58,10 +72,13 @@ module.exports.DIGIHUB_QUERIES = (() => {
     }
   `
 
+  
+
   return {
     WEBINARS_PAGES,
     NEWS_PAGES,
-    TOOLS_PAGES,
+    TOOL_APPS_PAGES,
+    TOOL_COMPONENTS_PAGES,
     ESHOP_PAGES
   }
 })()
