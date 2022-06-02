@@ -30,7 +30,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "toolcomponent" }
-      - { label: "Page-ID", name: "pageId", widget: "uuid", hint: "You might use this number to reference this item in another collection. Like: '/tools/components/ITEM_ID'"}
+      - { label: "Page-ID", name: "pageId", widget: "uuid", hint: "You might use this number to reference this item in another collection. Like: '/tools/components/PAGE-ID'"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
