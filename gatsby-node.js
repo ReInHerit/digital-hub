@@ -30,11 +30,22 @@ module.exports.createPages = async ({ graphql, actions}) => {
   })
 
   // adding toolkit apps according to netlify CMS
-  let toolAppsResult = await graphql(DIGIHUB_QUERIES.TOOLS_PAGES);
+  let toolAppsResult = await graphql(DIGIHUB_QUERIES.TOOL_APPS_PAGES);
   toolAppsResult.data.allMarkdownRemark.edges.forEach((edge) => {
     const mdId = edge.node.frontmatter.pageId;
     actions.createPage({
       path: `/tools/apps/${mdId}`,
+      component: require.resolve(`./src/templates/toolkit.js`),
+      context: { id: edge.node.frontmatter.pageId},
+    })
+  })
+
+  // adding toolkit components according to netlify CMS
+  let toolComponentsResult = await graphql(DIGIHUB_QUERIES.TOOL_APPS_PAGES);
+  toolComponentsResult.data.allMarkdownRemark.edges.forEach((edge) => {
+    const mdId = edge.node.frontmatter.pageId;
+    actions.createPage({
+      path: `/tools/components/${mdId}`,
       component: require.resolve(`./src/templates/toolkit.js`),
       context: { id: edge.node.frontmatter.pageId},
     })
