@@ -5,8 +5,6 @@ date: 2021-11-16T10:17:23.673Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
-training-type:
-  - WEBINAR
 pageId: d8d9f895-d120-491a-80b0-ccaca6d89649
 ---
 # This is an online test input
