@@ -1,11 +1,13 @@
 ---
 type: training
+pageId: d8d9f895-d120-491a-80b0-ccaca6d89649
 title: Newest Material.
 date: 2021-11-16T10:17:23.673Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
-pageId: d8d9f895-d120-491a-80b0-ccaca6d89649
+linkedToolkitApps:
+  - 1ea8415d-0f87-46ac-9e94-9a42eed0b9e6____Computer tomography
 ---
 # This is an online test input
 
