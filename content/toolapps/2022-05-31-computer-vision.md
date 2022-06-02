@@ -13,10 +13,6 @@ mainReference: http://google.com
 linkedWebinars:
   - 9241577a-49ae-499a-90ec-dee2e934ac27____Demo04
   - 732aebbf-6543-4998-b8d6-6c5d548ead84____Fancy Webinar.
-linkedTraining:
-  - Fancy Webinar.
-  - Newest Material.
-link: https://google.com
 linkedToolkitComponents:
   - fd0d5add-26e3-4e61-874f-a51330708ba5____APIS.is (iceland, nordic)
   - 92c57c85-1c70-46c2-9413-7f7a1bfcfae8____Lorem Picsum

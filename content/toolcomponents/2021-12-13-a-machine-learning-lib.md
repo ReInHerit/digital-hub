@@ -2,8 +2,7 @@
 target-audience:
   - VISITOR
 license: testme
-training available: true
-type: tools
+type: toolcomponent
 pageId: 9a7ab950-c0a5-486f-a885-10a8c04c4882
 title: "A machine learning lib - for CH-institutions :) "
 date: 2021-12-13T07:27:10.700Z
@@ -19,10 +18,6 @@ linkedWebinars:
 linkedTraining:
   - Demo04
 link: https://google.com
-tutorial: |-
-  # Tutorial 1
-
-  Demo text here
 ---
 # A machine learning library
 

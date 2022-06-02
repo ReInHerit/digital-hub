@@ -2,8 +2,7 @@
 target-audience:
   - PROFESSIONAL
 license: "-"
-training available: true
-type: tools
+type: toolcomponent
 pageId: 92c57c85-1c70-46c2-9413-7f7a1bfcfae8
 title: Lorem Picsum
 date: 2022-01-10T10:13:49.325Z
