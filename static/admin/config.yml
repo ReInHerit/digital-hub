@@ -96,7 +96,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Linked performance", name: "linkedPerformance", widget: "select", options: ["PERFORMANCE_01", "PERFORMANCE_02"], multiple: false, required: true }
+      - { label: "Performance", name: "linkedPerformance", widget: "select", options: ["PERFORMANCE_01", "PERFORMANCE_02"], multiple: false, required: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "exhibitions"
