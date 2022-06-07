@@ -155,7 +155,7 @@ collections:
       - { label: "Design / Image", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 1000000}}} # in bytes, only for default media library}
       - { label: "Body", name: "body", widget: "markdown", media_library: {config: {max_file_size: 100000}} }
   - name: "tags"
-    label: "Digital-Hub: Collection tags"
+    label: "Digital-Hub: Flexible tags"
     label_singular: 'tag'
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/tags"
