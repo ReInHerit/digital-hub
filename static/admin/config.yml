@@ -147,6 +147,7 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "eshop" }
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Short description", name: "desc", widget: "string", required: true }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Design / Image", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 1000000}}} # in bytes, only for default media library}
