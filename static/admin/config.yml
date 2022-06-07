@@ -12,6 +12,7 @@ media_library:      # comment out will make media available.
   name: 'disabled'  # comment out will make media available.
 
 display_url: https://reinherit.github.io
+preview: false
 
 # for open authoring / kanban view for moderation processes
 # warning -> (still in beta!)
