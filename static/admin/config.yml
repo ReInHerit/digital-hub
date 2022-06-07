@@ -185,8 +185,8 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "faq" }
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Question", name: "question", widget: "string",  pattern: ['^.{5,150}$', "Must have between 5 and 150 characters"] }
-      - { label: "Answer", name: "answer", widget: "string" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Answer", name: "body", widget: "markdown",required: false, media_library: {config: {max_file_size: 100000}} }
   - name: "howtos"
     label: "Digital-Hub: Manuals and how-tos"             # Used in the UI
     label_singular: 'entry' # Used in the UI, ie: "New Post"
