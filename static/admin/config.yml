@@ -178,12 +178,13 @@ collections:
     folder: "content/faq"
     description: "FAQ for the digital hub. Short questions and answers."
     create: true              # Allow users to create new documents in this collection
+    identifier_field: "question"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "faq" }
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
-      - { label: "Question", name: "question", widget: "string" }
+      - { label: "Question", name: "question", widget: "string",  pattern: ['^.{5,150}$', "Must have between 5 and 150 characters"] }
       - { label: "Answer", name: "answer", widget: "string" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
   - name: "howtos"
