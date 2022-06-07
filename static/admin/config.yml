@@ -81,13 +81,13 @@ collections:
   - name: "performances"
     label: "Performances"
     description: "This collection is intended for submitting texts on the performances, developed and carried out in the course of the ReInHerit project. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
-    label_singular: "performance"
+    label_singular: "text"
     hide: false                # hides specific collection -> still available if you have the link!
     folder: "content/performances"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     # disables creation + deletion of items in collection
-    delete: false
-    create: false
+    # delete: false
+    create: true
     # 
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
@@ -96,6 +96,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Linked performance", name: "linkedPerformance", widget: "select", options: ["PERFORMANCE_01", "PERFORMANCE_02"], multiple: false, required: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "exhibitions"
