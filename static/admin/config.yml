@@ -243,7 +243,7 @@ collections:
     description: Showcase entry for the digital hub.
     create: true              # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    # hides specific collection -> still available if you have the link!
+    # hides specific collection -> still available if you have the link! ()
     hide: false 
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
