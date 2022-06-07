@@ -166,6 +166,7 @@ collections:
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Tag name", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tag type", name: "tag_type", widget: "select", options: ["TECHNICAL", "CONTENT_BASED"], multiple: false, required: true }
       - { label: "Tag group", name: "tag_group", widget: "select", options: ["TOOLKIT", "NEWS", "E-SHOP", "PERFORMANCE", "EXHIBITION", "TRAINING"], default: ["NEWS"], multiple: true, required: true }
       - { label: "Short description", name: "desc", widget: "string", required: true }
       - { label: "Body", name: "body", widget: "markdown",required: false, media_library: {config: {max_file_size: 100000}} }
