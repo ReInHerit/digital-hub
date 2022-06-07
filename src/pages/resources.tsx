@@ -16,44 +16,34 @@ const ResourcesPage = () => {
 
       <ReinCardGrid>
         <ReinGridCard
-          title="Tools"
-          excerpt="coming soon..."
-          targetAudience={[]}
-          url="/tools"
-          faIcon={faTools}
-          type=""
+          title="Tool apps"
+          url="/tools/apps"
+          body="coming soon..."
+        />
+        <ReinGridCard
+          title="Tool components"
+          url="/tools/components"
+          body="coming soon..."
         />
         <ReinGridCard
           title="Webinars"
-          excerpt="coming soon..."
-          targetAudience={[]}
-          url="/tools"
-          faIcon={faTools}
-          type=""
+          body="coming soon..."
+          url="/webinars"
         />
         <ReinGridCard
           title="Game"
-          excerpt="coming soon..."
-          targetAudience={[]}
+          body="coming soon..."
           url="/tools"
-          faIcon={faTools}
-          type=""
         />
         <ReinGridCard
           title="Performances"
-          excerpt="coming soon..."
-          targetAudience={[]}
+          body="coming soon..."
           url="/tools"
-          faIcon={faTools}
-          type=""
         />
         <ReinGridCard
           title="Best Practices"
-          excerpt="coming soon..."
-          targetAudience={[]}
+          body="coming soon..."
           url="/tools"
-          faIcon={faTools}
-          type=""
         />
         </ReinCardGrid>
 
