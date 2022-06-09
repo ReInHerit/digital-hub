@@ -22,7 +22,7 @@
 - node basics (package management, modules, imports etc.)
 - react basics
 - ssr: gatsby
-- typescript basics
+- typescript basics (React integration)
 
 
 ### 1. Start netlify-cms local backend

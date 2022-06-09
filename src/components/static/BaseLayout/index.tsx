@@ -12,7 +12,6 @@ import { Container } from "react-bootstrap"
 import ReinNavBar from "../Navbar"
 import Footer from "../Footer"
 import Base from "../Base"
-import QuickAccessBar from "../QuickAccessBar";
 
 interface Props {
   children?: any

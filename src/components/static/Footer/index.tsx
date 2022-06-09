@@ -15,10 +15,10 @@ const Footer: React.FC = () => {
                 <Link to="/about">About</Link>
               </li>
               <li>
-                <Link to="/dataprot">Data protection</Link>
+                <Link to="/about/dataprot">Data protection</Link>
               </li>
               <li>
-                <Link to="/imprint">Imprint</Link>
+                <Link to="/about/imprint">Imprint</Link>
               </li>
             </ul>
           </Col>
