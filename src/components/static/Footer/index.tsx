@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
         <Row>
           <Col lg={4}>
             <ul style={{listStyle: "none"}}>
-              <li className="mb-lg-5">
+              <li>
                 <Link to="/about">About</Link>
               </li>
               <li>
@@ -20,11 +20,14 @@ const Footer: React.FC = () => {
               <li>
                 <Link to="/about/imprint">Imprint</Link>
               </li>
+              <li>
+                <Link to="https://www.reinherit.eu/" target="_blank">Project page</Link>
+              </li>
             </ul>
           </Col>
           <Col lg={4}>
               <p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101004545” </p>
-              <img style={{maxWidth:"60px"}} src="/images/rein_eu.png"></img>
+              <Link className="text-decoration-none" to="https://ec.europa.eu/info/index_en" target="_blank"><img style={{maxWidth:"200px"}} src="/images/rein_eu.png"></img></Link>
           </Col>
           <Col>
             <p><Link to="/cms">Login to CMS</Link></p>
@@ -39,6 +42,8 @@ const Footer: React.FC = () => {
             
           </Col>
         </Row>
+        <br/>
+        <br/>
       </Container>
     </div>
   )
