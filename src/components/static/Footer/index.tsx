@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
             </ul>
           </Col>
           <Col lg={4}>
-              <p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101004545” </p>
+              <p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101004545 </p>
               <Link className="text-decoration-none" to="https://ec.europa.eu/info/index_en" target="_blank"><img style={{maxWidth:"200px"}} src="/images/rein_eu.png"></img></Link>
           </Col>
           <Col>
