@@ -1,5 +1,6 @@
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
+import { Accordion } from "react-bootstrap"
 
 /**
  * Renders overview over FAQ collection.
@@ -9,11 +10,14 @@ const FAQFeed: React.FC = () => {
   const faqData: FAQGraphqlResponse.Data = useStaticQuery(FAQQuery)
 
   return (
-    <ul>
-      {faqData.allMarkdownRemark.edges.map(edge => (
-        <li>{edge.node.frontmatter.question}</li>
+    <Accordion>
+      {faqData.allMarkdownRemark.edges.sort().map(edge => (
+        <Accordion.Item eventKey={edge.node.frontmatter.pageId}>
+          <Accordion.Header>{edge.node.frontmatter.question}</Accordion.Header>
+          <Accordion.Body>{edge.node.frontmatter.answer}</Accordion.Body>
+        </Accordion.Item>
       ))}
-    </ul>
+    </Accordion>
   )
 }
 
@@ -52,18 +56,22 @@ declare module FAQGraphqlResponse {
 }
 
 const FAQQuery = graphql`
-  query FAQQuery {
-    allMarkdownRemark(filter: { frontmatter: { type: { eq: "faq" } } }) {
-      edges {
-        node {
-          frontmatter {
-            question
-            answer
-            target_audience
-            pageId
-          }
+query FAQQuery {
+  allMarkdownRemark(
+    filter: {frontmatter: {}, fileAbsolutePath: {regex: "/faq/"}}
+    sort: {fields: frontmatter___question}
+  ) {
+    edges {
+      node {
+        frontmatter {
+          question
+          answer
+          target_audience
+          pageId
         }
       }
     }
   }
+}
+
 `
