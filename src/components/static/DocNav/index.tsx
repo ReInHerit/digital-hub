@@ -17,9 +17,6 @@ const DocNav: React.FC<Props> = (props) => {
       <Link to="/doc">About</Link>
     </ListGroupItem>
     <ListGroupItem>
-      <Link to="/doc/architecture">Software architecture</Link>
-    </ListGroupItem>
-    <ListGroupItem>
       <Link to="/doc/authorization">Authorization</Link>
     </ListGroupItem>
   </ListGroup>
