@@ -13,7 +13,7 @@ const ReinNavbar: React.FC = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Link className="text-dark text-decoration-none nav-link" to="/">Digital Hub</Link>
+              <Link className="text-dark text-decoration-none nav-link" to="/">Home</Link>
               <NavDropdown title="About" id="basic-nav-dropdown">
                 <Link className="text-dark text-decoration-none dropdown-item" to="/about">Project</Link>
                 <Link className="text-dark text-decoration-none dropdown-item" to="/about/team">Team</Link>
