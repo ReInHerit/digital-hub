@@ -56,22 +56,21 @@ declare module FAQGraphqlResponse {
 }
 
 const FAQQuery = graphql`
-query FAQQuery {
-  allMarkdownRemark(
-    filter: {frontmatter: {}, fileAbsolutePath: {regex: "/faq/"}}
-    sort: {fields: frontmatter___question}
-  ) {
-    edges {
-      node {
-        frontmatter {
-          question
-          answer
-          target_audience
-          pageId
+  query FAQQuery {
+    allMarkdownRemark(
+      filter: { frontmatter: {}, fileAbsolutePath: { regex: "/faq/" } }
+      sort: { fields: frontmatter___question }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            question
+            answer
+            target_audience
+            pageId
+          }
         }
       }
     }
   }
-}
-
 `
