@@ -39,7 +39,17 @@ const Head: React.FC<Props> = props => {
       <meta
         property="og:author"
         name="author"
+        content={packageJson.author.url}
+      />
+      <meta
+        property="og:author"
+        name="author"
         content={packageJson.author.name}
+      />
+      <meta
+        property="dc:creator"
+        name="author"
+        content={packageJson.author.url}
       />
       <meta
         property="dc:creator"
