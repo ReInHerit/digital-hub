@@ -6,8 +6,10 @@ import DocNav from "../../components/static/DocNav"
 const Authorization = () => {
   return (
     <BaseLayout>
-      <h2>Authorization</h2>
-      <p>Description of the underlying auth proccesses in ReInHerit.</p>
+      <h1>Documentation</h1>
+      <p>
+        Description of the underlying software architecture of the Digital Hub.
+      </p>
       <br />
       <SideBarsLayout left={<DocNav />}>
         <h3>Roles in the Digital Hub</h3>
