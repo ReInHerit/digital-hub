@@ -23,6 +23,7 @@ export default function Template({
       <div className="blog-post-container">
         <div className="blog-post">
           <MainHeading
+            subHeading={frontmatter.type.charAt(0).toUpperCase() + frontmatter.type.slice(1,frontmatter.type.length)}
           >{frontmatter.title}</MainHeading>
           <p className="w-75"><i>Summary: </i>{frontmatter.desc ? frontmatter.desc : markdownRemark.excerpt}</p>
           <SideMainLayout
