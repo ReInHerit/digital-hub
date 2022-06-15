@@ -36,10 +36,10 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Main reference", name: "mainReference", widget: "string"}
-      - { label: "Linked webinars", name: "linkedWebinars", widget: "relation", collection: "webinars", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Linked toolkit apps", name: "linkedToolkitApps", widget: "relation", collection: "toolapps", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
-      - { label: "License", name: "license", widget: "string", default: "MIT - CC BY 2.0" }
+      - { label: "Main reference", name: "mainReference", widget: "string", required: false, hint: "Singular (web)-link displayed in the metadata section of the item."}
+      - { label: "Linked webinars", name: "linkedWebinars", widget: "relation", collection: "webinars", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created webinars in this CMS (entries must be already existing)" }
+      - { label: "Linked toolkit apps", name: "linkedToolkitApps", widget: "relation", collection: "toolapps", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created toolkit apps in this CMS (entries must be already existing)" }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0", hint: "Remember to check if the license is compatible with the component" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "toolapps"
     label: "Toolkit: apps"
@@ -57,9 +57,9 @@ collections:
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Main reference", name: "mainReference", widget: "string", required: false, hint: "Singular (web)-link displayed in the metadata section of the item."}
-      - { label: "Linked webinars", name: "linkedWebinars", widget: "relation", collection: "webinars", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolcomponents", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
-      - { label: "License", name: "license", widget: "string", default: "MIT - CC BY 2.0" }
+      - { label: "Linked webinars", name: "linkedWebinars", widget: "relation", collection: "webinars", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created webinars in this CMS (entries must be already existing)" }
+      - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolcomponents", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created toolkit components in this CMS (entries must be already existing)" }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "webinars"
     label: "Webinars"
@@ -76,9 +76,9 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolcomponents", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
-      - { label: "Linked toolkit apps", name: "linkedToolkitApps", widget: "relation", collection: "toolapps", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
-      - { label: "License", name: "license", widget: "string", default: "MIT - CC BY 2.0" }
+      - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolcomponents", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created toolkit components in this CMS (entries must be already existing)" }
+      - { label: "Linked toolkit apps", name: "linkedToolkitApps", widget: "relation", collection: "toolapps", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created toolkit apps in this CMS (entries must be already existing)" }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "performances"
     label: "Performances"
@@ -100,7 +100,7 @@ collections:
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Performance", name: "linkedPerformance", widget: "select", options: ["PERFORMANCE_01", "PERFORMANCE_02"], multiple: false, required: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "License", name: "license", widget: "string", default: "MIT - CC BY 2.0" }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "exhibitions"
     label: "Exhibitions"
@@ -120,7 +120,7 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Short description", name: "desc", widget: "string" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "License", name: "license", widget: "string", default: "MIT - CC BY 2.0" }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "news"
     label: "News"             # Used in the UI
@@ -156,7 +156,7 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Design / Image", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 1000000}}} # in bytes, only for default media library}
-      - { label: "License", name: "license", widget: "string", default: "MIT - CC BY 2.0" }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown", media_library: {config: {max_file_size: 100000}} }
   - name: "tags"
     label: "Digital-Hub: Flexible tags"
@@ -239,7 +239,7 @@ collections:
       - { label: "Location of the event", name: "location", widget: "string" }
       - { label: "Start of the event", name: "startDate", widget: "date" }
       - { label: "End of the event", name: "endDate", widget: "date" }
-      - { label: "License", name: "license", widget: "string", default: "MIT - CC BY 2.0" }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Email adress", name: "email", widget: "string" }
   - name: "showcase"
     label: "Digital-Hub: Showcase entries"             # Used in the UI
