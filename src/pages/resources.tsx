@@ -41,7 +41,7 @@ const ResourcesPage = () => {
           url="/tools"
         />
         <ReinGridCard
-          title="Best Practices"
+          title="Best practices"
           body="Guidelines, recommendations and manuals related to digital cultural heritage management."
           url="/tools"
         />
