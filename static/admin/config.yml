@@ -17,7 +17,7 @@ preview: false
 # for open authoring / kanban view for moderation processes
 # warning -> (still in beta!)
 # https://www.netlifycms.org/docs/open-authoring/#enabling-open-authoring
-publish_mode: editorial_workflow   
+# publish_mode: editorial_workflow   
 
 # collections config see here: https://www.netlifycms.org/docs/widgets/#object
 collections:
