@@ -1,9 +1,10 @@
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
+import { Accordion } from "react-bootstrap"
 
 /**
  * Renders some kind of overview of manuals stored as markdowns via NetlifyCMS
- * @returns 
+ * @returns
  */
 const ManualsFeed: React.FC = () => {
   const data: ManualsGraphQLResponse.Data = useStaticQuery(
@@ -11,13 +12,16 @@ const ManualsFeed: React.FC = () => {
   )
 
   return (
-    <ul>
-      {data.allMarkdownRemark.edges.map(edge => (
-        <li key={edge.node.frontmatter.pageId}>
-          {edge.node.frontmatter.title}
-        </li>
+    <Accordion>
+      {data.allMarkdownRemark.edges.sort().map(edge => (
+        <Accordion.Item eventKey={edge.node.frontmatter.pageId}>
+          <Accordion.Header>{edge.node.frontmatter.title}</Accordion.Header>
+          <Accordion.Body>
+            <div dangerouslySetInnerHTML={{ __html: edge.node.html }}></div>
+          </Accordion.Body>
+        </Accordion.Item>
       ))}
-    </ul>
+    </Accordion>
   )
 }
 
@@ -33,6 +37,7 @@ const MANUALS_GRAPHQL_RESPONSE = graphql`
             pageId
           }
           excerpt
+          html
         }
       }
     }
@@ -48,6 +53,7 @@ declare module ManualsGraphQLResponse {
   export interface Node {
     frontmatter: Frontmatter
     excerpt: string
+    html: string
   }
 
   export interface Edge {
