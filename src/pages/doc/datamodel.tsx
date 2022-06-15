@@ -1,25 +1,25 @@
-
-import React from "react";
-import SideBarsLayout from "../../components/shared/Layout/SideBarsLayout";
-import BaseLayout from "../../components/static/BaseLayout";
-import DocNav from "../../components/static/DocNav";
+import React from "react"
+import SideBarsLayout from "../../components/shared/Layout/SideBarsLayout"
+import BaseLayout from "../../components/static/BaseLayout"
+import DocNav from "../../components/static/DocNav"
+import MainHeading from "../../components/static/MainHeading"
 
 const DataModel = () => {
-
-  return <BaseLayout>
-    <h1>Documentation</h1>
-      <p>Description of the underlying software architecture of the Digital Hub.</p>
-      <br />
-    <SideBarsLayout
-      left={<DocNav/>}
-    >
-      <h2>Data model of ReinHerit</h2>
-      <h2>ER Diagram?</h2>
-    </SideBarsLayout>
-    
-  </BaseLayout>
-
+  return (
+    <BaseLayout>
+      <MainHeading subHeading="Materials / manuals about the ReInHerit digital-hub itself">
+        Documentation
+      </MainHeading>
+      <p>
+        Here you'll find explainatory material, helpful texts and graphics for
+        the digital-hub itself.
+      </p>
+      <SideBarsLayout left={<DocNav />}>
+        <h2>Data model of ReinHerit</h2>
+        <h2>ER Diagram?</h2>
+      </SideBarsLayout>
+    </BaseLayout>
+  )
 }
 
-
-export default DataModel;
+export default DataModel

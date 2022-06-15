@@ -2,15 +2,13 @@ import React from "react"
 import SideBarsLayout from "../../components/shared/Layout/SideBarsLayout"
 import BaseLayout from "../../components/static/BaseLayout"
 import DocNav from "../../components/static/DocNav"
+import MainHeading from "../../components/static/MainHeading"
 
 const Authorization = () => {
   return (
     <BaseLayout>
-      <h1>Documentation</h1>
-      <p>
-        Description of the underlying software architecture of the Digital Hub.
-      </p>
-      <br />
+      <MainHeading subHeading="Materials / manuals about the ReInHerit digital-hub itself">Documentation</MainHeading>
+      <p>Here you'll find explainatory material, helpful texts and graphics for the digital-hub itself.</p>
       <SideBarsLayout left={<DocNav />}>
         <h3>Roles in the Digital Hub</h3>
         <ol>
