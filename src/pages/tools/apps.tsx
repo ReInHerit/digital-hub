@@ -7,10 +7,9 @@ const Toolkit = () => {
   return (
     <BaseLayout>
       <MainHeading
-        subHeading="Tools available via the ReInHerit toolkit."
-      >ReInHerit Toolkit</MainHeading>
-      <p className="w-75">All tools on the platform are <b style={{color:"#d7487e"}}>categorized</b> and public available. </p>
-      <br></br>
+        subHeading="Applications available via the ReInHerit digital hub."
+      >Tool apps</MainHeading>
+      <p>Here you'll find applications that are either developed within the ReInHerit project or play an important role for CH management or preservation.</p>
       <ToolAppsFeed></ToolAppsFeed>
     </BaseLayout>
   )
