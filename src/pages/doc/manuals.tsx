@@ -1,4 +1,5 @@
 import React from "react"
+import ManualsFeed from "../../components/shared/ManualsFeed"
 import BaseLayout from "../../components/static/BaseLayout"
 import MainHeading from "../../components/static/MainHeading"
 
@@ -15,6 +16,7 @@ const ManualsPage: React.FC = () => {
         Here you'll find small explainatory texts on how to use the diverese
         features of this digital-hub.
       </p>
+      <ManualsFeed></ManualsFeed>
     </BaseLayout>
   )
 }
