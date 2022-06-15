@@ -9,6 +9,7 @@ const ExhibitionOverviewPage = () => {
       subHeading="Exhibitions and related material provided by ReInHerit"
     >Exhibitions</MainHeading>
     <p>Here you'll find exhibitions, which will be developed and carried out in the ReInHerit project.</p>
+    <p>(Coming soon...)</p>
   </BaseLayout>
 
 }
