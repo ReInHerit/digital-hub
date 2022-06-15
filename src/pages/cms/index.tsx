@@ -22,7 +22,7 @@ const CMSDesc = () => {
                 </a>
               </li>
               <li>
-                <Link to="/doc/authorization">Check roles on documentation</Link>
+                <Link to="/doc/authorization">Access documentation</Link>
               </li>
             </ul>
           </>
