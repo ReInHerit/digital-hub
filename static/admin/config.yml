@@ -33,6 +33,7 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "toolcomponent" }
       - { label: "Page-ID", name: "pageId", widget: "uuid", hint: "You might use this number to reference this item in another collection. Like: '/tools/components/PAGE-ID'"}
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"] }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
@@ -53,6 +54,7 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "toolapp" }
       - { label: "Page-ID", name: "pageId", widget: "uuid", hint: "You might use this number to reference this item in another collection. Like: '/tools/apps/ITEM_ID'"}
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
@@ -73,6 +75,7 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "webinar" }
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
@@ -96,6 +99,7 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "performance" }
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 5 and 150 characters"], required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Performance", name: "linkedPerformance", widget: "select", options: ["PERFORMANCE_01", "PERFORMANCE_02"], multiple: false, required: true }
@@ -118,7 +122,7 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "exhibition" }
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Short description", name: "desc", widget: "string" }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
@@ -134,7 +138,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "news" }
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
-      - { label: "Short description", name: "desc", widget: "string", required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "News type", name: "newsType", widget: "select", options: ["EVENT", "ANNOUNCEMENT"], default: "ANNOUNCEMENT", multiple: false }
@@ -152,7 +156,7 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "eshop" }
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 5 and 150 characters"], required: true }
-      - { label: "Short description", name: "desc", widget: "string", required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Design / Image", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 1000000}}} # in bytes, only for default media library}
@@ -175,7 +179,7 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tag type", name: "tag_type", widget: "select", options: ["TECHNICAL", "CONTENT_BASED"], multiple: false, required: true }
       - { label: "Tag group", name: "tag_group", widget: "select", options: ["TOOLKIT", "NEWS", "E-SHOP", "PERFORMANCE", "EXHIBITION", "TRAINING"], default: ["NEWS"], multiple: true, required: true }
-      - { label: "Short description", name: "desc", widget: "string", required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Body", name: "body", widget: "markdown",required: false, media_library: {config: {max_file_size: 100000}} }
   - name: "faq"
     label: "Digital-Hub: FAQ"             # Used in the UI
@@ -234,6 +238,7 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "event" }
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Event title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Host instutition", name: "host", widget: "string" }
       - { label: "Description", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
       - { label: "Location of the event", name: "location", widget: "string" }
@@ -255,5 +260,6 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "event" }
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Showcase description", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       - { label: "Description", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
