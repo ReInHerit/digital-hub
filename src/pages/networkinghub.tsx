@@ -9,8 +9,10 @@ const NetworkingHubPage = () => {
 
   return (
     <BaseLayout>
-      <MainHeading>Networking Hub</MainHeading>
-      <p>Coming soon...</p>
+      <MainHeading
+        subHeading="Collaboration and communication tools provided by the digital hub"
+      >Networking</MainHeading>
+      <p>Here you'll find different means to communicate and collaborate with other cultural heritage professionals.</p>
       <ReinCardGrid>
         <ReinGridCard
           body="coming soon"
