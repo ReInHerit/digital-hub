@@ -1,11 +1,12 @@
 
 import React from "react";
 import BaseLayout from "../../components/static/BaseLayout";
+import MainHeading from "../../components/static/MainHeading";
 
 const PerformancesOverviewPage = () => {
 
   return <BaseLayout>
-    <h2>Performances Overview</h2>
+    <MainHeading>Performances overview</MainHeading>
   </BaseLayout>
 
 }
