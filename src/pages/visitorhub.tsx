@@ -10,32 +10,35 @@ import MainHeading from "../components/static/MainHeading"
 const VisitorHubPage = () => {
   return (
     <BaseLayout>
-      <MainHeading subHeading="coming soon...">Visitors overview</MainHeading>
+      <MainHeading 
+        subHeading="Structured overview of all material on the digital-hub"
+      >Hub content</MainHeading>
+      <p>Here you'll find  digital exhibitions, videos and images from the project immersive performances, and apps that let you play and interact with cultural heritage in innovative ways.</p>
       <ReinCardGrid>
         <ReinGridCard
-          body="coming soon"
+          body="Free artistic designs created during the ReInHerit project. All are free to download and available for the public."
           title="eShop"
-          url="/designs"
+          url="/eshop"
         />
         <ReinGridCard
-          body="coming soon"
+          body="Digital-first exhibitions and related material provided by ReInHerit."
           title="Digital exhibition"
           url="/exhibs/digital"
         />
         <ReinGridCard
-          body="coming soon"
+          body="Performances developed and carried out in the course of the ReInHerit project."
           title="Performances"
-          url="/portal/performances"
+          url="/performances"
         />
         <ReinGridCard
-          body="coming soon"
+          body="On site exhibitions and related material provided by ReInHerit."
           title="Travelling exhibitions"
           url="/exhibs/travel"
         />
         <ReinGridCard
-          body="coming soon"
+          body="Hackathon organized by ReInHerit."
           title="Hackathon"
-          url="/"
+          url="/hackathon"
         />
         
       </ReinCardGrid>
