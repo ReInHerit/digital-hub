@@ -23,9 +23,8 @@ export default function Template({
       <div className="blog-post-container">
         <div className="blog-post">
           <MainHeading
-            subHeading={<>This resource is part of the <Link style={{textDecoration:"none", color:"#2eacc8"}} to={`/${frontmatter.type}`}>{frontmatter.type}</Link> section.</>}
           >{frontmatter.title}</MainHeading>
-          <p className="w-75"><i>Excerpt: </i>{markdownRemark.excerpt}</p>
+          <p className="w-75"><i>Summary: </i>{frontmatter.desc ? frontmatter.desc : markdownRemark.excerpt}</p>
           <SideMainLayout
             side={
               <div style={{border:"1px solid grey", borderRadius:0}} className="card p-4 border-radius-0">
@@ -147,6 +146,7 @@ export const pageQuery = graphql`
         linkedWebinars
         linkedToolkitComponents
         linkedToolkitApps
+        desc
       }
       id
       excerpt
