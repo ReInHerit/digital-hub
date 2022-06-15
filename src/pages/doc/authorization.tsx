@@ -11,7 +11,7 @@ const Authorization = () => {
       <MainHeading subHeading="Materials / manuals about the ReInHerit digital-hub itself">Documentation</MainHeading>
       <p>Here you'll find explainatory material, helpful texts and graphics for the digital-hub itself.</p>
       <SideBarsLayout left={<DocNav />}>
-        <h3>Roles in the Digital Hub</h3>
+        <h3>Access levels / roles in the Digital Hub</h3>
         <p>Overview of the basic access levels the digital hub provides. In short: if content should be contributed to the digital-hub enviroment then - depending on the used funcationality - authentication (is the user wo he/she claims to be?) and authorization (what access levels has the user?) are required.</p>
         <p>Below the list of authorization levels / roles of the digital-hub:</p>
         <Accordion>
