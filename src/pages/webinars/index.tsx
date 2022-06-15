@@ -8,8 +8,9 @@ const WebinarsPage = () => {
   return <BaseLayout
   >
     <MainHeading
-      subHeading="Webinars provided by the digital hub"
+      subHeading="Webinars related to cultural heritage management provided by ReInHerit"
     >Webinars</MainHeading>
+    <p>Here you will find training material either on the tools developed in the ReInHerit-project or generally on digitization in the CH sector, CH management and preservation.</p>
     <WebinarFeed></WebinarFeed>
   </BaseLayout>
 
