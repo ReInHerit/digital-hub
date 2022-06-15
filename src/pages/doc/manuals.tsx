@@ -16,7 +16,7 @@ const ManualsPage: React.FC = () => {
       <SideBarsLayout left={<DocNav />}>
         <h2>Manuals and how-tos</h2>
         <p>
-          Here you'll find small explainatory texts on how to use the diverese
+          Here you'll find small explainatory texts on how to use the diverse
           features of this digital-hub.
         </p>
         <ManualsFeed></ManualsFeed>
