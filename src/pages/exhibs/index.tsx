@@ -1,20 +1,14 @@
 import React from "react";
 import BaseLayout from "../../components/static/BaseLayout";
+import MainHeading from "../../components/static/MainHeading";
 
 const ExhibitionOverviewPage = () => {
 
   return <BaseLayout>
-    <h2>Exhibitions</h2>
-    <p>Some text...</p>
-    <h3>Traveling exhibitions</h3>
-    <p>Some text...</p>
-    <ul>
-      <li>
-        <a href="https://google.com">Link to exhibition</a>
-      </li>
-    </ul>
-    <h3>Digital exhibitions</h3>
-    <p>Some text...</p>
+    <MainHeading
+      subHeading="Exhibitions and related material provided by ReInHerit"
+    >Exhibitions</MainHeading>
+    <p>Here you'll find exhibitions, which will be developed and carried out in the ReInHerit project.</p>
   </BaseLayout>
 
 }
