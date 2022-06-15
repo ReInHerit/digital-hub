@@ -56,7 +56,7 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Main reference", name: "mainReference", widget: "string"}
+      - { label: "Main reference", name: "mainReference", widget: "string", required: false, hint: "Singular (web)-link displayed in the metadata section of the item."}
       - { label: "Linked webinars", name: "linkedWebinars", widget: "relation", collection: "webinars", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolcomponents", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
       - { label: "License", name: "license", widget: "string", default: "MIT - CC BY 2.0" }
