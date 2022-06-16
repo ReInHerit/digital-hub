@@ -9,7 +9,7 @@ const SearchPage: React.FC = () => {
     SEARCH_QUERY
   )
 
-  const result: SearchGraphqlResponse.SearchResult[] = useFlexSearch("d", GRAPHQL_RESPONSE.localSearchPages.index, GRAPHQL_RESPONSE.localSearchPages.store);
+  const result: SearchGraphqlResponse.SearchResult[] = useFlexSearch("how", GRAPHQL_RESPONSE.localSearchPages.index, GRAPHQL_RESPONSE.localSearchPages.store);
 
   return (
     <BaseLayout>
