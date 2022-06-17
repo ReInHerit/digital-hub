@@ -61,7 +61,29 @@ module.exports.createPages = async ({ graphql, actions}) => {
       component: require.resolve(`./src/templates/eshop.js`),
       context: { id: mdId },
     })
-  })
+  });
+
+  // adding eshop data from markdown
+  const faqResult = await graphql(DIGIHUB_QUERIES.FAQ_PAGES);
+  faqResult.data.allMarkdownRemark.edges.forEach(edge => {
+    const mdId = edge.node.frontmatter.pageId
+    actions.createPage({
+      path: `/doc/faq/${mdId}`,
+      component: require.resolve(`./src/templates/eshop.js`),
+      context: { id: mdId },
+    })
+  });
+
+  // adding eshop data from markdown
+  const manualsResult = await graphql(DIGIHUB_QUERIES.MANUAL_PAGES);
+  manualsResult.data.allMarkdownRemark.edges.forEach(edge => {
+    const mdId = edge.node.frontmatter.pageId
+    actions.createPage({
+      path: `/doc/howto/${mdId}`,
+      component: require.resolve(`./src/templates/eshop.js`),
+      context: { id: mdId },
+    })
+  });
 
 }
 
