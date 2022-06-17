@@ -15,7 +15,7 @@ interface Props {
 const Head: React.FC<Props> = props => {
   const baseUrl = process.env.BASE_URL
   if (!baseUrl)
-    throw new ReferenceError(
+    console.error(
       "You need to specify BASE_URL as .env variable. Specify the base address of your website e.g. https://my-site.com/"
     )
 
