@@ -1,3 +1,6 @@
+import { faClock } from "@fortawesome/free-regular-svg-icons"
+import { faStamp, faLink } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import { Badge, Form } from "react-bootstrap"
@@ -104,6 +107,13 @@ const ToolkitFeed: React.FC = () => {
                     edge.node.frontmatter.pageId
                   }`}
                   uid={edge.node.frontmatter.pageId}
+                  footerContent={
+                    <div>
+                      <p className="m-0"><FontAwesomeIcon icon={faClock} scale={".5x"}/> - {edge.node.wordCount.words} words</p>
+                      <p className="m-0"><FontAwesomeIcon icon={faStamp} scale={".5x"}/> - {edge.node.frontmatter.license}</p>
+                      {edge.node.frontmatter.mainReference && <p className="m-0"><a style={{color:"#6c757d"}} className="text-decoration-none" target="_blank" href={edge.node.frontmatter.mainReference}><FontAwesomeIcon icon={faLink} scale={".5x"}/> - {edge.node.frontmatter.mainReference}</a></p>}
+                    </div>
+                  }
                 ></ReinGridCard>
               )
             }
@@ -132,6 +142,11 @@ const ToolsQuery = graphql`
             layout
             type
             pageId
+            mainReference
+            license
+          }
+          wordCount {
+            words
           }
         }
       }
@@ -151,12 +166,17 @@ declare module ToolsQueryData {
     tool_type?: any
     type: string
     pageId: string
+    license: string
+    mainReference: string | null
   }
 
   export interface Node {
     html: string
     excerpt: string
     frontmatter: Frontmatter
+    wordCount: {
+      words: number
+    }
   }
 
   export interface Edge {

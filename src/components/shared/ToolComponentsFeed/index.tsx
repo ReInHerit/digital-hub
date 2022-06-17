@@ -1,3 +1,6 @@
+import { faClock } from "@fortawesome/free-regular-svg-icons"
+import { faLink, faStamp } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import { Badge, Form } from "react-bootstrap"
@@ -53,19 +56,32 @@ const ToolkitComponentsFeed: React.FC = () => {
     <SideMainLayout
       side={
         <div className="border border-dark p-4">
-          <b style={{color:"#2eacc8"}}>Filter categories</b>
-          <br/>
-          {tags.length !== 0
-          ? tags.map(tag => (
-              <Badge onClick={() => toggleTag(tag)} bg="white" color="black" text={"black" as "white"} className="me-1 btn border">
+          <b style={{ color: "#2eacc8" }}>Filter categories</b>
+          <br />
+          {tags.length !== 0 ? (
+            tags.map(tag => (
+              <Badge
+                onClick={() => toggleTag(tag)}
+                bg="white"
+                color="black"
+                text={"black" as "white"}
+                className="me-1 btn border"
+              >
                 {tag}
               </Badge>
             ))
-          : <Badge className="me-1 btn border" bg="white" color="black" text={"black" as "white"}>
-          *
-        </Badge>}
-        <br></br>
-        <br></br>
+          ) : (
+            <Badge
+              className="me-1 btn border"
+              bg="white"
+              color="black"
+              text={"black" as "white"}
+            >
+              *
+            </Badge>
+          )}
+          <br></br>
+          <br></br>
           {ALL_TAGS.sort().map(curTag => (
             <Form.Check
               type="checkbox"
@@ -86,12 +102,10 @@ const ToolkitComponentsFeed: React.FC = () => {
             // filter only if no tags were selected
             if (
               tags.length !== 0 &&
-              !tags.some(curTag =>
-                {
-                  if(!edge.node.frontmatter.tool_type)return false;
-                  return edge.node.frontmatter.tool_type.includes(curTag)
-                }
-              )
+              !tags.some(curTag => {
+                if (!edge.node.frontmatter.tool_type) return false
+                return edge.node.frontmatter.tool_type.includes(curTag)
+              })
             ) {
               return
             } else {
@@ -100,10 +114,15 @@ const ToolkitComponentsFeed: React.FC = () => {
                   key={edge.node.frontmatter.pageId}
                   body={edge.node.excerpt}
                   title={edge.node.frontmatter.title}
-                  url={`/tools/components/${
-                    edge.node.frontmatter.pageId
-                  }`}
+                  url={`/tools/components/${edge.node.frontmatter.pageId}`}
                   uid={edge.node.frontmatter.pageId}
+                  footerContent={
+                    <div>
+                      <p className="m-0"><FontAwesomeIcon icon={faClock} scale={".5x"}/> - {edge.node.wordCount.words} words</p>
+                      <p className="m-0"><FontAwesomeIcon icon={faStamp} scale={".5x"}/> - {edge.node.frontmatter.license}</p>
+                      {edge.node.frontmatter.mainReference && <p className="m-0"><a style={{color:"#6c757d"}} className="text-decoration-none" target="_blank" href={edge.node.frontmatter.mainReference}><FontAwesomeIcon icon={faLink} scale={".5x"}/> - {edge.node.frontmatter.mainReference}</a></p>}
+                    </div>
+                  }
                 ></ReinGridCard>
               )
             }
@@ -114,12 +133,15 @@ const ToolkitComponentsFeed: React.FC = () => {
   )
 }
 
-export default ToolkitComponentsFeed;
+export default ToolkitComponentsFeed
 
 const ToolsQuery = graphql`
   query ToolComponentsQuery {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/toolcomponents/" }, frontmatter: {} }
+      filter: {
+        fileAbsolutePath: { regex: "/toolcomponents/" }
+        frontmatter: {}
+      }
     ) {
       edges {
         node {
@@ -132,6 +154,11 @@ const ToolsQuery = graphql`
             layout
             type
             pageId
+            license
+            mainReference
+          }
+          wordCount {
+            words
           }
         }
       }
@@ -140,7 +167,6 @@ const ToolsQuery = graphql`
 `
 
 declare module ToolsQueryData {
-
   export interface Frontmatter {
     title: string
     date: string
@@ -151,12 +177,17 @@ declare module ToolsQueryData {
     tool_type?: any
     type: string
     pageId: string
+    license: string
+    mainReference: string | null
   }
 
   export interface Node {
     html: string
     excerpt: string
     frontmatter: Frontmatter
+    wordCount: {
+      words: number
+    }
   }
 
   export interface Edge {
