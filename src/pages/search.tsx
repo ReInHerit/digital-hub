@@ -30,7 +30,7 @@ const SearchPage: React.FC = () => {
       case "howto":
         return `/doc/${collectionItem.type}/${collectionItem.pageId}`;
       case "toolcomponent":
-        return `/tools/compontents/${collectionItem.pageId}`;
+        return `/tools/components/${collectionItem.pageId}`;
       case "toolapp":
         return `/tools/apps/${collectionItem.pageId}`;
       case "webinar":
