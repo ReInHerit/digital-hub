@@ -1,5 +1,5 @@
 ---
-type: tools
+type: toolapp
 pageId: 1ea8415d-0f87-46ac-9e94-9a42eed0b9e6
 title: Computer tomography
 date: 2022-06-01T06:51:40.689Z
