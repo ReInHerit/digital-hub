@@ -1,5 +1,5 @@
 ---
-type: training
+type: webinar
 pageId: 732aebbf-6543-4998-b8d6-6c5d548ead84
 title: Fancy Webinar.
 date: 2022-03-14T08:54:07.466Z
