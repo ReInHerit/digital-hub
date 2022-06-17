@@ -1,7 +1,7 @@
 ---
 target-audience:
   - VISITOR
-license: "-"
+license: CC BY 2.0
 draft: true
 type: toolapp
 pageId: 3ba29a7b-2b05-48fc-a1fa-536ff4bf1d37

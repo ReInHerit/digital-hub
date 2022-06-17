@@ -11,7 +11,7 @@ linkedWebinars:
   - d02eb0c3-c65c-44a1-ba61-2c0aece039de____Demo05
   - d8d9f895-d120-491a-80b0-ccaca6d89649____Newest Material.
   - 732aebbf-6543-4998-b8d6-6c5d548ead84____Fancy Webinar.
-license: testme
+license: CC BY 2.0
 tool-type:
   - Python
   - CLI
