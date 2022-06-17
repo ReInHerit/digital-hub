@@ -56,10 +56,10 @@ const SearchPage: React.FC = () => {
         />
       </InputGroup>
       <p>Results found: {result.length}</p>
-      <ul>
+      <ul style={{listStyle:"none"}} className="p-0">
         {result.map(result => (
           <li>
-            <Link to={buildCMSItemUrl(result)}>{result.title ? result.title : result.question}</Link>
+            <h4 className="h6 p-0 m-0"><Link to={buildCMSItemUrl(result)}>{result.title ? result.title : result.question}</Link></h4>
             <p className="p-0 m-0"><small>{result.type}</small></p>
             <p>{result.excerpt}</p>
           </li>
