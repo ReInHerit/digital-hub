@@ -7,6 +7,7 @@ date: 2021-10-19T11:03:50.059Z
 target-audience:
   - VISITOR
 newsType: ANNOUNCEMENT
+mainReference: http://google.com
 ---
 ## Test yourself
 
