@@ -69,7 +69,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
     const mdId = edge.node.frontmatter.pageId
     actions.createPage({
       path: `/doc/faq/${mdId}`,
-      component: require.resolve(`./src/templates/eshop.js`),
+      component: require.resolve(`./src/templates/faqHowto.js`),
       context: { id: mdId },
     })
   });
@@ -80,7 +80,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
     const mdId = edge.node.frontmatter.pageId
     actions.createPage({
       path: `/doc/howto/${mdId}`,
-      component: require.resolve(`./src/templates/eshop.js`),
+      component: require.resolve(`./src/templates/faqHowto.js`),
       context: { id: mdId },
     })
   });
