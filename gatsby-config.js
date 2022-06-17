@@ -66,6 +66,7 @@ module.exports = {
           {
             allMarkdownRemark {
               nodes {
+                rawMarkdownBody
                 frontmatter {
                   type
                   title
@@ -83,7 +84,7 @@ module.exports = {
         // List of keys to index. The values of the keys are taken from the
         // normalizer function below.
         // Default: all fields
-        index: ['title'],
+        index: ['title','body'],
 
         // List of keys to store and make available in your UI. The values of
         // the keys are taken from the normalizer function below.
@@ -98,8 +99,8 @@ module.exports = {
           data.allMarkdownRemark.nodes.map((node) => ({
             pageId: node.frontmatter.pageId,
             title: node.frontmatter.title,
-            type: node.frontmatter.type
-            // body: node.rawMarkdownBody,
+            type: node.frontmatter.type,
+            body: node.rawMarkdownBody
           })),
       },
     }
