@@ -23,7 +23,18 @@ const SearchPage: React.FC = () => {
    * @param collectionItem 
    */
   const buildCMSItemUrl = (collectionItem: SearchGraphqlResponse.SearchResult) => {
+
     switch(collectionItem.type){
+      case "faq":
+        return `/doc/${collectionItem.type}/${collectionItem.pageId}`;
+      case "howto":
+        return `/doc/${collectionItem.type}/${collectionItem.pageId}`;
+      case "toolcomponent":
+        return `/tool/compontents/${collectionItem.pageId}`;
+      case "toolapp":
+        return `/tool/apps/${collectionItem.pageId}`;
+      case "webinar":
+        return `/webinars/${collectionItem.pageId}`;
       default:
         return `/${collectionItem.type}/${collectionItem.pageId}`;
     }
