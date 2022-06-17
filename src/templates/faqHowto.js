@@ -33,28 +33,11 @@ export default function Template({
             Documentation
           </MainHeading>
           <br />
-          <SideMainLayout
-            side={
-              <div
-                style={{ border: "1px solid grey", borderRadius: 0 }}
-                className="card p-4 border-radius-0"
-              >
-                <div>
-                  <i>Author(s)</i>
-                </div>
-                <div>ReInHerit Project</div>
-                <br />
-              </div>
-            }
-          >
-            <Container>
-              <h2 className="h5">{frontmatter.title}</h2>
-              <div
-                className="blog-post-content"
-                dangerouslySetInnerHTML={{ __html: html }}
-              />
-            </Container>
-          </SideMainLayout>
+          <h2 className="h5">{frontmatter.title}</h2>
+          <div
+            className="blog-post-content"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
         </div>
       </div>
     </BaseLayout>
