@@ -67,10 +67,12 @@ module.exports = {
             allMarkdownRemark {
               nodes {
                 rawMarkdownBody
+                excerpt
                 frontmatter {
                   type
                   title
                   pageId
+                  question
                 }
               }
             }
@@ -84,12 +86,12 @@ module.exports = {
         // List of keys to index. The values of the keys are taken from the
         // normalizer function below.
         // Default: all fields
-        index: ['title','body'],
+        index: ['title','body', 'question'],
 
         // List of keys to store and make available in your UI. The values of
         // the keys are taken from the normalizer function below.
         // Default: all fields
-        store: ['pageId', 'type', 'title'],
+        store: ['pageId', 'type', 'title', 'excerpt'],
 
         // Function used to map the result from the GraphQL query. This should
         // return an array of items to index in the form of flat objects
@@ -98,9 +100,11 @@ module.exports = {
         normalizer: ({ data }) =>
           data.allMarkdownRemark.nodes.map((node) => ({
             pageId: node.frontmatter.pageId,
-            title: node.frontmatter.title,
+            title: node.frontmatter.title ? node.frontmatter.title : node.frontmatter.question,
             type: node.frontmatter.type,
-            body: node.rawMarkdownBody
+            body: node.rawMarkdownBody,
+            question: node.frontmatter.question,
+            excerpt: node.excerpt
           })),
       },
     }
