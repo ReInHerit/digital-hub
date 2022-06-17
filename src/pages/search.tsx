@@ -59,7 +59,9 @@ const SearchPage: React.FC = () => {
       <ul>
         {result.map(result => (
           <li>
-            <Link to={buildCMSItemUrl(result)}>{result.title}</Link>
+            <Link to={buildCMSItemUrl(result)}>{result.title ? result.title : result.question}</Link>
+            <p className="p-0 m-0"><small>{result.type}</small></p>
+            <p>{result.excerpt}</p>
           </li>
         ))}
       </ul>
