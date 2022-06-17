@@ -6,7 +6,7 @@ import { graphql, Link, useStaticQuery } from "gatsby"
 import { FormControl, InputGroup } from "react-bootstrap"
 
 const SearchPage: React.FC = () => {
-  const [searchQuery, setSearchQuery] = React.useState("how")
+  const [searchQuery, setSearchQuery] = React.useState("")
 
   const GRAPHQL_RESPONSE: SearchGraphqlResponse.Data = useStaticQuery(
     SEARCH_QUERY
