@@ -73,20 +73,35 @@ module.exports.DIGIHUB_QUERIES = (() => {
   `
 
   const FAQ_PAGES = `
-  
     query FAQQuery {
-      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/faq/"}}) {
+      allMarkdownRemark(filter: {frontmatter: {type: {eq: "faq"}}}) {
         edges {
           node {
             frontmatter {
-              title
+              question
               pageId
+              type
             }
           }
         }
       }
     }
-  
+  `
+
+  const MANUAL_PAGES = `
+    query FAQQuery {
+      allMarkdownRemark(filter: {frontmatter: {type: {eq: "howto"}}}) {
+        edges {
+          node {
+            frontmatter {
+              title
+              pageId
+              type
+            }
+          }
+        }
+      }
+    }
   `
 
   
@@ -97,6 +112,7 @@ module.exports.DIGIHUB_QUERIES = (() => {
     TOOL_APPS_PAGES,
     TOOL_COMPONENTS_PAGES,
     ESHOP_PAGES,
-    FAQ_PAGES
+    FAQ_PAGES,
+    MANUAL_PAGES
   }
 })()
