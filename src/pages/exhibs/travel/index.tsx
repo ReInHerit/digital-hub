@@ -3,7 +3,8 @@ import BaseLayout from "../../../components/static/BaseLayout"
 
 const TravelExhibsPage = () => {
   return <BaseLayout>
-    <h1>Travel Exhibitions</h1>
+    <h1>Travelling exhibitions</h1>
+    <p>(Coming soon...)</p>
   </BaseLayout>
 
 

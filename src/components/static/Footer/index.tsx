@@ -1,4 +1,4 @@
-import { faFacebook, faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook, faInstagram, faLinkedin, faTiktok, faTwitter } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "gatsby"
 import React from "react"
@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
         <Row>
           <Col lg={4}>
             <ul style={{listStyle: "none"}}>
-              <li className="mb-lg-5">
+              <li>
                 <Link to="/about">About</Link>
               </li>
               <li>
@@ -20,19 +20,30 @@ const Footer: React.FC = () => {
               <li>
                 <Link to="/about/imprint">Imprint</Link>
               </li>
+              <li>
+                <Link to="https://www.reinherit.eu/" target="_blank">Project page</Link>
+              </li>
             </ul>
           </Col>
           <Col lg={4}>
-              <p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101004545” </p>
-              <img style={{maxWidth:"60px"}} src="/images/rein_eu.png"></img>
+              <p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101004545 </p>
+              <Link className="text-decoration-none" to="https://ec.europa.eu/info/index_en" target="_blank"><img style={{maxWidth:"200px"}} src="/images/rein_eu.png"></img></Link>
           </Col>
           <Col>
             <p><Link to="/cms">Login to CMS</Link></p>
             <p>Follow us on: </p>
-            <FontAwesomeIcon className="ms-1" icon={faLinkedin}></FontAwesomeIcon> 
-            <FontAwesomeIcon className="ms-1" icon={faFacebook}></FontAwesomeIcon> 
+            <Link className="text-decoration-none" to="https://www.facebook.com/ReInHerit/" target="_blank"><FontAwesomeIcon className="ms-1" icon={faFacebook}></FontAwesomeIcon></Link>
+            <Link className="text-decoration-none" to="https://linkedin.com/company/reinherit-h2020/" target="_blank"><FontAwesomeIcon className="ms-1" icon={faLinkedin}></FontAwesomeIcon> </Link>
+            <Link className="text-decoration-none" to="https://www.tiktok.com/@reinherit_" target="_blank"><FontAwesomeIcon className="ms-1" icon={faTiktok}></FontAwesomeIcon> </Link>
+            <Link className="text-decoration-none" to="https://mobile.twitter.com/reinherit_" target="_blank"><FontAwesomeIcon className="ms-1" icon={faTwitter}></FontAwesomeIcon> </Link>
+            <Link className="text-decoration-none" to="https://www.instagram.com/reinherit_/" target="_blank"><FontAwesomeIcon className="ms-1" icon={faInstagram}></FontAwesomeIcon> </Link>
+
+            
+            
           </Col>
         </Row>
+        <br/>
+        <br/>
       </Container>
     </div>
   )

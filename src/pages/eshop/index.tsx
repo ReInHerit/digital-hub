@@ -8,9 +8,9 @@ const Designs = () => {
   return (
     <BaseLayout>
       <MainHeading
-        subHeading="Designs available on the digital hub"
+        subHeading="Collection of free downloadable artistic designs"
       >eShop</MainHeading>
-      <p>Here could be some text ... e.g. an introduction about the content etc.</p>
+      <p>Here you'll find all the free artistic designs created during the ReInHerit project. All are free to download and available for the public.</p>
       <EShopFeed></EShopFeed>
     </BaseLayout>
   )

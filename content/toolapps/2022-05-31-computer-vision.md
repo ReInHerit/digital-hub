@@ -3,7 +3,7 @@ target-audience:
   - VISITOR
 license: "-"
 draft: true
-type: tools
+type: toolapp
 pageId: 3ba29a7b-2b05-48fc-a1fa-536ff4bf1d37
 title: Computer Vision
 date: 2022-05-31T11:33:46.192Z

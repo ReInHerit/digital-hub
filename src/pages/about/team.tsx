@@ -22,7 +22,7 @@ const TeamPage = () => {
           <br />
 
           <h2 className="h4 text-center">Project Lead</h2>
-          <div className="border p-5 text-center">
+          <div className="border p-5 text-center border-dark">
             <p>Bank of Cyprus Cultural Foundation</p>
             <p><img src="https://www.boccf.org/PageFiles/5/boc_logo_EN.jpg" width={200}></img></p>
             <p>Destination: Greece</p>
@@ -35,28 +35,19 @@ const TeamPage = () => {
             <ReinGridCard
               key={"1"}
               title="Arte Sostenible"
-              excerpt="Destination: Spain"
-              faIcon={faAddressCard}
-              targetAudience={["visitors"]}
-              type="asd"
+              body="Destination: Spain"
               url="https://www.artesostenible.org/"
             ></ReinGridCard>
             <ReinGridCard
               key={"2"}
               title="Università degli studi di Firenze - UNIFI - MICC"
-              excerpt="Destination: Italy"
-              faIcon={faAddressCard}
-              targetAudience={["visitors"]}
-              type="asd"
               url="http://www.micc.unifi.it/"
+              body="Destination: Italy"
             ></ReinGridCard>
             <ReinGridCard
               key={"3"}
               title="European Cultural Tourism Network - ECTN"
-              excerpt="Destination: Belgium           "
-              faIcon={faAddressCard}
-              targetAudience={["visitors"]}
-              type="asd"
+              body="Destination: Belgium           "
               url="https://ectn.eu/ "
             ></ReinGridCard>
             
@@ -64,80 +55,57 @@ const TeamPage = () => {
             <ReinGridCard
               key={"5"}
               title="University of Nicosia - School of Law"
-              excerpt="Destination: Cyprus"
-              faIcon={faAddressCard}
-              targetAudience={["visitors"]}
-              type="asd"
+              body="Destination: Cyprus"
+              
               url="https://www.unic.ac.cy/school-of-law/ "
             ></ReinGridCard>
 
             <ReinGridCard
               key={"6"}
               title="Materahub"
-              excerpt="Destination: Italy"
-              faIcon={faAddressCard}
-              targetAudience={["visitors"]}
-              type="asd"
+              body="Destination: Italy"
               url="https://www.materahub.com/en/"
             ></ReinGridCard>
 
             <ReinGridCard
               key={"7"}
               title="Museum of Cycladic Art"
-              excerpt="Destination: Greece"
-              faIcon={faAddressCard}
-              targetAudience={["visitors"]}
-              type="asd"
+              body="Destination: Greece"
               url="https://cycladic.gr/en"
             ></ReinGridCard>
 
           <ReinGridCard
               key={"8"}
               title="University of Graz"
-              excerpt="Destination: Austria"
-              faIcon={faAddressCard}
-              targetAudience={["visitors"]}
-              type="asd"
+              body="Destination: Austria"
               url="https://informationsmodellierung.uni-graz.at/en/"
             ></ReinGridCard>
 
             <ReinGridCard
               key={"9"}
               title="CYENS"
-              excerpt="Destination: Cyprus"
-              faIcon={faAddressCard}
-              targetAudience={["visitors"]}
-              type="asd"
+              body="Destination: Cyprus"
               url="https://www.cyens.org.cy/en-gb/"
             ></ReinGridCard>
 
             <ReinGridCard
               key={"10"}
               title="Blue Shield"
-              excerpt="Destination: Greece"
-              faIcon={faAddressCard}
-              targetAudience={["visitors"]}
-              type="asd"
+              body="Destination: Greece"
               url="https://hellenicblueshield.com/en/home/"
             ></ReinGridCard>
 
             <ReinGridCard
               key={"11"}
               title="University of Applied Science - Arcada"
-              excerpt="Destination: Finland"
-              faIcon={faAddressCard}
-              targetAudience={["visitors"]}
-              type="asd"
+              body="Destination: Finland"
               url="https://www.arcada.fi/en"
             ></ReinGridCard>
             
             <ReinGridCard
               key={"12"}
               title="GrazMuseum"
-              excerpt="Destination: Austria"
-              faIcon={faAddressCard}
-              targetAudience={["visitors"]}
-              type="asd"
+              body="Destination: Austria"
               url="https://www.grazmuseum.at/"
             ></ReinGridCard>
 

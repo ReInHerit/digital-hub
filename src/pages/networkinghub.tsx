@@ -9,21 +9,23 @@ const NetworkingHubPage = () => {
 
   return (
     <BaseLayout>
-      <MainHeading>Networking Hub</MainHeading>
-      <p>Coming soon...</p>
+      <MainHeading
+        subHeading="Collaboration and communication tools provided by the digital hub"
+      >Networking</MainHeading>
+      <p>Here you'll find different means to communicate and collaborate with other cultural heritage professionals.</p>
       <ReinCardGrid>
         <ReinGridCard
-          body="coming soon"
+          body="Overview of different chat rooms and collaboration environments."
           title="Forum"
           url="https://gitter.im/ReInHerit"
         />
         <ReinGridCard
-          body="coming soon"
+          body="Community chat-room. Open for everyone to read."
           title="Chat"
           url="https://gitter.im/ReInHerit/community"
         />
         <ReinGridCard
-          body="coming soon"
+          body="Form based content contribution. Available for the public."
           title="Forms"
           url="/portal/exchange"
         />

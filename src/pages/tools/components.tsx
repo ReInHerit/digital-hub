@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 import ToolComponentsFeed from "../../components/shared/ToolComponentsFeed"
 import BaseLayout from "../../components/static/BaseLayout"
@@ -12,10 +13,9 @@ const ToolkitComponentsPage = () => {
   return (
     <BaseLayout>
       <MainHeading
-        subHeading="Tools available via the ReInHerit toolkit."
-      >ReInHerit Toolkit</MainHeading>
-      <p className="w-75">All tools on the platform are <b style={{color:"#d7487e"}}>categorized</b> and public available. </p>
-      <br></br>
+        subHeading="Building blocks for the applications provided by ReInHerit"
+      >Tool components</MainHeading>
+      <p className="w-75">Here you'll find all the building blocks for the applications at the <Link to="/tools/apps">tool apps page</Link>.</p>
       <ToolComponentsFeed></ToolComponentsFeed>
     </BaseLayout>
   )

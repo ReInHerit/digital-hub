@@ -17,7 +17,7 @@ preview: false
 # for open authoring / kanban view for moderation processes
 # warning -> (still in beta!)
 # https://www.netlifycms.org/docs/open-authoring/#enabling-open-authoring
-publish_mode: editorial_workflow   
+# publish_mode: editorial_workflow   
 
 # collections config see here: https://www.netlifycms.org/docs/widgets/#object
 collections:
@@ -33,13 +33,14 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "toolcomponent" }
       - { label: "Page-ID", name: "pageId", widget: "uuid", hint: "You might use this number to reference this item in another collection. Like: '/tools/components/PAGE-ID'"}
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"] }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Main reference", name: "mainReference", widget: "string"}
-      - { label: "Linked webinars", name: "linkedWebinars", widget: "relation", collection: "webinars", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Linked toolkit apps", name: "linkedToolkitApps", widget: "relation", collection: "toolapps", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
-      - { label: "License", name: "license", widget: "string", default: "MIT - CC BY 2.0" }
+      - { label: "Main reference", name: "mainReference", widget: "string", required: false, hint: "Singular (web)-link displayed in the metadata section of the item."}
+      - { label: "Linked webinars", name: "linkedWebinars", widget: "relation", collection: "webinars", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created webinars in this CMS (entries must be already existing)" }
+      - { label: "Linked toolkit apps", name: "linkedToolkitApps", widget: "relation", collection: "toolapps", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created toolkit apps in this CMS (entries must be already existing)" }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0", hint: "Remember to check if the license is compatible with the component" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "toolapps"
     label: "Toolkit: apps"
@@ -53,13 +54,14 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "toolapp" }
       - { label: "Page-ID", name: "pageId", widget: "uuid", hint: "You might use this number to reference this item in another collection. Like: '/tools/apps/ITEM_ID'"}
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Main reference", name: "mainReference", widget: "string"}
-      - { label: "Linked webinars", name: "linkedWebinars", widget: "relation", collection: "webinars", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolcomponents", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
-      - { label: "License", name: "license", widget: "string", default: "MIT - CC BY 2.0" }
+      - { label: "Main reference", name: "mainReference", widget: "string", required: false, hint: "Singular (web)-link displayed in the metadata section of the item."}
+      - { label: "Linked webinars", name: "linkedWebinars", widget: "relation", collection: "webinars", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created webinars in this CMS (entries must be already existing)" }
+      - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolcomponents", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created toolkit components in this CMS (entries must be already existing)" }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "webinars"
     label: "Webinars"
@@ -73,11 +75,13 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "webinar" }
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
-      - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolcomponents", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
-      - { label: "Linked toolkit apps", name: "linkedToolkitApps", widget: "relation", collection: "toolapps", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "The order does not matter and will be lost" }
+      - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolcomponents", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created toolkit components in this CMS (entries must be already existing)" }
+      - { label: "Linked toolkit apps", name: "linkedToolkitApps", widget: "relation", collection: "toolapps", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created toolkit apps in this CMS (entries must be already existing)" }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "performances"
     label: "Performances"
@@ -95,10 +99,12 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "performance" }
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 5 and 150 characters"], required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Performance", name: "linkedPerformance", widget: "select", options: ["PERFORMANCE_01", "PERFORMANCE_02"], multiple: false, required: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "exhibitions"
     label: "Exhibitions"
@@ -116,8 +122,9 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "exhibition" }
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Short description", name: "desc", widget: "string" }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "news"
     label: "News"             # Used in the UI
@@ -131,7 +138,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "news" }
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
-      - { label: "Short description", name: "desc", widget: "string", required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "News type", name: "newsType", widget: "select", options: ["EVENT", "ANNOUNCEMENT"], default: "ANNOUNCEMENT", multiple: false }
@@ -149,10 +156,11 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "eshop" }
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 5 and 150 characters"], required: true }
-      - { label: "Short description", name: "desc", widget: "string", required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Design / Image", name: "thumbnail", widget: "image", media_library: {config: {max_file_size: 1000000}}} # in bytes, only for default media library}
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown", media_library: {config: {max_file_size: 100000}} }
   - name: "tags"
     label: "Digital-Hub: Flexible tags"
@@ -171,7 +179,7 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tag type", name: "tag_type", widget: "select", options: ["TECHNICAL", "CONTENT_BASED"], multiple: false, required: true }
       - { label: "Tag group", name: "tag_group", widget: "select", options: ["TOOLKIT", "NEWS", "E-SHOP", "PERFORMANCE", "EXHIBITION", "TRAINING"], default: ["NEWS"], multiple: true, required: true }
-      - { label: "Short description", name: "desc", widget: "string", required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Body", name: "body", widget: "markdown",required: false, media_library: {config: {max_file_size: 100000}} }
   - name: "faq"
     label: "Digital-Hub: FAQ"             # Used in the UI
@@ -230,11 +238,13 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "event" }
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Event title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Host instutition", name: "host", widget: "string" }
       - { label: "Description", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
       - { label: "Location of the event", name: "location", widget: "string" }
       - { label: "Start of the event", name: "startDate", widget: "date" }
       - { label: "End of the event", name: "endDate", widget: "date" }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Email adress", name: "email", widget: "string" }
   - name: "showcase"
     label: "Digital-Hub: Showcase entries"             # Used in the UI
@@ -250,5 +260,6 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "event" }
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Showcase description", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Save as Draft", name: "draft", required: true, widget: "boolean", default: true, hint: "Draft will be hidden on the Digital Hub (but still be visible on github)"}
       - { label: "Description", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }

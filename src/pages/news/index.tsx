@@ -8,10 +8,10 @@ import MainHeading from "../../components/static/MainHeading"
 const NewsPage: React.FC = () => {
   return (
     <BaseLayout>
-      <MainHeading subHeading="All relevant news for the digital hub">
+      <MainHeading subHeading="General news about recent ReInHerit developments and event announcements">
         News
       </MainHeading>
-      <p>Here you'll find <b style={{color:"#2eacc8"}}>explicit news</b> messages provided by the ReInHerit team. This page is not meant as display of recent activity</p>
+      <p>Here you'll find <b style={{color:"#2eacc8"}}>explicit news</b> messages provided by the ReInHerit team, not necessarily related to actual content on the digital hub.</p>
       <NewsFeed></NewsFeed>
     </BaseLayout>
   )
