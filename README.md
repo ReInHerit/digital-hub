@@ -49,13 +49,16 @@ cd c:/path/to/my/local/clone
 # start gatsby development server
 # requires gatsby-cli to be installed
 gatsby develop
+# or
+npm run develop
+
 
 # gatsby runs now on port displayed in cli
 
 ```
 
 
-## Deployment
+## Staging Server
 
 - link to pre-released digi-hub page here -> https://distracted-torvalds-d96327.netlify.app/
 
@@ -79,11 +82,6 @@ gatsby develop
   -> don't push against the branch via code / only pull request new code to branch.
   -> building on the server will be __initiated by hand__ atm.
 
-```sh
-# netlify runs on the server -> runs 'gatsby build' -> deploys files 
-yarn build
-
-```
 
 #### Netlify CMS Auth
 
@@ -97,5 +95,20 @@ yarn build
   -> implementation details here: https://github.com/ReInHerit/digital-hub/issues/9
 
 
-## Production
+## Production and deployment
 
+As production environment github pages was chosen. The procedure 
+follows the standard procedures necessary to run a website using a github repository.
+
+
+
+### Build and deploy new version
+
+```sh
+# builds production files in repo-clone under <root>/public 
+npm run build
+
+# deploys files from public folder to specified gh-pages repo
+npm run deploy
+
+```

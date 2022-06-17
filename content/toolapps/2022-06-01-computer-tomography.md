@@ -12,7 +12,7 @@ linkedWebinars:
   - 732aebbf-6543-4998-b8d6-6c5d548ead84____Fancy Webinar.
 linkedToolkitComponents:
   - 29086240-ba81-4e5d-90f9-2e37afb010dd____NLTK
-license: MIT - CC BY 2.0
+license: CC BY 2.0
 ---
 # Tools and apps
 

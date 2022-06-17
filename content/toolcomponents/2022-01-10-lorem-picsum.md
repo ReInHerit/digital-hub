@@ -10,7 +10,7 @@ linkedWebinars:
   - d8d9f895-d120-491a-80b0-ccaca6d89649____Newest Material.
 linkedToolkitApps:
   - 3ba29a7b-2b05-48fc-a1fa-536ff4bf1d37____Computer Vision
-license: "-"
+license: CC BY 2.0
 tool-type:
   - REST-API
   - Web-Interface

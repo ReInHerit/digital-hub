@@ -28,7 +28,6 @@ const ReinGridCard: React.FC<Props> = props => {
             <Card.Title style={{ fontSize: "1em" }}>{props.title}</Card.Title>
             <hr />
             <Card.Text>{props.body}</Card.Text>
-            <br></br>
             {props.children}
           </Card.Body>
         </Link>

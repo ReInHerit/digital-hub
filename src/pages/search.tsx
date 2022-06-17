@@ -45,7 +45,7 @@ const SearchPage: React.FC = () => {
       <MainHeading
         subHeading="Fulltext search across all content provided by the digital-hub."
       >Search</MainHeading>
-      <p>Here you'll find a fulltext search across all collection items provided by the digital hub. Search values have to be exact matches and are based on exact occurences in the collection titles.</p>
+      <p>Here you'll find a fulltext search across all collection items provided by the digital hub. Search values have to be exact matches and are based on exact occurences.</p>
       <InputGroup className="mb-3">
         <FormControl
           placeholder="Search"
