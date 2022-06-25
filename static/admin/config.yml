@@ -6,7 +6,9 @@ local_backend: true             # true if accessed local dev instance of netlify
 search: true   # disables search for collections -> hidden collections could be found with other config!
 logo_url: /images/rein_logo.jpg   # setting a custom logo used by the CMS. Displayed ad login screen.
 
-media_folder: "images/uploads"
+media_folder: "static/uploads"
+public_folder: "uploads"                 # if not set cms images will be searched under -> static/upload but should be just /uploads in production!
+
 # next two lines are only necessery if media should be deactivated
 media_library:      # comment out will make media available.
   name: 'disabled'  # comment out will make media available.
