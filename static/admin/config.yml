@@ -144,6 +144,7 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "exhibitionCollection" }
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
       - { label: "Date", name: "date", widget: "datetime", hint: "Date associated with this post on the digital-hub." }
+      - { label: "Image", name: "image", widget: "image", hint: "Primary image for the object to be displayed.", media_library: {config: {max_file_size: 1000000}}} # in bytes, only for default media library}
       - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Topic", name: "topic", widget: "select", options: ["gender", "violence", "migration"], hint: "Related exhibition topic.", multiple: false }
