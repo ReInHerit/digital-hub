@@ -112,8 +112,8 @@ collections:
     label: "Exhibitions"
     label_singular: 'exhibition'
     description: "This collection is intended for submitting texts on the exhibitions, which will be developed and carried out in the ReInHerit project. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
-    hide: false                # hides specific collection -> still available if you have the link!
-    folder: "content/exhibitions"
+    hide: true                # hides specific collection -> still available if you have the link!
+    folder: "content/exhibition"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     # disables creation + deletion of items in collection
     # delete: false
@@ -126,6 +126,29 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
+      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+  - name: "exhibitionCollection"
+    label: "Exihibition-collection"
+    label_singular: 'item'
+    description: "This collection is intended for submitting individual objects for exhibitions, which will be developed and carried out in the ReInHerit project. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
+    hide: false                # hides specific collection -> still available if you have the link!
+    folder: "content/exhibitionCollection"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    # disables creation + deletion of items in collection
+    # delete: false
+    create: true
+    # 
+    fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid"}
+      - { label: "Type", name: "type", widget: "hidden", default: "exhibitionCollection" }
+      - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
+      - { label: "Date", name: "date", widget: "datetime", hint: "Date associated with this post on the digital-hub." }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
+      - { label: "Topic", name: "topic", widget: "select", options: ["gender", "violence", "migration"], hint: "Related exhibition topic.", multiple: false }
+      - { label: "Time period", name: "period", widget: "string", required: true, hint: "Time period of object like 'early-modern-times' or 16th century." }
+      - { label: "Place", name: "place", widget: "string", required: true, hint: "Associated place of object like 'Berlin' or 'Europe'." }
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
   - name: "news"
