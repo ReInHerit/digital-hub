@@ -1,5 +1,7 @@
 import React from "react"
 import { Button } from "react-bootstrap"
+import ReinCardGrid from "../../shared/ReinCardGrid";
+import ReinCard from "../../shared/ReinCardGrid/ReinGridCard";
 
 const ExhibitionCollection: React.FC = () => {
   return (
@@ -33,6 +35,9 @@ const ExhibitionCollection: React.FC = () => {
           key activities that will enable the collaboration of museums and
           cultural heritage sites, real-time.
         </p>
+
+        <ReinCardGrid></ReinCardGrid>
+        
       </div>
     </>
   )
