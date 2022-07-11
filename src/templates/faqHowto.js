@@ -21,7 +21,7 @@ export default function Template({
               <>
                 This resource is part of the{" "}
                 <Link
-                  style={{ textDecoration: "none", color: "#2eacc8" }}
+                  className="text-primary text-decoration-none"
                   to={`/doc/${frontmatter.type}`}
                 >
                   {frontmatter.type}

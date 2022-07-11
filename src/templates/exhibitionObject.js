@@ -15,7 +15,7 @@ export default function Template({
       <div className="blog-post-container">
         <div className="blog-post">
           <MainHeading
-            subHeading={<>This resource is part of the <Link style={{textDecoration:"none", color:"#2eacc8"}} to={`/exhibitions`}>exhibitions</Link> section.</>}
+            subHeading={<>This resource is part of the <Link className="text-primary text-decoration-none" to={`/exhibitions`}>exhibitions</Link> section.</>}
           >{frontmatter.title}</MainHeading>
           <p className="w-75"><i>Excerpt: </i>{markdownRemark.excerpt}</p>
           <div>
