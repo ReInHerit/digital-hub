@@ -163,7 +163,7 @@ collections:
     label: "News"             # Used in the UI
     label_singular: 'message' # Used in the UI, ie: "New Post"
     folder: "content/news"
-    description: Here you may provide all your news posts etc... Make sure that you have ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+    description: This collection is intended for submitting news posts related to the ReInHerit digital-hub.
     create: true              # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
