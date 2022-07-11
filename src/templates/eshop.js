@@ -50,7 +50,7 @@ export default function Template({
             }
           >
             <Container fluid className="bg-white card p-4 mb-2" style={{border:"1px solid grey", borderRadius:0}}>
-              <img src={frontmatter.thumbnail}></img>
+              <img src={frontmatter.mainImage}></img>
             </Container>
             <Container fluid className="bg-white card p-4" style={{border:"1px solid grey", borderRadius:0}}>
               <div
@@ -74,6 +74,7 @@ export const pageQuery = graphql`
         thumbnail
         type
         date
+        mainImage
       }
       id
       excerpt
