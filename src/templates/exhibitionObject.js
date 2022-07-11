@@ -17,48 +17,19 @@ export default function Template({
       <div className="blog-post-container">
         <div className="blog-post">
           <MainHeading
-            subHeading={<>This resource is part of the <Link style={{textDecoration:"none", color:"#2eacc8"}} to={`/${frontmatter.type}`}>{frontmatter.type}</Link> section.</>}
+            subHeading={<>This resource is part of the <Link style={{textDecoration:"none", color:"#2eacc8"}} to={`/exhibitions`}>exhibitions</Link> section.</>}
           >{frontmatter.title}</MainHeading>
           <p className="w-75"><i>Excerpt: </i>{markdownRemark.excerpt}</p>
-          <p>
-          </p>
-
-          <SideMainLayout
-            side={
-              <div style={{border:"1px solid grey", borderRadius:0}} className="card p-4 border-radius-0">
-
-                <div>
-                  <i>Author(s)</i>
-                </div>
-                <div>
-                  ReInHerit Project
-                </div>
-                <br />
-
-                <div>
-                  <i>Publication date</i>
-                </div>
-                <div>{frontmatter.date}</div>
-                <br />
-
-                {/* <div>
-                  <i>Terms of reuse</i>
-                </div>
-                <div>MIT - CC BY 4.0</div>
-                <br /> */}
-              </div>
-            }
-          >
-            <Container fluid className="bg-white card p-4 mb-2" style={{border:"1px solid grey", borderRadius:0}}>
-              <img src={frontmatter.mainImage}></img>
-            </Container>
-            <Container fluid className="bg-white card p-4" style={{border:"1px solid grey", borderRadius:0}}>
+          <div>
+            <div className="mb-2"><span className="bg-primary p-1 ps-3 pe-3 text-white rounded">{frontmatter.title}</span></div>
+            <div className="bg-light p-3 rounded border">
+              <img src={frontmatter.image}></img>
               <div
-                className="blog-post-content"
-                dangerouslySetInnerHTML={{ __html: html }}
-              />
-            </Container>
-          </SideMainLayout>
+                  className="blog-post-content text-primary"
+                  dangerouslySetInnerHTML={{ __html: html }}
+                />
+            </div>
+          </div>
         </div>
       </div>
     </BaseLayout>
@@ -74,7 +45,7 @@ export const pageQuery = graphql`
         thumbnail
         type
         date
-        mainImage
+        image
       }
       id
       excerpt
