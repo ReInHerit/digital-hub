@@ -79,7 +79,7 @@ declare module NewsQueryData {
     target_audience: string[]
     pageId: string
     mainReference: string | null
-    thumbnail: string
+    thumbnail?: string
   }
 
   export interface Node {

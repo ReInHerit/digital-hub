@@ -7,6 +7,7 @@ import { Badge, Form } from "react-bootstrap"
 import SideMainLayout from "../Layout/SideMainLayout"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
+import Thumbnail from "../Thumbnail"
 
 /**
  *
@@ -114,7 +115,9 @@ const ToolkitFeed: React.FC = () => {
                       {edge.node.frontmatter.mainReference && <p className="m-0"><a style={{color:"#6c757d"}} className="text-decoration-none" target="_blank" href={edge.node.frontmatter.mainReference}><FontAwesomeIcon icon={faLink} scale={".5x"}/> - {edge.node.frontmatter.mainReference}</a></p>}
                     </div>
                   }
-                ></ReinGridCard>
+                >
+                  { edge.node.frontmatter.thumbnail && <Thumbnail src={edge.node.frontmatter.thumbnail}></Thumbnail>}
+                </ReinGridCard>
               )
             }
           })}
@@ -144,6 +147,7 @@ const ToolsQuery = graphql`
             pageId
             mainReference
             license
+            thumbnail
           }
           wordCount {
             words
@@ -168,6 +172,7 @@ declare module ToolsQueryData {
     pageId: string
     license: string
     mainReference: string | null
+    thumbnail?: string
   }
 
   export interface Node {
