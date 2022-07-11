@@ -1,7 +1,5 @@
 import { graphql, Link } from "gatsby"
 import React from "react"
-import { Container } from "react-bootstrap"
-import SideMainLayout from "../components/shared/Layout/SideMainLayout"
 import BaseLayout from "../components/static/BaseLayout"
 import MainHeading from "../components/static/MainHeading"
 
