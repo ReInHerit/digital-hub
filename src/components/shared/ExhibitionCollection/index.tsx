@@ -1,9 +1,18 @@
+import { faClock } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import { Button } from "react-bootstrap"
-import ReinCardGrid from "../../shared/ReinCardGrid";
-import ReinCard from "../../shared/ReinCardGrid/ReinGridCard";
+import ReinCardGrid from "../../shared/ReinCardGrid"
+import ReinGridCard from "../../shared/ReinCardGrid/ReinGridCard"
+import ReinCard from "../../shared/ReinCardGrid/ReinGridCard"
+import Thumbnail from "../Thumbnail"
 
 const ExhibitionCollection: React.FC = () => {
+  const data: ExhibitionCollectionQuery.Data = useStaticQuery(
+    EXHIBITION_COLLECTION_QUERY
+  )
+
   return (
     <>
       <div className="mb-md-5">
@@ -35,12 +44,88 @@ const ExhibitionCollection: React.FC = () => {
           key activities that will enable the collaboration of museums and
           cultural heritage sites, real-time.
         </p>
-
-        <ReinCardGrid></ReinCardGrid>
-        
       </div>
+      <br/>
+      <ReinCardGrid>
+        {data.allMarkdownRemark.edges.map(edge => {
+          return (
+            <ReinGridCard
+              key={edge.node.frontmatter.pageId}
+              body={edge.node.excerpt}
+              title={edge.node.frontmatter.title}
+              url={`/exhibitions/${edge.node.frontmatter.pageId}`}
+              uid={edge.node.frontmatter.pageId}
+              // footerContent={
+              //   <div>
+              //     <p className="m-0"><FontAwesomeIcon icon={faClock} scale={".5x"}/> - {edge.node.wordCount.words} words</p>
+              //     <p className="m-0"><FontAwesomeIcon icon={faWatchmanMonitoring} scale={".5x"}/> - {edge.node.frontmatter.date}</p>
+              //     {edge.node.frontmatter.mainReference && <p className="m-0"><a style={{color:"#6c757d"}} className="text-decoration-none" target="_blank" href={edge.node.frontmatter.mainReference}><FontAwesomeIcon icon={faLink} scale={".5x"}/> - {edge.node.frontmatter.mainReference}</a></p>}
+              //   </div>
+              // }
+            >
+              {edge.node.frontmatter.thumbnail && (
+                <Thumbnail src={edge.node.frontmatter.thumbnail}></Thumbnail>
+              )}
+            </ReinGridCard>
+          )
+        })}
+      </ReinCardGrid>
     </>
   )
 }
 
 export default ExhibitionCollection
+
+const EXHIBITION_COLLECTION_QUERY = graphql`
+  query ExhibitionCollectionQuery {
+    allMarkdownRemark(
+      filter: {
+        fileAbsolutePath: { regex: "/exhibitionCollection/" }
+        frontmatter: {}
+      }
+    ) {
+      edges {
+        node {
+          excerpt
+          frontmatter {
+            pageId
+            title
+            thumbnail
+          }
+        }
+      }
+    }
+  }
+`
+
+declare module ExhibitionCollectionQuery {
+  export interface Frontmatter {
+    pageId: string
+    title: string
+    thumbnail: string
+  }
+
+  export interface Node {
+    excerpt: string
+    frontmatter: Frontmatter
+  }
+
+  export interface Edge {
+    node: Node
+  }
+
+  export interface AllMarkdownRemark {
+    edges: Edge[]
+  }
+
+  export interface Data {
+    allMarkdownRemark: AllMarkdownRemark
+  }
+
+  export interface Extensions {}
+
+  export interface RootObject {
+    data: Data
+    extensions: Extensions
+  }
+}
