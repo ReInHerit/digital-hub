@@ -7,6 +7,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
+import Thumbnail from "../Thumbnail"
 
 /**
  * Component reading out data from markdown files at build time using gatsby.
@@ -35,7 +36,7 @@ const NewsFeed: React.FC = () => {
               </div>
             }
           >
-            { edge.node.frontmatter.thumbnail && <img src={edge.node.frontmatter.thumbnail} style={{maxWidth:100, maxHeight:100}}></img>}
+            { edge.node.frontmatter.thumbnail && <Thumbnail src={edge.node.frontmatter.thumbnail}></Thumbnail>}
 
           </ReinGridCard>
         )})}
