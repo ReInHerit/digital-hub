@@ -14,25 +14,32 @@ export default function Template({
 
   return (
     <BaseLayout>
-      <div className="blog-post-container">
+      <MainHeading
+        subHeading={
+          <>
+            This resource is part of the{" "}
+            <Link
+              className="text-primary text-dark text-decoration-none"
+              to={`/${frontmatter.type}`}
+            >
+              {frontmatter.type}
+            </Link>{" "}
+            section.
+          </>
+        }
+        subText={markdownRemark.excerpt}
+      >
+        {frontmatter.title}
+      </MainHeading>
+      <div id="markdown_container" className="blog-post-container">
         <div className="blog-post">
-          <MainHeading
-            subHeading={<>This resource is part of the <Link className="text-primary text-decoration-none" to={`/${frontmatter.type}`}>{frontmatter.type}</Link> section.</>}
-          >{frontmatter.title}</MainHeading>
-          <p className="w-75"><i>Excerpt: </i>{markdownRemark.excerpt}</p>
-          <p>
-          </p>
-
           <SideMainLayout
             side={
-              <div style={{border:"1px solid grey", borderRadius:0}} className="card p-4 border-radius-0">
-
+              <div className="card p-4 border-0 shadow bg-white">
                 <div>
                   <i>Author(s)</i>
                 </div>
-                <div>
-                  ReInHerit Project
-                </div>
+                <div>ReInHerit Project</div>
                 <br />
 
                 <div>
@@ -49,10 +56,10 @@ export default function Template({
               </div>
             }
           >
-            <Container fluid className="bg-white card p-4 mb-2" style={{border:"1px solid grey", borderRadius:0}}>
+            <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">
               <img src={frontmatter.mainImage}></img>
             </Container>
-            <Container fluid className="bg-white card p-4" style={{border:"1px solid grey", borderRadius:0}}>
+            <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">
               <div
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}
@@ -66,7 +73,7 @@ export default function Template({
 }
 export const pageQuery = graphql`
   query($id: String!) {
-    markdownRemark(frontmatter: {pageId : {eq:$id}}) {
+    markdownRemark(frontmatter: { pageId: { eq: $id } }) {
       html
       frontmatter {
         date
@@ -80,5 +87,4 @@ export const pageQuery = graphql`
       excerpt
     }
   }
-
 `

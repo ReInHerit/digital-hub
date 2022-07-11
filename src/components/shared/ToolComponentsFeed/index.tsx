@@ -56,9 +56,8 @@ const ToolkitComponentsFeed: React.FC = () => {
   return (
     <SideMainLayout
       side={
-        <div className="border border-dark p-4">
-          <b style={{ color: "#2eacc8" }}>Filter categories</b>
-          <br />
+        <div className="bg-white card p-4 mb-2 border-0 shadow">
+          <p>Filter categories</p>
           {tags.length !== 0 ? (
             tags.map(tag => (
               <Badge
@@ -81,7 +80,6 @@ const ToolkitComponentsFeed: React.FC = () => {
               *
             </Badge>
           )}
-          <br></br>
           <br></br>
           {ALL_TAGS.sort().map(curTag => (
             <Form.Check

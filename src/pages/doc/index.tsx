@@ -1,5 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
+import { Container } from "react-bootstrap"
 import SideBarsLayout from "../../components/shared/Layout/SideBarsLayout"
 import BaseLayout from "../../components/static/BaseLayout"
 import DocNav from "../../components/static/DocNav"
@@ -8,11 +9,15 @@ import MainHeading from "../../components/static/MainHeading"
 const DocAbout = () => {
   return (
     <BaseLayout>
-      <MainHeading subHeading="Materials / manuals about the ReInHerit digital-hub itself">Documentation</MainHeading>
-      <p>Here you'll find explainatory material, helpful texts and graphics for the digital-hub itself.</p>
+      <MainHeading subHeading="Materials / manuals about the ReInHerit digital-hub itself"
+        subText="Here you'll find explainatory material, helpful texts and graphics for the digital-hub itself."
+      >Documentation</MainHeading>
+
+      <Container fluid className="bg-white p-md-5 p-sm-3 shadow border-0">
       <SideBarsLayout
         left={<DocNav/>}
       >
+        
         <h2>Digital hub architecture</h2>
         <p>
           The core of ReInHerit's digital hub consists of a <b>statically generated dynamic site</b> with 
@@ -64,6 +69,7 @@ const DocAbout = () => {
         <br />
         <br />
       </SideBarsLayout>
+      </Container>
     </BaseLayout>
   )
 }

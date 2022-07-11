@@ -1,5 +1,5 @@
 import React from "react"
-import { Accordion } from "react-bootstrap"
+import { Accordion, Container } from "react-bootstrap"
 import SideBarsLayout from "../../components/shared/Layout/SideBarsLayout"
 import BaseLayout from "../../components/static/BaseLayout"
 import DocNav from "../../components/static/DocNav"
@@ -8,8 +8,8 @@ import MainHeading from "../../components/static/MainHeading"
 const Authorization = () => {
   return (
     <BaseLayout>
-      <MainHeading subHeading="Materials / manuals about the ReInHerit digital-hub itself">Documentation</MainHeading>
-      <p>Here you'll find explainatory material, helpful texts and graphics for the digital-hub itself.</p>
+      <MainHeading subHeading="Materials / manuals about the ReInHerit digital-hub itself" subText="Here you'll find explainatory material, helpful texts and graphics for the digital-hub itself.">Documentation</MainHeading>
+      <Container fluid className="bg-white p-md-5 p-sm-3 shadow border-0">
       <SideBarsLayout left={<DocNav />}>
         <h3>Access levels / roles in the Digital Hub</h3>
         <p>Overview of the basic access levels the digital hub provides. In short: if content should be contributed to the digital-hub enviroment then - depending on the used funcationality - authentication (is the user wo he/she claims to be?) and authorization (what access levels has the user?) are required.</p>
@@ -37,6 +37,7 @@ const Authorization = () => {
           </Accordion.Item>
         </Accordion>
       </SideBarsLayout>
+      </Container>
     </BaseLayout>
   )
 }

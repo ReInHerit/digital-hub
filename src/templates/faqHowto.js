@@ -35,6 +35,7 @@ export default function Template({
           <br />
           <h2 className="h5">{frontmatter.title}</h2>
           <div
+            id="markdown_container"
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />

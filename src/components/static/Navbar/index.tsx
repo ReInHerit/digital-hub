@@ -1,4 +1,4 @@
-import { faSearch } from "@fortawesome/free-solid-svg-icons"
+import { faHome, faSearch } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "gatsby"
 import React from "react"
@@ -11,19 +11,21 @@ const ReinNavbar: React.FC = () => {
         id="reinnav"
         collapseOnSelect
         expand="lg"
-        className="bg-white p-sm-3 ps-sm-4"
+        fixed="top"
+        className="bg-white p-sm-2 p-md-3 shadow-sm"
       >
         <Container fluid>
           {/* <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none"><img style={{maxWidth:"50px"}} src="/images/rein_logo.jpg"></img></Link></Navbar.Brand> */}
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Link style={{color:"#424753"}} className="text-decoration-none nav-link" to="/">
+                <FontAwesomeIcon fill="red" icon={faHome}></FontAwesomeIcon> Home
+              </Link>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Link className="text-dark text-decoration-none nav-link" to="/">
-                Home
-              </Link>
               <NavDropdown title="About" id="basic-nav-dropdown">
                 <Link
-                  className="text-dark text-decoration-none dropdown-item"
+                  style={{color:"#424753"}}
+                  className="text-decoration-none dropdown-item"
                   to="/about"
                 >
                   Project
@@ -54,7 +56,7 @@ const ReinNavbar: React.FC = () => {
                 </Link>
               </NavDropdown>
               <Nav.Link as="div">
-                <Link to="/news" className="text-dark text-decoration-none">
+                <Link style={{color:"#424753"}} to="/news" className="text-decoration-none">
                   News
                 </Link>
               </Nav.Link>
@@ -157,7 +159,8 @@ const ReinNavbar: React.FC = () => {
                 </Link>
               </NavDropdown>
               <Link
-                className="text-dark text-decoration-none nav-link"
+                style={{color:"#424753"}}
+                className="text-decoration-none nav-link"
                 to="/eshop"
               >
                 eShop

@@ -3,7 +3,7 @@ import BaseLayout from "../components/static/BaseLayout"
 import MainHeading from "../components/static/MainHeading"
 import { useFlexSearch } from "react-use-flexsearch"
 import { graphql, Link, useStaticQuery } from "gatsby"
-import { FormControl, InputGroup } from "react-bootstrap"
+import { Container, FormControl, InputGroup } from "react-bootstrap"
 
 const SearchPage: React.FC = () => {
   const [searchQuery, setSearchQuery] = React.useState("")
@@ -43,9 +43,10 @@ const SearchPage: React.FC = () => {
   return (
     <BaseLayout>
       <MainHeading
+        subText="Here you'll find a fulltext search across all collection items provided by the digital hub. Search values have to be exact matches and are based on exact occurences."
         subHeading="Fulltext search across all content provided by the digital-hub."
       >Search</MainHeading>
-      <p>Here you'll find a fulltext search across all collection items provided by the digital hub. Search values have to be exact matches and are based on exact occurences.</p>
+      <Container fluid className="bg-white p-md-5 p-sm-3 shadow border-0">
       <InputGroup className="mb-3">
         <FormControl
           placeholder="Search"
@@ -65,6 +66,7 @@ const SearchPage: React.FC = () => {
           </li>
         ))}
       </ul>
+      </Container>
     </BaseLayout>
   )
 }

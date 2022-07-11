@@ -1,3 +1,5 @@
+import { faFile } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "gatsby"
 import React from "react"
 import { Card, Col} from "react-bootstrap"
@@ -20,25 +22,25 @@ const ReinGridCard: React.FC<Props> = props => {
   return (
     <Col key={props.uid && props.uid}>
       <Card
-        className="rounded rounded-0 reincard"
-        style={{ fontSize: ".95em", borderColor: "black" }}
+        className="rounded rounded-5 reincard border-0 shadow"
+        style={{ fontSize: ".95em"}}
       >
         <Link to={props.url} className="text-decoration-none text-dark">
-          <Card.Body>
-            <Card.Title style={{ fontSize: "1em" }}>{props.title}</Card.Title>
+          <Card.Body style={{minHeight:"200px"}}>
+            <Card.Title style={{ fontSize: "1em" }}><FontAwesomeIcon style={{fill:"red"}} icon={faFile} size="1x" className="me-md-1"></FontAwesomeIcon> {props.title}</Card.Title>
             <hr />
             <Card.Text>{props.body}</Card.Text>
             {props.children}
           </Card.Body>
         </Link>
-        {(props.footerContent || props.uid) && (
-          <Card.Footer className="bg-white border-0">
+        
+          <Card.Footer className="border-0">
             <small className="text-muted d-inline">
               {props.footerContent && props.footerContent}
               <br></br>
             </small>
           </Card.Footer>
-        )}
+       
       </Card>
     </Col>
   )

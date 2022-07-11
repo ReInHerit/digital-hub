@@ -2,6 +2,7 @@
 * {
   /* font-family: Roboto,system-ui,sans-serif !important; */
   /* font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif !important; */
+  color: #424753;
 }
 
 a {
@@ -43,6 +44,22 @@ Ensures that nav does not overlap the gitter chat
   z-index: 999999;
 }
 
+body {
+  background: #F0F2F5;
+}
+
+#markdown_container {
+  /* font-size: .5em !important; */
+}
+
+#markdown_container h1 {
+  font-size: 1.5em;
+}
+
+#markdown_container h2 {
+  font-size: 1.35em;
+}
+
 @media (min-width: 974px) {
   .rein_main_container {
     min-height: 100vh;
@@ -57,8 +74,8 @@ Ensures that nav does not overlap the gitter chat
     padding: 10em;
   }
 
-  #reinnav > div {
-    padding-left: 8em;
-  }
 }
 
+path {
+  fill: lightgrey !important;
+}

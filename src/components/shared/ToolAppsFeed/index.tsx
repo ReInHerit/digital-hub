@@ -56,9 +56,8 @@ const ToolkitFeed: React.FC = () => {
   return (
     <SideMainLayout
       side={
-        <div className="border border-dark p-4">
-          <b style={{color:"#2eacc8"}}>Filter categories</b>
-          <br/>
+        <div className="bg-white card p-3 mb-2 border-0 shadow">
+          <p>Filter categories</p>
           {tags.length !== 0
           ? tags.map(tag => (
               <Badge onClick={() => toggleTag(tag)} bg="white" color="black" text={"black" as "white"} className="me-1 btn border">
@@ -68,7 +67,6 @@ const ToolkitFeed: React.FC = () => {
           : <Badge className="me-1 btn border" bg="white" color="black" text={"black" as "white"}>
           *
         </Badge>}
-        <br></br>
         <br></br>
           {ALL_TAGS.sort().map(curTag => (
             <Form.Check

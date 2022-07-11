@@ -1,6 +1,6 @@
 
 import React from "react"
-import { Col, Row } from "react-bootstrap"
+import { Col, Container, Row } from "react-bootstrap"
 import SEO from "../../components/seo"
 import BaseLayout from "../../components/static/BaseLayout"
 import MainHeading from "../../components/static/MainHeading"
@@ -9,7 +9,8 @@ const AboutPage = () => (
   <React.Fragment>
     <BaseLayout>
       <SEO title="About" />
-      <MainHeading>About ReInHerit</MainHeading>
+      <MainHeading subText="Here you'll find background information about ReInHerit as Horizon2020 project.">About ReInHerit</MainHeading>
+      <Container fluid className="bg-white shadow p-sm-3 p-md-5 rounded">
       <Row>
         <Col md={8}>
           <h2 className="h4">Aims and challenges</h2>
@@ -24,7 +25,8 @@ const AboutPage = () => (
             citizens) by developing solutions, guidelines and tools, which are
             accessible for everyone.{" "}
           </p>
-          <hr></hr>
+          <br></br>
+          <br></br>
           <h2 className="h4">Solutions and possibilities </h2>
           <p>
             To achieve this goal a sustainable digital ecosystem for cultural
@@ -43,6 +45,7 @@ const AboutPage = () => (
           </p>
         </Col>
       </Row>
+      </Container>
     </BaseLayout>
   </React.Fragment>
 )

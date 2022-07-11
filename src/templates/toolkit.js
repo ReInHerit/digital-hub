@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import BaseLayout from "../components/static/BaseLayout"
-import { Container} from "react-bootstrap"
+import { Container } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowAltCircleLeft, faLink } from "@fortawesome/free-solid-svg-icons"
 import { useReinLocalStorage } from "../hooks/useReinLocalStorage"
@@ -16,81 +16,125 @@ export default function Template({
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
 
-  const { mapFaSymbol } = useReinLocalStorage();
+  const { mapFaSymbol } = useReinLocalStorage()
 
   return (
     <BaseLayout>
-      <div className="blog-post-container">
+      <MainHeading
+        subHeading={
+          frontmatter.type.charAt(0).toUpperCase() +
+          frontmatter.type.slice(1, frontmatter.type.length)
+        }
+        subText={frontmatter.desc ? frontmatter.desc : markdownRemark.excerpt}
+      >
+        {frontmatter.title}
+      </MainHeading>
+      <div className="blog-post-container" id="markdown_container">
         <div className="blog-post">
-          <MainHeading
-            subHeading={frontmatter.type.charAt(0).toUpperCase() + frontmatter.type.slice(1,frontmatter.type.length)}
-          >{frontmatter.title}</MainHeading>
-          <p className="w-75"><i>Summary: </i>{frontmatter.desc ? frontmatter.desc : markdownRemark.excerpt}</p>
           <SideMainLayout
             side={
-              <div style={{border:"1px solid grey", borderRadius:0}} className="card p-4 border-radius-0">
+              <div className="bg-white card p-4 mb-2 border-0 shadow">
+                {frontmatter.link && (
+                  <>
+                    <div>
+                      <i>Main reference</i>
+                    </div>
+                    <div>
+                      <a target="_blank" href={frontmatter.link}>
+                        <FontAwesomeIcon icon={faLink}></FontAwesomeIcon>
+                      </a>
+                    </div>
+                    <br />
+                  </>
+                )}
 
-                {frontmatter.link && <><div>
-                  <i>Main reference</i>
-                </div>
-                <div>
-                  <a target="_blank" href={frontmatter.link}><FontAwesomeIcon icon={faLink}></FontAwesomeIcon></a>
-                </div><br/></>}
+                {frontmatter.linkedWebinars &&
+                  frontmatter.linkedWebinars.length !== 0 && (
+                    <>
+                      <div>
+                        <i>Referenced webinar(s)</i>
+                      </div>
+                      <div>
+                        <ul>
+                          {frontmatter.linkedWebinars.map(webinarString => {
+                            const [
+                              webinarId,
+                              webinarTitle,
+                            ] = webinarString.split("____")
 
-                {(frontmatter.linkedWebinars && frontmatter.linkedWebinars.length !== 0) && <>
-                  <div>
-                    <i>Referenced webinar(s)</i>
-                  </div>
-                  <div>
-                    <ul>
-                      {frontmatter.linkedWebinars.map(webinarString => {
-                      
-                        const [webinarId, webinarTitle] = webinarString.split("____");
+                            return (
+                              <li>
+                                <Link to={`/webinars/${webinarId}`}>
+                                  {webinarTitle}
+                                </Link>
+                              </li>
+                            )
+                          })}
+                        </ul>
+                      </div>
+                      <br></br>
+                    </>
+                  )}
 
-                        return <li><Link to={`/webinars/${webinarId}`}>{webinarTitle}</Link></li>
-                      })}
-                    </ul>
-                  </div>
-                <br></br></>}
+                {frontmatter.linkedToolkitComponents &&
+                  frontmatter.linkedToolkitComponents.length !== 0 && (
+                    <>
+                      <div>
+                        <i>Referenced components(s)</i>
+                      </div>
+                      <div>
+                        <ul>
+                          {frontmatter.linkedToolkitComponents.map(
+                            componentString => {
+                              const [
+                                componentId,
+                                componentTitle,
+                              ] = componentString.split("____")
 
-                {(frontmatter.linkedToolkitComponents && frontmatter.linkedToolkitComponents.length !== 0) && <>
-                  <div>
-                    <i>Referenced components(s)</i>
-                  </div>
-                  <div>
-                    <ul>
-                      {frontmatter.linkedToolkitComponents.map(componentString => {
-                      
-                        const [componentId, componentTitle] = componentString.split("____");
+                              return (
+                                <li>
+                                  <Link to={`/tools/components/${componentId}`}>
+                                    {componentTitle}
+                                  </Link>
+                                </li>
+                              )
+                            }
+                          )}
+                        </ul>
+                      </div>
+                      <br></br>
+                    </>
+                  )}
 
-                        return <li><Link to={`/tools/components/${componentId}`}>{componentTitle}</Link></li>
-                      })}
-                    </ul>
-                  </div>
-                <br></br></>}
+                {frontmatter.linkedToolkitApps &&
+                  frontmatter.linkedToolkitApps.length !== 0 && (
+                    <>
+                      <div>
+                        <i>Referenced app(s)</i>
+                      </div>
+                      <div>
+                        <ul>
+                          {frontmatter.linkedToolkitApps.map(appString => {
+                            const [appId, appTitle] = appString.split("____")
 
-                {(frontmatter.linkedToolkitApps && frontmatter.linkedToolkitApps.length !== 0) && <>
-                  <div>
-                    <i>Referenced app(s)</i>
-                  </div>
-                  <div>
-                    <ul>
-                      {frontmatter.linkedToolkitApps.map(appString => {
-                      
-                        const [appId, appTitle] = appString.split("____");
-
-                        return <li><Link to={`/tools/apps/${appId}`}>{appTitle}</Link></li>
-                      })}
-                    </ul>
-                  </div>
-                <br></br></>}
+                            return (
+                              <li>
+                                <Link to={`/tools/apps/${appId}`}>
+                                  {appTitle}
+                                </Link>
+                              </li>
+                            )
+                          })}
+                        </ul>
+                      </div>
+                      <br></br>
+                    </>
+                  )}
 
                 <div>
                   <i>Author(s)</i>
                 </div>
-                <div>
-                  ReInHerit Project
-                </div>
+                <div>ReInHerit Project</div>
                 <br />
 
                 <div>
@@ -113,20 +157,21 @@ export default function Template({
               </div>
             }
           >
-            <Container fluid className="bg-white card p-4" style={{border:"1px solid grey", borderRadius:0}}>
+            <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">
               <div
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
             </Container>
-            {frontmatter.tutorial && <>
-              <br></br>
-              <h2>Tutorials</h2>
-              <ReactMarkdown
-              >
-                {frontmatter.tutorial.replace("youtube: ", "")}
-              </ReactMarkdown>
-            </>}
+            {frontmatter.tutorial && (
+              <>
+                <br></br>
+                <h2>Tutorials</h2>
+                <ReactMarkdown>
+                  {frontmatter.tutorial.replace("youtube: ", "")}
+                </ReactMarkdown>
+              </>
+            )}
           </SideMainLayout>
         </div>
       </div>
@@ -135,7 +180,7 @@ export default function Template({
 }
 export const pageQuery = graphql`
   query($id: String!) {
-    markdownRemark(frontmatter: {pageId : {eq:$id}}) {
+    markdownRemark(frontmatter: { pageId: { eq: $id } }) {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")

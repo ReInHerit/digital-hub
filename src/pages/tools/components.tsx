@@ -14,8 +14,9 @@ const ToolkitComponentsPage = () => {
     <BaseLayout>
       <MainHeading
         subHeading="Building blocks for the applications provided by ReInHerit"
+        subText="Here you'll find all the building blocks for the applications at the tool apps page."
       >Tool components</MainHeading>
-      <p className="w-75">Here you'll find all the building blocks for the applications at the <Link to="/tools/apps">tool apps page</Link>.</p>
+      <p className="w-75"></p>
       <ToolComponentsFeed></ToolComponentsFeed>
     </BaseLayout>
   )

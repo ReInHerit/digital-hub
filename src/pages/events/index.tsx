@@ -8,8 +8,8 @@ const EventsPage: React.FC = () => {
   return <BaseLayout>
     <MainHeading
       subHeading="Cultural heritage events organised by ReInHerit"
+      subText="Here you'll find an overview of all cultural heritage related events provided via ReInHerit, like artistic performances."
     >Events overview</MainHeading>
-    <p>Here you'll find an overview of all cultural heritage related events provided via ReInHerit, like artistic performances.</p>
     <ReinCardGrid>
       <ReinGridCard
         title="Performances"
