@@ -132,7 +132,7 @@ const ReinNavbar: React.FC = () => {
               <NavDropdown title="Exhibitions" id="basic-nav-dropdown">
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
-                  to="/exhibs"
+                  to="/exhibitions"
                 >
                   Overview
                 </Link>
