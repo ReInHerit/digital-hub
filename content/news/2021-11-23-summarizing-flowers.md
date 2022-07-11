@@ -11,6 +11,7 @@ author:
   - sina
   - project
 newsType: EVENT
+thumbnail: https://picsum.photos/510/354
 ---
 # Summary
 

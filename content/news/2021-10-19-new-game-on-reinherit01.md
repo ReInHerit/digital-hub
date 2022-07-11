@@ -8,6 +8,7 @@ target-audience:
   - VISITOR
 newsType: ANNOUNCEMENT
 mainReference: http://google.com
+thumbnail: https://picsum.photos/413/354
 ---
 ## Test yourself
 
