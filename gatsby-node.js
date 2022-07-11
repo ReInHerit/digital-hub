@@ -90,7 +90,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
   exhibitionCollectionResult.data.allMarkdownRemark.edges.forEach(edge => {
     const mdId = edge.node.frontmatter.pageId
     actions.createPage({
-      path: `/doc/exhibition/${mdId}`,
+      path: `/exhibitions/${mdId}`,
       component: require.resolve(`./src/templates/exhibitionObject.js`),
       context: { id: mdId },
     })
