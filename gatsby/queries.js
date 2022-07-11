@@ -104,6 +104,22 @@ module.exports.DIGIHUB_QUERIES = (() => {
     }
   `
 
+  const EXHIBITION_COLLECTION_PAGES = `
+    query FAQQuery {
+      allMarkdownRemark(filter: {frontmatter: {type: {eq: "exhibitionCollection"}}}) {
+        edges {
+          node {
+            frontmatter {
+              title
+              pageId
+              type
+            }
+          }
+        }
+      }
+    }
+  `
+
   
 
   return {
@@ -113,6 +129,7 @@ module.exports.DIGIHUB_QUERIES = (() => {
     TOOL_COMPONENTS_PAGES,
     ESHOP_PAGES,
     FAQ_PAGES,
-    MANUAL_PAGES
+    MANUAL_PAGES,
+    EXHIBITION_COLLECTION_PAGES
   }
 })()
