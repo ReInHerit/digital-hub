@@ -133,8 +133,8 @@ collections:
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
-  - name: "exhibitionCollection"
-    label: "Exihibition-collection"
+  - name: "exhbitionCollection"
+    label: "Exhibition-collection"
     label_singular: 'item'
     description: "This collection is intended for submitting individual objects for exhibitions, which will be developed and carried out in the ReInHerit project. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
     hide: false                # hides specific collection -> still available if you have the link!
