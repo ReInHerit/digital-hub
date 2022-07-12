@@ -15,12 +15,11 @@ export default function Template({
       <div className="blog-post-container">
         <div className="blog-post">
           <MainHeading
-            subHeading={<>This resource is part of the <Link className="text-primary text-decoration-none" to={`/exhibitions`}>exhibitions</Link> section.</>}
+            subHeading={<>This resource is part of the <Link className="text-primary text-decoration-none text-dark" to={`/exhibitions`}>exhibitions</Link> section.</>}
             subText={markdownRemark.excerpt}
           >{frontmatter.title}</MainHeading>
           <div id="markdown_container">
-            <div className="mb-2"><span className="bg-primary p-1 ps-3 pe-3 text-white rounded">{frontmatter.title}</span></div>
-            <div className="bg-light p-3 rounded border">
+            <div className="bg-light p-3 rounded border shadow">
               <img src={frontmatter.image}></img>
               <div
                   className="blog-post-content text-primary"
