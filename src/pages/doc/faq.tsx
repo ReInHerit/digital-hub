@@ -10,7 +10,7 @@ const FAQPage = () => {
   return (
     <BaseLayout>
       <MainHeading subHeading="Materials / manuals about the ReInHerit digital-hub itself" subText="Here you'll find explainatory material, helpful texts and graphics for the digital-hub itself.">Documentation</MainHeading>
-      <Container fluid className="bg-white p-md-5 p-sm-3 shadow border-0">
+      <Container fluid className="bg-white p-md-4 p-sm-3 shadow border-0">
       <SideBarsLayout left={<DocNav />}>
         <h2>FAQ</h2>
         <FAQFeed></FAQFeed>

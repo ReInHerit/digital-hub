@@ -12,14 +12,13 @@ const ReinNavbar: React.FC = () => {
         collapseOnSelect
         expand="lg"
         fixed="top"
-        className="bg-white p-sm-2 p-md-3 shadow-sm"
+        className="bg-white p-sm-1 border-bottom border-1"
       >
         <Container fluid>
-          {/* <Navbar.Brand href="#home" as="div"><Link to={addMode("/", theme.mode)} className="text-dark text-decoration-none"><img style={{maxWidth:"50px"}} src="/images/rein_logo.jpg"></img></Link></Navbar.Brand> */}
+          <Navbar.Brand href="#home" as="div"><Link to="/" className="text-dark text-decoration-none"><img style={{maxWidth:"30px"}} src="/images/rein_logo.jpg"></img></Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Link style={{color:"#424753"}} className="text-decoration-none nav-link" to="/">
-                <FontAwesomeIcon fill="red" icon={faHome}></FontAwesomeIcon> Home
-              </Link>
+          {/* <Link style={{color:"#424753"}} className="text-decoration-none nav-link" to="/">Home
+              </Link> */}
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <NavDropdown title="About" id="basic-nav-dropdown">

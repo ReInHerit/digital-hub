@@ -26,8 +26,8 @@ const BaseLayout = ({ children }: Props) => {
       <ReinNavBar/>
       {/* <QuickAccessBar/> */}
       <Container
-        className="rein_main_container pt-sm-2 pt-md-4"
-        style={{marginTop:"8vh"}}
+        className="rein_main_container pt-sm-4 pt-md-4"
+        style={{marginTop:"10vh"}}
         fluid
       >{children}</Container>
       <Footer />

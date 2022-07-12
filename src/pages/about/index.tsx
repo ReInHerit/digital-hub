@@ -10,7 +10,7 @@ const AboutPage = () => (
     <BaseLayout>
       <SEO title="About" />
       <MainHeading subText="Here you'll find background information about ReInHerit as Horizon2020 project.">About ReInHerit</MainHeading>
-      <Container fluid className="bg-white shadow p-sm-3 p-md-5 rounded">
+      <Container fluid className="bg-white shadow p-sm-3 p-md-4 rounded">
       <Row>
         <Col md={8}>
           <h2 className="h4">Aims and challenges</h2>

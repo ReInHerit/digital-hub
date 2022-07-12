@@ -12,7 +12,7 @@ const CMSDesc = () => {
         subHeading="Access to the content management system used for the ReInHerit digital hub"
         subText="Here you'll find the login and useful material on how to use the digital hub's content management system."
       >CMS Access</MainHeading>
-      <Container fluid className="bg-white shadow p-sm-3 p-md-5 rounded">
+      <Container fluid className="bg-white shadow p-sm-3 p-md-4 rounded">
       <SideBarsLayout
         left={
           <>

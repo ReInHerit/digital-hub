@@ -25,7 +25,7 @@ const TeamPage = () => {
           <div className="border p-5 text-center bg-white border-0 rounded shadow">
             <p>Bank of Cyprus Cultural Foundation</p>
             <p><img src="https://www.boccf.org/PageFiles/5/boc_logo_EN.jpg" width={200}></img></p>
-            <p>Destination: Greece</p>
+            <p>Destination: Cyprus</p>
               <p>Homepage: https://www.boccf.org/</p>
           </div>
 
