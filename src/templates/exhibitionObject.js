@@ -19,7 +19,7 @@ export default function Template({
             subText={markdownRemark.excerpt}
           >{frontmatter.title}</MainHeading>
           <div id="markdown_container">
-            <div className="bg-light p-3 rounded border shadow">
+            <div className="bg-white p-3 rounded border shadow">
               <img src={frontmatter.image}></img>
               <div
                   className="blog-post-content text-primary"
