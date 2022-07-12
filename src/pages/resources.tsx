@@ -13,6 +13,9 @@ const ResourcesPage = () => {
       <MainHeading
         subHeading="Useful tools, educational material, guidelines, etc. for cultural heritage professionals."
         subText="Here you'll find an overview of all resources developed and provided by ReInHerit. Browse through the items and learn how to implement them in your institution."
+        breadCrumb={[
+          {label:"Resources", value:"/resources"}
+        ]}
       >Resources</MainHeading>
       <ReinCardGrid>
         <ReinGridCard

@@ -11,6 +11,9 @@ const CMSDesc = () => {
       <MainHeading 
         subHeading="Access to the content management system used for the ReInHerit digital hub"
         subText="Here you'll find the login and useful material on how to use the digital hub's content management system."
+        breadCrumb={[
+          {label:"CMS Access", value:"/cms"}
+        ]}
       >CMS Access</MainHeading>
       <Container fluid className="bg-white shadow p-sm-3 p-md-4 rounded">
       <SideBarsLayout

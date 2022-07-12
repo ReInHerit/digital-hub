@@ -9,6 +9,9 @@ const EventsPage: React.FC = () => {
     <MainHeading
       subHeading="Cultural heritage events organised by ReInHerit"
       subText="Here you'll find an overview of all cultural heritage related events provided via ReInHerit, like artistic performances."
+      breadCrumb={[
+        {label:"Events", value:"/events"}
+      ]}
     >Events overview</MainHeading>
     <ReinCardGrid>
       <ReinGridCard

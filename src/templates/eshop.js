@@ -27,6 +27,10 @@ export default function Template({
             section.
           </>
         }
+        breadCrumb={[
+          {label:"Eshop", value:"/eshop"},
+          {label:"...", value:"/eshop"},
+        ]}
         subText={markdownRemark.excerpt}
       >
         {frontmatter.title}

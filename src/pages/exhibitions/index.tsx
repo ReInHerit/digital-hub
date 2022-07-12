@@ -10,6 +10,9 @@ const ExhibitionOverviewPage = () => {
     <MainHeading
       subHeading="Exhibitions and related material provided by ReInHerit"
       subText="Here you'll find exhibitions, which will be developed and carried out in the ReInHerit project."
+      breadCrumb={[
+        {label:"Exhibitions", value:"/exhibitions"}
+      ]}
     >Exhibitions</MainHeading>
     <ExhibitionCollection></ExhibitionCollection>
   </BaseLayout>

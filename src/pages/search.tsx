@@ -45,6 +45,9 @@ const SearchPage: React.FC = () => {
       <MainHeading
         subText="Here you'll find a fulltext search across all collection items provided by the digital hub. Search values have to be exact matches and are based on exact occurences."
         subHeading="Fulltext search across all content provided by the digital-hub."
+        breadCrumb={[
+          {label:"Search", value:"/search"}
+        ]}
       >Search</MainHeading>
       <Container fluid className="bg-white p-md-4 p-sm-3 shadow border-0">
       <InputGroup className="mb-3">

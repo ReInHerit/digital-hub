@@ -9,7 +9,7 @@ import MainHeading from "../../components/static/MainHeading"
 const TeamPage = () => {
   return (
     <BaseLayout>
-      <MainHeading subText="The Reinherit Team consists of 12 partners - from museums and
+      <MainHeading breadCrumb={[{label:"About", value:"/about"}]} subText="The Reinherit Team consists of 12 partners - from museums and
             cultural associations and foundations to research and education
             institutions - from 7 EU countries, which all share a deep interest
             in cultural heritage management, research and a sustainable future

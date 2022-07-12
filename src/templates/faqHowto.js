@@ -29,6 +29,10 @@ export default function Template({
                 section.
               </>
             }
+            breadCrumb={[
+              {label:"FAQ-How-to", value:"/"},
+              {label:"...", value:"/"},
+            ]}
           >
             Documentation
           </MainHeading>

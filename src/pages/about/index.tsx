@@ -9,7 +9,10 @@ const AboutPage = () => (
   <React.Fragment>
     <BaseLayout>
       <SEO title="About" />
-      <MainHeading subText="Here you'll find background information about ReInHerit as Horizon2020 project.">About ReInHerit</MainHeading>
+      <MainHeading 
+        subText="Here you'll find background information about ReInHerit as Horizon2020 project."
+        breadCrumb={[{label:"About", value:"/about"}]}
+      >About ReInHerit</MainHeading>
       <Container fluid className="bg-white shadow p-sm-3 p-md-4 rounded">
       <Row>
         <Col md={8}>

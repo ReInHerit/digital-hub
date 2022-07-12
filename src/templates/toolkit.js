@@ -18,6 +18,47 @@ export default function Template({
 
   const { mapFaSymbol } = useReinLocalStorage()
 
+  const addBreadCrumbTypeAware = (type) => {
+    let breadCrumbObj = {};
+    let addObj = {}
+
+    switch(type){
+      case "toolcomponent":
+        breadCrumbObj.label = "Tool-components"
+        breadCrumbObj.value = "/tools/components"
+        addObj.label = "..."
+        addObj.value = "/tools/components"
+        break;
+      case "toolapp":
+        breadCrumbObj.label = "Tool-apps"
+        breadCrumbObj.value = "/tools/apps"
+        addObj.label = "..."
+        addObj.value = "/tools/apps"
+        break;
+      case "news":
+        breadCrumbObj.label = "News"
+        breadCrumbObj.value = "/news"
+        addObj.label = "..."
+        addObj.value = "/news"
+        break;
+      case "webinar":
+        breadCrumbObj.label = "Webinars"
+        breadCrumbObj.value = "/webinar"
+        addObj.label = "..."
+        addObj.value = "/webinar"
+        break;
+      default:
+        breadCrumbObj.label = "Tool-components"
+        breadCrumbObj.value = "/tools/components"
+        addObj.label = "..."
+        addObj.value = "/tools/components"
+        break;
+    }
+
+    return [breadCrumbObj, addObj]
+
+  }
+
   return (
     <BaseLayout>
       <MainHeading
@@ -26,6 +67,7 @@ export default function Template({
           frontmatter.type.slice(1, frontmatter.type.length)
         }
         subText={frontmatter.desc ? frontmatter.desc : markdownRemark.excerpt}
+        breadCrumb={addBreadCrumbTypeAware(frontmatter.type)}
       >
         {frontmatter.title}
       </MainHeading>

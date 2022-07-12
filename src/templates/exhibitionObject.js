@@ -17,6 +17,10 @@ export default function Template({
           <MainHeading
             subHeading={<>This resource is part of the <Link className="text-primary text-decoration-none text-dark" to={`/exhibitions`}>exhibitions</Link> section.</>}
             subText={markdownRemark.excerpt}
+            breadCrumb={[
+              {label:"Exhibitions", value:"/exhibitions"},
+              {label:"...", value:"/exhibitions"}
+            ]}
           >{frontmatter.title}</MainHeading>
           <div id="markdown_container">
             <div className="bg-white p-3 rounded border shadow">
