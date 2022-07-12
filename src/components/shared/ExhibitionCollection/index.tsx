@@ -15,18 +15,7 @@ const ExhibitionCollection: React.FC = () => {
 
   return (
     <>
-      <div className="mb-md-5">
-        <Button variant="dark" className="m-1 ps-5 pe-5">
-          Topic
-        </Button>
-        <Button variant="dark" className="m-1 ps-5 pe-5">
-          Place
-        </Button>
-        <Button variant="dark" className="m-1 ps-5 pe-5">
-          Period
-        </Button>
-      </div>
-      <div className="bg-light p-3 rounded border">
+      <div className="bg-white p-3 rounded border shadow">
         <p className="mb-md-5">
           The ReInHerit proposed model will be based on the development of a
           digital cultural heritage ecosystem, where all the key stakeholders
@@ -45,6 +34,18 @@ const ExhibitionCollection: React.FC = () => {
           cultural heritage sites, real-time.
         </p>
       </div>
+      <div className="mt-md-2">
+        <Button variant="dark" className="m-1 ps-5 pe-5">
+          Topic
+        </Button>
+        <Button variant="dark" className="m-1 ps-5 pe-5">
+          Place
+        </Button>
+        <Button variant="dark" className="m-1 ps-5 pe-5">
+          Period
+        </Button>
+      </div>
+      
       <br/>
       <ReinCardGrid>
         {data.allMarkdownRemark.edges.map(edge => {
