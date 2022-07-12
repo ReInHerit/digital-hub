@@ -15,7 +15,14 @@ const ReinNavbar: React.FC = () => {
         className="bg-white p-sm-1 border-bottom border-1"
       >
         <Container fluid>
-          <Navbar.Brand href="#home" as="div"><Link to="/" className="text-dark text-decoration-none"><img style={{maxWidth:"30px"}} src="/images/rein_logo.jpg"></img></Link></Navbar.Brand>
+          <Navbar.Brand href="#home" as="div">
+            <Link to="/" className="text-dark text-decoration-none">
+              <img
+                style={{ maxWidth: "30px" }}
+                src="/images/rein_logo.jpg"
+              ></img>
+            </Link>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           {/* <Link style={{color:"#424753"}} className="text-decoration-none nav-link" to="/">Home
               </Link> */}
@@ -23,7 +30,7 @@ const ReinNavbar: React.FC = () => {
             <Nav className="me-auto">
               <NavDropdown title="About" id="basic-nav-dropdown">
                 <Link
-                  style={{color:"#424753"}}
+                  style={{ color: "#424753" }}
                   className="text-decoration-none dropdown-item"
                   to="/about"
                 >
@@ -55,7 +62,11 @@ const ReinNavbar: React.FC = () => {
                 </Link>
               </NavDropdown>
               <Nav.Link as="div">
-                <Link style={{color:"#424753"}} to="/news" className="text-decoration-none">
+                <Link
+                  style={{ color: "#424753" }}
+                  to="/news"
+                  className="text-decoration-none"
+                >
                   News
                 </Link>
               </Nav.Link>
@@ -130,35 +141,16 @@ const ReinNavbar: React.FC = () => {
                   Hackathon
                 </Link>
               </NavDropdown>
-              <NavDropdown title="Exhibitions" id="basic-nav-dropdown">
+              <Nav.Link as="div">
                 <Link
-                  className="text-dark text-decoration-none dropdown-item"
+                  className="text-dark text-decoration-none"
                   to="/exhibitions"
                 >
-                  Overview
+                  Exhibitions
                 </Link>
-                <NavDropdown.Divider />
-                <Link
-                  className="text-dark text-decoration-none dropdown-item"
-                  to="/exhibs/digital1"
-                >
-                  Digital Exhibition 1
-                </Link>
-                <Link
-                  className="text-dark text-decoration-none dropdown-item"
-                  to="/exhibs/digital2"
-                >
-                  Digital Exhibition 2
-                </Link>
-                <Link
-                  className="text-dark text-decoration-none dropdown-item"
-                  to="/exhibs/digital3"
-                >
-                  Digital Exhibition 3
-                </Link>
-              </NavDropdown>
+              </Nav.Link>
               <Link
-                style={{color:"#424753"}}
+                style={{ color: "#424753" }}
                 className="text-decoration-none nav-link"
                 to="/eshop"
               >
