@@ -21,7 +21,7 @@ export default function Template({
               <>
                 This resource is part of the{" "}
                 <Link
-                  style={{ textDecoration: "none", color: "#2eacc8" }}
+                  className="text-primary text-decoration-none"
                   to={`/doc/${frontmatter.type}`}
                 >
                   {frontmatter.type}
@@ -29,12 +29,17 @@ export default function Template({
                 section.
               </>
             }
+            breadCrumb={[
+              {label:"FAQ-How-to", value:"/"},
+              {label:"...", value:"/"},
+            ]}
           >
             Documentation
           </MainHeading>
           <br />
           <h2 className="h5">{frontmatter.title}</h2>
           <div
+            id="markdown_container"
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />

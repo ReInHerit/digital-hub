@@ -11,8 +11,11 @@ const NetworkingHubPage = () => {
     <BaseLayout>
       <MainHeading
         subHeading="Collaboration and communication tools provided by the digital hub"
+        subText="Here you'll find different means to communicate and collaborate with other cultural heritage professionals."
+        breadCrumb={[{
+          label:"Networking", value:"/networkinghub"
+        }]}
       >Networking</MainHeading>
-      <p>Here you'll find different means to communicate and collaborate with other cultural heritage professionals.</p>
       <ReinCardGrid>
         <ReinGridCard
           body="Overview of different chat rooms and collaboration environments."

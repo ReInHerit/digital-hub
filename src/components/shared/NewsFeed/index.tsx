@@ -7,6 +7,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
+import Thumbnail from "../Thumbnail"
 
 /**
  * Component reading out data from markdown files at build time using gatsby.
@@ -34,7 +35,10 @@ const NewsFeed: React.FC = () => {
                 {edge.node.frontmatter.mainReference && <p className="m-0"><a style={{color:"#6c757d"}} className="text-decoration-none" target="_blank" href={edge.node.frontmatter.mainReference}><FontAwesomeIcon icon={faLink} scale={".5x"}/> - {edge.node.frontmatter.mainReference}</a></p>}
               </div>
             }
-          ></ReinGridCard>
+          >
+            { edge.node.frontmatter.thumbnail && <Thumbnail src={edge.node.frontmatter.thumbnail}></Thumbnail>}
+
+          </ReinGridCard>
         )})}
       </ReinCardGrid>
     </>
@@ -57,6 +61,7 @@ const NEWS_QUERY = graphql`
             target_audience
             layout
             mainReference
+            thumbnail
           }
           wordCount {
             words
@@ -74,6 +79,7 @@ declare module NewsQueryData {
     target_audience: string[]
     pageId: string
     mainReference: string | null
+    thumbnail?: string
   }
 
   export interface Node {

@@ -6,7 +6,7 @@ import { Col, Container, Row } from "react-bootstrap"
 
 const Footer: React.FC = () => {
   return (
-    <div className="border-1 border-top pt-4 mt-lg-5 shadow">
+    <div className="border-1 border-top pt-4 mt-lg-5 shadow bg-white">
       <Container fluid>
         <Row>
           <Col lg={4}>
@@ -21,22 +21,22 @@ const Footer: React.FC = () => {
                 <Link to="/about/imprint">Imprint</Link>
               </li>
               <li>
-                <Link to="https://www.reinherit.eu/" target="_blank">Project page</Link>
+                <a href="https://www.reinherit.eu/" target="_blank">Project page</a>
               </li>
             </ul>
           </Col>
           <Col lg={4}>
               <p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101004545 </p>
-              <Link className="text-decoration-none" to="https://ec.europa.eu/info/index_en" target="_blank"><img style={{maxWidth:"200px"}} src="/images/rein_eu.png"></img></Link>
+              <a className="text-decoration-none" href="https://ec.europa.eu/info/index_en" target="_blank"><img style={{maxWidth:"200px"}} src="/images/rein_eu.png"></img></a>
           </Col>
           <Col>
-            <p><Link to="/cms">Login to CMS</Link></p>
+            <p><Link to="/cms">CMS access</Link></p>
             <p>Follow us on: </p>
-            <Link className="text-decoration-none" to="https://www.facebook.com/ReInHerit/" target="_blank"><FontAwesomeIcon className="ms-1" icon={faFacebook}></FontAwesomeIcon></Link>
-            <Link className="text-decoration-none" to="https://linkedin.com/company/reinherit-h2020/" target="_blank"><FontAwesomeIcon className="ms-1" icon={faLinkedin}></FontAwesomeIcon> </Link>
-            <Link className="text-decoration-none" to="https://www.tiktok.com/@reinherit_" target="_blank"><FontAwesomeIcon className="ms-1" icon={faTiktok}></FontAwesomeIcon> </Link>
-            <Link className="text-decoration-none" to="https://mobile.twitter.com/reinherit_" target="_blank"><FontAwesomeIcon className="ms-1" icon={faTwitter}></FontAwesomeIcon> </Link>
-            <Link className="text-decoration-none" to="https://www.instagram.com/reinherit_/" target="_blank"><FontAwesomeIcon className="ms-1" icon={faInstagram}></FontAwesomeIcon> </Link>
+            <a className="text-decoration-none" href="https://www.facebook.com/ReInHerit/" target="_blank"><FontAwesomeIcon className="ms-1" icon={faFacebook}></FontAwesomeIcon></a>
+            <a className="text-decoration-none" href="https://linkedin.com/company/reinherit-h2020/" target="_blank"><FontAwesomeIcon className="ms-1" icon={faLinkedin}></FontAwesomeIcon> </a>
+            <a className="text-decoration-none" href="https://www.tiktok.com/@reinherit_" target="_blank"><FontAwesomeIcon className="ms-1" icon={faTiktok}></FontAwesomeIcon> </a>
+            <a className="text-decoration-none" href="https://mobile.twitter.com/reinherit_" target="_blank"><FontAwesomeIcon className="ms-1" icon={faTwitter}></FontAwesomeIcon> </a>
+            <a className="text-decoration-none" href="https://www.instagram.com/reinherit_/" target="_blank"><FontAwesomeIcon className="ms-1" icon={faInstagram}></FontAwesomeIcon> </a>
 
             
             

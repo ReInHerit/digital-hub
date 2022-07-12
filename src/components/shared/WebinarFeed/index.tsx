@@ -4,6 +4,7 @@ import React from "react"
 import SideMainLayout from "../Layout/SideMainLayout"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
+import Thumbnail from "../Thumbnail"
 
 const TrainingFeed: React.FC = () => {
   const data: TrainingModel.Data = useStaticQuery(TRAINING_QUERY)
@@ -17,7 +18,9 @@ const TrainingFeed: React.FC = () => {
           title={training.node.frontmatter.title}
           body={training.node.excerpt}
           uid={training.node.frontmatter.pageId}
-        ></ReinGridCard>
+        >
+          {training.node.frontmatter.thumbnail && <Thumbnail src={training.node.frontmatter.thumbnail}></Thumbnail>}
+        </ReinGridCard>
       ))}
     </ReinCardGrid>
   )
@@ -37,6 +40,7 @@ const TRAINING_QUERY = graphql`
             title
             date(fromNow: true)
             target_audience
+            thumbnail
           }
         }
       }
@@ -49,7 +53,8 @@ declare module TrainingModel {
     title: string
     date: string
     target_audience: string[]
-    pageId: string
+    pageId: string,
+    thumbnail?: string
   }
 
   export interface Node {

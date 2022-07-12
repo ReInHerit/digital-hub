@@ -85,6 +85,17 @@ module.exports.createPages = async ({ graphql, actions}) => {
     })
   });
 
+  // adding object-collection data from markdown
+  const exhibitionCollectionResult = await graphql(DIGIHUB_QUERIES.EXHIBITION_COLLECTION_PAGES);
+  exhibitionCollectionResult.data.allMarkdownRemark.edges.forEach(edge => {
+    const mdId = edge.node.frontmatter.pageId
+    actions.createPage({
+      path: `/exhibitions/${mdId}`,
+      component: require.resolve(`./src/templates/exhibitionObject.js`),
+      context: { id: mdId },
+    })
+  });
+
 }
 
 

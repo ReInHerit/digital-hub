@@ -7,6 +7,7 @@ import { Badge, Form } from "react-bootstrap"
 import SideMainLayout from "../Layout/SideMainLayout"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
+import Thumbnail from "../Thumbnail"
 
 /**
  * Overview over all available toolkit components
@@ -55,9 +56,8 @@ const ToolkitComponentsFeed: React.FC = () => {
   return (
     <SideMainLayout
       side={
-        <div className="border border-dark p-4">
-          <b style={{ color: "#2eacc8" }}>Filter categories</b>
-          <br />
+        <div className="bg-white card p-4 mb-2 border-0 shadow">
+          <p>Filter categories</p>
           {tags.length !== 0 ? (
             tags.map(tag => (
               <Badge
@@ -80,7 +80,6 @@ const ToolkitComponentsFeed: React.FC = () => {
               *
             </Badge>
           )}
-          <br></br>
           <br></br>
           {ALL_TAGS.sort().map(curTag => (
             <Form.Check
@@ -123,7 +122,9 @@ const ToolkitComponentsFeed: React.FC = () => {
                       {edge.node.frontmatter.mainReference && <p className="m-0"><a style={{color:"#6c757d"}} className="text-decoration-none" target="_blank" href={edge.node.frontmatter.mainReference}><FontAwesomeIcon icon={faLink} scale={".5x"}/> - {edge.node.frontmatter.mainReference}</a></p>}
                     </div>
                   }
-                ></ReinGridCard>
+                >
+                  {edge.node.frontmatter.thumbnail && <Thumbnail src={edge.node.frontmatter.thumbnail}></Thumbnail>}
+                </ReinGridCard>
               )
             }
           })}
@@ -156,6 +157,7 @@ const ToolsQuery = graphql`
             pageId
             license
             mainReference
+            thumbnail
           }
           wordCount {
             words
@@ -179,6 +181,7 @@ declare module ToolsQueryData {
     pageId: string
     license: string
     mainReference: string | null
+    thumbnail?: string
   }
 
   export interface Node {

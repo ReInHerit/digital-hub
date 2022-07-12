@@ -9,8 +9,11 @@ const Designs = () => {
     <BaseLayout>
       <MainHeading
         subHeading="Collection of free downloadable artistic designs"
+        subText="Here you'll find all the free artistic designs created during the ReInHerit project. All are free to download and available for the public."
+        breadCrumb={[
+          {label:"Eshop", value:"/eshop"}
+        ]}
       >eShop</MainHeading>
-      <p>Here you'll find all the free artistic designs created during the ReInHerit project. All are free to download and available for the public.</p>
       <EShopFeed></EShopFeed>
     </BaseLayout>
   )

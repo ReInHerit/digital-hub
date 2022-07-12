@@ -9,8 +9,12 @@ const Toolkit = () => {
     <BaseLayout>
       <MainHeading
         subHeading="Applications available via the ReInHerit digital hub."
+        subText="Here you'll find applications that are either developed within the ReInHerit project or play an important role for CH management or preservation. At tool components you will find the building blocks necessary for the implementation of these apps."
+        breadCrumb={[
+          {label:"Tool-apps", value:"/tools/apps"}
+        ]}
       >Tool apps</MainHeading>
-      <p>Here you'll find applications that are either developed within the ReInHerit project or play an important role for CH management or preservation. At <Link to="/tools/components">tool components</Link> you will find the building blocks necessary for the implementation of these apps.</p>
+      <p></p>
       <ToolAppsFeed></ToolAppsFeed>
     </BaseLayout>
   )

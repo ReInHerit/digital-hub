@@ -9,8 +9,11 @@ const WebinarsPage = () => {
   >
     <MainHeading
       subHeading="Webinars related to cultural heritage management provided by ReInHerit"
+      subText="Here you will find training material either on the tools developed in the ReInHerit-project or generally on digitization in the CH sector, CH management and preservation."
+      breadCrumb={[
+        {label:"Webinars", value:"/webinars"}
+      ]}
     >Webinars</MainHeading>
-    <p>Here you will find training material either on the tools developed in the ReInHerit-project or generally on digitization in the CH sector, CH management and preservation.</p>
     <WebinarFeed></WebinarFeed>
   </BaseLayout>
 

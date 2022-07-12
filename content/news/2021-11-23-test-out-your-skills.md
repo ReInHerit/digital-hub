@@ -10,6 +10,7 @@ target-audience:
 author:
   - project
 newsType: EVENT
+thumbnail: https://picsum.photos/543/354
 ---
 # Example
 

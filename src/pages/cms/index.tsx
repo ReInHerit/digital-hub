@@ -1,5 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
+import { Container } from "react-bootstrap"
 import SideBarsLayout from "../../components/shared/Layout/SideBarsLayout"
 import BaseLayout from "../../components/static/BaseLayout"
 import MainHeading from "../../components/static/MainHeading"
@@ -9,8 +10,12 @@ const CMSDesc = () => {
     <BaseLayout>
       <MainHeading 
         subHeading="Access to the content management system used for the ReInHerit digital hub"
+        subText="Here you'll find the login and useful material on how to use the digital hub's content management system."
+        breadCrumb={[
+          {label:"CMS Access", value:"/cms"}
+        ]}
       >CMS Access</MainHeading>
-      <p>Here you'll find the login and useful material on how to use the digital hub's content management system.</p>
+      <Container fluid className="bg-white shadow p-sm-3 p-md-4 rounded">
       <SideBarsLayout
         left={
           <>
@@ -45,6 +50,7 @@ const CMSDesc = () => {
         <p>Check out the <a href="#">detailed manual</a> on how to use the digital hub's CMS.</p>
         <p>If you have any questions please first consider to check for already available solutions in the <a href="/doc/faq">FAQ section</a></p>
       </SideBarsLayout>
+      </Container>
     </BaseLayout>
   )
 }
