@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
               <a className="text-decoration-none" href="https://ec.europa.eu/info/index_en" target="_blank"><img style={{maxWidth:"200px"}} src="/images/rein_eu.png"></img></a>
           </Col>
           <Col>
-            <p><Link to="/cms">Login to CMS</Link></p>
+            <p><Link to="/cms">CMS access</Link></p>
             <p>Follow us on: </p>
             <a className="text-decoration-none" href="https://www.facebook.com/ReInHerit/" target="_blank"><FontAwesomeIcon className="ms-1" icon={faFacebook}></FontAwesomeIcon></a>
             <a className="text-decoration-none" href="https://linkedin.com/company/reinherit-h2020/" target="_blank"><FontAwesomeIcon className="ms-1" icon={faLinkedin}></FontAwesomeIcon> </a>
