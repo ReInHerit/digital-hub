@@ -43,9 +43,9 @@ export default function Template({
         break;
       case "webinar":
         breadCrumbObj.label = "Webinars"
-        breadCrumbObj.value = "/webinar"
+        breadCrumbObj.value = "/webinars"
         addObj.label = "..."
-        addObj.value = "/webinar"
+        addObj.value = "/webinars"
         break;
       default:
         breadCrumbObj.label = "Tool-components"
