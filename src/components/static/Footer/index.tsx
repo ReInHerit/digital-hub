@@ -38,7 +38,10 @@ const Footer: React.FC = () => {
             <a className="text-decoration-none" href="https://mobile.twitter.com/reinherit_" target="_blank"><FontAwesomeIcon className="ms-1" icon={faTwitter}></FontAwesomeIcon> </a>
             <a className="text-decoration-none" href="https://www.instagram.com/reinherit_/" target="_blank"><FontAwesomeIcon className="ms-1" icon={faInstagram}></FontAwesomeIcon> </a>
 
-            
+            <br></br>
+            <br></br>
+            <p className="m-0">Contact:</p>
+            <a href="mailto:digitalhub.reinherit@gmail.com">digitalhub.reinherit@gmail.com</a>
             
           </Col>
         </Row>
