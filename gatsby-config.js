@@ -13,6 +13,19 @@ module.exports = {
   },
   // pathPrefix: `/gamsdev/stoffse/test/dooku`,
   plugins: [
+    {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleAnalytics: {
+          trackingId: 'G-9H6BXMYD40', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-google-analytics', // default
+          anonymize: true, // default
+          allowAdFeatures: false // default
+        },
+        // Defines the environments where the tracking should be available  - default is ["production"]
+        environments: ['production', 'development']
+      }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typescript`,
