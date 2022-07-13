@@ -10,10 +10,15 @@ media_folder: "static/uploads"
 public_folder: "uploads"                 # if not set cms images will be searched under -> static/upload but should be just /uploads in production!
 
 # next two lines are only necessery if media should be deactivated
-media_library:      # comment out will make media available.
-  name: 'disabled'  # comment out will make media available.
+# media_library:      # comment out will make media available.
+  # name: 'disabled'  # comment out will make media available.
 
-display_url: https://reinherit.github.io
+media_library:
+  name: uploadcare
+  config:
+    publicKey: 2b8f9d9790a928216c7e
+
+display_url: https://reinherit-hub.eu
 preview: false
 
 # for open authoring / kanban view for moderation processes

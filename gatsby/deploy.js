@@ -7,7 +7,7 @@ var ghpages = require('gh-pages');
 
 (() => {
 
-  const GIT_REPO = 'https://github.com/ReInHerit/reinherit.github.io_unpub.git';
+  const GIT_REPO = 'https://github.com/ReInHerit/reinherit.github.io.git';
   const BRANCH = 'main';
 
   console.log("*** Deploying now gatsby files to: " + GIT_REPO);
