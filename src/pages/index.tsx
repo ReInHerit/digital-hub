@@ -12,7 +12,7 @@ const IndexPage = () => (
     {/* Entry page has different layout - therefore using this components directly! */}
     <Base>
       <Head/>
-      <Header />
+      {/* <Header /> */}
       <ReinNavbar />
       <Hero />
       {/* Necessary for users to allow seting a pw after getting the invite mail  */}

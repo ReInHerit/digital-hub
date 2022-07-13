@@ -12,7 +12,7 @@ const ReinNavbar: React.FC = () => {
         collapseOnSelect
         expand="lg"
         fixed="top"
-        className="bg-white p-sm-1 border-bottom border-1"
+        className="bg-white p-sm-1 shadow-sm"
       >
         <Container fluid>
           <Navbar.Brand href="#home" as="div">

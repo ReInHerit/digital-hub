@@ -16,9 +16,9 @@ interface Props {
 
 const MainHeading: React.FC<Props> = props => (
   <>
-    <div className="mb-2">
+    <div className="mb-3" style={{fontSize:"1.25em"}}>
       <Link to="/" className="text-decoration-none">
-        <b style={{ color: "rgb(46, 172, 200)" }}>Digital-hub</b>
+        <b style={{ color: "rgb(46, 172, 200)" }}>Home</b>
       </Link>
       {props.breadCrumb &&
         props.breadCrumb.length > 0 &&
