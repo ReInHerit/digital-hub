@@ -26,7 +26,7 @@ const VisitorHubPage = () => {
         <ReinGridCard
           body="Digital-first exhibitions and related material provided by ReInHerit."
           title="Digital exhibition"
-          url="/exhibs/digital"
+          url="/exhibitions"
         />
         <ReinGridCard
           body="Performances developed and carried out in the course of the ReInHerit project."
