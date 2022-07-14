@@ -22,7 +22,7 @@ const Header: React.FC = () => {
       <div className="pb-3">
         <img
           className="pb-0 mb-0"
-          style={{ maxWidth: "15vw", minHeight: "18vh" }}
+          style={{ maxHeight: "18vh" }}
           src="/images/thumbnails/make_it_your_own.JPG"
         ></img>
         <h2 style={{ marginTop: "-2vh", color: "grey" }} className="h4">
