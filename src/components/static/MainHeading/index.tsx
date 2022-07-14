@@ -22,13 +22,14 @@ const MainHeading: React.FC<Props> = props => (
       </Link>
       {props.breadCrumb &&
         props.breadCrumb.length > 0 &&
-        props.breadCrumb.map(bread => (
+        props.breadCrumb.map((bread, index) => (
           <>
-            {" "}
-            /{" "}
-            <Link className="text-decoration-none" to={bread.value}>
+            <span> / </span>
+            { index === 0 ? <b><Link style={{color: index === 0 ? "#ee3f98" : "", textEmphasis: "800"}} key={`breadcrumb__${index}`} className="text-decoration-none" to={bread.value}>
               {bread.label}
-            </Link>
+            </Link></b> : <Link style={{color: index === 0 ? "#ee3f98" : "", textEmphasis: "800"}} key={`breadcrumb__${index}`} className="text-decoration-none" to={bread.value}>
+              {bread.label}
+            </Link>}
           </>
         ))}
     </div>
