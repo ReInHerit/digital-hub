@@ -64,6 +64,7 @@ const Header: React.FC = () => {
             className="text-decoration-none"
             href="https://www.facebook.com/ReInHerit/"
             target="_blank"
+            aria-label="ReInHerit on facebook"
           >
             <FontAwesomeIcon
               className="ms-1"
@@ -75,6 +76,7 @@ const Header: React.FC = () => {
             className="text-decoration-none"
             href="https://linkedin.com/company/reinherit-h2020/"
             target="_blank"
+            aria-label="ReInHerit on linkedin"
           >
             <FontAwesomeIcon
               className="ms-1"
@@ -86,6 +88,7 @@ const Header: React.FC = () => {
             className="text-decoration-none"
             href="https://www.tiktok.com/@reinherit_"
             target="_blank"
+            aria-label="ReInHerit on tiktok"
           >
             <FontAwesomeIcon
               className="ms-1"
@@ -97,6 +100,7 @@ const Header: React.FC = () => {
             className="text-decoration-none"
             href="https://mobile.twitter.com/reinherit_"
             target="_blank"
+            aria-label="ReInHerit on twitter"
           >
             <FontAwesomeIcon
               className="ms-1"
@@ -108,6 +112,7 @@ const Header: React.FC = () => {
             className="text-decoration-none"
             href="https://www.instagram.com/reinherit_/"
             target="_blank"
+            aria-label="ReInHerit on instagram"
           >
             <FontAwesomeIcon
               className="ms-1"
@@ -116,7 +121,7 @@ const Header: React.FC = () => {
             ></FontAwesomeIcon>{" "}
           </a>
         </span>
-        <Link to="/cms">
+        <Link to="/cms" aria-label="ReInHerit on cms">
           <Button variant="outline-light border text-center ps-3 pe-3 me-2">
             <FontAwesomeIcon
               icon={faCog}
