@@ -38,7 +38,7 @@ const Hero = () => {
         </Row>  
       </div>
       
-      <div className="d-md-none text-center">
+      <div className="d-md-none text-center pt-5">
         <br/>
         <h1 className="h1" style={{color:"#7F4734", fontWeight:400, fontSize:"3em", textAlign:"center"}}>ReInHerit Digital Hub</h1>  
         <br></br>
