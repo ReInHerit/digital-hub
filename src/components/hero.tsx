@@ -42,14 +42,14 @@ const Hero = () => {
         <br/>
         <h1 className="h1" style={{color:"#7F4734", fontWeight:400, fontSize:"3em", textAlign:"center"}}>ReInHerit Digital Hub</h1>  
         <br></br>
-        <img src="https://www.reinherit.eu/images/Backgrounds/ReInHerit-Slider-1.jpg" width={300}></img>
+        <img alt="ReInHerit stock image" src="https://www.reinherit.eu/images/Backgrounds/ReInHerit-Slider-1.jpg" width={300}></img>
         <br/>
         <br/>
       </div>
 
       <Container className="p-md-4 ps-md-5 pe-md-5 text-center">
         <p className="ms-5 me-5 ps-sm-5 pe-sm-5" style={{fontSize:"1.35em", fontWeight:400}}>The Digital Hub of the ReInHerit project presents resources for cultural heritage professionals and a networking hub. It also showcases the project exhibitions and gives access to engaging content for anyone passionate about heritage.</p>
-        <div><img style={{width:100}} src="https://www.reinherit.eu/templates/g5_helium/custom/images/ReInHerit%20logo%20Final-Redefining.jpg"></img></div>
+        <div style={{minHeight: 150}}><img alt="ReInHerit logo" loading="lazy" style={{width:100}} src="https://www.reinherit.eu/templates/g5_helium/custom/images/ReInHerit%20logo%20Final-Redefining.jpg"></img></div>
         
         <FontAwesomeIcon icon={faChevronDown} style={{fontSize:"3em", color:"lightgrey"}}></FontAwesomeIcon>
         
