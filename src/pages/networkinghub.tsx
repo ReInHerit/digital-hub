@@ -8,7 +8,9 @@ import MainHeading from "../components/static/MainHeading";
 const NetworkingHubPage = () => {
 
   return (
-    <BaseLayout>
+    <BaseLayout
+      pageTitle="Networking | ReInHerit Digital Hub"
+    >
       <MainHeading
         subHeading="Collaboration and communication tools provided by the digital hub"
         subText="Here you'll find different means to communicate and collaborate with other cultural heritage professionals."

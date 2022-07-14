@@ -11,7 +11,9 @@ const IndexPage = () => (
   <React.Fragment>
     {/* Entry page has different layout - therefore using this components directly! */}
     <Base>
-      <Head/>
+      <Head
+        pageTitle="Home | ReInHerit Digital Hub"
+      />
       {/* <Header /> */}
       <ReinNavbar />
       <Hero />

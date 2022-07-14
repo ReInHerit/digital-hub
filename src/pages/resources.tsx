@@ -8,7 +8,9 @@ import MainHeading from "../components/static/MainHeading";
 const ResourcesPage = () => {
 
   return (
-    <BaseLayout>
+    <BaseLayout
+    pageTitle="Resources | ReInHerit Digital Hub"
+    >
 
       <MainHeading
         subHeading="Useful tools, educational material, guidelines, etc. for cultural heritage professionals."

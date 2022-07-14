@@ -4,7 +4,9 @@ import BaseLayout from "../../components/static/BaseLayout"
 const DataProtectionPage = () => {
 
   return (
-    <BaseLayout>
+    <BaseLayout
+      pageTitle="Data protection | ReInHerit Digital Hub"
+    >
       <h1>Data protection page</h1>
     </BaseLayout>
   )

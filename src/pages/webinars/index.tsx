@@ -6,6 +6,7 @@ import MainHeading from "../../components/static/MainHeading";
 const WebinarsPage = () => {
 
   return <BaseLayout
+  pageTitle="Webinars | ReInHerit Digital Hub"
   >
     <MainHeading
       subHeading="Webinars related to cultural heritage management provided by ReInHerit"

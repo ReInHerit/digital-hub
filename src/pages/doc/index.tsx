@@ -8,7 +8,9 @@ import MainHeading from "../../components/static/MainHeading"
 
 const DocAbout = () => {
   return (
-    <BaseLayout>
+    <BaseLayout
+    pageTitle="Architecture | ReInHerit Digital Hub"
+    >
       <MainHeading subHeading="Materials / manuals about the ReInHerit digital-hub itself"
         subText="Here you'll find explainatory material, helpful texts and graphics for the digital-hub itself."
       >Documentation</MainHeading>

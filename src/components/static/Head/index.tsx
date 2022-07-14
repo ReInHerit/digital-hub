@@ -5,6 +5,7 @@ import packageJson from "../../../../package.json"
 interface Props {
   keywords?: string[]
   children?: JSX.Element[] | JSX.Element
+  pageTitle?: string
 }
 
 /**
@@ -86,14 +87,14 @@ const Head: React.FC<Props> = props => {
       {
         // twitter tags
       }
-      <meta name="twitter:title" content={packageJson.name} />
+      <meta name="twitter:title" content={props.pageTitle ? props.pageTitle : packageJson.name} />
       <meta name="twitter:description" content={packageJson.description} />
 
       {
         // schema.org things
       }
       <meta typeof="schema_org:Website" />
-      <meta property="schema_org:title" content={packageJson.name} />
+      <meta property="schema_org:title" content={props.pageTitle ? props.pageTitle : packageJson.name} />
       <meta
         property="schema_org:description"
         content={packageJson.description}
@@ -105,12 +106,12 @@ const Head: React.FC<Props> = props => {
       <base href={baseUrl} />
 
       <title property="og:title" lang="en-us">
-        {packageJson.name}
+        {props.pageTitle ? props.pageTitle : packageJson.name}
       </title>
       <title property="og:site_name" lang="en-us">
-        {packageJson.name}
+        {props.pageTitle ? props.pageTitle : packageJson.name}
       </title>
-      <meta property="dc:title" lang="en-us" content={packageJson.name} />
+      <meta property="dc:title" lang="en-us" content={props.pageTitle ? props.pageTitle : packageJson.name} />
       <meta
         property="dc:description"
         lang="en-us"

@@ -5,7 +5,9 @@ import MainHeading from "../../components/static/MainHeading";
 
 const PerformancesOverviewPage = () => {
 
-  return <BaseLayout>
+  return <BaseLayout
+  pageTitle="Performances | ReInHerit Digital Hub"
+    >
     <MainHeading 
       subHeading="Performances developed and carried out in the course of the ReInHerit project."
       subText="Here you'll find material related to the artistic performances. (Coming soon...)"

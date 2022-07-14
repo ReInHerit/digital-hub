@@ -9,7 +9,9 @@ import MainHeading from "../components/static/MainHeading"
 */
 const VisitorHubPage = () => {
   return (
-    <BaseLayout>
+    <BaseLayout
+    pageTitle="Hub content | ReInHerit Digital Hub"
+    >
       <MainHeading 
         subHeading="Structured overview of all material on the digital-hub"
         subText="Here you'll find  digital exhibitions, videos and images from the project immersive performances, and apps that let you play and interact with cultural heritage in innovative ways."

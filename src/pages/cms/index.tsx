@@ -7,7 +7,9 @@ import MainHeading from "../../components/static/MainHeading"
 
 const CMSDesc = () => {
   return (
-    <BaseLayout>
+    <BaseLayout
+      pageTitle="CMS | ReInHerit Digital Hub"
+    >
       <MainHeading 
         subHeading="Access to the content management system used for the ReInHerit digital hub"
         subText="Here you'll find the login and useful material on how to use the digital hub's content management system."

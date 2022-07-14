@@ -5,7 +5,9 @@ import BaseLayout from "../../components/static/BaseLayout";
 const Imprint = () => {
 
   return (
-    <BaseLayout>
+    <BaseLayout
+      pageTitle="Imprint | ReInHerit Digital Hub"
+    >
       <h1>Imprint</h1>
   
     </BaseLayout>
