@@ -30,7 +30,7 @@ const Header: React.FC = () => {
         </h2>
 
         <Link to="/resources">
-          <Button variant="outline-light border text-center ps-4 pe-4 me-2">
+          <Button variant="outline-light border text-center ps-4 pe-4 m-1">
             <FontAwesomeIcon
               icon={faTools}
               size="1x"
@@ -40,7 +40,7 @@ const Header: React.FC = () => {
           </Button>
         </Link>
         <Link to="/networkinghub">
-          <Button variant="outline-light border text-center ps-4 pe-4 me-2">
+          <Button variant="outline-light border text-center ps-4 pe-4 m-1">
             <FontAwesomeIcon
               icon={faCommentDots}
               size="1x"
@@ -50,7 +50,7 @@ const Header: React.FC = () => {
           </Button>
         </Link>
         <Link to="/visitorhub">
-          <Button variant="outline-light border text-center ps-4 pe-4 me-2">
+          <Button variant="outline-light border text-center ps-4 pe-4 m-1">
             <FontAwesomeIcon
               icon={faBookOpen}
               size="1x"
@@ -59,7 +59,7 @@ const Header: React.FC = () => {
             <small className="text-muted"> Content</small>
           </Button>
         </Link>
-        <span className="border btn text-center ps-4 pe-4 me-2 rounded">
+        <span className="border btn text-center ps-4 pe-4 m-1 rounded">
           <a
             className="text-decoration-none"
             href="https://www.facebook.com/ReInHerit/"
@@ -122,7 +122,7 @@ const Header: React.FC = () => {
           </a>
         </span>
         <Link to="/cms" aria-label="ReInHerit on cms">
-          <Button variant="outline-light border text-center ps-3 pe-3 me-2">
+          <Button variant="outline-light border text-center ps-3 pe-3 m-1">
             <FontAwesomeIcon
               icon={faCog}
               size="1x"
