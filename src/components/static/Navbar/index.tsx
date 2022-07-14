@@ -18,8 +18,9 @@ const ReinNavbar: React.FC = () => {
           <Navbar.Brand href="#home" as="div">
             <Link to="/" className="text-dark text-decoration-none">
               <img
-                style={{ maxWidth: "30px" }}
-                src="/images/rein_logo.jpg"
+                style={{ maxWidth: "30px", fontSize:".5em" }}
+                src="/images/logo_textless.jpg"
+                alt="Logo"
               ></img>
             </Link>
           </Navbar.Brand>
