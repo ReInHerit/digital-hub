@@ -34,14 +34,14 @@ const ExhibitionCollection: React.FC = () => {
           cultural heritage sites, real-time.
         </p>
       </div>
-      <div className="mt-md-2">
-        <Button variant="dark" className="m-1 ps-5 pe-5">
+      <div className="mt-md-5">
+        <Button variant="white bg-white border text-center ps-5 pe-5 m-1">
           Topic
         </Button>
-        <Button variant="dark" className="m-1 ps-5 pe-5">
+        <Button variant="white bg-white border text-center ps-5 pe-5 m-1">
           Place
         </Button>
-        <Button variant="dark" className="m-1 ps-5 pe-5">
+        <Button variant="white bg-white border text-center ps-5 pe-5 m-1">
           Period
         </Button>
       </div>
