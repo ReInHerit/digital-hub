@@ -35,13 +35,13 @@ const ExhibitionCollection: React.FC = () => {
         </p>
       </div>
       <div className="mt-md-5">
-        <Button variant="white bg-white border text-center ps-5 pe-5 m-1">
+        <Button variant="white bg-white text-center ps-5 pe-5 m-1 shadow-sm">
           Topic
         </Button>
-        <Button variant="white bg-white border text-center ps-5 pe-5 m-1">
+        <Button variant="white bg-white shadow-sm text-center ps-5 pe-5 m-1">
           Place
         </Button>
-        <Button variant="white bg-white border text-center ps-5 pe-5 m-1">
+        <Button variant="white bg-white shadow-sm text-center ps-5 pe-5 m-1">
           Period
         </Button>
       </div>
