@@ -63,7 +63,7 @@ const Hero = () => {
           <Col md={8} className="reincard">
             <Link to="resources" style={{color:"black", textDecoration:"none"}}>
               <Container className="mt-md-3 p-md-5 h-100 w-100" style={textContainerStyle}>
-                <h4 className="h5">Discover the ReInHerit resources!</h4>
+                <h3 className="h5">Discover the ReInHerit resources!</h3>
                 <p>Here you can find webinars, a toolkit, and documentation. There are step-by-step guides to the development and implementation of innovative digital tools - and best practices in cultural heritage management and engagement.</p>
               </Container>
             </Link>
@@ -100,7 +100,7 @@ const Hero = () => {
           <Col md={8} className="reincard">
           <Link to="networkinghub" style={{color:"black", textDecoration:"none"}}>
             <Container className="mt-md-3 p-md-5 h-100 w-100" style={textContainerStyle}>
-              <h4 className="h5">Share your experience and connect!</h4>
+              <h3 className="h5">Share your experience and connect!</h3>
               <p>Here you can find a forum organised around key themes in cultural heritage management, collecting best practices and lessons learnt in developing collaborations across tourism, heritage sites, museums, policy makers, and the public.</p>
             </Container>
           </Link>
@@ -112,7 +112,7 @@ const Hero = () => {
           <Col md={8} className="reincard">
             <Link to="visitorhub" style={{color:"black", textDecoration:"none"}}>
               <Container className="mt-md-3 h-100 w-100 p-md-5" style={textContainerStyle}>
-                  <h4 className="h5">Enjoy cultural heritage online!</h4>
+                  <h3 className="h5">Enjoy cultural heritage online!</h3>
                   <p>Here you can find the project digital exhibitions, videos and images from the project immersive performances, and apps that let you play and interact with cultural heritage in innovative ways.</p>
               </Container>
             </Link>
