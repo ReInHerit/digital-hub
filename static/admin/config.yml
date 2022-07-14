@@ -48,7 +48,7 @@ collections:
       - { label: "Linked webinars", name: "linkedWebinars", widget: "relation", collection: "webinars", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created webinars in this CMS (entries must be already existing)" }
       - { label: "Linked toolkit apps", name: "linkedToolkitApps", widget: "relation", collection: "toolapps", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created toolkit apps in this CMS (entries must be already existing)" }
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0", hint: "Remember to check if the license is compatible with the component" }
-      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 10000000}}} # in bytes, only for default media library}
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 10000000}} }
   - name: "toolapps"
     label: "Toolkit: apps"
@@ -70,7 +70,7 @@ collections:
       - { label: "Linked webinars", name: "linkedWebinars", widget: "relation", collection: "webinars", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created webinars in this CMS (entries must be already existing)" }
       - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolcomponents", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created toolkit components in this CMS (entries must be already existing)" }
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
-      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 10000000}}} # in bytes, only for default media library}
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 10000000}} }
   - name: "webinars"
     label: "Webinars"
@@ -91,7 +91,7 @@ collections:
       - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolcomponents", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created toolkit components in this CMS (entries must be already existing)" }
       - { label: "Linked toolkit apps", name: "linkedToolkitApps", widget: "relation", collection: "toolapps", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created toolkit apps in this CMS (entries must be already existing)" }
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
-      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 10000000}}} # in bytes, only for default media library}
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 10000000}} }
   - name: "performances"
     label: "Performances"
@@ -115,7 +115,7 @@ collections:
       - { label: "Performance", name: "linkedPerformance", widget: "select", options: ["PERFORMANCE_01", "PERFORMANCE_02"], multiple: false, required: true }
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
-      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 10000000}}} # in bytes, only for default media library}
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 10000000}} }
   - name: "exhbitionCollection"
     label: "Exhibition-collection"
@@ -141,7 +141,7 @@ collections:
       - { label: "Place", name: "place", widget: "string", required: true, hint: "Associated place of object like 'Berlin' or 'Europe'." }
       - { label: "Location", name: "location", widget: "map", required: false, hint: "Associated coordinates to the object." }
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
-      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 10000000}}} # in bytes, only for default media library}
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 10000000}} }
   - name: "news"
     label: "News"             # Used in the UI
@@ -160,7 +160,7 @@ collections:
       - { label: "Main reference", name: "mainReference", widget: "string", required: false, hint: "Singular (web)-link displayed in the metadata section of the item."}
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "News type", name: "newsType", widget: "select", options: ["EVENT", "ANNOUNCEMENT"], default: "ANNOUNCEMENT", multiple: false }
-      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 10000000}}} # in bytes, only for default media library}
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
       - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 10000000}} }
   - name: "eshopitems"
     label: "eShop"
@@ -180,7 +180,7 @@ collections:
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Design / Image", name: "mainImage", widget: "image", media_library: {config: {max_file_size: 50000000}}} # in bytes, only for default media library}
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
-      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 10000000}}} # in bytes, only for default media library}
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
       - { label: "Body", name: "body", widget: "markdown", media_library: {config: {max_file_size: 10000000}} }
   - name: "tags"
     label: "Digital-Hub: Flexible tags"
