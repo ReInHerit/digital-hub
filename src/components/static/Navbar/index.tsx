@@ -160,7 +160,7 @@ const ReinNavbar: React.FC = () => {
             </Nav>
             <Nav>
               <Nav.Link className="justify-content-end" as="div">
-                <Link to="/search" className="text-dark text-decoration-none">
+                <Link to="/search" className="text-dark text-decoration-none" aria-label="Fulltext search for the digital-hub">
                   <FontAwesomeIcon icon={faSearch}></FontAwesomeIcon>
                 </Link>
               </Nav.Link>
