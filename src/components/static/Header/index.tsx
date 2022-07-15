@@ -2,6 +2,7 @@ import {
   faBookOpen,
   faCog,
   faCommentDots,
+  faSearch,
   faTools,
 } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -121,6 +122,15 @@ const Header: React.FC = () => {
             ></FontAwesomeIcon>{" "}
           </a>
         </span>
+        <Link to="/search" aria-label="Fulltextsearch on the hub">
+          <Button variant="outline-light border text-center ps-3 pe-3 m-1">
+            <FontAwesomeIcon
+              icon={faSearch}
+              size="1x"
+              style={{ fontSize: "1.25em" }}
+            ></FontAwesomeIcon>
+          </Button>
+        </Link>
         <Link to="/cms" aria-label="ReInHerit on cms">
           <Button variant="outline-light border text-center ps-3 pe-3 m-1">
             <FontAwesomeIcon
