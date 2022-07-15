@@ -136,7 +136,7 @@ collections:
       - { label: "Image", name: "image", widget: "image", hint: "Primary image for the object to be displayed.", media_library: {config: {max_file_size: 100000000}}} # in bytes, only for default media library}
       - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Topic", name: "topic", widget: "select", options: ["gender", "violence", "migration"], hint: "Related exhibition topic.", multiple: false }
+      - { label: "Topic", name: "topic", widget: "select", options: ["Gender", "Craftmanship", "Conflict"], hint: "Related exhibition topic.", multiple: false }
       - { label: "Time period", name: "period", widget: "string", required: true, hint: "Time period of object like 'early-modern-times' or 16th century." }
       - { label: "Place", name: "place", widget: "string", required: true, hint: "Associated place of object like 'Berlin' or 'Europe'." }
       - { label: "Location", name: "location", widget: "map", required: false, hint: "Associated coordinates to the object." }
