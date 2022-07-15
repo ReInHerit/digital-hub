@@ -159,7 +159,7 @@ const ReinNavbar: React.FC = () => {
               </Link>
             </Nav>
             <Nav>
-              <Nav.Link className="justify-content-end" as="div">
+              <Nav.Link className="justify-content-end" as="div" style={{ color: "#424753" }}>
                 <Link to="/search" className="text-dark text-decoration-none" aria-label="Fulltext search for the digital-hub">
                   Search
                 </Link>
