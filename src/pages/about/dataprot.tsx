@@ -43,7 +43,7 @@ const DataProtectionPage = () => {
           </li>
           <li>
             information, such as your name and email address, that you enter in
-            order to set up subscriptions to our emails and/or newsletters
+            order to set up subscriptions to our emails and/or newsletters;
           </li>
           <li>
             information that you enter while using the services on our website;
@@ -66,7 +66,7 @@ const DataProtectionPage = () => {
         </ol>
         <p>
           Before you disclose to us the personal information of another person,
-          you must obtain that person’s consent to both the disclosure and the
+          you must obtain that person's consent to both the disclosure and the
           processing of that personal information in accordance with this policy
         </p>
         <h2>D. Using your personal information</h2>
@@ -106,7 +106,7 @@ const DataProtectionPage = () => {
         </p>
         <p>
           We will not, without your express consent, supply your personal
-          information to any third party for their or any other third party’s
+          information to any third party for their or any other third party's
           direct marketing.
         </p>
         <h2>E. Disclosing personal information</h2>
@@ -194,7 +194,7 @@ const DataProtectionPage = () => {
           </li>
           <li>
             We will store all the personal information you provide on our secure
-            (password- and firewall-protected) servers. depends i guess?
+            (password- and firewall-protected) servers.
           </li>
           <li>
             You acknowledge that the transmission of information over the
@@ -273,7 +273,7 @@ const DataProtectionPage = () => {
                 we use Google Analytics and Adwords on our website to recognize
                 a computer when a user visits the website / track users as they
                 navigate the website / enable the use of a shopping cart on the
-                website / improve the website’s usability / analyze the use of
+                website / improve the website's usability / analyze the use of
                 the website / administer the website / prevent fraud and improve
                 the security of the website / personalize the website for each
                 user / target advertisements which may be of particular interest
