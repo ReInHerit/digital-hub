@@ -27,16 +27,16 @@ const Footer: React.FC = () => {
           </Col>
           <Col lg={4}>
               <p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101004545 </p>
-              <a className="text-decoration-none" href="https://ec.europa.eu/info/index_en" target="_blank"><img style={{maxWidth:"200px"}} src="/images/rein_eu.png"></img></a>
+              <a className="text-decoration-none" href="https://ec.europa.eu/info/index_en" target="_blank"><img style={{maxWidth:"200px"}} src="/images/rein_eu.png" alt="EU commission logo" aria-label="EU commission logo"></img></a>
           </Col>
           <Col>
-            <p><Link to="/cms">CMS access</Link></p>
+            <p><Link to="/cms" aria-label="Link to cms">CMS access</Link></p>
             <p>Follow us on: </p>
-            <a className="text-decoration-none" href="https://www.facebook.com/ReInHerit/" target="_blank"><FontAwesomeIcon className="ms-1" icon={faFacebook}></FontAwesomeIcon></a>
-            <a className="text-decoration-none" href="https://linkedin.com/company/reinherit-h2020/" target="_blank"><FontAwesomeIcon className="ms-1" icon={faLinkedin}></FontAwesomeIcon> </a>
-            <a className="text-decoration-none" href="https://www.tiktok.com/@reinherit_" target="_blank"><FontAwesomeIcon className="ms-1" icon={faTiktok}></FontAwesomeIcon> </a>
-            <a className="text-decoration-none" href="https://mobile.twitter.com/reinherit_" target="_blank"><FontAwesomeIcon className="ms-1" icon={faTwitter}></FontAwesomeIcon> </a>
-            <a className="text-decoration-none" href="https://www.instagram.com/reinherit_/" target="_blank"><FontAwesomeIcon className="ms-1" icon={faInstagram}></FontAwesomeIcon> </a>
+            <a className="text-decoration-none" href="https://www.facebook.com/ReInHerit/" target="_blank" aria-label="ReInHerit on facebook"><FontAwesomeIcon className="ms-1" icon={faFacebook}></FontAwesomeIcon></a>
+            <a className="text-decoration-none" href="https://linkedin.com/company/reinherit-h2020/" target="_blank" aria-label="ReInHerit on linkedin"><FontAwesomeIcon className="ms-1" icon={faLinkedin}></FontAwesomeIcon> </a>
+            <a className="text-decoration-none" href="https://www.tiktok.com/@reinherit_" target="_blank" aria-label="ReInHerit on tiktok"><FontAwesomeIcon className="ms-1" icon={faTiktok}></FontAwesomeIcon> </a>
+            <a className="text-decoration-none" href="https://mobile.twitter.com/reinherit_" target="_blank" aria-label="ReInHerit on twitter"><FontAwesomeIcon className="ms-1" icon={faTwitter}></FontAwesomeIcon> </a>
+            <a className="text-decoration-none" href="https://www.instagram.com/reinherit_/" target="_blank" aria-label="ReInHerit on telegram"><FontAwesomeIcon className="ms-1" icon={faInstagram}></FontAwesomeIcon> </a>
 
             <br></br>
             <br></br>

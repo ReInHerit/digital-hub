@@ -6,7 +6,9 @@ import MainHeading from "../../components/static/MainHeading";
 
 const ExhibitionOverviewPage = () => {
 
-  return <BaseLayout>
+  return <BaseLayout
+  pageTitle="Exhibitions | ReInHerit Digital Hub"
+  >
     <MainHeading
       subHeading="Exhibitions and related material provided by ReInHerit"
       subText="Here you'll find exhibitions, which will be developed and carried out in the ReInHerit project."

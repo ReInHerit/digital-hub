@@ -11,7 +11,9 @@ import MainHeading from "../../components/static/MainHeading"
  */
 const ManualsPage: React.FC = () => {
   return (
-    <BaseLayout>
+    <BaseLayout
+      pageTitle="Manuals | ReInHerit Digital Hub"
+    >
       <MainHeading
         subText="Here you'll find explainatory material, helpful texts and graphics for the digital-hub itself."
         subHeading="Materials / manuals about the ReInHerit digital-hub itself"

@@ -7,7 +7,9 @@ import MainHeading from "../../components/static/MainHeading"
 
 const NewsPage: React.FC = () => {
   return (
-    <BaseLayout>
+    <BaseLayout
+    pageTitle="News | ReInHerit Digital Hub"
+    >
       <MainHeading breadCrumb={[{label:"News", value:"/news"}]} subHeading="General news about recent ReInHerit developments and event announcements" subText="Here you'll find explicit news messages provided by the ReInHerit team, not necessarily related to actual content on the digital hub.">
         News
       </MainHeading>

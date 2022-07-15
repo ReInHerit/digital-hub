@@ -41,7 +41,9 @@ const SearchPage: React.FC = () => {
   }
 
   return (
-    <BaseLayout>
+    <BaseLayout
+      pageTitle="Search | ReInHerit Digital Hub"
+    >
       <MainHeading
         subText="Here you'll find a fulltext search across all collection items provided by the digital hub. Search values have to be exact matches and are based on exact occurences."
         subHeading="Fulltext search across all content provided by the digital-hub."

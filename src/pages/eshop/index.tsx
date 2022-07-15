@@ -6,7 +6,9 @@ import MainHeading from "../../components/static/MainHeading"
 const Designs = () => {
 
   return (
-    <BaseLayout>
+    <BaseLayout
+      pageTitle="Eshop | ReInHerit Digital Hub"
+    >
       <MainHeading
         subHeading="Collection of free downloadable artistic designs"
         subText="Here you'll find all the free artistic designs created during the ReInHerit project. All are free to download and available for the public."

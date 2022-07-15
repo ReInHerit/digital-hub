@@ -7,8 +7,9 @@ import MainHeading from "../../components/static/MainHeading"
 
 const AboutPage = () => (
   <React.Fragment>
-    <BaseLayout>
-      <SEO title="About" />
+    <BaseLayout
+      pageTitle="About | ReInHerit Digital Hub"
+    >
       <MainHeading 
         subText="Here you'll find background information about ReInHerit as Horizon2020 project."
         breadCrumb={[{label:"About", value:"/about"}]}

@@ -21,6 +21,10 @@ export default function Template({
   const addBreadCrumbTypeAware = (type) => {
     let breadCrumbObj = {};
     let addObj = {}
+    let collectionBreadObj = {
+      label: "Resources",
+      value:"/resources"
+    }
 
     switch(type){
       case "toolcomponent":
@@ -55,7 +59,12 @@ export default function Template({
         break;
     }
 
-    return [breadCrumbObj, addObj]
+    const breadCrumbArray = []
+    if(type !== "news") breadCrumbArray.push(collectionBreadObj);
+    breadCrumbArray.push(breadCrumbObj)
+    breadCrumbArray.push(addObj)
+
+    return breadCrumbArray;
 
   }
 

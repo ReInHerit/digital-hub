@@ -18,8 +18,9 @@ const ReinNavbar: React.FC = () => {
           <Navbar.Brand href="#home" as="div">
             <Link to="/" className="text-dark text-decoration-none">
               <img
-                style={{ maxWidth: "30px" }}
-                src="/images/rein_logo.jpg"
+                style={{ maxWidth: "30px", fontSize:".5em" }}
+                src="/images/logo_textless.jpg"
+                alt="Logo"
               ></img>
             </Link>
           </Navbar.Brand>
@@ -158,9 +159,9 @@ const ReinNavbar: React.FC = () => {
               </Link>
             </Nav>
             <Nav>
-              <Nav.Link className="justify-content-end" as="div">
-                <Link to="/search" className="text-dark text-decoration-none">
-                  <FontAwesomeIcon icon={faSearch}></FontAwesomeIcon>
+              <Nav.Link className="justify-content-end" as="div" style={{ color: "#424753" }}>
+                <Link to="/search" className="text-dark text-decoration-none" aria-label="Fulltext search for the digital-hub">
+                  Search
                 </Link>
               </Nav.Link>
             </Nav>

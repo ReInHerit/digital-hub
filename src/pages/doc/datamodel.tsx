@@ -6,7 +6,9 @@ import MainHeading from "../../components/static/MainHeading"
 
 const DataModel = () => {
   return (
-    <BaseLayout>
+    <BaseLayout
+      pageTitle="Datamodel | ReInHerit Digital Hub"
+    >
       <MainHeading subHeading="Materials / manuals about the ReInHerit digital-hub itself">
         Documentation
       </MainHeading>

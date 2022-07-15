@@ -15,13 +15,14 @@ import Base from "../Base"
 import Head from "../Head"
 
 interface Props {
-  children?: any
+  children?: any;
+  pageTitle?: string
 }
 
-const BaseLayout = ({ children }: Props) => {
+const BaseLayout = ({ children, pageTitle }: Props) => {
   return (
     <Base>
-      <Head></Head>
+      <Head pageTitle={pageTitle}></Head>
       <Header />
       <ReinNavBar/>
       {/* <QuickAccessBar/> */}

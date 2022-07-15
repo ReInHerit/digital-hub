@@ -11,11 +11,14 @@ import MainHeading from "../../components/static/MainHeading"
  */
 const ToolkitComponentsPage = () => {
   return (
-    <BaseLayout>
+    <BaseLayout
+    pageTitle="Tool-components | ReInHerit Digital Hub"
+    >
       <MainHeading
         subHeading="Building blocks for the applications provided by ReInHerit"
         subText="Here you'll find all the building blocks for the applications at the tool apps page."
         breadCrumb={[
+          {label:"Resources", value:"/resources"},
           {label:"Tool-components", value:"/tools/components"}
         ]}
       >Tool components</MainHeading>

@@ -49,7 +49,7 @@ collections:
       - { label: "Linked toolkit apps", name: "linkedToolkitApps", widget: "relation", collection: "toolapps", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created toolkit apps in this CMS (entries must be already existing)" }
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0", hint: "Remember to check if the license is compatible with the component" }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
-      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 10000000}} }
   - name: "toolapps"
     label: "Toolkit: apps"
     description: "This collection is intended for submitting texts on tool apps that are either developed within the ReInHerit project or play an important role for CH management or preservation. The entries are not immediately visible on the Hub, but will be published in the course of the next rebuild process."
@@ -71,7 +71,7 @@ collections:
       - { label: "Linked toolkit components", name: "linkedToolkitComponents", widget: "relation", collection: "toolcomponents", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created toolkit components in this CMS (entries must be already existing)" }
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
-      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 10000000}} }
   - name: "webinars"
     label: "Webinars"
     description: "This collection is intended for submitting webinars either on the tools developed in the ReInHerit-project or generally on digitization in the CH sector, CH management and preservation. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
@@ -92,7 +92,7 @@ collections:
       - { label: "Linked toolkit apps", name: "linkedToolkitApps", widget: "relation", collection: "toolapps", value_field: "{{pageId}}____{{title}}", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false, hint: "Displays titles of already created toolkit apps in this CMS (entries must be already existing)" }
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
-      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 10000000}} }
   - name: "performances"
     label: "Performances"
     description: "This collection is intended for submitting texts on the performances, developed and carried out in the course of the ReInHerit project. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
@@ -116,7 +116,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "relation", collection: "tags", value_field: "title", search_fields: ["title"], display_fields: ["title"], multiple: true, required: false }
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
-      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 10000000}} }
   - name: "exhbitionCollection"
     label: "Exhibition-collection"
     label_singular: 'item'
@@ -133,16 +133,16 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "exhibitionCollection" }
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
       - { label: "Date", name: "date", widget: "datetime", hint: "Date associated with this post on the digital-hub." }
-      - { label: "Image", name: "image", widget: "image", hint: "Primary image for the object to be displayed.", media_library: {config: {max_file_size: 1000000}}} # in bytes, only for default media library}
+      - { label: "Image", name: "image", widget: "image", hint: "Primary image for the object to be displayed.", media_library: {config: {max_file_size: 100000000}}} # in bytes, only for default media library}
       - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Topic", name: "topic", widget: "select", options: ["gender", "violence", "migration"], hint: "Related exhibition topic.", multiple: false }
+      - { label: "Topic", name: "topic", widget: "select", options: ["Gender", "Craftmanship", "Conflict"], hint: "Related exhibition topic.", multiple: false }
       - { label: "Time period", name: "period", widget: "string", required: true, hint: "Time period of object like 'early-modern-times' or 16th century." }
       - { label: "Place", name: "place", widget: "string", required: true, hint: "Associated place of object like 'Berlin' or 'Europe'." }
       - { label: "Location", name: "location", widget: "map", required: false, hint: "Associated coordinates to the object." }
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
-      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 10000000}} }
   - name: "news"
     label: "News"             # Used in the UI
     label_singular: 'message' # Used in the UI, ie: "New Post"
@@ -161,7 +161,7 @@ collections:
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "News type", name: "newsType", widget: "select", options: ["EVENT", "ANNOUNCEMENT"], default: "ANNOUNCEMENT", multiple: false }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
-      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 10000000}} }
   - name: "eshopitems"
     label: "eShop"
     label_singular: "item"
@@ -178,10 +178,10 @@ collections:
       - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Design / Image", name: "mainImage", widget: "image", media_library: {config: {max_file_size: 1000000}}} # in bytes, only for default media library}
+      - { label: "Design / Image", name: "mainImage", widget: "image", media_library: {config: {max_file_size: 50000000}}} # in bytes, only for default media library}
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
-      - { label: "Body", name: "body", widget: "markdown", media_library: {config: {max_file_size: 100000}} }
+      - { label: "Body", name: "body", widget: "markdown", media_library: {config: {max_file_size: 10000000}} }
   - name: "tags"
     label: "Digital-Hub: Flexible tags"
     label_singular: 'tag'
@@ -200,7 +200,7 @@ collections:
       - { label: "Tag type", name: "tag_type", widget: "select", options: ["TECHNICAL", "CONTENT_BASED"], multiple: false, required: true }
       - { label: "Tag group", name: "tag_group", widget: "select", options: ["TOOLKIT", "NEWS", "E-SHOP", "PERFORMANCE", "EXHIBITION", "TRAINING"], default: ["NEWS"], multiple: true, required: true }
       - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
-      - { label: "Body", name: "body", widget: "markdown",required: false, media_library: {config: {max_file_size: 100000}} }
+      - { label: "Body", name: "body", widget: "markdown",required: false, media_library: {config: {max_file_size: 10000000}} }
   - name: "faq"
     label: "Digital-Hub: FAQ"             # Used in the UI
     label_singular: 'entry' # Used in the UI, ie: "New Post"
@@ -215,7 +215,7 @@ collections:
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Question", name: "question", widget: "string",  pattern: ['^.{5,150}$', "Must have between 1 and 150 characters"], required: true }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Answer", name: "body", widget: "markdown",required: true, media_library: {config: {max_file_size: 100000}} }
+      - { label: "Answer", name: "body", widget: "markdown",required: true, media_library: {config: {max_file_size: 10000000}} }
   - name: "howtos"
     label: "Digital-Hub: Manuals and how-tos"             # Used in the UI
     label_singular: 'entry' # Used in the UI, ie: "New Post"
@@ -229,7 +229,7 @@ collections:
       - { label: "Page-ID", name: "pageId", widget: "uuid"}
       - { label: "Title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
-      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+      - { label: "Body", name: "body", widget: "markdown",media_library: {config: {max_file_size: 10000000}} }
   - name: "events"
     label: "Digital-Hub: Events"             # Used in the UI
     label_singular: 'event' # Used in the UI, ie: "New Post"
@@ -244,10 +244,10 @@ collections:
       - { label: "Event title", name: "title", widget: "string", pattern: ['^.{1,150}$', "Must have between 1 and 150 characters"], required: true }
       - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text." }
       - { label: "Host instutition", name: "host", widget: "string" }
-      - { label: "Description", name: "body", widget: "markdown",media_library: {config: {max_file_size: 100000}} }
+      - { label: "Description", name: "body", widget: "markdown",media_library: {config: {max_file_size: 50000000}} }
       - { label: "Location of the event", name: "location", widget: "string" }
       - { label: "Start of the event", name: "startDate", widget: "date" }
       - { label: "End of the event", name: "endDate", widget: "date" }
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Email adress", name: "email", widget: "string" }
-      - { label: "Thumbnail", name: "thumbnail", required: false, widget: "image", media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
+      - { label: "Thumbnail", name: "thumbnail", required: false, widget: "image", media_library: {config: {max_file_size: 10000000}}} # in bytes, only for default media library}

@@ -6,7 +6,9 @@ import MainHeading from "../components/static/MainHeading"
 
 const NotFoundPage: React.FC = () => {
   return (
-    <BaseLayout>
+    <BaseLayout
+      pageTitle="404 | ReInHerit Digital Hub"
+    >
       <MainHeading 
       subHeading="Requested page is currently under development and will be available soon"
       subText="From summer 2022 to autumn 2023 the ReInHerit Digital-Hub is under pilot
