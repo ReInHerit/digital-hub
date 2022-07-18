@@ -16,7 +16,7 @@ const Hero = () => {
         className="d-none d-md-block"
         style={{
           backgroundImage:
-            'url("https://www.reinherit.eu/images/Backgrounds/ReInHerit-Slider-1.jpg")',
+            'url("/images/reinherit-slider-1.webp")',
           width: "99vw",
           height: "75vh",
           backgroundRepeat:"no-repeat",
@@ -42,7 +42,7 @@ const Hero = () => {
         <br/>
         <h1 className="h1" style={{color:"#7F4734", fontWeight:400, fontSize:"3em", textAlign:"center"}}>ReInHerit Digital Hub</h1>  
         <br></br>
-        <img alt="ReInHerit stock image" src="https://www.reinherit.eu/images/Backgrounds/ReInHerit-Slider-1.jpg" width={300}></img>
+        <img alt="ReInHerit stock image" src="/images/reinherit-slider-1.webp" width={300}></img>
         <br/>
         <br/>
       </div>
