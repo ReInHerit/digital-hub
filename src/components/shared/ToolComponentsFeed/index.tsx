@@ -19,27 +19,9 @@ const ToolkitComponentsFeed: React.FC = () => {
   const [tags, setTags] = React.useState([])
 
   const ALL_TAGS = [
-    "REST-API",
-    "Library",
-    "Web-Interface",
-    "GraphQL-API",
-    "Application",
-    "CLI",
-    "Python",
-    "Java",
-    "X-Technologies",
-    "Javascript",
-    "Typescript",
-    "Web development",
-    "Economics",
-    "Cultural Heritage",
-    "History",
-    "Museology",
-    "Machine Learning",
-    "Topic Modeling",
-    "NLP",
-    "GIS",
-    "Relational DB",
+    "Tag A",
+    "Tag B",
+    "Tag C"
   ]
 
   const toggleTag = (toToggle: string) => {
