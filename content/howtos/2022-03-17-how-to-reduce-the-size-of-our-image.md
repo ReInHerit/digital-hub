@@ -7,7 +7,7 @@ target-audience:
   - PROFESSIONAL
   - VISITOR
 ---
-In order to upload an image, the size must not exceed 100 KB. Several online tools, mentioned in this [blog](https://www.blog.motifphotos.com/how-to-reduce-the-file-size-of-a-photo/) provide this service. Also, usual graphics programmes do the job:
+In order to upload an image, the size must not exceed different size limits. Several online tools, mentioned in this [blog](https://www.blog.motifphotos.com/how-to-reduce-the-file-size-of-a-photo/) provide this service. Also, usual graphics programmes do the job:
 
 
 
