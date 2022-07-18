@@ -239,7 +239,6 @@ export const pageQuery = graphql`
         mainReference
         type
         target_audience
-        author
         linkedWebinars
         linkedToolkitComponents
         linkedToolkitApps
