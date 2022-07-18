@@ -236,6 +236,7 @@ collections:
     folder: "content/events"
     description: Events for the digital hub.
     create: true              # Allow users to create new documents in this collection
+    hide: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
