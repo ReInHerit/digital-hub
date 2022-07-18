@@ -8,7 +8,7 @@ mainReference: http://google.com
 target-audience:
   - VISITOR
   - PROFESSIONAL
-newsType: EVENT
+newsType: Event
 desc: This is a demo entry to display the future functionality of the digital-hub. From summer 2022 to autumn 2023 the ReInHerit Digital-Hub is under pilot phase. The content of the hub will be subsequently added / enhanced during this project phase. Provided resources might get unavailable, changed or adapted during that time.
 thumbnail: https://picsum.photos/513/354
 ---
