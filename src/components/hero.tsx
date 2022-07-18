@@ -49,7 +49,7 @@ const Hero = () => {
 
       <Container className="p-md-4 ps-md-5 pe-md-5 text-center">
         <p className="ms-5 me-5 ps-sm-5 pe-sm-5" style={{fontSize:"1.35em", fontWeight:400}}>The Digital Hub of the ReInHerit project presents resources for cultural heritage professionals and a networking hub. It also showcases the project exhibitions and gives access to engaging content for anyone passionate about heritage.</p>
-        <div style={{minHeight: 150}}><img alt="ReInHerit logo" loading="lazy" style={{width:100}} src="https://www.reinherit.eu/templates/g5_helium/custom/images/ReInHerit%20logo%20Final-Redefining.jpg"></img></div>
+        <div style={{minHeight: 150}}><img alt="ReInHerit logo" loading="lazy" src="/images/Reinherit-Logo(61x60).webp" height={60} width={61}></img></div>
         
         <FontAwesomeIcon icon={faChevronDown} style={{fontSize:"3em", color:"lightgrey"}}></FontAwesomeIcon>
         
