@@ -18,13 +18,12 @@ const ReinNavbar: React.FC = () => {
           <Navbar.Brand href="#home" as="div">
             <Link to="/" className="text-dark text-decoration-none">
               <img
-                style={{ maxWidth: "30px", fontSize:".5em" }}
-                src="/images/logo_textless.jpg"
+                src="/images/Reinherit-Logo(31x30).webp"
                 alt="Logo"
               ></img>
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls="responsive-navbsar-nav" />
           {/* <Link style={{color:"#424753"}} className="text-decoration-none nav-link" to="/">Home
               </Link> */}
           <Navbar.Collapse id="responsive-navbar-nav">
