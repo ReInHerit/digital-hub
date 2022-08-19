@@ -37,7 +37,7 @@ const ReinNavbar: React.FC = () => {
                   className="text-dark text-decoration-none dropdown-item"
                   to="/about/team"
                 >
-                  Team
+                  Consortium
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"

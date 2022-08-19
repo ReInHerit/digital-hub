@@ -9,13 +9,13 @@ import MainHeading from "../../components/static/MainHeading"
 const TeamPage = () => {
   return (
     <BaseLayout
-      pageTitle="Team | ReInHerit Digital Hub"
+      pageTitle="Consortium | ReInHerit Digital Hub"
     >
-      <MainHeading breadCrumb={[{label:"About", value:"/about"}]} subText="The Reinherit Team consists of 12 partners - from museums and
+      <MainHeading breadCrumb={[{label:"About", value:"/about"}, {label:"Consortium", value:"/about/team"}]} subText="The Reinherit Consortium consists of 12 partners - from museums and
             cultural associations and foundations to research and education
             institutions - from 7 EU countries, which all share a deep interest
             in cultural heritage management, research and a sustainable future
-            of cultural heritage across the EU.">The ReInherit Team</MainHeading>
+            of cultural heritage across the EU.">The ReInherit Consortium</MainHeading>
       <Row>
         <Col>
           <p>

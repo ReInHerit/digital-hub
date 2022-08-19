@@ -13,6 +13,7 @@ const DocAbout = () => {
     >
       <MainHeading subHeading="Materials / manuals about the ReInHerit digital-hub itself"
         subText="Here you'll find explainatory material, helpful texts and graphics for the digital-hub itself."
+        breadCrumb={[{label:"About", value:"/about"}, {label:"Documentation", value:"/doc"}]}
       >Documentation</MainHeading>
 
       <Container fluid className="bg-white p-md-4 p-sm-3 shadow border-0">
