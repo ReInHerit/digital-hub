@@ -14,7 +14,9 @@ const NotFoundPage: React.FC = () => {
       subText="From summer 2022 to autumn 2023 the ReInHerit Digital-Hub is under pilot
       phase. The content of the hub will be subsequently added / enhanced
       during this project phase. Provided resources might get unavailable,
-      changed or adapted during that time.">
+      changed or adapted during that time."
+      breadCrumb={[{label:"Coming soon...", value:"/"}]}
+      >
         Coming soon
       </MainHeading>
       <br></br>
