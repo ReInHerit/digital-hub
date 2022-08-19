@@ -74,6 +74,14 @@ body {
     padding: 10em;
   }
 
+  #reinheritHero .reincard h2 {
+    font-size: 2rem;
+  }
+
+  #reinheritHero .reincard p {
+    font-size: 1.8rem;
+  }
+
 }
 
 path {
