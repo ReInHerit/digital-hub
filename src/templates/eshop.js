@@ -62,6 +62,7 @@ export default function Template({
           >
             <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">
               <img src={frontmatter.mainImage}></img>
+              <a style={{borderRadius:0}} href={frontmatter.mainImage} download="eshop_item" className="btn btn-light border-radius-0" target="_blank">Download</a>
             </Container>
             <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">
               <div
