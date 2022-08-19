@@ -22,8 +22,8 @@ const Header: React.FC = () => {
     <div className="pt-3 mt-4 bg-white text-center">
       <div className="pb-3">
         <Container className="pt-3">
-          <img alt="Reinherit header image" src="images/make_it_your_own(238x171).webp" height={171} width={238} style={{minHeight:171}}></img>
-          <h2 style={{ marginTop: "-2vh", color: "grey"}} className="h4">
+          <img alt="Reinherit header image" src="images/Slogan-cut.webp" style={{marginTop:"3vh"}} height={80}></img>
+          <h2 style={{ marginTop: "2vh", color:"grey"}} className="h3">
             ReInHerit Digital Hub
           </h2>
         </Container>
