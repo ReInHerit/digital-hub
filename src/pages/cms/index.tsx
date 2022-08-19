@@ -49,8 +49,8 @@ const CMSDesc = () => {
           <li>Moderation status - please contact the digital hub development team if you need moderation access (and provide your github username).</li>
         </ol>
         <h2 className="h5">How to use</h2>
-        <p>Check out the <a href="#">detailed manual</a> on how to use the digital hub's CMS.</p>
-        <p>If you have any questions please first consider to check for already available solutions in the <a href="/doc/faq">FAQ section</a></p>
+        <p>Check out the <Link to="/doc/howto">detailed manual</Link> on how to use the digital hub's CMS.</p>
+        <p>If you have any questions please first consider to check for already available solutions in the <Link to="/doc/faq">FAQ section</Link></p>
       </SideBarsLayout>
       </Container>
     </BaseLayout>
