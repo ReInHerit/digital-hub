@@ -17,10 +17,7 @@ const ReinNavbar: React.FC = () => {
         <Container fluid>
           <Navbar.Brand href="#home" as="div">
             <Link to="/" className="text-dark text-decoration-none">
-              <img
-                src="/images/Reinherit-Logo(31x30).webp"
-                alt="Logo"
-              ></img>
+              <img src="/images/Reinherit-Logo(31x30).webp" alt="Logo"></img>
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbsar-nav" />
@@ -158,8 +155,36 @@ const ReinNavbar: React.FC = () => {
               </Link>
             </Nav>
             <Nav>
-              <Nav.Link className="justify-content-end" as="div" style={{ color: "#424753" }}>
-                <Link to="/search" className="text-dark text-decoration-none" aria-label="Fulltext search for the digital-hub">
+              <NavDropdown title="Portal" id="basic-nav-dropdown">
+                <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/resources"
+                >
+                  Resources
+                </Link>
+                <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/networkinghub"
+                >
+                  Networking
+                </Link>
+                <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/visitorhub"
+                >
+                  Content
+                </Link>
+              </NavDropdown>
+              <Nav.Link
+                className="justify-content-end"
+                as="div"
+                style={{ color: "#424753" }}
+              >
+                <Link
+                  to="/search"
+                  className="text-dark text-decoration-none"
+                  aria-label="Fulltext search for the digital-hub"
+                >
                   Search
                 </Link>
               </Nav.Link>
