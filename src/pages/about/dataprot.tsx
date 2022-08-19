@@ -1,12 +1,20 @@
 import React from "react"
 import { Container } from "react-bootstrap"
 import BaseLayout from "../../components/static/BaseLayout"
+import MainHeading from "../../components/static/MainHeading"
 
 const DataProtectionPage = () => {
   return (
     <BaseLayout pageTitle="Data protection | ReInHerit Digital Hub">
-      <Container>
-        <h1>Data protection</h1>
+      <MainHeading
+        breadCrumb={[
+          { label: "About", value: "/about" },
+          { label: "Data protection", value: "/about/dataprot" },
+        ]}
+      >
+        Data protection
+      </MainHeading>
+      <Container fluid className="bg-white shadow p-sm-3 p-md-4 rounded">
         <h2>A. Introduction</h2>
         <ul>
           <li>

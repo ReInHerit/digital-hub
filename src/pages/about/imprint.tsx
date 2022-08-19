@@ -11,7 +11,7 @@ const Imprint = () => {
     <BaseLayout
       pageTitle="Imprint | ReInHerit Digital Hub"
     >
-      <MainHeading subText="Funding">Imprint</MainHeading>
+      <MainHeading subText="Funding" breadCrumb={[{label:"About", value:"/about"},{label:"Imprint", value:"/about/imprint"} ]}>Imprint</MainHeading>
       <Container fluid className="bg-white shadow p-sm-3 p-md-4 rounded">
         <p>
           This hub was developed in the course of the <Link to="/about">project ReInHerit</Link>, which was funded by the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101004545. 
