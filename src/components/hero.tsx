@@ -11,7 +11,7 @@ const Hero = () => {
   };
 
   return (
-    <div style={{ minHeight: "75vh" }}>
+    <div style={{ minHeight: "75vh" }} id="reinheritHero">
       <div
         className="d-none d-md-block"
         style={{
