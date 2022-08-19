@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import { Container } from "react-bootstrap";
 import BaseLayout from "../../components/static/BaseLayout";
+import MainHeading from "../../components/static/MainHeading";
 
 
 const Imprint = () => {
@@ -10,9 +11,8 @@ const Imprint = () => {
     <BaseLayout
       pageTitle="Imprint | ReInHerit Digital Hub"
     >
-      <Container>
-        <h1>Imprint</h1>
-        <h2 className="pt-2">Funding</h2>
+      <MainHeading subText="Funding">Imprint</MainHeading>
+      <Container fluid className="bg-white shadow p-sm-3 p-md-4 rounded">
         <p>
           This hub was developed in the course of the <Link to="/about">project ReInHerit</Link>, which was funded by the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101004545. 
         </p>
