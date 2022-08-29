@@ -23,7 +23,7 @@ const Authorization = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="2">
             <Accordion.Header>Professional</Accordion.Header>
-            <Accordion.Body>A professional is an authenticated user with verified identity. These kind of users are allowed to join various chat-rooms, contribute to discussions and to add other users to chat rooms. A professional cannot access the content management system of the digital-hub, nor create chat-rooms inside the ReInHerit project environment. Authentication (=login) process is done via using external authenication providers like github / twitter etc.</Accordion.Body>
+            <Accordion.Body>A professional is an authenticated user with verified identity. These kind of users are allowed to join various chat-rooms, contribute to discussions and to add other users to chat rooms. A professional cannot access the content management system of the digital-hub, nor create chat-rooms inside the ReInHerit project environment. Authentication (=login) process is done via using external authentication providers like github / twitter etc.</Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
             <Accordion.Header>Hub member</Accordion.Header>
