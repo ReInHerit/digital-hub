@@ -56,6 +56,9 @@ follows primarily standard gatsby 3.x conventions
 # dynamic components 
 ./src/components/shared
 
+# template page-components. Used by gatsby to render pages per query defined inside gatsby-node.js  
+./src/templates/
+
 # static material needed for the web page
 ./static
 
@@ -118,7 +121,15 @@ The NetlifyCMSAuth component handles working of redirect-uri in oauth2 process.
 
 #### Generating dynamic pages via gatsby + netlifyCMS
 
+1. NetlifyCMS automatically pushes to ./content/  diverse .md files
+2. The contents of the markdown files are then available via the standard gatsby markdown plugins at the graphql API
+3. Create graphql query: Define graphql query inside ./gatsby/queries.js
+4. Overview components: created via graphql queries applied inside the components -- then html is rendered according to received data. 
+5. Page-components:  a. Defined generation procedure inside gatsby-config.js  b. create template component inside ./src/pages/
+
 ### 03. Integrated external services
+
+like gitter: handled via own components (in case of embedment) or just links provided at needed sections.
 
 #### Code structure
 
