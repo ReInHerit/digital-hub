@@ -80,6 +80,15 @@ follows primarily standard gatsby 3.x conventions
 
 ```
 
+#### Configuration (gatsby)
+
+take a look at package.json and gatsby-config.json for an overview of used dependencies and their configuration.
+
+Primarily used were gatsby plugins to allow the access to the markdown files (produced by NetlifyCMS) via the GraphQL layer.
+(like gatsby-source-filesystem). Check the documentation of these plugins for further details.
+
+
+
 
 ### 02. Integrated software
 
