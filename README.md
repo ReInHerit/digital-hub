@@ -80,7 +80,43 @@ follows primarily standard gatsby 3.x conventions
 
 ### 02. Integrated software
 
+
 #### Code structure
+
+```sh
+# file for integration of netlify cms
+./static/admin
+
+# static page used to display netlify cms on the digital-hub
+# (includes required script tags etc.) 
+./static/admin/admin.html
+# configuration of netlify cms
+# like integration with github
+# also: defined content-models for the digital-hub 
+./static/admin/config.yml
+
+# "saving" location of netlify cms
+# created markdowns based on cms-workflow
+./content
+
+```
+
+#### Configuration
+
+configuration of NetlifyCMS is based on default .yml workflow (https://www.netlifycms.org/docs/configuration-options/)
+
+netlify-cms is integrated with github and uploadcare via specific properties.
+
+```sh
+# location of the configuration
+./static/admin/config.yml
+
+```
+
+The NetlifyCMSAuth component handles working of redirect-uri in oauth2 process.
+
+
+#### Generating dynamic pages via gatsby + netlifyCMS
 
 ### 03. Integrated external services
 
