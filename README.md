@@ -1,6 +1,11 @@
 
 # ReInHerit - Digital Hub
 
+## Content / What is this?
+
+Git repository handling development of the ReInHerit's digital hub (deployed here: https://reinherit-hub.eu/)
+(Check https://reinherit-hub.eu/about/imprint for additional information)
+
 ## Deployed page 
 
 - https://reinherit-hub.eu/
@@ -8,6 +13,78 @@
 ## Staging server
 
 - https://distracted-torvalds-d96327.netlify.app/
+
+## Technical key aspects
+
+(a longer more general description of the architecture you can find here: https://reinherit-hub.eu/doc)
+
+The software consists of three main parts:
+
+1. React / gatsby based **static generator** (following JAM-Stack - programmatically creates the digital-hub at build time)
+
+2. Integrated software (installed / included via javascript at runtime)
+  - Content Management System based on **NetlifyCMS** 
+  - ...
+
+3. Integrated external services (Embedded or linked )
+  - **Gitter chat** (based on github authentication + authorization)
+  - ...
+
+
+### 01. Static site generator 
+
+#### Code structure
+
+follows primarily standard gatsby 3.x conventions 
+
+```sh
+# NetlifyCMS handled git content, primarily .md files
+./content
+
+# custom scripts required for gatsby build workflows
+./gatsby
+
+# architectural diagrams created via draw.io 
+./models
+
+# gatsby source code
+./src
+
+# components with static hardcoded values - reusable across the application e.g. navbar (links are the same everywhere) 
+./src/components/static
+
+# dynamic components 
+./src/components/shared
+
+# static material needed for the web page
+./static
+
+# integration of netlify cms
+./static/admin
+
+
+#
+# additional locally generated folders, like:
+#
+
+# node dependencies
+./node_modules 
+
+# build files from gatsby
+./public
+
+
+
+```
+
+
+### 02. Integrated software
+
+#### Code structure
+
+### 03. Integrated external services
+
+#### Code structure
 
 ## Development
 
@@ -92,7 +169,7 @@ there is an easy command via npx available
 3. check operations on netlify
 
 
-### Netlify
+### Netlify (Staging server)
 
 - basic netlify setup procedure described here: https://github.com/ReInHerit/digital-hub/issues/5
 
@@ -105,7 +182,7 @@ there is an easy command via npx available
   -> building on the server will be __initiated by manually__.
 
 
-#### Netlify CMS Auth
+#### Authentication: Netlify identity (for Netlify CMS) 
 
 - collection of links here: https://github.com/ReInHerit/digital-hub/issues/9
 
@@ -136,3 +213,8 @@ npm run build
 npm run deploy
 
 ```
+
+### Authentication (Netlify CMS)
+
+handled via netlify identity delegated to github
+Access to the CMS requires write-access to the github repository
