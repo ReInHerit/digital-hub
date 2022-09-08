@@ -4,11 +4,11 @@ type: exhibitionCollection
 title: Demo object
 date: 2022-07-11T09:26:10.824Z
 image: https://picsum.photos/seed/picsum/200/300
-desc: This is a demo entry to display the future functionality of the
+desc: "!!!This is a demo entry to display the future functionality of the
   digital-hub. From summer 2022 to autumn 2023 the ReInHerit Digital-Hub is
   under pilot phase. The content of the hub will be subsequently added /
   enhanced during this project phase. Provided resources might get unavailable,
-  changed or adapted during that time.
+  changed or adapted during that time."
 target-audience:
   - VISITOR
 topic: Craftmanship
