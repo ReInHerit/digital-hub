@@ -11,7 +11,7 @@ desc: This is a demo entry to display the future functionality of the
   changed or adapted during that time.
 target-audience:
   - VISITOR
-topic: Conflict
+topic: Craftmanship
 period: Early modern times
 place: Europe
 location: '{"type":"Point","coordinates":[22.8515679,45.7061793]}'
