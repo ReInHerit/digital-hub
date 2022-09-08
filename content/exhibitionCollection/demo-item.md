@@ -13,7 +13,7 @@ target-audience:
   - VISITOR
 topic: Craftmanship
 period: Early modern times
-place: Europe
+place: Wien
 location: '{"type":"Point","coordinates":[22.8515679,45.7061793]}'
 license: CC BY 2.0
 thumbnail: https://picsum.photos/seed/picsum/209/300
