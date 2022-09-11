@@ -10,9 +10,6 @@ Git repository handling development of the ReInHerit's digital hub (deployed her
 
 - https://reinherit-hub.eu/
 
-## Staging server
-
-- https://distracted-torvalds-d96327.netlify.app/
 
 ## Technical key aspects
 
@@ -161,9 +158,7 @@ like gitter: handled via own components (in case of embedment) or just links pro
 - gatsby
 - typescript basics (react / gatsby integration)
 
-
 ### Development workflow
-
 
 #### Setup
 
@@ -202,9 +197,12 @@ npm run develop
 
 ```
 
-#### (Optional) Local authentication: Start netlify-cms local backend
+#### Local authentication: Start netlify-cms local backend
 
-- this will tunnel authentication through local machine
+handled via netlify identity delegated to github
+Access to the CMS requires write-access to the github repository
+
+- this will tunnel authentication through local machine (if )
 
 ```sh
 # run if setup from below already completed:
@@ -218,59 +216,7 @@ there is an easy command via npx available
 -> + a seperate development server started on port 8081 (for more see online documentation)
 
 
-## Staging
+## Production, staging and deployment
 
-1. pull request towards "deploy-netlify"
-2. wait few minutes - and then check https://distracted-torvalds-d96327.netlify.app/ (check for cashed refresh!)
-3. check operations on netlify
-
-
-### Netlify (Staging server)
-
-- basic netlify setup procedure described here: https://github.com/ReInHerit/digital-hub/issues/5
-
-- general workflow pattern:
-  -> develop in master (or other branches) -> pull request to netlify-deploy
-  -> releases will be handled in the future according to different milestones and semantic versioning.
-
-- netlify is setup to deploy from the deploy-netlify branch.
-  -> don't push against the branch via code / only pull request new code to branch.
-  -> building on the server will be __initiated by manually__.
-
-
-#### Authentication: Netlify identity (for Netlify CMS) 
-
-- collection of links here: https://github.com/ReInHerit/digital-hub/issues/9
-
-- needed to be setup in netlify web interface
-  - allowing to access the linked github repository.
-  - for the cms AND for building the gatsby deployment version.
-
-- check: identity + gatsby build procedures etc.
-  -> implementation details here: https://github.com/ReInHerit/digital-hub/issues/9
-
-
-## Production and deployment
-
-As production environment github pages was chosen. The procedure 
-follows the standard procedures necessary to run a website using a github repository.
-
-
-### Build and deploy new version
-
-handled via script located in ./deploy
-(make sure that git credentials are correctly setup on your dev machine - otherwise the script will fail)
-
-```sh
-# builds production files in repo-clone under <root>/public 
-npm run build
-
-# deploys files from public folder to reinherit.github.io
-npm run deploy
-
-```
-
-### Authentication (Netlify CMS)
-
-handled via netlify identity delegated to github
-Access to the CMS requires write-access to the github repository
+needs more access rights to the repository / organization. 
+see internal doumentation
