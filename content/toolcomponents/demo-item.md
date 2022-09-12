@@ -2,10 +2,16 @@
 type: toolcomponent
 pageId: 29086240-ba81-4e5d-90f9-2e37afb010dd
 title: Demo-tool
-desc: This is a demo entry to display the future functionality of the digital-hub. From summer 2022 to autumn 2023 the ReInHerit Digital-Hub is under pilot phase. The content of the hub will be subsequently added / enhanced during this project phase. Provided resources might get unavailable, changed or adapted during that time.
+desc: This is a demo entry to display the future functionality of the
+  digital-hub. From summer 2022 to autumn 2023 the ReInHerit Digital-Hub is
+  under pilot phase. The content of the hub will be subsequently added /
+  enhanced during this project phase. Provided resources might get unavailable,
+  changed or adapted during that time.
 date: 2022-01-10T10:08:59.802Z
 target-audience:
   - VISITOR
+tags:
+  - Demo tag
 mainReference: http://google.com
 linkedWebinars:
   - 732aebbf-6543-4998-b8d6-6c5d548ead84____Fancy Webinar.
