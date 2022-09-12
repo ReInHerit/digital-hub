@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import { Badge, Form } from "react-bootstrap"
+import { ReinUtils } from "../../../utils/ReinUtil"
 import SideMainLayout from "../Layout/SideMainLayout"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
@@ -63,7 +64,7 @@ const ToolkitComponentsFeed: React.FC = () => {
             </Badge>
           )}
           <br></br>
-          {ALL_TAGS.sort().map(curTag => (
+          {ReinUtils.extractUniqueTags(data as TaggedGraphQLData).sort().map(curTag => (
             <Form.Check
               type="checkbox"
               checked={tags.includes(curTag)}
@@ -140,6 +141,7 @@ const ToolsQuery = graphql`
             license
             mainReference
             thumbnail
+            tags
           }
           wordCount {
             words
@@ -164,6 +166,7 @@ declare module ToolsQueryData {
     license: string
     mainReference: string | null
     thumbnail?: string
+    tags?: string[]
   }
 
   export interface Node {
