@@ -22,9 +22,6 @@ var ghpages = require("gh-pages");
     function (answer) {
       if (answer.toLowerCase() === "y") {
         console.log("*** Deploying now gatsby files to: " + GIT_REPO)
-        console.log(
-          "*** Don't forget to build your files first! (e.g. via 'npm run build') Otherwise an outdated page-build might be deployed."
-        )
         ghpages.publish(
           "public",
           {
