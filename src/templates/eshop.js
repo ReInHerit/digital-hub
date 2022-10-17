@@ -61,8 +61,8 @@ export default function Template({
             }
           >
             <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">
-              <img src={frontmatter.mainImage}></img>
-              <a style={{borderRadius:0}} href={frontmatter.mainImage} download="eshop_item" className="btn btn-light border-radius-0" target="_blank">Download</a>
+              <img src={frontmatter.thumbnail}></img>
+              <a style={{borderRadius:0}} href={frontmatter.mainImage} download="eshop_item" className="btn btn-light border-radius-0" target="_blank">Have a closer look!</a>
             </Container>
             <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">
               <div
@@ -87,6 +87,8 @@ export const pageQuery = graphql`
         type
         date
         mainImage
+        museum
+        product_type
       }
       id
       excerpt
