@@ -27,7 +27,7 @@ const ReinGridCard: React.FC<Props> = props => {
       >
         <Link to={props.url} className="text-decoration-none text-dark">
           <Card.Body style={{minHeight:"200px"}}>
-            <Card.Title style={{ fontSize: "1em" }}><FontAwesomeIcon style={{fill:"red"}} icon={faFile} size="1x" className="me-md-1"></FontAwesomeIcon> {props.title}</Card.Title>
+            <Card.Title style={{ fontSize: "1em" }}><FontAwesomeIcon style={{fill:"grey"}} icon={faFile} size="1x" className="me-md-1"></FontAwesomeIcon> {props.title}</Card.Title>
             <hr />
             <Card.Text>{props.body}</Card.Text>
             {props.children}

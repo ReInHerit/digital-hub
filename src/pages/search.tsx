@@ -5,6 +5,7 @@ import { useFlexSearch } from "react-use-flexsearch"
 import { graphql, Link, useStaticQuery } from "gatsby"
 import { Container, FormControl, InputGroup } from "react-bootstrap"
 
+
 const SearchPage: React.FC = () => {
   const [searchQuery, setSearchQuery] = React.useState("")
 
@@ -45,8 +46,8 @@ const SearchPage: React.FC = () => {
       pageTitle="Search | ReInHerit Digital Hub"
     >
       <MainHeading
-        subText="Here you'll find a fulltext search across all collection items provided by the digital hub. Search values have to be exact matches and are based on exact occurences."
-        subHeading="Fulltext search across all content provided by the digital-hub."
+        subText="Fulltext search across the digital hub."
+        subHeading="Search values have to be exact matches and are based on exact occurences."
         breadCrumb={[
           {label:"Search", value:"/search"}
         ]}
@@ -113,4 +114,4 @@ declare module SearchGraphqlResponse {
     data: Data
     extensions: Extensions
   }
-}
+}  

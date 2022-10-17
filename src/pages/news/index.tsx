@@ -10,7 +10,7 @@ const NewsPage: React.FC = () => {
     <BaseLayout
     pageTitle="News | ReInHerit Digital Hub"
     >
-      <MainHeading breadCrumb={[{label:"News", value:"/news"}]} subHeading="General news about recent ReInHerit developments and event announcements" subText="Here you'll find explicit news messages provided by the ReInHerit team, not necessarily related to actual content on the digital hub.">
+      <MainHeading breadCrumb={[{label:"News", value:"/news"}]} subHeading="Keep up-to-date with all the ReInHerit activities and outputs!" subText="News, updates, events part of the ReInHerit project and our community.">
         News
       </MainHeading>
       <NewsFeed></NewsFeed>

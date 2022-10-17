@@ -31,9 +31,9 @@ const Base: React.FC<Props> = props => {
         containerClasses="p-md-4 col-lg-12 bg-white border-top border-1 border-dark"
       >
         <h2 className="h6">Cookies &amp; privacy</h2>
-        <p className="text-dark" style={{maxWidth:"80vw"}}>Our website uses Google Analytics cookies to measure use of the website, including number of visitors, which pages are viewed, and how frequently they are viewed. This helps to determine what is popular and can influence future content and development. The information collected by us will include IP Address, pages visited, browser type and operating system. The data will not and cannot be used to identify any user personally.
-Users have the opportunity to set their computers to accept all cookies, to notify them when a cookie is issued, or not to receive cookies at any time.</p>
-        <p>More information you'll find at the <Link to="/about/dataprot">data protection</Link> section.</p>
+        <p className="text-dark" style={{maxWidth:"80vw"}}>Our website uses Google Analytics cookies to monitor number of visitors and pages viewed. The information collected by us will include IP Address, pages visited, browser type and operating system. The data will be used to support the further improvement of the content. 
+        It will not and cannot be used to identify any user. Users have the opportunity to set their computers to accept all cookies, to notify them when a cookie is issued, or to not accept any cookies.</p>
+        <p>You can find more information in the <Link to="/about/dataprot">data protection</Link> page.</p>
       </CookieConsent>
       {props.children}
     </>

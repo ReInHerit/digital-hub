@@ -51,12 +51,14 @@ const ReinNavbar: React.FC = () => {
                 >
                   Data protection
                 </Link>
+                
+                {/*
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/doc"
                 >
                   Documentation
-                </Link>
+            </Link> */}
               </NavDropdown>
               <Nav.Link as="div">
                 <Link
@@ -67,6 +69,8 @@ const ReinNavbar: React.FC = () => {
                   News
                 </Link>
               </Nav.Link>
+
+              {/*
               <NavDropdown title="Resources" id="basic-nav-dropdown">
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
@@ -110,9 +114,9 @@ const ReinNavbar: React.FC = () => {
                 >
                   Best practices
                 </Link>
-              </NavDropdown>
+          </NavDropdown> */}
               {/* <Link className="text-dark text-decoration-none nav-link" to="/">Events</Link> */}
-              <NavDropdown title="Events" id="basic-nav-dropdown">
+              {/*<NavDropdown title="Events" id="basic-nav-dropdown">
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/events"
@@ -145,7 +149,7 @@ const ReinNavbar: React.FC = () => {
                 >
                   Exhibitions
                 </Link>
-              </Nav.Link>
+              </Nav.Link> */}
               <Link
                 style={{ color: "#424753" }}
                 className="text-decoration-none nav-link"
@@ -153,26 +157,38 @@ const ReinNavbar: React.FC = () => {
               >
                 eShop
               </Link>
+
+              <a
+                style={{ color: "#424753" }}
+                className="text-decoration-none nav-link"
+                href="https://gitter.im/ReInHerit"
+              >
+                Forum
+              </a>
+            
             </Nav>
+
+            {/*
             <Nav>
               <NavDropdown title="Portal" id="basic-nav-dropdown">
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/resources"
                 >
+
                   Resources
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/networkinghub"
                 >
-                  Networking
+                  Forum
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/visitorhub"
                 >
-                  Content
+                  Exhibitions
                 </Link>
               </NavDropdown>
               <Nav.Link
@@ -187,8 +203,8 @@ const ReinNavbar: React.FC = () => {
                 >
                   Search
                 </Link>
-              </Nav.Link>
-            </Nav>
+              </Nav.Link> 
+            </Nav> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>

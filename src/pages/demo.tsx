@@ -8,7 +8,7 @@ const Demo = () => {
 
   return (
     <BaseLayout>
-      <h1>Demo / show case page for the digital hub</h1>
+      <h1>Test page for forthcoming content on the digital hub</h1>
       <br></br>
       <br></br>
       <br></br>

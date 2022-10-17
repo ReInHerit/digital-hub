@@ -41,15 +41,15 @@ export default function Template({
             side={
               <div className="card p-4 border-0 shadow bg-white">
                 <div>
-                  <i>Author(s)</i>
+                  <i>Museum</i>
                 </div>
-                <div>ReInHerit Project</div>
+                <div>{frontmatter.museum}</div>
                 <br />
 
                 <div>
-                  <i>Publication date</i>
+                  <i>Product</i>
                 </div>
-                <div>{frontmatter.date}</div>
+                <div>{frontmatter.product_type}</div>
                 <br />
 
                 {/* <div>

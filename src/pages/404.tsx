@@ -10,11 +10,8 @@ const NotFoundPage: React.FC = () => {
       pageTitle="404 | ReInHerit Digital Hub"
     >
       <MainHeading 
-      subHeading="Requested page is currently under development and will be available soon"
-      subText="From summer 2022 to autumn 2023 the ReInHerit Digital-Hub is under pilot
-      phase. The content of the hub will be subsequently added / enhanced
-      during this project phase. Provided resources might get unavailable,
-      changed or adapted during that time."
+      subHeading="The requested page is currently under development and will be available soon."
+      subText="From summer 2022 to autumn 2023 the ReInHerit Digital Hub will be frequently expanded and improved, we are sorry for any incovenience during this time."
       breadCrumb={[{label:"Coming soon...", value:"/"}]}
       >
         Coming soon

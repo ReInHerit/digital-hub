@@ -11,41 +11,31 @@ const AboutPage = () => (
       pageTitle="About | ReInHerit Digital Hub"
     >
       <MainHeading 
-        subText="Here you'll find background information about ReInHerit as Horizon2020 project."
         breadCrumb={[{label:"About", value:"/about"}]}
-      >About ReInHerit</MainHeading>
+      >The ReInHerit Project</MainHeading>
       <Container fluid className="bg-white shadow p-sm-3 p-md-4 rounded">
       <Row>
         <Col md={8}>
-          <h2 className="h4">Aims and challenges</h2>
           <p>
-            The Horizon 2020 project "ReInHerit" focuses on current challenges in
-            the heritage sector across Europe (e.g. climate protection and
-            sustainability, digital transformation and digital engagement,
-            integrated experiences across sites and museums) and aims to foster
-            further communication and exchange opportunities between actors of the
-            cultural heritage sector (especially museums, cultural heritage managers
-            and policy experts, tourism industries, heritage audiences, and
-            citizens) by developing solutions, guidelines and tools, which are
-            accessible for everyone.{" "}
-          </p>
-          <br></br>
-          <br></br>
-          <h2 className="h4">Solutions and possibilities </h2>
-          <p>
-            To achieve this goal a sustainable digital ecosystem for cultural
-            heritage - or in other words this Digital Hub - was created. In this
-            hub, all actors of the cultural heritage sector will have a chance to
-            make the future of cultural heritage their own - either by connecting,
-            communicating and sharing with other peers or by getting to know new
-            ways and technologies for cultural heritage management and distribution.
+          ReInHerit is an Horizon 2020 project that aspires to disrupt the current status quo of communication, 
+          collaboration and innovation exchange between museums and cultural heritage sites, connecting professionals across 
+          these fields, and supporting them in presenting Europe’s tangible and intangible heritage to citizens 
+          and tourists, in their wider historical and geographical contexts.{" "}
           </p>
           <p>
-            Want to know more about the project? Visit the projects website at{" "}
+          The ReInHerit project is proposing an innovative model of sustainable heritage management, 
+          through which a dynamic network will be born; this network comprised of cultural heritage professionals, 
+          innovation and cultural heritage solution tech experts, researchers, national museums, regional and local 
+          museums, and representative managers of Heritage Label sites.</p>
+          <p>The Digital Hub fosters this network, hosting a series of resources (training resources and applications on conservation, digital engagement 
+            and youth participation, tourism) and aiming to become an ecosystem in which all stakeholders will be able to experiment with the resources 
+            and share their experiences.</p>
+          <p>
+            The project website describes in details the Work Packages and publishes the reports. Visit it at{" "}
             <a target="_blank" href="https://www.reinherit.eu/">
               reinherit.eu
             </a>{" "}
-            for further information.{" "}
+            .{" "}
           </p>
         </Col>
       </Row>

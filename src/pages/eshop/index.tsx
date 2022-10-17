@@ -10,8 +10,8 @@ const Designs = () => {
       pageTitle="Eshop | ReInHerit Digital Hub"
     >
       <MainHeading
-        subHeading="Collection of free downloadable artistic designs"
-        subText="Here you'll find all the free artistic designs created during the ReInHerit project. All are free to download and available for the public."
+        subHeading="Collection of digital objects from the ReInHerit museums"
+        subText="All the digital objects in the ReInHerit eShop are free to download."
         breadCrumb={[
           {label:"Eshop", value:"/eshop"}
         ]}
