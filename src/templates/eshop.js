@@ -40,17 +40,54 @@ export default function Template({
           <SideMainLayout
             side={
               <div className="card p-4 border-0 shadow bg-white">
-                <div>
-                  <i>Museum</i>
-                </div>
-                <div>{frontmatter.museum}</div>
-                <br />
+                {frontmatter.museum &&
+                  frontmatter.museum.length !== 0 && (
+                    <>
+                      <div>
+                        <i>Museum</i>
+                      </div>
+                      <div>
+                        <ul>
+                          {frontmatter.museum.map(String => {
+                            const [Id, Title] = String.split("____")
 
-                <div>
-                  <i>Product</i>
-                </div>
-                <div>{frontmatter.product_type}</div>
-                <br />
+                            return (
+                              <li>
+                                <Link to={`/eshop/${Id}`}>
+                                  {Title}
+                                </Link>
+                              </li>
+                            )
+                          })}
+                        </ul>
+                      </div>
+                      <br></br>
+                    </>
+                  )}
+                {frontmatter.product_type &&
+                  frontmatter.product_type.length !== 0 && (
+                    <>
+                      <div>
+                        <i>Product type</i>
+                      </div>
+                      <div>
+                        <ul>
+                          {frontmatter.product_type.map(String => {
+                            const [Id, Title] = String.split("____")
+
+                            return (
+                              <li>
+                                <Link to={`/eshop/${Id}`}>
+                                  {Title}
+                                </Link>
+                              </li>
+                            )
+                          })}
+                        </ul>
+                      </div>
+                      <br></br>
+                    </>
+                  )}
 
                 {/* <div>
                   <i>Terms of reuse</i>
