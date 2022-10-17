@@ -31,7 +31,7 @@ ReInHerit was acquired through Horizon 2020 CSA under the pillar Culture beyond 
 
 ReInHerit funding was secured in the framework of the Horizon 2020 CSA Programme, on the theme Culture beyond borders – Facilitating innovation and research cooperation between European museums and heritage. The Programme proposes an innovative model of sustainable cultural heritage management, aspiring to disrupt the current status quo of communication, collaboration and innovation exchange between museums and cultural heritage sites.
 
-![Event Poster for ReInHerit performance](https://ucarecdn.com/07181e58-e8cc-4ba4-a70b-583889e5cb3b/)
+![Event Poster for ReInHerit performance](https://ucarecdn.com/129dfecb-980f-4ff0-9cba-bb1bad3df29d/-/crop/443x464/0,0/-/preview/)
 
 Saturday 29 October 2022, (starting times 17:30, 19:00 and 20:00).
 Each performance has a duration of 40 minutes. 
