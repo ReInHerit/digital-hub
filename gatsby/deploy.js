@@ -28,7 +28,8 @@ var ghpages = require("gh-pages");
             branch: BRANCH,
             repo: GIT_REPO,
           },
-          () => {
+          (err) => {
+            console.log(err);
             console.log("*** Deployment finished")
             console.log(`*****\nEnd of deployment script...\n*****`)
           }
