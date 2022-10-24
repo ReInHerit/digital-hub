@@ -59,14 +59,14 @@ export default function Template({
             }
           >
             <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">
-              <img src={frontmatter.thumbnail}></img>
-              <a style={{borderRadius:0}} href={frontmatter.mainImage} download="eshop_item" className="btn btn-light border-radius-0" target="_blank">Have a closer look!</a>
-            </Container>
-            <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">
               <div
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
+              <a style={{borderRadius:0}} href={frontmatter.mainImage} download="eshop_item" className="btn btn-light border-radius-0" target="_blank">Click here to have a closer look and download it!</a>
+            </Container>
+            <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">
+            <img className="imgFeed" src={frontmatter.thumbnail}></img>
             </Container>
           </SideMainLayout>
         </div>
