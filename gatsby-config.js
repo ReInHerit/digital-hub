@@ -86,6 +86,9 @@ module.exports = {
                   title
                   pageId
                   question
+                  image_one
+                  image_two
+                  image_three
                 }
               }
             }

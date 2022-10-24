@@ -1,6 +1,6 @@
 import { graphql, Link } from "gatsby"
 import React from "react"
-import { Container } from "react-bootstrap"
+import { Container, Carousel } from "react-bootstrap"
 import SideMainLayout from "../components/shared/Layout/SideMainLayout"
 import BaseLayout from "../components/static/BaseLayout"
 import MainHeading from "../components/static/MainHeading"
@@ -63,11 +63,22 @@ export default function Template({
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
-              <a style={{borderRadius:0}} href={frontmatter.mainImage} download="eshop_item" className="btn btn-light border-radius-0" target="_blank">Click here to have a closer look and download it!</a>
+              <a style={{borderRadius:0}} href={frontmatter.mainImage} download="eshop_item" className="btn btn-info border-radius-0" target="_blank">Click here to have a closer look and download it!</a>
             </Container>
+
             <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">
-            <img className="imgFeed" src={frontmatter.thumbnail}></img>
-            </Container>
+            <Carousel variant="dark" style={{textAlign: "center"}}>
+            <Carousel.Item>
+            <img className="imgCarousel" src={frontmatter.image_one} style={{textAlign: "center"}}/>
+        </Carousel.Item>
+      <Carousel.Item>
+        <img className="imgCarousel" src={frontmatter.image_two} style={{textAlign: "center"}}/>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="imgCarousel" src={frontmatter.image_three} style={{textAlign: "center"}}/>
+        </Carousel.Item>
+        </Carousel>
+        </Container>
           </SideMainLayout>
         </div>
       </div>
@@ -85,6 +96,9 @@ export const pageQuery = graphql`
         type
         date
         mainImage
+        image_one
+        image_two
+        image_three
         museum
         product_type
       }

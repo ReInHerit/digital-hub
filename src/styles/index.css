@@ -90,6 +90,10 @@ path {
 
 .imgFeed {
   height: auto;
-  width: 100%;
   max-width: 75%;
+}
+
+.imgCarousel {
+  max-height: 60vh;
+  width: auto;
 }
