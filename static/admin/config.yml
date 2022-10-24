@@ -179,10 +179,13 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true }
       - { label: "Museum", name: "museum", widget: "select", options: ["Museum of Cycladic Art", "Bank of Cyprus Cultural Foundation", "Graz Museum"], multiple: false }
-      - { label: "Product type", name: "product_type", widget: "select", options: ["Keyring", "Cards", "Memory cards", "Weekly planner", "Greeting cards", "Puzzle", "Activity book", "Snakes and ladders", "Colouring book"], multiple: false }
-      - { label: "Design / Image", name: "mainImage", widget: "file", media_library: {config: {max_file_size: 50000000}}} # in bytes, only for default media library}
+      - { label: "Product type", name: "product_type", widget: "select", options: ["Keyring", "Cards", "Memory cards", "Weekly planner", "Greeting cards", "Puzzle", "Activity book", "Snakes and ladders", "Colouring book", "3D objects"], multiple: false }
+      - { label: "eShop Item", name: "mainImage", widget: "file", media_library: {config: {max_file_size: 50000000}}} # in bytes, only for default media library}
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0" }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: {config: {max_file_size: 100000}}} # in bytes, only for default media library}
+      - { label: "Image1", name: "image_one", hint: "image for carousel", widget: "image", required: true, media_library: {config: {max_file_size: 500000}}} # in bytes, only for default media library}
+      - { label: "Image2", name: "image_two", hint: "image for carousel", widget: "image", required: false, media_library: {config: {max_file_size: 500000}}} # in bytes, only for default media library}
+      - { label: "Image3", name: "image_three", hint: "image for carousel", widget: "image", required: false, media_library: {config: {max_file_size: 500000}}} # in bytes, only for default media library}
       - { label: "Body", name: "body", widget: "markdown", media_library: {config: {max_file_size: 10000000}} }
   - name: "tags"
     label: "Digital-Hub: Flexible tags"
