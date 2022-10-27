@@ -8,7 +8,7 @@ target-audience:
   - VISITOR
 museum: Graz Museum
 product_type: Colouring book
-mainImage: https://ucarecdn.com/ccd8b602-d2ca-48bb-95c5-b1f63d1077f6/
+mainImage: https://ucarecdn.com/74883fd5-0906-441d-9f5c-0d5f7abafc05/
 license: CC BY 2.0
 thumbnail: https://ucarecdn.com/013d579d-4fb4-4b15-a34a-4fbb0eeb5e35/
 image_one: https://ucarecdn.com/4e5d2e93-e80d-4ef3-8b57-7b247d7b2cce/
