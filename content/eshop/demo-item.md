@@ -9,7 +9,7 @@ target-audience:
   - VISITOR
 museum: Bank of Cyprus Cultural Foundation
 product_type: Colouring book
-mainImage: https://ucarecdn.com/28f0faf6-9874-48ac-9043-b5898ba744b2/
+mainImage: https://ucarecdn.com/d45c6983-6eab-4645-9d5a-55075a819141/
 license: CC-BY-2.0
 thumbnail: https://ucarecdn.com/937a752f-4517-4fb1-866a-5c8e323b56d1/
 image_one: https://ucarecdn.com/13f1fa8a-5abb-4481-9d01-a86e72494200/
