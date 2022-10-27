@@ -15,4 +15,4 @@ image_one: https://ucarecdn.com/5a6ae721-933b-49e4-a9f6-0cc9b08c528e/
 image_two: https://ucarecdn.com/b74c0704-f5ad-4375-b091-6a0c1169d266/
 image_three: https://ucarecdn.com/303d4353-5056-4708-8402-4194567232af/
 ---
-t﻿o correct later
+Go through mazes, complete half-drawings, spot differences between similar pictures, and connect dots. All sorts of fun in a single activity book! <br/> Print out the book from the below file and assemble into a booklet.  Then you can start – but watch out: these games are more challenging than they look!
