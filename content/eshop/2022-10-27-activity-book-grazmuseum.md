@@ -8,7 +8,7 @@ target-audience:
   - VISITOR
 museum: Graz Museum
 product_type: Activity book
-mainImage: https://ucarecdn.com/0220e861-d5e6-4e59-ba93-13bb1c89fd5c/
+mainImage: https://ucarecdn.com/a747fb16-381d-4bf0-a521-16cc2919627c/
 license: CC BY 2.0
 thumbnail: https://ucarecdn.com/61db5619-44b9-4637-9e2c-5b21433394d4/
 image_one: https://ucarecdn.com/84221658-6246-4b81-8cfc-f1edc70cc2a8/
