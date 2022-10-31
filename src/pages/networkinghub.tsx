@@ -29,15 +29,9 @@ const NetworkingHubPage = () => {
           title="Chat"
           url="https://gitter.im/ReInHerit/community"
         />
-        <ReinGridCard
-          body="Form based content contribution. Available for the public."
-          title="Forms"
-          url="/portal/exchange"
-        />
-      </ReinCardGrid>
+       </ReinCardGrid>
     </BaseLayout>
   )
-
 }
 
 
