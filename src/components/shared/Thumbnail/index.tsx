@@ -8,7 +8,7 @@ interface props {
  * Handles display of image as thumbnail
  */
 const Thumbnail: React.FC<props> = (props) => {
-  return <img src={props.src} style={{maxWidth:100, maxHeight:100}}></img>
+  return <img src={props.src} className="Thumbnail"></img>
 }
 
 export default Thumbnail;

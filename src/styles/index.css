@@ -93,6 +93,12 @@ path {
   max-width: 75%;
 }
 
+.Thumbnail {
+  text-align: center;
+  height: auto;
+  max-width: 80%;
+}
+
 .imgCarousel {
   max-height: 60vh;
   width: auto;
