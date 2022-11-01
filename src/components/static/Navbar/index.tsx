@@ -149,14 +149,14 @@ const ReinNavbar: React.FC = () => {
                 >
                   Exhibitions
                 </Link>
-              </Nav.Link>
+              </Nav.Link> */}
               <Link
                 style={{ color: "#424753" }}
                 className="text-decoration-none nav-link"
                 to="/eshop"
               >
                 eShop
-              </Link> */}
+              </Link> 
 
               <a
                 style={{ color: "#424753" }}
