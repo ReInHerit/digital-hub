@@ -13,7 +13,6 @@ const Demo = () => {
       <br></br>
       <Forum></Forum>
       <GitterSiderCar></GitterSiderCar>
-      <EventForm></EventForm>
     </BaseLayout>
   )
 
