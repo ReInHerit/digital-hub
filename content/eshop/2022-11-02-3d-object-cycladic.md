@@ -17,6 +17,7 @@ image_three: https://ucarecdn.com/56e8989c-6462-4d3c-8d8f-08451d78fe0e/
 ---
 Want to have a piece of history close to you?  Here’s your chance! <br/>
 You can download the 3D printing file of the item of your choice and proceed to print following the specifications and the value recommendations. <br/>
+Enjoy!
 
 **Specifications and value recommendations for print:**
 * Material: PLA (PolyLactic Acid)
