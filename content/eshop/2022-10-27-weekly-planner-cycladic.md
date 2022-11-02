@@ -12,6 +12,8 @@ mainImage: https://ucarecdn.com/b56410b6-d9e6-488e-a5b0-81a6c6945fc4/
 license: CC BY 2.0
 thumbnail: https://ucarecdn.com/a1da1a96-9d86-4902-8f2c-89f326d6982a/
 image_one: https://ucarecdn.com/63725b1e-9cc7-449e-8322-b93e0e734a39/
+image_two: https://ucarecdn.com/7f103f24-76bf-4c5e-b085-0e1169da265d/-/crop/1939x2234/0,0/-/preview/
+image_three: https://ucarecdn.com/6cc58ae7-4470-447f-8ed4-06739cb46fae/-/crop/1560x2482/1949,0/-/preview/
 ---
 What better way to keep track of your day-to-day chores and reminders, than a convenient weekly planner? <br/>
 Simply print out as many as you need from the below file, and preferably glue on cardboard. You can place it on your work desk, or on the fridge door with magnets, or even affix to your home’s notice-board! <br/>
