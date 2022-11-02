@@ -17,6 +17,7 @@ image_three: https://ucarecdn.com/6de3e76a-37ec-425e-a487-9e9747b2efa3/
 ---
 Want to have a piece of history close to you?  Here’s your chance! <br/>
 You can download the 3D printing file of the item of your choice and proceed to print following the specifications and the value recommendations. <br/>
+Enjoy!
 
 **Specifications and value recommendations for print:**
 
