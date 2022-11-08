@@ -2,7 +2,8 @@
 pageId: 856b4ec9-4c6f-40c6-b906-2ccb1b4311a5
 layout: blog
 type: news
-title: " Artificial Intelligence and Computer Vision for Cultural Heritage"
+title: ReInHerit Webinar- Artificial Intelligence and Computer Vision for
+  Cultural Heritage
 desc: "ReInHerit Webinar "
 date: 2022-11-08T09:50:26.849Z
 target-audience:
