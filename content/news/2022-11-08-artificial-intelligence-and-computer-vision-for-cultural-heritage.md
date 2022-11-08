@@ -4,7 +4,7 @@ layout: blog
 type: news
 title: ReInHerit Webinar- Artificial Intelligence and Computer Vision for
   Cultural Heritage
-desc: "ReInHerit Webinar "
+desc: "ReInHerit Webinars "
 date: 2022-11-08T09:50:26.849Z
 target-audience:
   - PROFESSIONAL
