@@ -11,13 +11,13 @@ target-audience:
 newsType: News
 thumbnail: https://ucarecdn.com/da224023-af8b-4dd9-b3dc-34928ed66298/
 ---
-![ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage"](https://ucarecdn.com/3a532d77-066b-410f-a15b-a70bf486f201/ "ReInHerit Webinar: \"Artificial Intelligence and Computer Vision for Cultural Heritage\\"")
+![ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage"](https://ucarecdn.com/3a532d77-066b-410f-a15b-a70bf486f201/ "ReInHerit Webinar: \\"Artificial Intelligence and Computer Vision for Cultural Heritage\\\"")
 
 ### ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage"
 
 * Facilitated by **Marco Bertini** and **Paolo Mazzanti**
-* **16 November 2022 from 3:00-4:00 pm CET**
-* **Free Registration is open until 14 November 2022 (3 pm) at the link <https://forms.gle/yccuw5rGVLJLCr6u9>**
+* **18 November 2022 from 3:00-4:00 pm CET**
+* **Free Registration is open until 16 November 2022 (3 pm) at this link <https://forms.gle/yccuw5rGVLJLCr6u9>**
 
 ReinHerit Webinars are aimed at cultural heritage professionals. They will consist of a *how to guide* for small and medium-sized museum and cultural heritage organizations that documents processes, provides instruction, technical requirements and best practices for co-creation and collaboration between museums and cultural heritage institutions.
 
