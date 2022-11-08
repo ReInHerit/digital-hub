@@ -11,6 +11,8 @@ target-audience:
 newsType: News
 thumbnail: https://ucarecdn.com/dc57e4d9-7ddc-4db0-a02b-4456acd38984/
 ---
+![](https://ucarecdn.com/f62d184b-3774-42ec-9c51-86551e0e858e/-/crop/881x541/34,22/-/preview/)
+
 ### ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage"
 
 * Facilitated by **Marco Bertini** and **Paolo Mazzanti**
