@@ -19,7 +19,7 @@ const [museum, setMuseums] = React.useState([])
 const [product_type, setProductType] = React.useState([])
 
 const ALL_MUSEUMS = ["Bank of Cyprus Cultural Foundation", "Graz Museum", "Museum of Cycladic Art"]
-const ALL_PRODUCT_TYPES = ["Keyring", "Cards", "Memory cards", "Weekly planner", "Greeting cards", "Puzzle", "Activity book", "Snakes and ladders", "Colouring book", "3D Objects"]
+const ALL_PRODUCT_TYPES = ["Keyring", "Cards", "Memory cards", "Weekly planner", "Greeting cards", "Puzzle", "Activity book", "Snakes and ladders", "Colouring book", "3D objects"]
 
 const toggleMUSE = (toToggleMUSE: string) => {
   let museumsSel = [...museum]
