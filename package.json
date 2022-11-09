@@ -3,8 +3,8 @@
   "private": true,
   "author": {
     "name": "Sebastian Stoff",
-    "url": "https://sebastianstoff.at",
-    "email": "SebastianStoff@gmx.at"
+    "url": "https://informationsmodellierung.uni-graz.at/de/",
+    "email": "digitalhub.reinherit@gmail.com"
   },
   "description": "ReInHerit aspires to disrupt the current status quo of communication, collaboration and innovation exchange between museums and cultural heritage sites, in a sense that it will connect cultural heritage collections and sites, and present Europe’s tangible and intangible heritage to citizens and tourists in their wider historical and geographical contexts. The ReInHerit project is proposing a very innovative model of sustainable heritage management, through which a dynamic network will be born; this network comprised of cultural heritage professionals, innovation and cultural heritage solution tech experts, researchers, national museums, regional and local museums, and representative managers of Heritage Label sites. ReInHerit is also supported externally, by relevant municipalities, regional and local museums, which will also enhance the communication and cooperation of the cultural heritage sector across the EU and beyond.",
   "version": "1.0.0",
@@ -16,7 +16,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy":"npm run build && node ./gatsby/deploy.js",
+    "deploy": "npm run build && node ./gatsby/deploy.js",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
