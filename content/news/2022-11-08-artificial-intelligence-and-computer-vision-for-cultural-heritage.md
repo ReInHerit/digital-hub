@@ -11,7 +11,7 @@ target-audience:
 newsType: News
 thumbnail: https://ucarecdn.com/6cd02d52-1194-4354-a703-f042c108db94/
 ---
-![ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage"](https://ucarecdn.com/3a532d77-066b-410f-a15b-a70bf486f201/ "ReInHerit Webinar: \"Artificial Intelligence and Computer Vision for Cultural Heritage\"")
+![ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage"](https://ucarecdn.com/fe669689-fd81-4171-be69-98b8dd2cef28/ "ReInHerit Webinar: \\"Artificial Intelligence and Computer Vision for Cultural Heritage\\"")
 
 ### ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage"
 
