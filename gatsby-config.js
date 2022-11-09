@@ -11,7 +11,7 @@ module.exports = {
     description: "coming soon",
     author: "Sebastian Stoff"
   },
-  // pathPrefix: `/gamsdev/stoffse/test/dooku`,
+  // pathPrefix: ``,
   plugins: [
     {
       resolve: `gatsby-plugin-gdpr-cookies`,
