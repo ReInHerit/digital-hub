@@ -4,12 +4,12 @@ layout: blog
 type: news
 title: ReInHerit Webinar- Artificial Intelligence and Computer Vision for
   Cultural Heritage
-desc: "ReInHerit Webinars "
+desc: "ReInHerit Webinars - Digital and emerging technology "
 date: 2022-11-08T09:50:26.849Z
 target-audience:
   - PROFESSIONAL
 newsType: News
-thumbnail: https://ucarecdn.com/6cd02d52-1194-4354-a703-f042c108db94/
+thumbnail: https://ucarecdn.com/dcf6a414-3b92-41ea-a564-ca76af5b01f9/
 ---
 ![ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage"](https://ucarecdn.com/fe669689-fd81-4171-be69-98b8dd2cef28/ "ReInHerit Webinar: \\\"Artificial Intelligence and Computer Vision for Cultural Heritage\\\"")
 
