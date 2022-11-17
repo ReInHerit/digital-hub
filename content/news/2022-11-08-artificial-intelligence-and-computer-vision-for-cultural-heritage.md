@@ -9,7 +9,7 @@ date: 2022-11-08T09:50:26.849Z
 target-audience:
   - PROFESSIONAL
 newsType: News
-thumbnail: https://ucarecdn.com/b5c9d4bf-23bc-4200-b7ee-a1e6e1a9666f/
+thumbnail: https://ucarecdn.com/8f1c9a2c-7c78-4a66-86fb-05e1c2795987/
 ---
 ![ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage"](https://ucarecdn.com/fe669689-fd81-4171-be69-98b8dd2cef28/ "ReInHerit Webinar: \\\"Artificial Intelligence and Computer Vision for Cultural Heritage\\\"")
 
