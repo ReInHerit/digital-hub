@@ -10,7 +10,7 @@ target-audience:
 newsType: News
 thumbnail: https://ucarecdn.com/7ae36d0c-32e5-4bb5-88ad-2bdb6f1fce87/
 ---
-![ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage](https://ucarecdn.com/81674ae8-57dc-4ab8-8728-538024af71b1/ "ReInHerit Webinar: \\\"Artificial Intelligence and Computer Vision for Cultural Heritage")
+![ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage](https://ucarecdn.com/81674ae8-57dc-4ab8-8728-538024af71b1/ "ReInHerit Webinar: \\\\"Artificial Intelligence and Computer Vision for Cultural Heritage")
 
 ## ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage
 
@@ -25,7 +25,7 @@ The Webinars are organised in the context of the  Horizon2020 [ReInHerit](http
 
 ### About this webinar:
 
-> ADD TEXT.
+> Facilitated by Marco Bertini from [MICC - Media Integration and Communication Center](https://www.micc.unifi.it), University of Study Florence - in the webinar will be introduced two applications of the ReinHerit Toolkit, designed for the cultural heritage domain and that exploit gamification techniques in order to improve enjoyment and learning of museum artworks. The goal of “Strike a Pose” and “Face Fit” applications is to challenge the users to analyze and replicate artworks with their own body and face, obtaining information on the artworks that are replicated and personalized representations sharable on social networks.  A gamification approach useful both for improving the skills and competencies of museum professionals and for engaging visitors in museum content through the design of playful and participative digital learning scenarios in a "play and interact" visiting style.
 
 ###  Speakers:
 
