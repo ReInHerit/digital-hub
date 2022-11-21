@@ -15,6 +15,7 @@ import {
   faLinkedin,
   faTiktok,
   faTwitter,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons"
 
 const Header: React.FC = () => {

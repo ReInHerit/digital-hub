@@ -1,4 +1,4 @@
-import { faFacebook, faInstagram, faLinkedin, faTiktok, faTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook, faInstagram, faLinkedin, faTiktok, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "gatsby"
 import React from "react"
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
             <a className="text-decoration-none" href="https://www.tiktok.com/@reinherit_" target="_blank" aria-label="ReInHerit on TikTok"><FontAwesomeIcon className="ms-1" icon={faTiktok}></FontAwesomeIcon> </a>
             <a className="text-decoration-none" href="https://mobile.twitter.com/reinherit_" target="_blank" aria-label="ReInHerit on Twitter"><FontAwesomeIcon className="ms-1" icon={faTwitter}></FontAwesomeIcon> </a>
             <a className="text-decoration-none" href="https://www.instagram.com/reinherit_/" target="_blank" aria-label="ReInHerit on Instagram"><FontAwesomeIcon className="ms-1" icon={faInstagram}></FontAwesomeIcon> </a>
-
+            <a className="text-decoration-none" href="https://www.youtube.com/channel/UCWg6SySC2I-RQ41qjxZmTmA" target="_blank" aria-label="ReInHerit on YouTube"><FontAwesomeIcon className="ms-1" icon={faYoutube}></FontAwesomeIcon> </a>
             <br></br>
             <br></br>
             <p className="m-0">Contact:</p>
