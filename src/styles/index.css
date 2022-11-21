@@ -103,3 +103,9 @@ path {
   max-height: 60vh;
   width: auto;
 }
+
+.blog-post-content img {
+  text-align: center;
+  height: auto;
+  max-width: 90%;
+}
