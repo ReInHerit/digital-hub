@@ -10,9 +10,9 @@ target-audience:
 newsType: News
 thumbnail: https://ucarecdn.com/7ae36d0c-32e5-4bb5-88ad-2bdb6f1fce87/
 ---
-![ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage](https://ucarecdn.com/81674ae8-57dc-4ab8-8728-538024af71b1/ "ReInHerit Webinar: \\\\\"Artificial Intelligence and Computer Vision for Cultural Heritage")
+![ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage](https://ucarecdn.com/81674ae8-57dc-4ab8-8728-538024af71b1/ "ReInHerit Webinar: \\\\\\"Artificial Intelligence and Computer Vision for Cultural Heritage")
 
-## ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage
+## ReInHerit Webinar: "Engaging Museum Visitors with Gamification Apps"
 
 * Facilitated by **Marco Bertini** 
 * **30 November 2022 from 3:00-3:45 pm CET**
