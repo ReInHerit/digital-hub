@@ -449,7 +449,6 @@ collections:
           label: "Artist / Producer",
           name: "artist",
           widget: "string",
-          pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"],
           required: true,
         }
       - {
@@ -486,7 +485,7 @@ collections:
               "1800 – 1900 CE",
               "1900 CE – today",
             ],
-          widget: "string",
+          widget: "select",
           required: true,
         }
       - {
