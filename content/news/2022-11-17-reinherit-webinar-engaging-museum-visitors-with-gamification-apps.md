@@ -10,13 +10,14 @@ target-audience:
 newsType: News
 thumbnail: https://ucarecdn.com/7ae36d0c-32e5-4bb5-88ad-2bdb6f1fce87/
 ---
-![ReInHerit Webinar: "Engaging Museum Visitors with Gamification Apps"](https://ucarecdn.com/81674ae8-57dc-4ab8-8728-538024af71b1/ "ReInHerit Webinar: \"Engaging Museum Visitors with Gamification Apps\"")
+![ReInHerit Webinar: "Engaging Museum Visitors with Gamification Apps"](https://ucarecdn.com/81674ae8-57dc-4ab8-8728-538024af71b1/ "ReInHerit Webinar: \\"Engaging Museum Visitors with Gamification Apps\\"")
 
 ## ReInHerit Webinar: "Engaging Museum Visitors with Gamification Apps"
 
 * Facilitated by **Marco Bertini** 
 * **30 November 2022 from 3:00-3:45 pm CET**
-* **Free Registration is open until 28 November 2022 (3 pm) [HERE](https://docs.google.com/forms/d/e/1FAIpQLSfGgyQ-iVKTSjYWu947IKZ1075vCxXA9fcTnnyAOMKSPjuiSw/viewform)**
+* **Free Registration is open until 28 November 2022 (3 pm)**  ** [HERE](https://docs.google.com/forms/d/e/1FAIpQLSfGgyQ-iVKTSjYWu947IKZ1075vCxXA9fcTnnyAOMKSPjuiSw/viewform)**\
+  [shorturl.at/oABT4](shorturl.at/oABT4)
 * The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available on this Hub.[](http://www.reinherit-hub.eu/)
 
 ReinHerit Webinars are aimed at cultural heritage professionals. They will consist of a *how to guide* for small and medium-sized museum and cultural heritage organizations that documents processes, provides instruction, technical requirements and best practices for co-creation and collaboration between museums and cultural heritage institutions.
