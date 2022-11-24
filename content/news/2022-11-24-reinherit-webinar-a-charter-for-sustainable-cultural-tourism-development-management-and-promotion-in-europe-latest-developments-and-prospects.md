@@ -12,7 +12,7 @@ target-audience:
 newsType: News
 thumbnail: https://ucarecdn.com/8882c76d-238b-46cd-abf5-912be171cec0/
 ---
-![A Charter for Sustainable Cultural Tourism development, management and promotion in Europe, latest developments and prospects](https://ucarecdn.com/7f963820-8769-4e97-b72a-26f8af00bca2/ "A Charter for Sustainable Cultural Tourism development, management and promotion in Europe, latest developments and prospects")
+![A Charter for Sustainable Cultural Tourism development, management and promotion in Europe, latest developments and prospects](https://ucarecdn.com/c811b412-b343-4cf3-8cd2-326f6514fdb3/ "A Charter for Sustainable Cultural Tourism development, management and promotion in Europe, latest developments and prospects")
 
 ### ReInHerit Webinar: "A Charter for Sustainable Cultural Tourism development, management and promotion in Europe, latest developments and prospects"
 
