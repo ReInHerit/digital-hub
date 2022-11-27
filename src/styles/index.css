@@ -94,9 +94,11 @@ path {
 }
 
 .Thumbnail {
-  text-align: center;
-  height: auto;
-  max-width: 80%;
+  max-height: 200px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .imgCarousel {
@@ -105,7 +107,9 @@ path {
 }
 
 .blog-post-content img {
-  text-align: center;
   height: auto;
   max-width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

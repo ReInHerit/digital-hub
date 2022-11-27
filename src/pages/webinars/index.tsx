@@ -10,7 +10,7 @@ const WebinarsPage = () => {
   >
     <MainHeading
       subHeading="Webinars related to cultural heritage management provided by ReInHerit"
-      subText="Here you will find training material either on the tools developed in the ReInHerit-project or generally on digitization in the CH sector, CH management and preservation."
+      subText="ReinHerit Webinars are aimed at cultural heritage professionals. They will consist of a *how to guide* for small and medium-sized museum and cultural heritage organizations that documents processes, provides instruction, technical requirements and best practices for co-creation and collaboration between museums and cultural heritage institutions."
       breadCrumb={[
         {label:"Resources", value:"/resources"},
         {label:"Webinars", value:"/webinars"}

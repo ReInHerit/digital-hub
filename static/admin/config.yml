@@ -280,6 +280,7 @@ collections:
           multiple: true,
           required: false,
         }
+      - { label: "Theme", name: "theme", widget: "select", options: ["technology", "tourism", "management"], multiple: false, }
       - {
           label: "Linked toolkit components",
           name: "linkedToolkitComponents",
@@ -621,6 +622,13 @@ collections:
           default: "News",
           multiple: false,
         }
+      -  - {
+          label: "Theme",
+          name: "theme",
+          widget: "select",
+          options: ["technology", "tourism", "management", "other"],
+          multiple: false,
+          }
       - {
           label: "Thumbnail",
           name: "thumbnail",
