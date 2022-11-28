@@ -472,6 +472,7 @@ collections:
       - {
           label: "General Origin Time",
           name: "generalOriginTime",
+          widget: "select",
           options:
             [
               "before 1000 BCE",
@@ -485,8 +486,8 @@ collections:
               "1800 – 1900 CE",
               "1900 CE – today",
             ],
-          widget: "select",
           required: true,
+          multiple: false,
         }
       - {
           label: "Specific Origin Time",
@@ -549,6 +550,7 @@ collections:
               "tolerance",
               "tradition",
             ],
+          required: true,
           multiple: true,
         }
       - {
