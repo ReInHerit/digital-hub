@@ -620,7 +620,7 @@ collections:
           name: "newsType",
           widget: "select",
           options: ["Event", "News"],
-          default: "News",
+          default: ["News"],
           multiple: false,
         }
       - {
@@ -630,7 +630,7 @@ collections:
           widget: "image",
           required: false,
           media_library: { config: { max_file_size: 100000 } },
-        } # in bytes, only for default media library}
+        } # in bytes, only for default media library
       - {
           label: "Body",
           name: "body",
