@@ -2,7 +2,7 @@
 layout: blog
 type: eshop
 pageId: 0d300863-4149-4302-9d1d-725f1d7b4ac0
-title: Playing Cards (Cycladic)
+title: Playing cards (Cycladic)
 date: 2022-11-29T11:22:19.930Z
 target-audience:
   - VISITOR
