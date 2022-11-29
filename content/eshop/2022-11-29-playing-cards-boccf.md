@@ -10,7 +10,7 @@ museum: Bank of Cyprus Cultural Foundation
 product_type: Cards
 mainImage: https://ucarecdn.com/4e09480e-a689-4f5d-9b24-4b78c6d137e2/
 license: CC BY 2.0
-thumbnail: https://ucarecdn.com/497b11fd-c53d-4a90-91ad-1149af08483a/
+thumbnail: https://ucarecdn.com/eab43ce3-299d-425c-b9cf-883f089f2efd/
 image_one: https://ucarecdn.com/1e09d339-c506-4c3e-9a3f-395290a86b75/
 image_two: https://ucarecdn.com/1226bf3e-8872-437d-80b3-98e62aab6891/
 image_three: https://ucarecdn.com/e94d6a23-e382-4fbc-bef6-39a2f619b7ee/
