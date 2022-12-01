@@ -17,4 +17,11 @@ Some of the E-shop’s items are designed especially for children. This is an op
 
 The ReInherit E-shop is the result of collaboration between three museums, the Cycladic Museum, the Graz Museum and the Bank of Cyprus Cultural Foundation. They have proposed a few of the artefacts from their collections to serve as inspiration for the printable digital items of the E-shop. This is an opportunity to LEARN AND EXPLORE, through the experimentation with the items, the collections of the three Museums.
 
+**HOW TO**
+
+1. Navigate to [ReInHerit E-shop](https://reinherit-hub.eu/eshop)
+2. Choose your item
+3. Download and print
+4. MakeItYourOwn by following the instructions! 
+
 ![Snakes and ladders game from Cycladic](https://ucarecdn.com/4822dbb6-da81-453b-b1ec-b667174606fb/)
