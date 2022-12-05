@@ -70,15 +70,14 @@ const ReinNavbar: React.FC = () => {
                 </Link>
               </Nav.Link>
 
-              {/*
               <NavDropdown title="Resources" id="basic-nav-dropdown">
-                <Link
+                {/*<Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/resources"
                 >
                   Overview
                 </Link>
-                <Link
+                 <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/tools/apps"
                 >
@@ -89,14 +88,14 @@ const ReinNavbar: React.FC = () => {
                   to="/tools/components"
                 >
                   Tool components
-                </Link>
+                </Link> */}
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/webinars"
                 >
                   Webinars
                 </Link>
-                <Link
+              {/*  <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/game"
                 >
@@ -113,8 +112,17 @@ const ReinNavbar: React.FC = () => {
                   to="/bestpractices"
                 >
                   Best practices
-                </Link>
-          </NavDropdown> */}
+                </Link> */}
+          </NavDropdown>
+                
+                <Link
+                 style={{ color: "#424753" }}
+                 className="text-decoration-none nav-link"
+                 to="/eshop"
+               >
+                 eShop
+               </Link>
+
               {/* <Link className="text-dark text-decoration-none nav-link" to="/">Events</Link> */}
               {/*<NavDropdown title="Events" id="basic-nav-dropdown">
                 <Link
@@ -150,21 +158,14 @@ const ReinNavbar: React.FC = () => {
                   Exhibitions
                 </Link>
               </Nav.Link> */}
+         
               <Link
                 style={{ color: "#424753" }}
                 className="text-decoration-none nav-link"
-                to="/eshop"
-              >
-                eShop
-              </Link> 
-
-              <a
-                style={{ color: "#424753" }}
-                className="text-decoration-none nav-link"
-                href="https://gitter.im/ReInHerit"
+                to="/networkinghub"
               >
                 Forum
-              </a>
+              </Link>
             
             </Nav>
 

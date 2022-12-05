@@ -12,23 +12,26 @@ const NetworkingHubPage = () => {
       pageTitle="Networking | ReInHerit Digital Hub"
     >
       <MainHeading
-        subHeading="Collaboration and communication tools provided by the digital hub"
-        subText="Here you'll find different means to communicate and collaborate with other cultural heritage professionals."
+        subHeading="Collaboration and communication around the ReInHerit project and its themes."
+        subText="The ReInHerit forum is open to everyone: you are welcome to join in the conversations, 
+        share your experiences, or ask questions about the ReInHerit work! Temporary call for actions and participation will also be shared in this area."
         breadCrumb={[{
           label:"Networking", value:"/networkinghub"
         }]}
       >Networking</MainHeading>
       <ReinCardGrid>
         <ReinGridCard
-          body="Overview of different chat rooms and collaboration environments."
+          body="Join the ReInHerit Forum. You can freely login with GitHub or Twitter, join different thematic rooms, 
+          and participate in all the conversations."
           title="Forum"
           url="https://gitter.im/ReInHerit"
         />
+   {/*
         <ReinGridCard
-          body="Community chat-room. Open for everyone to read."
-          title="Chat"
-          url="https://gitter.im/ReInHerit/community"
-        />
+          body="Contribute to the ReInHerit digital exhibitions with your collections! Participatory action open to all European museums."
+          title="Call for exhibition objects"
+          url="..."
+      /> */}
        </ReinCardGrid>
     </BaseLayout>
   )
