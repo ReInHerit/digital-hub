@@ -92,6 +92,7 @@ export default function Template({
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
+              <a style={{borderRadius:0}} href={frontmatter.slides} download="Slides" className="btn btn-info border-radius-0" target="_blank">Click this button to download the slides.</a>
         </Container>
           </SideMainLayout>
         </div>

@@ -272,7 +272,7 @@ collections:
       - { label: "Theme", 
           name: "theme", 
           widget: "select", 
-          options: ["technology", "tourism", "management"], 
+          options: ["Technology", "Tourism", "Management"], 
           required: true,
           multiple: false, 
         }
@@ -290,8 +290,10 @@ collections:
       - {
           label: "Linked ReInHerit content",
           name: "linkedReInHeritcontent",
-          widget: "select",
-          options: ["Technology", "Tourism", "Management"],
+          widget: "relation",
+          value_field: "{{pageId}}____{{title}}",
+          search_fields: ["title"],
+          display_fields: ["title"],          
           multiple: true,
           required: false,
           hint: "Links to Hub section with relevant material",
@@ -310,6 +312,12 @@ collections:
           required: false,
           media_library: { config: { max_file_size: 100000 } },
         } # in bytes, only for default media library}
+      - {
+          label: "Slides",
+          name: "slides",
+          widget: "file",
+          media_library: { config: { max_file_size: 50000000 } },
+        } 
       - {
           label: "Body",
           name: "body",
