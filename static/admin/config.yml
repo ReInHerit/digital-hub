@@ -266,9 +266,10 @@ collections:
           name: "target-audience",
           widget: "select",
           options: ["VISITOR", "PROFESSIONAL"],
-          default: ["VISITOR"],
+          default: ["PROFESSIONAL"],
           multiple: true,
         }
+      - { label: "Theme", name: "theme", widget: "select", options: ["technology", "tourism", "management"], multiple: false, }
       - {
           label: "Tags",
           name: "tags",
@@ -281,28 +282,15 @@ collections:
           required: false,
         }
       - {
-          label: "Linked toolkit components",
-          name: "linkedToolkitComponents",
+          label: "Linked ReInHerit content",
+          name: "linkedReInHeritcontent",
           widget: "relation",
-          collection: "toolcomponents",
           value_field: "{{pageId}}____{{title}}",
           search_fields: ["title"],
           display_fields: ["title"],
           multiple: true,
           required: false,
-          hint: "Displays titles of already created toolkit components in this CMS (entries must be already existing)",
-        }
-      - {
-          label: "Linked toolkit apps",
-          name: "linkedToolkitApps",
-          widget: "relation",
-          collection: "toolapps",
-          value_field: "{{pageId}}____{{title}}",
-          search_fields: ["title"],
-          display_fields: ["title"],
-          multiple: true,
-          required: false,
-          hint: "Displays titles of already created toolkit apps in this CMS (entries must be already existing)",
+          hint: "Displays titles of already created content in this CMS (entries must be already existing)",
         }
       - {
           label: "License",
@@ -552,6 +540,7 @@ collections:
             ],
           required: true,
           multiple: true,
+          hint: "Please select max 5 categories."
         }
       - {
           label: "License",
@@ -614,6 +603,13 @@ collections:
           options: ["VISITOR", "PROFESSIONAL"],
           default: ["VISITOR"],
           multiple: true,
+        }
+      - {
+          label: "Theme",
+          name: "theme",
+          widget: "select",
+          options: ["technology", "tourism", "management", "other"],
+          multiple: false,
         }
       - {
           label: "News type",
