@@ -5,19 +5,17 @@ type: news
 title: ReInHerit Webinar- Artificial Intelligence and Computer Vision for
   Cultural Heritage
 desc: "ReInHerit Webinars - Digital and emerging technology "
-theme: Technology
 date: 2022-11-08T09:50:26.849Z
 target-audience:
   - PROFESSIONAL
+theme: Technology
 newsType: News
 thumbnail: https://ucarecdn.com/2f987758-3627-4130-993d-42b88fc1d084/
 ---
-![ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage"](https://ucarecdn.com/fe669689-fd81-4171-be69-98b8dd2cef28/ "ReInHerit Webinar: \\\"Artificial Intelligence and Computer Vision for Cultural Heritage\\\"")
+![ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage"](https://ucarecdn.com/fe669689-fd81-4171-be69-98b8dd2cef28/ "ReInHerit Webinar: \\\\"Artificial Intelligence and Computer Vision for Cultural Heritage\\\\"")
 
-### ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage"
-
-* Facilitated by **Marco Bertini** and **Paolo Mazzanti**
 * **18 November 2022 from 3:00-4:00 pm CET**
+* Facilitated by **Marco Bertini** and **Paolo Mazzanti**
 * **Free Registration is open until 16 November 2022 (3 pm) at this link <https://forms.gle/yccuw5rGVLJLCr6u9>**
 * The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available on this Hub.[](http://www.reinherit-hub.eu/)
 
