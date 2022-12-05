@@ -269,7 +269,13 @@ collections:
           default: ["PROFESSIONAL"],
           multiple: true,
         }
-      - { label: "Theme", name: "theme", widget: "select", options: ["technology", "tourism", "management"], multiple: false, }
+      - { label: "Theme", 
+          name: "theme", 
+          widget: "select", 
+          options: ["technology", "tourism", "management"], 
+          required: true,
+          multiple: false, 
+        }
       - {
           label: "Tags",
           name: "tags",
@@ -284,13 +290,11 @@ collections:
       - {
           label: "Linked ReInHerit content",
           name: "linkedReInHeritcontent",
-          widget: "relation",
-          value_field: "{{pageId}}____{{title}}",
-          search_fields: ["title"],
-          display_fields: ["title"],
+          widget: "select",
+          options: ["Technology", "Tourism", "Management"],
           multiple: true,
           required: false,
-          hint: "Displays titles of already created content in this CMS (entries must be already existing)",
+          hint: "Links to Hub section with relevant material",
         }
       - {
           label: "License",
@@ -608,7 +612,7 @@ collections:
           label: "Theme",
           name: "theme",
           widget: "select",
-          options: ["technology", "tourism", "management", "other"],
+          options: ["Technology", "Tourism", "Management", "Other"],
           multiple: false,
         }
       - {
