@@ -286,17 +286,7 @@ collections:
           display_fields: ["title"],
           multiple: true,
           required: false,
-        }
-      - {
-          label: "Linked ReInHerit content",
-          name: "linkedReInHeritcontent",
-          widget: "relation",
-          value_field: "{{pageId}}____{{title}}",
-          search_fields: ["title"],
-          display_fields: ["title"],          
-          multiple: true,
-          required: false,
-          hint: "Links to Hub section with relevant material",
+          hint: "Use this to mention other ReInHerit content by type (e.g. apps, performances, etc.)"
         }
       - {
           label: "License",
@@ -317,6 +307,7 @@ collections:
           name: "slides",
           widget: "file",
           media_library: { config: { max_file_size: 50000000 } },
+          required: false,
         } 
       - {
           label: "Body",
