@@ -9,13 +9,9 @@ import MainHeading from "../components/static/MainHeading"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
-  pageContext, // pagecontext provided by gatsby
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-
-  const { mapFaSymbol } = useReinLocalStorage()
-
 
   return (
     <BaseLayout>
@@ -48,7 +44,7 @@ export default function Template({
                       <div>
                         <i>Relevant ReInHerit content</i>
                       </div>
-                      <div>
+                     {/* <div>
                         <ul>
                           {frontmatter.linkedReInHeritcontent.map(linkedString => {
                             const [pageId, title] = linkedString.split("____")
@@ -62,7 +58,7 @@ export default function Template({
                             )
                           })}
                         </ul>
-                      </div>
+                      </div> */}
                       <br></br>
                     </>
                   )}
@@ -92,7 +88,7 @@ export default function Template({
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
-              <a style={{borderRadius:0}} href={frontmatter.slides} download="Slides" className="btn btn-info border-radius-0" target="_blank">Click this button to download the slides.</a>
+              <a style={{borderRadius:0}} href={frontmatter.slides} download="webinar_slides" className="btn btn-info border-radius-0" target="_blank">Click this button to download the slides.</a>
         </Container>
           </SideMainLayout>
         </div>
@@ -104,19 +100,21 @@ export default function Template({
 export const pageQuery = graphql`
 query($id: String!) {
   markdownRemark(frontmatter: { pageId: { eq: $id } }) {
-    html
-    frontmatter {
-      date(formatString: "MMMM DD, YYYY")
+  html
+  frontmatter {
+      date
       title
-      type
-      theme
+      slides
       license
       target_audience
-      linkedReInHeritcontent
-      desc
+      tags
+      theme
+      thumbnail
+      type
     }
-    id
-    excerpt
+  id
+  excerpt
   }
 }
+
 `
