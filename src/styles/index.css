@@ -94,8 +94,8 @@ path {
 }
 
 .Thumbnail {
-  max-height: 200px;
-  width: auto;
+  max-width: 90%;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
