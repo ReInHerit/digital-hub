@@ -12,7 +12,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
     const mdId = edge.node.frontmatter.pageId
     actions.createPage({
       path: `/webinars/${mdId}`,
-      component: require.resolve(`./src/templates/toolkit.js`),
+      component: require.resolve(`./src/templates/webinar.js`),
       context: { id: mdId },
     })
   })
