@@ -6,6 +6,7 @@ title: ReInHerit Webinar - A Charter for Sustainable Cultural Tourism
   development, management and promotion in Europe, latest developments and
   prospects
 desc: ReInHerit Webinar | Cultural Tourism
+theme: Management
 date: 2022-11-24T13:10:49.855Z
 target-audience:
   - PROFESSIONAL

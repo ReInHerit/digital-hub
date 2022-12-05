@@ -3,6 +3,7 @@ pageId: caa96043-def0-42d9-81dc-3ebd0d6d57af
 layout: blog
 type: news
 title: Welcome to the ReInHerit Digital Hub
+theme: Other
 date: 2022-08-19T11:02:48.133Z
 target-audience:
   - VISITOR 

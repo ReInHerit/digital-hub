@@ -5,6 +5,7 @@ type: news
 title: ReInHerit Webinar- Artificial Intelligence and Computer Vision for
   Cultural Heritage
 desc: "ReInHerit Webinars - Digital and emerging technology "
+theme: Technology
 date: 2022-11-08T09:50:26.849Z
 target-audience:
   - PROFESSIONAL

@@ -4,6 +4,7 @@ layout: blog
 type: news
 title: How to be creative, generous, promote entertainment and at the same time
   expand your knowledge on museum collections?
+theme: Management
 date: 2022-12-01T09:25:36.068Z
 target-audience:
   - VISITOR
