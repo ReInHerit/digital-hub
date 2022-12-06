@@ -6,19 +6,17 @@ title: ReInHerit Webinar - A Charter for Sustainable Cultural Tourism
   development, management and promotion in Europe, latest developments and
   prospects
 desc: ReInHerit Webinar | Cultural Tourism
-theme: Management
 date: 2022-11-24T13:10:49.855Z
 target-audience:
   - PROFESSIONAL
+theme: Management
 newsType: News
 thumbnail: https://ucarecdn.com/8b27cc67-5d39-4ad8-ba9d-72ee1c6a58e9/
 ---
 ![A Charter for Sustainable Cultural Tourism development, management and promotion in Europe, latest developments and prospects](https://ucarecdn.com/68b5bc79-2d09-490f-9354-1dbbae8c56f2/ "A Charter for Sustainable Cultural Tourism development, management and promotion in Europe, latest developments and prospects")
 
-### ReInHerit Webinar: "A Charter for Sustainable Cultural Tourism development, management and promotion in Europe, latest developments and prospects"
-
-* Facilitated by **Manos Vougioukas** and **Jordi Tresserras Juan**
 * **9 December 2022 from 3:00-4:00 pm CET**
+* Facilitated by **Manos Vougioukas** and **Jordi Tresserras Juan**
 * **Free Registration is open until 7 December 2022 (3 pm)** [\*\* HERE \*\*](https://docs.google.com/forms/d/e/1FAIpQLSdEDm6o9-9L_l8z7tl7W76EjuVnd52YFtNvfWD7hC3OGUH5Ag/viewform)\
   [shorturl.at/prAU8](https://shorturl.at/prAU8)
 * The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available on this Hub.[](http://www.reinherit-hub.eu/)
