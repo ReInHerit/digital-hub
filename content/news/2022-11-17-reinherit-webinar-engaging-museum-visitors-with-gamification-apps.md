@@ -4,20 +4,17 @@ layout: blog
 type: news
 title: 'ReInHerit Webinar: "Engaging Museum Visitors with Gamification Apps"'
 desc: "ReInHerit Webinars - Digital and emerging technology "
-theme: Technology
 date: 2022-11-17T13:54:12.038Z
 target-audience:
   - PROFESSIONAL
+theme: Technology
 newsType: News
 thumbnail: https://ucarecdn.com/9e39df18-f883-4ac0-834b-ad12d45ccce8/
 ---
+![ReInHerit Webinar: "Engaging Museum Visitors with Gamification Apps"](https://ucarecdn.com/81674ae8-57dc-4ab8-8728-538024af71b1/ "ReInHerit Webinar: \\\\"Engaging Museum Visitors with Gamification Apps\\\\"")
 
-![ReInHerit Webinar: "Engaging Museum Visitors with Gamification Apps"](https://ucarecdn.com/81674ae8-57dc-4ab8-8728-538024af71b1/ "ReInHerit Webinar: \\\"Engaging Museum Visitors with Gamification Apps\\\"")
-
-## ReInHerit Webinar: "Engaging Museum Visitors with Gamification Apps"
-
-* Facilitated by **Marco Bertini** 
 * **30 November 2022 from 3:00-3:45 pm CET**
+* Facilitated by **Marco Bertini** 
 * **Free Registration is open until 28 November 2022 (3 pm)**  ** [HERE](https://docs.google.com/forms/d/e/1FAIpQLSfGgyQ-iVKTSjYWu947IKZ1075vCxXA9fcTnnyAOMKSPjuiSw/viewform)**\
   [shorturl.at/oABT4](http://shorturl.at/oABT4)
 * The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available on this Hub.[](http://www.reinherit-hub.eu/)
