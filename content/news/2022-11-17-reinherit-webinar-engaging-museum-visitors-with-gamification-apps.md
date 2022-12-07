@@ -11,7 +11,7 @@ theme: Technology
 newsType: News
 thumbnail: https://ucarecdn.com/9e39df18-f883-4ac0-834b-ad12d45ccce8/
 ---
-![ReInHerit Webinar: "Engaging Museum Visitors with Gamification Apps"](https://ucarecdn.com/81674ae8-57dc-4ab8-8728-538024af71b1/ "ReInHerit Webinar: \\\\"Engaging Museum Visitors with Gamification Apps\\\\"")
+![ReInHerit Webinar: "Engaging Museum Visitors with Gamification Apps"](https://ucarecdn.com/81674ae8-57dc-4ab8-8728-538024af71b1/ "Engaging Museum Visitors with Gamification Apps")
 
 * **30 November 2022 from 3:00-3:45 pm CET**
 * Facilitated by **Marco Bertini** 
