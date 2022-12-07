@@ -8,6 +8,7 @@ import React from "react"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 import Thumbnail from "../Thumbnail"
+import { Col, Row, Badge} from "react-bootstrap"
 
 /**
  * Component reading out data from markdown files at build time using gatsby.
@@ -29,15 +30,28 @@ const NewsFeed: React.FC = () => {
             url={`/news/${edge.node.frontmatter.pageId}`}
             uid={edge.node.frontmatter.pageId}
             footerContent={
-              <div>
-                <p className="m-0"><FontAwesomeIcon icon={faClock} scale={".5x"}/> - {edge.node.wordCount.words} words</p>
-                <p className="m-0"><FontAwesomeIcon icon={faWatchmanMonitoring} scale={".5x"}/> - {edge.node.frontmatter.date}</p>
-                {edge.node.frontmatter.mainReference && <p className="m-0"><a style={{color:"#6c757d"}} className="text-decoration-none" target="_blank" href={edge.node.frontmatter.mainReference}><FontAwesomeIcon icon={faLink} scale={".5x"}/> - {edge.node.frontmatter.mainReference}</a></p>}
-              </div>
-            }
-          >
-            { edge.node.frontmatter.thumbnail && <Thumbnail src={edge.node.frontmatter.thumbnail}></Thumbnail>}
+              <Row>
+              <Col>
+              <p className="m-0"><FontAwesomeIcon icon={faClock} scale={".5x"}/> - {edge.node.wordCount.words} words</p>
+              <p className="m-0"><FontAwesomeIcon icon={faWatchmanMonitoring} scale={".5x"}/> - {edge.node.frontmatter.date}</p>
+              {edge.node.frontmatter.mainReference && <p className="m-0"><a style={{color:"#6c757d"}} className="text-decoration-none" target="_blank" href={edge.node.frontmatter.mainReference}><FontAwesomeIcon icon={faLink} scale={".5x"}/> - {edge.node.frontmatter.mainReference}</a></p>}
+              </Col>
+              <Col>
+      
+              <Badge className={
+              [
+              edge.node.frontmatter.theme === "Technology" && "badge rounded-pill bg-primary", 
+              edge.node.frontmatter.theme === "Management" && "badge rounded-pill bg-warning",
+              edge.node.frontmatter.theme === "Tourism" && "badge rounded-pill bg-success",
+              edge.node.frontmatter.theme === "Other" && "badge rounded-pill bg-secondary",]
+              }
+              style={{ fontSize: "1em", fontWeight: "normal", padding: "0.75em"}}>{edge.node.frontmatter.theme}</Badge>
 
+              </Col>
+            </Row>
+          }
+        >
+          { edge.node.frontmatter.thumbnail && <Thumbnail src={edge.node.frontmatter.thumbnail}></Thumbnail>}
           </ReinGridCard>
         )})}
       </ReinCardGrid>
@@ -62,6 +76,7 @@ query NewsQuery {
           pageId
           date(fromNow: true)
           target_audience
+          theme
           layout
           mainReference
           thumbnail
