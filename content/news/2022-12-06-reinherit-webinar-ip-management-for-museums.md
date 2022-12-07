@@ -15,7 +15,7 @@ thumbnail: https://ucarecdn.com/ff3c10bc-6a69-4796-a718-13482c54d517/
 ![ReInHerit Webinar - IP Management for Museums](https://ucarecdn.com/1ca477eb-73ea-4b76-9a9a-bd039c43fec9/ "ReInHerit Webinar - IP Management for Museums")
 
 * **20 December 2022 from 3:00-4:00 pm CET** 
-* Facilitated by **Irini Stamatoudi**  UNIC- University of Nicosia 
+* Facilitated by **Irini Stamatoudi**  UNIC- University of Nicosia 
 * **Free Registration is open until 18 December 2022 (3 pm)** \*\* HERE *
 * The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available on this Hub.[](http://www.reinherit-hub.eu/)
 
@@ -25,4 +25,9 @@ The Webinars are organised in the context of the  Horizon2020 [ReInHerit](http
 
 ### About this webinar:
 
-XXXXXXXXXXXXXXX
+The operation of museums involves the management of their collections and other assets, which set a number of intellectual property (IP) issues. The seminar will focus on issues pertaining to IP Management and in particular on how museums can be assisted to set up processes to identify, organize, own, create value, license, disseminate and generally deal with and leverage ‘business’ opportunities in relation to content. That means a) effectively protecting their IP assets, b) preventing the infringement of third-party IP rights, and c) disseminating content as they see appropriate.
+
+### Speaker:
+
+**Irini Stamatoudi** \
+Irini Stamatoudi is an attorney-at-law and a law professor at the University of Nicosia (Cyprus) specialized in IP and in Cultural Heritage Law. She has acted as the General Director of the Greek National Copyright Office, Ministry of Culture and Sports (2007 - 2018). She holds degrees from the University of Athens (Greece) (LL.B.) and from the University of Leicester (UK) (LL.M. and Ph.D.). She has worked as a copyright expert on various programs in Georgia, Abu Dhabi, Turkey, Egypt, Azerbaijan, etc. She has taught extensively on various academic courses in the UK, Greece, Italy, France, etc. She teaches on WIPO distance learning courses since their inauguration in 2001. She has published thirteen books and dozens of articles. Some of her works are internationally considered works of reference.
