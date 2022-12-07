@@ -2,7 +2,8 @@
 pageId: 2465ccc8-539d-4c94-bf7a-e5e0972108db
 layout: blog
 type: news
-title: ReInHerit Webinar - IP Management for Museums
+title: "ReInHerit Webinar - IP Management for Museums and Cultural Heritage
+  Institutions "
 desc: ReInHerit Webinar | Management
 date: 2022-12-06T15:14:12.787Z
 target-audience:
@@ -12,10 +13,10 @@ newsType:
   - News
 thumbnail: https://ucarecdn.com/ff3c10bc-6a69-4796-a718-13482c54d517/
 ---
-![ReInHerit Webinar - IP Management for Museums](https://ucarecdn.com/d059d11e-bab8-4bf4-ba4f-5fcca1638bd4/ "ReInHerit Webinar - IP Management for Museums")
+![ReInHerit Webinar - IP Management for Museums and Cultural Heritage Institutions ](https://ucarecdn.com/d059d11e-bab8-4bf4-ba4f-5fcca1638bd4/ "ReInHerit Webinar - IP Management for Museums and Cultural Heritage Institutions ")
 
 * **20 December 2022 from 3:00-4:00 pm CET** 
-* Facilitated by **Irini Stamatoudi**  UNIC- University of Nicosia 
+* Facilitated by **Irini Stamatoudi**  attorney-at-law (at the Supreme Court, Greece) Professor in IP and Cultural Heritage Law, Faculty of Law, University of Nicosia (Cyprus)
 * **Free Registration is open until 18 December 2022 (3 pm)** \*\* HERE *
 * The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available on this Hub.[](http://www.reinherit-hub.eu/)
 
