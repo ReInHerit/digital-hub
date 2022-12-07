@@ -10,6 +10,7 @@ theme: Other
 date: 2022-11-24T09:19:59.036Z
 target-audience:
   - VISITOR
+theme: Other
 newsType: News
 thumbnail: https://ucarecdn.com/5212b376-c5df-4908-aa73-2f74be7ab0df/
 ---

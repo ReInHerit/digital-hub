@@ -9,7 +9,7 @@ desc: ReInHerit Webinar | Cultural Tourism
 date: 2022-11-24T13:10:49.855Z
 target-audience:
   - PROFESSIONAL
-theme: Management
+theme: Tourism
 newsType: News
 thumbnail: https://ucarecdn.com/8b27cc67-5d39-4ad8-ba9d-72ee1c6a58e9/
 ---
