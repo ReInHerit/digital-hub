@@ -2,7 +2,7 @@
 pageId: 18ca193d-6d84-446d-8a09-41610f033473
 layout: blog
 type: news
-title: 'ReInHerit Webinar: "Engaging Museum Visitors with Gamification Apps"'
+title: ReInHerit Webinar - Engaging Museum Visitors with Gamification Apps
 desc: "ReInHerit Webinars - Digital and emerging technology "
 date: 2022-11-17T13:54:12.038Z
 target-audience:
