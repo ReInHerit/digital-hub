@@ -5,11 +5,11 @@ type: news
 title: "ReInHerit in Performance: The Hadjiogeorgakis Kornesios Mansion "
 desc: "“ReInHerit in Performance: The Hadjigeorgakis Kornesios Mansion” is one
   of the events organized for ReInHerit. It will take place on 29.10.2022."
-theme: Other
 date: 2022-10-17T12:11:53.599Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
+theme: Tourism
 newsType: Event
 ---
 “ReInHerit in Performance: The Hadjigeorgakis Kornesios Mansion” is one of the events organized for ReInHerit “Redefining the Future of Culture Heritage: Creating an Innovative Model for Sustainability” ([http://www.reinherit.eu](http://www.reinherit.eu/)), coordinated by the Bank of Cyprus Cultural Foundation. The performance is organized by CYENS Centre of Excellence, ReInHerit partner.
