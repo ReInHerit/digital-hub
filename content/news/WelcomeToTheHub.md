@@ -8,7 +8,6 @@ date: 2022-08-19T11:02:48.133Z
 target-audience:
   - VISITOR 
   - PROFESSIONAL
-theme: Other
 newsType: News
 desc: With this entry, we are launching the ReInHerit Digital Hub. The content of the Hub will be regularly updated in the coming months.
 thumbnail: /images/Reinherit-Logo(61x60).webp
