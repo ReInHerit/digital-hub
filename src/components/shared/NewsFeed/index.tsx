@@ -48,28 +48,31 @@ const NewsFeed: React.FC = () => {
 export default NewsFeed
 
 const NEWS_QUERY = graphql`
-  query NewsQuery {
-    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/news/" } }) {
-      edges {
-        node {
-          html
-          excerpt
-          frontmatter {
-            title
-            pageId
-            date(fromNow: true)
-            target_audience
-            layout
-            mainReference
-            thumbnail
-          }
-          wordCount {
-            words
-          }
+query NewsQuery {
+  allMarkdownRemark(
+    filter: {fileAbsolutePath: {regex: "/news/"}}
+    sort: {fields: frontmatter___date, order: DESC}
+  ) {
+    edges {
+      node {
+        html
+        excerpt
+        frontmatter {
+          title
+          pageId
+          date(fromNow: true)
+          target_audience
+          layout
+          mainReference
+          thumbnail
+        }
+        wordCount {
+          words
         }
       }
     }
   }
+}
 `
 
 declare module NewsQueryData {

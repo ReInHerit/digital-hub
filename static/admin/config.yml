@@ -573,6 +573,7 @@ collections:
     description: This collection is intended for submitting news posts related to the ReInHerit digital-hub.
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ['title', 'fields.date']
     fields:
       - { label: "Page-ID", name: "pageId", widget: "uuid" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
