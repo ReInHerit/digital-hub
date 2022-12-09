@@ -35,6 +35,11 @@ const ResourcesPage = () => {
           body="Training material either on the tools developed in the ReInHerit-project or generally on digitization in the CH sector, CH management and preservation. "
           url="/webinars"
         />
+          <ReinGridCard
+          title="Factsheets"
+          body="Factsheets for Cultural Heritage Management."
+          url="/factsheets"
+        />
         <ReinGridCard
           title="Game"
           body="Video game developed within the ReInHerit project."

@@ -76,6 +76,7 @@ collections:
           widget: "select",
           options: ["Technology", "Tourism", "Management", "Other"],
           multiple: false,
+          required: true,
         }
       - {
           label: "News type",
@@ -219,7 +220,7 @@ collections:
           widget: "select",
           options: ["Technology", "Tourism", "Management", "Other"],
           default: ["Management"],
-          required: false,
+          required: true,
           multiple: false,
         }
       - {

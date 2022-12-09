@@ -38,6 +38,7 @@ const TRAINING_QUERY = graphql`
           frontmatter {
             pageId
             title
+            theme
             date(fromNow: true)
             target_audience
             thumbnail

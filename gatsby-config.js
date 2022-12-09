@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: "Reinherit Digital-Hub",
     description: "coming soon",
-    author: "Sebastian Stoff"
+    author: ["Sebastian Stoff", "Chiara Zuanni", "Sina Krottmaier", "Clemens Kroell"]
   },
   // pathPrefix: ``,
   plugins: [
@@ -90,6 +90,7 @@ module.exports = {
                   image_two
                   image_three
                   slides
+                  theme
                 }
               }
             }

@@ -45,6 +45,12 @@ export default function Template({
         addObj.label = "..."
         addObj.value = "/news"
         break;
+      case "factsheet":
+        breadCrumbObj.label = "Factsheets"
+        breadCrumbObj.value = "/factsheets"
+        addObj.label = "..."
+        addObj.value = "/factsheets"
+        break;
    /*   case "webinar":
         breadCrumbObj.label = "Webinars"
         breadCrumbObj.value = "/webinars"
@@ -238,6 +244,7 @@ export const pageQuery = graphql`
         title
         mainReference
         type
+        theme
         target_audience
         linkedWebinars
         linkedToolkitComponents

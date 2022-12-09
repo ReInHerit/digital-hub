@@ -29,6 +29,18 @@ module.exports.createPages = async ({ graphql, actions}) => {
     })
   })
 
+  // adding news data from markdown
+  const factsheetsResult = await graphql(DIGIHUB_QUERIES.FACTSHEETS_PAGES);
+
+  factsheetsResult.data.allMarkdownRemark.edges.forEach(edge => {
+    const mdId = edge.node.frontmatter.pageId
+    actions.createPage({
+      path: `/factsheets/${mdId}`,
+      component: require.resolve(`./src/templates/toolkit.js`),
+      context: { id: mdId },
+    })
+  })
+
   // adding toolkit apps according to netlify CMS
   let toolAppsResult = await graphql(DIGIHUB_QUERIES.TOOL_APPS_PAGES);
   toolAppsResult.data.allMarkdownRemark.edges.forEach((edge) => {

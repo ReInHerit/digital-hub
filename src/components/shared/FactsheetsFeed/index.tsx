@@ -1,38 +1,28 @@
-
-import { faWatchmanMonitoring } from "@fortawesome/free-brands-svg-icons"
-import { faClock } from "@fortawesome/free-regular-svg-icons"
-import { faStamp, faLink } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 import Thumbnail from "../Thumbnail"
 import { Col, Row, Badge, Button } from "react-bootstrap"
- 
 
 /**
- * Component reading out data from markdown files at build time using gatsby.
+ * Generated overview over factsheets items
  * @returns
  */
 const FactsheetsFeed: React.FC = () => {
-  const data: FactsheetsQueryData.Data = useStaticQuery(FACTSHEETS_QUERY)
+const data: FactsheetsQueryData.Data = useStaticQuery(FactsheetsQuery)
 
   return (
     <>
        <ReinCardGrid>
       {data.allMarkdownRemark.edges.map(edge => {
-       ( 
+       return ( 
          <ReinGridCard
             key={edge.node.frontmatter.pageId}
             body={edge.node.excerpt}
             title={edge.node.frontmatter.title}
             url={`/factsheets/${edge.node.frontmatter.pageId}`}
             uid={edge.node.frontmatter.pageId}
-            footerContent={
-              <Row>
-            </Row>
-          }
         >
           { edge.node.frontmatter.thumbnail && <Thumbnail src={edge.node.frontmatter.thumbnail}></Thumbnail>}
           </ReinGridCard>
@@ -47,7 +37,7 @@ const FactsheetsFeed: React.FC = () => {
 
 export default FactsheetsFeed
 
-const FACTSHEETS_QUERY = graphql`
+const FactsheetsQuery = graphql`
 query FactsheetsQuery {
   allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/factsheets/"}}) {
     edges {
@@ -58,6 +48,7 @@ query FactsheetsQuery {
           date(fromNow: true)
           target_audience
           layout
+          theme
           mainReference
           thumbnail
         }

@@ -27,6 +27,19 @@ module.exports.DIGIHUB_QUERIES = (() => {
       }
     }
   `
+  const FACTSHEETS_PAGES = `
+  query FactsheetsQuery {
+    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/factsheets/"}}) {
+      edges {
+        node {
+          frontmatter {
+            pageId
+          }
+        }
+      }
+    }
+  }
+`
 
   const TOOL_APPS_PAGES = `
     query MyQuery {
@@ -127,6 +140,7 @@ module.exports.DIGIHUB_QUERIES = (() => {
     NEWS_PAGES,
     TOOL_APPS_PAGES,
     TOOL_COMPONENTS_PAGES,
+    FACTSHEETS_PAGES,
     ESHOP_PAGES,
     FAQ_PAGES,
     MANUAL_PAGES,

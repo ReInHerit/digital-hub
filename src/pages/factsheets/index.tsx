@@ -3,9 +3,9 @@ import BaseLayout from "../../components/static/BaseLayout";
 import FactsheetsFeed from "../../components/shared/FactsheetsFeed";
 import MainHeading from "../../components/static/MainHeading";
 
-const FactsheetsPage = () => {
-
-  return <BaseLayout
+const FactsheetsPage: React.FC = () => {
+  return (
+    <BaseLayout
   pageTitle="Factsheets for Cultural Heritage Management | ReInHerit Digital Hub"
   >
     <MainHeading
@@ -18,8 +18,7 @@ const FactsheetsPage = () => {
     >Factsheets for Cultural Heritage Management</MainHeading>
     <FactsheetsFeed></FactsheetsFeed>
   </BaseLayout>
-
+  )
 }
 
-
-export default FactsheetsPage;
+export default FactsheetsPage
