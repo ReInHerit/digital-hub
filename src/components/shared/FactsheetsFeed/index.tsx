@@ -55,13 +55,14 @@ query FactsheetsQuery {
         frontmatter {
           title
           pageId
-          date
+          date(fromNow: true)
           target_audience
+          layout
+          mainReference
           thumbnail
-          desc
-          shortDescription
-          theme
         }
+        excerpt
+        html
       }
     }
   }

@@ -28,6 +28,231 @@ preview: false
 
 # collections config see here: https://www.netlifycms.org/docs/widgets/#object
 collections:
+  - name: "news"
+    label: "News" # Used in the UI
+    label_singular: "message" # Used in the UI, ie: "New Post"
+    folder: "content/news"
+    description: This collection is intended for submitting news posts related to the ReInHerit digital-hub.
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ['title', 'fields.date']
+    fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - {
+          label: "Title",
+          name: "title",
+          widget: "string",
+          pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"],
+          required: true,
+        }
+      - {
+          label: "Short description",
+          name: "desc",
+          widget: "string",
+          required: false,
+          hint: "Short description of current entry. Will be displayed in overviews as preview text.",
+        }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - {
+          label: "Main reference",
+          name: "mainReference",
+          widget: "string",
+          required: false,
+          hint: "Singular (web)-link displayed in the metadata section of the item.",
+        }
+      - {
+          label: "Target Audience",
+          name: "target-audience",
+          widget: "select",
+          options: ["VISITOR", "PROFESSIONAL"],
+          default: ["VISITOR"],
+          multiple: true,
+        }
+      - {
+          label: "Theme",
+          name: "theme",
+          widget: "select",
+          options: ["Technology", "Tourism", "Management", "Other"],
+          multiple: false,
+        }
+      - {
+          label: "News type",
+          name: "newsType",
+          widget: "select",
+          options: ["Event", "News"],
+          default: ["News"],
+          multiple: false,
+        }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          hint: "Small image limited to 100kb to be used for overviews.",
+          widget: "image",
+          required: false,
+          media_library: { config: { max_file_size: 100000 } },
+        } # in bytes, only for default media library
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          media_library: { config: { max_file_size: 10000000 } },
+        }
+  - name: "webinars"
+    label: "Webinars"
+    description: "This collection is intended for submitting webinars either on the tools developed in the ReInHerit-project or generally on digitization in the CH sector, CH management and preservation. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
+    label_singular: "webinar"
+    hide: false # hides specific collection -> still available if you have the link!
+    folder: "content/webinars"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Type", name: "type", widget: "hidden", default: "webinar" }
+      - { label: "Page-ID", name: "pageId", widget: "uuid" }
+      - {
+          label: "Title",
+          name: "title",
+          widget: "string",
+          pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"],
+          required: true,
+        }
+      - {
+          label: "Short description",
+          name: "desc",
+          widget: "string",
+          required: false,
+          hint: "Short description of current entry. Will be displayed in overviews as preview text.",
+        }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - {
+          label: "Target Audience",
+          name: "target-audience",
+          widget: "select",
+          options: ["VISITOR", "PROFESSIONAL"],
+          default: ["PROFESSIONAL"],
+          multiple: true,
+        }
+      - { label: "Theme", 
+          name: "theme", 
+          widget: "select", 
+          options: ["Technology", "Tourism", "Management"], 
+          required: true,
+          multiple: false, 
+        }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "relation",
+          collection: "tags",
+          value_field: "title",
+          search_fields: ["title"],
+          display_fields: ["title"],
+          multiple: true,
+          required: false,
+          hint: "Use this to mention other ReInHerit content by type (e.g. apps, performances, etc.)"
+        }
+      - {
+          label: "License",
+          name: "license",
+          widget: "string",
+          default: "CC BY 2.0",
+        }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          hint: "Small image limited to 100kb to be used for overviews.",
+          widget: "image",
+          required: false,
+          media_library: { config: { max_file_size: 100000 } },
+        } # in bytes, only for default media library}
+      - {
+          label: "Slides",
+          name: "slides",
+          widget: "file",
+          media_library: { config: { max_file_size: 50000000 } },
+          required: false,
+        } 
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          media_library: { config: { max_file_size: 10000000 } },
+        }
+  - name: "factsheets"
+    label: "Factsheets" # Used in the UI
+    label_singular: "message" # Used in the UI, ie: "New Post"
+    folder: "content/factsheets"
+    description: This collection is intended for submitting factsheets related to WP2.
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "factsheet" }
+      - {
+          label: "Title",
+          name: "title",
+          widget: "string",
+          pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"],
+          required: true,
+        }
+      - {
+          label: "Short description",
+          name: "desc",
+          widget: "string",
+          required: false,
+          hint: "Short description of current entry. Will be displayed in overviews as preview text.",
+        }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - {
+          label: "Target Audience",
+          name: "target-audience",
+          widget: "select",
+          options: ["VISITOR", "PROFESSIONAL"],
+          default: ["PROFESSIONAL"],
+          multiple: true,
+        }
+      - {
+          label: "Theme",
+          name: "theme",
+          widget: "select",
+          options: ["Technology", "Tourism", "Management", "Other"],
+          default: ["Management"],
+          required: false,
+          multiple: false,
+        }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "relation",
+          collection: "tags",
+          value_field: "title",
+          search_fields: ["title"],
+          display_fields: ["title"],
+          multiple: true,
+          required: false,
+        }
+      - {
+          label: "License",
+          name: "license",
+          widget: "string",
+          default: "CC BY 2.0",
+        }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          hint: "Small image limited to 100kb to be used for overviews.",
+          widget: "image",
+          required: false,
+          media_library: { config: { max_file_size: 100000 } },
+        } # in bytes, only for default media library
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          media_library: { config: { max_file_size: 10000000 } },
+        }
   - name: "toolcomponents"
     label: "Toolkit: components"
     description: "This collection is intended for submitting texts on tool components that are either developed within the ReInHerit project or play an important role for CH management or preservation. The entries are not immediately visible on the Hub, but will be published in the course of the next rebuild process."
@@ -133,7 +358,7 @@ collections:
           name: "body",
           widget: "markdown",
           media_library: { config: { max_file_size: 10000000 } },
-        }
+        } 
   - name: "toolapps"
     label: "Toolkit: apps"
     description: "This collection is intended for submitting texts on tool apps that are either developed within the ReInHerit project or play an important role for CH management or preservation. The entries are not immediately visible on the Hub, but will be published in the course of the next rebuild process."
@@ -229,86 +454,6 @@ collections:
           required: false,
           media_library: { config: { max_file_size: 100000 } },
         } # in bytes, only for default media library}
-      - {
-          label: "Body",
-          name: "body",
-          widget: "markdown",
-          media_library: { config: { max_file_size: 10000000 } },
-        }
-  - name: "webinars"
-    label: "Webinars"
-    description: "This collection is intended for submitting webinars either on the tools developed in the ReInHerit-project or generally on digitization in the CH sector, CH management and preservation. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
-    label_singular: "webinar"
-    hide: false # hides specific collection -> still available if you have the link!
-    folder: "content/webinars"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Type", name: "type", widget: "hidden", default: "webinar" }
-      - { label: "Page-ID", name: "pageId", widget: "uuid" }
-      - {
-          label: "Title",
-          name: "title",
-          widget: "string",
-          pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"],
-          required: true,
-        }
-      - {
-          label: "Short description",
-          name: "desc",
-          widget: "string",
-          required: false,
-          hint: "Short description of current entry. Will be displayed in overviews as preview text.",
-        }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - {
-          label: "Target Audience",
-          name: "target-audience",
-          widget: "select",
-          options: ["VISITOR", "PROFESSIONAL"],
-          default: ["PROFESSIONAL"],
-          multiple: true,
-        }
-      - { label: "Theme", 
-          name: "theme", 
-          widget: "select", 
-          options: ["Technology", "Tourism", "Management"], 
-          required: true,
-          multiple: false, 
-        }
-      - {
-          label: "Tags",
-          name: "tags",
-          widget: "relation",
-          collection: "tags",
-          value_field: "title",
-          search_fields: ["title"],
-          display_fields: ["title"],
-          multiple: true,
-          required: false,
-          hint: "Use this to mention other ReInHerit content by type (e.g. apps, performances, etc.)"
-        }
-      - {
-          label: "License",
-          name: "license",
-          widget: "string",
-          default: "CC BY 2.0",
-        }
-      - {
-          label: "Thumbnail",
-          name: "thumbnail",
-          hint: "Small image limited to 100kb to be used for overviews.",
-          widget: "image",
-          required: false,
-          media_library: { config: { max_file_size: 100000 } },
-        } # in bytes, only for default media library}
-      - {
-          label: "Slides",
-          name: "slides",
-          widget: "file",
-          media_library: { config: { max_file_size: 50000000 } },
-          required: false,
-        } 
       - {
           label: "Body",
           name: "body",
@@ -565,133 +710,6 @@ collections:
           name: "objectEmbed",
           widget: "text",
           required: false,
-        }
-  - name: "news"
-    label: "News" # Used in the UI
-    label_singular: "message" # Used in the UI, ie: "New Post"
-    folder: "content/news"
-    description: This collection is intended for submitting news posts related to the ReInHerit digital-hub.
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    sortable_fields: ['title', 'fields.date']
-    fields:
-      - { label: "Page-ID", name: "pageId", widget: "uuid" }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "news" }
-      - {
-          label: "Title",
-          name: "title",
-          widget: "string",
-          pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"],
-          required: true,
-        }
-      - {
-          label: "Short description",
-          name: "desc",
-          widget: "string",
-          required: false,
-          hint: "Short description of current entry. Will be displayed in overviews as preview text.",
-        }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - {
-          label: "Main reference",
-          name: "mainReference",
-          widget: "string",
-          required: false,
-          hint: "Singular (web)-link displayed in the metadata section of the item.",
-        }
-      - {
-          label: "Target Audience",
-          name: "target-audience",
-          widget: "select",
-          options: ["VISITOR", "PROFESSIONAL"],
-          default: ["VISITOR"],
-          multiple: true,
-        }
-      - {
-          label: "Theme",
-          name: "theme",
-          widget: "select",
-          options: ["Technology", "Tourism", "Management", "Other"],
-          multiple: false,
-        }
-      - {
-          label: "News type",
-          name: "newsType",
-          widget: "select",
-          options: ["Event", "News"],
-          default: ["News"],
-          multiple: false,
-        }
-      - {
-          label: "Thumbnail",
-          name: "thumbnail",
-          hint: "Small image limited to 100kb to be used for overviews.",
-          widget: "image",
-          required: false,
-          media_library: { config: { max_file_size: 100000 } },
-        } # in bytes, only for default media library
-      - {
-          label: "Body",
-          name: "body",
-          widget: "markdown",
-          media_library: { config: { max_file_size: 10000000 } },
-        }
-  - name: "factsheets"
-    label: "Factsheets" # Used in the UI
-    label_singular: "message" # Used in the UI, ie: "New Post"
-    folder: "content/factsheets"
-    description: This collection is intended for submitting factsheets related to WP2.
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Page-ID", name: "pageId", widget: "uuid" }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "factsheet" }
-      - {
-          label: "Title",
-          name: "title",
-          widget: "string",
-          pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"],
-          required: true,
-        }
-      - {
-          label: "Short description",
-          name: "desc",
-          widget: "string",
-          required: false,
-          hint: "Short description of current entry. Will be displayed in overviews as preview text.",
-        }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - {
-          label: "Target Audience",
-          name: "target-audience",
-          widget: "select",
-          options: ["VISITOR", "PROFESSIONAL"],
-          default: ["PROFESSIONAL"],
-          multiple: true,
-        }
-      - {
-          label: "Theme",
-          name: "theme",
-          widget: "select",
-          options: ["Technology", "Tourism", "Management", "Other"],
-          default: ["Management"],
-          multiple: false,
-        }
-      - {
-          label: "Thumbnail",
-          name: "thumbnail",
-          hint: "Small image limited to 100kb to be used for overviews.",
-          widget: "image",
-          required: false,
-          media_library: { config: { max_file_size: 100000 } },
-        } # in bytes, only for default media library
-      - {
-          label: "Body",
-          name: "body",
-          widget: "markdown",
-          media_library: { config: { max_file_size: 10000000 } },
         }
   - name: "eshopitems"
     label: "eShop"
