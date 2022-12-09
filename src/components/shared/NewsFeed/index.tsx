@@ -40,11 +40,12 @@ const NewsFeed: React.FC = () => {
     <>
       <div className="mt-md-5">
       <p className="ms-2"><i>Filter news by main focus.</i></p> 
-      <Button
+    {/*  <Button
             variant="dark text-center ps-5 pe-5 m-1"
             bsPrefix="btn"
             onClick={() => resetPosts()}
             >All news</Button>
+      */}
       {ALL_THEMES.sort().map(curTheme => (
           <Button
             variant="dark text-center ps-5 pe-5 m-1"
