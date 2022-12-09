@@ -113,3 +113,8 @@ path {
   margin-left: auto;
   margin-right: auto;
 }
+
+.btn:focus {
+background: lightgrey;
+color: black; 
+}
