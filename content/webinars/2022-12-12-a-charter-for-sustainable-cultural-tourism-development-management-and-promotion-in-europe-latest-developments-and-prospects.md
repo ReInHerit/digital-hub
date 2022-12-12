@@ -22,3 +22,7 @@ is Secretary-General of the European Cultural Tourism Network (ECTN), the only p
 
 **Jordi Tresserras Juan**\
 is a Board member of ECTN, Director of LABPATC, a spin-off of Universitat of Barcelona and IBERTUR Network based on co-working in culture, tourism and development. Associated Professor at Cultural and Heritage Doctorate and Cultural Management Postgraduate Programme at Universitat of Barcelona. Consultant and collaborator for heritage management and creative economy, cultural and creative tourism, cultural routes, international cultural cooperation, and cultural diplomacy for international organizations (Council of Europe, European Union, UNESCO, UNWTO, World Bank). UNESCO Expert for World Heritage sites, Immaterial Cultural Heritage, Culture in Biosphere Reserves, Creative Cities and Council of Europe Expert for European Cultural Routes.
+
+### R﻿ecording and slides:
+
+`youtube: https://youtu.be/URjdojWzJoY`
