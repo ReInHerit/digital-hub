@@ -7,7 +7,7 @@ target-audience:
   - PROFESSIONAL
 theme: Technology
 license: CC BY 2.0
-thumbnail: https://ucarecdn.com/fe669689-fd81-4171-be69-98b8dd2cef28/
+thumbnail: https://ucarecdn.com/3ca12f63-c5f5-4319-a77c-6d71f441c4c8/
 slides: https://ucarecdn.com/2404d67c-4173-4424-96c7-de8e85d6ce39/
 ---
 ### About this webinar:
