@@ -19,7 +19,7 @@ thumbnail: https://ucarecdn.com/8b27cc67-5d39-4ad8-ba9d-72ee1c6a58e9/
 * Facilitated by **Manos Vougioukas** and **Jordi Tresserras Juan**
 * **Free Registration is open until 7 December 2022 (3 pm)** [\*\* HERE \*\*](https://docs.google.com/forms/d/e/1FAIpQLSdEDm6o9-9L_l8z7tl7W76EjuVnd52YFtNvfWD7hC3OGUH5Ag/viewform)\
   [shorturl.at/prAU8](https://shorturl.at/prAU8)
-* The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available on this Hub.[](http://www.reinherit-hub.eu/)
+* The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available in the [resources section.](https://reinherit-hub.eu/webinars)
 
 ReinHerit Webinars are aimed at cultural heritage professionals. They will consist of a *how to guide* for small and medium-sized museum and cultural heritage organizations that documents processes, provides instruction, technical requirements and best practices for co-creation and collaboration between museums and cultural heritage institutions.
 
