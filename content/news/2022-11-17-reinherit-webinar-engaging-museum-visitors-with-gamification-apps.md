@@ -17,7 +17,7 @@ thumbnail: https://ucarecdn.com/9e39df18-f883-4ac0-834b-ad12d45ccce8/
 * Facilitated by **Marco Bertini** 
 * **Free Registration is open until 28 November 2022 (3 pm)**  ** [HERE](https://docs.google.com/forms/d/e/1FAIpQLSfGgyQ-iVKTSjYWu947IKZ1075vCxXA9fcTnnyAOMKSPjuiSw/viewform)**\
   [shorturl.at/oABT4](http://shorturl.at/oABT4)
-* The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available on this Hub.[](http://www.reinherit-hub.eu/)
+* The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available in the [resources section](https://reinherit-hub.eu/webinars).
 
 ReinHerit Webinars are aimed at cultural heritage professionals. They will consist of a *how to guide* for small and medium-sized museum and cultural heritage organizations that documents processes, provides instruction, technical requirements and best practices for co-creation and collaboration between museums and cultural heritage institutions.
 
