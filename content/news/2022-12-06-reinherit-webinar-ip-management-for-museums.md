@@ -19,7 +19,7 @@ thumbnail: https://ucarecdn.com/ff3c10bc-6a69-4796-a718-13482c54d517/
 * Facilitated by **Irini Stamatoudi**  attorney-at-law (at the Supreme Court, Greece) Professor in IP and Cultural Heritage Law, Faculty of Law, University of Nicosia (Cyprus)
 * **Free Registration is open until 18 December 2022 (3 pm)** \*\* [HERE](https://docs.google.com/forms/d/e/1FAIpQLSdWIP3Wc2h2AXF-RADecAcSZl9yF-BcN40OPvlx8SU2x4qS5A/closedform) *\
   [shorturl.at/dqBE0](http://shorturl.at/dqBE0)
-* The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available on this Hub.[](http://www.reinherit-hub.eu/)
+* The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available in the [resources section](https://reinherit-hub.eu/webinars).
 
 ReinHerit Webinars are aimed at cultural heritage professionals. They will consist of a *how to guide* for small and medium-sized museum and cultural heritage organizations that documents processes, provides instruction, technical requirements and best practices for co-creation and collaboration between museums and cultural heritage institutions.
 
