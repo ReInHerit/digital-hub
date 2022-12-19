@@ -16,7 +16,7 @@ thumbnail: https://ucarecdn.com/b84cad34-3bd0-49bd-b0e2-8db917c51db5/
 ![How emerging technologies enhance visitors’ experiences of cultural heritage sites](https://ucarecdn.com/616516f0-7bd7-4913-bc01-669b5690233c/ "How emerging technologies enhance visitors’ experiences of cultural heritage sites")
 
 * **13 January 2023 from 3:00-4:00 pm CET** 
-* Facilitated by by **Kleanthis Neokleous** and **Andreas Papapetrou,** [CYENS](https://www.cyens.org.cy/en-gb/) CoE
+* Facilitated by **Kleanthis Neokleous** and **Andreas Papapetrou,** [CYENS](https://www.cyens.org.cy/en-gb/) CoE
 * **Free Registration is open until 11 January 2023 (3 pm)** \*\* [HERE](https://docs.google.com/forms/d/e/1FAIpQLSf5YMs7i1jlNvACm3v7C34JxLinelE6n3WkvLKxt_s_qhcwRQ/viewform) *\
   [shorturl.at/rCMQT](http://shorturl.at/rCMQT)
 * The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available in the [resources section](https://reinherit-hub.eu/webinars).
