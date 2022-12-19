@@ -4,7 +4,7 @@ layout: blog
 type: news
 title: ReInHerit Webinar - How emerging technologies enhance visitors’
   experiences of cultural heritage sites
-desc: ReInHerit Webinar | Technology
+desc: ReInHerit Webinar | Emerging Technologies in cultural heritage sites
 date: 2022-12-19T12:47:18.198Z
 target-audience:
   - PROFESSIONAL
