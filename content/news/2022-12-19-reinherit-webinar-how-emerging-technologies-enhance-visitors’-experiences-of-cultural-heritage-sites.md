@@ -12,7 +12,10 @@ newsType:
   - News
 thumbnail: https://ucarecdn.com/b84cad34-3bd0-49bd-b0e2-8db917c51db5/
 ---
-* ![How emerging technologies enhance visitors’ experiences of cultural heritage sites](https://ucarecdn.com/9fd21618-a0e0-464e-bdb9-ed0e5c879c60/ "How emerging technologies enhance visitors’ experiences of cultural heritage sites")
+
+
+![How emerging technologies enhance visitors’ experiences of cultural heritage sites](https://ucarecdn.com/9fd21618-a0e0-464e-bdb9-ed0e5c879c60/ "How emerging technologies enhance visitors’ experiences of cultural heritage sites")
+
 * **13 January 2023 from 3:00-4:00 pm CET** 
 * Facilitated by by **Kleanthis Neokleous** and **Andreas Papapetrou,** [CYENS](https://www.cyens.org.cy/en-gb/) CoE
 * **Free Registration is open until 18 December 2022 (3 pm)** \*\* [HERE](https://docs.google.com/forms/d/e/1FAIpQLSf5YMs7i1jlNvACm3v7C34JxLinelE6n3WkvLKxt_s_qhcwRQ/viewform) *\
