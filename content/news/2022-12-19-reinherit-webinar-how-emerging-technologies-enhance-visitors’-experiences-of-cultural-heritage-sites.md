@@ -12,8 +12,6 @@ newsType:
   - News
 thumbnail: https://ucarecdn.com/b84cad34-3bd0-49bd-b0e2-8db917c51db5/
 ---
-
-
 ![How emerging technologies enhance visitors’ experiences of cultural heritage sites](https://ucarecdn.com/9fd21618-a0e0-464e-bdb9-ed0e5c879c60/ "How emerging technologies enhance visitors’ experiences of cultural heritage sites")
 
 * **13 January 2023 from 3:00-4:00 pm CET** 
@@ -39,7 +37,7 @@ The webinar will discuss ideas explored in the latest event created as a case st
 
 ### Speakers:
 
-**Kleanthis Neokleous** Andreas Papapetrou\
+**Kleanthis Neokleous** \
 Dr. Neokleous graduated from the University of Cyprus in June 2011, with a Doctorate in Computer Science and has a multi-disciplinary academic background in various fields including Virtual Reality and 3D graphics, Electronic Health (eHealth), Cognitive Psychology, Computational Neuroscience, Machine Learning, Intelligent Diagnostic Systems, Mechanical Engineering, Electrical/Control Engineering and Space Science and Technology. He has several years of experience in project management and he was involved with the conception, design, preparation, writing and coordination of many National and EU research projects. Since June 2019, Dr. Neokleous is employed at the first Research Centre in Cyprus focusing on Interactive media, Smart systems and Emerging technologies (CYENS CoE) as a Multidisciplinary Research Group Leader.\
 Email: k.neokleous@cyens.org.cy
 
