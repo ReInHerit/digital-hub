@@ -4,6 +4,7 @@ layout: blog
 type: news
 title: ReInHerit Webinar - How emerging technologies enhance visitors’
   experiences of cultural heritage sites
+desc: ReInHerit Webinar | Technology
 date: 2022-12-19T12:47:18.198Z
 target-audience:
   - PROFESSIONAL
@@ -16,7 +17,7 @@ thumbnail: https://ucarecdn.com/b84cad34-3bd0-49bd-b0e2-8db917c51db5/
 
 * **13 January 2023 from 3:00-4:00 pm CET** 
 * Facilitated by by **Kleanthis Neokleous** and **Andreas Papapetrou,** [CYENS](https://www.cyens.org.cy/en-gb/) CoE
-* **Free Registration is open until 18 December 2022 (3 pm)** \*\* [HERE](https://docs.google.com/forms/d/e/1FAIpQLSf5YMs7i1jlNvACm3v7C34JxLinelE6n3WkvLKxt_s_qhcwRQ/viewform) *\
+* **Free Registration is open until 11 January 2023 (3 pm)** \*\* [HERE](https://docs.google.com/forms/d/e/1FAIpQLSf5YMs7i1jlNvACm3v7C34JxLinelE6n3WkvLKxt_s_qhcwRQ/viewform) *\
   [shorturl.at/rCMQT](http://shorturl.at/rCMQT)
 * The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available in the [resources section](https://reinherit-hub.eu/webinars).
 
