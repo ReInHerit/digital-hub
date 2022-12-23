@@ -1,24 +1,20 @@
-import React from "react";
-import { Button } from "react-bootstrap";
-import ExhibitionCollection from "../../components/shared/ExhibitionCollection";
-import BaseLayout from "../../components/static/BaseLayout";
-import MainHeading from "../../components/static/MainHeading";
+import React from "react"
+import { Container, Button } from "react-bootstrap"
+import BaseExhibition from "../../components/static/BaseExhibition"
 
-const ExhibitionOverviewPage = () => {
+const DigitalExhibsLanding = () => {
 
-  return <BaseLayout
-  pageTitle="Exhibitions | ReInHerit Digital Hub"
-  >
-    <MainHeading
-      subHeading="Exhibitions and related material provided by ReInHerit"
-      subText="Here you'll find exhibitions, which will be developed and carried out in the ReInHerit project."
-      breadCrumb={[
-        {label:"Exhibitions", value:"/exhibitions"}
-      ]}
-    >Exhibitions</MainHeading>
-    <ExhibitionCollection></ExhibitionCollection>
-  </BaseLayout>
+return (
+<BaseExhibition>
+  <Container fluid className="mt-5 p-5" style={{backgroundColor:"white"}}>
+  <div className="d-grid gap-2">
+      <Button href="exhibitions/identities/questionOne" className="btnExhibit rounded-pill" size="lg">ReThinking IDENTITIES - use this for demo</Button>
+      <Button className="btnExhibit rounded-pill" size="lg">ReThinking CONFLICTS - not implemented</Button>
+      <Button className="btnExhibit rounded-pill" size="lg">ReThinking CRAFTMANSHIP - not implemented</Button>
+  </div>
+  </Container>
+</BaseExhibition>
+    )
+  }
 
-}
-
-export default ExhibitionOverviewPage;
+export default DigitalExhibsLanding;

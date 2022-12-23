@@ -118,3 +118,104 @@ path {
 background: lightgrey;
 color: black; 
 }
+
+.btnExhibit:hover {
+  background-color: blue !important;
+}
+
+.btnExhibit {
+  background-color: white;
+  color: black;
+  border-color: black;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.navExhib {
+  margin-bottom: 5vh;
+  background-color: yellow;
+}
+
+.badgeIdentities {
+  margin: 7vh;
+  width: 100%;
+  background-color: white !important;
+  border: 3px solid;
+  border-color: blue !important;
+  text-align: center;
+  color: blue;
+}
+
+.badgeIdentities h1 {
+  color:blue;
+}
+
+.identities h4 {
+  font-family: "Roboto Regular";
+  color: blue;
+}
+
+.identities h1 {
+  font-family: "Roboto Mono";
+  font: "Light";
+}
+
+.navExhibIdentities {
+  margin-bottom: 5vh;
+  background-color: blue;
+  color: white;
+}
+
+/*exhibition objects page */
+.exhibObject-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill);
+  gap: 1rem;
+}
+
+.exhibObject {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 150ms;
+  cursor: pointer;
+  transform: perspective(1000px) rotateY(var(--rotate-y, 0))
+    translateY(var(--translate-y, 0));
+}
+
+.exhibObject:hover {
+--translate-y: -2px;
+}
+
+.exhibObject.flipOne {
+  --rotate-y: 180deg;
+}
+
+.exhibObject.flipTwo {
+  --rotate-y: 180deg;
+}
+
+.exhibObject.flipThree {
+  --rotate-y: 180deg;
+}
+
+.front {
+  left: 0;
+}
+
+.front, .back {
+  position: absolute;
+  padding: 1rem;
+  backface-visibility: hidden;
+}
+
+.back {
+  transform: rotateY(180deg);
+  padding: 1rem;
+} 
+
+.back p {
+  text-align: center;
+  font-family: 'Roboto Mono';
+  max-width: 40vw;
+}
