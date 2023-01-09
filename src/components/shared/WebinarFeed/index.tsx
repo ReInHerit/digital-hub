@@ -5,6 +5,7 @@ import SideMainLayout from "../Layout/SideMainLayout"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 import Thumbnail from "../Thumbnail"
+import { Row, Badge} from "react-bootstrap"
 
 const TrainingFeed: React.FC = () => {
   const data: TrainingModel.Data = useStaticQuery(TRAINING_QUERY)
@@ -18,6 +19,22 @@ const TrainingFeed: React.FC = () => {
           title={training.node.frontmatter.title}
           body={training.node.excerpt}
           uid={training.node.frontmatter.pageId}
+          footerContent={
+            <Row>
+            <Badge className={
+            [
+              training.node.frontmatter.theme === "Technology" && "badge rounded-pill bg-primary float-end", 
+              training.node.frontmatter.theme === "Management" && "badge rounded-pill bg-warning float-end",
+              training.node.frontmatter.theme === "Tourism" && "badge rounded-pill bg-success float-end",
+              training.node.frontmatter.theme === "Other" && "badge rounded-pill bg-secondary float-end",
+            ]
+            }
+            style={{ fontSize: "1em", fontWeight: "normal", padding: "0.75em"}}>{training.node.frontmatter.theme}
+            </Badge>
+          </Row>
+        }
+
+
         >
           {training.node.frontmatter.thumbnail && <Thumbnail src={training.node.frontmatter.thumbnail}></Thumbnail>}
         </ReinGridCard>
@@ -56,6 +73,7 @@ declare module TrainingModel {
     target_audience: string[]
     pageId: string,
     thumbnail?: string
+    theme: string
   }
 
   export interface Node {
