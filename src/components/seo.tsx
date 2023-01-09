@@ -9,6 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import metaImage from "../../static/images/rein_logo.jpg"
+
+const siteImage = image || metaImage;
 
 interface Props{
   description:string;
@@ -25,6 +28,7 @@ function SEO({ description, lang, meta, title }: Props) {
             title
             description
             author
+            image
           }
         }
       }

@@ -63,9 +63,6 @@ const Hero = () => {
       <br />
       
       <Row style={{backgroundColor:"#f463ca", minHeight:"10vh", textAlign:"center"}}>
-      <Container className="mt-md-3 p-md-5 h-20 w-100" style={textContainerStyle}>
-      <h2>**COMING SOON**</h2>
-      </Container>
       </Row>
       <Row style={{minHeight:"50vh", textAlign:"center"}}>
       <Col md={4} className="reincard" style={{backgroundColor:"#76e165"}}>
@@ -80,7 +77,7 @@ const Hero = () => {
             </Link>
           </Col>
           <Col md={4} className="reincard" style={{backgroundColor:"#feff63"}}>
-          <Link to="" style={{color:"black", textDecoration:"none"}}>
+          <Link to="/networkinghub" style={{color:"black", textDecoration:"none"}}>
             <Container className="mt-md-3 p-md-5 h-100 w-100" style={textContainerStyle}>
             <FontAwesomeIcon icon={faPeopleArrows} style={{fontSize:"6em"}}></FontAwesomeIcon>
             <br></br>
