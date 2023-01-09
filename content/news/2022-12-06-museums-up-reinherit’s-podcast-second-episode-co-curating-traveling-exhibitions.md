@@ -10,8 +10,7 @@ target-audience:
   - VISITOR
   - PROFESSIONAL
 theme: Management
-newsType:
-  - News
+subtype_news: Podcast
 thumbnail: https://ucarecdn.com/71b6332f-5292-4345-9a34-d98edb90f236/
 ---
 Sibylle Dienesch, vice director of the [Graz Museum](https://www.grazmuseum.at/), will share her experience on (Co) Curating Traveling exhibitions.  She will bring us new insights on museum cooperation, as she is currently curating one of ReInHerit's traveling / digital exhibitions on "conflict, conflict management and conflict resolution" together with the [Bank of Cyprus Cultural Foundation](https://www.boccf.org/) and the [Museum of Cycladic Art](https://cycladic.gr/en).  
