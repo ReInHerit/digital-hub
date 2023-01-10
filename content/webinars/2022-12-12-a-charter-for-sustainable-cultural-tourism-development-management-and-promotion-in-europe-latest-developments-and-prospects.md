@@ -8,7 +8,7 @@ target-audience:
   - PROFESSIONAL
 theme: Tourism
 license: CC BY 2.0
-thumbnail: https://ucarecdn.com/f680ce0a-622e-474b-8a5a-164771fd0afc/
+thumbnail: https://ucarecdn.com/dbfa8954-7b6c-4f33-8e08-5d9106a68f8f/
 slides: https://ucarecdn.com/88ecaddf-2a8e-415c-8efc-d7a3bcfbd707/
 ---
 ### About this webinar:
