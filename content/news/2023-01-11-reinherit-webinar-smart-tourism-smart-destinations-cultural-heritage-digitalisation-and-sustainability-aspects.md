@@ -2,7 +2,7 @@
 pageId: 45e9936a-caf3-4d27-a63d-98c79785f44a
 layout: blog
 type: news
-title: "ReInHerit Webinar: Smart Tourism - Smart Destinations: Cultural
+title: "ReInHerit Webinar | Smart Tourism - Smart Destinations: Cultural
   Heritage, Digitalisation and Sustainability aspects"
 desc: ReInHerit Webinar | Smart Tourism Destinations
 date: 2023-01-11T16:24:35.649Z
