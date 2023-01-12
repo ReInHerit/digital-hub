@@ -17,7 +17,7 @@ thumbnail: https://ucarecdn.com/f79b6eb5-010f-453e-8180-d9ec64281086/
 
 * **27 January 2023 from 11:00-12:00 am CET** 
 * Facilitated by **Manos Vougioukas** and **Cristina Lixandroiu,** [ECTN](https://www.culturaltourism-network.eu) 
-* **Free Registration is open until 11 January 2023 (3 pm)** \*\* [HERE](https://docs.google.com/forms/d/e/1FAIpQLSdW-AFmAdqFDltIyBzS8otz8qdgLBBQfC9dfSfgcPHmalmmcw/viewform) *\
+* **Free Registration is open until 25 January 2023 (3 pm)** \*\* [HERE](https://docs.google.com/forms/d/e/1FAIpQLSdW-AFmAdqFDltIyBzS8otz8qdgLBBQfC9dfSfgcPHmalmmcw/viewform) *\
   [shorturl.at/bjqrx](http://shorturl.at/bjqrx)
 * The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available in the [resources section](https://reinherit-hub.eu/webinars).
 
