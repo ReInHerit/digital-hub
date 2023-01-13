@@ -8,8 +8,7 @@ desc: ReInHerit Webinar | Smart Tourism Destinations
 date: 2023-01-11T16:24:35.649Z
 target-audience:
   - PROFESSIONAL
-subtype_news:
-  - News
+subtype_news: News
 theme: Tourism
 thumbnail: https://ucarecdn.com/f79b6eb5-010f-453e-8180-d9ec64281086/
 ---
