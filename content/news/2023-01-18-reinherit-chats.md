@@ -6,8 +6,7 @@ title: ReInHerit Chats
 date: 2023-01-18T10:22:54.010Z
 target-audience:
   - VISITOR
-subtype_news:
-  - News
+subtype_news: News
 theme: Management
 thumbnail: https://ucarecdn.com/5bdae75b-be66-4889-ab52-87633a74fc2d/-/crop/1011x855/50,100/-/preview/
 ---
