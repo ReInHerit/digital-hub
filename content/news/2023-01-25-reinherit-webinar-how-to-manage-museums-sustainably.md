@@ -6,7 +6,6 @@ title: "ReInHerit Webinar - How to manage museums sustainably? "
 desc: ReInHerit Webinar |   Sustainability and Cultural Heritage
 date: 2023-01-25T12:06:14.642Z
 target-audience:
-  - VISITOR
   - PROFESSIONAL
 subtype_news:
   - News
