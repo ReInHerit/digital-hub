@@ -7,8 +7,7 @@ desc: ReInHerit Webinar |   Sustainability and Cultural Heritage
 date: 2023-01-25T12:06:14.642Z
 target-audience:
   - PROFESSIONAL
-subtype_news:
-  - News
+subtype_news: News
 theme: Management
 thumbnail: https://ucarecdn.com/c5d4155e-d21e-4dbe-83bf-59526d1e08e0/
 ---
