@@ -11,7 +11,7 @@ subtype_news: News
 theme: Management
 thumbnail: https://ucarecdn.com/c5d4155e-d21e-4dbe-83bf-59526d1e08e0/
 ---
-![ReInHerit Webinar - How to manage museums sustainably?](https://ucarecdn.com/9759d51e-f227-4efd-9c92-a8951f58da74/ "ReInHerit Webinar - How to manage museums sustainably?")
+![ReInHerit Webinar - How to manage museums sustainably?](https://ucarecdn.com/84b3e4bb-7608-4c6c-90f9-c64deba59282/ "ReInHerit Webinar - How to manage museums sustainably?")
 
 * February 10th, 2023 **from 11:00-12:00 am CET** 
 * Facilitated by **Jaime López** "[Arte Sostenible](https://www.artesostenible.org)"
