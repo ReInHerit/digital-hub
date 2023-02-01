@@ -98,17 +98,16 @@ module.exports.createPages = async ({ graphql, actions}) => {
   });
 
   // adding object-collection data from markdown
-  const exhibitionCollectionResult = await graphql(DIGIHUB_QUERIES.EXHIBITION_COLLECTION_PAGES);
-  exhibitionCollectionResult.data.allMarkdownRemark.edges.forEach(edge => {
-    const mdId = edge.node.frontmatter.pageId
-    actions.createPage({
-      path: `/exhibitions/${mdId}`,
-      component: require.resolve(`./src/templates/exhibitionObject.js`),
-      context: { id: mdId },
-    })
-  });
-
-}
+ // const exhibitionCollectionResult = await graphql(DIGIHUB_QUERIES.EXHIBITION_COLLECTION_PAGES);
+ // exhibitionCollectionResult.data.allMarkdownRemark.edges.forEach(edge => {
+  //  const mdId = edge.node.frontmatter.pageId
+  //  actions.createPage({
+  //    path: `/exhibitions/${mdId}`,
+  //    component: require.resolve(`./src/templates/exhibitionObject.js`),
+  //    context: { id: mdId },
+  //  })
+  // });
+ }
 
 
 exports.onPostBuild = () => {
@@ -149,21 +148,38 @@ exports.onCreatePage = async ({ page, actions }) => {
   }
 }
 
+const webpack = require('webpack');
 
-exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
-
-  // disable SSR ToastTUI image editor -> will break because it references window object. 
-  // see: https://www.gatsbyjs.com/docs/debugging-html-builds/#how-to-check-if-window-is-defined
-  if (stage === "build-html" || stage === "develop-html") {
-    actions.setWebpackConfig({
-      module: {
-        rules: [
-          {
-            test: /tui-image-editor/,
-            use: loaders.null(),
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+      plugins: [
+          new webpack.ProvidePlugin({
+              Buffer: [require.resolve("buffer/"), "Buffer"],
+          }),
+      ],
+      resolve: {
+          fallback: {
+              "stream": require.resolve("stream-browserify"),
+              "assert": false,
+              "util": false,
+              "http": false,
+              "https": false,
+              "os": false,
+          //   "assert": require.resolve("assert/"),
+          //   "buffer": require.resolve("buffer"),
+              "crypto": require.resolve("crypto-browserify"),
+          //    "https": require.resolve("https-browserify"),
+          //    "os": require.resolve("os-browserify/browser"),
+          //    "stream": require.resolve("stream-browserify"),
+              "path": require.resolve("path-browserify"),
+          //    "http": require.resolve("stream-http"),
+          //    "util": require.resolve("util/"),
+          //    "http": false,
+              "fs": false,
+              "tls": false,
+              "net": false,
+              "child_process": false,
           },
-        ],
       },
-    })
-  }
+  })
 }

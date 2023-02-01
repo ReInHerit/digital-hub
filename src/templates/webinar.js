@@ -1,7 +1,7 @@
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import React from "react"
 import { Container } from "react-bootstrap"
-import { useReinLocalStorage } from "../hooks/useReinLocalStorage"
+// import { useReinLocalStorage } from "../hooks/useReinLocalStorage"
 import SideMainLayout from "../components/shared/Layout/SideMainLayout"
 import BaseLayout from "../components/static/BaseLayout"
 import MainHeading from "../components/static/MainHeading"
@@ -88,7 +88,7 @@ export default function Template({
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
-              <a style={{borderRadius:0}} href={frontmatter.slides} download="webinar_slides" className="btn btn-info border-radius-0" target="_blank">Click this button to download the slides.</a>
+              <a style={{borderRadius:0}} href={frontmatter.slides} download="webinar_slides" className="btn btn-info border-radius-0" target="_blank" rel="noreferrer">Click this button to download the slides.</a>
         </Container>
           </SideMainLayout>
         </div>

@@ -4,18 +4,19 @@ import "../../../styles/index.css"
 import { Container, Row, Col } from "react-bootstrap"
 import Base from "../Base"
 import Head from "../Head"
-import ReinNavbarExhib from "../navbarExhibition"
+import ReinNavbarExhibConflict from "../navbarExhibitionConflicts"
+// import ReinNavbarExhib from "../navbarExhibition"
 
 interface Props {
   children?: any;
   pageTitle?: string
 }
 
-const BaseExhibition = ({ children, pageTitle }: Props) => {
+const BaseExhibitionConflict = ({ children, pageTitle }: Props) => {
   return (
     <Base>
       <Head pageTitle={pageTitle}></Head>
-      <ReinNavbarExhib></ReinNavbarExhib>
+      <ReinNavbarExhibConflict/>
       <Container
         className="rein_main_container pt-sm-4 pt-md-0"
         style={{marginTop:"3vh", backgroundColor:"white"}}
@@ -37,4 +38,4 @@ const BaseExhibition = ({ children, pageTitle }: Props) => {
   )
 }
 
-export default BaseExhibition
+export default BaseExhibitionConflict

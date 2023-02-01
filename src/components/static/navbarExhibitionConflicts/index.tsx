@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import { Navbar, Container, Nav, NavDropdown, Offcanvas, Button } from "react-bootstrap"
 
-function ReinNavbarExhibIdent() {
+function ReinNavbarExhibConflict() {
     
     const [show, setShow] = React.useState(false);
     const handleClose = () => setShow(false);
@@ -14,11 +14,12 @@ function ReinNavbarExhibIdent() {
         collapseOnSelect
         expand="true"
         fixed="top"
-        className="navExhibIdentities rounded-pill"
+        className="navExhibConflicts rounded-pill"
     > 
     <Container fluid>
         <Navbar.Brand href="#home" as="div" style={{color:"white"}}>
-            ReInHerit --- Exhibitions
+            ReInHerit --- Collection --- 
+            <a style={{color: "white", textDecoration:'none'}} href="http://reinherit.d.trnc.wtf/"> Collections</a>
         </Navbar.Brand>
         <Navbar.Toggle className="navbar-toggler" onClick={handleShow} style={{color:"white"}}/>
 
@@ -33,16 +34,16 @@ function ReinNavbarExhibIdent() {
                 </Link>
                 <Link
                 className="link-light text-decoration-none"
-                  to="/news"
+                  to="/"
                   >
-                  Other links possible
+                  Digital Hub
                 </Link>
-              <Link
+              <p>Traveling Exhibitions</p>
+              <a href="https://www.grazmuseum.at/"
                 className="link-light text-decoration-none"
-                to="/networkinghub"
-              >
-                Forum
-              </Link>            
+                >
+                Graz Musuem
+              </a>            
             </Nav>
           </Offcanvas.Body>
         </Offcanvas>
@@ -53,4 +54,4 @@ function ReinNavbarExhibIdent() {
     )
   }
   
-  export default ReinNavbarExhibIdent;
+  export default ReinNavbarExhibConflict;

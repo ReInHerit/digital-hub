@@ -63,19 +63,19 @@ export default function Template({
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
-              <a style={{borderRadius:0}} href={frontmatter.mainImage} download="eshop_item" className="btn btn-info border-radius-0" target="_blank">Click here to have a closer look and download it!</a>
+              <a style={{borderRadius:0}} href={frontmatter.mainImage} download="eshop_item" className="btn btn-info border-radius-0" target="_blank" rel="noreferrer">Click here to have a closer look and download it!</a>
             </Container>
 
             <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">
             <Carousel variant="dark" style={{textAlign: "center"}}>
             <Carousel.Item>
-            <img className="imgCarousel" src={frontmatter.image_one} style={{textAlign: "center"}}/>
+            <img className="imgCarousel" src={frontmatter.image_one} alt="" style={{textAlign: "center"}}/>
         </Carousel.Item>
       <Carousel.Item>
-        <img className="imgCarousel" src={frontmatter.image_two} style={{textAlign: "center"}}/>
+        <img className="imgCarousel" src={frontmatter.image_two} alt="" style={{textAlign: "center"}}/>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="imgCarousel" src={frontmatter.image_three} style={{textAlign: "center"}}/>
+        <img className="imgCarousel" src={frontmatter.image_three} alt="" style={{textAlign: "center"}}/>
         </Carousel.Item>
         </Carousel>
         </Container>

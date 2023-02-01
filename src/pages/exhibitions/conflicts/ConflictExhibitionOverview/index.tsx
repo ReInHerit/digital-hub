@@ -1,8 +1,8 @@
 import React from "react"
 import { Container, Badge, Button, Row, Col } from "react-bootstrap"
-import BaseExhibitionIdent from "../../../../components/static/BaseExhibitionIdentities"
+import BaseExhibitionConflict from "../../../../components/static/BaseExhibitionConflicts"
 
-const exhibitionObjects: React.FC = () => {
+const ConflictExhibitionObjects: React.FC = () => {
 
 const [flipOne, setFlipOne] = React.useState(false)
 const [flipTwo, setFlipTwo] = React.useState(false)
@@ -10,12 +10,12 @@ const [flipThree, setFlipThree] = React.useState(false)
 
 
 return (
-<BaseExhibitionIdent>
+<BaseExhibitionConflict>
   <Container fluid className="mt-5 p-5" style={{borderColor: "blue"}}>
   <div className="d-grid gap-2">
-  <Badge className="badgeIdentities rounded-pill"><h1>ReThinking IDENTITIES</h1></Badge>
+  <Badge className="badgeConflicts rounded-pill"><h1>ReThinking CONFLICTS</h1></Badge>
   </div>
-  <div className="identities">
+  <div className="conflicts">
   <h4>Conflicts have accompanied mankind from the very beginning. They are an intrinsic part of social systems. They mani- fest themselves in different forms such as fight, dispute, classism and
 competition, strike and industrial conflict, class struggle/class conflict and rebellion, war and civil war.
 
@@ -30,14 +30,14 @@ us, as indivi- duals, on a national and on a global level. It is only clear that
 less effectively with conflicts. It is therefore important to gain a deeper understanding of conflicts, their dynamics, the underlying systemic issues and the roles of each and everybody.</h4>
 </div>
 
-<div id="objectsIdentities">
+<div id="objectsConflicts">
 <div className="exhibObject-grid">
 <Row>
   <Col>
   <Row>
     <div className={`exhibObject ${flipOne ? "flipOne" : ""}`}  style={{width: "40vw", height:"30vW"}}>
         <div className="front" onClick={() => setFlipOne(!flipOne)}  >
-          <img alt="First Object" src="https://ucarecdn.com/dac6b34f-942d-4491-bbb4-34bb14ee8ce1/" height={"auto"} width={"100%"} max-width={"100%"}>
+          <img alt="First Object" src="images/conflicts/small-CherryRageGM.jpg" height={"auto"} width={"100%"} max-width={"100%"}>
           </img>
         </div>
         
@@ -48,36 +48,44 @@ less effectively with conflicts. It is therefore important to gain a deeper unde
           The following three objects deal with rising food prices and the effects of wars. The following three objects deal 
           with rising food prices and the effects of war, with geopolitical conflicts and social.
           </p>
-          <Button variant="primary" href="exhibitions/identities/objOne">see more</Button>
+          <Button variant="primary" href="exhibitions/conflicts/ConflictObjects/ConflictObjOne">see more</Button>
         </div>
     </div>
   </Row>
   <Row>
-    <div className={`exhibObject ${flipTwo ? "flipTwo" : ""}`}  style={{width: "40vw", height:"30vW"}}>
+  <div className={`exhibObject ${flipTwo ? "flipTwo" : ""}`}  style={{width: "40vw", height:"30vW"}}>
         <div className="front" onClick={() => setFlipTwo(!flipTwo)}  >
-          <img alt="Second Object" src="https://ucarecdn.com/dac6b34f-942d-4491-bbb4-34bb14ee8ce1/" height={"auto"} width={"100%"} max-width={"100%"}>
+          <img alt="Second Object" src="images/conflicts/small-PyxisMCA.jpg" height={"auto"} width={"100%"} max-width={"100%"}>
           </img>
         </div>
         
         <div className="back" onClick={() => setFlipTwo(!flipTwo)}  >
           <p>
-          this is not working, only the first object has been implemented for this demo.</p>
-        <Button variant="primary" href="">see more</Button>
+          OBJECT TITEL <br />
+          The following three objects deal with rising food prices and the effects of war, with geopolitical conflicts and social hierarchies.
+          The following three objects deal with rising food prices and the effects of wars. The following three objects deal 
+          with rising food prices and the effects of war, with geopolitical conflicts and social.
+          </p>
+          <Button variant="primary" href="exhibitions/conflicts/ConflictObjects/ConflictObjTwo">see more</Button>
         </div>
     </div>
   </Row>
   </Col>
   <Col>
-    <div className={`exhibObject ${flipThree ? "flipThree" : ""}`}  style={{width: "40vw", height:"30vW"}}>
+  <div className={`exhibObject ${flipThree ? "flipThree" : ""}`}  style={{width: "40vw", height:"30vW"}}>
         <div className="front" onClick={() => setFlipThree(!flipThree)}  >
-          <img alt="Third Object" src="https://ucarecdn.com/dac6b34f-942d-4491-bbb4-34bb14ee8ce1/" height={"auto"} width={"100%"} max-width={"100%"}>
+          <img alt="Third Object" src="images/conflicts/small-CiproMapBoCCF.jpg" height={"auto"} width={"100%"} max-width={"100%"}>
           </img>
         </div>
         
         <div className="back" onClick={() => setFlipThree(!flipThree)}  >
           <p>
-          this is not working, only the first object has been implemented for this demo.</p>
-          <Button variant="primary" href="">see more</Button>
+          OBJECT TITEL <br />
+          The following three objects deal with rising food prices and the effects of war, with geopolitical conflicts and social hierarchies.
+          The following three objects deal with rising food prices and the effects of wars. The following three objects deal 
+          with rising food prices and the effects of war, with geopolitical conflicts and social.
+          </p>
+          <Button variant="primary" href="exhibitions/conflicts/ConflictObjects/ConflictObjThree">see more</Button>
         </div>
     </div>
   </Col>
@@ -86,10 +94,10 @@ less effectively with conflicts. It is therefore important to gain a deeper unde
 </div>
 
   </Container>
-</BaseExhibitionIdent>
+</BaseExhibitionConflict>
     )
   }
 
 
 
-export default exhibitionObjects
+export default ConflictExhibitionObjects

@@ -9,8 +9,8 @@ module.exports = {
   siteMetadata: {
     title: "Reinherit Digital-Hub",
     description: "coming soon",
-    author: ["Sebastian Stoff", "Chiara Zuanni", "Sina Krottmaier"],
-    image: "/images/rein_logo.jpg",
+    author: "Sebastian Stoff, Chiara Zuanni, Sina Krottmaier",
+    image: "../static/images/rein_logo.jpg",
   },
   // pathPrefix: ``,
   plugins: [

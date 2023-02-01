@@ -3,9 +3,9 @@ import { graphql, Link } from "gatsby"
 import BaseLayout from "../components/static/BaseLayout"
 import { Container } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faArrowAltCircleLeft, faLink } from "@fortawesome/free-solid-svg-icons"
-import { useReinLocalStorage } from "../hooks/useReinLocalStorage"
-import SideBarsLayout from "../components/shared/Layout/SideBarsLayout"
+import { faLink } from "@fortawesome/free-solid-svg-icons"
+// import { useReinLocalStorage } from "../hooks/useReinLocalStorage"
+// import SideBarsLayout from "../components/shared/Layout/SideBarsLayout"
 import SideMainLayout from "../components/shared/Layout/SideMainLayout"
 import ReactMarkdown from "react-markdown"
 import MainHeading from "../components/static/MainHeading"
@@ -16,7 +16,7 @@ export default function Template({
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
 
-  const { mapFaSymbol } = useReinLocalStorage()
+ // const { mapFaSymbol } = useReinLocalStorage()
 
   const addBreadCrumbTypeAware = (type) => {
     let breadCrumbObj = {};
@@ -97,7 +97,7 @@ export default function Template({
                       <i>Main reference</i>
                     </div>
                     <div>
-                      <a target="_blank" href={frontmatter.link}>
+                      <a target="_blank" rel="noreferrer" href={frontmatter.link}>
                         <FontAwesomeIcon icon={faLink}></FontAwesomeIcon>
                       </a>
                     </div>

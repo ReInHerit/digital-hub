@@ -119,6 +119,9 @@ background: lightgrey;
 color: black; 
 }
 
+
+/* exhibition general, i.e. landing page for all three - http://localhost:8000/exhibitions/ */
+
 .btnExhibit:hover {
   background-color: blue !important;
 }
@@ -136,7 +139,9 @@ color: black;
   background-color: yellow;
 }
 
-.badgeIdentities {
+/* Exhibition: Conflicts - i.e. blue */
+
+.badgeConflicts {
   margin: 7vh;
   width: 100%;
   background-color: white !important;
@@ -146,27 +151,28 @@ color: black;
   color: blue;
 }
 
-.badgeIdentities h1 {
+.badgeConflicts h1 {
+  font-family: "Roboto Regular" !important;
   color:blue;
 }
 
-.identities h4 {
-  font-family: "Roboto Regular";
+.conflicts h4 {
+  font-family: "Roboto Regular" !important;
   color: blue;
 }
 
-.identities h1 {
-  font-family: "Roboto Mono";
+.conflicts h1 {
+  font-family: "Roboto Mono" !important;
   font: "Light";
 }
 
-.navExhibIdentities {
+.navExhibConflicts {
   margin-bottom: 5vh;
   background-color: blue;
   color: white;
 }
 
-/*exhibition objects page */
+/* exhibition objects page: card flip setup */
 .exhibObject-grid {
   display: grid;
   align-items: center;
@@ -218,4 +224,17 @@ color: black;
   text-align: center;
   font-family: 'Roboto Mono';
   max-width: 40vw;
+}
+
+/* Mapbox container and markers */
+
+.map-container {
+  height: 600px;
+}
+
+.marker {                                    
+        background-image: 'circle';              
+        width: '50px';                                                      
+        height: '50px';
+        border-radius: '50%';  
 }

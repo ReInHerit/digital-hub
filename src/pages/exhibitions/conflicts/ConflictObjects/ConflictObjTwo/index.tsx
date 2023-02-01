@@ -1,20 +1,20 @@
 import React from "react"
 import { Container, Badge, Button, Row, Col } from "react-bootstrap"
-import BaseExhibitionIdent from "../../../../components/static/BaseExhibitionIdentities"
+import BaseExhibitionConflict from "../../../../../components/static/BaseExhibitionConflicts"
 
-const IdentObjectOne = () => {
+const ConflictObjectOne = () => {
 
 return (
-<BaseExhibitionIdent>
+<BaseExhibitionConflict>
   <Container fluid className="mt-5 p-5">
   <div className="d-grid gap-2">
-  <Badge className="badgeIdentities rounded-pill"><h1>ReThinking IDENTITIES</h1></Badge>
+  <Badge className="badgeConflicts rounded-pill"><h1>ReThinking CONFLICTS</h1></Badge>
   </div>
-  <div className="identities">
+  <div className="conflicts">
   <h4>The Cherry Rage 1920 is a woodcut by the Austrian artist Axl Leskoschek. Created in 1955 , it intentionally uses the technique of the woodcut, which was a medium of protest art. The appeal of
 the woodcut is its reproductibility. The stencil, cut from wood is reusable and can produce infinite copies.</h4>
 
-<Badge className="badgeIdentities rounded-pill"><h1>The Story of the Cherry Rage</h1></Badge>
+<Badge className="badgeConflicts rounded-pill"><h1>The Story of the Cherry Rage</h1></Badge>
 
 <div>
 <iframe src="https://h5p.org/h5p/embed/1307786" width="1090" height="1109" frameborder="0" 
@@ -30,16 +30,15 @@ Kaiser-Josef-Markt in Graz. Initially, women demanded affordable food prices,
 especially for cherries. The fruit was used as a substitude for sugar, an ingredient which was almost impossible to get hold of...</h4>
 
 
-<Badge className="badgeIdentities rounded-pill"><h1>Viewer</h1></Badge>
+<Badge className="badgeConflicts rounded-pill"><h1>Viewer</h1></Badge>
 
 <div> 
 <div class="sketchfab-embed-wrapper"> 
-<iframe title="Advertising Sign: Cycling City" 
-frameborder="0" allowfullscreen mozallowfullscreen="true" 
+<iframe title="Pyxis With Lid" frameborder="0" allowfullscreen mozallowfullscreen="true" 
 webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" 
 xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share 
-width="640" height="480" 
-src="https://sketchfab.com/models/a0129b0b9a3d472d97dff0f36801bc22/embed"> 
+src="https://sketchfab.com/models/f1fd94248210431cb1d2cc01558c7575/embed"
+width="640" height="480" > 
 </iframe> 
 </div>
 </div>
@@ -48,25 +47,27 @@ src="https://sketchfab.com/models/a0129b0b9a3d472d97dff0f36801bc22/embed">
     <h4>get to know other objects (note: those objects are not implemented - it's just sign-posting images)</h4>
     <Row>
         <Col>  
-        <img alt="Second Object" src="https://ucarecdn.com/dac6b34f-942d-4491-bbb4-34bb14ee8ce1/" height={"auto"} width={"100%"} max-width={"100%"}>
-        </img>
+        <a href="exhibitions/conflicts/ConflictObjects/ConflictObjOne">
+        <img alt="First Object" src="images/conflicts/small-CherryRageGM.jpg" height={"auto"} width={"100%"} max-width={"100%"}>
+        </img></a>
         </Col>
         <Col>
-        <img alt="Second Object" src="https://ucarecdn.com/dac6b34f-942d-4491-bbb4-34bb14ee8ce1/" height={"auto"} width={"100%"} max-width={"100%"}>
-        </img>
+        <a href="exhibitions/conflicts/ConflictObjects/ConflictObjThree">
+        <img alt="Third Object" src="images/conflicts/small-CiproMapBoCCF.jpg" height={"auto"} width={"100%"} max-width={"100%"}>
+        </img></a>
         </Col>
     </Row>
 </div>
 
 
 <div className="d-grid gap-2">
-<Button href="exhibitions/identities/questionFour" className="btn-primary rounded-pill m-5"><h1 style={{color: "white"}}>Exit Exhibition</h1></Button>
+<Button href="exhibitions/conflicts/ConflictQuestions/4thQuestionConflict" className="btn-primary rounded-pill m-5"><h1 style={{color: "white"}}>Exit Exhibition</h1></Button>
 </div>
 </div>
 
   </Container>
-</BaseExhibitionIdent>
+</BaseExhibitionConflict>
     )
   }
 
-export default IdentObjectOne;
+export default ConflictObjectOne;

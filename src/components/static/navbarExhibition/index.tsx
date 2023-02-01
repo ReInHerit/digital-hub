@@ -7,7 +7,7 @@ function ReinNavbarExhib() {
     const [show, setShow] = React.useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-  
+    
     return (
       <React.Fragment>
     <Navbar
@@ -15,10 +15,12 @@ function ReinNavbarExhib() {
         expand="true"
         fixed="top"
         className="navExhib rounded-pill"
-    > 
+    >
+
     <Container fluid>
         <Navbar.Brand href="#home" as="div">
-            ReInHerit --- Exhibitions
+            ReInHerit --- Collection ---         
+            <a href="http://reinherit.d.trnc.wtf/">Collections</a>
         </Navbar.Brand>
         <Navbar.Toggle className="navbar-toggler" onClick={handleShow} />
 
@@ -33,16 +35,16 @@ function ReinNavbarExhib() {
                 </Link>
                 <Link
                 className="link-light text-decoration-none"
-                  to="/news"
+                  to="/"
                   >
-                  Other links possible
+                  Digital Hub
                 </Link>
-              <Link
+              <p>Traveling Exhibitions</p>
+              <a href="https://www.grazmuseum.at/"
                 className="link-light text-decoration-none"
-                to="/networkinghub"
-              >
-                Forum
-              </Link>            
+                >
+                Graz Musuem
+              </a>            
             </Nav>
           </Offcanvas.Body>
         </Offcanvas>
