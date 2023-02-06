@@ -5,48 +5,49 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import creds from '../questionsConflict/cred/myjson.json'
 import {GoogleSpreadsheet} from "google-spreadsheet"
 
-const MapQOne = () => {
+const MapQFour = () => {
   mapboxgl.accessToken = "pk.eyJ1Ijoia2lhLXoiLCJhIjoiY2xkZzRnZjRnMHRvazN2bzZ0cnh4OWtzeSJ9.COmQgzmRsKnMZKw77WDF6w"
   const doc = new GoogleSpreadsheet(creds.sheet_id)
-  const [finalGeoJson, setfinalGeoJson] = useState([]);
+  const [finalGeoJsonFour, setfinalGeoJsonFour] = useState([]);
 
-        const [AllRows, setAllRows] = useState([]);
+        const [AllRowsFour, setAllRowsFour] = useState([]);
         useEffect( () => { 
           async function fetchData() {
                 await doc.useServiceAccountAuth(creds);
                 await doc.loadInfo();      
                 await doc.getInfo();
-                const sheet = doc.sheetsByIndex[2];
-                const rows = await sheet.getRows();
-                const AllRows = rows.map((GoogleSpreadsheetRow) => GoogleSpreadsheetRow._rawData);
+                const sheetFour = doc.sheetsByIndex[11];
+                const rowsFour = await sheetFour.getRows();
+                const AllRowsFour = rowsFour.map((GoogleSpreadsheetRow) => GoogleSpreadsheetRow._rawData);
             //  console.log(AllRows) 
-                setAllRows(AllRows)
+                setAllRowsFour(AllRowsFour)
 
-                const sortingRows = AllRows.map(({
+                const sortingRowsFour = AllRowsFour.map(({
                   [0]: exact_match,	[1]: longitude, [2]: latitude, [3]: Country,
-                  [4]: Ans1a,	[5]: Ans1b,	[6]: 	Ans1c,	[7]: 	Ans1d,	[8]: 	Ans1e,	
-                  [9]: Ans1aFin,	[10]: Ans1bFin,	[11]: Ans1cFin,	[12]: Ans1dFin,	[13]: Ans1eFin
+                  [4]: Ans4a,	[5]: Ans4b,	[6]: 	Ans4c,	[7]: 	Ans4d,	[8]: 	Ans4e,	
+                  [9]: Ans4aFin,	[10]: Ans4bFin,	[11]: Ans4cFin,	[12]: Ans4dFin,	[13]: Ans4eFin, [14]: Ans4fFin
                 }) => 
                 ({
                   exact_match,	longitude, latitude, Country,
-                  Ans1a,	Ans1b,	Ans1c,	Ans1d,	Ans1e,	
-                  Ans1aFin,	Ans1bFin,	Ans1cFin,	Ans1dFin,	Ans1eFin
+                  Ans4a,	Ans4b,	Ans4c,	Ans4d,	Ans4e,	
+                  Ans4aFin,	Ans4bFin,	Ans4cFin,	Ans4dFin,	Ans4eFin, Ans4fFin
                   }))
             //  console.log(sortingRows)
 
-            const hasAnswers = sortingRows.filter((res) => res.Ans1aFin !== "no answers");
+            const hasAnswersFour = sortingRowsFour.filter((res) => res.Ans4aFin !== "no answers");
             // console.log(hasAnswers)
            
-            const MyGeoJson = hasAnswers.map(row => {
+            const MyGeoJsonFour = hasAnswersFour.map(row => {
               return {
                 "type": "Feature",
                 "properties": {
                     "Country": row.Country,
-                    "Answer_A": row.Ans1aFin,
-                    "Answer_B": row.Ans1bFin,
-                    "Answer_C": row.Ans1cFin,
-                    "Answer_D": row.Ans1dFin,
-                    "Answer_E": row.Ans1eFin
+                    "Answer_A": row.Ans4aFin,
+                    "Answer_B": row.Ans4bFin,
+                    "Answer_C": row.Ans4cFin,
+                    "Answer_D": row.Ans4dFin,
+                    "Answer_E": row.Ans4eFin,
+                    "Answer_F": row.Ans4fFin
                 },
                 "geometry": {
                   "coordinates": [Number(row.longitude), Number(row.latitude)],
@@ -55,7 +56,7 @@ const MapQOne = () => {
               }
             })      
             
-            setfinalGeoJson(MyGeoJson)
+            setfinalGeoJsonFour(MyGeoJsonFour)
 
         }
         fetchData();
@@ -75,10 +76,10 @@ const MapQOne = () => {
     
             map.addControl(new mapboxgl.NavigationControl(), "top-right");
             
-            const GeoJsonColl = {
+            const GeoJsonCollFour = {
                 "type": "FeatureCollection",
                 "features": 
-                    finalGeoJson
+                    finalGeoJsonFour
               };
                 // This GeoJson is valid
                 // console.log(JSON.stringify(GeoJsonColl))            
@@ -86,11 +87,11 @@ const MapQOne = () => {
         map.on('load', () => {
 
         map.addLayer({
-                id: 'resultsAnswerOneConflict',
+                id: 'resultsAnswerFourConflict',
                 type: 'circle',
                 source: {
                   type: 'geojson',
-                  data: GeoJsonColl
+                  data: GeoJsonCollFour
                 },
                 paint: {
                'circle-color': '#dd502c',
@@ -111,7 +112,7 @@ const MapQOne = () => {
     
 // When a click event occurs on a feature in the csvData layer, open a popup at the
 // location of the feature, with description HTML from its properties.            
-                map.on('click', 'resultsAnswerOneConflict', function(e) {
+                map.on('click', 'resultsAnswerFourConflict', function(e) {
                 var coordinates = e.features[0].geometry.coordinates.slice();
 
                 // set popup text
@@ -125,6 +126,7 @@ const MapQOne = () => {
                   <li> Answer C: ` + e.features[0].properties.Answer_C + `</li>
                   <li> Answer D: ` + e.features[0].properties.Answer_D + `</li>
                   <li> Answer E: ` + e.features[0].properties.Answer_E + `</li>
+                  <li> Answer F: ` + e.features[0].properties.Answer_F + `</li>
                 </ul>` 
 
                //add Popup to map
@@ -135,7 +137,7 @@ const MapQOne = () => {
                 });
                 
                 // Change the cursor to a pointer when the mouse is over the places layer.
-                map.on('mouseenter', 'resultsAnswerOneConflict', function() {
+                map.on('mouseenter', 'resultsAnswerFourConflict', function() {
                   map.getCanvas().style.cursor = 'pointer';
                 });
                 
@@ -153,15 +155,18 @@ const MapQOne = () => {
             <div ref={mapContainer} className="map-container" />
         </div>
         <div>
-            <h3 className="mt-5">"Violence is no solution" – that's what many people say when it comes to conflicts. They wish for a world in which conflicts are resolved without violence. What do you think: Can such a world become reality or will it remain a pipe dream?</h3> 
-                <p>a. No. Such a world is not possible. Whether you like it or not, violence is in fact always a solution. It will always remain a solution. It is that simple.</p>
-                <p>b. In a world without guns, the gun owner is king. At least that is what modern evolutionary biology says. Anyone who has the opportunity to use violence will eventually do so.</p>
-                <p>c. Those who starve or starve are more likely to resort to violence. Because if you have nothing to lose, violence is always an option. Precisely because one has nothing left to lose. Conversely, this also means that those who want a world without conflicts may also have to accept the redistribution of wealth or resources.</p>
-                <p>d. Violence is never my first option. But if others resort to violence, I would defend myself – if necessary with violence.</p>
-                <p>e. I don't see why a world without violence shouldn't be possible. There is always an alternative to violence. For those who have realized that violence only generates counter-violence, renunciation of violence is the only way to improvement.</p>
+            <h3 className="mt-5">
+            Many people think that conflicts arise primarily because people do not understand each other. Do you agree?
+            </h3> 
+                <p>a. Generally, yes. Often one would rather be right than understand the other person. The end of dogmatism is often the end of a conflict.</p>
+                <p>b. No. Because every understanding sooner or later comes to an end. For example, I cannot understand when others do not understand that climate change threatens humanity. That is where my understanding ends.</p>
+                <p>c. This view is wrong. Quite often I can understand the attitude of a person and thus also understand it. However, the conflict has not yet been resolved by that. Because often I just do not share his attitude and I will not do it either.</p>
+                <p>d. It is not about understanding the other person, it is about getting along with them. In the case of a conflict, I therefore look for solutions that both parties can agree to. Results are more important than mutual understanding.</p>
+                <p>e. Yes. Because understanding the other opens up new perspectives and ways of resolving the conflict.</p>
+                <p>f. No. It is not about understanding, it is about interests. You do not have to understand them, they are just there.</p>
         </div>
     </React.Fragment>
     );          
 }
 
-export default MapQOne
+export default MapQFour

@@ -16,8 +16,8 @@ return (
         </div>
 
         <div className="conflictsQuestions">
-            <h4>What is your relationship to conflicts? <br />
-            Find out by answering three quick questions</h4>
+            <h4>How do you approach conflicts?<br />
+            <i>Note data protection:</i>the  collected data is used exclusively for statistics purposes within the exhibition.</h4>
 
 {/*Country question*/}
             <CountryFormConflict></CountryFormConflict>

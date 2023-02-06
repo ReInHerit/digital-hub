@@ -16,18 +16,10 @@ return (
   <Badge className="badgeConflicts rounded-pill"><h1>ReThinking CONFLICTS</h1></Badge>
   </div>
   <div className="conflicts">
-  <h4>Conflicts have accompanied mankind from the very beginning. They are an intrinsic part of social systems. They mani- fest themselves in different forms such as fight, dispute, classism and
-competition, strike and industrial conflict, class struggle/class conflict and rebellion, war and civil war.
-
-<p style={{color:"blue"}}>„People like to say that the conflict is between good and evil.
- The real conflict is between truth and lies.“ Person XY </p>
-Conflicts can have different functions for society: they can relieve social tensions and, under
-certain conditions, even become the decisive motor for necessary social changes. Conversely,
-conflicts can escalate to such a high level and be carried out so destructively that they have fatal
-consequences for the people (societies) affected. < br/>
-Right now we experience multiple forms of crises. We can not foresee where these are leading
-us, as indivi- duals, on a national and on a global level. It is only clear that the world is undergoing a massive process of change. In this situation, conflicts are a normal and inevitable consequence. Post-modern, individualistic so- cieties that exhibit only weak social cohesion can cope
-less effectively with conflicts. It is therefore important to gain a deeper understanding of conflicts, their dynamics, the underlying systemic issues and the roles of each and everybody.</h4>
+  <h4 style={{color:"blue"}}>
+  Conflicts arise between individuals, social groups or nations and peoples. They are multi-layered and complex. Objects are often preserved as important traces. How conflicts enter the collective memory culture depends on prevailing power structures and the respective representation and narrative. How can we interpret these today? How much does today influence our view of past conflicts? How do we deal with recurring conflicts over the centuries?
+In the following, we take a look at three digital objects of different historical conflicts and contexts from different perspectives. These highlight the complexity of conflicts and encourage us to challenge traditional narratives.
+  </h4>
 </div>
 
 <div id="objectsConflicts">
@@ -35,36 +27,32 @@ less effectively with conflicts. It is therefore important to gain a deeper unde
 <Row>
   <Col>
   <Row>
-    <div className={`exhibObject ${flipOne ? "flipOne" : ""}`}  style={{width: "40vw", height:"30vW"}}>
-        <div className="front" onClick={() => setFlipOne(!flipOne)}  >
-          <img alt="First Object" src="images/conflicts/small-CherryRageGM.jpg" height={"auto"} width={"100%"} max-width={"100%"}>
+    <div className={`exhibObject ${flipOne ? "flipOne" : ""}`}  style={{width: "40vw", height:"30vw"}}>
+        <div className="front" onClick={() => setFlipOne(!flipOne)} >
+          <img alt="First Object" src="images/conflicts/small-CherryRageGM.jpg" width={"100%"} height={"auto"}>
           </img>
         </div>
         
         <div className="back" onClick={() => setFlipOne(!flipOne)}  >
           <p>
-          OBJECT TITEL <br />
-          The following three objects deal with rising food prices and the effects of war, with geopolitical conflicts and social hierarchies.
-          The following three objects deal with rising food prices and the effects of wars. The following three objects deal 
-          with rising food prices and the effects of war, with geopolitical conflicts and social.
+          Cherry Rage <br />
+          What do conflicts have to do with food shortages and rising prices?
           </p>
           <Button variant="primary" href="exhibitions/conflicts/ConflictObjects/ConflictObjOne">see more</Button>
         </div>
     </div>
   </Row>
   <Row>
-  <div className={`exhibObject ${flipTwo ? "flipTwo" : ""}`}  style={{width: "40vw", height:"30vW"}}>
-        <div className="front" onClick={() => setFlipTwo(!flipTwo)}  >
-          <img alt="Second Object" src="images/conflicts/small-PyxisMCA.jpg" height={"auto"} width={"100%"} max-width={"100%"}>
+  <div className={`exhibObject ${flipTwo ? "flipTwo" : ""}`}  style={{width: "30vw", height:"30vw"}}>
+        <div className="front" onClick={() => setFlipTwo(!flipTwo)} >
+          <img alt="Second Object" src="images/conflicts/small-PyxisMCA.jpg" width={"100%"} height={"auto"}>
           </img>
         </div>
         
         <div className="back" onClick={() => setFlipTwo(!flipTwo)}  >
           <p>
-          OBJECT TITEL <br />
-          The following three objects deal with rising food prices and the effects of war, with geopolitical conflicts and social hierarchies.
-          The following three objects deal with rising food prices and the effects of wars. The following three objects deal 
-          with rising food prices and the effects of war, with geopolitical conflicts and social.
+          Pyxis<br />
+          To whom did this artful box belong and what conflicts does it hold?
           </p>
           <Button variant="primary" href="exhibitions/conflicts/ConflictObjects/ConflictObjTwo">see more</Button>
         </div>
@@ -72,18 +60,16 @@ less effectively with conflicts. It is therefore important to gain a deeper unde
   </Row>
   </Col>
   <Col>
-  <div className={`exhibObject ${flipThree ? "flipThree" : ""}`}  style={{width: "40vw", height:"30vW"}}>
-        <div className="front" onClick={() => setFlipThree(!flipThree)}  >
-          <img alt="Third Object" src="images/conflicts/small-CiproMapBoCCF.jpg" height={"auto"} width={"100%"} max-width={"100%"}>
+  <div className={`exhibObject ${flipThree ? "flipThree" : ""}`}  style={{width: "30vw", height:"50vw"}}>
+        <div className="front" onClick={() => setFlipThree(!flipThree)} >
+          <img alt="Third Object" src="images/conflicts/small-CiproMapBoCCF.jpg" width={"100%"} height={"auto"}>
           </img>
         </div>
         
         <div className="back" onClick={() => setFlipThree(!flipThree)}  >
           <p>
-          OBJECT TITEL <br />
-          The following three objects deal with rising food prices and the effects of war, with geopolitical conflicts and social hierarchies.
-          The following three objects deal with rising food prices and the effects of wars. The following three objects deal 
-          with rising food prices and the effects of war, with geopolitical conflicts and social.
+          Cipro<br />
+          What do maps tell us about conflict?
           </p>
           <Button variant="primary" href="exhibitions/conflicts/ConflictObjects/ConflictObjThree">see more</Button>
         </div>

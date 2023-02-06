@@ -14,7 +14,7 @@ const QuestionOneConflict = () => {
     try {
         await doc.useServiceAccountAuth(creds);
         await doc.loadInfo();
-        const sheetA = doc.sheetsById[0];
+        const sheetA = doc.sheetsById[538400691];
 
         const valueA = JSON.stringify(answerOneConflict)
         const resultA = await sheetA.addRow({country: currentCountryA, questionOne: valueA});
@@ -31,9 +31,11 @@ const QuestionOneConflict = () => {
 
 // these set the answer, once clicked, within the Form - the recorded value is stored as "answerOne"
     const AnswersOneConflict = [
-        "Answer 1. The following three objects deal with rising food prices and the effects of wars, with geopolitical conflicts and social hierarchies.", 
-        "Answer 2. hfuiwhfalfjsjaiudgjd", 
-        "Answer 3. hudiaghiudahgdkjgfdngkjfd"
+        "No. Such a world is not possible. Whether you like it or not, violence is in fact always a solution. It will always remain a solution. It is that simple.",
+        "In a world without guns, the gun owner is king. At least that is what modern evolutionary biology says. Anyone who has the opportunity to use violence will eventually do so.",
+        "Those who starve or starve are more likely to resort to violence. Because if you have nothing to lose, violence is always an option. Precisely because one has nothing left to lose. Conversely, this also means that those who want a world without conflicts may also have to accept the redistribution of wealth or resources.",
+        "Violence is never my first option. But if others resort to violence, I would defend myself – if necessary with violence.",
+        "I don't see why a world without violence shouldn't be possible. There is always an alternative to violence. For those who have realized that violence only generates counter-violence, renunciation of violence is the only way to improvement."
     ]
     const onOptionChange = e => {
         setAnswerOneConflict(e.target.value) 
@@ -47,7 +49,9 @@ const QuestionOneConflict = () => {
 return (
 <React.Fragment>
 
-<h1 className="mt-5">Question 1: new test question what needs to be improved here?</h1>
+<h1 className="mt-5">
+"Violence is no solution" – that's what many people say when it comes to conflicts. They wish for a world in which conflicts are resolved without violence. What do you think: Can such a world become reality or will it remain a pipe dream?
+</h1>
 
         <Form onSubmit={handleSubmitA} >
             {AnswersOneConflict.map(possAnswOneConflict => (

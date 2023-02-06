@@ -5,48 +5,48 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import creds from '../questionsConflict/cred/myjson.json'
 import {GoogleSpreadsheet} from "google-spreadsheet"
 
-const MapQOne = () => {
+const MapQTwo = () => {
   mapboxgl.accessToken = "pk.eyJ1Ijoia2lhLXoiLCJhIjoiY2xkZzRnZjRnMHRvazN2bzZ0cnh4OWtzeSJ9.COmQgzmRsKnMZKw77WDF6w"
   const doc = new GoogleSpreadsheet(creds.sheet_id)
-  const [finalGeoJson, setfinalGeoJson] = useState([]);
+  const [finalGeoJsonTwo, setfinalGeoJsonTwo] = useState([]);
 
-        const [AllRows, setAllRows] = useState([]);
+        const [AllRowsTwo, setAllRowsTwo] = useState([]);
         useEffect( () => { 
           async function fetchData() {
                 await doc.useServiceAccountAuth(creds);
                 await doc.loadInfo();      
                 await doc.getInfo();
-                const sheet = doc.sheetsByIndex[2];
-                const rows = await sheet.getRows();
-                const AllRows = rows.map((GoogleSpreadsheetRow) => GoogleSpreadsheetRow._rawData);
+                const sheetTwo = doc.sheetsByIndex[5];
+                const rowsTwo = await sheetTwo.getRows();
+                const AllRowsTwo = rowsTwo.map((GoogleSpreadsheetRow) => GoogleSpreadsheetRow._rawData);
             //  console.log(AllRows) 
-                setAllRows(AllRows)
+                setAllRowsTwo(AllRowsTwo)
 
-                const sortingRows = AllRows.map(({
+                const sortingRowsTwo = AllRowsTwo.map(({
                   [0]: exact_match,	[1]: longitude, [2]: latitude, [3]: Country,
-                  [4]: Ans1a,	[5]: Ans1b,	[6]: 	Ans1c,	[7]: 	Ans1d,	[8]: 	Ans1e,	
-                  [9]: Ans1aFin,	[10]: Ans1bFin,	[11]: Ans1cFin,	[12]: Ans1dFin,	[13]: Ans1eFin
+                  [4]: Ans2a,	[5]: Ans2b,	[6]: 	Ans2c,	[7]: 	Ans2d,	[8]: 	Ans2e,	
+                  [9]: Ans2aFin,	[10]: Ans2bFin,	[11]: Ans2cFin,	[12]: Ans2dFin,	[13]: Ans2eFin
                 }) => 
                 ({
                   exact_match,	longitude, latitude, Country,
-                  Ans1a,	Ans1b,	Ans1c,	Ans1d,	Ans1e,	
-                  Ans1aFin,	Ans1bFin,	Ans1cFin,	Ans1dFin,	Ans1eFin
+                  Ans2a,	Ans2b,	Ans2c,	Ans2d,	Ans2e,	
+                  Ans2aFin,	Ans2bFin,	Ans2cFin,	Ans2dFin,	Ans2eFin
                   }))
             //  console.log(sortingRows)
 
-            const hasAnswers = sortingRows.filter((res) => res.Ans1aFin !== "no answers");
+            const hasAnswersTwo = sortingRowsTwo.filter((res) => res.Ans2aFin !== "no answers");
             // console.log(hasAnswers)
            
-            const MyGeoJson = hasAnswers.map(row => {
+            const MyGeoJsonTwo = hasAnswersTwo.map(row => {
               return {
                 "type": "Feature",
                 "properties": {
                     "Country": row.Country,
-                    "Answer_A": row.Ans1aFin,
-                    "Answer_B": row.Ans1bFin,
-                    "Answer_C": row.Ans1cFin,
-                    "Answer_D": row.Ans1dFin,
-                    "Answer_E": row.Ans1eFin
+                    "Answer_A": row.Ans2aFin,
+                    "Answer_B": row.Ans2bFin,
+                    "Answer_C": row.Ans2cFin,
+                    "Answer_D": row.Ans2dFin,
+                    "Answer_E": row.Ans2eFin
                 },
                 "geometry": {
                   "coordinates": [Number(row.longitude), Number(row.latitude)],
@@ -55,7 +55,7 @@ const MapQOne = () => {
               }
             })      
             
-            setfinalGeoJson(MyGeoJson)
+            setfinalGeoJsonTwo(MyGeoJsonTwo)
 
         }
         fetchData();
@@ -75,10 +75,10 @@ const MapQOne = () => {
     
             map.addControl(new mapboxgl.NavigationControl(), "top-right");
             
-            const GeoJsonColl = {
+            const GeoJsonCollTwo = {
                 "type": "FeatureCollection",
                 "features": 
-                    finalGeoJson
+                    finalGeoJsonTwo
               };
                 // This GeoJson is valid
                 // console.log(JSON.stringify(GeoJsonColl))            
@@ -86,11 +86,11 @@ const MapQOne = () => {
         map.on('load', () => {
 
         map.addLayer({
-                id: 'resultsAnswerOneConflict',
+                id: 'resultsAnswerTwoConflict',
                 type: 'circle',
                 source: {
                   type: 'geojson',
-                  data: GeoJsonColl
+                  data: GeoJsonCollTwo
                 },
                 paint: {
                'circle-color': '#dd502c',
@@ -111,7 +111,7 @@ const MapQOne = () => {
     
 // When a click event occurs on a feature in the csvData layer, open a popup at the
 // location of the feature, with description HTML from its properties.            
-                map.on('click', 'resultsAnswerOneConflict', function(e) {
+                map.on('click', 'resultsAnswerTwoConflict', function(e) {
                 var coordinates = e.features[0].geometry.coordinates.slice();
 
                 // set popup text
@@ -135,7 +135,7 @@ const MapQOne = () => {
                 });
                 
                 // Change the cursor to a pointer when the mouse is over the places layer.
-                map.on('mouseenter', 'resultsAnswerOneConflict', function() {
+                map.on('mouseenter', 'resultsAnswerTwoConflict', function() {
                   map.getCanvas().style.cursor = 'pointer';
                 });
                 
@@ -153,15 +153,26 @@ const MapQOne = () => {
             <div ref={mapContainer} className="map-container" />
         </div>
         <div>
-            <h3 className="mt-5">"Violence is no solution" – that's what many people say when it comes to conflicts. They wish for a world in which conflicts are resolved without violence. What do you think: Can such a world become reality or will it remain a pipe dream?</h3> 
-                <p>a. No. Such a world is not possible. Whether you like it or not, violence is in fact always a solution. It will always remain a solution. It is that simple.</p>
-                <p>b. In a world without guns, the gun owner is king. At least that is what modern evolutionary biology says. Anyone who has the opportunity to use violence will eventually do so.</p>
-                <p>c. Those who starve or starve are more likely to resort to violence. Because if you have nothing to lose, violence is always an option. Precisely because one has nothing left to lose. Conversely, this also means that those who want a world without conflicts may also have to accept the redistribution of wealth or resources.</p>
-                <p>d. Violence is never my first option. But if others resort to violence, I would defend myself – if necessary with violence.</p>
-                <p>e. I don't see why a world without violence shouldn't be possible. There is always an alternative to violence. For those who have realized that violence only generates counter-violence, renunciation of violence is the only way to improvement.</p>
+            <h3 className="mt-5">Is it bad if you fight back?
+            </h3> 
+                <p>
+                a. No. Resistance can be a very good thing and sometimes even becomes a duty. Often you even have to defend what is important to you. In this case I not only have the right but also the duty to defend myself.
+                </p>
+                <p>
+                b. I don't know if it is evil to fight back. But for my part I abhor any form of violence. Therefore, if in doubt, I would not defend myself.
+                </p>
+                <p>
+                c. Anyone who thinks it is evil to stand up for one's freedom, for example, morally equates oppressor and victim. But that is wrong. A perpetrator is never on the same moral level as the victim. So it is not evil to fight back.
+                </p>
+                <p>
+                d. Anyone who resists creates counter-violence with his violence. This definitely leads to a spiral of violence. So it may not be evil to fight back, but it is at least unwise.
+                </p>
+                <p>
+                e. Imagine your parents' house suddenly being illegally occupied. What should prevent you from fighting back? Nothing. Any questions?
+                </p>
         </div>
     </React.Fragment>
     );          
 }
 
-export default MapQOne
+export default MapQTwo

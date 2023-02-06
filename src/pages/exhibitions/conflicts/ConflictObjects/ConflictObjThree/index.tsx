@@ -1,11 +1,8 @@
 import React from "react"
 import { Container, Badge, Button, Row, Col } from "react-bootstrap"
 import BaseExhibitionConflict from "../../../../../components/static/BaseExhibitionConflicts"
-import Lightbox from "react-awesome-lightbox";
-// You need to import the CSS only once
-import "react-awesome-lightbox/build/style.css";
-import "../../../../../styles/index.css"
-
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 const ConflictObjectOne = () => {
 
@@ -28,21 +25,18 @@ title="The Story of the Cherry Rage"></iframe>
 <script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
 </div>
 
-<h4 style={{borderColor: "grey"}}>The Role of the Women <br />
-The food supply of the families during and after the First World War was especially taken care of by women. Even after the end of the war, the people were
-starving. In the morning of 7th June 1920, the situation got out of control on the
-Kaiser-Josef-Markt in Graz. Initially, women demanded affordable food prices,
-especially for cherries. The fruit was used as a substitude for sugar, an ingredient which was almost impossible to get hold of...</h4>
-
-
-<Badge className="badgeConflicts rounded-pill"><h1>Viewer</h1></Badge>
-
-<div> 
-{/* <Lightbox image="images/conflicts/large-CiproMapBoCCF.jpg" title="Map of Cyprus, BoCCF"/> */}
-</div>
+<Badge className="badgeConflicts rounded-pill"><h1>Zoom in and explore this object</h1></Badge>
+<div style={{width:"80%", height:"auto"}}> 
+<Zoom>
+    <img
+      src="images/conflicts/large-CiproMapBoCCF.jpg" 
+      alt="Map of Cyprus, BoCCF"
+      width="80%"
+    />
+  </Zoom></div>
 
 <div className="mt-5">
-    <h4>get to know other objects (note: those objects are not implemented - it's just sign-posting images)</h4>
+    <h4>Get to know other objects</h4>
     <Row>
         <Col>  
         <a href="exhibitions/conflicts/ConflictObjects/ConflictObjOne">

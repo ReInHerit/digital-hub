@@ -5,48 +5,48 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import creds from '../questionsConflict/cred/myjson.json'
 import {GoogleSpreadsheet} from "google-spreadsheet"
 
-const MapQOne = () => {
+const MapQThree = () => {
   mapboxgl.accessToken = "pk.eyJ1Ijoia2lhLXoiLCJhIjoiY2xkZzRnZjRnMHRvazN2bzZ0cnh4OWtzeSJ9.COmQgzmRsKnMZKw77WDF6w"
   const doc = new GoogleSpreadsheet(creds.sheet_id)
-  const [finalGeoJson, setfinalGeoJson] = useState([]);
+  const [finalGeoJsonThree, setfinalGeoJsonThree] = useState([]);
 
-        const [AllRows, setAllRows] = useState([]);
+        const [AllRowsThree, setAllRowsThree] = useState([]);
         useEffect( () => { 
           async function fetchData() {
                 await doc.useServiceAccountAuth(creds);
                 await doc.loadInfo();      
                 await doc.getInfo();
-                const sheet = doc.sheetsByIndex[2];
-                const rows = await sheet.getRows();
-                const AllRows = rows.map((GoogleSpreadsheetRow) => GoogleSpreadsheetRow._rawData);
+                const sheetThree = doc.sheetsByIndex[8];
+                const rowsThree = await sheetThree.getRows();
+                const AllRowsThree = rowsThree.map((GoogleSpreadsheetRow) => GoogleSpreadsheetRow._rawData);
             //  console.log(AllRows) 
-                setAllRows(AllRows)
+                setAllRowsThree(AllRowsThree)
 
-                const sortingRows = AllRows.map(({
+                const sortingRowsThree = AllRowsThree.map(({
                   [0]: exact_match,	[1]: longitude, [2]: latitude, [3]: Country,
-                  [4]: Ans1a,	[5]: Ans1b,	[6]: 	Ans1c,	[7]: 	Ans1d,	[8]: 	Ans1e,	
-                  [9]: Ans1aFin,	[10]: Ans1bFin,	[11]: Ans1cFin,	[12]: Ans1dFin,	[13]: Ans1eFin
+                  [4]: Ans3a,	[5]: Ans3b,	[6]: 	Ans3c,	[7]: 	Ans3d,	[8]: 	Ans3e,	
+                  [9]: Ans3aFin,	[10]: Ans3bFin,	[11]: Ans3cFin,	[12]: Ans3dFin,	[13]: Ans3eFin
                 }) => 
                 ({
                   exact_match,	longitude, latitude, Country,
-                  Ans1a,	Ans1b,	Ans1c,	Ans1d,	Ans1e,	
-                  Ans1aFin,	Ans1bFin,	Ans1cFin,	Ans1dFin,	Ans1eFin
+                  Ans3a,	Ans3b,	Ans3c,	Ans3d,	Ans3e,	
+                  Ans3aFin,	Ans3bFin,	Ans3cFin,	Ans3dFin,	Ans3eFin
                   }))
             //  console.log(sortingRows)
 
-            const hasAnswers = sortingRows.filter((res) => res.Ans1aFin !== "no answers");
+            const hasAnswersThree = sortingRowsThree.filter((res) => res.Ans3aFin !== "no answers");
             // console.log(hasAnswers)
            
-            const MyGeoJson = hasAnswers.map(row => {
+            const MyGeoJsonThree = hasAnswersThree.map(row => {
               return {
                 "type": "Feature",
                 "properties": {
                     "Country": row.Country,
-                    "Answer_A": row.Ans1aFin,
-                    "Answer_B": row.Ans1bFin,
-                    "Answer_C": row.Ans1cFin,
-                    "Answer_D": row.Ans1dFin,
-                    "Answer_E": row.Ans1eFin
+                    "Answer_A": row.Ans3aFin,
+                    "Answer_B": row.Ans3bFin,
+                    "Answer_C": row.Ans3cFin,
+                    "Answer_D": row.Ans3dFin,
+                    "Answer_E": row.Ans3eFin
                 },
                 "geometry": {
                   "coordinates": [Number(row.longitude), Number(row.latitude)],
@@ -55,7 +55,7 @@ const MapQOne = () => {
               }
             })      
             
-            setfinalGeoJson(MyGeoJson)
+            setfinalGeoJsonThree(MyGeoJsonThree)
 
         }
         fetchData();
@@ -75,10 +75,10 @@ const MapQOne = () => {
     
             map.addControl(new mapboxgl.NavigationControl(), "top-right");
             
-            const GeoJsonColl = {
+            const GeoJsonCollThree = {
                 "type": "FeatureCollection",
                 "features": 
-                    finalGeoJson
+                    finalGeoJsonThree
               };
                 // This GeoJson is valid
                 // console.log(JSON.stringify(GeoJsonColl))            
@@ -86,11 +86,11 @@ const MapQOne = () => {
         map.on('load', () => {
 
         map.addLayer({
-                id: 'resultsAnswerOneConflict',
+                id: 'resultsAnswerThreeConflict',
                 type: 'circle',
                 source: {
                   type: 'geojson',
-                  data: GeoJsonColl
+                  data: GeoJsonCollThree
                 },
                 paint: {
                'circle-color': '#dd502c',
@@ -111,7 +111,7 @@ const MapQOne = () => {
     
 // When a click event occurs on a feature in the csvData layer, open a popup at the
 // location of the feature, with description HTML from its properties.            
-                map.on('click', 'resultsAnswerOneConflict', function(e) {
+                map.on('click', 'resultsAnswerThreeConflict', function(e) {
                 var coordinates = e.features[0].geometry.coordinates.slice();
 
                 // set popup text
@@ -135,7 +135,7 @@ const MapQOne = () => {
                 });
                 
                 // Change the cursor to a pointer when the mouse is over the places layer.
-                map.on('mouseenter', 'resultsAnswerOneConflict', function() {
+                map.on('mouseenter', 'resultsAnswerThreeConflict', function() {
                   map.getCanvas().style.cursor = 'pointer';
                 });
                 
@@ -153,15 +153,27 @@ const MapQOne = () => {
             <div ref={mapContainer} className="map-container" />
         </div>
         <div>
-            <h3 className="mt-5">"Violence is no solution" – that's what many people say when it comes to conflicts. They wish for a world in which conflicts are resolved without violence. What do you think: Can such a world become reality or will it remain a pipe dream?</h3> 
-                <p>a. No. Such a world is not possible. Whether you like it or not, violence is in fact always a solution. It will always remain a solution. It is that simple.</p>
-                <p>b. In a world without guns, the gun owner is king. At least that is what modern evolutionary biology says. Anyone who has the opportunity to use violence will eventually do so.</p>
-                <p>c. Those who starve or starve are more likely to resort to violence. Because if you have nothing to lose, violence is always an option. Precisely because one has nothing left to lose. Conversely, this also means that those who want a world without conflicts may also have to accept the redistribution of wealth or resources.</p>
-                <p>d. Violence is never my first option. But if others resort to violence, I would defend myself – if necessary with violence.</p>
-                <p>e. I don't see why a world without violence shouldn't be possible. There is always an alternative to violence. For those who have realized that violence only generates counter-violence, renunciation of violence is the only way to improvement.</p>
+            <h3 className="mt-5">
+            Sometimes conflicts are not caused by individuals but because they are built into the social system in which we live. One then speaks of “structural violence”. How should we deal with this structural violence?
+            </h3> 
+                <p>
+                a. Granted, no state can be perfect or free of conflicts. In a democracy, however, there is always a way of resolving conflicts without violence. Anyone can get involved politically or take legal action.
+                </p>    
+                <p>
+                b. Every social system takes far too much time to react to social conflicts. Those who wait for their own country to do something effective to combat social inequality, for example end up waiting too long.
+                </p>
+                <p>
+                c. No system, even the best, can ever be perfectly fair. That is in the nature of the systems. We have to put up with that.
+                </p>
+                <p>
+                d. Structural violence is always abstract violence. It becomes actual violence only through the people who are part of the system and benefit from it. The most effective lever against structural violence is therefore active resistance to those who enforce it.
+                </p>
+                <p>
+                e. Misogyny or racism are not only built into social systems, but also take place in the minds of the population. It is therefore less important to change the system than to change people's attitudes.
+                </p>
         </div>
     </React.Fragment>
     );          
 }
 
-export default MapQOne
+export default MapQThree
