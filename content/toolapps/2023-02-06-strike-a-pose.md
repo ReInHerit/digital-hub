@@ -28,11 +28,9 @@ The goal of thia application is to challenge the user to analyze and replicate a
 
 The user is challenged to reproduce in sequence the poses of some artworks from the museum's collections. Once all the poses have been matched, the application allows the user to **generate a video** that can be saved for any social sharing and provide info on the artworks. The video shows the user matching process and the overall interactive experience lived at the museum. As part of the ReinHerit Toolkit, the application is designed for the cultural heritage domain and exploit gamification techniques in order to improve enjoyment and learning of museum artworks.
 
-![Strike a Pose - User Interaction during a test at ACM Multimedia 2022](https://ucarecdn.com/6140671d-a22d-4fdd-9b4d-00895324d42a/ "Strike a Pose - User Interaction during a test at ACM Multimedia 2022")
+![Strike a Pose - User Interaction during a test at ACM Multimedia 2022](https://ucarecdn.com/7f796939-378c-4690-9c96-407941939614/ "Strike a Pose - User Interaction during a test at ACM Multimedia 2022")
 
 > *Strike a Pose - User Interaction during a test at ACM Multimedia 2022*
-
-
 
 ![Strike a Pose - User Interaction during a test](https://ucarecdn.com/28b8b486-9236-4809-80da-6322389e68db/ "Strike a Pose - User Interaction during a test")
 
