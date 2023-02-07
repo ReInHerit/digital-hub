@@ -12,13 +12,12 @@ subtype_news:
 theme: Management
 thumbnail: https://ucarecdn.com/7c38d44b-2993-43cf-90dd-14e5dfa83262/
 ---
-
-
 ![ReInHerit Webinar - A Sustainable Cultural Heritage Management plan for Museums](https://ucarecdn.com/1764ea45-f971-48a8-b574-4881abad8c5b/ "ReInHerit Webinar - A Sustainable Cultural Heritage Management plan for Museums")
 
 * February 24th, 2023 **from 3:00-4:00 pm CET** 
 * Facilitated by **Konstantinos Rousso**s  UNIC [University of Nicosia -  ](https://www.unic.ac.cy)[Cyprus](https://www.unic.ac.cy)
-* **Free Registration is open until 22 February 2023 (3 pm)** \*\* HERE \*\*
+* **Free Registration is open until 22 February 2023 (3 pm)** \*\* [HERE](https://docs.google.com/forms/d/e/1FAIpQLSdVPgq0g1XyF58uPm6A2bHp3rW0f9JjkMRwyD9V6DMC_z2jXA/viewform) \*\*\
+  [shorturl.at/wIPZ4](http://shorturl.at/wIPZ4)
 * The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available in the [resources section](https://reinherit-hub.eu/webinars).
 
 ReinHerit Webinars are aimed at cultural heritage professionals. They will consist of a *how to guide* for small and medium-sized museum and cultural heritage organizations that documents processes, provides instruction, technical requirements and best practices for co-creation and collaboration between museums and cultural heritage institutions.
