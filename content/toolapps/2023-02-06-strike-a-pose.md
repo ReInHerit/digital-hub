@@ -24,7 +24,9 @@ The goal of thia application is to challenge the user to analyze and replicate a
 
 
 
-![Examples of pose matching](https://ucarecdn.com/701132eb-8765-41cc-a0d9-614cf3a6f344/ "Examples of pose matching")
+![Examples of pose matching](https://ucarecdn.com/8b3821df-f7aa-4fe7-a63e-beb95da0db81/ "Examples of pose matching")
+
+> *Strike a Pose App for smartphone. 1) Login. 2-3) The user trying to strike the pose in the painting (playing in “easy" mode, with visible skeletons). 3) Challenge completed: download the video.* 
 
 The user is challenged to reproduce in sequence the poses of some artworks from the museum's collections. Once all the poses have been matched, the application allows the user to **generate a video** that can be saved for any social sharing and provide info on the artworks. The video shows the user matching process and the overall interactive experience lived at the museum. As part of the ReinHerit Toolkit, the application is designed for the cultural heritage domain and exploit gamification techniques in order to improve enjoyment and learning of museum artworks.
 
