@@ -21,11 +21,11 @@ thumbnail: https://ucarecdn.com/021b57b5-1152-4f4e-9a6f-b8fadbfc8174/
 
 The innovative application promotes a user-centred and **gamification** approach, a process of exploiting game strategies and dynamics in non-game scenarios. It has already been proved to be useful to enhance skills and competences in a variety of domains such as marketing, industry training and entertainment. Also cultural heritage can benefit from a gamification approach which represents an opportunity to **engage visitors** to museums contents through the design of more entertaining, social and challenging digital learning scenarios, to help museums to move from the traditional “look and do not touch” toward a “play and interact” approach.
 
+This app won a Best Demo Honorable Mention award at ACM Multimedia 2022, the foremost conference on multimedia.
+
 ```
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FReInHerit%2Fposts%2Fpfbid036pzP3F1Zk8fnKBLRCoczrCUrEQVhnx6LChd2uobTdHsWWduGXNkszQwfduRsHWvnl&show_text=true&width=500" width="500" height="797" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 ```
-
-This app won a Best Demo Honorable Mention award at ACM Multimedia 2022, the foremost conference on multimedia.
 
 ```
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FReInHerit%2Fposts%2Fpfbid02nj3YC2dQEfojhFMKgxVC2xanRkVa5kbCKe3DjcQWcAztCjGFCiiXXCjAfi4cr6AYl&show_text=true&width=500" width="500" height="797" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
