@@ -23,6 +23,9 @@ The innovative application promotes a user-centred and **gamification** approach
 
 This app won a Best Demo Honorable Mention award at ACM Multimedia 2022, the foremost conference on multimedia.
 
+**Free Codes of the App are available here:**\
+<https://github.com/ReInHerit/strike-a-pose>
+
 ```
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FReInHerit%2Fposts%2Fpfbid036pzP3F1Zk8fnKBLRCoczrCUrEQVhnx6LChd2uobTdHsWWduGXNkszQwfduRsHWvnl&show_text=true&width=500" width="500" height="797" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 ```
@@ -31,7 +34,6 @@ This app won a Best Demo Honorable Mention award at ACM Multimedia 2022, the for
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FReInHerit%2Fposts%2Fpfbid02nj3YC2dQEfojhFMKgxVC2xanRkVa5kbCKe3DjcQWcAztCjGFCiiXXCjAfi4cr6AYl&show_text=true&width=500" width="500" height="797" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 ```
 
-**Free Codes of the App are available here:**\
-<https://github.com/ReInHerit/strike-a-pose>
+
 
 Youtube Video
