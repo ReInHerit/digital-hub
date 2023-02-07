@@ -22,8 +22,6 @@ The goal of thia application is to challenge the user to analyze and replicate a
 
 **Strike-a-pose** is a web application based on Artificial Intelligenge and Computer Vision, which performs analysis and evaluation of human poses compared to poses present in famous paintings or statues. 
 
-
-
 ![Examples of pose matching](https://ucarecdn.com/8b3821df-f7aa-4fe7-a63e-beb95da0db81/ "Examples of pose matching")
 
 > *Strike a Pose App for smartphone. 1) Login. 2-3) The user trying to strike the pose in the painting (playing in “easy" mode, with visible skeletons). 3) Challenge completed: download the video.* 
@@ -33,6 +31,10 @@ The user is challenged to reproduce in sequence the poses of some artworks from 
 ![Strike a Pose - User Interaction during a test at ACM Multimedia 2022](https://ucarecdn.com/6140671d-a22d-4fdd-9b4d-00895324d42a/ "Strike a Pose - User Interaction during a test at ACM Multimedia 2022")
 
 > *Strike a Pose - User Interaction during a test at ACM Multimedia 2022*
+
+
+
+![Strike a Pose - User Interaction during a test](https://ucarecdn.com/28b8b486-9236-4809-80da-6322389e68db/ "Strike a Pose - User Interaction during a test")
 
 The innovative application promotes a user-centred and **gamification** approach, a process of exploiting game strategies and dynamics in non-game scenarios. It has already been proved to be useful to enhance skills and competences in a variety of domains such as marketing, industry training and entertainment. Also cultural heritage can benefit from a gamification approach which represents an opportunity to **engage visitors** to museums contents through the design of more entertaining, social and challenging digital learning scenarios, to help museums to move from the traditional “look and do not touch” toward a “play and interact” approach.
 
