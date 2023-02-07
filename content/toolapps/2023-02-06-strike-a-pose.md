@@ -32,6 +32,8 @@ The user is challenged to reproduce in sequence the poses of some artworks from 
 
 ![Strike a Pose - User Interaction during a test at ACM Multimedia 2022](https://ucarecdn.com/6140671d-a22d-4fdd-9b4d-00895324d42a/ "Strike a Pose - User Interaction during a test at ACM Multimedia 2022")
 
+> *Strike a Pose - User Interaction during a test at ACM Multimedia 2022*
+
 The innovative application promotes a user-centred and **gamification** approach, a process of exploiting game strategies and dynamics in non-game scenarios. It has already been proved to be useful to enhance skills and competences in a variety of domains such as marketing, industry training and entertainment. Also cultural heritage can benefit from a gamification approach which represents an opportunity to **engage visitors** to museums contents through the design of more entertaining, social and challenging digital learning scenarios, to help museums to move from the traditional “look and do not touch” toward a “play and interact” approach.
 
 This app won a Best Demo Honorable Mention award at ACM Multimedia 2022, the foremost conference on multimedia.
