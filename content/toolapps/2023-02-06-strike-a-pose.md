@@ -20,13 +20,15 @@ thumbnail: https://ucarecdn.com/021b57b5-1152-4f4e-9a6f-b8fadbfc8174/
 
 **Strike-a-pose** is a web application based on Artificial Intelligenge and Computer Vision, which performs analysis and evaluation of human poses compared to poses present in famous paintings or statues. 
 
-The goal of this application is to challenge the user to analyze and replicate artworks with their own body a obtaining information on the artworks that are replicated and personalized artwork representations that can be shared on social networks.
+The goal of this application is to challenge the user to **analyze and replicate** artworks with their own body a obtaining information on the artworks that are replicated and personalized artwork representations that can be shared on social networks.
 
 ![Examples of pose matching](https://ucarecdn.com/8b3821df-f7aa-4fe7-a63e-beb95da0db81/ "Examples of pose matching")
 
 > *Strike a Pose App for smartphone. 1) Login. 2-3) The user trying to strike the pose in the painting (playing in “easy" mode, with visible skeletons). 3) Challenge completed: download the video.* 
 
-The user is challenged to reproduce in sequence the poses of some artworks from the museum's collections. Once all the poses have been matched, the application allows the user to **generate a video** that can be saved for any social sharing and provide info on the artworks. The video shows the user matching process and the overall interactive experience lived at the museum. As part of the ReinHerit Toolkit, the application is designed for the cultural heritage domain and exploit gamification techniques in order to improve enjoyment and learning of museum artworks.
+The user is challenged to reproduce in sequence the poses of some artworks from the museum's collections. Once all the poses have been matched, the application allows the user to **generate** a video that can be saved for any **social sharing** and provide info on the artworks. The video shows the user matching process and the overall **interactive experience** lived at the museum.
+
+ As part of the ReinHerit Toolkit, the application is designed for the cultural heritage domain and exploit gamification techniques in order to **improve enjoyment and learning** of museum artworks.
 
 ![Strike a Pose - User Interaction during a test at ACM Multimedia 2022](https://ucarecdn.com/7f796939-378c-4690-9c96-407941939614/ "Strike a Pose - User Interaction during a test at ACM Multimedia 2022")
 
@@ -36,7 +38,7 @@ The user is challenged to reproduce in sequence the poses of some artworks from 
 
 The innovative application promotes a user-centred and **gamification** approach, a process of exploiting game strategies and dynamics in non-game scenarios. It has already been proved to be useful to enhance skills and competences in a variety of domains such as marketing, industry training and entertainment. Also cultural heritage can benefit from a gamification approach which represents an opportunity to **engage visitors** to museums contents through the design of more entertaining, social and challenging digital learning scenarios, to help museums to move from the traditional “look and do not touch” toward a “play and interact” approach.
 
-This app won a Best Demo Honorable Mention award at ACM Multimedia 2022, the foremost conference on multimedia.
+This app won a **Best Demo Honorable Mention award** at ACM Multimedia 2022, the foremost conference on multimedia.
 
 ![Best Demo Honorable Mention award at ACM Multimedia 2022](https://ucarecdn.com/a1fde0c2-d8f2-43bd-99d8-920f0df0a0af/ "Best Demo Honorable Mention award at ACM Multimedia 2022")
 
