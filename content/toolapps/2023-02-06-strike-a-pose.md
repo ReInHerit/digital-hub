@@ -18,7 +18,7 @@ thumbnail: https://ucarecdn.com/021b57b5-1152-4f4e-9a6f-b8fadbfc8174/
 ---
 ![Strike a Pose](https://ucarecdn.com/05627286-2a04-458d-ae83-ec9bab30e3a6/ "Strike a Pose")
 
-The goal of thia application is to challenge the user to analyze and replicate artworks with their own body a obtaining information on the artworks that are replicated and  personalized artwork representations that can be shared on social networks.
+The goal of this application is to challenge the user to analyze and replicate artworks with their own body a obtaining information on the artworks that are replicated and  personalized artwork representations that can be shared on social networks.
 
 **Strike-a-pose** is a web application based on Artificial Intelligenge and Computer Vision, which performs analysis and evaluation of human poses compared to poses present in famous paintings or statues. 
 
