@@ -63,23 +63,19 @@ return (
             onChange={onOptionChange}
             ></Form.Check>
         ))}
+      
+      <div className="exh_submit_button">
+            <div className="exh_arrow_container">
+         <img className="exh_blue_arrow" src="/images/exhibition_assets/arrow_blue.svg" alt=""></img>
+         </div>
+         <Button className="exh_submit_btn" type="submit" href="/exhibitions/conflicts/ConflictQuestions/2ndQuestionConflict">
+                <h1 style={{color: "white"}}>Next Question</h1>
+         </Button>
         
-         <div className="d-grid mt-5">
-            <Button className="btn-primary rounded-pill m-3 mt-0" 
-            type="submit"
-            >
-                <h1 style={{color: "white"}}>Confirm your choice</h1>
-            </Button>
-         </div>
-        </Form>
+      </div>
 
-        <div className="d-grid mt-5">
-            <Button className="btn-primary rounded-pill m-3 mt-0" 
-            href="/exhibitions/conflicts/ConflictQuestions/2ndQuestionConflict">
-                <h1 style={{color: "white"}}>Next page</h1>
-            </Button>
-         </div>
-
+       
+         </Form>
 </React.Fragment>
     )
   }

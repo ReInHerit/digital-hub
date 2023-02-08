@@ -16,6 +16,7 @@ return (
 
 {/*Actual Form answers - radio checks; followed by button to next page*/}
         <div className="conflictsAnswers">
+          <h2>Question: 2</h2>
             <QuestionTwoConflict></QuestionTwoConflict>
         </div>
         

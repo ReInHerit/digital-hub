@@ -11,8 +11,8 @@ const CountryFormConflict = () => {
   }, [countryConflict]);
    
   return (
-    <div>
-      <h1>But first, where are you?</h1>
+    <div className="exh_country_selection">
+      <h3>But first, where are you?</h3>
       <CountryDropdown
         value={countryConflict}
         onChange={setCountryConflict} />

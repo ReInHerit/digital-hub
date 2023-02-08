@@ -1,0 +1,432 @@
+@font-face {
+  font-family: "RobotoMono-Light";
+  src: url("/fonts/RobotoMono-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+html, body {
+  background-color: #fff;
+  color: #000;
+}
+
+* {
+  color: #000;
+}
+
+/* Navbar */
+.navExhib {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navExhib.navExh_yellow .exh_navBar_container {
+  background-color: yellow;
+}
+.navExhib.navExh_yellow .exh_navBar_container .exh_line {
+  background-color: black;
+}
+.navExhib.navExh_yellow .hamburger {
+  background-color: #000;
+}
+.navExhib.navExh_blue .exh_navBar_container {
+  background-color: blue;
+}
+.navExhib.navExh_blue .exh_navBar_container a {
+  color: #fff;
+}
+.navExhib.navExh_blue .exh_navBar_container .exh_line {
+  background-color: #fff;
+}
+.navExhib.navExh_blue .hamburger {
+  background-color: #fff;
+}
+.navExhib .exh_navBar_container {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin: 30px 15px;
+}
+.navExhib .exh_navBar_container .nav_font {
+  font-family: RobotoMono-Light;
+}
+.navExhib .exh_navBar_container .exh_line {
+  width: 50px;
+  height: 2px;
+  opacity: 1;
+  margin: auto 0;
+}
+.navExhib .header-burger {
+  justify-self: end;
+  cursor: pointer;
+  padding-top: 7px;
+  z-index: 0;
+  position: absolute;
+  right: 45px;
+}
+.navExhib .header-burger .hamburger {
+  width: 30px;
+  height: 2px;
+  opacity: 1;
+  margin-bottom: 6px;
+}
+.navExhib .navbar-toggler {
+  border: none;
+  color: black;
+  position: absolute;
+  right: 20px;
+  z-index: 1;
+}
+.navExhib .navbar-toggler .btn-close svg {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(160deg) brightness(106%) contrast(105%);
+}
+.navExhib .navbar-toggler .navbar-toggler-icon {
+  background-image: none;
+}
+.navExhib .navbar-toggler:active {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.navExhib .navbar-toggler:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.navExhib .navbar-toggler:focus-visible {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.navExhib .exhibition_navbar {
+  width: 100%;
+}
+
+.exhibition_burger_container {
+  background-color: #000;
+  width: 100%;
+  max-width: 730px;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  height: 100vh;
+  align-items: normal;
+  padding: 40px;
+}
+
+.exhibition_burger {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+.exhibition_burger .btn-close {
+  color: #ffffff;
+  float: right;
+  background: url("/images/exhibition_assets/x-icon.svg");
+  opacity: 1;
+}
+.exhibition_burger .btn-close:active, .exhibition_burger .btn-close:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.exhibition_navbar_inner {
+  padding: 10px 20px;
+  display: inline-flex;
+  width: 100%;
+  gap: 50px;
+}
+
+.exhibition_burger_inner a {
+  font-size: 32px;
+  font-family: RobotoMono-Light;
+}
+.exhibition_burger_inner p {
+  font-size: 32px;
+  color: #fff;
+  font-family: RobotoMono-Light;
+  margin: 0;
+}
+
+.exhibition_menu_link {
+  text-decoration: uppercase;
+  text-decoration: none;
+  font-size: 25px;
+}
+.exhibition_menu_link:hover {
+  color: black;
+}
+
+/* Exhibition: Conflicts - i.e. blue */
+.badgeConflicts {
+  width: 100%;
+  background-color: white !important;
+  border: 2px solid;
+  border-color: blue !important;
+  text-align: center;
+  color: blue;
+}
+
+.conflicts h4 {
+  font-family: "Roboto Regular" !important;
+  color: blue;
+}
+
+.conflicts h1 {
+  font-family: "Roboto Mono" !important;
+  font: "Light";
+}
+
+.navExhibConflicts {
+  margin-bottom: 5vh;
+  background-color: blue;
+  color: white;
+}
+
+/* Footer */
+.exh_img {
+  width: auto;
+  max-height: 50px;
+  margin-right: 10px;
+}
+
+.exh_footer_links a {
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.exh_footer_grid {
+  display: inline-flex;
+  font-size: 13px;
+  padding: 10px 0;
+}
+
+.exh_footer_grid p {
+  margin: auto;
+}
+
+.exh_footer {
+  height: 8rem;
+}
+
+/* exhibition objects page: card flip setup */
+.exhibObject-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill);
+  gap: 1rem;
+}
+
+.exhibObject {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 150ms;
+  cursor: pointer;
+  transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
+}
+
+.exhibObject:hover {
+  --translate-y: -2px;
+}
+
+.exhibObject.flipOne {
+  --rotate-y: 180deg;
+}
+
+.exhibObject.flipTwo {
+  --rotate-y: 180deg;
+}
+
+.exhibObject.flipThree {
+  --rotate-y: 180deg;
+}
+
+/* Content */
+.exh_main_content {
+  max-width: 1750px;
+  margin: 150px auto;
+  padding: 0 50px;
+  color: #000 !important;
+}
+.exh_main_content .conflictsAnswers h1 {
+  font-family: RobotoMono-Light;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+.exh_main_content .conflictsAnswers h2 {
+  font-family: RobotoMono-Light;
+  font-size: 2.5rem;
+}
+.exh_main_content .conflictsAnswers .exh_submit_button {
+  text-align: center;
+}
+.exh_main_content .conflictsAnswers .exh_submit_button .exh_arrow_container {
+  width: 50%;
+}
+.exh_main_content .conflictsAnswers .exh_submit_btn {
+  font-family: RobotoMono-Light;
+  color: #fff;
+  background-color: blue;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 2.5rem;
+  width: 50%;
+  border: 2px solid;
+  border-color: blue !important;
+  text-align: center;
+  border-radius: 50px;
+}
+.exh_main_content .conflictsAnswers .exh_submit_btn h1 {
+  margin: 0;
+}
+.exh_main_content .conflictsAnswers .form-check {
+  max-width: 60%;
+}
+.exh_main_content .conflictsAnswers .form-check input[type=radio] {
+  display: none;
+}
+.exh_main_content .conflictsAnswers .form-check label::before {
+  content: "";
+  display: inline-block;
+  background-image: url(/images/exhibition_assets/exh_box_black.svg);
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+.exh_main_content .conflictsAnswers .form-check input[type=radio]:checked + label::after {
+  content: "";
+  display: inline-block;
+  background-image: url(/images/exhibition_assets/exh_box_blue.svg);
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.exh_main_content .conflictsAnswers .form-check label {
+  border: 1px solid;
+  padding: 15px;
+  margin: 0 0 40px;
+  font-size: 1.2rem;
+}
+.exh_main_content .conflictsAnswers .form-check:nth-child(1) {
+  margin-left: 10%;
+}
+.exh_main_content .conflictsAnswers .form-check:nth-child(2) {
+  margin-left: 20%;
+}
+.exh_main_content .conflictsAnswers .form-check:nth-child(3) {
+  margin-left: 30%;
+}
+.exh_main_content .conflictsAnswers .form-check:nth-child(4) {
+  margin-left: 20%;
+}
+.exh_main_content .conflictsAnswers .exh_blue_arrow {
+  width: auto;
+  height: auto;
+  transform: rotate(-45deg);
+  max-width: 50px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.badgeConflicts h1 {
+  font-family: RobotoMono-Light;
+  color: blue;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.exh_question_intro_text {
+  padding: 3rem 0;
+  text-align: center;
+}
+.exh_question_intro_text .exh_country_selection {
+  padding: 3rem 0;
+}
+.exh_question_intro_text .exh_country_selection select {
+  padding: 10px;
+  border: 2px solid;
+}
+.exh_question_intro_text .exh_country_selection h3 {
+  font-family: Roboto-Regular;
+}
+.exh_question_intro_text h4 {
+  font-family: Roboto-Regular;
+}
+.exh_question_intro_text p {
+  font-size: 14px;
+}
+
+.exhibition_intro {
+  min-height: calc(100vh - 12rem);
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  margin-top: 64px;
+}
+
+.btnExhibit:hover {
+  background-color: blue !important;
+}
+.btnExhibit:focus {
+  color: #fff;
+}
+.btnExhibit.btnExhibitDisabled:hover {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btnExhibit {
+  background-color: white;
+  color: black;
+  border-color: black;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  width: 600px;
+  padding: 20px;
+  font-family: RobotoMono-Light;
+  font-size: 30px;
+  margin: 30px auto 0;
+}
+.btnExhibit .visible_btn_text {
+  color: #000;
+}
+.btnExhibit .hidden_btn_text {
+  display: none;
+}
+.btnExhibit:hover .visible_btn_text {
+  display: none;
+  transition: 0.3s;
+}
+.btnExhibit:hover .hidden_btn_text {
+  display: block;
+  transition: 0.3s;
+  color: #fff;
+}
+
+/* Mapbox container and markers */
+.map-container {
+  height: 600px;
+}
+
+.marker {
+  background-image: "circle";
+  width: "50px";
+  height: "50px";
+  border-radius: "50%";
+}
+
+/*# sourceMappingURL=tronic.css.map */
+
+/*# sourceMappingURL=tronic.css.map */

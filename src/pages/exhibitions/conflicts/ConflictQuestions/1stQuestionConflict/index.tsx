@@ -8,16 +8,16 @@ const questionOneConflictPage = () => {
 
 return (
     <BaseExhibitionConflict>
-     <Container fluid className="mt-5 p-5">
+     <div className="exh_container_inner">
 
 {/*Intro text*/}
-        <div className="d-grid gap-2">
-          <Badge className="badgeConflicts rounded-pill"><h1>ReThinking CONFLICTS</h1></Badge>
-        </div>
+ 
+        <Badge className="badgeConflicts rounded-pill"><h1>ReThinking CONFLICTS</h1></Badge>
+       
 
-        <div className="conflictsQuestions">
-            <h4>How do you approach conflicts?<br />
-            <i>Note data protection:</i>the  collected data is used exclusively for statistics purposes within the exhibition.</h4>
+        <div className="conflictsQuestions exh_question_intro_text">
+            <h4>How do you approach conflicts?</h4>
+            <p>Note data protection: <br></br>the collected data is used exclusively for statistics purposes within the exhibition.</p>
 
 {/*Country question*/}
             <CountryFormConflict></CountryFormConflict>
@@ -27,10 +27,11 @@ return (
 
 {/*Actual Form answers - radio checks; followed by button to next page*/}
         <div className="conflictsAnswers">
+        <h2>Question: 1</h2>
             <QuestionOneConflict></QuestionOneConflict>
         </div>
         
-     </Container>
+     </div>
     </BaseExhibitionConflict>
     )
   }
