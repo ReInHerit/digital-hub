@@ -16,7 +16,7 @@ linkedWebinars:
 license: CC BY 2.0
 thumbnail: https://ucarecdn.com/021b57b5-1152-4f4e-9a6f-b8fadbfc8174/
 ---
-![Strike a Pose](https://ucarecdn.com/05627286-2a04-458d-ae83-ec9bab30e3a6/ "Strike a Pose")
+![Strike a Pose](https://ucarecdn.com/7825e324-7dc2-415b-81d4-7d6d72d6a663/ "Strike a Pose")
 
 **Strike-a-pose** is a web application based on Artificial Intelligenge and Computer Vision, which performs analysis and evaluation of human poses compared to poses present in famous paintings or statues. 
 
