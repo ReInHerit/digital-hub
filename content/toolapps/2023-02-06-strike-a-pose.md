@@ -30,11 +30,11 @@ The user is challenged to reproduce in sequence the poses of some artworks from 
 
  As part of the ReinHerit Toolkit, the application is designed for the cultural heritage domain and exploit gamification techniques in order to **improve enjoyment and learning** of museum artworks.
 
-![Strike a Pose - User Interaction during a test at ACM Multimedia 2022](https://ucarecdn.com/7f796939-378c-4690-9c96-407941939614/ "Strike a Pose - User Interaction during a test at ACM Multimedia 2022")
+![Strike a Pose - User Interaction during a test at ACM Multimedia 2022](https://ucarecdn.com/e374f086-8574-47ba-be80-b9afedbdb597/ "Strike a Pose - User Interaction during a test at ACM Multimedia 2022")
 
 > *Strike a Pose - User Interaction during a test at ACM Multimedia 2022*
 
-![Strike a Pose - User Interaction during a test](https://ucarecdn.com/28b8b486-9236-4809-80da-6322389e68db/ "Strike a Pose - User Interaction during a test")
+![Strike a Pose - User Interaction during a test](https://ucarecdn.com/a702cece-212f-4ab9-89b0-b67ebccae21a/ "Strike a Pose - User Interaction during a test")
 
 The innovative application promotes a user-centred and **gamification** approach, a process of exploiting game strategies and dynamics in non-game scenarios. It has already been proved to be useful to enhance skills and competences in a variety of domains such as marketing, industry training and entertainment. Also cultural heritage can benefit from a gamification approach which represents an opportunity to **engage visitors** to museums contents through the design of more entertaining, social and challenging digital learning scenarios, to help museums to move from the traditional “look and do not touch” toward a “play and interact” approach.
 
