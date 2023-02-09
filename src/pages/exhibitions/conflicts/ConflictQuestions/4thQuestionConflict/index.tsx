@@ -7,19 +7,20 @@ const questionFourConflictPage = () => {
 
 return (
     <BaseExhibitionConflict>
-     <Container fluid className="mt-5 p-5">
+      <div className="exh_container_inner mt-5">
 
 {/*Intro text*/}
-        <div className="d-grid gap-2">
-          <Badge className="badgeConflicts rounded-pill"><h1>ReThinking CONFLICTS</h1></Badge>
-        </div>
-
+    <div className="conflictsQuestions exh_question_intro_text">
+              <Badge className="badgeConflicts rounded-pill"><h1>ReThinking CONFLICTS</h1></Badge>
+        
+    </div>
 {/*Actual Form answers - radio checks; followed by button to next page*/}
         <div className="conflictsAnswers">
+        <h2>Question: 4</h2>
             <QuestionFourConflict></QuestionFourConflict>
         </div>
         
-     </Container>
+     </div>
     </BaseExhibitionConflict>
     )
   }

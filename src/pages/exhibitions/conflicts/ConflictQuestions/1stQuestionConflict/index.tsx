@@ -8,7 +8,7 @@ const questionOneConflictPage = () => {
 
 return (
     <BaseExhibitionConflict>
-     <div className="exh_container_inner">
+     <div className="exh_container_inner mt-5">
 
 {/*Intro text*/}
  

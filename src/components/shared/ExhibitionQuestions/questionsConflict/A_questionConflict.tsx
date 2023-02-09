@@ -41,10 +41,12 @@ const QuestionOneConflict = () => {
         setAnswerOneConflict(e.target.value) 
     }
 
-    const handleSubmitA = (e) => {
-        e.preventDefault()
-        appendSpreadsheet()
-        } 
+    const handleSubmitA = async (e) => {
+        e.preventDefault();
+        await appendSpreadsheet();
+        window.location.href = "/exhibitions/conflicts/ConflictQuestions/2ndQuestionConflict";
+      };
+
 
 return (
 <React.Fragment>
@@ -55,27 +57,23 @@ return (
 
         <Form onSubmit={handleSubmitA} >
             {AnswersOneConflict.map(possAnswOneConflict => (
-          <Form.Check
-            type="radio"
+        <Form.Check
+            type="radio" name="exh_questions"
             value={possAnswOneConflict}
             label={possAnswOneConflict}
             checked={possAnswOneConflict === answerOneConflict }
-            onChange={onOptionChange}
-            ></Form.Check>
+            onChange={onOptionChange} >
+        </Form.Check>
         ))}
-      
-      <div className="exh_submit_button">
-            <div className="exh_arrow_container">
-         <img className="exh_blue_arrow" src="/images/exhibition_assets/arrow_blue.svg" alt=""></img>
-         </div>
-         <Button className="exh_submit_btn" type="submit" href="/exhibitions/conflicts/ConflictQuestions/2ndQuestionConflict">
-                <h1 style={{color: "white"}}>Next Question</h1>
-         </Button>
-        
-      </div>
-
-       
-         </Form>
+            <div className="exh_submit_button">
+                <div className="exh_arrow_container">
+                    <img className="exh_blue_arrow" src="/images/exhibition_assets/arrow_blue.svg" alt=""></img>
+                </div>
+                <Button className="exh_submit_btn" type="submit"  onClick={handleSubmitA} >
+                <h1 style={{ color: "white" }}>Next Question</h1>
+                </Button>
+            </div>  
+        </Form>
 </React.Fragment>
     )
   }

@@ -93,9 +93,9 @@ const MapQTwo = () => {
                   data: GeoJsonCollTwo
                 },
                 paint: {
-               'circle-color': '#dd502c',
+               'circle-color': '#526d9d',
                'circle-stroke-width': 1,
-               'circle-stroke-color': '#dd502c',
+               'circle-stroke-color': '#526d9d',
                'circle-opacity': 0.5,
                'circle-radius': {
                 property: 'Answer_A',
@@ -116,15 +116,15 @@ const MapQTwo = () => {
 
                 // set popup text
                 var description =
-                `<h3>` +
+                `<h4>` +
                 e.features[0].properties.Country +
-                `</h3> 
+                `</h4> 
                 <ul>
-                  <li> Answer A: ` + e.features[0].properties.Answer_A + `</li>
-                  <li> Answer B: ` + e.features[0].properties.Answer_B + `</li>
-                  <li> Answer C: ` + e.features[0].properties.Answer_C + `</li>
-                  <li> Answer D: ` + e.features[0].properties.Answer_D + `</li>
-                  <li> Answer E: ` + e.features[0].properties.Answer_E + `</li>
+                  <li>A: In total ` + e.features[0].properties.Answer_A + ` People</li>
+                  <li>B: In total ` + e.features[0].properties.Answer_B + ` People</li>
+                  <li>C: In total ` + e.features[0].properties.Answer_C + ` People</li>
+                  <li>D: In total ` + e.features[0].properties.Answer_D + ` People</li>
+                  <li>E: In total ` + e.features[0].properties.Answer_E + ` People</li>
                 </ul>` 
 
                //add Popup to map
@@ -152,24 +152,14 @@ const MapQTwo = () => {
         <div>
             <div ref={mapContainer} className="map-container" />
         </div>
-        <div>
-            <h3 className="mt-5">Is it bad if you fight back?
-            </h3> 
-                <p>
-                a. No. Resistance can be a very good thing and sometimes even becomes a duty. Often you even have to defend what is important to you. In this case I not only have the right but also the duty to defend myself.
-                </p>
-                <p>
-                b. I don't know if it is evil to fight back. But for my part I abhor any form of violence. Therefore, if in doubt, I would not defend myself.
-                </p>
-                <p>
-                c. Anyone who thinks it is evil to stand up for one's freedom, for example, morally equates oppressor and victim. But that is wrong. A perpetrator is never on the same moral level as the victim. So it is not evil to fight back.
-                </p>
-                <p>
-                d. Anyone who resists creates counter-violence with his violence. This definitely leads to a spiral of violence. So it may not be evil to fight back, but it is at least unwise.
-                </p>
-                <p>
-                e. Imagine your parents' house suddenly being illegally occupied. What should prevent you from fighting back? Nothing. Any questions?
-                </p>
+        <div className="exh_map_result_content">
+        <h2>Question 2:</h2>
+            <h3>Is it bad if you fight back?</h3> 
+            <div className="exh_map_quest_result"><span>A</span><p>Answer 1 - No. Resistance can be a very good thing and sometimes even becomes a duty. Often you even have to defend what is important to you. In this case I not only have the right but also the duty to defend myself.</p></div>
+            <div className="exh_map_quest_result"><span>B</span><p>Answer 2 - I don't know if it is evil to fight back. But for my part I abhor any form of violence. Therefore, if in doubt, I would not defend myself.</p></div>
+            <div className="exh_map_quest_result"><span>C</span><p>Answer 3 - Anyone who thinks it is evil to stand up for one's freedom, for example, morally equates oppressor and victim. But that is wrong. A perpetrator is never on the same moral level as the victim. So it is not evil to fight back.</p></div>
+            <div className="exh_map_quest_result"><span>D</span><p>Answer 4 - Anyone who resists creates counter-violence with his violence. This definitely leads to a spiral of violence. So it may not be evil to fight back, but it is at least unwise.</p></div>
+            <div className="exh_map_quest_result"><span>E</span><p>Answer 5 - Imagine your parents' house suddenly being illegally occupied. What should prevent you from fighting back? Nothing. Any questions?</p></div>
         </div>
     </React.Fragment>
     );          

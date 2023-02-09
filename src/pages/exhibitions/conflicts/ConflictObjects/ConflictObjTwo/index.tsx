@@ -6,38 +6,33 @@ const ConflictObjectOne = () => {
 
 return (
 <BaseExhibitionConflict>
-  <Container fluid className="mt-5 p-5">
+<div className="exh_container_inner exh_rm_nav exh_container_border">
   <div className="d-grid gap-2">
   <Badge className="badgeConflicts rounded-pill"><h1>ReThinking CONFLICTS</h1></Badge>
   </div>
   <div className="conflicts">
-  <h4>The Cherry Rage 1920 is a woodcut by the Austrian artist Axl Leskoschek. Created in 1955 , it intentionally uses the technique of the woodcut, which was a medium of protest art. The appeal of
+  <h4 className="conflicts">The Cherry Rage 1920 is a woodcut by the Austrian artist Axl Leskoschek. Created in 1955 , it intentionally uses the technique of the woodcut, which was a medium of protest art. The appeal of
 the woodcut is its reproductibility. The stencil, cut from wood is reusable and can produce infinite copies.</h4>
 
-<Badge className="badgeConflicts rounded-pill"><h1>The Story of the Cherry Rage</h1></Badge>
+<Badge className="badgeConflicts badgeConflictInner rounded-pill"><h1>The Story of the Pyxis</h1></Badge>
 
-<div>
-<iframe src="https://h5p.org/h5p/embed/1307786" width="1090" height="1109" frameborder="0" 
-allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" 
-title="The Story of the Cherry Rage"></iframe>
-<script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+<div className="exh_h5p_iframe">
+<iframe src="https://collection.reinherit-hub.eu/demo.html" width="1000" height="1150"></iframe>
 </div>
 
 <Badge className="badgeConflicts rounded-pill"><h1>Viewer</h1></Badge>
 
 <div> 
-<div class="sketchfab-embed-wrapper"> 
-<iframe title="Pyxis With Lid" frameborder="0" allowfullscreen mozallowfullscreen="true" 
-webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" 
-xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share 
+<div className="sketchfab-embed-wrapper mt-5"> 
+<iframe title="Pyxis With Lid" 
 src="https://sketchfab.com/models/f1fd94248210431cb1d2cc01558c7575/embed"
 width="640" height="480" > 
 </iframe> 
 </div>
 </div>
 
-<div className="mt-5">
-    <h4>Get to know other objects</h4>
+<div className="exh_object_btm">
+<div className="exh_bullet_btn">Get to know other objects</div>
     <Row>
         <Col>  
         <a href="exhibitions/conflicts/ConflictObjects/ConflictObjOne">
@@ -53,12 +48,17 @@ width="640" height="480" >
 </div>
 
 
-<div className="d-grid gap-2">
-<Button href="exhibitions/conflicts/ConflictQuestions/4thQuestionConflict" className="btn-primary rounded-pill m-5"><h1 style={{color: "white"}}>Exit Exhibition</h1></Button>
-</div>
+<div className="exh_submit_button">
+          <div className="exh_arrow_container">
+              <img className="exh_blue_arrow" src="/images/exhibition_assets/arrow_blue.svg" alt=""></img>
+          </div>
+          <Button className="exh_submit_btn" href="exhibitions/conflicts/ConflictQuestions/4thQuestionConflict">
+            <h1 style={{color: "white"}}>Exit Exhibition</h1>
+          </Button>
+  </div>
 </div>
 
-  </Container>
+  </div>
 </BaseExhibitionConflict>
     )
   }

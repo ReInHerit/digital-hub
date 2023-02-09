@@ -8,7 +8,7 @@ const ConflictObjectOne = () => {
 
 return (
 <BaseExhibitionConflict>
-  <Container fluid className="mt-5 p-5">
+<div className="exh_container_inner exh_rm_nav exh_container_border">
   <div className="d-grid gap-2">
   <Badge className="badgeConflicts rounded-pill"><h1>ReThinking CONFLICTS</h1></Badge>
   </div>
@@ -16,49 +16,39 @@ return (
   <h4 className="conflicts">The Cherry Rage 1920 is a woodcut by the Austrian artist Axl Leskoschek. Created in 1955 , it intentionally uses the technique of the woodcut, which was a medium of protest art. The appeal of
 the woodcut is its reproductibility. The stencil, cut from wood is reusable and can produce infinite copies.</h4>
 
-<Badge className="badgeConflicts rounded-pill"><h1>The Story of the Cherry Rage</h1></Badge>
+<Badge className="badgeConflicts badgeConflictInner rounded-pill"><h1>The Story of the Cherry Rage</h1></Badge>
 
-<div>
-<iframe src="https://h5p.org/h5p/embed/1307786" width="1090" height="1109" frameborder="0" 
-allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" 
-title="The Story of the Cherry Rage"></iframe>
-<script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+<div className="exh_h5p_iframe">
+<iframe src="https://collection.reinherit-hub.eu/demo.html" width="1000" height="1150"></iframe>
 </div>
 
-<Badge className="badgeConflicts rounded-pill"><h1>Zoom in and explore this object</h1></Badge>
-<div style={{width:"80%", height: "auto"}}> 
-<Zoom>
-    <img
-      src='/images/conflicts/large-CherryRageGM.jpg' 
-      alt='Cherry Rage, Graz Museum'
-      width="80%"
-    />
-  </Zoom>
-</div>
-
-<div className="mt-5">
-    <h4>Get to know other objects</h4>
+<div className="exh_object_btm">
+    <div className="exh_bullet_btn">Get to know other objects</div>
     <Row>
         <Col>  
         <a href="exhibitions/conflicts/ConflictObjects/ConflictObjTwo"> 
-        <img alt="Second Object" src="images/conflicts/small-PyxisMCA.jpg" height={"auto"} width={"50%"} max-width={"50%"}>
+        <img alt="Second Object" src="images/conflicts/small-PyxisMCA.jpg" height={"auto"} width={"80%"} max-width={"80%"}>
         </img></a>
         </Col>
         <Col>
         <a href="exhibitions/conflicts/ConflictObjects/ConflictObjThree">
-        <img alt="Third Object" src="images/conflicts/small-CiproMapBoCCF.jpg" height={"auto"} width={"50%"} max-width={"50%"}>
+        <img alt="Third Object" src="images/conflicts/small-CiproMapBoCCF.jpg" height={"auto"} width={"80%"} max-width={"80%"}>
         </img></a>
         </Col>
     </Row>
 </div>
 
-
-<div className="d-grid gap-2">
-<Button href="exhibitions/conflicts/ConflictQuestions/4thQuestionConflict" className="btn-primary rounded-pill m-5"><h1 style={{color: "white"}}>Exit Exhibition</h1></Button>
+  <div className="exh_submit_button">
+          <div className="exh_arrow_container">
+              <img className="exh_blue_arrow" src="/images/exhibition_assets/arrow_blue.svg" alt=""></img>
+          </div>
+          <Button className="exh_submit_btn" href="exhibitions/conflicts/ConflictQuestions/4thQuestionConflict">
+            <h1 style={{color: "white"}}>Exit Exhibition</h1>
+          </Button>
+  </div>
 </div>
-</div>
 
-  </Container>
+  </div>
 </BaseExhibitionConflict>
     )
   }

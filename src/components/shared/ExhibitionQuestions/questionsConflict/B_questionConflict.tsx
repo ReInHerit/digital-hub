@@ -43,41 +43,39 @@ const QuestionTwoConflict = () => {
         setAnswerTwoConflict(e.target.value) 
     }
 
-    const handleSubmitB = (e) => {
-        e.preventDefault()
-        appendSpreadsheet()
-    } 
+    const handleSubmitB = async (e) => {
+        e.preventDefault();
+        await appendSpreadsheet();
+        window.location.href = "/exhibitions/conflicts/ConflictQuestions/3rdQuestionConflict";
+      };
 
 return (
 <React.Fragment>
 
 <h1 className="mt-5">
 Is it bad if you fight back?
-    </h1>
+</h1>
 
         <Form onSubmit={handleSubmitB} >
             {AnswersTwoConflict.map(possAnswTwoConflict => (
           <Form.Check
-            type="radio"
+            type="radio" name="exh_questions"
             value={possAnswTwoConflict}
             label={possAnswTwoConflict}
             checked={possAnswTwoConflict === answerTwoConflict }
             onChange={onOptionChange}
             ></Form.Check>
         ))}
-         <div className="d-grid mt-5">
-            <Button className="btn-primary rounded-pill m-3 mt-0" 
-            type="submit"
-            >
-                <h1 style={{color: "white"}}>Confirm your choice</h1>
-            </Button>
-         </div>        </Form>
-
-            <div className="d-grid mt-5">
-                <Button className="btn-primary rounded-pill m-3 mt-0" href="exhibitions/conflicts/ConflictQuestions/3rdQuestionConflict">
-                    <h1 style={{color: "white"}}>Next Page</h1>
-                </Button>
+            <div className="exh_submit_button">
+                <div className="exh_arrow_container">
+                <img className="exh_blue_arrow" src="/images/exhibition_assets/arrow_blue.svg" alt=""></img>
             </div>
+                <Button className="exh_submit_btn" 
+                type="submit"  onClick={handleSubmitB} >
+                <h1 style={{ color: "white" }}>Next Question</h1>
+                </Button>
+            </div> 
+        </Form>
 
 </React.Fragment>
     )

@@ -93,9 +93,9 @@ const MapQThree = () => {
                   data: GeoJsonCollThree
                 },
                 paint: {
-               'circle-color': '#dd502c',
+               'circle-color': '#526d9d',
                'circle-stroke-width': 1,
-               'circle-stroke-color': '#dd502c',
+               'circle-stroke-color': '#526d9d',
                'circle-opacity': 0.5,
                'circle-radius': {
                 property: 'Answer_A',
@@ -116,15 +116,15 @@ const MapQThree = () => {
 
                 // set popup text
                 var description =
-                `<h3>` +
+                `<h4>` +
                 e.features[0].properties.Country +
-                `</h3> 
+                `</h4> 
                 <ul>
-                  <li> Answer A: ` + e.features[0].properties.Answer_A + `</li>
-                  <li> Answer B: ` + e.features[0].properties.Answer_B + `</li>
-                  <li> Answer C: ` + e.features[0].properties.Answer_C + `</li>
-                  <li> Answer D: ` + e.features[0].properties.Answer_D + `</li>
-                  <li> Answer E: ` + e.features[0].properties.Answer_E + `</li>
+                  <li>A: In total ` + e.features[0].properties.Answer_A + ` People</li>
+                  <li>B: In total ` + e.features[0].properties.Answer_B + ` People</li>
+                  <li>C: In total ` + e.features[0].properties.Answer_C + ` People</li>
+                  <li>D: In total ` + e.features[0].properties.Answer_D + ` People</li>
+                  <li>E: In total ` + e.features[0].properties.Answer_E + ` People</li>
                 </ul>` 
 
                //add Popup to map
@@ -152,25 +152,16 @@ const MapQThree = () => {
         <div>
             <div ref={mapContainer} className="map-container" />
         </div>
-        <div>
-            <h3 className="mt-5">
+        <div className="exh_map_result_content">
+        <h2>Question 3:</h2>
+            <h3>
             Sometimes conflicts are not caused by individuals but because they are built into the social system in which we live. One then speaks of “structural violence”. How should we deal with this structural violence?
             </h3> 
-                <p>
-                a. Granted, no state can be perfect or free of conflicts. In a democracy, however, there is always a way of resolving conflicts without violence. Anyone can get involved politically or take legal action.
-                </p>    
-                <p>
-                b. Every social system takes far too much time to react to social conflicts. Those who wait for their own country to do something effective to combat social inequality, for example end up waiting too long.
-                </p>
-                <p>
-                c. No system, even the best, can ever be perfectly fair. That is in the nature of the systems. We have to put up with that.
-                </p>
-                <p>
-                d. Structural violence is always abstract violence. It becomes actual violence only through the people who are part of the system and benefit from it. The most effective lever against structural violence is therefore active resistance to those who enforce it.
-                </p>
-                <p>
-                e. Misogyny or racism are not only built into social systems, but also take place in the minds of the population. It is therefore less important to change the system than to change people's attitudes.
-                </p>
+            <div className="exh_map_quest_result"><span>A</span><p>Answer 1 - Granted, no state can be perfect or free of conflicts. In a democracy, however, there is always a way of resolving conflicts without violence. Anyone can get involved politically or take legal action.</p></div>
+            <div className="exh_map_quest_result"><span>B</span><p>Answer 2 - Every social system takes far too much time to react to social conflicts. Those who wait for their own country to do something effective to combat social inequality, for example end up waiting too long.</p></div>
+            <div className="exh_map_quest_result"><span>C</span><p>Answer 3 - No system, even the best, can ever be perfectly fair. That is in the nature of the systems. We have to put up with that.</p></div>
+            <div className="exh_map_quest_result"><span>D</span><p>Answer 4 - Structural violence is always abstract violence. It becomes actual violence only through the people who are part of the system and benefit from it. The most effective lever against structural violence is therefore active resistance to those who enforce it.</p></div>
+            <div className="exh_map_quest_result"><span>E</span><p>Answer 5 - Misogyny or racism are not only built into social systems, but also take place in the minds of the population. It is therefore less important to change the system than to change people's attitudes.</p></div>
         </div>
     </React.Fragment>
     );          

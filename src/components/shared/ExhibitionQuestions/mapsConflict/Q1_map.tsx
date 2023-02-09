@@ -93,9 +93,9 @@ const MapQOne = () => {
                   data: GeoJsonColl
                 },
                 paint: {
-               'circle-color': '#dd502c',
+               'circle-color': '#526d9d',
                'circle-stroke-width': 1,
-               'circle-stroke-color': '#dd502c',
+               'circle-stroke-color': '#526d9d',
                'circle-opacity': 0.5,
                'circle-radius': {
                 property: 'Answer_A',
@@ -116,15 +116,15 @@ const MapQOne = () => {
 
                 // set popup text
                 var description =
-                `<h3>` +
+                `<h4>` +
                 e.features[0].properties.Country +
-                `</h3> 
+                `</h4> 
                 <ul>
-                  <li> Answer A: ` + e.features[0].properties.Answer_A + `</li>
-                  <li> Answer B: ` + e.features[0].properties.Answer_B + `</li>
-                  <li> Answer C: ` + e.features[0].properties.Answer_C + `</li>
-                  <li> Answer D: ` + e.features[0].properties.Answer_D + `</li>
-                  <li> Answer E: ` + e.features[0].properties.Answer_E + `</li>
+                  <li>A: In total ` + e.features[0].properties.Answer_A + ` People</li>
+                  <li>B: In total ` + e.features[0].properties.Answer_B + ` People</li>
+                  <li>C: In total ` + e.features[0].properties.Answer_C + ` People</li>
+                  <li>D: In total ` + e.features[0].properties.Answer_D + ` People</li>
+                  <li>E: In total ` + e.features[0].properties.Answer_E + ` People</li>
                 </ul>` 
 
                //add Popup to map
@@ -149,16 +149,17 @@ const MapQOne = () => {
 
     return (
     <React.Fragment>
-        <div>
+       <div>
             <div ref={mapContainer} className="map-container" />
         </div>
-        <div>
-            <h3 className="mt-5">"Violence is no solution" – that's what many people say when it comes to conflicts. They wish for a world in which conflicts are resolved without violence. What do you think: Can such a world become reality or will it remain a pipe dream?</h3> 
-                <p>a. No. Such a world is not possible. Whether you like it or not, violence is in fact always a solution. It will always remain a solution. It is that simple.</p>
-                <p>b. In a world without guns, the gun owner is king. At least that is what modern evolutionary biology says. Anyone who has the opportunity to use violence will eventually do so.</p>
-                <p>c. Those who starve or starve are more likely to resort to violence. Because if you have nothing to lose, violence is always an option. Precisely because one has nothing left to lose. Conversely, this also means that those who want a world without conflicts may also have to accept the redistribution of wealth or resources.</p>
-                <p>d. Violence is never my first option. But if others resort to violence, I would defend myself – if necessary with violence.</p>
-                <p>e. I don't see why a world without violence shouldn't be possible. There is always an alternative to violence. For those who have realized that violence only generates counter-violence, renunciation of violence is the only way to improvement.</p>
+     <div className="exh_map_result_content">
+        <h2>Question 1:</h2>
+            <h3>"Violence is no solution" – that's what many people say when it comes to conflicts. They wish for a world in which conflicts are resolved without violence. What do you think: Can such a world become reality or will it remain a pipe dream?</h3> 
+                <div className="exh_map_quest_result"><span>A</span><p>Answer 1 - No. Such a world is not possible. Whether you like it or not, violence is in fact always a solution. It will always remain a solution. It is that simple.</p></div>
+                <div className="exh_map_quest_result"><span>B</span><p>Answer 2 - In a world without guns, the gun owner is king. At least that is what modern evolutionary biology says. Anyone who has the opportunity to use violence will eventually do so.</p></div>
+                <div className="exh_map_quest_result"><span>C</span><p>Answer 3 - Those who starve or starve are more likely to resort to violence. Because if you have nothing to lose, violence is always an option. Precisely because one has nothing left to lose. Conversely, this also means that those who want a world without conflicts may also have to accept the redistribution of wealth or resources.</p></div>
+                <div className="exh_map_quest_result"><span>D</span><p>Answer 4 - Violence is never my first option. But if others resort to violence, I would defend myself – if necessary with violence.</p></div>
+                <div className="exh_map_quest_result"><span>E</span><p>Answer 5 - I don't see why a world without violence shouldn't be possible. There is always an alternative to violence. For those who have realized that violence only generates counter-violence, renunciation of violence is the only way to improvement.</p></div>
         </div>
     </React.Fragment>
     );          

@@ -1,15 +1,26 @@
 import { Link } from "gatsby"
 import React from "react"
 import { Navbar, Container, Nav, NavDropdown, Offcanvas, Button } from "react-bootstrap"
+import { useLocation } from "@reach/router"
 
 function ReinNavbarExhibConflict() {
     
     const [show, setShow] = React.useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-  
+    const location = useLocation()
+    const hideNavbarPaths = [
+      "/exhibitions/conflicts/ConflictExhibitionOverview",
+      "/exhibitions/conflicts/ConflictObjects/ConflictObjOne",
+      "/exhibitions/conflicts/ConflictObjects/ConflictObjTwo",
+      "/exhibitions/conflicts/ConflictObjects/ConflictObjThree",
+    ]
+
+    const hideNavbar = hideNavbarPaths.includes(location.pathname)
+
     return (
       <React.Fragment>
+          {!hideNavbar && (
     <Navbar
         collapseOnSelect
         expand="true"
@@ -24,7 +35,7 @@ function ReinNavbarExhibConflict() {
 <Container fluid className="exh_navBar_container rounded-pill">
         <Navbar.Brand href="#home" as="div" className="exhibition_navbar">
         <div className="exhibition_navbar_inner">
-            <a className="exhibition_menu_link" href="https://reinherit-hub.eu/">ReInHerit</a>
+            <a className="exhibition_menu_link" href="https://reinherit-hub.eu/">ReInHerit</a> 
             <div className="exh_line"></div>
             <a className="exhibition_menu_link nav_font" href="https://reinherit-hub.eu/exhibitions">Exhibition</a>      
             <a className="exhibition_menu_link nav_font" href="https://collection.reinherit-hub.eu/">Collections</a>
@@ -64,6 +75,7 @@ function ReinNavbarExhibConflict() {
        
           </Container>
         </Navbar>
+          )}
       </React.Fragment>
     )
   }
