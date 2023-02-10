@@ -25,12 +25,12 @@ the woodcut is its reproductibility. The stencil, cut from wood is reusable and 
 <div className="exh_object_btm">
     <div className="exh_bullet_btn">Get to know other objects</div>
     <Row>
-        <Col>  
+    <Col md={6} xs={12}> 
         <a href="exhibitions/conflicts/ConflictObjects/ConflictObjTwo"> 
         <img alt="Second Object" src="images/conflicts/small-PyxisMCA.jpg" height={"auto"} width={"80%"} max-width={"80%"}>
         </img></a>
         </Col>
-        <Col>
+    <Col md={6} xs={12}>
         <a href="exhibitions/conflicts/ConflictObjects/ConflictObjThree">
         <img alt="Third Object" src="images/conflicts/small-CiproMapBoCCF.jpg" height={"auto"} width={"80%"} max-width={"80%"}>
         </img></a>

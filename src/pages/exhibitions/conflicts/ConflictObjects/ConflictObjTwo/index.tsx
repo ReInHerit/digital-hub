@@ -34,16 +34,16 @@ width="640" height="480" >
 <div className="exh_object_btm">
 <div className="exh_bullet_btn">Get to know other objects</div>
     <Row>
-        <Col>  
+      <Col md={6} xs={12}> 
         <a href="exhibitions/conflicts/ConflictObjects/ConflictObjOne">
         <img alt="First Object" src="images/conflicts/small-CherryRageGM.jpg" height={"auto"} width={"100%"} max-width={"100%"}>
         </img></a>
-        </Col>
-        <Col>
+      </Col>
+      <Col md={6} xs={12}>
         <a href="exhibitions/conflicts/ConflictObjects/ConflictObjThree">
         <img alt="Third Object" src="images/conflicts/small-CiproMapBoCCF.jpg" height={"auto"} width={"100%"} max-width={"100%"}>
         </img></a>
-        </Col>
+      </Col>
     </Row>
 </div>
 

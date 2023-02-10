@@ -25,9 +25,8 @@ return (
 <div id="objectsConflicts">
 <div className="exhibObject-grid">
 <div className="exh_bullet_btn">choose one object</div>
-<Row>
-  <Col>
   <Row>
+  <Col md={6} xs={12}>
     <div className="exhibObject"  style={{width: "40vw", height:"30vw"}}>
           <img alt="First Object" src="images/conflicts/small-CherryRageGM.jpg" width={"100%"} height={"auto"}></img>
         <div className="back">
@@ -40,8 +39,9 @@ return (
           </div>
         </div>
     </div>
-  </Row>
-  <Row>
+
+    </Col>
+    <Col md={6} xs={12}>
   <div className="exhibObject" style={{width: "30vw", height:"30vw", left:"10vw"}}>
         <div className="front">
           <img alt="Second Object" src="images/conflicts/small-PyxisMCA.jpg" width={"100%"} height={"auto"}>
@@ -58,9 +58,8 @@ return (
           </div>
           </div>
     </div>
-  </Row>
   </Col>
-  <Col>
+  <Col md={6} xs={12}>
   <div className="exhibObject exhibThird" style={{width: "30vw", height:"30vw"}}>
         <div className="front">
           <img alt="Third Object" src="images/conflicts/small-CiproMapBoCCF.jpg" width={"100%"} height={"auto"}>

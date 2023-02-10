@@ -76,6 +76,10 @@ html, body {
 
             .exh_line {
                 background-color: black;
+
+                @media screen and ( max-width: breakpoint( md, max-width ) ) {
+                    display: none;                
+                }
             }
         }
 
@@ -94,6 +98,10 @@ html, body {
 
             .exh_line {
                 background-color: #fff;
+
+                @media screen and ( max-width: breakpoint( md, max-width ) ) {
+                    display: none;                
+                }
             }
         }
 
@@ -107,8 +115,17 @@ html, body {
         margin-right: 15px;
         margin: 30px 15px;
 
+        @media screen and ( max-width: breakpoint( md, max-width ) ) {
+            margin: 10px 15px;               
+        }
+
         .nav_font {
             font-family: RobotoMono-Light;
+
+            @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+                display: block !important;
+            }
+
         }
 
         .exh_line {
@@ -142,12 +159,17 @@ html, body {
         right: 20px;
         z-index: 1;
 
+        @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+            right: 10px;
+        }
+
         .btn-close {
 
             svg {
                 filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(160deg) brightness(106%) contrast(105%);
             }
         }
+
         .navbar-toggler-icon {
             background-image: none;
         }
@@ -197,6 +219,13 @@ html, body {
         background: url("/images/exhibition_assets/x-icon.svg");
         opacity: 1;
 
+        
+        @media screen and ( max-width: breakpoint( md, max-width ) ) {
+            background-size: 15px;
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+
         &:active, &:focus {
             outline: none;
             border: none;
@@ -210,13 +239,38 @@ html, body {
     display: inline-flex;
     width: 100%;
     gap: 50px;
+
+    @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+        gap: 15px;
+    }
 }
 
 .exhibition_burger_inner {
 
+    .navbar-nav {
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+        gap: 10px;
+        height: 100vh;
+    }
+
+    .exh_space {
+        margin-top: 20px;
+    }
+
     a {
         font-size: 32px;
         font-family: RobotoMono-Light;
+
+        @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+            font-size: 20px
+        }
+    
+        @media screen and ( max-width: breakpoint( md, max-width ) ) {
+            font-size: 18px;
+        }
     }
 
     p {
@@ -224,13 +278,36 @@ html, body {
         color: #fff;
         font-family: RobotoMono-Light;
         margin: 0;
+
+        @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+            font-size: 20px
+        }
+    
+        @media screen and ( max-width: breakpoint( md, max-width ) ) {
+            font-size: 18px;
+        }
     }
 }
 
 .exhibition_menu_link {
-    text-decoration: uppercase;
     text-decoration: none;
     font-size: 25px;
+
+    @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+        font-size: 20px
+    }
+
+    @media screen and ( max-width: breakpoint( lg, max-width ) ) {
+        font-size: 18px;
+    }
+
+    @media screen and ( max-width: breakpoint( md, max-width ) ) {
+        font-size: 14px;
+    }
+
+    @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+       display: none;
+    }
 
     &:hover {
         color: black;
@@ -337,6 +414,10 @@ html, body {
     .exhibObject-grid {
       padding: 0 65px;
 
+      @media screen and ( max-width: breakpoint( md, max-width ) ) {
+        padding: 0 15px;
+    }
+
       .exh_bullet_btn {
         width: max-content;
         padding: 10px 30px;
@@ -351,6 +432,14 @@ html, body {
         position: relative;
         text-align: center;
         left: 20%;
+
+        @media screen and ( max-width: breakpoint( md, max-width ) ) {
+            left: 0;
+            margin-left: 0;
+            min-width: unset;
+            width: 100%;
+         }
+
 
             &:before {
                 content: "";
@@ -372,12 +461,15 @@ html, body {
     
     .exhibObject {
         position: relative;
-        transform-style: preserve-3d;
-        transition: 150ms;
         cursor: pointer;
-        transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
         margin-bottom: 100px;
         padding: 0;
+
+        @media screen and ( max-width: breakpoint( md, max-width ) ) {
+            width: 100% !important;
+            height: auto !important;
+            left: 0 !important;
+        }
 
         &.exhibThird {
             margin-left: auto;
@@ -398,6 +490,11 @@ html, body {
                 font-size: 25px;
                 line-height: 1.3em;
                 margin-bottom: 100px;
+
+                @media screen and ( max-width: breakpoint( md, max-width ) ) {
+                    margin-bottom: 50px;
+                    font-size: 18px;
+                }
             }
 
             .back {
@@ -428,11 +525,21 @@ html, body {
             .desc_bottom {
                 text-align: right;
 
+                
+                @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+                    text-align: left;
+                }
+
             .arrow_detail {
                 transform: rotate(-45deg);
                 width: 50px;
                 margin-right: 10px;
                 margin-bottom: 120px;
+
+                @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+                   margin-left: 0;
+                   margin-bottom: 0;
+                }
             }
 
             .exh_see_more {
@@ -449,7 +556,11 @@ html, body {
                 font-size: 18px;
                 bottom: 10px;
                 right: 15px;
-                transition: 0.3s;    
+                transition: 0.3s; 
+                
+                @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+                   width: 100%;
+                 }
 
                 &:active, &:focus {
                     outline: none;
@@ -469,13 +580,43 @@ html, body {
     .conflicts {
         padding: 50px;
 
+        @media screen and ( max-width: breakpoint( md, max-width ) ) {
+            padding: 15px;
+         }
+
         .exh_object_btm {
             margin-top: 100px;
+
+            img {
+
+                @media screen and ( max-width: breakpoint( md, max-width ) ) {
+                    width: 100%;
+                 }
+            }
         }
 
        .exh_h5p_iframe {
             margin-top: 30px;
             text-align: center;
+
+            iframe {
+                @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+                    width: -webkit-fill-available !important;
+                    height: 1000px;
+                 }
+
+                 @media screen and ( max-width: breakpoint( lg, max-width ) ) {
+                    height: 900px;
+                 }
+
+                 @media screen and ( max-width: breakpoint( md, max-width ) ) {
+                 height: 800px;
+                 }
+
+                @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+                  height: 700px;
+                 }
+            }
         }
 
         .sketchfab-embed-wrapper {
@@ -485,6 +626,14 @@ html, body {
                 max-width: 1090px;
                 width: 100%;
                 height: 800px;
+
+                @media screen and ( max-width: breakpoint( md, max-width ) ) {
+                    height: 600px;
+                    }
+   
+                   @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+                     height: 500px;
+                    }
             }
         }
 
@@ -499,6 +648,12 @@ html, body {
             border-radius: 50px;
             margin: 20px;
             position: relative;
+
+
+            @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+                margin: 20px 0;
+                font-size: 13px;
+            }
 
                 &:before {
                     content: "";
@@ -560,8 +715,17 @@ html, body {
         text-align: center;
         border-radius: 50px;
 
+        
+        @media screen and ( max-width: breakpoint( md, max-width ) ) {
+            width: 100% !important;
+        }
+
         h1 {
             margin: 0;
+
+            @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+                font-size: 20px
+            }
         }
     }
   }
@@ -579,6 +743,15 @@ html, body {
         font-size: 25px;
         width: 100%;
         transition: 0.3s;
+
+        @media screen and ( max-width: breakpoint( lg, max-width ) ) {
+            font-size: 18px;
+            margin: 10px 0 0;
+        }
+
+        @media screen and ( max-width: breakpoint( md, max-width ) ) {
+            font-size: 16px;
+        }
 
         &:hover {
             opacity: 0.4;
@@ -603,19 +776,39 @@ html, body {
     padding: 0 15px;
     color: #000 !Important;
 
+    @media screen and ( max-width: breakpoint( md, max-width ) ) {
+        margin: 110px auto;
+    }
+
     .conflictsAnswers {
         margin-top: 100px;
         padding: 0 30px;
+        
+        @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+            margin-top: 50px;
+        }
+
+        @media screen and ( max-width: breakpoint( md, max-width ) ) {
+           padding: 0 15px;
+        }
 
         h1 {
             font-family: RobotoMono-Light;
             font-size: 2.3rem;
             margin-bottom: 50px;
+
+            @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+                font-size: 20px
+            }
         }
   
         h2 {
             font-family: RobotoMono-Light;
             font-size: 2.3rem;
+
+            @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+                font-size: 20px
+            }
         }
 
         .exh_submit_button {
@@ -662,6 +855,10 @@ html, body {
         .form-check {
             max-width: 60%;
 
+            @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+                max-width: 100%;
+            }
+
             label {
                 position: relative;
             }
@@ -703,22 +900,42 @@ html, body {
 
             &:nth-child(1) {
                 margin-left: 10%;
+                
+                @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+                    margin-left: 0;
+                }
             }
 
             &:nth-child(2) {
-                margin-left: 20%
+                margin-left: 20%;
+
+                @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+                    margin-left: 0;
+                }
             }
 
             &:nth-child(3) {
-                margin-left: 30%
+                margin-left: 30%;
+
+                @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+                    margin-left: 0;
+                }
             }
 
             &:nth-child(4) {
-                margin-left: 20%
+                margin-left: 20%;
+
+                @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+                    margin-left: 0;
+                }
             }
 
             &:nth-child(5) {
-                margin-left: 10%
+                margin-left: 10%;
+
+                @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+                    margin-left: 0;
+                }
             }
         }
 
@@ -741,11 +958,29 @@ html, body {
         margin: 0;
         padding: 15px 0;
         font-size: 2.3rem;
+        
+        @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+            font-size: 20px
+        }
+    
     }
 
     &.badgeConflictInner {
         margin: 50px 50px 0;
         width: -webkit-fill-available;
+
+        @media screen and ( max-width: breakpoint( md, max-width ) ) {
+           margin: 50px 0 0;
+         }
+
+
+         h1 {
+
+            @media screen and ( max-width: breakpoint( md, max-width ) ) {
+                font-size: 18px;
+              }
+         }
+
     }
 }
   .exh_question_intro_text {
@@ -763,11 +998,19 @@ html, body {
        
         h3 {
             font-family: Roboto-Regular;
+
+            @media screen and ( max-width: breakpoint( xl, max-width ) ) {
+                font-size: 18px;
+            }
         }
     }
 
     h4  {
-        font-family: Roboto-Regular
+        font-family: Roboto-Regular;
+        
+        @media screen and ( max-width: breakpoint( md, max-width ) ) {
+            font-size: 18px;
+         }
     }
 
     p {
@@ -834,6 +1077,11 @@ html, body {
         width: 100%;
     }
 
+    @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+        font-size: 18px;
+        padding: 10px;
+    }
+
     .visible_btn_text {
         color: #000;
     }
@@ -878,6 +1126,10 @@ html, body {
         padding: 20px;
         min-width: 300px;
 
+        @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+           min-width: 250px;
+        }
+
         .mapboxgl-popup-close-button {
             width: 30px;
             height: 30px;
@@ -919,6 +1171,9 @@ html, body {
   .exh_map_result_content {
     padding: 0 50px;
 
+    @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+        padding: 0 15px;    
+    }
 
     .exh_map_quest_result {
         display: inline-flex;

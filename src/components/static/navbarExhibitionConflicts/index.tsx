@@ -63,7 +63,7 @@ function ReinNavbarExhibConflict() {
                   href="https://collection.reinherit-hub.eu/contribute">
                     Contribute
                 </a>
-              <br></br>
+              <div className="exh_space"></div>
               <p>Traveling Exhibitions:</p>
               <a href="https://www.grazmuseum.at/en/exhibition/rethinking-conflicts-how-are-conflicts-reflected-in-objects/"className="link-light text-decoration-none">Graz Museum</a>  
               <a href="https://www.boccf.org/"className="link-light text-decoration-none">Bank of Cypus Cultural Foundation</a>  
