@@ -17,7 +17,7 @@ the woodcut is its reproductibility. The stencil, cut from wood is reusable and 
 <Badge className="badgeConflicts badgeConflictInner rounded-pill"><h1>The Story of the Pyxis</h1></Badge>
 
 <div className="exh_h5p_iframe">
-<iframe src="https://collection.reinherit-hub.eu/demo.html" width="1000" height="1150"></iframe>
+<iframe src="https://collection.reinherit-hub.eu/h5p-pyxis.html" width="1000" height="1150"></iframe>
 </div>
 
 <Badge className="badgeConflicts rounded-pill"><h1>Viewer</h1></Badge>

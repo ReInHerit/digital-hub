@@ -55,11 +55,13 @@ Sometimes conflicts are not caused by individuals but because they are built int
 </h1>
 
         <Form onSubmit={handleSubmitC} >
-            {AnswersThreeConflict.map(possAnswThreeConflict => (
+            {AnswersThreeConflict.map((possAnswThreeConflict, index) => (
           <Form.Check
             type="radio"
             value={possAnswThreeConflict}
             label={possAnswThreeConflict}
+            id={`answer-${index}`}
+            key={`answer-${index}`}
             checked={possAnswThreeConflict === answerThreeConflict }
             onChange={onOptionChange}
             ></Form.Check>

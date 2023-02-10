@@ -56,11 +56,13 @@ Many people think that conflicts arise primarily because people do not understan
 </h1>
 
         <Form onSubmit={handleSubmitD} >
-            {AnswersFourConflict.map(possAnswFourConflict => (
+            {AnswersFourConflict.map((possAnswFourConflict, index) => (
           <Form.Check
             type="radio"
             value={possAnswFourConflict}
             label={possAnswFourConflict}
+            id={`answer-${index}`}
+            key={`answer-${index}`}
             checked={possAnswFourConflict === answerFourConflict }
             onChange={onOptionChange}
             ></Form.Check>

@@ -57,11 +57,13 @@ Is it bad if you fight back?
 </h1>
 
         <Form onSubmit={handleSubmitB} >
-            {AnswersTwoConflict.map(possAnswTwoConflict => (
+            {AnswersTwoConflict.map((possAnswTwoConflict, index) => (
           <Form.Check
             type="radio" name="exh_questions"
             value={possAnswTwoConflict}
             label={possAnswTwoConflict}
+            id={`answer-${index}`}
+            key={`answer-${index}`}
             checked={possAnswTwoConflict === answerTwoConflict }
             onChange={onOptionChange}
             ></Form.Check>

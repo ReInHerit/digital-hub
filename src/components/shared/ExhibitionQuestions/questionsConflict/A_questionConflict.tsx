@@ -48,23 +48,24 @@ const QuestionOneConflict = () => {
       };
 
 
-return (
-<React.Fragment>
-
-<h1 className="mt-5">
-"Violence is no solution" – that's what many people say when it comes to conflicts. They wish for a world in which conflicts are resolved without violence. What do you think: Can such a world become reality or will it remain a pipe dream?
-</h1>
-
-        <Form onSubmit={handleSubmitA} >
-            {AnswersOneConflict.map(possAnswOneConflict => (
-        <Form.Check
-            type="radio" name="exh_questions"
-            value={possAnswOneConflict}
-            label={possAnswOneConflict}
-            checked={possAnswOneConflict === answerOneConflict }
-            onChange={onOptionChange} >
-        </Form.Check>
-        ))}
+      return (
+        <React.Fragment>
+          <h1 className="mt-5">
+            "Violence is no solution" – that's what many people say when it comes to conflicts. They wish for a world in which conflicts are resolved without violence. What do you think: Can such a world become reality or will it remain a pipe dream?
+          </h1>
+          <Form onSubmit={handleSubmitA}>
+            {AnswersOneConflict.map((possAnswOneConflict, index) => (
+              <Form.Check
+                type="radio"
+                name="exh_questions"
+                value={possAnswOneConflict}
+                label={possAnswOneConflict}
+                id={`answer-${index}`}
+                key={`answer-${index}`}
+                checked={possAnswOneConflict === answerOneConflict}
+                onChange={onOptionChange}
+              />
+            ))}
             <div className="exh_submit_button">
                 <div className="exh_arrow_container">
                     <img className="exh_blue_arrow" src="/images/exhibition_assets/arrow_blue.svg" alt=""></img>
