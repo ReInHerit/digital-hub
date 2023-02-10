@@ -71,7 +71,7 @@ Sometimes conflicts are not caused by individuals but because they are built int
                     <img className="exh_blue_arrow" src="/images/exhibition_assets/arrow_blue.svg" alt=""></img>
             </div>
                     <Button className="exh_submit_btn" 
-                    type="submit"  onClick={handleSubmitC} >
+                    type="submit" disabled={!answerThreeConflict} onClick={handleSubmitC} >
                     <h1 style={{ color: "white" }}>Submit & Enter Exhibitioddn</h1>
                     </Button>
             </div>        

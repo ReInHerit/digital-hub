@@ -72,7 +72,7 @@ Many people think that conflicts arise primarily because people do not understan
             <img className="exh_blue_arrow" src="/images/exhibition_assets/arrow_blue.svg" alt=""></img>
             </div>
             <Button className="exh_submit_btn" 
-            type="submit"  onClick={handleSubmitD} >
+            type="submit" disabled={!answerFourConflict} onClick={handleSubmitD} >
              <h1 style={{ color: "white" }}>Submit & Show Result</h1>
             </Button>
          </div>        

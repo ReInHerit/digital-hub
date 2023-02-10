@@ -21,6 +21,11 @@ html, body {
   color: #000;
 }
 
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+
 /* Navbar */
 .navExhib {
   max-width: 1920px;

@@ -70,7 +70,7 @@ const QuestionOneConflict = () => {
                 <div className="exh_arrow_container">
                     <img className="exh_blue_arrow" src="/images/exhibition_assets/arrow_blue.svg" alt=""></img>
                 </div>
-                <Button className="exh_submit_btn" type="submit"  onClick={handleSubmitA} >
+                <Button className="exh_submit_btn" type="submit" disabled={!answerOneConflict}  onClick={handleSubmitA} >
                 <h1 style={{ color: "white" }}>Next Question</h1>
                 </Button>
             </div>  

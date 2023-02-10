@@ -73,7 +73,7 @@ Is it bad if you fight back?
                 <img className="exh_blue_arrow" src="/images/exhibition_assets/arrow_blue.svg" alt=""></img>
             </div>
                 <Button className="exh_submit_btn" 
-                type="submit"  onClick={handleSubmitB} >
+                type="submit" disabled={!answerTwoConflict} onClick={handleSubmitB} >
                 <h1 style={{ color: "white" }}>Next Question</h1>
                 </Button>
             </div> 
