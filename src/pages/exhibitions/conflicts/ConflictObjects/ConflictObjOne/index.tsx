@@ -16,10 +16,10 @@ return (
   <h4 className="conflicts">The Cherry Rage 1920 is a woodcut by the Austrian artist Axl Leskoschek. Created in 1955 , it intentionally uses the technique of the woodcut, which was a medium of protest art. The appeal of
 the woodcut is its reproductibility. The stencil, cut from wood is reusable and can produce infinite copies.</h4>
 
-<Badge className="badgeConflicts badgeConflictInner rounded-pill"><h1>The Story of the Cherry Rage</h1></Badge>
+<Badge className="badgeConflicts rounded-pill"><h1>The Story of the Cherry Rage</h1></Badge>
 
 <div className="exh_h5p_iframe">
-<iframe src="https://collection.reinherit-hub.eu/h5p-thecherryrage.html" width="1000" height="1150"></iframe>
+<iframe src="https://collection.reinherit-hub.eu/h5p-thecherryrage.html" width="1000" height="700"></iframe>
 </div>
 
 <div className="exh_object_btm">

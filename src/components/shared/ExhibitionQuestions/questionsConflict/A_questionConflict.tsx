@@ -64,7 +64,7 @@ const QuestionOneConflict = () => {
                 key={`answer-${index}`}
                 checked={possAnswOneConflict === answerOneConflict}
                 onChange={onOptionChange}
-              />
+              ></Form.Check>
             ))}
             <div className="exh_submit_button">
                 <div className="exh_arrow_container">
