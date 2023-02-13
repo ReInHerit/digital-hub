@@ -8,6 +8,7 @@ target-audience:
 theme: Management
 license: CC BY 2.0
 thumbnail: https://ucarecdn.com/13b3afc9-b166-4359-9bdb-7d964391e083/
+slides: https://ucarecdn.com/ba7de192-8dd8-4efe-a8b0-149dab18a5e1/
 ---
 ### About this webinar:
 
@@ -17,3 +18,5 @@ Aligned with the idea of proposing a sustainable model of heritage management, a
 
 **Jaime López**\
 Jaime López is co-founder and managing director of "[Arte Sostenible](https://www.artesostenible.org)", a non-profit cultural association based in Barcelona, focused on artistic and educational projects conceived from a social and environmental sustainability approach. He currently focuses his professional activity on education, museum and art consultancy, career guidance, and management of sustainable visual arts projects. He holds a (BA) degree in Art History and a (MA) in Museology from the Complutense University of Madrid. He has previously worked as a cultural manager, teacher, art curator, and museologist in relevant museums and educational institutions such as the Thyssen-Bornemisza Museum, the Fine Arts Circle in Madrid, the Metropolitan Museum of Art in New York, the Complutense University (Faculty of Fine Arts), and the "I Art" - Art & Culture Business School in Madrid.
+
+`youtube: https://www.youtube.com/watch?v=99Bxy7hvGUQ`
