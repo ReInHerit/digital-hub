@@ -25,6 +25,6 @@ The applications are available both on mobile devices and installations, making 
 
 The two innovative AI/CV based apps were honored with a B**est Demo Honorable Mention at the ACM Multimedia 2022** conference, recognizing their potential to enhance museum experience.
 
-Watch the promo video on YouTube and consider incorporating this technology into your museum to engage visitors and offer them a memorable experience: [](https://youtu.be/GHgBIRXqKK8?fbclid=IwAR2lJd2TpLZgRbKBF_IP2nmozG9ruiHr9jOIe316aXbL0UnSknyHl8P1Auc)
+Watch the promo video on YouTube and consider incorporating this technology into your museum to engage visitors and offer them a **memorable experience.**
 
 Descriptions and free application codes will soon be available in the Digital Hub!
