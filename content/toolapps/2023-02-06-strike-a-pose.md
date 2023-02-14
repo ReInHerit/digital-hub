@@ -1,7 +1,7 @@
 ---
 type: toolapp
 pageId: de7756ad-67f6-4b6d-823e-0ce12f3f6c0d
-title: Strike a Pose
+title: Strike a Pose Description
 desc: ReiInHerit Toolkit | Strike a Pose App
 date: 2023-02-06T11:42:49.330Z
 target-audience:
