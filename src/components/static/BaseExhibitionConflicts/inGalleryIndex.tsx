@@ -5,7 +5,7 @@ import "../../../styles/tronic.css"
 import { Container, Row, Col } from "react-bootstrap"
 import Base from "../Base"
 import Head from "../Head"
-import ReinNavbarExhibConflict from "../navbarExhibitionConflicts"
+// import ReinNavbarExhibConflict from "../navbarExhibitionConflicts"
 // import ReinNavbarExhib from "../navbarExhibition"
 
 interface Props {
@@ -13,11 +13,10 @@ interface Props {
   pageTitle?: string
 }
 
-const BaseExhibitionConflict = ({ children, pageTitle }: Props) => {
+const BaseExhibitionConflictDE = ({ children, pageTitle }: Props) => {
   return (
     <Base>
       <Head pageTitle={pageTitle}></Head>
-      <ReinNavbarExhibConflict/>
       <Container
         className="exh_main_content"
         style={{backgroundColor:"white"}}
@@ -45,10 +44,10 @@ const BaseExhibitionConflict = ({ children, pageTitle }: Props) => {
             </Col>
           </Row>
           <Row>
-          <Col className="exh_footer_links">
-            <a style={{color:"white"}} href="/exhibitions/conflicts/imprintConflicts">Imprint</a>
-            <a style={{color:"white"}} href="/about/dataprot">Data Protection</a>
-          </Col>
+            <Col className="exh_footer_links">
+            <a style={{color:"white"}} href="/exhibitions/conflicts/imprintConflicts">Impressum</a>
+            <a style={{color:"white"}} href="/about/dataprot">Datenschutz</a>
+            </Col>
           </Row>
           </Container>
         </Container>
@@ -56,4 +55,5 @@ const BaseExhibitionConflict = ({ children, pageTitle }: Props) => {
   )
 }
 
-export default BaseExhibitionConflict
+export default BaseExhibitionConflictDE
+
