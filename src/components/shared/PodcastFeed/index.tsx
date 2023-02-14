@@ -36,23 +36,20 @@ const data: PodcastQueryData.Data = useStaticQuery(PodcastQuery)
 export default PodcastFeed
 
 const PodcastQuery = graphql`
-query Podcasts {
-    allMarkdownRemark(filter: {frontmatter: {subtype_news: {eq: "Podcast"}}}) {
-      edges {
-        node {
-          id
-          html
-          excerpt
-          frontmatter {
-            pageId
-            target_audience
-            title
-            date
-          }
+query MyQuery {
+  allMarkdownRemark(
+    filter: {fileAbsolutePath: {regex: "/news/"}, frontmatter: {title: {glob: "Museums Up *"}}}
+  ) {
+    edges {
+      node {
+        id
+        frontmatter {
+          title
         }
       }
     }
   }
+}
 `
 
 declare module PodcastQueryData {
@@ -64,6 +61,7 @@ declare module PodcastQueryData {
     mainReference: string | null
     thumbnail?: string
     theme: string
+    subtype_news: string
   }
 
   export interface Node {
