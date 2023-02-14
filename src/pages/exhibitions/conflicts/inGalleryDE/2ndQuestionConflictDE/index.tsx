@@ -1,7 +1,7 @@
 import React from "react"
 import { Container, Badge } from "react-bootstrap"
-import BaseExhibitionConflict from "../../../../../../components/static/BaseExhibitionConflicts"
-import QuestionTwoConflictDE from "../../../../../../components/shared/ExhibitionQuestions/inGalleryConflicts/B_questionConflictDE"
+import BaseExhibitionConflict from "../../../../../components/static/BaseExhibitionConflicts"
+import QuestionTwoConflictDE from "../../../../../components/shared/ExhibitionQuestions/inGalleryConflicts/B_questionConflictDE"
 
 const questionTwoConflictPage = () => {
 
