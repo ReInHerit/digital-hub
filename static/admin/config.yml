@@ -44,8 +44,23 @@ collections:
       - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text.", }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Main reference", name: "mainReference", widget: "string", required: false, hint: "Singular (web)-link displayed in the metadata section of the item.", }
-      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true, }
-      - {label: "News type", name: "subtype_news", wideget: "select", options: ["News", "Event", "Podcast"], default: ["News"], hint: "By default this will appear as a news; if it is a podcast or another event, please change the option here."}
+      - { 
+        label: "Target Audience", 
+        name: "target-audience", 
+        widget: "select", 
+        options: ["VISITOR", "PROFESSIONAL"], 
+        default: ["VISITOR"], 
+        multiple: true, 
+        }
+      - {
+        label: "News type", 
+        name: "subtype_news", 
+        widget: "select", 
+        options: ["News", "Event", "Podcast"], 
+        default: ["News"], 
+        hint: "By default this will appear as a news; if it is a podcast or another event, please change the option here.",
+        multiple: false,
+        }
       - { label: "Theme", name: "theme", widget: "select", options: ["Technology", "Tourism", "Management", "Other"], multiple: false, required: true, }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
       - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }

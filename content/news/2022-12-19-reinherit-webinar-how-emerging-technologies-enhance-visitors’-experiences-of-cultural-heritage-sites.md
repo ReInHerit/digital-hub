@@ -9,7 +9,7 @@ date: 2022-12-19T12:47:18.198Z
 target-audience:
   - PROFESSIONAL
 theme: Technology
-newsType:
+subtype_news:
   - News
 thumbnail: https://ucarecdn.com/b84cad34-3bd0-49bd-b0e2-8db917c51db5/
 ---

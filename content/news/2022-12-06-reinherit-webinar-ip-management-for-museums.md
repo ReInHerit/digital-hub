@@ -9,7 +9,7 @@ date: 2022-12-06T15:14:12.787Z
 target-audience:
   - PROFESSIONAL
 theme: Management
-newsType:
+subtype_news:
   - News
 thumbnail: https://ucarecdn.com/ff3c10bc-6a69-4796-a718-13482c54d517/
 ---
