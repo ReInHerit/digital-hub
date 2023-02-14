@@ -159,12 +159,12 @@ const MapQFourDE = () => {
             <h3>
             Viele Menschen meinen, Konflikte entstehen vor allem dadurch, dass man einander nicht versteht. Sind Sie auch dieser Ansicht?
             </h3> 
-            <div className="exh_map_quest_result"><span>A</span><p>Antwort 1 - Im Prinzip ja. Oft will man lieber recht haben, als den anderen zu verstehen. Das Ende der Rechthaberei ist oft auch das Ende eines Konfliktes.</p></div>
-            <div className="exh_map_quest_result"><span>B</span><p>Antwort 2 - Nein. Denn jedes Verstehen hat einmal ein Ende. Ich zum Beispiel kann nicht verstehen, wenn andere nicht verstehen, dass der Klimawandel die Menschheit bedroht. Da hört mein Verständnis auf.</p></div>
-            <div className="exh_map_quest_result"><span>C</span><p>Antwort 3 - Diese Ansicht ist falsch. Ganz oft kann ich zwar die Haltung eines Menschen nachvollziehen und damit auch verstehen. Der Konflikt ist damit aber noch nicht gelöst. Denn oft teile ich einfach seine Haltung nicht und werde es auch nicht tun.</p></div>
-            <div className="exh_map_quest_result"><span>D</span><p>Antwort 4 - Es kommt nicht darauf an, den anderen zu verstehen, sondern mit ihm auszukommen. Im Falle eines Konfliktes suche ich deshalb nach Lösungen, denen beide Parteien zustimmen können. Ergebnisse sind wichtiger als gegenseitiges Verständnis.</p></div>
-            <div className="exh_map_quest_result"><span>E</span><p>Antwort 5 - Ja. Denn den anderen zu verstehen, eröffnet neue Sichtweisen und Wege, den Konflikt zu lösen.</p></div>
-            <div className="exh_map_quest_result"><span>F</span><p>Antwort 6 - Nein. Es geht nicht um Verständnis, sondern um Interessen. Man muss sie nicht verstehen, sie sind einfach da.</p></div>
+            <div className="exh_map_quest_result"><span>A</span><p>Im Prinzip ja. Oft will man lieber recht haben, als den anderen zu verstehen. Das Ende der Rechthaberei ist oft auch das Ende eines Konfliktes.</p></div>
+            <div className="exh_map_quest_result"><span>B</span><p>Nein. Denn jedes Verstehen hat einmal ein Ende. Ich zum Beispiel kann nicht verstehen, wenn andere nicht verstehen, dass der Klimawandel die Menschheit bedroht. Da hört mein Verständnis auf.</p></div>
+            <div className="exh_map_quest_result"><span>C</span><p>Diese Ansicht ist falsch. Ganz oft kann ich zwar die Haltung eines Menschen nachvollziehen und damit auch verstehen. Der Konflikt ist damit aber noch nicht gelöst. Denn oft teile ich einfach seine Haltung nicht und werde es auch nicht tun.</p></div>
+            <div className="exh_map_quest_result"><span>D</span><p>Es kommt nicht darauf an, den anderen zu verstehen, sondern mit ihm auszukommen. Im Falle eines Konfliktes suche ich deshalb nach Lösungen, denen beide Parteien zustimmen können. Ergebnisse sind wichtiger als gegenseitiges Verständnis.</p></div>
+            <div className="exh_map_quest_result"><span>E</span><p>Ja. Denn den anderen zu verstehen, eröffnet neue Sichtweisen und Wege, den Konflikt zu lösen.</p></div>
+            <div className="exh_map_quest_result"><span>F</span><p>Nein. Es geht nicht um Verständnis, sondern um Interessen. Man muss sie nicht verstehen, sie sind einfach da.</p></div>
         </div>
     </React.Fragment>
     );          

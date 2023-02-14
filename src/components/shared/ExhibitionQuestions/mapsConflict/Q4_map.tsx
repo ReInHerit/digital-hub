@@ -159,12 +159,12 @@ const MapQFour = () => {
             <h3>
             Many people think that conflicts arise primarily because people do not understand each other. Do you agree?
             </h3> 
-            <div className="exh_map_quest_result"><span>A</span><p>Answer 1 - Generally, yes. Often one would rather be right than understand the other person. The end of dogmatism is often the end of a conflict.</p></div>
-            <div className="exh_map_quest_result"><span>B</span><p>Answer 2 - No. Because every understanding sooner or later comes to an end. For example, I cannot understand when others do not understand that climate change threatens humanity. That is where my understanding ends.</p></div>
-            <div className="exh_map_quest_result"><span>C</span><p>Answer 3 - This view is wrong. Quite often I can understand the attitude of a person and thus also understand it. However, the conflict has not yet been resolved by that. Because often I just do not share his attitude and I will not do it either.</p></div>
-            <div className="exh_map_quest_result"><span>D</span><p>Answer 4 - It is not about understanding the other person, it is about getting along with them. In the case of a conflict, I therefore look for solutions that both parties can agree to. Results are more important than mutual understanding.</p></div>
-            <div className="exh_map_quest_result"><span>E</span><p>Answer 5 - Yes. Because understanding the other opens up new perspectives and ways of resolving the conflict.</p></div>
-            <div className="exh_map_quest_result"><span>F</span><p>Answer 6 - No. It is not about understanding, it is about interests. You do not have to understand them, they are just there.</p></div>
+            <div className="exh_map_quest_result"><span>A</span><p>Generally, yes. Often one would rather be right than understand the other person. The end of dogmatism is often the end of a conflict.</p></div>
+            <div className="exh_map_quest_result"><span>B</span><p>No. Because every understanding sooner or later comes to an end. For example, I cannot understand when others do not understand that climate change threatens humanity. That is where my understanding ends.</p></div>
+            <div className="exh_map_quest_result"><span>C</span><p>This view is wrong. Quite often I can understand the attitude of a person and thus also understand it. However, the conflict has not yet been resolved by that. Because often I just do not share his attitude and I will not do it either.</p></div>
+            <div className="exh_map_quest_result"><span>D</span><p>It is not about understanding the other person, it is about getting along with them. In the case of a conflict, I therefore look for solutions that both parties can agree to. Results are more important than mutual understanding.</p></div>
+            <div className="exh_map_quest_result"><span>E</span><p>Yes. Because understanding the other opens up new perspectives and ways of resolving the conflict.</p></div>
+            <div className="exh_map_quest_result"><span>F</span><p>No. It is not about understanding, it is about interests. You do not have to understand them, they are just there.</p></div>
         </div>
     </React.Fragment>
     );          

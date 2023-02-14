@@ -155,11 +155,11 @@ const MapQTwo = () => {
         <div className="exh_map_result_content">
         <h2>Question 2:</h2>
             <h3>Is it bad if you fight back?</h3> 
-            <div className="exh_map_quest_result"><span>A</span><p>Answer 1 - No. Resistance can be a very good thing and sometimes even becomes a duty. Often you even have to defend what is important to you. In this case I not only have the right but also the duty to defend myself.</p></div>
-            <div className="exh_map_quest_result"><span>B</span><p>Answer 2 - I don't know if it is evil to fight back. But for my part I abhor any form of violence. Therefore, if in doubt, I would not defend myself.</p></div>
-            <div className="exh_map_quest_result"><span>C</span><p>Answer 3 - Anyone who thinks it is evil to stand up for one's freedom, for example, morally equates oppressor and victim. But that is wrong. A perpetrator is never on the same moral level as the victim. So it is not evil to fight back.</p></div>
-            <div className="exh_map_quest_result"><span>D</span><p>Answer 4 - Anyone who resists creates counter-violence with his violence. This definitely leads to a spiral of violence. So it may not be evil to fight back, but it is at least unwise.</p></div>
-            <div className="exh_map_quest_result"><span>E</span><p>Answer 5 - Imagine your parents' house suddenly being illegally occupied. What should prevent you from fighting back? Nothing. Any questions?</p></div>
+            <div className="exh_map_quest_result"><span>A</span><p>No. Resistance can be a very good thing and sometimes even becomes a duty. Often you even have to defend what is important to you. In this case I not only have the right but also the duty to defend myself.</p></div>
+            <div className="exh_map_quest_result"><span>B</span><p>I don't know if it is evil to fight back. But for my part I abhor any form of violence. Therefore, if in doubt, I would not defend myself.</p></div>
+            <div className="exh_map_quest_result"><span>C</span><p>Anyone who thinks it is evil to stand up for one's freedom, for example, morally equates oppressor and victim. But that is wrong. A perpetrator is never on the same moral level as the victim. So it is not evil to fight back.</p></div>
+            <div className="exh_map_quest_result"><span>D</span><p>Anyone who resists creates counter-violence with his violence. This definitely leads to a spiral of violence. So it may not be evil to fight back, but it is at least unwise.</p></div>
+            <div className="exh_map_quest_result"><span>E</span><p>Imagine your parents' house suddenly being illegally occupied. What should prevent you from fighting back? Nothing. Any questions?</p></div>
         </div>
     </React.Fragment>
     );          

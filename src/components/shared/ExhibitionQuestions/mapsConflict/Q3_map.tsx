@@ -157,11 +157,11 @@ const MapQThree = () => {
             <h3>
             Sometimes conflicts are not caused by individuals but because they are built into the social system in which we live. One then speaks of “structural violence”. How should we deal with this structural violence?
             </h3> 
-            <div className="exh_map_quest_result"><span>A</span><p>Answer 1 - Granted, no state can be perfect or free of conflicts. In a democracy, however, there is always a way of resolving conflicts without violence. Anyone can get involved politically or take legal action.</p></div>
-            <div className="exh_map_quest_result"><span>B</span><p>Answer 2 - Every social system takes far too much time to react to social conflicts. Those who wait for their own country to do something effective to combat social inequality, for example end up waiting too long.</p></div>
-            <div className="exh_map_quest_result"><span>C</span><p>Answer 3 - No system, even the best, can ever be perfectly fair. That is in the nature of the systems. We have to put up with that.</p></div>
-            <div className="exh_map_quest_result"><span>D</span><p>Answer 4 - Structural violence is always abstract violence. It becomes actual violence only through the people who are part of the system and benefit from it. The most effective lever against structural violence is therefore active resistance to those who enforce it.</p></div>
-            <div className="exh_map_quest_result"><span>E</span><p>Answer 5 - Misogyny or racism are not only built into social systems, but also take place in the minds of the population. It is therefore less important to change the system than to change people's attitudes.</p></div>
+            <div className="exh_map_quest_result"><span>A</span><p>Granted, no state can be perfect or free of conflicts. In a democracy, however, there is always a way of resolving conflicts without violence. Anyone can get involved politically or take legal action.</p></div>
+            <div className="exh_map_quest_result"><span>B</span><p>Every social system takes far too much time to react to social conflicts. Those who wait for their own country to do something effective to combat social inequality, for example end up waiting too long.</p></div>
+            <div className="exh_map_quest_result"><span>C</span><p>No system, even the best, can ever be perfectly fair. That is in the nature of the systems. We have to put up with that.</p></div>
+            <div className="exh_map_quest_result"><span>D</span><p>Structural violence is always abstract violence. It becomes actual violence only through the people who are part of the system and benefit from it. The most effective lever against structural violence is therefore active resistance to those who enforce it.</p></div>
+            <div className="exh_map_quest_result"><span>E</span><p>Misogyny or racism are not only built into social systems, but also take place in the minds of the population. It is therefore less important to change the system than to change people's attitudes.</p></div>
         </div>
     </React.Fragment>
     );          

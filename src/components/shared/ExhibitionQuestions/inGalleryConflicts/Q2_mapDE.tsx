@@ -155,11 +155,11 @@ const MapQTwoDE = () => {
         <div className="exh_map_result_content">
         <h2>Frage 2:</h2>
             <h3>Ist es böse, wenn man sich wehrt?</h3> 
-            <div className="exh_map_quest_result"><span>A</span><p>Antwort 1 - Nein. Widerstand kann etwas sehr Gutes sein und wird manchmal sogar zur Pflicht. Oftmals muss man sogar das verteidigen, was einem wichtig ist. Dann habe ich nicht nur das Recht, sondern auch die Pflicht, mich zu wehren.</p></div>
-            <div className="exh_map_quest_result"><span>B</span><p>Antwort 2 - Ich weiß nicht, ob es böse ist, wenn man sich wehrt. Aber ich für meinen Teil verabscheue jede Form der Gewalt. Deshalb würde ich mich im Zweifelsfall nicht wehren.</p></div>
-            <div className="exh_map_quest_result"><span>C</span><p>Antwort 3 - Wer meint, es sei böse, sich beispielsweise für seine Freiheit einzusetzen, der setzt Unterdrücker und Opfer moralisch gleich. Das aber ist falsch. Ein Täter steht moralisch niemals auf derselben Stufe wie ein Opfer. Also ist es nicht böse, sich zu wehren.</p></div>
-            <div className="exh_map_quest_result"><span>D</span><p>Antwort 4 - Wer sich wehrt, der erzeugt mit seiner Gewalt Gegengewalt. Das führt zu einer Gewaltspirale. Deshalb ist es vielleicht nicht unbedingt böse sich zu wehren, aber unklug.</p></div>
-            <div className="exh_map_quest_result"><span>E</span><p>Antwort 5 - Stellen Sie sich vor, ihr Elternhaus wird plötzlich unrechtmäßig besetzt. Was sollte Sie daran hindern, sich dagegen zu wehren? Nichts. Oder?</p></div>
+            <div className="exh_map_quest_result"><span>A</span><p>Nein. Widerstand kann etwas sehr Gutes sein und wird manchmal sogar zur Pflicht. Oftmals muss man sogar das verteidigen, was einem wichtig ist. Dann habe ich nicht nur das Recht, sondern auch die Pflicht, mich zu wehren.</p></div>
+            <div className="exh_map_quest_result"><span>B</span><p>Ich weiß nicht, ob es böse ist, wenn man sich wehrt. Aber ich für meinen Teil verabscheue jede Form der Gewalt. Deshalb würde ich mich im Zweifelsfall nicht wehren.</p></div>
+            <div className="exh_map_quest_result"><span>C</span><p>Wer meint, es sei böse, sich beispielsweise für seine Freiheit einzusetzen, der setzt Unterdrücker und Opfer moralisch gleich. Das aber ist falsch. Ein Täter steht moralisch niemals auf derselben Stufe wie ein Opfer. Also ist es nicht böse, sich zu wehren.</p></div>
+            <div className="exh_map_quest_result"><span>D</span><p>Wer sich wehrt, der erzeugt mit seiner Gewalt Gegengewalt. Das führt zu einer Gewaltspirale. Deshalb ist es vielleicht nicht unbedingt böse sich zu wehren, aber unklug.</p></div>
+            <div className="exh_map_quest_result"><span>E</span><p>Stellen Sie sich vor, ihr Elternhaus wird plötzlich unrechtmäßig besetzt. Was sollte Sie daran hindern, sich dagegen zu wehren? Nichts. Oder?</p></div>
         </div>
     </React.Fragment>
     );          
