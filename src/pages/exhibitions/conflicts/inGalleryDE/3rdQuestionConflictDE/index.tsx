@@ -1,12 +1,12 @@
 import React from "react"
 import { Container, Badge } from "react-bootstrap"
-import BaseExhibitionConflict from "../../../../../components/static/BaseExhibitionConflicts"
+import BaseExhibitionConflictDE from "../../../../../components/static/BaseExhibitionConflicts/inGalleryIndex"
 import QuestionThreeConflictDE from "../../../../../components/shared/ExhibitionQuestions/inGalleryConflicts/C_questionConflictDE"
 
 const questionThreeConflictPageDE = () => {
 
 return (
-    <BaseExhibitionConflict>
+    <BaseExhibitionConflictDE>
      <div className="exh_container_inner mt-5">
 
 
@@ -22,7 +22,7 @@ return (
         </div>
         
      </div>
-    </BaseExhibitionConflict>
+    </BaseExhibitionConflictDE>
     )
   }
 

@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import { Container, Badge, Button, Row, Col } from "react-bootstrap"
-import BaseExhibitionConflict from "../../../../../components/static/BaseExhibitionConflicts"
+import BaseExhibitionConflictDE from "../../../../../components/static/BaseExhibitionConflicts/inGalleryIndex"
 import MapQOneDE from "../../../../../components/shared/ExhibitionQuestions/inGalleryConflicts/Q1_mapDE"
 import MapQTwoDE from "../../../../../components/shared/ExhibitionQuestions/inGalleryConflicts/Q2_mapDE"
 import MapQThreeDE from "../../../../../components/shared/ExhibitionQuestions/inGalleryConflicts/Q3_mapDE"
@@ -49,7 +49,7 @@ const ConflictsAnswersDE: React.FC = () => {
 
 
 return (
-<BaseExhibitionConflict>
+<BaseExhibitionConflictDE>
 <div className="exh_container_inner exh_map_container mt-5">
   <div className="d-grid gap-2">
   <Badge className="badgeConflicts rounded-pill"><h1>Ergebnisse</h1></Badge>
@@ -69,8 +69,17 @@ return (
       {MapQFourVisible && <h1>Frage 4</h1> && <MapQFourDE></MapQFourDE>}
   </div>
 
+  <div className="exh_submit_button">
+      <div className="exh_arrow_container">
+      <img className="exh_blue_arrow" src="/images/exhibition_assets/arrow_blue.svg" alt=""></img>
   </div>
-</BaseExhibitionConflict>
+      <Button className="exh_submit_btn" href="exhibitions/conflicts/inGalleryDE/4thQuestionConflictDE">
+        <h1 style={{ color: "white" }}>Letzte Frage</h1>
+      </Button>
+  </div>
+
+  </div>
+</BaseExhibitionConflictDE>
     )
   }
 
