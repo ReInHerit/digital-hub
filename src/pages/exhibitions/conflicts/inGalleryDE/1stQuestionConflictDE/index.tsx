@@ -3,7 +3,7 @@ import { Container, Badge } from "react-bootstrap"
 import BaseExhibitionConflict from "../../../../../components/static/BaseExhibitionConflicts"
 import QuestionOneConflictDE from "../../../../../components/shared/ExhibitionQuestions/inGalleryConflicts/A_questionConflictDE"
 
-const questionOneConflictPage = () => {
+const questionOneConflictPageDE = () => {
 
 return (
     <BaseExhibitionConflict>
@@ -30,4 +30,4 @@ return (
     )
   }
 
-export default questionOneConflictPage;
+export default questionOneConflictPageDE;

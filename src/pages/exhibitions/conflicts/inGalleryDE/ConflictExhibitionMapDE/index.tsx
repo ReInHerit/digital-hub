@@ -7,7 +7,7 @@ import MapQThreeDE from "../../../../../components/shared/ExhibitionQuestions/in
 import MapQFourDE from "../../../../../components/shared/ExhibitionQuestions/inGalleryConflicts/Q4_mapDE"
 
 
-const ConflictsAnswers: React.FC = () => {
+const ConflictsAnswersDE: React.FC = () => {
 
   const [MapQOneVisible, setMapQOneVisible] = useState(false);
   const [MapQTwoVisible, setMapQTwoVisible] = useState(false);
@@ -74,4 +74,4 @@ return (
     )
   }
 
-export default ConflictsAnswers
+export default ConflictsAnswersDE
