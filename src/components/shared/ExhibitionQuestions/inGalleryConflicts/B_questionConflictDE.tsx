@@ -7,7 +7,7 @@ const QuestionTwoConflictDE = () => {
 
     const [answerTwoConflictDE, setAnswerTwoConflictDE] = useState() 
 
-    const currentCountryDE = "Austria"
+    const currentCountryDE = "\"Austria\""
     const doc = new GoogleSpreadsheet(creds.sheet_id)
 
 
