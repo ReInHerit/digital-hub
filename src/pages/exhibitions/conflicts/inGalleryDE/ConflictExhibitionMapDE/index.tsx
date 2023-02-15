@@ -73,7 +73,7 @@ return (
       <div className="exh_arrow_container">
       <img className="exh_blue_arrow" src="/images/exhibition_assets/arrow_blue.svg" alt=""></img>
   </div>
-      <Button className="exh_submit_btn" href="exhibitions/conflicts/inGalleryDE/4thQuestionConflictDE">
+      <Button className="exh_submit_btn" href="/exhibitions/conflicts/inGalleryDE/4thQuestionConflictDE">
         <h1 style={{ color: "white" }}>Frage 4 schon beantwortet?</h1>
       </Button>
   </div>
