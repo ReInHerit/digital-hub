@@ -39,8 +39,8 @@ const BaseExhibition = ({ children, pageTitle }: Props) => {
           </Row>
           <Row>
             <Col className="exh_footer_links">
-            <a style={{color:"white"}} href="./impressum">Impressum</a>
-            <a style={{color:"white"}} href="./datenschutz">Datenschutz</a>
+            <a style={{color:"white"}} target="_blank" href="/exhibitions/conflicts/imprintConflicts">Imprint</a>
+            <a style={{color:"white"}} target="_blank" href="/about/dataprot">Privacy</a>
             </Col>
           </Row>
           </Container>

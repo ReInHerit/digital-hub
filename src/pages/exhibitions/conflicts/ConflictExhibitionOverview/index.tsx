@@ -4,11 +4,6 @@ import BaseExhibitionConflict from "../../../../components/static/BaseExhibition
 
 const ConflictExhibitionObjects: React.FC = () => {
 
-const [flipOne, setFlipOne] = React.useState(false)
-const [flipTwo, setFlipTwo] = React.useState(false)
-const [flipThree, setFlipThree] = React.useState(false)
-
-
 return (
 <BaseExhibitionConflict>
 <div className="exh_container_inner exh_rm_nav exh_container_border">

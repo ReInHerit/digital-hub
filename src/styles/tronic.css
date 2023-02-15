@@ -522,6 +522,9 @@ button:disabled {
   margin-top: 30px;
   text-align: center;
 }
+.exh_container_border .conflicts .exh_h5p_iframe.iframe_border iframe {
+  border: 1px solid;
+}
 @media screen and (max-width: 1279.98px) {
   .exh_container_border .conflicts .exh_h5p_iframe iframe {
     width: -webkit-fill-available !important;
@@ -592,12 +595,30 @@ button:disabled {
   bottom: -17px;
 }
 .exh_container_border .conflicts .exh_bullet_btn:hover {
-  opacity: 0.7;
+  background-color: white;
+  color: blue;
+  transition: 0.3s;
 }
 
 /* Content */
-.exh_container_inner.exh_rm_nav {
-  margin-top: -75px;
+.exh_container_inner.exh_content_text {
+  font-size: 18px;
+  font-family: Roboto-Regular;
+}
+.exh_container_inner.exh_content_text .exhcontentHeading {
+  font-family: "RobotoMono-Light";
+  font-size: 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 0px 0px;
+}
+.exh_container_inner.exh_content_text p {
+  line-height: 1.3em;
+  margin: 10px 0;
+}
+.exh_container_inner #objectsConflicts {
+  margin-bottom: 50px;
 }
 .exh_container_inner .exh_submit_button {
   margin-top: 50px;
@@ -626,6 +647,9 @@ button:disabled {
   border-color: blue !important;
   text-align: center;
   border-radius: 50px;
+}
+.exh_container_inner .exh_submit_btn:hover {
+  opacity: 0.8;
 }
 @media screen and (max-width: 767.98px) {
   .exh_container_inner .exh_submit_btn {
@@ -809,9 +833,10 @@ button:disabled {
 }
 .exh_main_content .conflictsAnswers .form-check label {
   border: 1px solid;
-  padding: 15px;
+  padding: 18px;
   margin: 0 0 40px;
   font-size: 1.2rem;
+  font-family: "Roboto-Regular";
 }
 .exh_main_content .conflictsAnswers .form-check:nth-child(1) {
   margin-left: 10%;
@@ -890,18 +915,20 @@ button:disabled {
 }
 
 .exh_question_intro_text {
-  padding: 3rem 0;
+  padding: 3rem 0 0;
+  color: blue;
   text-align: center;
 }
 .exh_question_intro_text .exh_country_selection {
-  padding: 3rem 0;
+  padding: 3rem 0 0;
 }
 .exh_question_intro_text .exh_country_selection select {
   padding: 10px;
   border: 1px solid;
 }
 .exh_question_intro_text .exh_country_selection h3 {
-  font-family: Roboto-Regular;
+  font-family: "Roboto-Regular";
+  font-size: 25px;
 }
 @media screen and (max-width: 1279.98px) {
   .exh_question_intro_text .exh_country_selection h3 {
@@ -909,7 +936,8 @@ button:disabled {
   }
 }
 .exh_question_intro_text h4 {
-  font-family: Roboto-Regular;
+  font-family: "Roboto-Regular";
+  font-size: 25px;
 }
 @media screen and (max-width: 767.98px) {
   .exh_question_intro_text h4 {
@@ -917,7 +945,13 @@ button:disabled {
   }
 }
 .exh_question_intro_text p {
-  font-size: 14px;
+  font-family: "Roboto-Regular";
+  font-size: 25px;
+}
+@media screen and (max-width: 767.98px) {
+  .exh_question_intro_text p {
+    font-size: 18px;
+  }
 }
 
 .exhibition_intro {
@@ -1070,6 +1104,44 @@ button:disabled {
   font-size: 20px;
   margin: auto;
   height: 100%;
+}
+
+.visitCollection {
+  text-align: center;
+  margin-top: 150px;
+}
+.visitCollection button {
+  width: max-content;
+  padding: 10px 50px;
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+  font-family: RobotoMono-Light;
+  transition: 0.3s;
+  border-radius: 50px;
+  margin: 20px;
+  position: relative;
+  font-size: 35px;
+  transition: 0.3s;
+}
+.visitCollection button:before {
+  content: "";
+  background-image: url(/images/exhibition_assets/arrow_blue.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: "";
+  display: inline-block;
+  height: 100px;
+  left: -90px;
+  position: absolute;
+  top: -90px;
+  width: 100px;
+  transform: rotate(-45deg);
+}
+.visitCollection button:hover {
+  background-color: white;
+  color: blue;
+  transition: 0.3s;
 }
 
 .marker {

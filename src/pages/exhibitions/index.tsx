@@ -10,7 +10,7 @@ return (
       <Button href="exhibitions/conflicts/ConflictQuestions/1stQuestionConflict" className="btnExhibit rounded-pill" size="lg">ReThinking CONFLICTS</Button>
       <Button className="btnExhibit rounded-pill btnExhibitDisabled" size="lg">
         <div className="visible_btn_text">ReThinking CRAFTSMANSHIP</div>
-        <div className="hidden_btn_text">opening 6th March 2023</div>
+        <div className="hidden_btn_text">opening 9th March 2023</div>
       </Button>
       <Button className="btnExhibit rounded-pill btnExhibitDisabled" size="lg">
         <div className="visible_btn_text">ReThinking IDENTITIES</div>

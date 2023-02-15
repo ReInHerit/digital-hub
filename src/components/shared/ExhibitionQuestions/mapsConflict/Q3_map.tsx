@@ -163,6 +163,10 @@ const MapQThree = () => {
             <div className="exh_map_quest_result"><span>D</span><p>Structural violence is always abstract violence. It becomes actual violence only through the people who are part of the system and benefit from it. The most effective lever against structural violence is therefore active resistance to those who enforce it.</p></div>
             <div className="exh_map_quest_result"><span>E</span><p>Misogyny or racism are not only built into social systems, but also take place in the minds of the population. It is therefore less important to change the system than to change people's attitudes.</p></div>
         </div>
+
+
+
+        <div className="visitCollection"><button className="">Visit Collection</button></div>
     </React.Fragment>
     );          
 }
