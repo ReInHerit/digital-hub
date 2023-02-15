@@ -17,7 +17,7 @@ const BaseExhibitionConflictDE = ({ children, pageTitle }: Props) => {
   return (
     <Base>
       <Container
-        className="exh_main_content"
+        className="exh_main_content mt-2"
         style={{backgroundColor:"white"}}
         fluid 
       >{children}</Container>
