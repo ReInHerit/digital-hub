@@ -76,7 +76,7 @@ return (
       <Button className="exh_submit_btn" href="/exhibitions/conflicts/inGalleryDE/4thQuestionConflictDE">
         <h1 style={{ color: "white" }}>Frage 4 schon beantwortet?</h1>
       </Button>
-  </div>
+  </div> 
 
   </div>
 </BaseExhibitionConflictDE>

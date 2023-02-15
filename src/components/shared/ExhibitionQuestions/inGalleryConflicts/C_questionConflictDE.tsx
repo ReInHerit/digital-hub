@@ -46,7 +46,7 @@ const QuestionThreeConflictDE = () => {
         await appendSpreadsheet();
         window.location.href = "/exhibitions/conflicts/inGalleryDE/1stQuestionConflictDE";
       };
-
+ 
 return (
 <React.Fragment>
 
