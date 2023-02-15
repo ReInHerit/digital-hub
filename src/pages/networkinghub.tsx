@@ -26,12 +26,16 @@ const NetworkingHubPage = () => {
           title="Forum"
           url="https://gitter.im/ReInHerit"
         />
-   {/*
         <ReinGridCard
           body="Contribute to the ReInHerit digital exhibitions with your collections! Participatory action open to all European museums."
           title="Call for exhibition objects"
-          url="..."
-      /> */}
+          url="/museumcalls/digital"
+      />
+        <ReinGridCard
+          body="Host a ReInHerit travelling exhibition. Call open to all museums."
+          title="Host an exhibition"
+          url="/museumcalls/travelling"
+      />
        </ReinCardGrid>
     </BaseLayout>
   )

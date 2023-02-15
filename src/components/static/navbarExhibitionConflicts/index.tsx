@@ -55,14 +55,19 @@ function ReinNavbarExhibConflict() {
                 </Link>
                 <Link
                 className="link-light text-decoration-none"
-                  to="/about">
+                  to="/about/team">
                     Who & Where is ReInHerit
                 </Link>
-                <a
+                <Link
                 className="link-light text-decoration-none"
-                href="https://collection.reinherit-hub.eu/takeover">
-                Takeover
-                </a>
+                to="/museumcalls/travelling">
+                Host an Exhibition
+                </Link>
+                <Link
+                className="link-light text-decoration-none"
+                to="/museumcalls/digital">
+                Contribute to the digital collection
+                </Link>
               <div className="exh_space"></div>
               <p>Travelling Exhibition:</p>
               <a href="https://www.grazmuseum.at/en/exhibition/rethinking-conflicts-how-are-conflicts-reflected-in-objects/"className="link-light text-decoration-none">Graz Museum</a>  
