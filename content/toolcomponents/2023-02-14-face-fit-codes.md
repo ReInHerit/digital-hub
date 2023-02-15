@@ -15,6 +15,8 @@ linkedToolkitApps:
 license: CC BY 2.0
 thumbnail: https://ucarecdn.com/9a5e4095-908c-45b7-a1d7-533eb8fdbddc/
 ---
+![](https://ucarecdn.com/6db46a82-bdc6-43c8-968b-2aa985641ccf/)
+
 Face-Fit application has been developed in JavaScript on the client side and in Python on the server side. Pose detection on the human bodies is achieved using TensorflowJS 1 detection API exploiting the pose detection model, MoveNet. ì
 
 The model runs completely client-side in the browser. Server-side an SQLLite database is used to stores artworks’collections, challenges and artworks’ metadata and descriptions.
