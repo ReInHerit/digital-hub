@@ -13,7 +13,7 @@ linkedWebinars:
 linkedToolkitApps:
   - 051e7d78-de61-4e04-8b05-ab6f7a184153____Face-Fit
 license: CC BY 2.0
-thumbnail: https://ucarecdn.com/b839e20c-18db-4937-a7b0-7124246837d3/
+thumbnail: https://ucarecdn.com/9a5e4095-908c-45b7-a1d7-533eb8fdbddc/
 ---
 Face-Fit application has been developed in JavaScript on the client side and in Python on the server side. Pose detection on the human bodies is achieved using TensorflowJS 1 detection API exploiting the pose detection model, MoveNet. ì
 
