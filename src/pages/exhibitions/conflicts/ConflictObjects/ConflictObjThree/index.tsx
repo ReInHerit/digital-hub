@@ -13,13 +13,23 @@ return (
   <Badge className="badgeConflicts rounded-pill"><h1>ReThinking CONFLICTS</h1></Badge>
   </div>
   <div className="conflicts">
-  <h4 className="conflicts">The Cherry Rage 1920 is a woodcut by the Austrian artist Axl Leskoschek. Created in 1955 , it intentionally uses the technique of the woodcut, which was a medium of protest art. The appeal of
-the woodcut is its reproductibility. The stencil, cut from wood is reusable and can produce infinite copies.</h4>
+  <h4 className="conflicts">The Cipro map of Cyprus was created in 1570 by the mapmaker Nicolò Nelli. It measures 19 cm x 13,6 cm and is part of the collection at the Bank of Cyprus Cultural Foundation in Nicosia, Cyprus.
+  </h4>
 
 <Badge className="badgeConflicts rounded-pill"><h1>Cipro Map</h1></Badge>
 
 <div className="exh_h5p_iframe">
 <iframe src="https://collection.reinherit-hub.eu/h5p-cipro.html" width="1000" height="1200"></iframe>
+</div>
+
+<div className="exh_h5p_iframe">
+<Zoom>
+    <img
+      alt="The Cipro Map"
+      src="images/conflicts/large-CiproMapBoCCF.jpg"
+      width="800"
+    />
+  </Zoom>
 </div>
 
 <div className="exh_object_btm">

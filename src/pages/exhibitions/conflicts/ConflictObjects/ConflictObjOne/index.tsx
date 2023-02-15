@@ -13,8 +13,7 @@ return (
   <Badge className="badgeConflicts rounded-pill"><h1>ReThinking CONFLICTS</h1></Badge>
   </div>
   <div className="conflicts">
-  <h4 className="conflicts">The Cherry Rage 1920 is a woodcut by the Austrian artist Axl Leskoschek. Created in 1955 , it intentionally uses the technique of the woodcut, which was a medium of protest art. The appeal of
-the woodcut is its reproductibility. The stencil, cut from wood is reusable and can produce infinite copies.</h4>
+  <h4 className="conflicts">The Cherry Rage is a woodcut by the Austrian artist Axl Leskoschek. The artwork was created in 1955 and measures 44,5 x 31,5 cm. It is part of the collection of the Graz Museum in Graz, Austria.</h4>
 
 <Badge className="badgeConflicts rounded-pill"><h1>The Story of the Cherry Rage</h1></Badge>
 

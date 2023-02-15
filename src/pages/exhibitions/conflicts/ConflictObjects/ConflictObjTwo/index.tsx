@@ -11,8 +11,8 @@ return (
   <Badge className="badgeConflicts rounded-pill"><h1>ReThinking CONFLICTS</h1></Badge>
   </div>
   <div className="conflicts">
-  <h4 className="conflicts">The Cherry Rage 1920 is a woodcut by the Austrian artist Axl Leskoschek. Created in 1955 , it intentionally uses the technique of the woodcut, which was a medium of protest art. The appeal of
-the woodcut is its reproductibility. The stencil, cut from wood is reusable and can produce infinite copies.</h4>
+  <h4 className="conflicts">The pyxis is a clay vessel with lid traditionally used for placing women's jewelry and cosmetics. Dated at 760-750 BC, this pyxis measures 26,5 cm in height and 32,5 cm in depth and is part of the collection at the Museum of Cycladic Art in Athens, Greece.
+  </h4>
 
 <Badge className="badgeConflicts rounded-pill"><h1>The Story of the Pyxis</h1></Badge>
 
