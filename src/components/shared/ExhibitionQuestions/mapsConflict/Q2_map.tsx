@@ -161,6 +161,10 @@ const MapQTwo = () => {
             <div className="exh_map_quest_result"><span>D</span><p>Answer 4 - Anyone who resists creates counter-violence with his violence. This definitely leads to a spiral of violence. So it may not be evil to fight back, but it is at least unwise.</p></div>
             <div className="exh_map_quest_result"><span>E</span><p>Answer 5 - Imagine your parents' house suddenly being illegally occupied. What should prevent you from fighting back? Nothing. Any questions?</p></div>
         </div>
+
+
+
+        <div className="visitCollection"><button className="">Visit Collection</button></div>
     </React.Fragment>
     );          
 }

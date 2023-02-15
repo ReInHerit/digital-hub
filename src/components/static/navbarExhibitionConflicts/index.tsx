@@ -38,7 +38,7 @@ function ReinNavbarExhibConflict() {
             <a className="exhibition_menu_link" href="https://reinherit-hub.eu/">ReInHerit</a> 
             <div className="exh_line"></div>
             <a className="exhibition_menu_link nav_font" href="https://reinherit-hub.eu/exhibitions">Exhibition</a>      
-            <a className="exhibition_menu_link nav_font" href="https://collection.reinherit-hub.eu/">Collections</a>
+            <a className="exhibition_menu_link nav_font" href="https://collection.reinherit-hub.eu/">Collection</a>
       </div>
         </Navbar.Brand>
         <Navbar.Toggle className="navbar-toggler" onClick={handleShow} style={{color:"white"}}/>
@@ -60,11 +60,11 @@ function ReinNavbarExhibConflict() {
                 </Link>
                 <a
                 className="link-light text-decoration-none"
-                  href="https://collection.reinherit-hub.eu/contribute">
-                    Contribute
+                href="https://collection.reinherit-hub.eu/takeover">
+                Takeover
                 </a>
               <div className="exh_space"></div>
-              <p>Traveling Exhibitions:</p>
+              <p>Travelling Exhibition:</p>
               <a href="https://www.grazmuseum.at/en/exhibition/rethinking-conflicts-how-are-conflicts-reflected-in-objects/"className="link-light text-decoration-none">Graz Museum</a>  
               <a href="https://www.boccf.org/"className="link-light text-decoration-none">Bank of Cypus Cultural Foundation</a>  
               <a href="https://cycladic.gr/en"className="link-light text-decoration-none"> Museum of Cycladic Art</a>                     

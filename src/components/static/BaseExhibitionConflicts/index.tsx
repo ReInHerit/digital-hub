@@ -46,8 +46,8 @@ const BaseExhibitionConflict = ({ children, pageTitle }: Props) => {
           </Row>
           <Row>
           <Col className="exh_footer_links">
-            <a style={{color:"white"}} href="/exhibitions/conflicts/imprintConflicts">Imprint</a>
-            <a style={{color:"white"}} href="/about/dataprot">Data Protection</a>
+            <a style={{color:"white"}} target="_blank" href="/exhibitions/conflicts/imprintConflicts">Imprint</a>
+            <a style={{color:"white"}} target="_blank" href="/about/dataprot">Privacy</a>
           </Col>
           </Row>
           </Container>

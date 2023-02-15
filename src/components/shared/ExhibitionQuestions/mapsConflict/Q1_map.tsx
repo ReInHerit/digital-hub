@@ -161,6 +161,10 @@ const MapQOne = () => {
                 <div className="exh_map_quest_result"><span>D</span><p>Answer 4 - Violence is never my first option. But if others resort to violence, I would defend myself – if necessary with violence.</p></div>
                 <div className="exh_map_quest_result"><span>E</span><p>Answer 5 - I don't see why a world without violence shouldn't be possible. There is always an alternative to violence. For those who have realized that violence only generates counter-violence, renunciation of violence is the only way to improvement.</p></div>
         </div>
+
+
+
+        <div className="visitCollection"><button className="">Visit Collection</button></div>
     </React.Fragment>
     );          
 }

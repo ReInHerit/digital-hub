@@ -72,7 +72,7 @@ Sometimes conflicts are not caused by individuals but because they are built int
             </div>
                     <Button className="exh_submit_btn" 
                     type="submit" disabled={!answerThreeConflict} onClick={handleSubmitC} >
-                    <h1 style={{ color: "white" }}>Submit & Enter Exhibitioddn</h1>
+                    <h1 style={{ color: "white" }}>Submit & Enter Exhibition</h1>
                     </Button>
             </div>        
         </Form>

@@ -166,7 +166,14 @@ const MapQFour = () => {
             <div className="exh_map_quest_result"><span>E</span><p>Answer 5 - Yes. Because understanding the other opens up new perspectives and ways of resolving the conflict.</p></div>
             <div className="exh_map_quest_result"><span>F</span><p>Answer 6 - No. It is not about understanding, it is about interests. You do not have to understand them, they are just there.</p></div>
         </div>
+
+
+
+        <div className="visitCollection"><button className="">Visit Collection</button></div>
     </React.Fragment>
+
+
+
     );          
 }
 

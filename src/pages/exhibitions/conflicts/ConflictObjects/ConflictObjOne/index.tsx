@@ -22,6 +22,10 @@ the woodcut is its reproductibility. The stencil, cut from wood is reusable and 
 <iframe src="https://collection.reinherit-hub.eu/h5p-thecherryrage.html" width="1000" height="700"></iframe>
 </div>
 
+<div className="exh_h5p_iframe iframe_border">
+<iframe src="https://collection.reinherit-hub.eu/h5p-thecherryrage_2.html" width="1000" height="720"></iframe>
+</div>
+
 <div className="exh_object_btm">
     <div className="exh_bullet_btn">Get to know other objects</div>
     <Row>

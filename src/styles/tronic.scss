@@ -605,6 +605,13 @@ button:disabled {
             margin-top: 30px;
             text-align: center;
 
+            &.iframe_border {
+
+                iframe {
+                    border: 1px solid;
+                }
+            }
+
             iframe {
                 @media screen and ( max-width: breakpoint( xl, max-width ) ) {
                     width: -webkit-fill-available !important;
@@ -674,9 +681,11 @@ button:disabled {
                     bottom: -17px;
                 }
             
-            &:hover {
-               opacity: 0.7;
-            }
+                &:hover {
+                    background-color: white;
+                    color: blue;
+                    transition: 0.3s;
+                }
         }
     }
 }
@@ -685,8 +694,27 @@ button:disabled {
 
   .exh_container_inner {
 
-    &.exh_rm_nav {
-        margin-top: -75px;
+    &.exh_content_text {
+        font-size: 18px;
+        font-family: Roboto-Regular;
+
+        .exhcontentHeading {
+            font-family: "RobotoMono-Light";
+            font-size: 40px;
+            font-weight: normal;
+            text-transform: uppercase;
+            line-height: 1;
+            margin: 0px 0px;
+          }
+
+          p {
+            line-height: 1.3em;
+            margin: 10px 0 15px;
+          }
+      }
+
+    #objectsConflicts {
+        margin-bottom: 50px;
     }
 
     .exh_submit_button {
@@ -840,7 +868,9 @@ button:disabled {
             border-radius: 50px;
 
             &:hover {
-                opacity: 0.7;
+                background-color: white;
+                color: blue;
+                transition: 0.3s;
             }
 
             &:active {
@@ -913,9 +943,10 @@ button:disabled {
 
             label {
                 border: 1px solid;
-                padding: 15px;
+                padding: 18px;
                 margin: 0 0 40px;
                 font-size: 1.2rem;
+                font-family: 'Roboto-Regular';
             }
 
             &:nth-child(1) {
@@ -1004,12 +1035,12 @@ button:disabled {
     }
 }
   .exh_question_intro_text {
-    padding: 3rem 0;
+    padding: 3rem 0 0;
+    color: blue;
     text-align: center;
 
     .exh_country_selection {
-
-        padding: 3rem 0;
+        padding: 3rem 0 0;
 
         select {
             padding: 10px;
@@ -1017,8 +1048,8 @@ button:disabled {
         }
        
         h3 {
-            font-family: Roboto-Regular;
-
+            font-family: 'Roboto-Regular';
+            font-size: 25px;
             @media screen and ( max-width: breakpoint( xl, max-width ) ) {
                 font-size: 18px;
             }
@@ -1026,15 +1057,19 @@ button:disabled {
     }
 
     h4  {
-        font-family: Roboto-Regular;
-        
+        font-family: 'Roboto-Regular';
+        font-size: 25px;
         @media screen and ( max-width: breakpoint( md, max-width ) ) {
             font-size: 18px;
          }
     }
 
     p {
-        font-size: 14px;
+        font-family: 'Roboto-Regular';
+        font-size: 25px;
+        @media screen and ( max-width: breakpoint( md, max-width ) ) {
+            font-size: 18px;
+         }
     }
   }
 
@@ -1216,12 +1251,56 @@ button:disabled {
     }
   }
 }
+
+.visitCollection {
+    text-align: center;
+    margin-top: 150px;
+
+    button {
+        width: max-content;
+        padding: 10px 50px;
+        background-color: blue;
+        color: white;
+        border: 1px solid blue;
+        font-family: RobotoMono-Light;
+        transition: 0.3s;
+        border-radius: 50px;
+        margin: 20px;
+        position: relative;
+        font-size: 35px;
+        transition: 0.3s;
+
+        &:before {
+            content: "";
+            background-image: url(/images/exhibition_assets/arrow_blue.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            content: "";
+            display: inline-block;
+            height: 100px;
+            left: -90px;
+            position: absolute;
+            top: -90px;
+            width: 100px;
+            transform: rotate(-45deg);
+        }
+
+        &:hover {
+            background-color: white;
+            color: blue;
+            transition: 0.3s;
+        }
+    }
+}
+
   .marker {
     background-image: "circle";
     width: "50px";
     height: "50px";
     border-radius: "50%";
   }
+
+
 
   /*# sourceMappingURL=tronic.css.map */
   
