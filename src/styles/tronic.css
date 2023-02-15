@@ -615,7 +615,7 @@ button:disabled {
 }
 .exh_container_inner.exh_content_text p {
   line-height: 1.3em;
-  margin: 10px 0 15px;
+  margin: 10px 0;
 }
 .exh_container_inner #objectsConflicts {
   margin-bottom: 50px;
@@ -647,6 +647,9 @@ button:disabled {
   border-color: blue !important;
   text-align: center;
   border-radius: 50px;
+}
+.exh_container_inner .exh_submit_btn:hover {
+  opacity: 0.8;
 }
 @media screen and (max-width: 767.98px) {
   .exh_container_inner .exh_submit_btn {
@@ -763,9 +766,7 @@ button:disabled {
   border-radius: 50px;
 }
 .exh_main_content .conflictsAnswers .exh_submit_btn:hover {
-  background-color: white;
-  color: blue;
-  transition: 0.3s;
+  opacity: 0.7;
 }
 .exh_main_content .conflictsAnswers .exh_submit_btn:active {
   outline: none;

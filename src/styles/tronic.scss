@@ -709,7 +709,7 @@ button:disabled {
 
           p {
             line-height: 1.3em;
-            margin: 10px 0 15px;
+            margin: 10px 0
           }
       }
 
@@ -749,6 +749,9 @@ button:disabled {
         text-align: center;
         border-radius: 50px;
 
+        &:hover {
+            opacity: 0.8;
+        } 
         
         @media screen and ( max-width: breakpoint( md, max-width ) ) {
             width: 100% !important;
@@ -868,9 +871,7 @@ button:disabled {
             border-radius: 50px;
 
             &:hover {
-                background-color: white;
-                color: blue;
-                transition: 0.3s;
+               opacity: 0.7;
             }
 
             &:active {
