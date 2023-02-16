@@ -990,7 +990,7 @@ button:disabled {
 .exh_question_intro_text .exh_country_selection select {
   padding: 10px;
   border: 1px solid;
-  width: -webkit-fill-available;
+  width: auto;
 }
 .exh_question_intro_text .exh_country_selection h3 {
   font-family: "Roboto-Regular";

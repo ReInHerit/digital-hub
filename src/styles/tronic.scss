@@ -1111,7 +1111,7 @@ button:disabled {
         select {
             padding: 10px;
             border: 1px solid;
-            width: -webkit-fill-available;
+            width: auto;
         }
        
         h3 {
@@ -1341,7 +1341,7 @@ button:disabled {
         @media screen and ( max-width: breakpoint( md, max-width ) ) {
             font-size: 25px;  
         }
-        
+
         @media screen and ( max-width: breakpoint( sm, max-width ) ) {
             font-size: 20px;  
         }
