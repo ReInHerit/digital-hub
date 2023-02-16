@@ -15,6 +15,8 @@
 html, body {
   background-color: #fff;
   color: #000;
+  width: 100%;
+  height: 100%;
 }
 
 * {
@@ -95,6 +97,11 @@ button:disabled {
   position: absolute;
   right: 45px;
 }
+@media screen and (max-width: 543.98px) {
+  .navExhib .header-burger {
+    right: 35px;
+  }
+}
 .navExhib .header-burger .hamburger {
   width: 30px;
   height: 2px;
@@ -135,6 +142,11 @@ button:disabled {
 }
 .navExhib .exhibition_navbar {
   width: 100%;
+}
+@media screen and (max-width: 543.98px) {
+  .navExhib .exhibition_navbar {
+    margin: 0;
+  }
 }
 
 .exhibition_burger_container {
@@ -183,6 +195,11 @@ button:disabled {
 @media screen and (max-width: 1279.98px) {
   .exhibition_navbar_inner {
     gap: 15px;
+  }
+}
+@media screen and (max-width: 543.98px) {
+  .exhibition_navbar_inner {
+    padding: 10px;
   }
 }
 
@@ -287,9 +304,12 @@ button:disabled {
   margin-top: 20px;
 }
 .exh_footer_links a {
-  margin-right: 10px;
+  margin-right: 50px;
   text-decoration: none;
   font-size: 13px;
+}
+.exh_footer_links a:hover {
+  color: blue !important;
 }
 
 .exh_footer_grid {
@@ -505,9 +525,17 @@ button:disabled {
 .exh_container_border .conflicts {
   padding: 50px;
 }
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 991.98px) {
   .exh_container_border .conflicts {
     padding: 15px;
+  }
+}
+.exh_container_border .conflicts .exh_m_btm {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 991.98px) {
+  .exh_container_border .conflicts h4 {
+    font-size: 20px;
   }
 }
 .exh_container_border .conflicts .exh_object_btm {
@@ -516,34 +544,46 @@ button:disabled {
 @media screen and (max-width: 767.98px) {
   .exh_container_border .conflicts .exh_object_btm img {
     width: 100%;
+    margin-bottom: 20px;
   }
 }
+.exh_container_border .conflicts .exh_sketchfab_iframe {
+  max-width: 1300px;
+  margin: auto;
+}
+.exh_container_border .conflicts .exh_h5p_2dviewer {
+  max-width: 800px;
+  margin: auto;
+}
 .exh_container_border .conflicts .exh_h5p_iframe {
+  height: 100%;
   margin-top: 30px;
   text-align: center;
+  max-width: 1300px;
+  margin: auto;
 }
-.exh_container_border .conflicts .exh_h5p_iframe.iframe_border iframe {
-  border: 1px solid;
+.exh_container_border .conflicts .exh_h5p_iframe.iframe_border iframe body {
+  margin: 0 !important;
 }
 @media screen and (max-width: 1279.98px) {
   .exh_container_border .conflicts .exh_h5p_iframe iframe {
     width: -webkit-fill-available !important;
-    height: 1000px;
+    height: 700px;
   }
 }
 @media screen and (max-width: 991.98px) {
   .exh_container_border .conflicts .exh_h5p_iframe iframe {
-    height: 900px;
+    height: 600px;
   }
 }
 @media screen and (max-width: 767.98px) {
   .exh_container_border .conflicts .exh_h5p_iframe iframe {
-    height: 800px;
+    height: 500px;
   }
 }
 @media screen and (max-width: 543.98px) {
   .exh_container_border .conflicts .exh_h5p_iframe iframe {
-    height: 700px;
+    height: 400px;
   }
 }
 .exh_container_border .conflicts .sketchfab-embed-wrapper {
@@ -615,7 +655,7 @@ button:disabled {
 }
 .exh_container_inner.exh_content_text p {
   line-height: 1.3em;
-  margin: 10px 0;
+  margin: 10px 0 15px;
 }
 .exh_container_inner #objectsConflicts {
   margin-bottom: 50px;
@@ -662,6 +702,11 @@ button:disabled {
 @media screen and (max-width: 1279.98px) {
   .exh_container_inner .exh_submit_btn h1 {
     font-size: 20px;
+  }
+}
+@media screen and (max-width: 543.98px) {
+  .exh_container_inner .exh_submit_btn h1 {
+    margin: 0 !important;
   }
 }
 
@@ -736,6 +781,11 @@ button:disabled {
     font-size: 20px;
   }
 }
+@media screen and (max-width: 543.98px) {
+  .exh_main_content .conflictsAnswers h1 {
+    margin: 25px 0 !important;
+  }
+}
 .exh_main_content .conflictsAnswers h2 {
   font-family: RobotoMono-Light;
   font-size: 2.3rem;
@@ -757,7 +807,7 @@ button:disabled {
   color: #fff;
   background-color: blue;
   margin: 0;
-  padding: 10px 0;
+  padding: 10px;
   font-size: 2.3rem;
   width: 60%;
   border: 1px solid;
@@ -778,6 +828,11 @@ button:disabled {
 }
 .exh_main_content .conflictsAnswers .exh_submit_btn h1 {
   margin: 0;
+}
+@media screen and (max-width: 543.98px) {
+  .exh_main_content .conflictsAnswers .exh_submit_btn h1 {
+    margin: 0 !important;
+  }
 }
 .exh_main_content .conflictsAnswers .form-check {
   max-width: 60%;
@@ -838,6 +893,11 @@ button:disabled {
   font-size: 1.2rem;
   font-family: "Roboto-Regular";
 }
+@media screen and (max-width: 543.98px) {
+  .exh_main_content .conflictsAnswers .form-check label {
+    font-size: 16px;
+  }
+}
 .exh_main_content .conflictsAnswers .form-check:nth-child(1) {
   margin-left: 10%;
 }
@@ -896,7 +956,12 @@ button:disabled {
 }
 @media screen and (max-width: 1279.98px) {
   .badgeConflicts h1 {
-    font-size: 20px;
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 543.98px) {
+  .badgeConflicts h1 {
+    white-space: normal;
   }
 }
 .badgeConflicts.badgeConflictInner {
@@ -925,6 +990,7 @@ button:disabled {
 .exh_question_intro_text .exh_country_selection select {
   padding: 10px;
   border: 1px solid;
+  width: -webkit-fill-available;
 }
 .exh_question_intro_text .exh_country_selection h3 {
   font-family: "Roboto-Regular";
@@ -946,12 +1012,7 @@ button:disabled {
 }
 .exh_question_intro_text p {
   font-family: "Roboto-Regular";
-  font-size: 25px;
-}
-@media screen and (max-width: 767.98px) {
-  .exh_question_intro_text p {
-    font-size: 18px;
-  }
+  font-size: 13px;
 }
 
 .exhibition_intro {
@@ -1124,6 +1185,21 @@ button:disabled {
   font-size: 35px;
   transition: 0.3s;
 }
+@media screen and (max-width: 991.98px) {
+  .visitCollection button {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .visitCollection button {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 543.98px) {
+  .visitCollection button {
+    font-size: 20px;
+  }
+}
 .visitCollection button:before {
   content: "";
   background-image: url(/images/exhibition_assets/arrow_blue.svg);
@@ -1137,6 +1213,18 @@ button:disabled {
   top: -90px;
   width: 100px;
   transform: rotate(-45deg);
+}
+@media screen and (max-width: 543.98px) {
+  .visitCollection button:before {
+    top: -115px;
+    width: auto;
+    transform: unset;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    background-position: center;
+  }
 }
 .visitCollection button:hover {
   background-color: white;

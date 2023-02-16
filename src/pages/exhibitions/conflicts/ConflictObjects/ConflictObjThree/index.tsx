@@ -16,18 +16,18 @@ return (
   <h4 className="conflicts">The Cipro map of Cyprus was created in 1570 by the mapmaker Nicolò Nelli. It measures 19 cm x 13,6 cm and is part of the collection at the Bank of Cyprus Cultural Foundation in Nicosia, Cyprus.
   </h4>
 
-<Badge className="badgeConflicts rounded-pill"><h1>Cipro Map</h1></Badge>
+<Badge className="badgeConflicts rounded-pill exh_m_btm"><h1>Cipro Map</h1></Badge>
 
 <div className="exh_h5p_iframe">
-<iframe src="https://collection.reinherit-hub.eu/h5p-cipro.html" width="1000" height="1200"></iframe>
+<iframe src="https://collection.reinherit-hub.eu/h5p-cipro.html" width="1000" height="800"></iframe>
 </div>
 
-<div className="exh_h5p_iframe">
+<div className="exh_h5p_2dviewer">
 <Zoom>
     <img
       alt="The Cipro Map"
       src="images/conflicts/large-CiproMapBoCCF.jpg"
-      width="800"
+      width="100%"
     />
   </Zoom>
 </div>

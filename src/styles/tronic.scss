@@ -59,6 +59,8 @@ $breakpoints: (
 html, body {
     background-color: #fff;
     color: #000;
+    width: 100%;
+    height: 100%;
 }
 * {
     color: #000;
@@ -150,6 +152,10 @@ button:disabled {
         position: absolute;
         right: 45px;
 
+        @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+           right: 35px;
+        }
+
         .hamburger {
             width: 30px;
             height: 2px;
@@ -198,6 +204,10 @@ button:disabled {
 
     .exhibition_navbar {
         width: 100%;
+
+        @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+            margin: 0;
+        }
     }
 }
 
@@ -248,6 +258,10 @@ button:disabled {
 
     @media screen and ( max-width: breakpoint( xl, max-width ) ) {
         gap: 15px;
+    }
+
+    @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+        padding: 10px;
     }
 }
 
@@ -352,9 +366,13 @@ button:disabled {
     margin-top: 20px;
 
         a {
-        margin-right: 10px;
+        margin-right: 50px;
         text-decoration: none;
         font-size: 13px;
+
+        &:hover {
+            color: blue !important;
+        }
         }
     }
   
@@ -586,9 +604,20 @@ button:disabled {
     .conflicts {
         padding: 50px;
 
-        @media screen and ( max-width: breakpoint( md, max-width ) ) {
+        @media screen and ( max-width: breakpoint( lg, max-width ) ) {
             padding: 15px;
          }
+
+         .exh_m_btm {
+            margin-bottom: 30px;
+         }
+
+        h4 {
+
+            @media screen and ( max-width: breakpoint( lg, max-width ) ) {
+                font-size: 20px;
+             }
+        }
 
         .exh_object_btm {
             margin-top: 100px;
@@ -597,37 +626,53 @@ button:disabled {
 
                 @media screen and ( max-width: breakpoint( md, max-width ) ) {
                     width: 100%;
+                    margin-bottom: 20px;
                  }
             }
         }
+        .exh_sketchfab_iframe {
+            max-width: 1300px;
+            margin: auto;
+        }
+
+        .exh_h5p_2dviewer {
+            max-width: 800px;
+            margin: auto;
+        }
 
        .exh_h5p_iframe {
+            height: 100%;
             margin-top: 30px;
             text-align: center;
+            max-width: 1300px;
+            margin: auto;
 
             &.iframe_border {
 
                 iframe {
-                    border: 1px solid;
+
+                    body {
+                        margin: 0 !important;
+                    }
                 }
             }
 
             iframe {
                 @media screen and ( max-width: breakpoint( xl, max-width ) ) {
                     width: -webkit-fill-available !important;
-                    height: 1000px;
+                    height: 700px;
                  }
 
                  @media screen and ( max-width: breakpoint( lg, max-width ) ) {
-                    height: 900px;
+                    height: 600px;
                  }
 
                  @media screen and ( max-width: breakpoint( md, max-width ) ) {
-                 height: 800px;
+                 height: 500px;
                  }
 
                 @media screen and ( max-width: breakpoint( sm, max-width ) ) {
-                  height: 700px;
+                  height: 400px;
                  }
             }
         }
@@ -709,7 +754,7 @@ button:disabled {
 
           p {
             line-height: 1.3em;
-            margin: 10px 0
+            margin: 10px 0 15px;
           }
       }
 
@@ -762,6 +807,10 @@ button:disabled {
 
             @media screen and ( max-width: breakpoint( xl, max-width ) ) {
                 font-size: 20px
+            }
+
+            @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+                margin: 0 !important;
             }
         }
     }
@@ -837,6 +886,9 @@ button:disabled {
             @media screen and ( max-width: breakpoint( xl, max-width ) ) {
                 font-size: 20px
             }
+            @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+                margin: 25px 0 !Important;
+            }
         }
   
         h2 {
@@ -862,7 +914,7 @@ button:disabled {
             color: #fff;
             background-color: blue;
             margin: 0;
-            padding: 10px 0;
+            padding: 10px;
             font-size: 2.3rem;
             width: 60%;
             border: 1px solid;
@@ -886,6 +938,10 @@ button:disabled {
 
             h1 {
                 margin: 0;
+
+                @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+                    margin: 0 !important;
+                }
             }
         }
 
@@ -921,6 +977,7 @@ button:disabled {
                     position: absolute;
                     left: -50px;
                 }
+                
             }
        
             input[type="radio"]:checked + label::after {
@@ -948,6 +1005,10 @@ button:disabled {
                 margin: 0 0 40px;
                 font-size: 1.2rem;
                 font-family: 'Roboto-Regular';
+
+                @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+                    font-size: 16px;
+                }
             }
 
             &:nth-child(1) {
@@ -1012,9 +1073,13 @@ button:disabled {
         font-size: 2.3rem;
         
         @media screen and ( max-width: breakpoint( xl, max-width ) ) {
-            font-size: 20px
+            font-size: 23px
         }
-    
+        @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+            white-space: normal;
+        }
+
+      
     }
 
     &.badgeConflictInner {
@@ -1046,6 +1111,7 @@ button:disabled {
         select {
             padding: 10px;
             border: 1px solid;
+            width: -webkit-fill-available;
         }
        
         h3 {
@@ -1067,10 +1133,7 @@ button:disabled {
 
     p {
         font-family: 'Roboto-Regular';
-        font-size: 25px;
-        @media screen and ( max-width: breakpoint( md, max-width ) ) {
-            font-size: 18px;
-         }
+        font-size: 13px;
     }
   }
 
@@ -1089,7 +1152,7 @@ button:disabled {
         }
     }
   }
-  
+   
   .btnExhibit{
     &:hover {
         background-color: blue !important;
@@ -1271,6 +1334,18 @@ button:disabled {
         font-size: 35px;
         transition: 0.3s;
 
+        @media screen and ( max-width: breakpoint( lg, max-width ) ) {
+            font-size: 30px;  
+        }
+
+        @media screen and ( max-width: breakpoint( md, max-width ) ) {
+            font-size: 25px;  
+        }
+        
+        @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+            font-size: 20px;  
+        }
+
         &:before {
             content: "";
             background-image: url(/images/exhibition_assets/arrow_blue.svg);
@@ -1284,6 +1359,17 @@ button:disabled {
             top: -90px;
             width: 100px;
             transform: rotate(-45deg);
+
+            @media screen and ( max-width: breakpoint( sm, max-width ) ) {
+                top: -115px;
+                width: auto;
+                transform: unset;
+                left: 0;
+                right: 0;
+                margin: auto;
+                text-align: center;
+                background-position: center;
+            }
         }
 
         &:hover {

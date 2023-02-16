@@ -9,18 +9,13 @@ function ReinNavbarExhibConflict() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     const location = useLocation()
-    const hideNavbarPaths = [
-      "/exhibitions/conflicts/ConflictExhibitionOverview",
-      "/exhibitions/conflicts/ConflictObjects/ConflictObjOne",
-      "/exhibitions/conflicts/ConflictObjects/ConflictObjTwo",
-      "/exhibitions/conflicts/ConflictObjects/ConflictObjThree",
-    ]
+   
 
-    const hideNavbar = hideNavbarPaths.includes(location.pathname)
+    
 
     return (
       <React.Fragment>
-          {!hideNavbar && (
+       
     <Navbar
         collapseOnSelect
         expand="true"
@@ -80,7 +75,7 @@ function ReinNavbarExhibConflict() {
        
           </Container>
         </Navbar>
-          )}
+       
       </React.Fragment>
     )
   }

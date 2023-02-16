@@ -15,14 +15,14 @@ return (
   <div className="conflicts">
   <h4 className="conflicts">The Cherry Rage is a woodcut by the Austrian artist Axl Leskoschek. The artwork was created in 1955 and measures 44,5 x 31,5 cm. It is part of the collection of the Graz Museum in Graz, Austria.</h4>
 
-<Badge className="badgeConflicts rounded-pill"><h1>The Story of the Cherry Rage</h1></Badge>
+<Badge className="badgeConflicts rounded-pill exh_m_btm"><h1>The Story of the Cherry Rage</h1></Badge>
 
 <div className="exh_h5p_iframe">
-<iframe src="https://collection.reinherit-hub.eu/h5p-thecherryrage.html" width="1000" height="700"></iframe>
+<iframe src="https://collection.reinherit-hub.eu/h5p-thecherryrage.html" width="100%" height="900px"></iframe>
 </div>
 
 <div className="exh_h5p_iframe iframe_border">
-<iframe src="https://collection.reinherit-hub.eu/h5p-thecherryrage_2.html" width="1000" height="720"></iframe>
+<iframe src="https://collection.reinherit-hub.eu/h5p-thecherryrage_2.html" width="100%" height="900px"></iframe>
 </div>
 
 <div className="exh_object_btm">

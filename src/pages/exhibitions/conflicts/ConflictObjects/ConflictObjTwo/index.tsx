@@ -14,19 +14,18 @@ return (
   <h4 className="conflicts">The pyxis is a clay vessel with lid traditionally used for placing women's jewelry and cosmetics. Dated at 760-750 BC, this pyxis measures 26,5 cm in height and 32,5 cm in depth and is part of the collection at the Museum of Cycladic Art in Athens, Greece.
   </h4>
 
-<Badge className="badgeConflicts rounded-pill"><h1>The Story of the Pyxis</h1></Badge>
+<Badge className="badgeConflicts rounded-pill exh_m_btm"><h1>The Story of the Pyxis</h1></Badge>
 
 <div className="exh_h5p_iframe">
-<iframe src="https://collection.reinherit-hub.eu/h5p-pyxis.html" width="1000" height="1400"></iframe>
+<iframe src="https://collection.reinherit-hub.eu/h5p-pyxis.html" width="100%" height="1700"></iframe>
 </div>
 
-<Badge className="badgeConflicts rounded-pill"><h1>Viewer</h1></Badge>
 
-<div> 
+<div className="exh_sketchfab_iframe"> 
 <div className="sketchfab-embed-wrapper mt-5"> 
 <iframe title="Pyxis With Lid" 
 src="https://sketchfab.com/models/f1fd94248210431cb1d2cc01558c7575/embed"
-width="640" height="480" > 
+width="100%" height="100%" > 
 </iframe> 
 </div>
 </div>
