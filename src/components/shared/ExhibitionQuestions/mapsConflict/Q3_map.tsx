@@ -4,6 +4,7 @@ import mapboxgl from '!mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import creds from '../questionsConflict/cred/myjson.json'
 import {GoogleSpreadsheet} from "google-spreadsheet"
+import { Button } from "react-bootstrap"
 
 const MapQThree = () => {
   mapboxgl.accessToken = "pk.eyJ1Ijoia2lhLXoiLCJhIjoiY2xkZzRnZjRnMHRvazN2bzZ0cnh4OWtzeSJ9.COmQgzmRsKnMZKw77WDF6w"
@@ -166,7 +167,7 @@ const MapQThree = () => {
 
 
 
-        <div className="visitCollection"><button className="">Visit Collection</button></div>
+        <div className="visitCollection"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
     </React.Fragment>
     );          
 }

@@ -4,6 +4,7 @@ import mapboxgl from '!mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import creds from '../questionsConflict/cred/myjson.json'
 import {GoogleSpreadsheet} from "google-spreadsheet"
+import { Button } from "react-bootstrap"
 
 const MapQOne = () => {
   mapboxgl.accessToken = "pk.eyJ1Ijoia2lhLXoiLCJhIjoiY2xkZzRnZjRnMHRvazN2bzZ0cnh4OWtzeSJ9.COmQgzmRsKnMZKw77WDF6w"
@@ -162,9 +163,7 @@ const MapQOne = () => {
                 <div className="exh_map_quest_result"><span>E</span><p>I don't see why a world without violence shouldn't be possible. There is always an alternative to violence. For those who have realized that violence only generates counter-violence, renunciation of violence is the only way to improvement.</p></div>
         </div>
 
-
-
-        <div className="visitCollection"><button className="">Visit Collection</button></div>
+        <div className="visitCollection"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
     </React.Fragment>
     );          
 }

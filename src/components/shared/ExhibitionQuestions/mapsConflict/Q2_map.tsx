@@ -4,6 +4,7 @@ import mapboxgl from '!mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import creds from '../questionsConflict/cred/myjson.json'
 import {GoogleSpreadsheet} from "google-spreadsheet"
+import { Button } from "react-bootstrap"
 
 const MapQTwo = () => {
   mapboxgl.accessToken = "pk.eyJ1Ijoia2lhLXoiLCJhIjoiY2xkZzRnZjRnMHRvazN2bzZ0cnh4OWtzeSJ9.COmQgzmRsKnMZKw77WDF6w"
@@ -162,10 +163,8 @@ const MapQTwo = () => {
             <div className="exh_map_quest_result"><span>E</span><p>Imagine your parents' house suddenly being illegally occupied. What should prevent you from fighting back? Nothing. Any questions?</p></div>
         </div>
 
-
-
-        <div className="visitCollection"><button className="">Visit Collection</button></div>
-    </React.Fragment>
+        <div className="visitCollection"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
+      </React.Fragment>
     );          
 }
 

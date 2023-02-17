@@ -61,7 +61,7 @@ function ReinNavbarExhibConflict() {
                 <Link
                 className="link-light text-decoration-none"
                 to="/museumcalls/digital">
-                Contribute to the digital collection
+                Object Contribution
                 </Link>
               <div className="exh_space"></div>
               <p>Travelling Exhibition:</p>
