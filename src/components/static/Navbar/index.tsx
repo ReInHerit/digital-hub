@@ -71,7 +71,20 @@ const ReinNavbar: React.FC = () => {
               </Nav.Link>
 
               <NavDropdown title="Resources" id="basic-nav-dropdown">
-                {/*<Link
+                <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/webinars"
+                >
+                  Webinars
+                </Link>
+                 {/*
+                <Link
+                   className="text-dark text-decoration-none dropdown-item"
+                   to="/factsheets"
+                 >
+                   Research factsheets
+                 </Link>
+               <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/resources"
                 >
@@ -81,7 +94,7 @@ const ReinNavbar: React.FC = () => {
                   className="text-dark text-decoration-none dropdown-item"
                   to="/tools/apps"
                 >
-                  Tool apps
+                  Applications documentation
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
@@ -89,23 +102,17 @@ const ReinNavbar: React.FC = () => {
                 >
                   Tool components
                 </Link> */}
-                <Link
-                  className="text-dark text-decoration-none dropdown-item"
-                  to="/webinars"
-                >
-                  Webinars
-                </Link>
               {/*  <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/game"
                 >
-                  Game
+                  Videogame documentation
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/performances"
                 >
-                  Performances
+                  Performances documentation
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
@@ -114,14 +121,57 @@ const ReinNavbar: React.FC = () => {
                   Best practices
                 </Link> */}
           </NavDropdown>
-                
+          
+          <NavDropdown title="Discover" id="basic-nav-dropdown">
+                <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/exhibitions"
+                >
+                  Exhibitions
+                </Link>
+                <a href="https://collection.reinherit-hub.eu/"
+                  className="text-dark text-decoration-none dropdown-item"
+                >
+                  Digital Collection
+                </a>
                 <Link
                  style={{ color: "#424753" }}
-                 className="text-decoration-none nav-link"
+                 className="text-dark text-decoration-none dropdown-item"
                  to="/eshop"
                >
                  eShop
                </Link>
+               <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/podcasts"
+                >
+                  Museum Up podcast
+                </Link>
+          </NavDropdown>
+        
+          <NavDropdown title="Participate" id="basic-nav-dropdown">
+                <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/networkinghub"
+                >
+                  Forum
+                </Link>
+                <Link
+                style={{ color: "#424753" }}
+                className="text-dark text-decoration-none dropdown-item"
+                to="/museumcalls/travelling"
+              >
+                Host an exhibition
+              </Link>
+              <Link
+                style={{ color: "#424753" }}
+                className="text-dark text-decoration-none dropdown-item"
+                to="/museumcalls/digital"
+              >
+                Contribute to the collection
+              </Link>
+          </NavDropdown>
+
 
               {/* <Link className="text-dark text-decoration-none nav-link" to="/">Events</Link> */}
               {/*<NavDropdown title="Events" id="basic-nav-dropdown">
@@ -137,61 +187,34 @@ const ReinNavbar: React.FC = () => {
                 >
                   Performances
                 </Link>
-                <Link
-                  className="text-dark text-decoration-none dropdown-item"
-                  to="/exhibs/travel"
-                >
-                  Travelling exhibitions
-                </Link>
-                <Link
-                  className="text-dark text-decoration-none dropdown-item"
-                  to="/hackathon"
-                >
-                  Hackathon
-                </Link>
               </NavDropdown>
-              <Nav.Link as="div">
-                <Link
-                  className="text-dark text-decoration-none"
-                  to="/exhibitions"
-                >
-                  Exhibitions
-                </Link>
-              </Nav.Link> */}
-         
-              <Link
-                style={{ color: "#424753" }}
-                className="text-decoration-none nav-link"
-                to="/networkinghub"
-              >
-                Forum
-              </Link>
+             */}             
             
             </Nav>
 
-            {/*
+            
             <Nav>
-              <NavDropdown title="Portal" id="basic-nav-dropdown">
+            {/* 
+            <NavDropdown title="Portal" id="basic-nav-dropdown">
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/resources"
                 >
-
                   Resources
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/networkinghub"
                 >
-                  Forum
+                  Networking Hub
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/visitorhub"
                 >
-                  Exhibitions
+                  Discover
                 </Link>
-              </NavDropdown>
+              </NavDropdown> */}
               <Nav.Link
                 className="justify-content-end"
                 as="div"
@@ -205,7 +228,7 @@ const ReinNavbar: React.FC = () => {
                   Search
                 </Link>
               </Nav.Link> 
-            </Nav> */}
+            </Nav> 
           </Navbar.Collapse>
         </Container>
       </Navbar>
