@@ -49,8 +49,9 @@ query FactsheetsQuery {
           target_audience
           layout
           theme
-          mainReference
           thumbnail
+          mainImage
+          abstract
         }
         excerpt
         html

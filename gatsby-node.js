@@ -36,7 +36,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
     const mdId = edge.node.frontmatter.pageId
     actions.createPage({
       path: `/factsheets/${mdId}`,
-      component: require.resolve(`./src/templates/toolkit.js`),
+      component: require.resolve(`./src/templates/factsheets.js`),
       context: { id: mdId },
     })
   })

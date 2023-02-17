@@ -199,6 +199,11 @@ collections:
           required: false,
         }
       - {
+        label: "Abstract",
+        name: "abstract",
+        widget: "string",
+        }
+      - {
           label: "License",
           name: "license",
           widget: "string",
@@ -212,6 +217,11 @@ collections:
           required: false,
           media_library: { config: { max_file_size: 100000 } },
         } # in bytes, only for default media library
+      - { label: "Download PDF",
+          name: "mainImage",
+          widget: "file",
+          media_library: { config: { max_file_size: 50000000 } },
+      }
       - {
           label: "Body",
           name: "body",
