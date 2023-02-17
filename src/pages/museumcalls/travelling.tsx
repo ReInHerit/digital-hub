@@ -49,8 +49,9 @@ const travellingCall = () => {
  
 <h5>4 IMPLEMENT THE CONTENT</h5>
 <ul>
-<li>Download the <a href="">„implementation instructions“</a></li>
+<li>Download the „implementation instructions“</li>
 </ul>
+<a style={{borderRadius:0}} href="/images/tempBrochures/RIH-BRO-TRAV.pdf" download="museumcall_digital" className="btn btn-info border-radius-0" target="_blank" rel="noreferrer">Click here to see the instructions and download them as PDF</a>
 </Container>
     </BaseLayout>
   
