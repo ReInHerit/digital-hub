@@ -13,26 +13,28 @@ const ResourcesPage = () => {
     >
 
       <MainHeading
-        subHeading="Useful tools, educational material, guidelines, etc. for cultural heritage professionals."
-        subText="Here you'll find an overview of all resources developed and provided by ReInHerit. Browse through the items and learn how to implement them in your institution."
+        subHeading="Tools, training material, and factsheets for cultural heritage professionals."
+        subText="Browse through the ReInHerit resources and adopt them."
         breadCrumb={[
           {label:"Resources", value:"/resources"}
         ]}
       >Resources</MainHeading>
       <ReinCardGrid>
+{/*
         <ReinGridCard
-          title="Tool apps"
+          title="Apps"
           url="/tools/apps"
           body="Applications that are either developed within the ReInHerit project or play an important role for CH management or preservation."
         />
         <ReinGridCard
           title="Tool components"
           url="/tools/components"
-          body="Necessary building blocks for the applications provided by ReInHerit."
+          body="Learn more about the building blocks of the applications provided by ReInHerit."
         />
+      */}
         <ReinGridCard
           title="Webinars"
-          body="Training material either on the tools developed in the ReInHerit-project or generally on digitization in the CH sector, CH management and preservation. "
+          body="Webinars on digital tools and methods, cultural heritage management, and cultural tourism."
           url="/webinars"
         />
           <ReinGridCard
@@ -40,6 +42,7 @@ const ResourcesPage = () => {
           body="Factsheets for Cultural Heritage Management."
           url="/factsheets"
         />
+      {/*
         <ReinGridCard
           title="Game"
           body="Video game developed within the ReInHerit project."
@@ -55,6 +58,8 @@ const ResourcesPage = () => {
           body="Guidelines, recommendations and manuals related to digital cultural heritage management."
           url="/tools"
         />
+    */}
+      
         </ReinCardGrid>
 
     </BaseLayout>
