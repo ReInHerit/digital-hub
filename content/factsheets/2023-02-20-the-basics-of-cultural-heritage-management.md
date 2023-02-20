@@ -55,9 +55,13 @@ At the core of the CHM should be the concept of sustainability that currently do
 The first step a museum or a heritage site should take into account in order to draft a successful and implementable CHM is to understand the needs, challenges and bottlenecks in this area as well as identify the opportunities. It is then that museums and CH institutions should start to design a CHM. It is helpful if one has a thorough understanding of the character of the CH (tangible or intangible) to be managed, is acquainted with the wide set of legal instruments (hard and soft law ones) for safeguarding CH, of the resources, both human and financial, and of the relevant key stakeholders that are involved in the protection and development of CH. In this context a CHM should reflect:
 
 * **a people centered and environmentally friendly approach** in order for museums and heritage sites to be able to respond to challenges and needs and to seize opportunities
+
 * **a clear orientation towards the concepts of inclusivity, innovation, accessibility, relevance, democratisation, sustainability, resilience, ethics, diversity, professionalism, cooperation, and community participation**
+
 * **flexibility and adaptability**
+
 * **strategies accompanied by clear policies, guidelines, and a road map on strategies implementation and resource allocation in order to facilitate the success of the process** 
+
 * **a clear knowledge of the application of digital technologies, methods, tools, plans, actions, etc.,** which are of relevant to the CH sector.
 
 ### CHM in periods of crises
