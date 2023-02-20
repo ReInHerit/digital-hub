@@ -1,8 +1,11 @@
 import React from "react"
-import { Col, Row, Container } from "react-bootstrap"
+import { Col, Row, Container, Carousel, Card, Tabs, Tab, Image, Button, CardGroup } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faBookOpen, faChevronDown, faLandmark, faPeopleArrows } from "@fortawesome/free-solid-svg-icons"
 import { Link } from "gatsby"
+import LatestFeedManagement from "./shared/LatestFeed/management"
+import LatestFeedTourism from "./shared/LatestFeed/tourism"
+import LatestFeedTechnology from "./shared/LatestFeed/technology"
 
 const Hero = () => {
 
@@ -12,171 +15,169 @@ const Hero = () => {
 
   return (
     <div style={{ minHeight: "75vh" }} id="reinheritHero">
-      <div
-        className="d-none d-md-block"
-        style={{
-          backgroundImage:
-            'url("/images/reinherit-slider-1.webp")',
-          width: "99vw",
-          height: "75vh",
-          backgroundRepeat:"no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover"
-        }}
-      >
-        <Row>
-          <Col md={7}>
-
-          </Col>
-          <Col>
-            <div style={{marginTop:"35vh"}}></div>
-            <h1 className="h1" style={{color:"#7F4734", fontWeight:400, fontSize:"3em", textAlign:"center"}}>ReInHerit Digital Hub</h1>
-            <br></br>
-            <h2 style={{textAlign:"center", fontWeight:400, color:"#5f4136"}} className="h5">Resources, information, and collaboration in cultural heritage and tourism</h2>
-          </Col>
-          <Col md={1}></Col>
-        </Row>  
-      </div>
+    <div
+      className="d-none d-md-block"
+      style={{
+        backgroundImage:
+          'url("/images/bannerVase.jpg")',
+        width: "99vw",
+        height: "65vh",
+        backgroundRepeat:"no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "cover"
+      }}
+    >
+      <Row>
+        <Col md={7}>
+        </Col>
+        <Col>
+          <div style={{marginTop:"25vh"}}></div>
+          <h1 className="h1" style={{color:"#7F4734", fontWeight:450, fontSize:"3em", textAlign:"center"}}>ReInHerit Digital Hub</h1>
+          <br></br>
+          <h2 style={{textAlign:"center", fontWeight:400, color:"#5f4136"}}>Resources, information, and collaboration in cultural heritage and tourism</h2>
+        </Col>
+        <Col md={1}></Col>
+      </Row>  
+    </div>
       
-      <div className="d-md-none text-center pt-5">
-        <br/>
-        <h1 className="h1" style={{color:"#7F4734", fontWeight:400, fontSize:"3em", textAlign:"center"}}>ReInHerit Digital Hub</h1>  
-        <br></br>
-        <img alt="ReInHerit stock image" src="/images/reinherit-slider-1.webp" width={300}></img>
-        <br/>
-        <br/>
-      </div>
 
       <Container className="p-md-4 ps-md-5 pe-md-5 text-center">
         <p className="ms-5 me-5 ps-sm-5 pe-sm-5" style={{fontSize:"1.35em", fontWeight:400}}>The Digital Hub of the ReInHerit project hosts the project exhibitions and gives access to engaging content for anyone passionate about heritage. Heritage professionals will find resources and training material to foster and support cultural tourism in museums and heritage sites, and a networking platform to connect and exchange experiences.</p>
         <br></br>
         <h3>Choose your path and #MakeItYourOwn!</h3>
-        <br></br>
-        <div style={{minHeight: 150}}><img alt="ReInHerit logo" loading="lazy" src="/images/Reinherit-Logo(61x60).webp" height={61} width={60}></img></div>
-        
-        <FontAwesomeIcon icon={faChevronDown} style={{fontSize:"3em"}}></FontAwesomeIcon>
-        
+        <br></br>        
       </Container>
       
       <br />
       
       <br />
-      
-      <Row style={{backgroundColor:"#f463ca", minHeight:"10vh", textAlign:"center"}}>
+      <Container className="p-md-4 ps-md-5 pe-md-5 text-center">
+      <Row xs={1} md={3} xxl={3} className="g-3" style={{minHeight:"50vh", textAlign:"center"}}>
+      <Col>
+      <Card style={{minHeight: "35vh", borderColor:"#f463ca", borderWidth: "0.50em"}}>
+         <Link to="/resources" className="text-decoration-none text-dark">
+            <Card.Body>
+              <Card.Title style={{fontSize:"1.5em", fontWeight:350}}>
+              <FontAwesomeIcon icon={faBookOpen} pull="left" /> 
+                Resources for professionals
+              </Card.Title>
+              <hr />
+              <Card.Text style={{fontSize:"1.15em"}}>
+              Here you can find webinars, a toolkit, and documentation. There are step-by-step guides to the development and implementation of innovative digital tools - and best practices in cultural heritage management and engagement.
+              </Card.Text>
+            </Card.Body>
+          </Link> 
+      </Card>
+      </Col>
+      <Col>
+      <Card style={{minHeight: "35vh", borderColor:"#f6f73e", borderWidth: "0.50em"}}>
+         <Link to="/networkinghub" className="text-decoration-none text-dark">
+            <Card.Body>
+            <Card.Title style={{fontSize:"1.5em", fontWeight:350}}>
+              <FontAwesomeIcon icon={faPeopleArrows} pull="left" />
+                Networking platform
+              </Card.Title>
+              <hr />
+              <Card.Text style={{fontSize:"1.15em"}}>
+              Here you can find a forum organised around key themes in cultural heritage management, collecting best practices and lessons learnt in developing collaborations across tourism, heritage sites, museums, policy makers, and the public.
+              </Card.Text>
+            </Card.Body>
+          </Link> 
+      </Card>
+      </Col>
+      <Col>
+      <Card style={{minHeight: "35vh", borderColor:"#52e33b", borderWidth: "0.50em"}}>
+         <Link to="/visitorhub" className="text-decoration-none text-dark">
+            <Card.Body>
+            <Card.Title style={{fontSize:"1.5em", fontWeight:350}}>
+              <FontAwesomeIcon icon={faLandmark} pull="left" />
+                Discover collections & events
+              </Card.Title>
+              <hr />
+              <Card.Text style={{fontSize:"1.15em"}}>
+              Here you can find the project digital exhibitions, videos and images from the project immersive performances, and apps that let you play and interact with cultural heritage in innovative ways.
+              </Card.Text>
+            </Card.Body>
+          </Link> 
+      </Card>
+      </Col>
       </Row>
-      <Row style={{minHeight:"50vh", textAlign:"center"}}>
-      <Col md={4} className="reincard" style={{backgroundColor:"#76e165"}}>
-            <Link to="" style={{color:"black", textDecoration:"none"}}>
-              <Container className="mt-md-3 p-md-5 h-100 w-100" style={textContainerStyle}>
-                <FontAwesomeIcon icon={faBookOpen} style={{fontSize:"6em"}}></FontAwesomeIcon>
-                <br></br>
-                <br></br>
-                <h2 className="h5">Discover the ReInHerit resources!</h2>
-                <p>Here you can find webinars, a toolkit, and documentation. There are step-by-step guides to the development and implementation of innovative digital tools - and best practices in cultural heritage management and engagement.</p>
-              </Container> 
-            </Link>
-          </Col>
-          <Col md={4} className="reincard" style={{backgroundColor:"#feff63"}}>
-          <Link to="/networkinghub" style={{color:"black", textDecoration:"none"}}>
-            <Container className="mt-md-3 p-md-5 h-100 w-100" style={textContainerStyle}>
-            <FontAwesomeIcon icon={faPeopleArrows} style={{fontSize:"6em"}}></FontAwesomeIcon>
-            <br></br>
-            <br></br>
-              <h2 className="h5">Share your experience and connect!</h2>
-              <p>Here you can find a forum organised around key themes in cultural heritage management, collecting best practices and lessons learnt in developing collaborations across tourism, heritage sites, museums, policy makers, and the public.</p>
-            </Container>
-          </Link>
-          </Col>
-          <Col md={4} className="reincard" style={{backgroundColor:"#aee8f9"}}>
-            <Link to="" style={{color:"black", textDecoration:"none"}}>
-              <Container className="mt-md-3 h-100 w-100 p-md-5" style={textContainerStyle}>
-              <FontAwesomeIcon icon={faLandmark} style={{fontSize:"6em"}}></FontAwesomeIcon>
-              <br></br>
-              <br></br>
-                  <h2 className="h5">Enjoy cultural heritage online!</h2>
-                  <p>Here you can find the project digital exhibitions, videos and images from the project immersive performances, and apps that let you play and interact with cultural heritage in innovative ways.</p>
-              </Container>
-            </Link>
-          </Col>
+      </Container>
 
-        {/*  
-          <Col md={8} className="reincard">
-            <Link to="resources" style={{color:"black", textDecoration:"none"}}>
-              <Container className="mt-md-3 p-md-5 h-100 w-100" style={textContainerStyle}>
-                <h2 className="h5">Discover the ReInHerit resources!</h2>
-                <p>Here you can find webinars, a toolkit, and documentation. There are step-by-step guides to the development and implementation of innovative digital tools - and best practices in cultural heritage management and engagement.</p>
-              </Container>
-            </Link>
-          </Col>
-          <Col md={4}>
-            <div
-              style={{
-                backgroundImage:"url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')",
-                width:"100%",
-                height:"100%",
-                minHeight:"100px",
-                backgroundRepeat:"no-repeat",
-                backgroundPosition: "center",
-                backgroundSize: "cover"
-              }}
-            ></div>
-          </Col>
-      </Row>
+      <div
+style={{
+ backgroundImage:'url("/images/bannerPeople.jpg")',
+ width: "99vw",
+ height: "45vh",
+ backgroundRepeat:"no-repeat",
+ backgroundPosition: "center",
+ backgroundSize: "cover"
+ }}>
+ <Row xs={1} md={2} style={{minHeight:"40vh", textAlign:"center"}}>
+  <Col sm>
+     <Card className="ms-5 me-3 g-5" style={{marginTop:"8vh", maxWidth:"75vh"}}>
+      <Card.Header as="h4">Featured</Card.Header>
+      <Card.Body>
+        <Card.Title>ReThinking CONFLICTS</Card.Title>
+        <Card.Text>
+          The first ReInHerit exhibition opened at the Graz Museum in February 2023 - and, in parallel, the corresponding digital exhibition was launched.
+        </Card.Text>
+        <Button variant="success" href="/exhibitions/conflicts/ConflictQuestions/1stQuestionConflict/">Visit the digital exhibition</Button>
+      </Card.Body>
+    </Card>
+  </Col>
+  <Col sm>
+     <Card className="ms-3 me-5 g-5" style={{marginTop:"8vh", maxWidth:"75vh"}}>
+      <Card.Header as="h4">Featured</Card.Header>
+      <Card.Body>
+        <Card.Title>ReInHerit Webinars</Card.Title>
+        <Card.Text>
+          The webinars cover a range of topic in cultural heritage management and digital practices. A new webinar is published every two weeks.
+        </Card.Text>
+        <Button variant="warning" href="/webinars">Check the past webinars</Button>
+      </Card.Body>
+    </Card>
+  </Col>
+</Row>
+</div>
 
-      <Row style={{backgroundColor:"#faf107", minHeight:"50vh", textAlign:"center"}}>
-          <Col md={4}>
-          <div
-              style={{
-                backgroundImage:"url('https://images.unsplash.com/photo-1566443280617-35db331c54fb?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774')",
-                width:"100%",
-                height:"100%",
-                backgroundRepeat:"no-repeat",
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-                minHeight:"100px"
-              }}
-            ></div>
-          </Col>
-          <Col md={8} className="reincard">
-          <Link to="networkinghub" style={{color:"black", textDecoration:"none"}}>
-            <Container className="mt-md-3 p-md-5 h-100 w-100" style={textContainerStyle}>
-              <h2 className="h5">Share your experience and connect!</h2>
-              <p>Here you can find a forum organised around key themes in cultural heritage management, collecting best practices and lessons learnt in developing collaborations across tourism, heritage sites, museums, policy makers, and the public.</p>
-            </Container>
-          </Link>
-          </Col>
-      </Row>
+<Container className="mt-3 mb-3 p3 text-center">
+  <Row>
+  <Container className="mt-3 p-1" style={textContainerStyle}>
+    <h3 className="mb-3 mt-3" style={{textAlign:"center"}}>Latest by topic</h3>
+          <Tabs
+            defaultActiveKey="Technology"
+            className="mb-3 mt-5"
+            fill
+            variant="pills"
+            style={{fontSize:"1.20em"}}
+          >
+            <Tab eventKey="Technology" title="Technology">
+              <LatestFeedTechnology></LatestFeedTechnology>
+            </Tab>
+            <Tab eventKey="Management" title="Management">
+              <LatestFeedManagement></LatestFeedManagement>         
+            </Tab>
+            <Tab eventKey="Tourism" title="Tourism">
+              <LatestFeedTourism></LatestFeedTourism>
+            </Tab>
+          </Tabs>
+          </Container>
+  </Row>   
+</Container>
 
+<div
+style={{
+ backgroundImage:'url("/images/bannerObjects.jpg")',
+ width: "99vw",
+ height: "45vh",
+ backgroundRepeat:"no-repeat",
+ backgroundPosition: "center",
+ backgroundSize: "cover"
+ }}>
+</div>
 
-      <Row style={{backgroundColor:"#b6ca76", minHeight:"50vh", textAlign:"center"}}>
-          <Col md={8} className="reincard">
-            <Link to="visitorhub" style={{color:"black", textDecoration:"none"}}>
-              <Container className="mt-md-3 h-100 w-100 p-md-5" style={textContainerStyle}>
-                  <h2 className="h5">Enjoy cultural heritage online!</h2>
-                  <p>Here you can find the project digital exhibitions, videos and images from the project immersive performances, and apps that let you play and interact with cultural heritage in innovative ways.</p>
-              </Container>
-            </Link>
-          </Col>
-          <Col md={4}>
-            <div
-                style={{
-                  backgroundImage:"url('https://www.reinherit.eu//images//Consortium/Graz%20Museum/Archivalien_c_LenaPrehal_011.jpg')",
-                  width:"100%",
-                  height:"100%",
-                  backgroundRepeat:"no-repeat",
-                  backgroundPosition: "center",
-                  backgroundSize: "cover",
-                  minHeight:"100px"
-                }}
-              ></div>
-          </Col>
-*/}
-
-
-      </Row>
-      
-
-    </div>
+</div>
   )
 }
 export default Hero
