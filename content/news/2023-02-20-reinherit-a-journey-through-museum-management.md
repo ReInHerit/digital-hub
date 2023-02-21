@@ -14,11 +14,9 @@ thumbnail: https://ucarecdn.com/a5979369-365c-44dd-9bd2-5e9fb48ea927/
 ---
 <!--StartFragment-->
 
-We are excited to announce our new game project “ReInherit: A journey through Museum Management” (working title). An upcoming educational computer game, aiming to teach people about how museums function in a fun and entertaining way.  Players will be able to build and run their own museums, featuring real-life artifacts, museum roles, and concepts. It is being worked on by our humble team at CYENS with the support of the Bank of Cyprus Cultural Foundation (BOCCF). And we have a mission: To raise the public's interest in museums, and to make them cool again! 
+We are excited to announce our new game project “ReInherit: A journey through Museum Management” (working title). An upcoming educational computer game, aiming to teach people about how museums function in a fun and entertaining way.  Players will be able to build and run their own museums, featuring real-life artifacts, museum roles, and concepts. It is being worked on by a team at CYENS with the support of the Bank of Cyprus Cultural Foundation (BOCCF). And we have a mission: To raise the public's interest in museums, and to make them cool again! 
 
 <!--EndFragment-->
-
-
 
 #### Who is this game for?
 
@@ -28,8 +26,6 @@ It is targeted primarily towards students, but it can appeal to anyone that enjo
 
 <!--EndFragment-->
 
-
-
 #### What we have so far
 
 <!--StartFragment-->
@@ -38,11 +34,7 @@ We've implemented a good amount of the “core functionality” but we're still 
 
 <!--EndFragment-->
 
-
-
 ![](https://ucarecdn.com/835bd005-95f2-4646-9c17-fa692c126764/ "Early game screenshot")
-
-
 
 #### Our Workflow
 
@@ -55,8 +47,6 @@ Our game engine of choice is Unity, which is powerful yet easy to use. It suppor
 Furthermore, we make use of a variety of tools for different purposes. Blender is used to edit and create custom models, Mixamo is used to rig and animate our characters, and Meshlab is used to process scanned objects. We also employ A.I models such as Stable-Diffusion and ChatGPT to create content for our game. 
 
 <!--EndFragment-->
-
-
 
 #### Closing Remarks
 
