@@ -6,8 +6,7 @@ title: "Connecting professionals: cooperation and peer learning"
 date: 2023-02-24T09:27:37.375Z
 target-audience:
   - PROFESSIONAL
-theme:
-  - Management
+theme: Other
 abstract: "It is the professionals in museums and cultural heritage sites that
   deal with all the multiple challenges that affect the work such as attracting
   new audiences, ensuring that the museum is relevant in a societal sense,
