@@ -14,11 +14,11 @@ thumbnail: https://ucarecdn.com/a5979369-365c-44dd-9bd2-5e9fb48ea927/
 ---
 <!--StartFragment-->
 
-We are excited to announce our new game project “ReInherit: A journey through Museum Management” (working title). An upcoming educational computer game, aiming to teach people about how museums function in a fun and entertaining way.  Players will be able to build and run their own museums, featuring real-life artifacts, museum roles, and concepts. It is being worked on by a team at CYENS with the support of the Bank of Cyprus Cultural Foundation (BOCCF). And we have a mission: To raise the public's interest in museums, and to make them cool again! 
+We are excited to announce our new game project “ReInherit: A journey through Museum Management” (working title). An upcoming educational computer game, aiming to teach people about how museums function, and learn about local antiquities, in a fun and entertaining way.  Players will be able to build and run their own museums, featuring real-life artifacts, museum roles, and concepts. It is being worked on by a team at [CYENS](https://www.cyens.org.cy/en-gb/) with the support of the [Bank of Cyprus Cultural Foundation (BOCCF)](https://www.boccf.org/). And we have a mission: To raise the public's interest in museums
 
 <!--EndFragment-->
 
-#### Who is this game for?
+#### Target Audience
 
 <!--StartFragment-->
 
@@ -26,25 +26,25 @@ It is targeted primarily towards students, but it can appeal to anyone that enjo
 
 <!--EndFragment-->
 
-#### What we have so far
+#### Current State
 
 <!--StartFragment-->
 
-We've implemented a good amount of the “core functionality” but we're still in an alpha stage of development. At this point a player can build rooms, add artifacts, upgrade and/or repair exhibit cases, open the museum to visitors to gain funding, and some basic camera functions. 
+The development of the game is still in the alpha stage, but the "core functionality" is near completion. Currently the player can build rooms, add artifacts, upgrade and/or repair exhibit cases, open the museum to gain funding, and some basic camera functions. 
 
 <!--EndFragment-->
 
 ![](https://ucarecdn.com/835bd005-95f2-4646-9c17-fa692c126764/ "Early game screenshot")
 
-#### Our Workflow
+#### Workflow
 
 <!--StartFragment-->
 
-As we are a small team, consisting primarily of programmers, we need to work smart to achieve our goals. Firstly, we focus on making a more 'systems-based' type game rather than a cinematic/narrative experience. Secondly, we employ a variety of powerful tools to speed up the development process, and to compensate for our lack of artistic skills. 
+The focus is on making a 'systems-based' type game rather than a cinematic/narrative experience.
 
-Our game engine of choice is Unity, which is powerful yet easy to use. It supports the use of plugins, free or otherwise, that can be downloaded from the Unity Asset Store. We've also set up a code repository (Github) to facilitate collaboration. 
+The game engine of choice for the project is [Unity](https://unity.com/), which has a lot of core features that can be extended with the use of plugins, free or otherwise. To facilitate team collaboration we set up a [GitHub](https://github.com/) code repository.
 
-Furthermore, we make use of a variety of tools for different purposes. Blender is used to edit and create custom models, Mixamo is used to rig and animate our characters, and Meshlab is used to process scanned objects. We also employ A.I models such as Stable-Diffusion and ChatGPT to create content for our game. 
+Furthermore, other software and tools are used for different purposes. [Blender](https://www.blender.org/) is used to edit and create custom models, [Mixamo](https://www.mixamo.com/) to rig and animate our characters, and [Meshlab](https://www.meshlab.net/) to process scanned objects. AI models such as [Stable-Diffusion](https://huggingface.co/CompVis/stable-diffusion) and [ChatGPT](https://openai.com/blog/chatgpt/) are used to create some of the content for the game.
 
 <!--EndFragment-->
 
@@ -52,8 +52,8 @@ Furthermore, we make use of a variety of tools for different purposes. Blender i
 
 <!--StartFragment-->
 
-Through these development logs we will give insights on our workflow, as well as lessons learned through trial and error. Hopefully, aspiring game developers will be able to pick up a few neat tricks when making their own management / simulator / edutainment type game.  
+Through these development logs the team aims to give insights on the workflow, as well as lessons learned through trial and error. Hopefully, aspiring game developers will be able to pick up a few neat tricks when making their own management / simulator / edutainment type game.  
 
-Now join us as we embark on this epic journey as we attempt to breathe new life into museums and stay tuned for more updates and devlogs! 
+Join us as we embark on this epic journey as we attempt to breathe new life into museums and stay tuned for more updates and devlogs! 
 
 <!--EndFragment-->
