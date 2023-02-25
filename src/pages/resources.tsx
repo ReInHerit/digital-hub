@@ -49,6 +49,11 @@ const ResourcesPage = () => {
         />
       {/*
         <ReinGridCard
+          title="eShop Documentation"
+          body="ReInHerit eShop documentation"
+          url="/eshopdoc"
+        />
+        <ReinGridCard
           title="Game"
           body="Video game developed within the ReInHerit project."
           url="/tools"
