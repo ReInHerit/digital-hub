@@ -17,7 +17,7 @@ thumbnail: https://ucarecdn.com/63b1f229-eba2-450a-9fcd-e2538cf93f59/
 
 * **March 10th, 2023 from 3:00-4:00 pm CET** 
 * Facilitated by **Chiara Zuanni,**  [Unversity of Graz](https://www.uni-graz.at/en/) -  Austria
-* **Free Registration is open until 8 March 2023 (3 pm)** \*\* [HERE](https://docs.google.com/forms/d/e/1FAIpQLSdTC6-TCwnlTeafBCvroLsHCnC4sCMYyktaYyGPsyS70bwb6A/viewform) \*\*\
+* **Free Registration is open until 9 March 2023 (3 pm)** \*\* [HERE](https://docs.google.com/forms/d/e/1FAIpQLSdTC6-TCwnlTeafBCvroLsHCnC4sCMYyktaYyGPsyS70bwb6A/viewform) \*\*\
   <http://shorturl.at/CHKLR>
 * The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available in the [resources section](https://reinherit-hub.eu/webinars).
 
