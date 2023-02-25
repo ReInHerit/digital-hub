@@ -42,6 +42,11 @@ const ResourcesPage = () => {
           body="Factsheets for Cultural Heritage Management."
           url="/factsheets"
         />
+        <ReinGridCard
+          title="Applications"
+          body="ReInHerit Toolkit Applications"
+          url="/tools/apps"
+        />
       {/*
         <ReinGridCard
           title="Game"

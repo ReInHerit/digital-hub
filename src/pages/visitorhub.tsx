@@ -13,12 +13,12 @@ const VisitorHubPage = () => {
     pageTitle="Hub content | ReInHerit Digital Hub"
     >
       <MainHeading 
-        subHeading="Engage with cultural heritage"
+        subHeading="Visit the ReInHerit digital exhibitions, the online collection, and the eShop; experiment with the ReInHerit applications; and listen to the Museums Up podcast."
         // subText="Here you'll find  digital exhibitions, videos and images from the project immersive performances, and apps that let you play and interact with cultural heritage in innovative ways."
         breadCrumb={[
           {label:"Engage", value:"/visitorhub"}
         ]}
-      >Hub content</MainHeading>
+      >Engage with Cultural Heritage and explore ReInHerit tools</MainHeading>
       <ReinCardGrid>
         <ReinGridCard
           body="Free artistic designs created during the ReInHerit project. All are free to download and available for the public."
@@ -39,6 +39,11 @@ const VisitorHubPage = () => {
           body="Visit the ReInHerit digital collections, bringing together European heritage."
           title="Digital collection"
           url="https://collection.reinherit-hub.eu/"
+        />
+        <ReinGridCard
+          body="Discover the ReInHerit applications, using Computer Vision technology to foster engagement in museums."
+          title="Applications"
+          url="/applications"
         />
 
         {/*

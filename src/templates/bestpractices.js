@@ -16,10 +16,6 @@ export default function Template({
   return (
     <BaseLayout>
       <MainHeading
-      subHeading={
-        frontmatter.type.charAt(0).toUpperCase() +
-        frontmatter.type.slice(1, frontmatter.type.length)
-      }
       subText={frontmatter.abstract ? frontmatter.abstract : markdownRemark.excerpt}
       breadCrumb={[
           {label:"Best Practices", value:"/bestpractices"},
