@@ -53,12 +53,12 @@ collections:
         multiple: true, 
         }
       - {
-        label: "News type", 
-        name: "subtype_news", 
+        label: "Reference to", 
+        name: "referenceTo", 
         widget: "select", 
-        options: ["News", "Event", "Podcast"], 
+        options: ["News", "Event", "Podcast", "Game"], 
         default: ["News"], 
-        hint: "By default this will appear as a news; if it is a podcast or another event, please change the option here.",
+        hint: "By default this will appear as a news; if it is a podcast, the WP3 videogame, or an event, please change the option here.",
         multiple: false,
         }
       - { label: "Theme", name: "theme", widget: "select", options: ["Technology", "Tourism", "Management", "Other"], multiple: false, required: true, }
@@ -145,7 +145,7 @@ collections:
           media_library: { config: { max_file_size: 10000000 } },
         }
   - name: "factsheets"
-    label: "Factsheets" # Used in the UI
+    label: "WP2 Factsheets" # Used in the UI
     label_singular: "message" # Used in the UI, ie: "New Post"
     folder: "content/factsheets"
     description: This collection is intended for submitting factsheets related to WP2.
@@ -430,6 +430,13 @@ collections:
           media_library: { config: { max_file_size: 100000 } },
         } # in bytes, only for default media library}
       - {
+          label: "Additional documents",
+          name: "pdf",
+          widget: "file",
+          media_library: { config: { max_file_size: 50000000 } },
+          required: false,
+        } 
+      - {
           label: "Body",
           name: "body",
           widget: "markdown",
@@ -516,175 +523,6 @@ collections:
           name: "body",
           widget: "markdown",
           media_library: { config: { max_file_size: 10000000 } },
-        }
-  - name: "exhbitionCollection"
-    label: "Digital Collection"
-    label_singular: "item"
-    description: "This collection is intended for submitting individual objects for exhibitions, which will be developed and carried out in the ReInHerit project. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
-    hide: false # hides specific collection -> still available if you have the link!
-    folder: "content/exhibitionCollection"
-    slug: "{{slug}}"
-    # disables creation + deletion of items in collection
-    # delete: false
-    create: true
-    #
-    fields:
-      - { label: "Page-ID", name: "pageId", widget: "uuid" }
-      - {
-          label: "Type",
-          name: "type",
-          widget: "hidden",
-          default: "exhibitionCollection",
-        }
-      - {
-          label: "Date",
-          name: "date",
-          widget: "datetime",
-          hint: "Date associated with this post on the digital-hub.",
-        }
-      - {
-          label: "Topic",
-          name: "topic",
-          widget: "select",
-          options: ["Identities", "Craftmanship", "Conflicts"],
-          hint: "Related exhibition topic.",
-          multiple: false,
-        }
-      - {
-          label: "Object Title",
-          name: "title",
-          widget: "string",
-          required: true,
-        }
-      - {
-          label: "Artist / Producer",
-          name: "artist",
-          widget: "string",
-          required: true,
-        }
-      - {
-          label: "Provenance",
-          name: "provenance",
-          widget: "string",
-          required: false,
-        }
-      - {
-          label: "Material(s)",
-          name: "materials",
-          widget: "string",
-          required: true,
-        }
-      - {
-          label: "Measurements",
-          name: "measurements",
-          widget: "string",
-          required: true,
-        }
-      - {
-          label: "General Origin Time",
-          name: "generalOriginTime",
-          widget: "select",
-          options:
-            [
-              "before 1000 BCE",
-              "1000 – 500 BCE",
-              "500 BCE - 1 CE",
-              "500 BCE - 1 CE",
-              "1 - 500 CE",
-              "500 – 1000 CE",
-              "1000 - 1500 CE",
-              "1500 – 1800 CE",
-              "1800 – 1900 CE",
-              "1900 CE – today",
-            ],
-          required: true,
-          multiple: false,
-        }
-      - {
-          label: "Specific Origin Time",
-          name: "specificOriginTime",
-          widget: "string",
-          required: false,
-        }
-      - {
-          label: "Location (Latitude)",
-          name: "locationLatitude",
-          widget: "string",
-          required: true,
-        }
-      - {
-          label: "Location (Longitude)",
-          name: "locationLongitude",
-          widget: "string",
-          required: true,
-        }
-      - {
-          label: "Short Description",
-          name: "shortDescription",
-          widget: "text",
-          required: true,
-        }
-      - {
-          label: "Categories",
-          name: "categories",
-          widget: "select",
-          options:
-            [
-              "belief",
-              "ceramic",
-              "community",
-              "discrimination",
-              "diversity",
-              "escalation",
-              "expression",
-              "gender",
-              "generational",
-              "hierarchy",
-              "ideology",
-              "identity",
-              "knowledge",
-              "natural",
-              "oppression",
-              "politics",
-              "power",
-              "process",
-              "relations",
-              "relationships",
-              "rights",
-              "roles",
-              "scarcity",
-              "sexuality",
-              "society",
-              "technique",
-              "territory",
-              "textile",
-              "tolerance",
-              "tradition",
-            ],
-          required: true,
-          multiple: true,
-          hint: "Please select max 5 categories."
-        }
-      - {
-          label: "License",
-          name: "license",
-          widget: "select",
-          options: ["CC BY-ND", "CC BY-SA", "CC BY"],
-          multiple: false,
-        }
-      - {
-          label: "Image",
-          name: "image",
-          widget: "image",
-          hint: "Primary image for the object to be displayed.",
-          media_library: { config: { max_file_size: 100000000 } },
-          required: true,
-        }
-      - {
-          label: "ObjectEMbed",
-          name: "objectEmbed",
-          widget: "text",
-          required: false,
         }
   - name: "eshopitems"
     label: "eShop"
@@ -928,20 +766,19 @@ collections:
           widget: "markdown",
           media_library: { config: { max_file_size: 10000000 } },
         }
-  - name: "events"
-    label: "Digital-Hub: Events" # Used in the UI
-    label_singular: "event" # Used in the UI, ie: "New Post"
-    folder: "content/events"
-    description: Events for the digital hub.
+  - name: "bestpractices"
+    label: "WP5 Best Practices" # Used in the UI
+    label_singular: "message" # Used in the UI, ie: "New Post"
+    folder: "content/bestpractices"
+    description: This collection is intended for submitting best practices from WP5.
     create: true # Allow users to create new documents in this collection
-    hide: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "event" }
       - { label: "Page-ID", name: "pageId", widget: "uuid" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "bestpractice" }
       - {
-          label: "Event title",
+          label: "Title",
           name: "title",
           widget: "string",
           pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"],
@@ -954,27 +791,52 @@ collections:
           required: false,
           hint: "Short description of current entry. Will be displayed in overviews as preview text.",
         }
-      - { label: "Host instutition", name: "host", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
       - {
-          label: "Description",
-          name: "body",
-          widget: "markdown",
-          media_library: { config: { max_file_size: 50000000 } },
+          label: "Target Audience",
+          name: "target-audience",
+          widget: "select",
+          options: ["VISITOR", "PROFESSIONAL"],
+          default: ["PROFESSIONAL"],
+          multiple: true,
         }
-      - { label: "Location of the event", name: "location", widget: "string" }
-      - { label: "Start of the event", name: "startDate", widget: "date" }
-      - { label: "End of the event", name: "endDate", widget: "date" }
+      - {
+          label: "Theme",
+          name: "theme",
+          widget: "select",
+          options: ["Technology", "Tourism", "Management", "Other"],
+          default: ["Tourism"],
+          required: true,
+          multiple: false,
+        }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "relation",
+          collection: "tags",
+          value_field: "title",
+          search_fields: ["title"],
+          display_fields: ["title"],
+          multiple: true,
+          required: false,
+        }
       - {
           label: "License",
           name: "license",
           widget: "string",
           default: "CC BY 2.0",
         }
-      - { label: "Email adress", name: "email", widget: "string" }
       - {
           label: "Thumbnail",
           name: "thumbnail",
-          required: false,
+          hint: "Small image limited to 100kb to be used for overviews.",
           widget: "image",
+          required: false,
+          media_library: { config: { max_file_size: 100000 } },
+        } # in bytes, only for default media library
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
           media_library: { config: { max_file_size: 10000000 } },
-        } # in bytes, only for default media library}
+        }

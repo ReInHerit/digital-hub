@@ -16,7 +16,7 @@ const Toolkit = () => {
           {label:"Resources", value:"/resources"},
           {label:"Tool-apps", value:"/tools/apps"}
         ]}
-      >Tool apps</MainHeading>
+      >Applications</MainHeading>
       <p></p>
       <ToolAppsFeed></ToolAppsFeed>
     </BaseLayout>

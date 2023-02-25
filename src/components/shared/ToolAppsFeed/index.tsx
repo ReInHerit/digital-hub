@@ -24,6 +24,7 @@ const ToolkitFeed: React.FC = () => {
     "Tag C"
   ]
 
+{/*
   const toggleTag = (toToggle: string) => {
     let tagsCopied = [...tags]
     if (tags.includes(toToggle)) {
@@ -34,10 +35,12 @@ const ToolkitFeed: React.FC = () => {
       setTags(() => tagsCopied)
     }
   }
+*/}
 
   return (
-    <SideMainLayout
-      side={
+  
+    <SideMainLayout>
+  {/*    side={
         <div className="bg-white card p-3 mb-2 border-0 shadow">
           <p>Filter categories</p>
           {tags.length !== 0
@@ -65,6 +68,8 @@ const ToolkitFeed: React.FC = () => {
       }
     >
       <>
+      */}
+
         <ReinCardGrid>
           {data.allMarkdownRemark.edges.map(edge => {
             // filter only if no tags were selected
@@ -102,7 +107,7 @@ const ToolkitFeed: React.FC = () => {
             }
           })}
         </ReinCardGrid>
-      </>
+    {/*  </>  */}
     </SideMainLayout>
   )
 }
@@ -112,8 +117,8 @@ export default ToolkitFeed
 const ToolsQuery = graphql`
   query ToolsQuery {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/toolapps/" }, frontmatter: {} }
-    ) {
+      filter: {fileAbsolutePath: {regex: "/toolapps/"}, frontmatter: {target_audience: {eq: "PROFESSIONAL"}}}
+      ) {
       edges {
         node {
           html

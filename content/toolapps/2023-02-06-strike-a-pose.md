@@ -6,7 +6,6 @@ desc: ReiInHerit Toolkit | Strike a Pose App
 date: 2023-02-06T11:42:49.330Z
 target-audience:
   - VISITOR
-  - PROFESSIONAL
 mainReference: ""
 linkedWebinars:
   - 034cd93b-1043-42e9-9f2a-835d03a4e1cc____Artificial Intelligence and Computer
@@ -43,16 +42,5 @@ This app won a **Best Demo Honorable Mention award** at ACM Multimedia 2022, the
 ![Best Demo Honorable Mention award at ACM Multimedia 2022](https://ucarecdn.com/a1fde0c2-d8f2-43bd-99d8-920f0df0a0af/ "Best Demo Honorable Mention award at ACM Multimedia 2022")
 
 The application has been developed in JavaScript on the client side and in Python on the server side. Pose detection on the human bodies is achieved using TensorflowJS 1 detection API exploiting the pose detection model, MoveNet. The model runs completely client-side in the browser. Server-side an SQLLite database is used to stores artworks’collections, challenges and artworks’ metadata and descriptions.
-
-**Free Codes of the App are available here:**\
-<https://github.com/ReInHerit/strike-a-pose>
-
-```
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FReInHerit%2Fposts%2Fpfbid036pzP3F1Zk8fnKBLRCoczrCUrEQVhnx6LChd2uobTdHsWWduGXNkszQwfduRsHWvnl&show_text=true&width=500" width="500" height="797" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-```
-
-```
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FReInHerit%2Fposts%2Fpfbid02nj3YC2dQEfojhFMKgxVC2xanRkVa5kbCKe3DjcQWcAztCjGFCiiXXCjAfi4cr6AYl&show_text=true&width=500" width="500" height="797" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-```
 
 `youtube: https://www.youtube.com/watch?v=GHgBIRXqKK8`

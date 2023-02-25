@@ -9,8 +9,7 @@ date: 2022-12-19T12:47:18.198Z
 target-audience:
   - PROFESSIONAL
 theme: Technology
-subtype_news:
-  - News
+referenceTo: News
 thumbnail: https://ucarecdn.com/b84cad34-3bd0-49bd-b0e2-8db917c51db5/
 ---
 ![How emerging technologies enhance visitors’ experiences of cultural heritage sites](https://ucarecdn.com/616516f0-7bd7-4913-bc01-669b5690233c/ "How emerging technologies enhance visitors’ experiences of cultural heritage sites")

@@ -9,7 +9,7 @@ date: 2022-12-20T08:20:57.217Z
 target-audience:
   - VISITOR
 theme: Technology
-subtype_news: Podcast
+referenceTo: Podcast
 thumbnail: https://ucarecdn.com/3d3c2c72-0443-485e-8f48-815a2ffc899b/
 ---
 Do you want to better understand how new digital technologies can enhance your museum experience? Professor Marco Bertini, from the University of Florence[](https://www.instagram.com/unifirenze/) and director of the MICC in Italy, will explain how artificial intelligence and Computer Vision are used in the field of cultural heritage dissemination, as well as the valuable contribution of the ReInHerit toolkit in this field.

@@ -8,8 +8,8 @@ date: 2023-02-20T15:39:27.771Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
-subtype_news: News
-theme: Other
+referenceTo: Game
+theme: Technology
 thumbnail: https://ucarecdn.com/a5979369-365c-44dd-9bd2-5e9fb48ea927/
 ---
 <!--StartFragment-->

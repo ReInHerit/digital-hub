@@ -6,8 +6,7 @@ title: "Museum content marketing: reaching audiences effectively"
 date: 2023-02-24T09:41:13.690Z
 target-audience:
   - PROFESSIONAL
-theme:
-  - Management
+theme: Management
 abstract: "During the ReInHerit interviews with museum professionals one
   expressed need was that of marketing skills. Marketing is one way of reaching
   out to your potential audience, telling people that ‘we are here, come visit

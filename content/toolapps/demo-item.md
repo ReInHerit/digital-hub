@@ -1,6 +1,4 @@
 ---
-target-audience:
-  - VISITOR
 license: CC BY 2.0
 draft: true
 type: toolapp

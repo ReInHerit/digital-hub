@@ -21,7 +21,7 @@ const ToolkitComponentsPage = () => {
           {label:"Resources", value:"/resources"},
           {label:"Tool-components", value:"/tools/components"}
         ]}
-      >Tool components</MainHeading>
+      >Technological components</MainHeading>
       <p className="w-75"></p>
       <ToolComponentsFeed></ToolComponentsFeed>
     </BaseLayout>

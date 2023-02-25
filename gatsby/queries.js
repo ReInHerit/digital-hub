@@ -41,6 +41,21 @@ module.exports.DIGIHUB_QUERIES = (() => {
   }
 `
 
+const BESTPRACTICES_PAGES = `
+query BestPracticesQuery {
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/bestpractices/"}}) {
+    edges {
+      node {
+        frontmatter {
+          pageId
+        }
+      }
+    }
+  }
+}
+`
+
+
   const TOOL_APPS_PAGES = `
     query MyQuery {
       allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/toolapps/"}}) {
@@ -117,24 +132,7 @@ module.exports.DIGIHUB_QUERIES = (() => {
     }
   `
 
-  const EXHIBITION_COLLECTION_PAGES = `
-    query FAQQuery {
-      allMarkdownRemark(filter: {frontmatter: {type: {eq: "exhibitionCollection"}}}) {
-        edges {
-          node {
-            frontmatter {
-              title
-              pageId
-              type
-            }
-          }
-        }
-      }
-    }
-  `
-
-  
-
+ 
   return {
     WEBINARS_PAGES,
     NEWS_PAGES,
@@ -144,6 +142,6 @@ module.exports.DIGIHUB_QUERIES = (() => {
     ESHOP_PAGES,
     FAQ_PAGES,
     MANUAL_PAGES,
-    EXHIBITION_COLLECTION_PAGES
+    BESTPRACTICES_PAGES
   }
 })()

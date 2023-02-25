@@ -8,7 +8,7 @@ date: 2022-11-17T13:54:12.038Z
 target-audience:
   - PROFESSIONAL
 theme: Technology
-subtype_news: News
+referenceTo: News
 thumbnail: https://ucarecdn.com/9e39df18-f883-4ac0-834b-ad12d45ccce8/
 ---
 ![ReInHerit Webinar: "Engaging Museum Visitors with Gamification Apps"](https://ucarecdn.com/81674ae8-57dc-4ab8-8728-538024af71b1/ "Engaging Museum Visitors with Gamification Apps")

@@ -7,7 +7,7 @@ date: 2023-01-13T08:33:35.999Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
-subtype_news: Podcast
+referenceTo: Podcast
 theme: Tourism
 thumbnail: https://ucarecdn.com/a3c32795-98ce-41fe-a86e-fc0087828c06/
 ---

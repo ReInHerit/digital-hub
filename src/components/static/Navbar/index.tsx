@@ -77,24 +77,25 @@ const ReinNavbar: React.FC = () => {
                 >
                   Webinars
                 </Link>
-                 {/*
+                 
                 <Link
                    className="text-dark text-decoration-none dropdown-item"
                    to="/factsheets"
                  >
                    Research factsheets
                  </Link>
-               <Link
-                  className="text-dark text-decoration-none dropdown-item"
-                  to="/resources"
-                >
-                  Overview
-                </Link>
                  <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/tools/apps"
                 >
                   Applications documentation
+                </Link>
+                {/*
+               <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/resources"
+                >
+                  Overview
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
@@ -147,6 +148,13 @@ const ReinNavbar: React.FC = () => {
                 >
                   Museum Up podcast
                 </Link>
+                <Link
+                 style={{ color: "#424753" }}
+                 className="text-dark text-decoration-none dropdown-item"
+                 to="/applications"
+               >
+                 Applications
+               </Link>
           </NavDropdown>
         
           <NavDropdown title="Participate" id="basic-nav-dropdown">

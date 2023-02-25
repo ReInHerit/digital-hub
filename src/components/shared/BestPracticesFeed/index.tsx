@@ -2,15 +2,15 @@ import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
-import { Link } from "gatsby"
-import { Col, Row, Container } from "react-bootstrap"
+import Thumbnail from "../Thumbnail"
+import { Col, Row, Badge, Button } from "react-bootstrap"
 
 /**
- * Generated overview over Podcast items
+ * Generated overview over BestPractices items
  * @returns
  */
-const PodcastFeed: React.FC = () => {
-const data: PodcastQueryData.Data = useStaticQuery(PodcastQuery)
+const BestPracticesFeed: React.FC = () => {
+const data: BestPracticesQueryData.Data = useStaticQuery(BestPracticesQuery)
 
   return (
     <>
@@ -21,30 +21,38 @@ const data: PodcastQueryData.Data = useStaticQuery(PodcastQuery)
             key={edge.node.frontmatter.pageId}
             body={edge.node.excerpt}
             title={edge.node.frontmatter.title}
-            url={`/news/${edge.node.frontmatter.pageId}`}
+            url={`/bestpractices/${edge.node.frontmatter.pageId}`}
             uid={edge.node.frontmatter.pageId}
         >
+          { edge.node.frontmatter.thumbnail && <Thumbnail src={edge.node.frontmatter.thumbnail}></Thumbnail>}
           </ReinGridCard>
            )
           })
-        }      
+        }
+        
       </ReinCardGrid>
     </>
   )
 }
 
-export default PodcastFeed
+export default BestPracticesFeed
 
-const PodcastQuery = graphql`
-query MyQuery {
+const BestPracticesQuery = graphql`
+query BestPracticesQuery {
   allMarkdownRemark(
-    filter: {fileAbsolutePath: {regex: "/news/"}, frontmatter: {title: {glob: "Museums Up *"}}}
+    filter: { fileAbsolutePath: { regex: "/bestpractices/" }, frontmatter: {} }
   ) {
     edges {
       node {
-        id
+        html
+        excerpt
         frontmatter {
           title
+          date(fromNow: true)
+          target_audience
+          pageId
+          license
+          thumbnail
         }
       }
     }
@@ -52,7 +60,7 @@ query MyQuery {
 }
 `
 
-declare module PodcastQueryData {
+declare module BestPracticesQueryData {
   export interface Frontmatter {
     title: string
     date: string
@@ -61,7 +69,6 @@ declare module PodcastQueryData {
     mainReference: string | null
     thumbnail?: string
     theme: string
-    referenceTo: string
   }
 
   export interface Node {

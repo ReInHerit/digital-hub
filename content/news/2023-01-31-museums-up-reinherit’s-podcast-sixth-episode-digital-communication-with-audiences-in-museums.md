@@ -8,7 +8,7 @@ date: 2023-01-31T11:08:17.342Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
-subtype_news: Podcast
+referenceTo: Podcast
 theme: Technology
 thumbnail: https://ucarecdn.com/6673cf1f-48bc-4446-b597-c0880bf4c330/
 ---

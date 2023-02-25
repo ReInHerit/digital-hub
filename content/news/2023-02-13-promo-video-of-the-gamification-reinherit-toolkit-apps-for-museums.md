@@ -8,8 +8,7 @@ date: 2023-02-13T11:46:06.133Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
-subtype_news:
-  - News
+referenceTo: News
 theme: Technology
 thumbnail: https://ucarecdn.com/a02e4397-5e2d-42dc-9d27-cedcab19e95e/
 ---

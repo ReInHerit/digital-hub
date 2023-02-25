@@ -4,13 +4,15 @@ import ReinCardGrid from "../ReinCardGrid"
 import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 import { Link } from "gatsby"
 import { Col, Row, Container } from "react-bootstrap"
+import Thumbnail from "../Thumbnail"
+
 
 /**
  * Generated overview over Podcast items
  * @returns
  */
-const PodcastFeed: React.FC = () => {
-const data: PodcastQueryData.Data = useStaticQuery(PodcastQuery)
+const ApplicationPromoFeed: React.FC = () => {
+const data: ApplicationPromoData.Data = useStaticQuery(ApplicationPromoQuery)
 
   return (
     <>
@@ -21,9 +23,10 @@ const data: PodcastQueryData.Data = useStaticQuery(PodcastQuery)
             key={edge.node.frontmatter.pageId}
             body={edge.node.excerpt}
             title={edge.node.frontmatter.title}
-            url={`/news/${edge.node.frontmatter.pageId}`}
+            url={`/tools/apps/${edge.node.frontmatter.pageId}`}
             uid={edge.node.frontmatter.pageId}
         >
+        { edge.node.frontmatter.thumbnail && <Thumbnail src={edge.node.frontmatter.thumbnail}></Thumbnail>}
           </ReinGridCard>
            )
           })
@@ -33,18 +36,24 @@ const data: PodcastQueryData.Data = useStaticQuery(PodcastQuery)
   )
 }
 
-export default PodcastFeed
+export default ApplicationPromoFeed
 
-const PodcastQuery = graphql`
-query MyQuery {
+const ApplicationPromoQuery = graphql`
+query ApplicationPromoQuery {
   allMarkdownRemark(
-    filter: {fileAbsolutePath: {regex: "/news/"}, frontmatter: {title: {glob: "Museums Up *"}}}
+    filter: {fileAbsolutePath: {regex: "/toolapps/"}, frontmatter: {target_audience: {eq: "VISITOR"}}}
   ) {
     edges {
       node {
-        id
+        html
+        excerpt
         frontmatter {
           title
+          date(fromNow: true)
+          target_audience
+          pageId
+          license
+          thumbnail
         }
       }
     }
@@ -52,7 +61,7 @@ query MyQuery {
 }
 `
 
-declare module PodcastQueryData {
+declare module ApplicationPromoData {
   export interface Frontmatter {
     title: string
     date: string
@@ -61,7 +70,6 @@ declare module PodcastQueryData {
     mainReference: string | null
     thumbnail?: string
     theme: string
-    referenceTo: string
   }
 
   export interface Node {

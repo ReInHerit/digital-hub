@@ -8,8 +8,7 @@ desc: "ReInHerit Webinar |  Digital Hub "
 date: 2023-02-23T09:34:59.104Z
 target-audience:
   - PROFESSIONAL
-subtype_news:
-  - News
+referenceTo: News
 theme: Management
 thumbnail: https://ucarecdn.com/63b1f229-eba2-450a-9fcd-e2538cf93f59/
 ---

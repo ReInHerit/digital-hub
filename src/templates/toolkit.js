@@ -51,6 +51,12 @@ export default function Template({
         addObj.label = "..."
         addObj.value = "/factsheets"
         break;
+        case "bestpractices":
+          breadCrumbObj.label = "Best Practices"
+          breadCrumbObj.value = "/bestpractices"
+          addObj.label = "..."
+          addObj.value = "/bestpractices"
+          break;
    /*   case "webinar":
         breadCrumbObj.label = "Webinars"
         breadCrumbObj.value = "/webinars"
@@ -219,7 +225,10 @@ export default function Template({
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
-            </Container>
+               {frontmatter.pdf && (
+              <a style={{borderRadius:0}} href={frontmatter.pdf} download="additional_documents" className="btn btn-info border-radius-0" target="_blank" rel="noreferrer">Click this button to download the additional documentation.</a>
+               )}
+              </Container>
             {frontmatter.tutorial && (
               <>
                 <br></br>
@@ -250,6 +259,8 @@ export const pageQuery = graphql`
         linkedToolkitComponents
         linkedToolkitApps
         desc
+        pdf
+        thumbnail
       }
       id
       excerpt

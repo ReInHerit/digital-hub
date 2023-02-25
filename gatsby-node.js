@@ -29,7 +29,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
     })
   })
 
-  // adding news data from markdown
+  // adding factsheets data from markdown
   const factsheetsResult = await graphql(DIGIHUB_QUERIES.FACTSHEETS_PAGES);
 
   factsheetsResult.data.allMarkdownRemark.edges.forEach(edge => {
@@ -37,6 +37,18 @@ module.exports.createPages = async ({ graphql, actions}) => {
     actions.createPage({
       path: `/factsheets/${mdId}`,
       component: require.resolve(`./src/templates/factsheets.js`),
+      context: { id: mdId },
+    })
+  })
+
+  // adding bestpractices data from markdown
+  const bestpracticesResult = await graphql(DIGIHUB_QUERIES.BESTPRACTICES_PAGES);
+
+  bestpracticesResult.data.allMarkdownRemark.edges.forEach(edge => {
+    const mdId = edge.node.frontmatter.pageId
+    actions.createPage({
+      path: `/bestpractices/${mdId}`,
+      component: require.resolve(`./src/templates/bestpractices.js`),
       context: { id: mdId },
     })
   })
