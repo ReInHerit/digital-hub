@@ -26,7 +26,7 @@ The Webinars are organised in the context of the  Horizon2020 [ReInHerit](http
 
 ### About this webinar:
 
-This webinar reflects on the challenges for museums in developing sustainable digital strategies, and it will present an overview of (mainly) European resources to support these efforts. In particular, previous EU projects and other international portals aiming to contribute to museums' digital transformation will be presented - and the infrastructures and policies of the EU in relation to digital heritage will also be introduced. Within this context, the webinar will then discuss the resources being presented on the ReInHerit Digital Hub and their contribution.
+This webinar reflects on the challenges for museums in developing sustainable digital strategies, reflecting on the experiences of the pandemic, and the recommendation for digital heritage of the EU. In doing so, it will present an overview of (mainly) European resources to support these efforts. In particular, previous EU projects and other international portals aiming to contribute to museums' digital transformation will be presented - and the infrastructures and policies of the EU in relation to digital heritage will also be introduced. Within this context, the webinar will then discuss the resources being presented on the ReInHerit Digital Hub and their contribution.
 
 ### Speaker:
 
