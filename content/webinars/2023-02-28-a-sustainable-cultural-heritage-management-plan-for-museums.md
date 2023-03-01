@@ -18,3 +18,5 @@ Cultural Heritage Management is the main vehicle for helping museums to face cha
 ### Speaker:
 
 Konstantinos Roussos is a Research Assistant, at the School of Law of the [University of Nicosia (Cyprus).](https://www.unic.ac.cy) He holds a PhD in Archaeology from the Leiden University (The Netherlands). He has been participated in field and research projects in Greece, Turkey, and Cyprus. For many years he was involved as a Researcher at pioneering research programs conducted by the Institute for Mediterranean Studies - FORTH (Crete). In 2019-2020, he worked as a visiting Lecturer in Byzantine Archaeology at the Department of History and Archaeology of the University of Crete (Greece). He has participated in international conferences and a number of his studies have been published.
+
+`youtube: https://youtu.be/aT8jx_-My2k`
