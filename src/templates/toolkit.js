@@ -28,13 +28,13 @@ export default function Template({
 
     switch(type){
       case "toolcomponent":
-        breadCrumbObj.label = "Tool-components"
+        breadCrumbObj.label = "Technical components"
         breadCrumbObj.value = "/tools/components"
         addObj.label = "..."
         addObj.value = "/tools/components"
         break;
       case "toolapp":
-        breadCrumbObj.label = "Tool-apps"
+        breadCrumbObj.label = "Applicaitons documentation"
         breadCrumbObj.value = "/tools/apps"
         addObj.label = "..."
         addObj.value = "/tools/apps"
@@ -64,7 +64,7 @@ export default function Template({
         addObj.value = "/webinars"
         break; */
       default:
-        breadCrumbObj.label = "Tool-components"
+        breadCrumbObj.label = "Technical components"
         breadCrumbObj.value = "/tools/components"
         addObj.label = "..."
         addObj.value = "/tools/components"
@@ -82,12 +82,12 @@ export default function Template({
 
   return (
     <BaseLayout>
-      <MainHeading
-        subHeading={
-          frontmatter.type.charAt(0).toUpperCase() +
-          frontmatter.type.slice(1, frontmatter.type.length)
-        }
-        subText={frontmatter.desc ? frontmatter.desc : markdownRemark.excerpt}
+      <MainHeading  
+//          subHeading={
+//          frontmatter.type.charAt(0).toUpperCase() +
+//          frontmatter.type.slice(1, frontmatter.type.length)
+//        }
+//        subText={frontmatter.desc ? frontmatter.desc : markdownRemark.excerpt}
         breadCrumb={addBreadCrumbTypeAware(frontmatter.type)}
       >
         {frontmatter.title}
