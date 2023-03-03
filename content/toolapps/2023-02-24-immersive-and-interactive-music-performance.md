@@ -12,6 +12,7 @@ linkedWebinars:
 license: CC BY 2.0
 thumbnail: https://ucarecdn.com/cf4dd5aa-770e-4aa3-b26b-d8e0dcb258f5/
 pdf: https://ucarecdn.com/aab5dac1-b787-4590-a4dd-2b22575ee650/ 
+status: completed
 ---
 The purpose of the application is to create an immersive audio experience that can be setup at museums. Immersive audio stations are placed in various areas of a museum, offering visitors an interactive experience. Users that enter in the corresponding areas within the museum, based on their behavior (e.g., based on how many people are in the area, or how active they are), trigger specific sounds that are layered together creating a music composition.
 

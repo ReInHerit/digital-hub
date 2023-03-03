@@ -13,6 +13,7 @@ linkedWebinars:
   - f2a58e91-3c1a-43c0-baeb-45234da1cbce____Engaging Museum Visitors with
     Gamification Apps
 license: CC BY 2.0
+status: completed
 thumbnail: https://ucarecdn.com/021b57b5-1152-4f4e-9a6f-b8fadbfc8174/
 ---
 ![Strike a Pose](https://ucarecdn.com/7825e324-7dc2-415b-81d4-7d6d72d6a663/ "Strike a Pose")

@@ -12,6 +12,7 @@ linkedWebinars:
     Gamification Apps
 license: CC BY 2.0
 thumbnail: https://ucarecdn.com/bde51a50-8ac7-4bf9-aa71-c2699d7c2865/
+status: draft
 ---
 
 Strike-a-pose is a **web application** which performs analysis and evaluation of human poses compared to poses present in famous paintings or statues. 

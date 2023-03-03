@@ -117,7 +117,7 @@ export default ToolkitFeed
 const ToolsQuery = graphql`
   query ToolsQuery {
     allMarkdownRemark(
-      filter: {fileAbsolutePath: {regex: "/toolapps/"}, frontmatter: {target_audience: {eq: "PROFESSIONAL"}}}
+      filter: {fileAbsolutePath: {regex: "/toolapps/"}, frontmatter: {target_audience: {eq: "PROFESSIONAL"}, status: {eq: "completed"}}}
       ) {
       edges {
         node {
@@ -156,6 +156,7 @@ declare module ToolsQueryData {
     type: string
     pageId: string
     license: string
+    status: string
     mainReference: string | null
     thumbnail?: string
   }

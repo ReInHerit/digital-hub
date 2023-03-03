@@ -422,6 +422,13 @@ collections:
           default: "CC BY 2.0",
         }
       - {
+        label: "Status",
+        name: "status",
+        widget: "select",
+        options: ["draft", "completed"],
+        hint: "to keep drafts unpublished, in the pubblication of the toolkit",
+      }
+      - {
           label: "Thumbnail",
           name: "thumbnail",
           hint: "Small image limited to 100kb to be used for overviews.",
