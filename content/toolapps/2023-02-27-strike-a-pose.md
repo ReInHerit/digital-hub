@@ -28,21 +28,15 @@ The application has been developed in **JavaScript** on the client side and in *
 
 The base interface, implemented in **HTML** can be adapted by different users, maintaining the computer vision functionalities, so as to allow customization by different museums. An example of such customization is shown in the following figures:
 
-![Customized login screen](https://ucarecdn.com/1abf0e72-9af5-4b24-8ea4-ff7ededc3282/ "Customized login screen")
+>
 
-> *Customized login screen*
+![Customized login screen and challenge selection](https://ucarecdn.com/e33839df-0fef-45ff-878b-062e7e5b94bd/ "Customized login screen and challenge selection")
 
-![Customized challenge selection](https://ucarecdn.com/a4f740a1-26ca-4aee-87ce-6f33dcddb3aa/ "Customized challenge selection")
+> *Customized login screen and challenge selection*
 
-> *Customized challenge selection*
+![Horizontal interface for installations - customized template | Customized end-game screen with informations about the artworks](https://ucarecdn.com/70e896cc-9511-48f6-bb90-fcd5dc3ab8a5/ "Horizontal interface for installations - customized template | Customized end-game screen with informations about the artworks")
 
-![Horizontal interface for installations - customized template](https://ucarecdn.com/4f4f79ad-8041-4af2-9638-f58ea02969a8/ "Horizontal interface for installations - customized template")
-
-> *Horizontal interface for installations - customized template*
-
-![Customized end-game screen with informations about the artworks](https://ucarecdn.com/4040da75-1f83-4bee-beb5-97c4bde73606/ "Customized end-game screen with informations about the artworks")
-
-> *Customized end-game screen with informations about the artworks*
+> *Horizontal interface for installations - customized template \ Customized end-game screen with informations about the artwork*
 
 The application is composed of a **backend** that manages the challenges and a **front-end** that runs on mobile devices. A schema of the **main components** of the **backend** is shown in the following figure:
 
@@ -75,8 +69,6 @@ Changing the GUIs is relatively easy, since it is needed to update the HTML5 of 
 **Free Codes of the App are available here:**
 
 <https://github.com/ReInHerit/strike-a-pose>
-
-
 
 For  more information and support contact [marco.bertini@unifi.it](<>)
 
