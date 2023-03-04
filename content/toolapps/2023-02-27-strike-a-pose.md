@@ -36,8 +36,6 @@ The base interface, implemented in **HTML** can be adapted by different users, m
 
 > *Horizontal interface for installations - customized template \ Customized end-game screen with informations about the artworks*
 
-
-
 ![Strike-a-pose in a competitive setup. ](https://ucarecdn.com/ae137a2b-f721-4f74-8ea7-fcc86b4a00a4/ "Strike-a-pose in a competitive setup. ")
 
 > *Strike-a-pose in a competitive setup. Two users attempt to complete the same challenge in less time || Strike-a-pose in a competitive setup: results of the challenge for each user.*
@@ -69,6 +67,6 @@ Changing the GUIs is relatively easy, since it is needed to update the HTML5 of 
 
 <https://github.com/ReInHerit/strike-a-pose>
 
-For  more information and support contact [marco.bertini@unifi.it](<>)
+For more information and support contact [marco.bertini@unifi.it  ](<>)MICC -Media Integration and Communication Center, University of Florence,  Italy
 
 `youtube: https://youtu.be/GHgBIRXqKK8`
