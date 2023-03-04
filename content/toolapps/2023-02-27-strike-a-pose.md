@@ -28,19 +28,24 @@ The application has been developed in **JavaScript** on the client side and in *
 
 The base interface, implemented in **HTML** can be adapted by different users, maintaining the computer vision functionalities, so as to allow customization by different museums. An example of such customization is shown in the following figures:
 
->
-
 ![Customized login screen and challenge selection](https://ucarecdn.com/e33839df-0fef-45ff-878b-062e7e5b94bd/ "Customized login screen and challenge selection")
 
 > *Customized login screen and challenge selection*
 
 ![Horizontal interface for installations - customized template | Customized end-game screen with informations about the artworks](https://ucarecdn.com/70e896cc-9511-48f6-bb90-fcd5dc3ab8a5/ "Horizontal interface for installations - customized template | Customized end-game screen with informations about the artworks")
 
-> *Horizontal interface for installations - customized template \ Customized end-game screen with informations about the artwork*
+> *Horizontal interface for installations - customized template \ Customized end-game screen with informations about the artworks*
+
+
+
+![Strike-a-pose in a competitive setup. ](https://ucarecdn.com/ae137a2b-f721-4f74-8ea7-fcc86b4a00a4/ "Strike-a-pose in a competitive setup. ")
+
+> *Strike-a-pose in a competitive setup. Two users attempt to complete the same challenge in less time || Strike-a-pose in a competitive setup: results of the challenge for each user.*
+
+**Usage Example**\
+App requires a server to host the mobile app and to provide the RESTful APIs of the backend. A QR code can be used to avoid typing the URL of the web apps.
 
 The application is composed of a **backend** that manages the challenges and a **front-end** that runs on mobile devices. A schema of the **main components** of the **backend and front end**  is shown in the following figures:
-
-
 
 ![Main components of the backend and front-end of Strike-a-pose](https://ucarecdn.com/65a51251-857f-413e-9fa6-f1ce4e42dd8b/ "Main components of the backend and front-end of Strike-a-pose")
 
@@ -49,10 +54,6 @@ The application is composed of a **backend** that manages the challenges and a *
 The interface is completely written in **HTML5**. The computer vision task of matching the pose of the user with the pose of the artworks of the challenge can be implemented completely using the **Tensorflow JS** executed in the browser. The creation of the video produced upon successful completion of the challenge is performed server-side.  The **backend** implements a RESTful API using Flask, and is fully implemented in Python. This eases the integration of several other libraries to access the database of the challenges, using SQLAlchemy and to create the final videos using OpenCV**.** Challenges are maintained in the DB, e.g. allowing to pick poses that require to use only the upper body (e.g. to allow also people with mobility issues to play) or with full body. 
 
 jQuery and Bootstrap are the main components used to design the interface and provide user interaction with the GUI, Webcam Easy JS allows to connect to the webcam through the browser and Tensorflow JS is the workhorse to implement the computer vision functionalities.
-
-![Examples of pose matching and Strike-a-pose in a competitive setup](https://ucarecdn.com/89005bb1-9ad1-45b6-abf8-7a5bdcc8b291/ "Examples of pose matching and Strike-a-pose in a competitive setup")
-
-> *Examples of pose matching ||  Strike-a-pose in a competitive setup: results of the challenge for each user.*
 
 **Usage Example**\
 App requires a server to host the mobile app and to provide the RESTful APIs of the backend. A QR code can be used to avoid typing the URL of the web apps.
