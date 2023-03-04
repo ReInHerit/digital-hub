@@ -67,6 +67,6 @@ Changing the GUIs is relatively easy, since it is needed to update the HTML5 of 
 
 <https://github.com/ReInHerit/strike-a-pose>
 
-For more information and support contact [marco.bertini@unifi.it  ](<>)MICC -Media Integration and Communication Center, University of Florence,  Italy
+For more information and support contact [marco.bertini@unifi.it  ](<>)MICC - [Media Integration and Communication Cente](http://www.micc.unifi.it)r, University of Florence,  Italy
 
 `youtube: https://youtu.be/GHgBIRXqKK8`
