@@ -40,8 +40,6 @@ In the camera view, the work or detail is framed and the recognition operation i
 
 For each work or detail is provided a textual description, the relative image and any audio and video content.  If an audio file is not available, the application will allow the text-to-speech of the textual.
 
-
-
 ![ example of details recognition using the object detection approach: the boxes highlight which part of the image are related to the details. Clicking on the detail icons takes the specific information](https://ucarecdn.com/203386e8-19a8-48f2-a070-fa2fc63eb456/ " example of details recognition using the object detection approach: the boxes highlight which part of the image are related to the details. Clicking on the detail icons takes the specific information")
 
 >  *Example of details recognition using the object detection approach: the boxes highlight which part of the image are related to the details. Clicking on the detail icons takes the specific information*
@@ -60,7 +58,7 @@ Additional work has been done to improve the training of the neural networks tha
 
 To ease the use of the training system by non-expert users, a new web-based application has been developed, integrating also the annotation functionalities required to let curators select the details of artworks from a collection. This system uses Javascript to implement the annotation interface and to manage the training of the networks, and Python with Flask and Tensorflow on the backend to run the augmentation and training tasks. Training is launched as an asynchronous process, so that users can continue to work in the interface.
 
-The architecture of the system is the following:
+The **architecture** of the system is the following:
 
 ![Smart lens - architecture of the neural network training system](https://ucarecdn.com/7fcd7404-6369-415e-a90b-9d6d68434148/ "Smart lens - architecture of the neural network training system")
 
