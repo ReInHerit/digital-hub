@@ -13,26 +13,26 @@ status: draft
 thumbnail: https://ucarecdn.com/c9c5d1cb-997e-4111-ba9c-49d9b1690bf8/
 pdf: ""
 ---
-This **web-based application** implements a **chatbot** **system** that can answer questions about visual content of artworks or about their context, e.g. about the author and history of the artwork. The design of this application is motivated by the recent huge interest in chat-based interaction that has been popularized, for example, by ChatGPT.
+This **web-based application** implements a **chatbot** **system** that can answer questions about **visual content** of artworks or about their **context**, e.g. about the author and history of the artwork. The design of this application is motivated by the recent huge interest in chat-based interaction that has been popularized, for example, by ChatGPT.
 
 The application **frontend** is based on **Javascript**, and the interface is based on a reactive design that adapts both to desktop web browsers, allowing to add this functionality to the existing websites of museums, or to a mobile application to provide a new type of smart guide. To ease this latter type of interaction, queries of the users can be performed using speech recognition, so to avoid typing long queries on the small keyboard of the device.
 
-The backend is implemented in **Python**, using **Flask** to provide the REST API to the frontend.
+The **backend** is implemented in **Python**, using **Flask** to provide the REST API to the **frontend**.
 
 There are **two different versions of the backend;** one implements a set of three neural networks:
 
-* a neural network classifies the type of the query of the user understanding if it is about the visual content or the context of th artwork;
-* a neural network for question answering (QA) uses the contextual information of the artwork, stored as JSON data, to answer questions about the the context of the artwork;
-* a neural network for visual question answering considers the visual data of the image and the visual description of the artwork, stored as JSON data, to answer questions about the content of the artwork.
+* a **neural networ**k ***classifies*** the type of the query of the user understanding if it is about the visual content or the context of th artwork;
+* a **neural networ**k for ***question answering (QA)*** uses the contextual information of the artwork, stored as JSON data, to answer questions about the the context of the artwork;
+* a **neural network** for ***visual question answering*** considers the visual data of the image and the visual description of the artwork, stored as JSON data, to answer questions about the content of the artwork.
 
 The idea of this system is to overcome the limitations of existing visual question answering (VQA) approaches, that take as input an image and a question about the image content and aim to answer correctly to the input question (see following figure). In fact VQA systems are limited in that they:
 
-* are able to answer questions about the **image content (visual questions)** with a few words;
-* are not able to answer questions about the image which involve **external information (contextual questions)** not inferable from the image content.     
+* **are able to** answer questions about the **image content (visual questions)** with a few words;
+* **are not able** to answer questions about the image which involve **external information (contextual questions)** not inferable from the image content.     
 
-However, in the Cultural Heritage domain contextual questions are very frequent (when was the painting depicted?... who is the author?...)
+However, in the Cultural Heritage domain contextual questions are very frequent (*when was the painting depicted?... who is the author?*...)
 
-The design of the first type of chatbot implemented in the Multimedia chatbot application follows thus the schema represented in the next figure.
+The design of the first type of chatbot implemented in the Multimedia chatbot application follows thus the **schema** represented in the next figure.
 
 ![Multimedia chatbot: example of visual question answering (VQA) for cultural heritage, answering a question related to the context of the artwork](https://ucarecdn.com/133da573-fb5b-4438-9973-b1c80e0c12e5/ "Multimedia chatbot: example of visual question answering (VQA) for cultural heritage, answering a question related to the context of the artwork")
 
@@ -44,9 +44,9 @@ The design of the first type of chatbot implemented in the Multimedia chatbot ap
 
 The question classifier network is a network that processes only the textual information given by the question. It has the structure of a **Transformer model** followed by a classification head, and has been trained on questions of both the VQA v22 and OK-VQA3 datasets.
 
-The VQA network extracts the salient region features of the image using Faster-RCNN4 (pretrained on the Visual Genome5 Dataset). It uses an attention mechanism to filter the image regions according to the input question and has been trained on examples of VQA v2 dataset.
+The **VQA network** extracts the salient region features of the image using Faster-RCNN4 (pretrained on the Visual Genome5 Dataset). It uses an attention mechanism to filter the image regions according to the input question and has been trained on examples of VQA v2 dataset.
 
-The QA network uses an attention mechanism to find the answer to the question in the text. It has the structure of the Transformer models and has been  trained on Squad6 dataset.
+The **QA network** uses an attention mechanism to find the answer to the question in the text. It has the structure of the Transformer models and has been  trained on Squad6 dataset.
 
 The following figures show some qualitative results obtained by the system, highlighting in red the mistakes
 
