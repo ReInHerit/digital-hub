@@ -13,7 +13,7 @@ status: draft
 thumbnail: https://ucarecdn.com/c9c5d1cb-997e-4111-ba9c-49d9b1690bf8/
 pdf: ""
 ---
-This **web-based application** implements a **chatbot** **system** that can answer questions about **visual content** of artworks or about their **context**, e.g. about the author and history of the artwork. The design of this application is motivated by the recent huge interest in chat-based interaction that has been popularized, for example, by ChatGPT.
+**Multimedia Chatbot**  is a **web application** that can be integrated within a museum website or as a mobile web site, and provides an **interaction based on natural language processing and chat**. Users can either type their questions or interact with speech that is then translated to text. This **web-based application** implements a **chatbot** **system** that can answer questions about **visual content** of artworks or about their **context**, e.g. about the author and history of the artwork. The design of this application is motivated by the recent huge interest in chat-based interaction that has been popularized, for example, by ChatGPT.
 
 The application **frontend** is based on **Javascript**, and the interface is based on a reactive design that adapts both to desktop web browsers, allowing to add this functionality to the existing websites of museums, or to a mobile application to provide a new type of smart guide. To ease this latter type of interaction, queries of the users can be performed using speech recognition, so to avoid typing long queries on the small keyboard of the device.
 
