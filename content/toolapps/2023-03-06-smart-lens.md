@@ -22,7 +22,7 @@ The app can use **three different computer vision techniques**, each one eliciti
 
 The **Content-based Image retrieval (CBIR)** mechanism allows the recognition of the works and their details through the comparison between the visual features extracted from a dataset of images (the collection of details stored in a database, i.e. in the guide) and those obtained from the frame produced by the user's camera.  To allow the recognition of the details of the works, the features have been extracted not only from the entire work but also from some of its parts obtained through a rigid subdivision as shown in the following figure.
 
-![image subdivision/augmentation used for CBIR ](https://ucarecdn.com/23f84070-626a-4b02-ab6d-55c601dbe8c0/ "image subdivision/augmentation used for CBIR ")
+![image subdivision/augmentation used for CBIR ](https://ucarecdn.com/8893d914-6f5c-43be-9ee7-2260c65ea995/ "image subdivision/augmentation used for CBIR ")
 
 > *Image subdivision/augmentation used for CBIR*
 
@@ -40,7 +40,7 @@ In the camera view, the work or detail is framed and the recognition operation i
 
 For each work or detail is provided a textual description, the relative image and any audio and video content.  If an audio file is not available, the application will allow the text-to-speech of the textual.
 
-![ example of details recognition using the object detection approach: the boxes highlight which part of the image are related to the details. Clicking on the detail icons takes the specific information](https://ucarecdn.com/203386e8-19a8-48f2-a070-fa2fc63eb456/ " example of details recognition using the object detection approach: the boxes highlight which part of the image are related to the details. Clicking on the detail icons takes the specific information")
+![ example of details recognition using the object detection approach: the boxes highlight which part of the image are related to the details. Clicking on the detail icons takes the specific information](https://ucarecdn.com/cd3b0ef9-2290-4ee4-b779-883dac74db37/ " example of details recognition using the object detection approach: the boxes highlight which part of the image are related to the details. Clicking on the detail icons takes the specific information")
 
 >  *Example of details recognition using the object detection approach: the boxes highlight which part of the image are related to the details. Clicking on the detail icons takes the specific information*
 
