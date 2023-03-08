@@ -14,7 +14,7 @@ thumbnail: https://ucarecdn.com/569eb601-3c1a-463d-a66b-995ac7b382a8/
 ---
 This is a **web application** that can be used to provide **advanced** **search functions for multimedia archives.** It provides **content-based image retrieval (CBIR)** facilities, i.e. search images based on their content. Search can be performed in two ways: 
 
-1.  use a **textual description** to search images;
+1. use a **textual description** to search images;
 2. use a **combination of reference image and associated textual description** to search for images.
 
 The novelty of this application is due to the implementation of the computer vision component, i.e. the **neural network** used to associate text describing the desired content of the image and the pixels of the image. Within ReInHerit, a **novel approach** to perform conditioned image retrieval has been developed, i.e. the second type of search described above, that allows to **search an image** **using an image example (a visual reference**) and an **additional text**, expressed in natural language, that describes a modification w.r.t. the content of the reference image. The first type of image search is implemented using the same type of neural network, used in this case for uni-modal search: text-to-image retrieval (and also image-to-image retrieval). The system can be used also to perform tagging (i.e. image annotation), using a zero-shot learning approach, i.e. an approach where it is not necessary to train explicitly the network to recognize a specific content. This is extremely beneficial for **small museums** that may not have the large resources needed to collect training data required to train explicitly a neural network to recognize a visual concept
@@ -42,7 +42,7 @@ To get a better idea of how CLIP behaves in the artworks domain we started with 
 
 To understand how CLIP associates text to the parts of the image that refers to an artwork we used a generalization of **gradCAM technique**, that obtains an heat-map visualization showing us the portions of the image that CLIP most closely associated with the description. 
 
-![Examples of such gradCAM visualization](https://ucarecdn.com/f75361d7-8e97-4372-aba1-4bf5bba98fa9/ "Examples of such gradCAM visualization")
+![Examples of such gradCAM visualization](https://ucarecdn.com/fe19bca0-25ae-4aa7-bc87-7355d6aaa407/ "Examples of such gradCAM visualization")
 
 > \
 > *Four examples of such gradCAM visualization. We can see how, using the descriptions in the dataset, CLIP places attention to the portions of the image that are associated with the artworks shown. This fact made us confident that CLIP would work very well in the domain of artwork.*
@@ -52,7 +52,7 @@ To summarize the CBIR performance of the app we report in the following tables t
 **MULTIMODAL RETRIEVAL**\
 Considering the impressive results obtained in unimodal search with CLIP, a second type of CBIR has been considered, **combining text and images to express more complex queries**, i.e. allowing users to represent complex visual aspects with image example and then refining their query with high-level expressions using natural language. This type of search is called, in the multimedia and computer vision community, **composed image retrieval**: the unimodal query is extended to an image-language pair. In a small variation, called **conditioned image retrieval**, the additional text may request constraints or add specifications on some attributes of the retrieved results. It must be noted that this type of search is much more complex than standard CBIR, but is receiving more attention by the scientific community since it allows to extend the effectiveness of CBIR systems by adding some form of user feedback and because it has many possible applications in different domains.  The following figure shows the concept of combined/conditioned image retrieval. 
 
-![Example of combined/conditioned retrieval](https://ucarecdn.com/88df2442-308a-407f-8fa9-1af2f4d7c21d/ "Example of combined/conditioned retrieval")
+![Example of combined/conditioned retrieval](https://ucarecdn.com/2e058b06-9b36-42b3-8702-1d628330c3e7/ "Example of combined/conditioned retrieval")
 
 > *Example of combined/conditioned retrieval. The text provides a context to the visual query, in this case requesting to change a visual aspect of the reference image*
 
