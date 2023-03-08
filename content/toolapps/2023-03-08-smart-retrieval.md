@@ -52,7 +52,7 @@ To summarize the CBIR performance of the app we report in the following tables t
 **MULTIMODAL RETRIEVAL**\
 Considering the impressive results obtained in unimodal search with CLIP, a second type of CBIR has been considered, **combining text and images to express more complex queries**, i.e. allowing users to represent complex visual aspects with image example and then refining their query with high-level expressions using natural language. This type of search is called, in the multimedia and computer vision community, **composed image retrieval**: the unimodal query is extended to an image-language pair. In a small variation, called **conditioned image retrieval**, the additional text may request constraints or add specifications on some attributes of the retrieved results. It must be noted that this type of search is much more complex than standard CBIR, but is receiving more attention by the scientific community since it allows to extend the effectiveness of CBIR systems by adding some form of user feedback and because it has many possible applications in different domains.  The following figure shows the concept of combined/conditioned image retrieval. 
 
-![Example of combined/conditioned retrieval](https://ucarecdn.com/2e058b06-9b36-42b3-8702-1d628330c3e7/ "Example of combined/conditioned retrieval")
+![Example of combined/conditioned retrieval](https://ucarecdn.com/e222a716-171b-4db4-9aac-51091e8bc7a4/ "Example of combined/conditioned retrieval")
 
 > *Example of combined/conditioned retrieval. The text provides a context to the visual query, in this case requesting to change a visual aspect of the reference image*
 
