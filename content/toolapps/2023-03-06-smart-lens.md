@@ -60,7 +60,7 @@ To ease the use of the training system by non-expert users, a new web-based appl
 
 The **architecture** of the system is the following:
 
-![Smart lens - architecture of the neural network training system](https://ucarecdn.com/7fcd7404-6369-415e-a90b-9d6d68434148/ "Smart lens - architecture of the neural network training system")
+![Smart lens - architecture of the neural network training system](https://ucarecdn.com/41aebc63-b8c3-4907-9c0d-098ed7a95cb9/ "Smart lens - architecture of the neural network training system")
 
 > \
 > *Smart lens - architecture of the neural network training system*
