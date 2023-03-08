@@ -23,17 +23,17 @@ The **end-user application** is complemented by a set of backend tools that crea
 
 The vision system implements a **content-based image retrieval (CBIR),** using techniques that are completely different, because of the nature of the task that is addressing landmarks, from that of the Smart Lens app. In fact when considering the recognition of landmarks a common case is that the user does not frame with the lens the whole object, and that the object itself has **many different and possibly diverse views**. To this end when creating the guide the curators must use a **large number of images.** To cope with the variability of the point of view of the users each image is further split in different parts and zoomed in and out versions are created, as shown in the following figures. All these augmentations result in the creation of a very **large dataset of images** representing the landmarks.
 
-![image splitting augmentation](https://ucarecdn.com/7f4da853-29be-4deb-85cd-03561b09e9ae/ "image splitting augmentation")
+![image splitting augmentation](https://ucarecdn.com/96cde401-f599-4fdd-84a0-da1ce1b0d742/ "image splitting augmentation")
 
 > *Image splitting augmentation*
 
-![image zooming augmentation](https://ucarecdn.com/348a15f0-5581-4264-aac9-99636ba4f6f4/ "image zooming augmentation")
+![image zooming augmentation](https://ucarecdn.com/c7afd79a-b476-490b-8754-3bd4d3ec41f9/ "image zooming augmentation")
 
 > *Image zooming augmentation*
 
 To cope with the large number of images, these are indexed using **FAISS**, an indexing library that allows to perform approximate nearest neighbour retrieval, thus reducing the number of actual image comparisons that are needed to determine the landmark that is framed. This need is exacerbated by the fact that we also implement a test-time augmentation, i.e. the image that is taken with the mobile phone is used to generate two zoomed versions, and each image is further split into 3x3. This test-time augmentation is used **to improve the performance of the CBIR system** in terms of accuracy. For each split of each image obtained during the use of the application is computed a descriptor using the MobileNet network, and using FAISS a nearest neighbor image of the database is retrieved and ranked in terms of visual similarity, selecting the 3 most similar images, as shown in the following figure. A K-NN classifier is used to recognize the landmark based on these retrieved images.
 
-![smart tourism app: landmark recognition](https://ucarecdn.com/2a863d2e-4aa4-452f-8784-0ae22086aa96/ "smart tourism app: landmark recognition")
+![smart tourism app: landmark recognition](https://ucarecdn.com/b2207fb6-2dbd-4560-b4e0-fef415fa1535/ "smart tourism app: landmark recognition")
 
 > *Smart tourism app: landmark recognition*
 
@@ -47,8 +47,8 @@ Considering the **computational costs** of the variants of MobileNet V3 tested, 
 
 The following figure shows screenshots of the **application**, with additional debug information in the first two images, and the recognition of a landmark with the associated information.
 
-![Smart tourism app](https://ucarecdn.com/39b9f311-e183-4d66-9567-b69a19db1c94/ "Smart tourism app")
+![Smart tourism app](https://ucarecdn.com/121572b3-e191-405d-8dbd-212b186d0785/ "Smart tourism app")
 
-![Smart tourism app](https://ucarecdn.com/fc99a8fe-9f7a-4b4c-a4b2-5d597a21c09f/ "Smart tourism app")
+![Smart tourism app](https://ucarecdn.com/5ad89dbe-6707-4aeb-8fe0-957cf4b07ba5/ "Smart tourism app")
 
 > *Smart tourism app, views of the application: debug information to test the capability to differentiate between visually similar landmarks; debug info on camera setup and neural network inference (using CPU instead of GPU); examples of landmark recognition and information on the recognized landmark.*
