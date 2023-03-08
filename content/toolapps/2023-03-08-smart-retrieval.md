@@ -58,7 +58,7 @@ Considering the impressive results obtained in unimodal search with CLIP, a seco
 
 Since the task is much more complex than the previous one we have developed a novel neural network that combines visual and textual features computed from a CLIP backbone. This network, called **combiner**, learns how to transform the visual features of the reference image using the textual features of the additional query so that they become more similar to the visual features of the objects in the database. In this way, at runtime, there’s need to compute only the textual features, an operation that can be performed also on old portable PCs and run the computationally inexpensive combiner network to compute the most similar images. This approach thus allows to easily scale on large datasets, or in the case of small organizations, allow to use the system also with low power servers, or using free/low cost cloud providers. The following figure provides a gist of the architecture of the system; in order to obtain a further performance improvement we have reused the CLIP finetuning component that was developed to implement the unimodal search function presented in the previous subsection.
 
-![System architecture](https://ucarecdn.com/92bd5203-10d1-4ea5-87dc-2d99c7a20d25/ "System architecture")
+![System architecture](https://ucarecdn.com/24e8f9de-52eb-46b9-b0f2-894ac2b57de1/ "System architecture")
 
 > *System architecture of the application used for conditioned image retrieval. The CLIP image and text encoder have been finetuned with the component developed for unimodal search.*
 
