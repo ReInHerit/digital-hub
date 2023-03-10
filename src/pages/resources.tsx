@@ -20,12 +20,7 @@ const ResourcesPage = () => {
         ]}
       >Resources</MainHeading>
       <ReinCardGrid>
-{/*
-        <ReinGridCard
-          title="Apps"
-          url="/tools/apps"
-          body="Applications that are either developed within the ReInHerit project or play an important role for CH management or preservation."
-        />
+      {/*
         <ReinGridCard
           title="Tool components"
           url="/tools/components"
@@ -47,12 +42,12 @@ const ResourcesPage = () => {
           body="ReInHerit Toolkit Applications"
           url="/tools/apps"
         />
-      {/*
         <ReinGridCard
           title="eShop Documentation"
           body="ReInHerit eShop documentation"
           url="/eshopdoc"
         />
+      {/*
         <ReinGridCard
           title="Game"
           body="Video game developed within the ReInHerit project."
