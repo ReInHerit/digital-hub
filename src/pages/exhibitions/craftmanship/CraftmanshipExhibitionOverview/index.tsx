@@ -1,16 +1,16 @@
 import React from "react"
 import { Container, Badge, Button, Row, Col } from "react-bootstrap"
-import BaseExhibitionConflict from "../../../../components/static/BaseExhibitionConflicts"
+import BaseExhibitionCraftmanship from "../../../../components/static/BaseExhibitionCraftmanship"
 
 const CraftmanshipExhibitionObjects: React.FC = () => {
 
 return (
-<BaseExhibitionConflict>
-<div className="exh_container_inner exh_rm_nav exh_container_border">
+<BaseExhibitionCraftmanship>
+<div className="exh_container_inner_green exh_rm_nav exh_container_border_green">
 
-  <Badge className="badgeConflicts rounded-pill"><h1>ReThinking CRAFTMANSHIP</h1></Badge>
+  <Badge className="badgeCraftmanship rounded-pill"><h1>ReThinking CRAFTMANSHIP</h1></Badge>
  
-  <div className="conflicts">
+  <div className="craftmanship">
   <h4 className="mt-5">
   As part of intangible cultural heritage, craftsmanship practices not only represent past traditions, but also contemporary methods of production focusing on the sustainable use of natural materials and local manufacturing. 
   <br></br><br></br>
@@ -21,7 +21,7 @@ return (
   </h4>
 </div>
 
-<div id="objectsConflicts">
+<div id="objectsCraftmanship">
 <div className="exhibObject-grid">
 <div className="exh_bullet_btn">choose one object</div>
   <Row>
@@ -33,7 +33,7 @@ return (
           <h3>Frame</h3>
          <p>How do you use a material considered “useless” by some?</p>
          <div className="desc_bottom">
-         <img className="arrow_detail" src="/images/exhibition_assets/arrow_blue.svg" alt="arrow_details"></img>
+         <img className="arrow_detail" src="/images/exhibition_assets/arrow_green.svg" alt="arrow_details"></img>
           <Button className="exh_see_more" variant="primary" href="exhibitions/craftmanship/CraftmanshipObjects/CraftmanshipObjOne">see more</Button>
           </div>
         </div>
@@ -51,7 +51,7 @@ return (
         <h3>Lekythos</h3>
         <p>Are ancient pottery methods still in practice today?</p>
           <div className="desc_bottom">
-          <img className="arrow_detail" src="/images/exhibition_assets/arrow_blue.svg" alt="arrow_details"></img>
+          <img className="arrow_detail" src="/images/exhibition_assets/arrow_green.svg" alt="arrow_details"></img>
           <Button className="exh_see_more" variant="primary" href="exhibitions/craftmanship/CraftmanshipObjects/CraftmanshipObjTwo">see more</Button>
           </div>
           </div>
@@ -68,7 +68,7 @@ return (
           <h3>Chest</h3>
           <p>Who did this chest belong to and what is it guarding?</p>
           <div className="desc_bottom">
-          <img className="arrow_detail" src="/images/exhibition_assets/arrow_blue.svg" alt="arrow_details"></img>
+          <img className="arrow_detail" src="/images/exhibition_assets/arrow_green.svg" alt="arrow_details"></img>
           <Button className="exh_see_more" variant="primary" href="exhibitions/craftmanship/CraftmanshipObjects/CraftmanshipObjThree">see more</Button>
           </div>
         </div>
@@ -79,7 +79,7 @@ return (
 </div>
 
   </div>
-</BaseExhibitionConflict>
+</BaseExhibitionCraftmanship>
     )
   }
 

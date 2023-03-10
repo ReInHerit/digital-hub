@@ -25,13 +25,13 @@ const MapQOne = () => {
 
                 const sortingRows = AllRows.map(({
                   [0]: exact_match,	[1]: longitude, [2]: latitude, [3]: Country,
-                  [4]: Ans1a,	[5]: Ans1b,	[6]: 	Ans1c,	[7]: 	Ans1d,	[8]: 	Ans1e,	
-                  [9]: Ans1aFin,	[10]: Ans1bFin,	[11]: Ans1cFin,	[12]: Ans1dFin,	[13]: Ans1eFin
+                  [4]: Ans1a,	[5]: Ans1b,	[6]: 	Ans1c,	[7]: 	Ans1d,		
+                  [9]: Ans1aFin,	[10]: Ans1bFin,	[11]: Ans1cFin,	[12]: Ans1dFin,	
                 }) => 
                 ({
                   exact_match,	longitude, latitude, Country,
-                  Ans1a,	Ans1b,	Ans1c,	Ans1d,	Ans1e,	
-                  Ans1aFin,	Ans1bFin,	Ans1cFin,	Ans1dFin,	Ans1eFin
+                  Ans1a,	Ans1b,	Ans1c,	Ans1d,		
+                  Ans1aFin,	Ans1bFin,	Ans1cFin,	Ans1dFin,	
                   }))
             //  console.log(sortingRows)
 
@@ -47,7 +47,6 @@ const MapQOne = () => {
                     "Answer_B": row.Ans1bFin,
                     "Answer_C": row.Ans1cFin,
                     "Answer_D": row.Ans1dFin,
-                    "Answer_E": row.Ans1eFin
                 },
                 "geometry": {
                   "coordinates": [Number(row.longitude), Number(row.latitude)],
@@ -69,7 +68,7 @@ const MapQOne = () => {
             const map = new mapboxgl.Map({
               container: mapContainer.current,
               style: 'mapbox://styles/mapbox/light-v11',
-              center: [15.754, 48.228],
+              center: [23.742, 37.975],
               zoom: 5.15,
               projection: 'naturalEarth',
             });
@@ -125,7 +124,6 @@ const MapQOne = () => {
                   <li>B: In total ` + e.features[0].properties.Answer_B + ` People</li>
                   <li>C: In total ` + e.features[0].properties.Answer_C + ` People</li>
                   <li>D: In total ` + e.features[0].properties.Answer_D + ` People</li>
-                  <li>E: In total ` + e.features[0].properties.Answer_E + ` People</li>
                 </ul>` 
 
                //add Popup to map
@@ -156,13 +154,13 @@ const MapQOne = () => {
      <div className="exh_map_result_content">
         <h2>Question 1:</h2>
             <h3>“Roles, including gender roles, are always associated with privileges. Only those who take on a role can enjoy the privileges associated with it. Therefore, taking on any role increases the space of personal freedom.” - Do you agree with this opinion?</h3> 
-                <div className="exh_map_quest_result"><span>A</span><p>Yes, I agree. Rights are always tied to roles. Anyone who does not take on a role is therefore left out without any rights. It starts with citizenship and ends with gender.</p></div>
-                <div className="exh_map_quest_result"><span>B</span><p>Anyone who speaks in this way tacitly assumes that one can freely choose one's role. However, roles are not chosen, they are imposed by society. This also applies to the freedom associated with a role. But of what use is the biggest freedom if it is not the freedom that I want? - Nothing.</p></div>
-                <div className="exh_map_quest_result"><span>C</span><p>That is only one side of the coin. Because even greater than the freedoms one gains are the freedoms one does not gain. So whoever takes on a role closes the door to others and thus also to other privileges. Therefore, taking on a role is always a negative business.</p></div>
-                <div className="exh_map_quest_result"><span>D</span><p>I do not like thinking about my life in terms of social roles. I am just me and I just want to be that. For me, taking on a role always means being fake and having to pretend.</p></div>
+                <div className="exh_map_quest_result_red"><span>A</span><p>Yes, I agree. Rights are always tied to roles. Anyone who does not take on a role is therefore left out without any rights. It starts with citizenship and ends with gender.</p></div>
+                <div className="exh_map_quest_result_red"><span>B</span><p>Anyone who speaks in this way tacitly assumes that one can freely choose one's role. However, roles are not chosen, they are imposed by society. This also applies to the freedom associated with a role. But of what use is the biggest freedom if it is not the freedom that I want? - Nothing.</p></div>
+                <div className="exh_map_quest_result_red"><span>C</span><p>That is only one side of the coin. Because even greater than the freedoms one gains are the freedoms one does not gain. So whoever takes on a role closes the door to others and thus also to other privileges. Therefore, taking on a role is always a negative business.</p></div>
+                <div className="exh_map_quest_result_red"><span>D</span><p>I do not like thinking about my life in terms of social roles. I am just me and I just want to be that. For me, taking on a role always means being fake and having to pretend.</p></div>
       </div>
 
-        <div className="visitCollection"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
+        <div className="visitCollection_red"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
     </React.Fragment>
     );          
 }

@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import { Container, Badge, Button, Row, Col } from "react-bootstrap"
-import BaseExhibitionConflict from "../../../../components/static/BaseExhibitionConflicts"
+import BaseExhibitionIdentities from "../../../../components/static/BaseExhibitionIdentities"
 import MapQOne from "../../../../components/shared/ExhibitionQuestions/mapsIdentities/Q1_map"
 import MapQTwo from "../../../../components/shared/ExhibitionQuestions/mapsIdentities/Q2_map"
 import MapQThree from "../../../../components/shared/ExhibitionQuestions/mapsIdentities/Q3_map"
@@ -49,10 +49,10 @@ const IdentitiesAnswers: React.FC = () => {
 
 
 return (
-<BaseExhibitionConflict>
-<div className="exh_container_inner exh_map_container mt-5">
+<BaseExhibitionIdentities>
+<div className="exh_container_inner_red exh_map_container_red mt-5">
   <div className="d-grid gap-2">
-  <Badge className="badgeConflicts rounded-pill"><h1>Results</h1></Badge>
+  <Badge className="badgeIdentities rounded-pill"><h1>Results</h1></Badge>
   </div>
 
 <Row>
@@ -70,7 +70,7 @@ return (
   </div>
 
   </div>
-</BaseExhibitionConflict>
+</BaseExhibitionIdentities>
     )
   }
 

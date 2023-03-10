@@ -70,7 +70,7 @@ const MapQFour = () => {
             const map = new mapboxgl.Map({
               container: mapContainer.current,
               style: 'mapbox://styles/mapbox/light-v11',
-              center: [15.754, 48.228],
+              center: [33.362, 35.173],
               zoom: 5.15,
               projection: 'naturalEarth',
             });
@@ -160,13 +160,13 @@ const MapQFour = () => {
             <h3>
             Some say that when traditional crafts die out, much irreplaceable knowledge and skill would also be lost. Is that correct?
             </h3> 
-            <div className="exh_map_quest_result"><span>A</span><p>I do not know if knowledge will get lost. After all, there are still books or the Internet in which knowledge is stored and preserved. But the skills are lost, that is true.</p></div>
-            <div className="exh_map_quest_result"><span>B</span><p>That is true, but it is a good thing. Sometimes worse knowledge is simply replaced with better. Who cares how a diesel engine works when there are cars with better engines, such as electric cars?</p></div>
-            <div className="exh_map_quest_result"><span>C</span><p>Much more is lost, namely the adequate and holistic treatment of nature and its products. Everyone who produces cheese from the milk of their own cows is integrated into nature in a completely different way than the customer in the supermarket, who tends to suspect a chemical process or a 3D printer behind the cheese.</p></div>
-            <div className="exh_map_quest_result"><span>D</span><p>Above all, contexts of meaning are lost. Doing manual work also means experiencing one’s own activity in the manufacture of products as meaningful. Operating a machine does not provide such a meaning.</p></div>
+            <div className="exh_map_quest_result_green"><span>A</span><p>I do not know if knowledge will get lost. After all, there are still books or the Internet in which knowledge is stored and preserved. But the skills are lost, that is true.</p></div>
+            <div className="exh_map_quest_result_green"><span>B</span><p>That is true, but it is a good thing. Sometimes worse knowledge is simply replaced with better. Who cares how a diesel engine works when there are cars with better engines, such as electric cars?</p></div>
+            <div className="exh_map_quest_result_green"><span>C</span><p>Much more is lost, namely the adequate and holistic treatment of nature and its products. Everyone who produces cheese from the milk of their own cows is integrated into nature in a completely different way than the customer in the supermarket, who tends to suspect a chemical process or a 3D printer behind the cheese.</p></div>
+            <div className="exh_map_quest_result_green"><span>D</span><p>Above all, contexts of meaning are lost. Doing manual work also means experiencing one’s own activity in the manufacture of products as meaningful. Operating a machine does not provide such a meaning.</p></div>
         </div>
 
-        <div className="visitCollection"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
+        <div className="visitCollection_green"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
     </React.Fragment>
 
     );          

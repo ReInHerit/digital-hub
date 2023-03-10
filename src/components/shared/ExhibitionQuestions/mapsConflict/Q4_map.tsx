@@ -25,12 +25,12 @@ const MapQFour = () => {
 
                 const sortingRowsFour = AllRowsFour.map(({
                   [0]: exact_match,	[1]: longitude, [2]: latitude, [3]: Country,
-                  [4]: Ans4a,	[5]: Ans4b,	[6]: 	Ans4c,	[7]: 	Ans4d,	[8]: 	Ans4e,	
-                  [9]: Ans4aFin,	[10]: Ans4bFin,	[11]: Ans4cFin,	[12]: Ans4dFin,	[13]: Ans4eFin, [14]: Ans4fFin
+                  [4]: Ans4a,	[5]: Ans4b,	[6]: 	Ans4c,	[7]: 	Ans4d,	[8]: 	Ans4e, [9]: Ans4f,
+                  [10]: Ans4aFin,	[11]: Ans4bFin,	[12]: Ans4cFin,	[13]: Ans4dFin,	[14]: Ans4eFin, [15]: Ans4fFin
                 }) => 
                 ({
                   exact_match,	longitude, latitude, Country,
-                  Ans4a,	Ans4b,	Ans4c,	Ans4d,	Ans4e,	
+                  Ans4a,	Ans4b,	Ans4c,	Ans4d,	Ans4e, Ans4f,
                   Ans4aFin,	Ans4bFin,	Ans4cFin,	Ans4dFin,	Ans4eFin, Ans4fFin
                   }))
             //  console.log(sortingRows)

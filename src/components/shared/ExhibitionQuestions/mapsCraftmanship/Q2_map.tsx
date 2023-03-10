@@ -69,7 +69,7 @@ const MapQTwo = () => {
             const map = new mapboxgl.Map({
               container: mapContainer.current,
               style: 'mapbox://styles/mapbox/light-v11',
-              center: [15.754, 48.228],
+              center: [33.362, 35.173],
               zoom: 5.15,
               projection: 'naturalEarth',
             });
@@ -156,10 +156,10 @@ const MapQTwo = () => {
         <div className="exh_map_result_content">
         <h2>Question 2:</h2>
             <h3> COMING SOON</h3> 
-            <div className="exh_map_quest_result"><span>A</span><p> </p></div>
+            <div className="exh_map_quest_result_green"><span>A</span><p> </p></div>
         </div>
 
-        <div className="visitCollection"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
+        <div className="visitCollection_green"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
       </React.Fragment>
     );          
 }

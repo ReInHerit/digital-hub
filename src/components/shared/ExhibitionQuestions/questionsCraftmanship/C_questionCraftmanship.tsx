@@ -69,7 +69,7 @@ Are there products of craftsmanship that can never be made by a machine? What do
         ))}
             <div className="exh_submit_button">
                     <div className="exh_arrow_container">
-                    <img className="exh_blue_arrow" src="/images/exhibition_assets/arrow_blue.svg" alt=""></img>
+                    <img className="exh_green_arrow" src="/images/exhibition_assets/arrow_green.svg" alt=""></img>
             </div>
                     <Button className="exh_submit_btn" 
                     type="submit" disabled={!answerThreeCraftmanship} onClick={handleSubmitC} >

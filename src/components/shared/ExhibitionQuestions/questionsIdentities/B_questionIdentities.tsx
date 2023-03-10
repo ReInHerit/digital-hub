@@ -69,7 +69,7 @@ Gender roles existed at all times and in every society. What do you think: is a 
         ))}
             <div className="exh_submit_button">
                 <div className="exh_arrow_container">
-                <img className="exh_blue_arrow" src="/images/exhibition_assets/arrow_blue.svg" alt=""></img>
+                <img className="exh_red_arrow" src="/images/exhibition_assets/arrow_red.svg" alt=""></img>
             </div>
                 <Button className="exh_submit_btn" 
                 type="submit" disabled={!answerTwoIdentities} onClick={handleSubmitB} >

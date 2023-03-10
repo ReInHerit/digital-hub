@@ -69,7 +69,7 @@ const MapQThree = () => {
             const map = new mapboxgl.Map({
               container: mapContainer.current,
               style: 'mapbox://styles/mapbox/light-v11',
-              center: [15.754, 48.228],
+              center: [23.742, 37.975],
               zoom: 5.15,
               projection: 'naturalEarth',
             });
@@ -158,14 +158,14 @@ const MapQThree = () => {
             <h3>
             Where do gender roles come from?
             </h3> 
-            <div className="exh_map_quest_result"><span>A</span><p>Gender roles have their roots in human biological diversity. If all people were biologically the same sex, the roles would not exist.</p></div>
-            <div className="exh_map_quest_result"><span>B</span><p>All roles are always about the distribution of power. The powerful are called "lords" and the inferior "servants". It is the same with the genders.</p></div>
-            <div className="exh_map_quest_result"><span>C</span><p>It does not matter where gender roles come from. It comes down to overcoming them when they are unjust. All you need is good will.</p></div>
-            <div className="exh_map_quest_result"><span>D</span><p>In the past, gender roles were considered natural. Today we know better. For example, people have learned to distinguish between “sex” and “gender”. From a historical point of view, gender roles are therefore nothing more than anthropological errors.</p></div>
-            <div className="exh_map_quest_result"><span>E</span><p>"Chauvinism" is the belief in the superiority of one's own group. Just take skin color, religion and of course gender as examples. The classic gender roles are only the manifestations of this chauvinism.</p></div>
+            <div className="exh_map_quest_result_red"><span>A</span><p>Gender roles have their roots in human biological diversity. If all people were biologically the same sex, the roles would not exist.</p></div>
+            <div className="exh_map_quest_result_red"><span>B</span><p>All roles are always about the distribution of power. The powerful are called "lords" and the inferior "servants". It is the same with the genders.</p></div>
+            <div className="exh_map_quest_result_red"><span>C</span><p>It does not matter where gender roles come from. It comes down to overcoming them when they are unjust. All you need is good will.</p></div>
+            <div className="exh_map_quest_result_red"><span>D</span><p>In the past, gender roles were considered natural. Today we know better. For example, people have learned to distinguish between “sex” and “gender”. From a historical point of view, gender roles are therefore nothing more than anthropological errors.</p></div>
+            <div className="exh_map_quest_result_red"><span>E</span><p>"Chauvinism" is the belief in the superiority of one's own group. Just take skin color, religion and of course gender as examples. The classic gender roles are only the manifestations of this chauvinism.</p></div>
           </div>
 
-        <div className="visitCollection"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
+        <div className="visitCollection_red"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
     </React.Fragment>
     );          
 }

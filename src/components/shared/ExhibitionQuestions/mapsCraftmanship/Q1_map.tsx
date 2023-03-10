@@ -69,7 +69,7 @@ const MapQOne = () => {
             const map = new mapboxgl.Map({
               container: mapContainer.current,
               style: 'mapbox://styles/mapbox/light-v11',
-              center: [15.754, 48.228],
+              center: [33.362, 35.173],
               zoom: 5.15,
               projection: 'naturalEarth',
             });
@@ -156,18 +156,19 @@ const MapQOne = () => {
      <div className="exh_map_result_content">
         <h2>Question 1:</h2>
         <h3>If you had the choice between a handmade piece of furniture and the same piece of machine-made furniture, which one would you choose?</h3>
-        <div className="exh_map_quest_result"><span>A</span><p>The cheapest.</p></div>
-        <div className="exh_map_quest_result"><span>B</span><p>The best one, the handmade piece of furniture. Machine production never reaches the quality of craftsmanship.</p></div>
-        <div className="exh_map_quest_result"><span>C</span><p>The machine-made piece of furniture. Machines work more precisely than people.</p></div>
-        <div className="exh_map_quest_result"><span>D</span><p>The one that has the smallest ecological footprint. I think it’s the machine-made one because if you count it down per unit it probably takes less energy to make.</p></div>
-        <div className="exh_map_quest_result"><span>E</span><p>The one that has the smallest ecological footprint. I think it’s the handmade one. The energy that a person puts into something is sustainable. Very often energy used by machines is very often non-sustainable.</p></div>
-        <div className="exh_map_quest_result"><span>F</span><p>The one that lasts longer. The handmade one.</p></div>
-        <div className="exh_map_quest_result"><span>G</span><p>The handmade one. With my purchase, I ensure that the craftsman can earn his living and not give it to a money-hungry investor.</p></div>
-        <div className="exh_map_quest_result"><span>H</span><p>I do not care. They are the same anyway.</p></div>
+        <div className="exh_map_quest_result_green"><span>A</span><p>The cheapest.<br></br>
+        </p></div>
+        <div className="exh_map_quest_result_green"><span>B</span><p>The best one, the handmade piece of furniture. Machine production never reaches the quality of craftsmanship.</p></div>
+        <div className="exh_map_quest_result_green"><span>C</span><p>The machine-made piece of furniture. Machines work more precisely than people.</p></div>
+        <div className="exh_map_quest_result_green"><span>D</span><p>The one that has the smallest ecological footprint. I think it’s the machine-made one because if you count it down per unit it probably takes less energy to make.</p></div>
+        <div className="exh_map_quest_result_green"><span>E</span><p>The one that has the smallest ecological footprint. I think it’s the handmade one. The energy that a person puts into something is sustainable. Very often energy used by machines is very often non-sustainable.</p></div>
+        <div className="exh_map_quest_result_green"><span>F</span><p>The one that lasts longer. The handmade one.</p></div>
+        <div className="exh_map_quest_result_green"><span>G</span><p>The handmade one. With my purchase, I ensure that the craftsman can earn his living and not give it to a money-hungry investor.</p></div>
+        <div className="exh_map_quest_result_green"><span>H</span><p>I do not care. They are the same anyway.</p></div>
 
         </div>
 
-        <div className="visitCollection"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
+        <div className="visitCollection_green"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
     </React.Fragment>
     );          
 }

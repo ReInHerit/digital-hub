@@ -26,12 +26,12 @@ const MapQFour = () => {
                 const sortingRowsFour = AllRowsFour.map(({
                   [0]: exact_match,	[1]: longitude, [2]: latitude, [3]: Country,
                   [4]: Ans4a,	[5]: Ans4b,	[6]: 	Ans4c,	[7]: 	Ans4d,	[8]: 	Ans4e,	
-                  [9]: Ans4aFin,	[10]: Ans4bFin,	[11]: Ans4cFin,	[12]: Ans4dFin,	[13]: Ans4eFin, [14]: Ans4fFin
+                  [9]: Ans4aFin,	[10]: Ans4bFin,	[11]: Ans4cFin,	[12]: Ans4dFin,	[13]: Ans4eFin
                 }) => 
                 ({
                   exact_match,	longitude, latitude, Country,
                   Ans4a,	Ans4b,	Ans4c,	Ans4d,	Ans4e,	
-                  Ans4aFin,	Ans4bFin,	Ans4cFin,	Ans4dFin,	Ans4eFin, Ans4fFin
+                  Ans4aFin,	Ans4bFin,	Ans4cFin,	Ans4dFin,	Ans4eFin
                   }))
             //  console.log(sortingRows)
 
@@ -48,7 +48,6 @@ const MapQFour = () => {
                     "Answer_C": row.Ans4cFin,
                     "Answer_D": row.Ans4dFin,
                     "Answer_E": row.Ans4eFin,
-                    "Answer_F": row.Ans4fFin
                 },
                 "geometry": {
                   "coordinates": [Number(row.longitude), Number(row.latitude)],
@@ -70,7 +69,7 @@ const MapQFour = () => {
             const map = new mapboxgl.Map({
               container: mapContainer.current,
               style: 'mapbox://styles/mapbox/light-v11',
-              center: [15.754, 48.228],
+              center: [23.742, 37.975],
               zoom: 5.15,
               projection: 'naturalEarth',
             });
@@ -127,7 +126,6 @@ const MapQFour = () => {
                 <li>C: In total ` + e.features[0].properties.Answer_C + ` People</li>
                 <li>D: In total ` + e.features[0].properties.Answer_D + ` People</li>
                 <li>E: In total ` + e.features[0].properties.Answer_E + ` People</li>
-                <li>F: In total ` + e.features[0].properties.Answer_F + ` People</li>
               </ul>` 
 
                //add Popup to map
@@ -160,14 +158,14 @@ const MapQFour = () => {
             <h3>
             "Identity" means: having the answer to the question of who I actually am. "Gender identity" therefore means: having the answer to the question of which social gender I actually belong to. How important is the answer to this question to you?
             </h3> 
-            <div className="exh_map_quest_result"><span>A</span><p>It is very important for me to know which social gender I belong to. I am part of my gender and I cannot change it like my internet provider.</p></div>
-            <div className="exh_map_quest_result"><span>B</span><p>In my opinion too much attention is paid to the issue of identity. It does not matter if I have an identity of any kind. The only thing that matters is my own happiness.</p></div>
-            <div className="exh_map_quest_result"><span>C</span><p>For me, the question of identity is of no interest. I do not even know who I am. And if I knew, what good would it do me?</p></div>
-            <div className="exh_map_quest_result"><span>D</span><p>I refuse the question of my identity. It presupposes that there is something in me that always remains the same - my nature, including me as a sexual being. But that is not the case with me. To me, chasing my identity means chasing a ghost.</p></div>
-            <div className="exh_map_quest_result"><span>E</span><p>The world we live in is still dominated by gender roles. That is the reason why I am interested in it. However, I hope that in future generations it will not matter what gender you belong to.</p></div>
+            <div className="exh_map_quest_result_red"><span>A</span><p>It is very important for me to know which social gender I belong to. I am part of my gender and I cannot change it like my internet provider.</p></div>
+            <div className="exh_map_quest_result_red"><span>B</span><p>In my opinion too much attention is paid to the issue of identity. It does not matter if I have an identity of any kind. The only thing that matters is my own happiness.</p></div>
+            <div className="exh_map_quest_result_red"><span>C</span><p>For me, the question of identity is of no interest. I do not even know who I am. And if I knew, what good would it do me?</p></div>
+            <div className="exh_map_quest_result_red"><span>D</span><p>I refuse the question of my identity. It presupposes that there is something in me that always remains the same - my nature, including me as a sexual being. But that is not the case with me. To me, chasing my identity means chasing a ghost.</p></div>
+            <div className="exh_map_quest_result_red"><span>E</span><p>The world we live in is still dominated by gender roles. That is the reason why I am interested in it. However, I hope that in future generations it will not matter what gender you belong to.</p></div>
         </div>
 
-        <div className="visitCollection"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
+        <div className="visitCollection_red"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
     </React.Fragment>
 
 

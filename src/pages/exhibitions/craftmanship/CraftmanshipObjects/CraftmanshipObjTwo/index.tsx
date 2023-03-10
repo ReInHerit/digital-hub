@@ -1,27 +1,34 @@
 import React from "react"
 import { Container, Badge, Button, Row, Col } from "react-bootstrap"
-import BaseExhibitionConflict from "../../../../../components/static/BaseExhibitionConflicts"
+import BaseExhibitionCraftmanship from "../../../../../components/static/BaseExhibitionCraftmanship"
 
 const CraftmanshipObjectOne = () => {
 
 return (
-<BaseExhibitionConflict>
-<div className="exh_container_inner exh_rm_nav exh_container_border">
+<BaseExhibitionCraftmanship>
+<div className="exh_container_inner_green exh_rm_nav exh_container_border_green">
   <div className="d-grid gap-2">
-  <Badge className="badgeConflicts rounded-pill"><h1>ReThinking CRAFTMANSHIP</h1></Badge>
+  <Badge className="badgeCraftmanship rounded-pill"><h1>ReThinking CRAFTMANSHIP</h1></Badge>
   </div>
-  <div className="conflicts">
-  <h4 className="conflicts">
+  <div className="craftmanship">
+  <h4 className="craftmanship">
+
   The White Lekythos is a clay vessel meant to store aromatic oils. It was made around 420 b.C. in a workshop in Attica and measures 28.8 cm in height. It is part of the collection of the Museum of Cycladic Art in Athens, Greece.
   </h4>
 
-  <Badge className="badgeConflicts rounded-pill exh_m_btm"><h1> ...</h1></Badge>
+  <Badge className="badgeCraftmanship rounded-pill exh_m_btm"><h1> ...</h1></Badge>
 
 <div className="exh_h5p_iframe">
-<iframe src="" width="1000" height="800"></iframe>
+<iframe src="https://collection.reinherit-hub.eu/h5p-lekythos.html" width="1000" height="800"></iframe>
 </div>
 
-<div className="exh_h5p_2dviewer">
+<div className="exh_sketchfab_iframe"> 
+<div className="sketchfab-embed-wrapper mt-5"> 
+<iframe title="White-ground lekythos" 
+src="https://sketchfab.com/models/8c5ea24a4cfa4b59a1f65c50108fba88/embed"
+width="100%" height="100%" > 
+</iframe> 
+</div>
 </div>
 
 <div className="exh_object_btm">
@@ -43,7 +50,7 @@ return (
 
 <div className="exh_submit_button">
           <div className="exh_arrow_container">
-              <img className="exh_blue_arrow" src="/images/exhibition_assets/arrow_blue.svg" alt=""></img>
+              <img className="exh_green_arrow" src="/images/exhibition_assets/arrow_green.svg" alt=""></img>
           </div>
           <Button className="exh_submit_btn" href="exhibitions/craftmanship/CraftmanshipQuestions/4thQuestionCraftmanship">
             <h1 style={{color: "white"}}>Exit Exhibition</h1>
@@ -52,7 +59,7 @@ return (
 </div>
 
   </div>
-</BaseExhibitionConflict>
+</BaseExhibitionCraftmanship>
     )
   }
 

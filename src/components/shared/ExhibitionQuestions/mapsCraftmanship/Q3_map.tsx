@@ -69,7 +69,7 @@ const MapQThree = () => {
             const map = new mapboxgl.Map({
               container: mapContainer.current,
               style: 'mapbox://styles/mapbox/light-v11',
-              center: [15.754, 48.228],
+              center: [33.362, 35.173],
               zoom: 5.15,
               projection: 'naturalEarth',
             });
@@ -158,17 +158,17 @@ const MapQThree = () => {
             <h3>
             Are there products of craftsmanship that can never be made by a machine? What do you think?
             </h3> 
-            <div className="exh_map_quest_result"><span>A</span><p>No. In earlier times people used to think that the human mind will never be defeated by a machine. In chess for example. Nobody talks about that anymore. It will be the same with handcrafted products.</p></div>
-            <div className="exh_map_quest_result"><span>B</span><p>Yes. A handcrafted product is always unique. But machine manufacturing never delivers unique items. It’s always one like the other.</p></div>
-            <div className="exh_map_quest_result"><span>C</span><p>Yes. Because there are quality levels that are unattainable for machines. Example: the handmade mouthpiece of a saxophone. Simply no machine-made mouthpiece can match the sound quality of a handmade mouthpiece.</p></div>
-            <div className="exh_map_quest_result"><span>D</span><p>I think the differences will be so small that no one will notice them anymore.</p></div>
-            <div className="exh_map_quest_result"><span>E</span><p>Artisan products require spirit, and mechanical products require only energy. There is an insurmountable gulf between them.</p></div>
-            <div className="exh_map_quest_result"><span>F</span><p>Perhaps machine-made products will never really be as good as handcrafted ones at the top. But in quantity, they are better.</p></div>
+            <div className="exh_map_quest_result_green"><span>A</span><p>No. In earlier times people used to think that the human mind will never be defeated by a machine. In chess for example. Nobody talks about that anymore. It will be the same with handcrafted products.</p></div>
+            <div className="exh_map_quest_result_green"><span>B</span><p>Yes. A handcrafted product is always unique. But machine manufacturing never delivers unique items. It’s always one like the other.</p></div>
+            <div className="exh_map_quest_result_green"><span>C</span><p>Yes. Because there are quality levels that are unattainable for machines. Example: the handmade mouthpiece of a saxophone. Simply no machine-made mouthpiece can match the sound quality of a handmade mouthpiece.</p></div>
+            <div className="exh_map_quest_result_green"><span>D</span><p>I think the differences will be so small that no one will notice them anymore.</p></div>
+            <div className="exh_map_quest_result_green"><span>E</span><p>Artisan products require spirit, and mechanical products require only energy. There is an insurmountable gulf between them.</p></div>
+            <div className="exh_map_quest_result_green"><span>F</span><p>Perhaps machine-made products will never really be as good as handcrafted ones at the top. But in quantity, they are better.</p></div>
         </div>
 
 
 
-        <div className="visitCollection"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
+        <div className="visitCollection_green"><Button className="coll_button" href="https://collection.reinherit-hub.eu/">Visit Collection</Button></div>
     </React.Fragment>
     );          
 }
