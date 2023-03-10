@@ -14,10 +14,10 @@ thumbnail: https://ucarecdn.com/e3764500-f526-4b00-81a2-548a2433fdad/
 ---
 ![](https://ucarecdn.com/ea0346b0-885d-41f0-b21d-2c2834173efb/)
 
-* **March 24th, 2023 from 3:00-4:00 pm CET**
+* **March 24th 2023 from 3:00-4:00 pm CET**
 * Facilitated by **Helene Gödl,** [GrazMuseum, ](https://www.grazmuseum.at/en/)Austria
-* **Free Registration is open until 23 March 2023 (3 pm)** \*\* HERE \*\*\
-  [shorturl.at/wIPZ4](http://shorturl.at/wIPZ4)
+* **Free Registration is open until 23 March 2023 (3 pm)** \*\* [HERE](https://docs.google.com/forms/d/e/1FAIpQLSf44Xav7IHHg3WpG-E-nJdpBTS3g01ZMYMu31DNP59QOyOf_A/viewform) \*\*\
+  [shorturl.at/wyB01](http://shorturl.at/wyB01)
 * The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available in the [resources section](https://reinherit-hub.eu/webinars).
 
 ReinHerit Webinars are aimed at cultural heritage professionals. They will consist of a *how to guide* for small and medium-sized museum and cultural heritage organizations that documents processes, provides instruction, technical requirements and best practices for co-creation and collaboration between museums and cultural heritage institutions.
