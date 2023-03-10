@@ -23,7 +23,7 @@ return (
 
 {/*Actual Form answers - radio checks; followed by button to next page*/}
         <div className="craftmanshipAnswers">
-        <h2>Ερώτηση: 3</h2>
+        <h2>Ερώτηση: 2</h2>
             <QuestionThreeCraftmanship></QuestionThreeCraftmanship>
         </div>
         

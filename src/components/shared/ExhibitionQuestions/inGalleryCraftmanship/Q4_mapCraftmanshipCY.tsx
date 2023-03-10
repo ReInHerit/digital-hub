@@ -152,7 +152,7 @@ const MapQFour = () => {
             <div ref={mapContainer} className="map-container" />
         </div>
         <div className="exh_map_result_content">
-        <h2>Ερώτηση 4:</h2>
+        <h2>Ερώτηση 3:</h2>
             <h3>
             Ορισμένοι λένε ότι όταν οι παραδοσιακές τέχνες εκλείψουν, θα χαθούν επίσης πολλές αναντικατάστατες γνώσεις και δεξιότητες. Είναι σωστό αυτό;
             </h3> 

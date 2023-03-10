@@ -47,7 +47,7 @@ const QuestionOneCraftmanship = () => {
     const handleSubmitA = async (e) => {
         e.preventDefault();
         await appendSpreadsheet();
-        window.location.href = "/exhibitions/craftmanship/inGalleryEN/2ndQuestionCraftmanshipEN";
+        window.location.href = "/exhibitions/craftmanship/inGalleryEN/3rdQuestionCraftmanshipEN";
       };
 
 

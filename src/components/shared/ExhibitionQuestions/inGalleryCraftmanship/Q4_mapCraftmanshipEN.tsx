@@ -152,7 +152,7 @@ const MapQFour = () => {
             <div ref={mapContainer} className="map-container" />
         </div>
         <div className="exh_map_result_content">
-        <h2>Question 4:</h2>
+        <h2>Question 3:</h2>
             <h3>
             Some say that when traditional crafts die out, much irreplaceable knowledge and skill would also be lost. Is that correct?
             </h3> 

@@ -63,16 +63,16 @@ return (
 
 <Row>
 <Col lg={3} md={6} sm={12}><Button className={`exh_map_btn ${activeButton === "Question 1" ? "active" : ""}`} onClick={handleMapQOne}>Ερώτηση 1</Button></Col>
-<Col lg={3} md={6} sm={12}><Button className={`exh_map_btn ${activeButton === "Question 2" ? "active" : ""}`} onClick={handleMapQTwo}>Ερώτηση 2</Button></Col>
-<Col lg={3} md={6} sm={12}><Button className={`exh_map_btn ${activeButton === "Question 3" ? "active" : ""}`} onClick={handleMapQThree}>Ερώτηση 3</Button></Col>
-<Col lg={3} md={6} sm={12}><Button className={`exh_map_btn ${activeButton === "Question 4" ? "active" : ""}`} onClick={handleMapQFour}>Ερώτηση 4</Button></Col>
+{/* <Col lg={3} md={6} sm={12}><Button className={`exh_map_btn ${activeButton === "Question 2" ? "active" : ""}`} onClick={handleMapQTwo}>Ερώτηση 2</Button></Col> */}
+<Col lg={3} md={6} sm={12}><Button className={`exh_map_btn ${activeButton === "Question 3" ? "active" : ""}`} onClick={handleMapQThree}>Ερώτηση 2</Button></Col> 
+<Col lg={3} md={6} sm={12}><Button className={`exh_map_btn ${activeButton === "Question 4" ? "active" : ""}`} onClick={handleMapQFour}>Ερώτηση 3</Button></Col>
 </Row>
 
   <div className="exh_btn_content">
       {MapQOneVisible && <h1>Ερώτηση 1</h1> && <MapQOne></MapQOne>}
-      {MapQTwoVisible && <h1>Ερώτηση 2</h1> && <MapQTwo></MapQTwo>}
-      {MapQThreeVisible && <h1>Ερώτηση 3</h1> && <MapQThree></MapQThree>}
-      {MapQFourVisible && <h1>Ερώτηση 4</h1> && <MapQFour></MapQFour>}
+    {/*  {MapQTwoVisible && <h1>Ερώτηση 2</h1> && <MapQTwo></MapQTwo>} */}
+      {MapQThreeVisible && <h1>Ερώτηση 2</h1> && <MapQThree></MapQThree>} 
+      {MapQFourVisible && <h1>Ερώτηση 3</h1> && <MapQFour></MapQFour>}
   </div>
 
   <div className="exh_submit_button">
@@ -80,7 +80,7 @@ return (
       <img className="exh_green_arrow" src="/images/exhibition_assets/arrow_green.svg" alt=""></img>
   </div>
       <Button className="exh_submit_btn" href="/exhibitions/craftmanship/inGalleryCY/4thQuestionCraftmanshipCY">
-        <h1 style={{ color: "white" }}>Η ερώτηση 4 έχει ήδη απαντηθεί;</h1>
+        <h1 style={{ color: "white" }}>Έχετει  ήδη απαντήσει την ερώτηση 3;</h1>
       </Button>
   </div> 
 

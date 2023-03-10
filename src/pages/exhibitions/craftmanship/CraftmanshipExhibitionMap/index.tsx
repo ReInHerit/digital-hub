@@ -57,16 +57,16 @@ return (
 
 <Row>
 <Col lg={3} md={6} sm={12}><Button className={`exh_map_btn ${activeButton === "Question 1" ? "active" : ""}`} onClick={handleMapQOne}>Question 1</Button></Col>
-<Col lg={3} md={6} sm={12}><Button className={`exh_map_btn ${activeButton === "Question 2" ? "active" : ""}`} onClick={handleMapQTwo}>Question 2</Button></Col>
-<Col lg={3} md={6} sm={12}><Button className={`exh_map_btn ${activeButton === "Question 3" ? "active" : ""}`} onClick={handleMapQThree}>Question 3</Button></Col>
-<Col lg={3} md={6} sm={12}><Button className={`exh_map_btn ${activeButton === "Question 4" ? "active" : ""}`} onClick={handleMapQFour}>Question 4</Button></Col>
+{/* <Col lg={3} md={6} sm={12}><Button className={`exh_map_btn ${activeButton === "Question 2" ? "active" : ""}`} onClick={handleMapQTwo}>Question 2</Button></Col> */}
+<Col lg={3} md={6} sm={12}><Button className={`exh_map_btn ${activeButton === "Question 3" ? "active" : ""}`} onClick={handleMapQThree}>Question 2</Button></Col>
+<Col lg={3} md={6} sm={12}><Button className={`exh_map_btn ${activeButton === "Question 4" ? "active" : ""}`} onClick={handleMapQFour}>Question 3</Button></Col>
 </Row>
 
   <div className="exh_btn_content">
       {MapQOneVisible && <h1>Question 1</h1> && <MapQOne></MapQOne>}
-      {MapQTwoVisible && <h1>Question 2</h1> && <MapQTwo></MapQTwo>}
-      {MapQThreeVisible && <h1>Question 3</h1> && <MapQThree></MapQThree>}
-      {MapQFourVisible && <h1>Question 4</h1> && <MapQFour></MapQFour>}
+    {/*  {MapQTwoVisible && <h1>Question 2</h1> && <MapQTwo></MapQTwo>}  */}
+      {MapQThreeVisible && <h1>Question 2</h1> && <MapQThree></MapQThree>}
+      {MapQFourVisible && <h1>Question 3</h1> && <MapQFour></MapQFour>}
   </div>
 
   </div>

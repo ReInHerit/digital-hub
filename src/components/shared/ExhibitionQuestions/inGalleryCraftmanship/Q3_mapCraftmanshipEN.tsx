@@ -156,7 +156,7 @@ const MapQThree = () => {
             <div ref={mapContainer} className="map-container" />
         </div>
         <div className="exh_map_result_content">
-        <h2>Question 3:</h2>
+        <h2>Question 2:</h2>
             <h3>
             Are there products of craftsmanship that can never be made by a machine? What do you think?
             </h3> 

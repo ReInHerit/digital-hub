@@ -22,7 +22,7 @@ return (
 
 {/*Actual Form answers - radio checks; followed by button to next page*/}
         <div className="craftmanshipAnswers">
-        <h2>Question: 4</h2>
+        <h2>Question: 3</h2>
             <QuestionFourCraftmanship></QuestionFourCraftmanship>
         </div>
         

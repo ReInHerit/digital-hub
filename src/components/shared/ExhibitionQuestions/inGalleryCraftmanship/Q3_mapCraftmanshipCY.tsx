@@ -156,7 +156,7 @@ const MapQThree = () => {
             <div ref={mapContainer} className="map-container" />
         </div>
         <div className="exh_map_result_content">
-        <h2>Ερώτηση 3:</h2>
+        <h2>Ερώτηση 2:</h2>
             <h3>
             Υπάρχουν προϊόντα χειροτεχνίας που δεν μπορούν ποτέ να κατασκευαστούν από μηχανή; Εσείς τι πιστεύετε;
             </h3> 
