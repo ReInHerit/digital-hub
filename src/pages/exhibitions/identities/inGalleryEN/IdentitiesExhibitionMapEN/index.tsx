@@ -57,7 +57,7 @@ return (
   <div className="identitiesQuestions exh_question_intro_text">
           <div className="d-flex justify-content-end">
             <Badge pill bg="danger"><h2>
-            <Link to="/exhibitions/identities/inGalleryGR/IdentitiesExhibitionMapGR" style={{ color: "white" }} className="text-decoration-none">Ελληνική</Link></h2></Badge>
+            <Link to="/exhibitions/identities/inGalleryGR/IdentitiesExhibitionMapGR" style={{ color: "white" }} className="text-decoration-none">Ελληνικά </Link></h2></Badge>
           </div>
           </div>
 

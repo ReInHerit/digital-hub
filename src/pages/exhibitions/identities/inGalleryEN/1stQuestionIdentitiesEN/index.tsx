@@ -22,7 +22,7 @@ return (
             <Col sm={2}>
             <div className="d-flex justify-content-end">
             <Badge pill bg="danger"><h2>
-            <Link to="/exhibitions/identities/inGalleryGR/1stQuestionIdentitiesGR" style={{ color: "white" }} className="text-decoration-none">Ελληνική</Link></h2></Badge>
+            <Link to="/exhibitions/identities/inGalleryGR/1stQuestionIdentitiesGR" style={{ color: "white" }} className="text-decoration-none">Ελληνικά </Link></h2></Badge>
             </div>
             </Col>
         </Row>

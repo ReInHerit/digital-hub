@@ -72,7 +72,7 @@ return (
             </div>
                     <Button className="exh_submit_btn" 
                     type="submit" disabled={!answerThreeIdentities} onClick={handleSubmitC} >
-                    <h1 style={{ color: "white" }}>Ευχαριστώ και απολαύστε την έκθεση!</h1>
+                    <h1 style={{ color: "white" }}>Ευχαριστούμε! Απολαύστε την έκθεση!</h1>
                     </Button>
             </div>        
         </Form>

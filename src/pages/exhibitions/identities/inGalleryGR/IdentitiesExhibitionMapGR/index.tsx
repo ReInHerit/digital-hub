@@ -79,7 +79,7 @@ return (
       <img className="exh_red_arrow" src="/images/exhibition_assets/arrow_red.svg" alt=""></img>
   </div>
       <Button className="exh_submit_btn" href="/exhibitions/identities/inGalleryGR/4thQuestionIdentitiesGR">
-        <h1 style={{ color: "white" }}>Η ερώτηση 4 έχει ήδη απαντηθεί;</h1>
+        <h1 style={{ color: "white" }}>Απαντήσατε στην ερώτηση 4;</h1>
       </Button>
   </div> 
 
