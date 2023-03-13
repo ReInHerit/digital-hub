@@ -18,7 +18,7 @@ return (
   The Frame decorated with silkworm cocoons was made in the 20th century and features cocoon embroidery on velvet fabric and a black and white photograph. It measures 57 x 60 cm. It is part of the collection of the Bank of Cyprus Cultural Foundation in Nicosia, Cyprus.
     </h4>
 
-    <Badge className="badgeCraftmanship rounded-pill exh_m_btm"><h1> ...</h1></Badge>
+    <Badge className="badgeCraftmanship rounded-pill exh_m_btm"><h1>Discover more</h1></Badge>
 
 <div className="exh_h5p_iframe">
 <iframe src="https://collection.reinherit-hub.eu/h5p-cocoon.html" width="1000" height="800"></iframe>

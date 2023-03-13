@@ -16,7 +16,7 @@ return (
   The White Lekythos is a clay vessel meant to store aromatic oils. It was made around 420 b.C. in a workshop in Attica and measures 28.8 cm in height. It is part of the collection of the Museum of Cycladic Art in Athens, Greece.
   </h4>
 
-  <Badge className="badgeCraftmanship rounded-pill exh_m_btm"><h1> ...</h1></Badge>
+  <Badge className="badgeCraftmanship rounded-pill exh_m_btm"><h1>Discover more</h1></Badge>
 
 <div className="exh_h5p_iframe">
 <iframe src="https://collection.reinherit-hub.eu/h5p-lekythos.html" width="1000" height="800"></iframe>

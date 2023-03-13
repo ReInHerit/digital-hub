@@ -18,7 +18,7 @@ return (
   The Trade Guild Chest of the Graz Gingerbread Bakers was made in 1744 as the emblem of the craft guild and to hold the guild’s most important documents. It measures 41 × 60 x 31 cm. It is part of the collection of the Graz Museum in Graz, Austria.  
   </h4>
 
-  <Badge className="badgeCraftmanship rounded-pill exh_m_btm"><h1> ...</h1></Badge>
+  <Badge className="badgeCraftmanship rounded-pill exh_m_btm"><h1>Discover more</h1></Badge>
 
 <div className="exh_h5p_iframe">
 <iframe src="https://collection.reinherit-hub.eu/h5p-guildchest.html" width="1000" height="800"></iframe>
