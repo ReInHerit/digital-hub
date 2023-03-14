@@ -11,6 +11,7 @@ target-audience:
 referenceTo:
   - News
 theme: Other
+thumbnail: https://ucarecdn.com/4d439c98-a8db-4a15-943a-ca040c41321f/
 ---
 Dr. Jenny Newell Curator for Climate Change at the Australian Museum’s Climate Solutions Centre,  aims to increase engagement in environmental stewardship through the medium of museums. Jenny will explain the meaning of the term ACE (Action for Climate Empowerment) adopted by the United Nations Framework Convention on Climate Change. She will also give us practical tips on how museums can be environmentally sustainable and increase community involvement to address climate change
 
