@@ -18,11 +18,13 @@ return (
   The temple boy is a type of statuette popular in Cyprus as well as the Levant region where many statuettes have been found. Many interpretations as to the use and purpose of the temple boy statuettes have been put forward, mainly that they served as votive offerings to both male and female divinities. 
   </h4>
 
-<Badge className="badgeIdentities rounded-pill exh_m_btm"><h1> ...</h1></Badge>
+<Badge className="badgeIdentities rounded-pill exh_m_btm"><h1>Get to know a Temple Boy</h1></Badge>
 
 <div className="exh_h5p_iframe">
-<iframe src="https://collection.reinherit-hub.eu/h5p-temple-boy.html" width="1000" height="800"></iframe>
+<iframe src="https://collection.reinherit-hub.eu/h5p-temple-boy.html" width="1000" height="1200"></iframe>
 </div>
+
+<Badge className="badgeIdentities rounded-pill exh_m_btm mt-5"><h1>Explore the 3D model and learn more</h1></Badge>
 
 <div className="exh_sketchfab_iframe"> 
 <div className="sketchfab-embed-wrapper mt-5"> 
@@ -40,12 +42,12 @@ width="100%" height="100%" >
     <Row>
       <Col md={6} xs={12}>  
           <a href="exhibitions/identities/IdentitiesObjects/IdentitiesObjOne">
-          <img alt="First Object" src="images/identities/small-cycladic-figurine.jpg" height={"auto"} width={"100%"} max-width={"100%"}>
+          <img alt="First Object" src="images/identities/small-cycladic-figurine.jpg"  width={"auto"} max-height={"35%"}>
           </img></a>
       </Col>
       <Col md={6} xs={12}>
           <a href="exhibitions/identities/IdentitiesObjects/IdentitiesObjTwo">
-          <img alt="Second Object" src="images/identities/small-ida-maly.jpg" height={"auto"} width={"100%"} max-width={"100%"}>
+          <img alt="Second Object" src="images/identities/small-ida-maly.jpg"  width={"auto"} max-height={"35%"}>
           </img></a>
       </Col>
     </Row>

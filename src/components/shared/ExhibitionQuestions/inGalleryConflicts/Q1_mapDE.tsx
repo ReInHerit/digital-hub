@@ -94,18 +94,10 @@ const MapQOneDE = () => {
                 },
                 paint: {
                'circle-color': '#526d9d',
-               'circle-stroke-width': 1,
+               'circle-stroke-width': 3,
                'circle-stroke-color': '#526d9d',
-               'circle-opacity': 0.5,
-               'circle-radius': {
-                property: 'Answer_A',
-                // think how to make them more proportional to our responses
-                stops: [
-                  [0, 0],
-                  [1, 5],
-                  [5, 20],
-                ]
-              }
+               'circle-opacity': 0.7,
+               'circle-radius': 13              
                 }
             })
     

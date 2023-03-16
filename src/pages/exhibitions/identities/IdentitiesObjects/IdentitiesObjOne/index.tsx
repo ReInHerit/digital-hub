@@ -18,11 +18,18 @@ return (
   The marble figurines are the masterpieces of Cycladic Art and some of the most preliminary representations of human form. The almost planar, marble forms characterized by simplicity and harmonious proportions, impressed and inspired artists such as Brancusi, Modigliani and others at the beginning of the 20th century. 
   </h4>
 
-  <Badge className="badgeIdentities rounded-pill exh_m_btm"><h1> ...</h1></Badge>
+  <Badge className="badgeIdentities rounded-pill exh_m_btm"><h1>Discover the female Cycladic figurine</h1></Badge>
+  <div className="exh_h5p_iframe">
+<iframe src="https://collection.reinherit-hub.eu/h5p-female-figurine_2.html" width="1000" height="800"></iframe>
+</div>
 
+
+  <Badge className="badgeIdentities rounded-pill exh_m_btm mt-5"><h1>Create your own Cycladic figurine</h1></Badge>
 <div className="exh_h5p_iframe">
 <iframe src="https://collection.reinherit-hub.eu/h5p-female-figurine.html" width="1000" height="800"></iframe>
 </div>
+
+  <Badge className="badgeIdentities rounded-pill exh_m_btm mt-5"><h1>Explore the 3D model and learn more</h1></Badge>
 
 <div className="exh_sketchfab_iframe"> 
 <div className="sketchfab-embed-wrapper mt-5"> 
@@ -33,7 +40,7 @@ width="100%" height="100%" >
 </div>
 </div>
 
-<Badge className="badgeIdentities rounded-pill exh_m_btm"><h1> Cycladic Society | A Video Poem </h1></Badge>
+<Badge className="badgeIdentities rounded-pill exh_m_btm mt-5"><h1> Cycladic Society | A Video Poem </h1></Badge>
 <div className="exh_sketchfab_iframe"> 
 <iframe height={"500vw"} width={"100%"} src="https://www.youtube.com/embed/erl8R-LfHIg" allowFullScreen></iframe>
 </div>
