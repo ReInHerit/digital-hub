@@ -176,7 +176,7 @@
 }
 .exh_container_border_green .exhibObject-grid .exhibObject .desc_bottom .arrow_detail {
   transform: rotate(-45deg);
-  width: 50px;
+  width: 50px !important;
   margin-right: 10px;
   margin-bottom: 120px;
 }

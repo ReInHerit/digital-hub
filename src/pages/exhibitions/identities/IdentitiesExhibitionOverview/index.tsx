@@ -26,24 +26,9 @@ return (
 <div className="exh_bullet_btn">choose one object</div>
   <Row>
   <Col md={6} xs={12}>
-    <div className="exhibObject"  style={{width: "40vw", height:"30vw"}}>
-          <img className="img-fluid" alt="First Object" src="images/identities/small-cycladic-figurine.jpg" width={"100%"} height={"auto"}></img>
-        <div className="back">
-          
-          <h3>Cycladic female figurine</h3>
-         <p>Which was the role of the woman represented by the female figurine?</p>
-         <div className="desc_bottom">
-         <img className="arrow_detail" src="/images/exhibition_assets/arrow_red.svg" alt="arrow_details"></img>
-          <Button className="exh_see_more" variant="primary" href="exhibitions/identities/IdentitiesObjects/IdentitiesObjOne">see more</Button>
-          </div>
-        </div>
-    </div>
-
-    </Col>
-    <Col md={6} xs={12}>
-  <div className="exhibObject" style={{width: "30vw", height:"30vw", left:"10vw"}}>
+  <div className="exhibObject" style={{width: "30vw", height:"35vw"}}>
         <div className="front">
-          <img className="img-fluid" alt="Second Object" src="images/identities/small-ida-maly.jpg" width={"100%"} height={"auto"}>
+          <img className="img-fluid" alt="First Object" src="/images/identities/small-ida-maly.jpg" width={"100%"} height={"auto"}>
           </img>
         </div>
         
@@ -56,13 +41,29 @@ return (
           </div>
           </div>
     </div>
+
+    </Col>
+    <Col md={6} xs={12}>
+    <div className="exhibObject"  style={{width: "40vw", height:"30vw"}}>
+          <img className="img-fluid" alt="Second Object" src="/images/identities/small-cycladic-figurine.jpg" width={"100%"} height={"auto"}></img>
+        <div className="back">
+          
+          <h3>Cycladic female figurine</h3>
+         <p>Which was the role of the woman represented by the female figurine?</p>
+         <div className="desc_bottom">
+         <img className="arrow_detail" src="/images/exhibition_assets/arrow_red.svg" alt="arrow_details"></img>
+          <Button className="exh_see_more" variant="primary" href="exhibitions/identities/IdentitiesObjects/IdentitiesObjOne">see more</Button>
+          </div>
+        </div>
+  
+  </div>
   </Col>
   </Row>
   <Row className="mt-5">
   <Col md={6} xs={12}>
   <div className="exhibObject exhibThird" style={{width: "30vw", height:"30vw"}}>
         <div className="front">
-          <img className="img-fluid" alt="Third Object" src="images/identities/small-temple-boy.jpg" width={"100%"} height={"auto"}>
+          <img className="img-fluid" alt="Third Object" src="/images/identities/small-temple-boy.jpg" width={"100%"} height={"auto"}>
           </img>
         </div>
         

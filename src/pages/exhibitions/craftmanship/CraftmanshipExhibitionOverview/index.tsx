@@ -26,7 +26,7 @@ return (
 <div className="exh_bullet_btn">choose one object</div>
   <Row>
   <Col md={6} xs={12}>
-    <div className="exhibObject"  style={{width: "40vw", height:"30vw"}}>
+    <div className="exhibObject"  style={{width: "35vw", height:"37vw"}}>
           <img alt="First Object" src="images/craftmanship/small-coccoon-frame.jpg" width={"100%"} height={"auto"}></img>
         <div className="back">
           
@@ -58,7 +58,7 @@ return (
     </div>
   </Col>
   <Col md={6} xs={12}>
-  <div className="exhibObject exhibThird" style={{width: "30vw", height:"30vw"}}>
+  <div className="exhibObject exhibThird" style={{width: "33vw", height:"33vw"}}>
         <div className="front">
           <img alt="Third Object" src="images/craftmanship/small-guild-chest.jpg" width={"100%"} height={"auto"}>
           </img>

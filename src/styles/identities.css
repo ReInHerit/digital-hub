@@ -122,7 +122,7 @@
     }
   }
   .exh_container_border_red .exhibObject-grid .exhibObject.exhibThird {
-    margin-left: auto;
+    margin-left: 0;
     margin-right: 0;
   }
   .exh_container_border_red .exhibObject-grid .exhibObject h3 {

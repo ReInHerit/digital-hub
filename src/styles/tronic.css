@@ -482,7 +482,8 @@ button:disabled {
 }
 .exh_container_border .exhibObject-grid .exhibObject .desc_bottom .arrow_detail {
   transform: rotate(-45deg);
-  width: 50px;
+  width: 50px !important;
+  height: max-content;
   margin-right: 10px;
   margin-bottom: 120px;
 }
@@ -1171,7 +1172,7 @@ button:disabled {
   text-align: center;
   margin-top: 150px;
 }
-.visitCollection .coll_button {
+.visitCollection button {
   width: max-content;
   padding: 10px 50px;
   background-color: blue;
@@ -1186,21 +1187,21 @@ button:disabled {
   transition: 0.3s;
 }
 @media screen and (max-width: 991.98px) {
-  .visitCollection .coll_button {
+  .visitCollection button {
     font-size: 30px;
   }
 }
 @media screen and (max-width: 767.98px) {
-  .visitCollection .coll_button {
+  .visitCollection button {
     font-size: 25px;
   }
 }
 @media screen and (max-width: 543.98px) {
-  .visitCollection .coll_button {
+  .visitCollection button {
     font-size: 20px;
   }
 }
-.visitCollection .coll_button:before {
+.visitCollection button:before {
   content: "";
   background-image: url(/images/exhibition_assets/arrow_blue.svg);
   background-size: contain;
@@ -1215,7 +1216,7 @@ button:disabled {
   transform: rotate(-45deg);
 }
 @media screen and (max-width: 543.98px) {
-  .visitCollection .coll_button:before {
+  .visitCollection button:before {
     top: -115px;
     width: auto;
     transform: unset;
@@ -1226,7 +1227,7 @@ button:disabled {
     background-position: center;
   }
 }
-.visitCollection .coll_button:hover {
+.visitCollection button:hover {
   background-color: white;
   color: blue;
   transition: 0.3s;
@@ -1237,6 +1238,12 @@ button:disabled {
   width: "50px";
   height: "50px";
   border-radius: "50%";
+}
+
+#objectsCraftmanship .exhibObject img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /*# sourceMappingURL=tronic.css.map */
