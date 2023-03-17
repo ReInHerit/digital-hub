@@ -9,10 +9,7 @@ return (
   <Container fluid className="exhibition_intro" style={{backgroundColor:"white"}}>
       <Button href="exhibitions/conflicts/ConflictQuestions/1stQuestionConflict" className="btnExhibit rounded-pill" size="lg">ReThinking CONFLICTS</Button>
       <Button href="exhibitions/craftmanship/CraftmanshipQuestions/1stQuestionCraftmanship" className="btnExhibit_green rounded-pill" size="lg">ReThinking CRAFTSMANSHIP</Button>
-      <Button className="btnExhibit_red rounded-pill btnExhibitDisabled" size="lg">
-        <div className="visible_btn_text">ReThinking IDENTITIES</div>
-        <div className="hidden_btn_text">opening 16th March 2023</div>
-      </Button>
+      <Button href="exhibitions/identities/IdentitiesQuestions/1stQuestionIdentities" className="btnExhibit_red rounded-pill" size="lg">ReThinking IDENTITIES</Button>
   </Container>
 </BaseExhibition>
     )
