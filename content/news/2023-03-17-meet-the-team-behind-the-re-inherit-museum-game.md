@@ -9,9 +9,9 @@ target-audience:
   - VISITOR
 referenceTo: Game
 theme: Other
+thumbnail: https://ucarecdn.com/7bebacdf-0213-46a3-aa0c-e7b48ac46342/
 ---
 Behind every game there is a team of dedicated game developers, each with their own skillsets and roles. Here is a small introduction to the members of this effort.
-
 
 <!--StartFragment-->
 
@@ -87,7 +87,9 @@ Theodoros received his B.Sc. and M.Sc. degrees in Computer Science from the Univ
 
 ### Charis Marangos
 
-####  Techincal Lead, Tools Developer, Graphical Artist and Game Designer. 
+#### Techincal Lead, Tools Developer, Graphical Artist and Game Designer.
+
+<img align="left" width="100" height="100" src="https://ucarecdn.com/999a2eac-22ba-4201-9dea-7c43aa86c101/" img style="margin-right: 30px">
 
 Charis Marangos is a graphics programmer at CYENS – Centre of Excellence where his work focuses on developing experimental and educational games. Prior to CYENS he’s worked on adjacent fields such as developing software for 3D printers and physics simulations for wafer fabrication, but his true passion has always been in game design and development. 
 
