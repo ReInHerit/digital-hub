@@ -4,7 +4,7 @@ layout: blog
 type: news
 title: "ReInHerit Webinar - Collaboration in digital heritage: networks,
   resources, and digital strategies development"
-desc: "ReInHerit Webinar |  Digital Hub "
+desc: "ReInHerit Webinar |  Digital Hub  "
 date: 2023-02-23T09:34:59.104Z
 target-audience:
   - PROFESSIONAL
