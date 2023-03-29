@@ -39,7 +39,8 @@ const PodcastQuery = graphql`
 query MyQuery {
   allMarkdownRemark(
     filter: {fileAbsolutePath: {regex: "/news/"}, frontmatter: {title: {glob: "Museums Up *"}}}
-  ) {
+    sort: {fields: frontmatter___date, order: DESC}
+    ) {
     edges {
       node {
         id

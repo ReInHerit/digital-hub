@@ -47,7 +47,9 @@ export default TrainingFeed
 
 const TRAINING_QUERY = graphql`
   query TrainingQuery {
-    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/webinars/" } }) {
+    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/webinars/" } }
+    sort: {fields: frontmatter___date, order: DESC}
+    ) {
       edges {
         node {
           html
