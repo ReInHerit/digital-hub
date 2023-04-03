@@ -63,3 +63,5 @@ Examples of the interface of the multimedia chatbot for mobile devices are shown
 ![VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork](https://ucarecdn.com/53ad5186-ae21-4f5c-9f1e-a428d3d03724/ "VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork")
 
 > *VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork*
+
+`youtube: https://youtu.be/rIN_D9_MPIA`
