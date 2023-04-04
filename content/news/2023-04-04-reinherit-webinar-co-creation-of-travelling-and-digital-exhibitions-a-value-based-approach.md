@@ -12,7 +12,7 @@ referenceTo: News
 theme: Management
 thumbnail: https://ucarecdn.com/5641d8a2-b3aa-46e2-8dc6-9ab084325bd9/
 ---
-![](https://ucarecdn.com/62694ba2-73b2-4e03-b87c-ac9e2d1e00e5/)
+![Co-creation of Travelling and Digital Exhibitions: a value based approach](https://ucarecdn.com/62694ba2-73b2-4e03-b87c-ac9e2d1e00e5/ "Co-creation of Travelling and Digital Exhibitions: a value based approach")
 
 * **April 21st 2023** from 3:00-4:00 pm CET
 * Facilitated by **Sibylle Dienesch**, Director of and Curator at the [Graz Museum](https://www.grazmuseum.at) and **Catalin Betz,** Curatorial Assistant and Curator at the [Graz Museum](https://www.grazmuseum.at), Austria
