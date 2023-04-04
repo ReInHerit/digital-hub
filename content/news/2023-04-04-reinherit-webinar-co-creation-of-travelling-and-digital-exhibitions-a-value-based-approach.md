@@ -16,7 +16,8 @@ thumbnail: https://ucarecdn.com/5641d8a2-b3aa-46e2-8dc6-9ab084325bd9/
 
 * **April 21st 2023** from 3:00-4:00 pm CET
 * Facilitated by **Sibylle Dienesch**, Director of and Curator at the [Graz Museum](https://www.grazmuseum.at) and **Catalin Betz,** Curatorial Assistant and Curator at the [Graz Museum](https://www.grazmuseum.at), Austria
-* **Free Registration is open until April 20th 2023 (3 pm)** \*\* HERE *
+* **Free Registration is open until April 20th 2023 (3 pm)** \*\* [HERE](https://docs.google.com/forms/d/e/1FAIpQLSctJvP4bs1Prsiy8zVankhEm05-mRLjjXwCbqS6V-SvkC2Z5g/viewform) \*\*\
+  [shorturl.at/hBT56](http://shorturl.at/hBT56)
 * The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available in the [resources section](https://reinherit-hub.eu/webinars).
 
 ReinHerit Webinars are aimed at cultural heritage professionals. They will consist of a *how to guide* for small and medium-sized museum and cultural heritage organizations that documents processes, provides instruction, technical requirements and best practices for co-creation and collaboration between museums and cultural heritage institutions.
