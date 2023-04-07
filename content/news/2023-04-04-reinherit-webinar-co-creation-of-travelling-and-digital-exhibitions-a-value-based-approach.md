@@ -1,4 +1,5 @@
 ---
+pageId: 70236152-a581-414f-a9a9-cdb0724e2129
 layout: blog
 type: news
 title: "ReInHerit Webinar - Co-creation of Travelling and Digital Exhibitions: a
