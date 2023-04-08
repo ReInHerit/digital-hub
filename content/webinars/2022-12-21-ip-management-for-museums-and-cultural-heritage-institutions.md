@@ -14,6 +14,10 @@ slides: https://ucarecdn.com/5918013c-2a25-4cb4-a295-dfa02247d16a/
 
 The operation of museums involves the management of their collections and other assets, which set a number of intellectual property (IP) issues. The seminar will focus on issues pertaining to IP Management and in particular on how museums can be assisted to set up processes to identify, organize, own, create value, license, disseminate and generally deal with and leverage ‘business’ opportunities in relation to content. That means a) effectively protecting their IP assets, b) preventing the infringement of third-party IP rights, and c) disseminating content as they see appropriate.
 
+![IP Management for Museums and Cultural Heritage Institutions](https://ucarecdn.com/f9ead1ae-4504-4ad5-b8f1-4d8dd58a79f6/ "IP Management for Museums and Cultural Heritage Institutions")
+
+![IP Management for Museums and Cultural Heritage Institutions](https://ucarecdn.com/5b9bf581-d0b8-490a-b029-0d0dbc652269/ "IP Management for Museums and Cultural Heritage Institutions")
+
 ### Speaker:
 
 **Irini Stamatoudi** \
