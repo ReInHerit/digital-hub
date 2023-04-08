@@ -14,6 +14,10 @@ slides: https://ucarecdn.com/ba7de192-8dd8-4efe-a8b0-149dab18a5e1/
 
 Aligned with the idea of proposing a sustainable model of heritage management, as established in the ReInHerit project, the purpose of this webinar is to provide guidance and tips on basic principles of sustainability for professionals working in museums and cultural heritage sites. This webinar will clarify ideas on the concepts of museum and sustainability, leading to a better understanding of the role of the 21st-century museum and its challenges and opportunities to create more public value in the context of social and environmental sustainability. Through effective guidelines and recommendations, the webinar will help to encourage cultural heritage professionals to implement sustainable practices in their daily museum management.
 
+![ How to manage museums sustainably?](https://ucarecdn.com/7ee7666d-092a-4076-a13f-1070d4ea6154/ " How to manage museums sustainably?")
+
+![ How to manage museums sustainably?](https://ucarecdn.com/b26f2900-ae4a-49b6-9695-fc82a2f0865c/ " How to manage museums sustainably?")
+
 ### Speaker:
 
 **Jaime López**\
