@@ -22,6 +22,10 @@ The webinar discuss ideas explored in the latest event created as a case study w
 * site-specific lighting and video art design and projection
 * pre-show dissemination strategies on social media
 
+![How emerging technologies enhance visitors’ experiences of cultural heritage sites](https://ucarecdn.com/7727ddee-c7a7-4a58-930f-0eacca33a310/ "How emerging technologies enhance visitors’ experiences of cultural heritage sites")
+
+![How emerging technologies enhance visitors’ experiences of cultural heritage sites](https://ucarecdn.com/9ae83904-1304-43ea-ada0-130261bee6f6/ "How emerging technologies enhance visitors’ experiences of cultural heritage sites")
+
 ### Speakers:
 
 **Kleanthis Neokleous** \
