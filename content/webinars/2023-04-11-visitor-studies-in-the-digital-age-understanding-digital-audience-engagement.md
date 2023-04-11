@@ -24,3 +24,5 @@ This webinar will briefly introduce the context in which these studies have been
 ### Speaker:
 
 Dr Chiara Zuanni is an assistant professor in Digital Museology in the Centre for Information Modelling at the University of Graz (Austria). She has a BA in Classics and a MA in Archaeology from the University of Bologna and a PhD in Museology from the University of Manchester. She has worked at the University of Liverpool, in the Research Department of the Victoria and Albert Museum London, and is since 2018 based in Graz. Her research focuses on the collection, management, use, and display of digital data in museums. She works on digitisation of museum collections, on virtual museums, on applications of data science in the heritage sector, on digital audiences research, and on contemporary digital collecting.
+
+`youtube: https://youtu.be/DOsh9sgr3ak`
