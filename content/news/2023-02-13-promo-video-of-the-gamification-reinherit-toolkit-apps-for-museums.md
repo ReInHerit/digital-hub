@@ -26,4 +26,4 @@ The two innovative AI/CV based apps were honored with a B**est Demo Honorable Me
 
 Watch the promo video on YouTube and consider incorporating this technology into your museum to engage visitors and offer them a **memorable experience.**
 
-Descriptions and free application codes will soon be available in the Digital Hub!
+[Descriptions](https://reinherit-hub.eu/applications) and [free application codes ](https://reinherit-hub.eu/tools/apps)are available in the Digital Hub!
