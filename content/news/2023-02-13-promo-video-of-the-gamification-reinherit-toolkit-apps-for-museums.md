@@ -3,7 +3,7 @@ pageId: 4f0cc0c5-8243-4397-b2ce-b17a59ed6c79
 layout: blog
 type: news
 title: ReInHerit’s gamification apps for museums | Promo video
-desc: Face-Fit & Strike a Pose
+desc: Face-Fit & Strike a Pose | ReInHerit Toolkit
 date: 2023-02-13T11:46:06.133Z
 target-audience:
   - VISITOR
