@@ -12,11 +12,9 @@ referenceTo: News
 theme: Technology
 thumbnail: https://ucarecdn.com/b5f7371c-f2a0-4481-9d95-fb48a66e245b/-/crop/716x558/60,0/-/preview/
 ---
-
-
 `youtube: https://youtu.be/rIN_D9_MPIA`
 
-*Are you interested  to explore thexplore the possibilities of the Artificial Intelligence chatbot in museums ?*
+*Are you interested  to explore the possibilities of the Artificial Intelligence chatbot in museums ?*
 
 VIOLA Multimedia Chatbot is a web application developed by Media Integration and Communication Center UNIFI as part of the ReInHerit Toolkit that can be integrated within a museum website or as a mobile website. This web app allows a novel interaction, based on natural language and AI chatbots, to ask questions on artworks that address both the visual content and the context of the artwork. Users can either type their questions or interact with speech that is then translated to text. The design of this application is motivated by the recent huge interest in chat-based interaction that has been popularized, for example, by Chat GPT.
 
