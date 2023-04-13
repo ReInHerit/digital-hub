@@ -36,17 +36,19 @@ const data: PodcastQueryData.Data = useStaticQuery(PodcastQuery)
 export default PodcastFeed
 
 const PodcastQuery = graphql`
-query MyQuery {
+query myPodcastQuery {
   allMarkdownRemark(
-    filter: {fileAbsolutePath: {regex: "/news/"}, frontmatter: {title: {glob: "Museums Up *"}}}
     sort: {fields: frontmatter___date, order: DESC}
-    ) {
+    filter: {fileAbsolutePath: {regex: "/news/"}, frontmatter: {title: {glob: "Museums Up *"}}}
+  ) {
     edges {
       node {
         id
         frontmatter {
           title
+          pageId
         }
+        excerpt
       }
     }
   }
