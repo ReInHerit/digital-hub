@@ -12,8 +12,10 @@ linkedWebinars:
 license: CC BY 2.0
 status: draft
 thumbnail: https://ucarecdn.com/69dd5cf6-0c17-43c5-b1c6-6d540a508625/
-pdf: https://ucarecdn.com/8a430b50-85be-4fed-828a-d8fa26a35d92/
+pdf: ""
 ---
+![](https://ucarecdn.com/7621be72-88c3-4836-a790-4969197937a3/)
+
 Want to easily **restore old historical photos and videos**? Discover **Smart Video Restoration**, the innovative web application designed for professionals working with analog video archives. This state-of-the-art neural network technology of ours uses a **multi-frame approach** to restore severely degraded  photso and videos, including those with a recording error resulting in frame fragmentation.
 
 Preservation of our cultural heritage is more important than ever, and Smart Video Restoration is here to help **museums and cultural institutions**. With this web application, users can upload videos with similar types of degradation as those inherent in the system and related to aging and download restored versions. There is no need for **costly and time-consuming** manual intervention by experienced archivists with commercial solutions.
