@@ -1,7 +1,7 @@
 ---
 type: toolapp
 pageId: 293495e5-3670-46fe-9fe7-5366b3ca96ab
-title: Smart Retrieval - description
+title: Smart Retrieval - Description
 desc: ReInHerit Toolkit | Smart Retrieval
 date: 2023-04-17T11:43:44.884Z
 target-audience:
