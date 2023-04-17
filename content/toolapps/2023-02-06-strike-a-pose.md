@@ -42,6 +42,9 @@ This app won a **Best Demo Honorable Mention award** at ACM Multimedia 2022, the
 
 ![Best Demo Honorable Mention award at ACM Multimedia 2022](https://ucarecdn.com/a1fde0c2-d8f2-43bd-99d8-920f0df0a0af/ "Best Demo Honorable Mention award at ACM Multimedia 2022")
 
-The application has been developed in JavaScript on the client side and in Python on the server side. Pose detection on the human bodies is achieved using TensorflowJS 1 detection API exploiting the pose detection model, MoveNet. The model runs completely client-side in the browser. Server-side an SQLLite database is used to stores artworks’collections, challenges and artworks’ metadata and descriptions.
+The application has been developed in JavaScript on the client side and in Python on the server side. Pose detection on the human bodies is achieved using TensorflowJS 1 detection API exploiting the pose detection model, MoveNet. The model runs completely client-side in the browser. Server-side an SQLLite database is used to stores artworks’collections, challenges and artworks’ metadata and descriptions.\
+\
+**Demo** is available at this link:\
+[https://reinherit-strike-a-pos​e.herokuapp.com/](https://reinherit-strike-a-pose.herokuapp.com/)
 
 `youtube: https://www.youtube.com/watch?v=GHgBIRXqKK8`
