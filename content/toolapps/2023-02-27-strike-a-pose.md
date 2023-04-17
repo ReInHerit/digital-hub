@@ -10,6 +10,9 @@ linkedWebinars:
     Vision for Cultural Heritage
   - f2a58e91-3c1a-43c0-baeb-45234da1cbce____Engaging Museum Visitors with
     Gamification Apps
+linkedToolkitComponents:
+  - 05f95e69-71ff-418c-a7c6-306de11fc4c3____Pose recognition
+  - 755c16fe-ff7b-4635-aede-1919f5c7f28b____Tensorflow Framework
 license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/bde51a50-8ac7-4bf9-aa71-c2699d7c2865/
