@@ -10,6 +10,7 @@ linkedWebinars:
     Vision for Cultural Heritage
 linkedToolkitComponents:
   - f682c5c9-46e5-4c15-bf52-21d5f76a935f____PyTorch Framework
+  - 31efbd7b-1693-4a40-8b0a-c3462e69f0f6____Flask framework
 license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/569eb601-3c1a-463d-a66b-995ac7b382a8/
