@@ -13,8 +13,10 @@ linkedWebinars:
   - b85f55db-c231-44b2-8cf6-6912dd3b296b____A Charter for Sustainable Cultural
     Tourism development, management and promotion in Europe, latest developments
     and prospects
+linkedToolkitComponents:
+  - 755c16fe-ff7b-4635-aede-1919f5c7f28b____Tensorflow Framework
 license: CC BY 2.0
-status: draft
+status: completed
 thumbnail: https://ucarecdn.com/92cb839d-cc26-4a29-8498-68bd81dbe626/
 ---
 This application is designed for **cultural smart tourism** and provides functionalities for landmark recognition using **computer vision.** The vision system is able to deal also with large monuments, where only a portion of the landmark is visible, using a specific run-time image augmentation process that is combined with a training-time augmentation.  The smart tourism app is a native **Android app** that provides the basic functionalities. It has been developed as an Android app to overcome the computational limitations of web based systems, that are still not feature complete when using **TensorflowJS** with respect to Tensorflow Lite. Despite this it works also on low and  mid-level devices, since it has been designed to use a set of very fast neural network that can be executed in real-time (based on variations of the MobileNet V3 architecture). The system uses computer vision to recognize **landmarks** and monuments, providing **multimedia information**, and  can be **personalized** to create different tours.
@@ -52,3 +54,7 @@ The following figure shows screenshots of the **application**, with additional d
 ![Smart tourism app](https://ucarecdn.com/5ad89dbe-6707-4aeb-8fe0-957cf4b07ba5/ "Smart tourism app")
 
 > *Smart tourism app, views of the application: debug information to test the capability to differentiate between visually similar landmarks; debug info on camera setup and neural network inference (using CPU instead of GPU); examples of landmark recognition and information on the recognized landmark.*
+>
+> ### Source code
+>
+> The source code of the app is available on the Github of ReInHerit: <https://github.com/ReInHerit/SmartTourism>
