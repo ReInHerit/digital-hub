@@ -9,8 +9,10 @@ target-audience:
 linkedWebinars:
   - 034cd93b-1043-42e9-9f2a-835d03a4e1cc____Artificial Intelligence and Computer
     Vision for Cultural Heritage
+linkedToolkitComponents:
+  - 755c16fe-ff7b-4635-aede-1919f5c7f28b____Tensorflow Framework
 license: CC BY 2.0
-status: draft
+status: completed
 ---
 This **web application** allows museums visitors to create an interactive visual guide that recognizes the details of artworks. 
 
