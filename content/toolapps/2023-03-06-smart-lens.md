@@ -12,6 +12,7 @@ linkedWebinars:
 linkedToolkitComponents:
   - 755c16fe-ff7b-4635-aede-1919f5c7f28b____Tensorflow Framework
   - 3e558c0d-e46e-4a06-ba9a-049caa8f66bb____Object recognition
+  - 9de39bcf-0dc4-4248-b1e8-521e0141cf4d____Neural Network Fine-tuning
 license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/52c6f7ac-f15b-4d79-a56c-73f1397bf5de/
@@ -114,7 +115,9 @@ The app can be used also to perform artwork recognition, without considering the
 
 The source code of the app is available on the Github of ReInHerit: <https://github.com/ReInHerit/SmartLens-app>
 
-### Demo SmartLens 
+The source code of the app used to fine-tune the neural networks us available on the Github of ReInHerit: <https://github.com/ReInHerit/reinherit-webnet-trainer>
+
+### Demo SmartLens
 
 Try the **Smart Lens Tester** at the following link:\
 [https://reinherit-smartlens-te​ster.herokuapp.com/](https://reinherit-smartlens-tester.herokuapp.com/)
