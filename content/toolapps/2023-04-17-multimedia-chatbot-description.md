@@ -20,9 +20,10 @@ Experience art in a new and exciting way with **VIOLA Multimedia Chatbot**! Deve
 
  The design of this application is motivated by the recent huge interest i**n chat-based interaction** that has been popularized, for example, by Chat GPT.
 
-Join the chatbot and discover a new way to interact with art by starting to ask your own questions.  Try the **Demo of VIOLA Multimedia Chatbot** at this link:\
+Join the chatbot and discover a new way to interact with art by starting to ask your own questions. \
+ Try the **Demo of VIOLA Multimedia Chatbot** at this link:\
 [https://reinherit-multimedia-c​hatbot.herokuapp.com/](https://reinherit-multimedia-chatbot.herokuapp.com/)
 
-
+![VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork](https://ucarecdn.com/dd6be94a-8b1e-428a-9830-6d870b9cface/ "VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork")
 
 `youtube: https://youtu.be/rIN_D9_MPIA`
