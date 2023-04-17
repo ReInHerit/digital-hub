@@ -44,7 +44,7 @@ This app won a **Best Demo Honorable Mention award** at ACM Multimedia 2022, the
 
 The application has been developed in JavaScript on the client side and in Python on the server side. Pose detection on the human bodies is achieved using TensorflowJS 1 detection API exploiting the pose detection model, MoveNet. The model runs completely client-side in the browser. Server-side an SQLLite database is used to stores artworks’collections, challenges and artworks’ metadata and descriptions.
 
-### Demo - Stirke a Pose
+## Discover and test
 
 **Demo** is available at this link:\
 [https://reinherit-strike-a-pos​e.herokuapp.com/](https://reinherit-strike-a-pose.herokuapp.com/)
