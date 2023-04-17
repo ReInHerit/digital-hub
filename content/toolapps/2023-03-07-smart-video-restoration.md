@@ -2,6 +2,7 @@
 type: toolapp
 pageId: b17b98c2-fa69-49e0-99e2-0c6111e3ca81
 title: Smart Video Restoration
+desc: ReInHerit Toolkit | Smart Video Restoration
 date: 2023-03-07T11:01:59.057Z
 target-audience:
   - PROFESSIONAL
@@ -81,3 +82,8 @@ The system has been further improved, reconsidering the design of the neural net
 ### Source code
 
 The source code of the app is available on Github: <https://github.com/miccunifi/analog-video-restoration>
+
+### Demo Smart Video Restoration 
+
+ **Demo** of "Smart Video Restoration"  is available at the following link (the online demo works on photos and not videos, for timing reasons):\
+[https://reinherit-image-restor​e.herokuapp.com](https://reinherit-image-restore.herokuapp.com/)
