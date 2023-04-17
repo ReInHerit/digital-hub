@@ -9,8 +9,11 @@ target-audience:
 linkedWebinars:
   - 034cd93b-1043-42e9-9f2a-835d03a4e1cc____Artificial Intelligence and Computer
     Vision for Cultural Heritage
+linkedToolkitComponents:
+  - f682c5c9-46e5-4c15-bf52-21d5f76a935f____PyTorch Framework
+  - 1886a679-0213-4c0d-bdeb-989b674a4804____Django framework
 license: CC BY 2.0
-status: draft
+status: completed
 thumbnail: https://ucarecdn.com/69dd5cf6-0c17-43c5-b1c6-6d540a508625/
 pdf: ""
 ---
@@ -26,7 +29,9 @@ With this innovative technology, you will be able to restore historic phots and 
 
 ## Discover and test
 
-Try the **demo** of "Smart Video Restoration" at this link (the online demo works on photos and not videos, for timing reasons):\
+Due to computational costs the demo handles only images. People interested in video restoration must install the Smart Video Restoration app.
+
+Try the **demo** for image restoration at this link (the online demo works on photos and not videos, for timing reasons):\
 [https://reinherit-image-restor​e.herokuapp.com](https://reinherit-image-restore.herokuapp.com/)
 
 ![Smart Video Restoration](https://ucarecdn.com/b424e03a-dcb6-435f-9c5c-25bdceb09742/ "Smart Video Restoration")
