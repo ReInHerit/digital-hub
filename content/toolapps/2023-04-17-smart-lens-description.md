@@ -20,9 +20,9 @@ This innovative application p**rovides multimedia information** about the recogn
 
 Unlike traditional guides that rely on QR codes, Smart Lens requires **active  and visual engagement** from users, making the experience more interactive, engaging and smarter.
 
+## Discover and test
+
 Try the **Smart Lens Tester** at the following link:\
 [https://reinherit-smartlens-te​ster.herokuapp.com/ ](https://reinherit-smartlens-tester.herokuapp.com/)
-
-
 
 ![Smart Lens Tester](https://ucarecdn.com/55dc7c74-dd1e-4aa8-a413-c5597d4ef6b9/ "Smart Lens Tester")
