@@ -4,7 +4,7 @@ pageId: d9376609-c121-41cc-b560-cc3b430bf350
 title: Content-based image retrieval (CBIR)
 date: 2023-04-17T14:18:09.263Z
 target-audience:
-  - VISITOR
+  - PROFESSIONAL
 linkedWebinars:
   - 034cd93b-1043-42e9-9f2a-835d03a4e1cc____Artificial Intelligence and Computer
     Vision for Cultural Heritage
