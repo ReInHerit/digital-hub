@@ -8,8 +8,10 @@ target-audience:
 linkedWebinars:
   - 034cd93b-1043-42e9-9f2a-835d03a4e1cc____Artificial Intelligence and Computer
     Vision for Cultural Heritage
+linkedToolkitComponents:
+  - f682c5c9-46e5-4c15-bf52-21d5f76a935f____PyTorch Framework
 license: CC BY 2.0
-status: draft
+status: completed
 thumbnail: https://ucarecdn.com/569eb601-3c1a-463d-a66b-995ac7b382a8/
 ---
 This is a **web application** that can be used to provide **advanced** **search functions for multimedia archives.** It provides **content-based image retrieval (CBIR)** facilities, i.e. search images based on their content. Search can be performed in two ways: 
@@ -90,3 +92,13 @@ The following figures show an example of the **starting page,** sporting a **gal
 The text+image to image search function (i.e. composed image retrieval)  is currently being tested in collaboration with the [Europeana Fashion Heritage Association](https://fashionheritage.eu), which has provided a new dataset of historical images related to fashion.
 
 Another extension of the work has addressed one of the main issues that hampers the development of composed image retrieval systems, i.e. the high effort and cost required for labeling datasets. This issue is particularly relevant in the cultural heritage domain where smaller organizations have difficulty in creating the large datasets required to train the neural networks required to address the task. This work, that has relevant scientific novelty and is currently under submission at one of the foremost conferences on computer vision [(International Conference on Computer Vision, 2023](https://iccv2023.thecvf.com)), extends conditioned image retrieval (CIR) to a zero-shot context, that does not require a labeled training dataset, thus extending the method to any dataset. The method is still based on the CLIP neural network and maps the visual features of the reference image into a pseudo-word token in CLIP token embedding space and integrates it with the relative caption. The method improves on two standard datasets that were used in our previous works (and that were until now the state-of-the-art results per scientific literature, i.e. FashionIQ and the more general CIRR dataset.
+
+
+
+### Source code
+
+The source code of the app is available in different repositories:
+
+* Main repository with training code: <https://github.com/ABaldrati/CLIP4Cir>
+* Repository of the demo system (CIR and FashionIQ): <https://github.com/ABaldrati/CLIP4CirDemo>
+* Repository of the demo system for NoisyArt dataset: <https://github.com/ReInHerit/SmartRetrievalArtDemo>
