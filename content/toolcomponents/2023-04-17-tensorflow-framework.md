@@ -11,6 +11,7 @@ linkedToolkitApps:
   - 437c8b14-f2c8-4fe6-9162-104d4abbb5b6____Smart Tourism App
   - de7756ad-67f6-4b6d-823e-0ce12f3f6c0d____Strike a Pose Description
   - 7ae4d04e-fc32-48b0-b2fe-6c035d28bde8____Face-Fit
+  - beae4f2a-8f09-4de1-949a-398f8b3626b3____Smart Lens
 license: CC BY 2.0
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/224px-Tensorflow_logo.svg.png
 ---
@@ -20,4 +21,4 @@ TensorFlow can be used in mobile and web applications in a variety of ways. In t
 
 **Mobile applications**: TensorFlow provides several tools and libraries that can help you build machine learning models for mobile devices. For example, TensorFlow Lite is a lightweight version of TensorFlow designed for mobile and embedded devices. It allows you to run trained TensorFlow models on mobile devices with low computational resources. We used it in the **Smart Tourism app**.
 
-**Web applications**: TensorFlow can be used to build machine learning models that run in the browser using JavaScript. TensorFlow.js is a JavaScript library that allows you to run TensorFlow models in the browser or in Node.js. We used it for **Face-fit and Srtrike-a-pose apps**.
+**Web applications**: TensorFlow can be used to build machine learning models that run in the browser using JavaScript. TensorFlow.js is a JavaScript library that allows you to run TensorFlow models in the browser or in Node.js. We used it for **Face-fit, Strike-a-pose and Smart Lens apps**.
