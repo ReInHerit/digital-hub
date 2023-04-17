@@ -28,3 +28,7 @@ Fine-tuning a neural network has several advantages, including:
 1. Reduced training time: Fine-tuning a pre-trained neural network can reduce the amount of time required to train a new neural network from scratch, as the pre-trained network has already learned general features that can be used as a starting point.
 2. Improved performance: Fine-tuning a pre-trained neural network can improve its performance on a specific task, as the network has already learned general patterns in the original dataset.
 3. Reduced overfitting: Fine-tuning a pre-trained neural network can reduce the risk of overfitting on a small dataset, as the pre-trained network has already learned to generalize from a large dataset.
+
+### Source code
+
+A web-based application for neural network fine tuning is part of the ReInHerit toolkit. The source code is available in the Github of ReInHerit: <https://github.com/ReInHerit/reinherit-webnet-trainer>
