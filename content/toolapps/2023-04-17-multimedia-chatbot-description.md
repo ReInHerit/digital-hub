@@ -1,7 +1,7 @@
 ---
 type: toolapp
 pageId: 543b2b77-35f1-41b5-b06e-3a355f2a1c6b
-title: Multimedia ChatBot Description
+title: Multimedia ChatBot - Description
 date: 2023-04-17T09:29:56.936Z
 target-audience:
   - VISITOR
