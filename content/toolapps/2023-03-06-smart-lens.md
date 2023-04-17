@@ -11,6 +11,7 @@ linkedWebinars:
     Vision for Cultural Heritage
 linkedToolkitComponents:
   - 755c16fe-ff7b-4635-aede-1919f5c7f28b____Tensorflow Framework
+  - 3e558c0d-e46e-4a06-ba9a-049caa8f66bb____Object recognition
 license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/52c6f7ac-f15b-4d79-a56c-73f1397bf5de/
