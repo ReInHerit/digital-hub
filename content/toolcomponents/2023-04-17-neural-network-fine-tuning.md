@@ -18,7 +18,7 @@ A typical use case in cultural heritage is to improve the performance of network
 
 ![Example of results using fine-tuning](https://ucarecdn.com/90bcb1fa-14de-460f-bdd4-5b18c9d32369/ "Example of results using fine-tuning")
 
-In the ReInHerit toolkit a secific web-based application has been developed to train the neural networks used in the SmartLens application.
+In the ReInHerit toolkit a specific web-based application has been developed to train the neural networks used in the SmartLens application. The image shows how fine tuning an object detection network on paintings helps to recognize many more objects than using a neural network trained on photos of persons !
 
 In general, fine-tuning typically involves two stages:
 
