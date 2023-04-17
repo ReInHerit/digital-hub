@@ -4,7 +4,7 @@ pageId: 3e558c0d-e46e-4a06-ba9a-049caa8f66bb
 title: Object recognition
 date: 2023-04-17T14:50:27.580Z
 target-audience:
-  - VISITOR
+  - PROFESSIONAL
 linkedWebinars:
   - 034cd93b-1043-42e9-9f2a-835d03a4e1cc____Artificial Intelligence and Computer
     Vision for Cultural Heritage
