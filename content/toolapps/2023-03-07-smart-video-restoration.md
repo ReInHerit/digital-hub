@@ -8,8 +8,10 @@ target-audience:
 linkedWebinars:
   - 034cd93b-1043-42e9-9f2a-835d03a4e1cc____Artificial Intelligence and Computer
     Vision for Cultural Heritage
+linkedToolkitComponents:
+  - f682c5c9-46e5-4c15-bf52-21d5f76a935f____PyTorch Framework
 license: CC BY 2.0
-status: draft
+status: completed
 thumbnail: https://ucarecdn.com/69fef94a-4726-4bae-90b9-0e1cfd24429e/
 ---
 This is an application designed for **historical video** archive professionals that allows to restore analog videos using an **innovative neural network** capable of coping with severe degradations such as tape mistracking. Neural Network AI technology that uses multi - frame approach to restore videos and is able to deal with severe tape mistracking, which results in complete scrambled frames.  Historical videos constitute an important part of the cultural heritage of a society.  This novel architecture for restoring degraded real-world analog videos coming from historical archives. A **web app** lets users **upload videos** with similar system-intrinsic and aging-related types of degradations **and download the restored versions.**
@@ -74,4 +76,8 @@ The smart video restoration app is **composed of two parts:**
 
 Since the restoration process is computationally expensive, the CV component must be executed on a server with appropriate GPU. It is also possible to use GPU servers commonly available from cloud providers such as Amazon AWS, Google Cloud, Microsoft Azure. 
 
-The system has been further improved, reconsidering the design of the neural network used to restore videos.  A new network was designed based on a Swin-UNet, the architecture used in the first version of the application that exploits both neighboring and reference frames by means of a novel Multi-Reference Spatial Feature Fusion block to restore corrupted frames.  CLIP was employed for zero-shot artifact detection to select the cleanest frames of each video as references. Finally,  contrastive loss was extended to a multi-frame setting to make the results more perceptually accurate. Both quantitative and qualitative experiments show the effectiveness of this novel approach when compared with other state-of-the-art methods. The idea is that even corrupted videos contain some relatively good frames that could be selected based on their quality, and use their visual content to provide additional guidance to the neural network that is performing the restoration. A new scientific paper that describes the novel system is currently under submission  at one of the foremost conferences on computer vision (International Conference on Computer Vision, 2023).
+The system has been further improved, reconsidering the design of the neural network used to restore videos. A new network was designed based on a Swin-UNet, the architecture used in the first version of the application that exploits both neighboring and reference frames by means of a novel Multi-Reference Spatial Feature Fusion block to restore corrupted frames.  CLIP was employed for zero-shot artifact detection to select the cleanest frames of each video as references. Finally,  contrastive loss was extended to a multi-frame setting to make the results more perceptually accurate. Both quantitative and qualitative experiments show the effectiveness of this novel approach when compared with other state-of-the-art methods. The idea is that even corrupted videos contain some relatively good frames that could be selected based on their quality, and use their visual content to provide additional guidance to the neural network that is performing the restoration. A new scientific paper that describes the novel system is currently under submission  at one of the foremost conferences on computer vision (International Conference on Computer Vision, 2023).
+
+### Source code
+
+The source code of the app is available on Github: <https://github.com/miccunifi/analog-video-restoration>
