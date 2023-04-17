@@ -22,7 +22,11 @@ Preservation of our cultural heritage is more important than ever, and Smart Vid
 
 Analog videos in historical archives often exhibit severe **visual degradation** due to **deterioration** of tape media, limiting their distribution and enjoyment by the general public. But with Smart Video Restoration these limitations are a thing of the past. Our neural network can reduce other types of tape defects as well.
 
-With this innovative technology, you will be able to restore historic phots and videos with ease and preserve our cultural heritage for future generations. Try the **demo** of "Smart Video Restoration" at this link (the online demo works on photos and not videos, for timing reasons):\
+With this innovative technology, you will be able to restore historic phots and videos with ease and preserve our cultural heritage for future generations. 
+
+## Discover and test
+
+Try the **demo** of "Smart Video Restoration" at this link (the online demo works on photos and not videos, for timing reasons):\
 [https://reinherit-image-restor​e.herokuapp.com](https://reinherit-image-restore.herokuapp.com/)
 
 ![Smart Video Restoration](https://ucarecdn.com/b424e03a-dcb6-435f-9c5c-25bdceb09742/ "Smart Video Restoration")
