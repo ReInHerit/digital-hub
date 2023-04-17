@@ -8,8 +8,10 @@ target-audience:
 linkedWebinars:
   - 034cd93b-1043-42e9-9f2a-835d03a4e1cc____Artificial Intelligence and Computer
     Vision for Cultural Heritage
+linkedToolkitComponents:
+  - 755c16fe-ff7b-4635-aede-1919f5c7f28b____Tensorflow Framework
 license: CC BY 2.0
-status: draft
+status: completed
 thumbnail: https://ucarecdn.com/52c6f7ac-f15b-4d79-a56c-73f1397bf5de/
 ---
 Smart Lens is a **web application** that can be used to create an **interactive visual guide** that **recognizes artwork details**. The application can be executed on a **mobile device** like a **mobile phone** or a **tablet**. 
@@ -48,7 +50,7 @@ For each work or detail is provided a textual description, the relative image an
 
 The following figure shows other examples of how the details recognized using the computer vision system implementing the object detection capabilities are shown.
 
-![Smart lens - examples of details recognition and information presentation (images courtesy of MCA, Graz Museum, BoCCF)](https://ucarecdn.com/017ced9e-adbd-4350-8b87-32a168d27b30/ "Smart lens - examples of details recognition and information presentation (images courtesy of MCA, Graz Museum, BoCCF)")
+![Smart Lens - examples of details recognition and information presentation (images courtesy of MCA, Graz Museum, BoCCF)](https://ucarecdn.com/017ced9e-adbd-4350-8b87-32a168d27b30/ "Smart Lens - examples of details recognition and information presentation (images courtesy of MCA, Graz Museum, BoCCF)")
 
 > *Smart lens - examples of details recognition and information presentation (images courtesy of MCA, Graz Museum, BoCCF)*
 
@@ -62,7 +64,7 @@ To ease the use of the training system by non-expert users, a new web-based appl
 
 The **architecture** of the system is the following:
 
-![Smart lens - architecture of the neural network training system](https://ucarecdn.com/41aebc63-b8c3-4907-9c0d-098ed7a95cb9/ "Smart lens - architecture of the neural network training system")
+![Smart Lens - architecture of the neural network training system](https://ucarecdn.com/41aebc63-b8c3-4907-9c0d-098ed7a95cb9/ "Smart Lens - architecture of the neural network training system")
 
 > \
 > *Smart lens - architecture of the neural network training system*
@@ -105,3 +107,7 @@ The application is composed of a backend that maintains information on the detai
 The types of interaction vary according to the techniques used to recognize the details: using object detection it is possible to analyze artworks also from afar, getting hints at what parts of the artwork are the “hotspots” for which the information is provided. Using the classification network the user must inspect the artwork more thoroughly, mimicking more the use of a magnifying lens. Using CBIR it is possible to create a user experience between those of object detection and classification, reducing the time to create a dataset (no neural network must be retrained) but at the possible cost of having a reduced recognition performance in case of similar artworks or too similar details. 
 
 The app can be used also to perform artwork recognition, without considering the details.
+
+### Source code
+
+The source code of the app is available on the Github of ReInHerit: <https://github.com/ReInHerit/SmartLens-app>
