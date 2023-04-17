@@ -9,6 +9,9 @@ target-audience:
 linkedWebinars:
   - 034cd93b-1043-42e9-9f2a-835d03a4e1cc____Artificial Intelligence and Computer
     Vision for Cultural Heritage
+linkedToolkitComponents:
+  - f682c5c9-46e5-4c15-bf52-21d5f76a935f____PyTorch Framework
+  - 31efbd7b-1693-4a40-8b0a-c3462e69f0f6____Flask framework
 license: CC BY 2.0
 status: draft
 thumbnail: https://ucarecdn.com/1c18ca8b-fda3-4762-ae95-0da66db2122f/
