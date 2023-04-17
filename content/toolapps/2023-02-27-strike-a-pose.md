@@ -63,9 +63,13 @@ It is possible to extend the apps introducing new types of challenges, e.g. comb
 
 Changing the GUIs is relatively easy, since it is needed to update the HTML5 of Strike-a-pose or the Kivy code of Face-fit.
 
+### Source Code
+
 **Free Codes of the App are available here:**\
-<https://github.com/ReInHerit/strike-a-pose>\
-\
+<https://github.com/ReInHerit/strike-a-pose>
+
+### Demo
+
 **Demo** is available at this link:\
 [https://reinherit-strike-a-pos​e.herokuapp.com/](https://reinherit-strike-a-pose.herokuapp.com/)
 
