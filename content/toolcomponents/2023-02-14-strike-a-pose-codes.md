@@ -13,9 +13,9 @@ linkedWebinars:
 linkedToolkitApps:
   - 5f367b50-4089-4718-9b66-8114962c6596____Strike a Pose
 license: CC BY 2.0
-thumbnail: https://ucarecdn.com/018f3d38-5397-4f78-8fcd-794b0b9ebffc/
+thumbnail: ""
 ---
-![](https://ucarecdn.com/a98d9e57-4b9f-4b91-a5e7-949f8dd014ea/)
+![]()
 
 The application has been developed in JavaScript on the client side and in Python on the server side. Pose detection on the human bodies is achieved using TensorflowJS 1 detection API exploiting the pose detection model, MoveNet. The model runs completely client-side in the browser. Server-side an SQLLite database is used to stores artworks’collections, challenges and artworks’ metadata and descriptions.
 
