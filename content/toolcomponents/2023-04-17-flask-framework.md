@@ -5,7 +5,7 @@ title: Flask framework
 desc: A lightweight web development framework used in several ReInHerit apps
 date: 2023-04-17T08:25:32.685Z
 target-audience:
-  - VISITOR
+  - PROFESSIONAL
 linkedToolkitApps:
   - 5f367b50-4089-4718-9b66-8114962c6596____Strike a Pose
   - 7ae4d04e-fc32-48b0-b2fe-6c035d28bde8____Face-Fit
