@@ -2,6 +2,7 @@
 type: toolapp
 pageId: beae4f2a-8f09-4de1-949a-398f8b3626b3
 title: Smart Lens
+desc: ReinHerit Toolkit |  Smart Lens
 date: 2023-03-06T15:56:57.467Z
 target-audience:
   - PROFESSIONAL
@@ -111,3 +112,8 @@ The app can be used also to perform artwork recognition, without considering the
 ### Source code
 
 The source code of the app is available on the Github of ReInHerit: <https://github.com/ReInHerit/SmartLens-app>
+
+### Demo SmartLens 
+
+Try the **Smart Lens Tester** at the following link:\
+[https://reinherit-smartlens-te​ster.herokuapp.com/](https://reinherit-smartlens-tester.herokuapp.com/)
