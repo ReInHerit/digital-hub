@@ -16,6 +16,8 @@ Fine-tuning a neural network involves taking a pre-trained neural network that h
 
 A typical use case in cultural heritage is to improve the performance of networks that are typically trained on photos of real-worlkd objects and not on artistic depictions (e.g. paintings or statues). This may be necessary to recognize objects, perform content-based image retrieval or classify visual content.
 
+![Example of results using fine-tuning](https://ucarecdn.com/90bcb1fa-14de-460f-bdd4-5b18c9d32369/ "Example of results using fine-tuning")
+
 In the ReInHerit toolkit a secific web-based application has been developed to train the neural networks used in the SmartLens application.
 
 In general, fine-tuning typically involves two stages:
