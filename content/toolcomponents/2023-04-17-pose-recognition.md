@@ -4,7 +4,7 @@ pageId: 05f95e69-71ff-418c-a7c6-306de11fc4c3
 title: Pose recognition
 date: 2023-04-17T14:34:21.701Z
 target-audience:
-  - VISITOR
+  - PROFESSIONAL
 linkedWebinars:
   - f2a58e91-3c1a-43c0-baeb-45234da1cbce____Engaging Museum Visitors with
     Gamification Apps
