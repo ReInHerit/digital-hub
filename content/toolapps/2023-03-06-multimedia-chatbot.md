@@ -72,3 +72,8 @@ Examples of the interface of the multimedia chatbot for mobile devices are shown
 ### Source code
 
 The source code of the app is available on the GitHub of ReInHerit: <https://github.com/ReInHerit/multimedia-chatbot>
+
+### Demo 
+
+Demo is available at this link:\
+[https://reinherit-multimedia-c​hatbot.herokuapp.com/](https://reinherit-multimedia-chatbot.herokuapp.com/)
