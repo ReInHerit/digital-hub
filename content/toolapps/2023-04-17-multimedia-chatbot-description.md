@@ -14,19 +14,14 @@ thumbnail: https://ucarecdn.com/9a20f237-021c-4303-bbfa-f5f61d319465/
 ---
 ![Multimedia Chatbot](https://ucarecdn.com/97a95fb1-19dc-46b2-bf0d-aac17699a195/ "Multimedia Chatbot")
 
-**VIOLA Multimedia Chatbot** is a web application developed by Media Integration and Communication Center UNIFI as part of the ReInHerit Toolkit that can be integrated within a museum website or as a mobile website. This web app allows a **novel interaction**, based on **natural language and AI chatbots,** to ask questions on artworks that address both the **visual content** and the **context** of the artwork. Users can either type their questions or interact with speech that is then translated to text. 
+Experience art in a new and exciting way with **VIOLA Multimedia Chatbot**! Developed by the UNIFI Media Integration and Communication Center, this innovative **web application** allows users to **interact with artworks** using **natural language and AI chatbots**. With VIOLA, users can ask **questions** about the **visual content and context of artworks** in a museum.
 
-This **web-based application** implements a **chatbot** **system** that can answer questions about **visual content** of artworks or about their **context**, e.g. about the author and history of the artwork. The design of this application is motivated by the recent huge interest in chat-based interaction that has been popularized, for example, by ChatGPT.
+> "Whether you are an art enthusiast or just beginning to explore the art world, VIOLA is the perfect tool to **enhance your experience**. Simply type in your questions or talk to VIOLA to see how your requests are answered with ease."
 
-The application **frontend** is based on **Javascript**, and the interface is based on a reactive design that adapts both to desktop web browsers, allowing to add this functionality to the existing websites of museums, or to a mobile application to provide a new type of smart guide. To ease this latter type of interaction, queries of the users can be performed using speech recognition, so to avoid typing long queries on the small keyboard of the device
+ The design of this application is motivated by the recent huge interest i**n chat-based interaction** that has been popularized, for example, by Chat GPT.
 
-The design of this application is motivated by the recent huge interest in **chat-based interaction** that has been popularized, for example, by Chat GPT.
-
-### Demo - VIOLA Multimedia Chatbot 
-
-**Demo** is available at this link: [https://reinherit-multimedia-c​hatbot.herokuapp.com/](https://reinherit-multimedia-chatbot.herokuapp.com/)
-
-
+Join the chatbot and discover a new way to interact with art by starting to ask your own questions.  Try the **Demo of VIOLA Multimedia Chatbot** at this link:\
+[https://reinherit-multimedia-c​hatbot.herokuapp.com/](https://reinherit-multimedia-chatbot.herokuapp.com/)
 
 
 
