@@ -87,3 +87,5 @@ The source code of the app is available on Github: <https://github.com/miccunifi
 
  **Demo** of "Smart Video Restoration"  is available at the following link (the online demo works on photos and not videos, for timing reasons):\
 [https://reinherit-image-restor​e.herokuapp.com](https://reinherit-image-restore.herokuapp.com/)
+
+![Smart Video Restoration](https://ucarecdn.com/90397b12-c164-4265-a1d2-0c310fbb037f/ "Smart Video Restoration")
