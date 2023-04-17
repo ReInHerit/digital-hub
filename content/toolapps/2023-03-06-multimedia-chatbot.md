@@ -9,7 +9,7 @@ linkedWebinars:
   - 034cd93b-1043-42e9-9f2a-835d03a4e1cc____Artificial Intelligence and Computer
     Vision for Cultural Heritage
 license: CC BY 2.0
-status: draft
+status: completed
 thumbnail: https://ucarecdn.com/c9c5d1cb-997e-4111-ba9c-49d9b1690bf8/
 pdf: ""
 ---
@@ -65,3 +65,7 @@ Examples of the interface of the multimedia chatbot for mobile devices are shown
 > *VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork*
 
 `youtube: https://youtu.be/rIN_D9_MPIA`
+
+### Source code
+
+The source code of the app is available on the GitHub of ReInHerit: <https://github.com/ReInHerit/multimedia-chatbot>
