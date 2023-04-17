@@ -8,6 +8,8 @@ target-audience:
 linkedWebinars:
   - f2a58e91-3c1a-43c0-baeb-45234da1cbce____Engaging Museum Visitors with
     Gamification Apps
+  - 034cd93b-1043-42e9-9f2a-835d03a4e1cc____Artificial Intelligence and Computer
+    Vision for Cultural Heritage
 linkedToolkitApps:
   - 5f367b50-4089-4718-9b66-8114962c6596____Strike a Pose
 license: CC BY 2.0
