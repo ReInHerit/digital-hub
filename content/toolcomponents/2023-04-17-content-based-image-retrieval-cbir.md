@@ -5,6 +5,9 @@ title: Content-based image retrieval (CBIR)
 date: 2023-04-17T14:18:09.263Z
 target-audience:
   - VISITOR
+linkedWebinars:
+  - 034cd93b-1043-42e9-9f2a-835d03a4e1cc____Artificial Intelligence and Computer
+    Vision for Cultural Heritage
 linkedToolkitApps:
   - e4a4ac1e-aa66-4664-a582-4055a3138d66____Smart Retrieval
   - beae4f2a-8f09-4de1-949a-398f8b3626b3____Smart Lens
