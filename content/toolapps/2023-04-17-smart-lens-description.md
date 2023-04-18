@@ -13,7 +13,10 @@ linkedToolkitComponents:
   - 755c16fe-ff7b-4635-aede-1919f5c7f28b____Tensorflow Framework
 license: CC BY 2.0
 status: completed
+thumbnail: https://ucarecdn.com/efbaf839-1e23-48d1-ab8c-45fec482c3e8/
 ---
+![Smart Lens](https://ucarecdn.com/abee0bb0-85af-47cf-a28b-c6adbc336f89/ "Smart Lens")
+
 This **web application** allows museums visitors to create an interactive visual guide that recognizes the details of artworks. 
 
 Using a variety of **computer vision techniques** such as CBIR, classification, and object detection, users can use their own smartphone or tablet as a lens to inspect and analyze details of interest in any artwork.\
