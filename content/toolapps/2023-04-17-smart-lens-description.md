@@ -25,6 +25,8 @@ This innovative application p**rovides multimedia information** about the recogn
 
 Unlike traditional guides that rely on QR codes, Smart Lens requires **active  and visual engagement** from users, making the experience more interactive, engaging and smarter.
 
+![Smart lens - examples of details recognition and information presentation (images courtesy of MCA, Graz Museum, BoCCF)](https://ucarecdn.com/77432ccd-b35d-4ad6-9e3b-a280b8475230/ "Smart lens - examples of details recognition and information presentation (images courtesy of MCA, Graz Museum, BoCCF)")
+
 ## Discover and test
 
 Try the **Smart Lens Tester** at the following link:\
