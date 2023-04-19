@@ -14,7 +14,7 @@ slides: https://ucarecdn.com/2404d67c-4173-4424-96c7-de8e85d6ce39/
 
 Facilitated by Marco Bertini and Paolo Mazzanti from [MICC - Media Integration and Communication Center](https://www.micc.unifi.it), University of Study Florence - Italy, the webinar will present examples of CV and AI-based tools applied in museum and cultural heritage contexts.  The tasks of Computer Vision in the Cultural Heritage sector, the basic elements of the technology, and a high-level analysis of example applications will be introduced. Key results obtained by MICC on CV vision and AI for museums and cultural contexts will be presented, including the main findings and recommendations of the analysis conducted under the ReInherit project. With a focus on Digital Toolkit (WP3) features and innovations: introduction to related emerging technology skills with examples of innovative collection management tools and applications based on playful engagement and user interactions with artworks.
 
-![Artificial Intelligence and Computer Vision for Cultural Heritage](https://ucarecdn.com/62815fbe-5e22-45cd-ae2a-0bdb406e25da/ "Artificial Intelligence and Computer Vision for Cultural Heritage")
+![Artificial Intelligence and Computer Vision for Cultural Heritage](https://ucarecdn.com/a205a492-a3b0-464f-9195-46c7238bacc0/ "Artificial Intelligence and Computer Vision for Cultural Heritage")
 
 ![Artificial Intelligence and Computer Vision for Cultural Heritage](https://ucarecdn.com/a4208d6d-90d6-40a9-bc9e-6300e0c8f4b6/ "Artificial Intelligence and Computer Vision for Cultural Heritage")
 
