@@ -16,7 +16,7 @@ thumbnail: https://ucarecdn.com/9433ead4-0071-43b0-9b11-fe1454aedca9/
 
 * **May 5th 2023** from 3:00-4:00 pm CET
 * Facilitated  **Susanne Ådahl** and **Ines Montalvao [ARCADA,](https://www.arcada.fi/en)** [University of Applied Sciences,](https://www.arcada.fi/en) Finland.
-* **Free Registration is open until April 20th 2023 (3 pm)** \*\* [HERE](https://docs.google.com/forms/d/e/1FAIpQLSeCJJ5sYzcYcxGnDd1URAc8-7giX9X4BavBoT_yZAYWmKuZXw/viewform) \*\*\
+* **Free Registration is open until May 4th 2023 (3 pm)** \*\* [HERE](https://docs.google.com/forms/d/e/1FAIpQLSeCJJ5sYzcYcxGnDd1URAc8-7giX9X4BavBoT_yZAYWmKuZXw/viewform) \*\*\
   <https://shorturl.at/cmsTZ>
 * The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available in the [resources section](https://reinherit-hub.eu/webinars).
 
