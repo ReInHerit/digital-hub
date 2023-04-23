@@ -10,10 +10,10 @@ const Forum: React.FC = () => {
     <div>
       <h2>ReInHerit Forum</h2>
       <p><a target="_blank" href="https://gitter.im/ReInHerit">All ReInHerit chat rooms</a></p>
-      <h3>Public chat</h3>
+      <h3>Public chat (currently under redevelopment)</h3>
       <embed
         style={{ height: 500, width: 750 }}
-        src="https://gitter.im/ReInHerit/community/~embed"
+       // src="https://gitter.im/ReInHerit/community/~embed"
       ></embed>
     </div>
   )
