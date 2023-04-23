@@ -24,8 +24,8 @@ The **backend** is implemented in **Python**, using **Flask** to provide the RES
 
 There are **two different versions of the backend;** one implements a set of three neural networks:
 
-* a **neural networ**k ***classifies*** the type of the query of the user understanding if it is about the visual content or the context of th artwork;
-* a **neural networ**k for ***question answering (QA)*** uses the contextual information of the artwork, stored as JSON data, to answer questions about the the context of the artwork;
+* a **neural network** ***classifies*** the type of the query of the user understanding if it is about the visual content or the context of th artwork;
+* a **neural network** for ***question answering (QA)*** uses the contextual information of the artwork, stored as JSON data, to answer questions about the the context of the artwork;
 * a **neural network** for ***visual question answering*** considers the visual data of the image and the visual description of the artwork, stored as JSON data, to answer questions about the content of the artwork.
 
 The idea of this system is to overcome the limitations of existing visual question answering (VQA) approaches, that take as input an image and a question about the image content and aim to answer correctly to the input question (see following figure). In fact VQA systems are limited in that they:

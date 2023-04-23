@@ -25,21 +25,21 @@ const travellingCall = () => {
 <p>In the exceptional case that an interested institution cannot add its own content or would like to show an existing puzzle element within a thematically matching exhibition, it can also be taken on without changes and can be shown without individual extension.</p>
  
 <h4> Four steps to hosting your own exhibition:</h4>
-<h5>1 DOWNLOAD INFORMATION</h5>
+<h5>1. DOWNLOAD INFORMATION</h5>
 <ul>
 <li>Thematic Areas</li>
 <li>Exhibition Architecture</li>
 <li>Content Implementation</li>
 </ul>
 
-<h5>2 CREATE A NARRATIVE</h5>
+<h5>2. CREATE A NARRATIVE</h5>
 <ul>
 <li>Select a topic</li>
 <li>Choose objects</li>
 <li>Find key objects</li>
 </ul>
  
-<h5>3 ORGANISE THE CONSTRUCTION</h5>
+<h5>3. ORGANISE THE CONSTRUCTION</h5>
 <ul>
 <li>Check the dimensions of the exhibition space</li>
 <li>Check what media are needed</li>
@@ -47,7 +47,7 @@ const travellingCall = () => {
 <li>Install the structure and the devices</li>
 </ul>
  
-<h5>4 IMPLEMENT THE CONTENT</h5>
+<h5>4. IMPLEMENT THE CONTENT</h5>
 <ul>
 <li>Download the „implementation instructions“</li>
 </ul>

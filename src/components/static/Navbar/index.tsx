@@ -134,7 +134,7 @@ const ReinNavbar: React.FC = () => {
                   className="text-dark text-decoration-none dropdown-item"
                   to="/exhibitions"
                 >
-                  Digital exhibitions
+                  Digital Exhibitions
                 </Link>
                 <a href="https://collection.reinherit-hub.eu/"
                   className="text-dark text-decoration-none dropdown-item"

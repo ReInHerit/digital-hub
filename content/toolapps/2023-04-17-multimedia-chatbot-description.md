@@ -20,7 +20,7 @@ Experience art in a new and exciting way with **VIOLA Multimedia Chatbot**! Deve
 
 > "Whether you are an art enthusiast or just beginning to explore the art world, VIOLA is the perfect tool to **enhance your experience**. Simply type in your questions or talk to VIOLA to see how your requests are answered with ease."
 
- The design of this application is motivated by the recent huge interest i**n chat-based interaction** that has been popularized, for example, by Chat GPT.
+The design of this application is motivated by the recent huge interest **in chat-based interaction** that has been popularized, for example, by Chat GPT.
 
 ## Discover and test
 

@@ -36,6 +36,8 @@ const digitalCall = () => {
 <p>Thank you for your interest in the ReInHerit project. Your submission is a valuable contribution to a growing collection of digital Cultural Heritage objects.</p>
 <p></p>
     <a style={{borderRadius:0}} href="/images/tempBrochures/RIH-BRO-DIGITAL.pdf" download="museumcall_digital" className="btn btn-info border-radius-0" target="_blank" rel="noreferrer">Click here to download a brochure with more information.</a>
+    <p></p>
+    <a style={{borderRadius:0}} href="/images/tempBrochures/RIH-BRO-DIGITAL-es.pdf" download="museumcall_digital_es" className="btn btn-info border-radius-0" target="_blank" rel="noreferrer">Click here to download the Spanish version of the brocure.</a>
     </Container>
     </BaseLayout>
   

@@ -19,9 +19,9 @@ thumbnail: https://ucarecdn.com/efbaf839-1e23-48d1-ab8c-45fec482c3e8/
 
 This **web application** allows museums visitors to create an interactive visual guide that recognizes the details of artworks. 
 
-Using a variety of **computer vision techniques** such as CBIR, classification, and object detection, users can use their own smartphone or tablet as a lens to inspect and analyze details of interest in any artwork.\
+Using a variety of **computer vision techniques** such as CBIR, classification, and object detection, users can use their own smartphone or tablet as a lens to inspect and analyze details of interest in any artwork.
 
-This innovative application p**rovides multimedia information** about the recognized details, making it an **intelligent guide** to any collection or set of artworks you are interested in analyzing. 
+This innovative application **provides multimedia information** about the recognized details, making it an **intelligent guide** to any collection or set of artworks you are interested in analyzing. 
 
 Unlike traditional guides that rely on QR codes, Smart Lens requires **active  and visual engagement** from users, making the experience more interactive, engaging and smarter.
 
