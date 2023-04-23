@@ -34,7 +34,7 @@ export default function Template({
         addObj.value = "/tools/components"
         break;
       case "toolapp":
-        breadCrumbObj.label = "Applicaitons documentation"
+        breadCrumbObj.label = "Applications documentation"
         breadCrumbObj.value = "/tools/apps"
         addObj.label = "..."
         addObj.value = "/tools/apps"

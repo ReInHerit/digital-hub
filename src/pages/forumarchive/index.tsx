@@ -1,7 +1,7 @@
 import React from "react";
 import BaseLayout from "../../components/static/BaseLayout";
-import FactsheetsFeed from "../../components/shared/FactsheetsFeed";
 import MainHeading from "../../components/static/MainHeading";
+import { Container } from "react-bootstrap"
 
 const ForumArchive: React.FC = () => {
   return (
@@ -14,6 +14,7 @@ const ForumArchive: React.FC = () => {
           {label:"Forum Archive", value:"/networking"},
         ]}
       >ReInHerit Forum Archive</MainHeading>
+    <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">
     <div>
     <p>Find here an archive of our previous public conversations:</p>
     <ul>
@@ -23,6 +24,7 @@ const ForumArchive: React.FC = () => {
       <li><a href="https://app.gitter.im/#/room/#ReInHerit_Cultural-tourism:gitter.im">Past conversations on cultural tourism</a></li>
     </ul>
     </div>
+    </Container>
     </BaseLayout>
   )
 }

@@ -37,48 +37,6 @@ const ToolkitComponentsFeed: React.FC = () => {
   }
 
   return (
-    <SideMainLayout
-      side={
-        <div className="bg-white card p-4 mb-2 border-0 shadow">
-          <p>Filter categories</p>
-          {tags.length !== 0 ? (
-            tags.map(tag => (
-              <Badge
-                onClick={() => toggleTag(tag)}
-                bg="white"
-                color="black"
-                text={"black" as "white"}
-                className="me-1 btn border"
-              >
-                {tag}
-              </Badge>
-            ))
-          ) : (
-            <Badge
-              className="me-1 btn border"
-              bg="white"
-              color="black"
-              text={"black" as "white"}
-            >
-              *
-            </Badge>
-          )}
-          <br></br>
-          {ReinUtils.extractUniqueTags(data as TaggedGraphQLData).sort().map(curTag => (
-            <Form.Check
-              type="checkbox"
-              checked={tags.includes(curTag)}
-              defaultChecked={false}
-              key={curTag}
-              onClick={() => toggleTag(curTag)}
-              label={curTag}
-              value={curTag}
-            ></Form.Check>
-          ))}
-        </div>
-      }
-    >
-      <>
         <ReinCardGrid>
           {data.allMarkdownRemark.edges.map(edge => {
             // filter only if no tags were selected
@@ -112,9 +70,7 @@ const ToolkitComponentsFeed: React.FC = () => {
             }
           })}
         </ReinCardGrid>
-      </>
-    </SideMainLayout>
-  )
+      )
 }
 
 export default ToolkitComponentsFeed
