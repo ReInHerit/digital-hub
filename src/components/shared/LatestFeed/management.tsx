@@ -45,7 +45,7 @@ query Management($date: DateQueryOperatorInput = {}) {
             pageId
             type
           }
-          excerpt(pruneLength: 350)
+          excerpt(pruneLength: 250)
         }
       }
     }

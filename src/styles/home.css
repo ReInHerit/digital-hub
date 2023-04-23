@@ -1,0 +1,43 @@
+.cardHome .contentHome {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+}
+
+.cardHome:hover .contentHome {
+	transform: translateY(-20px);
+	opacity: 0;
+}
+
+.cardHome .contentHome .imgBx {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.cardHome .contentHome .imgBx {
+	top: 0;
+	left: 0;
+	width: 75%;
+	height: 75%;
+	object-fit: cover;
+}
+
+.cardHome .sci {
+	position: absolute;
+	bottom: 50px;
+	display: flex;
+    transform: translateY(40px);
+	transition: 0.5s;
+	opacity: 0;
+}
+
+/*.containerHome */
+.cardHome:hover .sci {
+	transform: translateY(0px);
+	opacity: 1;
+}
