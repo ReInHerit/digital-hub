@@ -59,6 +59,21 @@ const Hero = () => {
       <br />
       <br />
 
+{/*
+      <Container className="p-md-4 ps-md-5 pe-md-5 text-center">
+      <div>
+      <Row xs={1} md={2} xxl={2} className="g-2" style={{minHeight:"10vh", textAlign:"center"}}>
+      <Col>
+      <h3>I am a professional</h3>
+      </Col>
+      <Col>
+      <h3>I am passionate about cultural heritage</h3>
+      </Col>
+      </Row>
+      </div>
+      </Container>
+    */}
+
     <Container className="p-md-4 ps-md-5 pe-md-5 text-center">
       <div>
       <br />
@@ -69,7 +84,7 @@ const Hero = () => {
             <Card.Body>
               <Card.Title style={{fontSize:"1.5em", fontWeight:350}}>
               <FontAwesomeIcon icon={faBookOpen} pull="left" /> 
-                <b>Resources for professionals</b>
+                <b>Resources and training material</b>
               </Card.Title>
               <hr />
               <Card.Text style={{fontSize:"1.15em"}}>
