@@ -16,7 +16,7 @@ const ToolkitComponentsPage = () => {
     >
       <MainHeading
         subHeading="Glossary and technical explanation of the components used in the ReInHerit applications."
-        subText="Here you can discover more information about the building blocks for the applications in the ReInHerit Toolkit."
+        subText="Here you can discover more information about the building blocks for the ReInHerit applications."
         breadCrumb={[
           {label:"Resources", value:"/resources"},
           {label:"Toolkitcomponents", value:"/tools/components"}
