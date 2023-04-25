@@ -11,7 +11,7 @@ const Toolkit = () => {
     >
       <MainHeading
         subHeading="Applications available via the ReInHerit digital hub."
-        subText="Here you will find the documentation for applications developed within the ReInHerit project."
+        subText="Here you will find the documentation for applications developed as part of the ReInHerit Toolkit."
         breadCrumb={[
           {label:"Resources", value:"/resources"},
           {label:"Applications-Documentation", value:"/tools/apps"}

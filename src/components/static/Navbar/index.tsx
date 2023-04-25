@@ -92,6 +92,12 @@ const ReinNavbar: React.FC = () => {
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
+                  to="/tools/components"
+                >
+                  Toolkit components
+                </Link>
+                <Link
+                  className="text-dark text-decoration-none dropdown-item"
                   to="/eshopdoc"
                 >
                   eShop Documentation
@@ -103,12 +109,7 @@ const ReinNavbar: React.FC = () => {
                 >
                   Overview
                 </Link>
-                <Link
-                  className="text-dark text-decoration-none dropdown-item"
-                  to="/tools/components"
-                >
-                  Tool components
-                </Link> */}
+                 */}
               {/*  <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/game"
