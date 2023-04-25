@@ -10,7 +10,7 @@ const Toolkit = () => {
     pageTitle="Applications documentation | ReInHerit Digital Hub"
     >
       <MainHeading
-        subHeading="Applications available via the ReInHerit digital hub."
+        subHeading="Applications developed within the ReInHerit project."
         subText="Here you will find the documentation for applications developed as part of the ReInHerit Toolkit."
         breadCrumb={[
           {label:"Resources", value:"/resources"},
