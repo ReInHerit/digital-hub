@@ -17,7 +17,7 @@ linkedToolkitComponents:
   - 755c16fe-ff7b-4635-aede-1919f5c7f28b____Tensorflow Framework
 license: CC BY 2.0
 status: completed
-thumbnail: https://ucarecdn.com/92cb839d-cc26-4a29-8498-68bd81dbe626/
+thumbnail: https://ucarecdn.com/4f495df3-8f37-4899-a5c0-6df7d87f6baa/
 ---
 This application is designed for **cultural smart tourism** and provides functionalities for landmark recognition using **computer vision.** The vision system is able to deal also with large monuments, where only a portion of the landmark is visible, using a specific run-time image augmentation process that is combined with a training-time augmentation.  The smart tourism app is a native **Android app** that provides the basic functionalities. It has been developed as an Android app to overcome the computational limitations of web based systems, that are still not feature complete when using **TensorflowJS** with respect to Tensorflow Lite. Despite this it works also on low and  mid-level devices, since it has been designed to use a set of very fast neural network that can be executed in real-time (based on variations of the MobileNet V3 architecture). The system uses computer vision to recognize **landmarks** and monuments, providing **multimedia information**, and  can be **personalized** to create different tours.
 
