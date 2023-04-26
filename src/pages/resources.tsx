@@ -20,13 +20,11 @@ const ResourcesPage = () => {
         ]}
       >Resources</MainHeading>
       <ReinCardGrid>
-      {/*
         <ReinGridCard
-          title="Tool components"
+          title="Toolkit components"
           url="/tools/components"
-          body="Learn more about the building blocks of the applications provided by ReInHerit."
+          body="Learn more about the building blocks of the applications in the ReInHerit Toolkit."
         />
-      */}
         <ReinGridCard
           title="Webinars"
           body="Webinars on digital tools and methods, cultural heritage management, and cultural tourism."
@@ -38,13 +36,13 @@ const ResourcesPage = () => {
           url="/factsheets"
         />
         <ReinGridCard
-          title="Applications"
-          body="ReInHerit Toolkit Applications"
+          title="Toolkit Apps Documentation"
+          body="ReInHerit Toolkit Applications documentation."
           url="/tools/apps"
         />
         <ReinGridCard
           title="eShop Documentation"
-          body="ReInHerit eShop documentation"
+          body="ReInHerit eShop documentation."
           url="/eshopdoc"
         />
       {/*

@@ -8,6 +8,7 @@ const travellingCall = () => {
     return <BaseLayout>
     <MainHeading  
     breadCrumb={[
+          {label:"Participate", value:"/networkinghub"},
           {label:"Travelling Exhibitions", value:"/museumcalls/travelling"},
         ]}
         subText="Host a travelling exhibition in your museum."

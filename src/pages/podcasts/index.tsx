@@ -13,8 +13,8 @@ const PodcastPage: React.FC = () => {
       subHeading="Museums Up is a podcast series within ReInHerit."
       subText="These series of Podcasts are hosted by Jaime López of Arte Sostenible. New episodes every two weeks!"
       breadCrumb={[
-        {label:"Content", value:"/content"},
-        {label:"Podcast", value:"/Podcast"}
+        {label:"Discover", value:"/visitorhub"},
+        {label:"Podcast", value:"/podcasts"},
       ]}
     >Museum Up Podcast</MainHeading>
   <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">

@@ -11,7 +11,8 @@ const ForumArchive: React.FC = () => {
       <MainHeading
         subHeading="An archive of the ReInHerit community public conversations on the ReInHerit past forum."
         breadCrumb={[
-          {label:"Forum Archive", value:"/networking"},
+          {label:"Participate", value:"/networkinghub"},
+          {label:"Forum Archive", value:"/forumarchive"},
         ]}
       >ReInHerit Forum Archive</MainHeading>
     <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">

@@ -8,6 +8,7 @@ const digitalCall = () => {
     return <BaseLayout>
      <MainHeading  
     breadCrumb={[
+          {label:"Participate", value:"/networkinghub"},
           {label:"Digital Collection", value:"/museumcalls/digital"},
         ]}
         subText="Contribute to the ReInHerit digital collection."

@@ -12,7 +12,7 @@ const ApplicationPromoPage: React.FC = () => {
       subHeading="Computer vision applications for cultural heritage."
       subText="The technical documentation of these applications is available under resources."
       breadCrumb={[
-        {label:"Content", value:"/content"},
+        {label:"Discover", value:"/visitorhub"},
         {label:"ReInHerit Applications", value:"/applications"}
       ]}
     >Discover and test the ReInHerit applications</MainHeading>

@@ -19,7 +19,7 @@ const ToolkitComponentsPage = () => {
         subText="Here you can discover more information about the building blocks for the ReInHerit applications."
         breadCrumb={[
           {label:"Resources", value:"/resources"},
-          {label:"Toolkitcomponents", value:"/tools/components"}
+          {label:"Toolkit Components", value:"/tools/components"}
         ]}
       >Technological components</MainHeading>
       <p className="w-75"></p>

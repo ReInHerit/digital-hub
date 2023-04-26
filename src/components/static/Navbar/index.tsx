@@ -88,7 +88,7 @@ const ReinNavbar: React.FC = () => {
                   className="text-dark text-decoration-none dropdown-item"
                   to="/tools/apps"
                 >
-                  Applications documentation
+                  Toolkit Apps documentation
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
@@ -100,7 +100,7 @@ const ReinNavbar: React.FC = () => {
                   className="text-dark text-decoration-none dropdown-item"
                   to="/eshopdoc"
                 >
-                  eShop Documentation
+                  eShop documentation
                 </Link>
                 {/*
                <Link
@@ -160,7 +160,7 @@ const ReinNavbar: React.FC = () => {
                  className="text-dark text-decoration-none dropdown-item"
                  to="/applications"
                >
-                 Applications
+                 Toolkit Apps
                </Link>
           </NavDropdown>
         
@@ -170,6 +170,12 @@ const ReinNavbar: React.FC = () => {
                   to="/networkinghub"
                 >
                   Forum
+                </Link>
+                <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/forumarchive"
+                >
+                  Forum Archive
                 </Link>
                 <Link
                 style={{ color: "#424753" }}
