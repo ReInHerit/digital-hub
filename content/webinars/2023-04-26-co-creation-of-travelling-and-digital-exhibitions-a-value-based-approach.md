@@ -21,10 +21,10 @@ Sibylle Dienesch, Director and Curator at the Graz Museum, and Catalin Betz, Cur
 
 ![Co-creation of Travelling and Digital Exhibitions: a value based approach](https://ucarecdn.com/e86332da-4195-4243-8582-e4bd2fdaf69e/ "Co-creation of Travelling and Digital Exhibitions: a value based approach")
 
-
-
 ### Speakers:
 
 **Sibylle Dienesch** was appointed director of the Stadtmuseum Graz GmbH – comprising the city museums and municipal archives of Graz – in January 2023. She has been part of the management of Stadtmuseum Graz GmbH since 2006 and vice-director as of 2014. She was responsible for all operational and financial matters of the Graz Museum and as of 2014 also for the financial agendas of the Stadtarchiv Graz. As part of her responsibility for the strategic development of the Graz Museum, she initiated and steered the continuous change processes towards an inclusive and intercultural institution. The work on a digital strategy and its implementation is also one of her core tasks. Contentwise her focus is on socio-cultural developments in the city of Graz. She was the co-curator of exhibitions and co-editor of publications dealing with public space and with the lives of people with intellectual disability.
 
 **Catalin Betz** is a Graz based curatorial assistant and curator. Since June 2021 she has been part of the exhibition department of the Graz Museum. Among others, she studied Design and Visual Communication in Hamburg, Würzburg and Bolzano, and most recently Social Design - Arts as Urban Innovation in Vienna. Her focus and background are cultural and urban development projects and exhibitions.
+
+`youtube: https://youtu.be/MWJGk_jCu2Q`
