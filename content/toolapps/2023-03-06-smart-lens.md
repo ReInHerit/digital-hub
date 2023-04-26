@@ -120,4 +120,4 @@ The source code of the app used to fine-tune the neural networks us available on
 ### Demo SmartLens
 
 Try the **Smart Lens Tester** at the following link:\
-<http://solaris.micc.unifi.it>
+[https://reinherit-smartlens-tester.herokuapp.com](https://reinherit-smartlens-tester.herokuapp.com/)
