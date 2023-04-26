@@ -14,7 +14,7 @@ linkedToolkitComponents:
   - 31efbd7b-1693-4a40-8b0a-c3462e69f0f6____Flask framework
   - d9376609-c121-41cc-b560-cc3b430bf350____Content-based image retrieval (CBIR)
 license: CC BY 2.0
-status: draft
+status: completed
 thumbnail: https://ucarecdn.com/1c18ca8b-fda3-4762-ae95-0da66db2122f/
 ---
 ![Smart Retrieval](https://ucarecdn.com/dfb81d5a-bcb6-42f4-89c1-58acdf766839/ "Smart Retrieval")
