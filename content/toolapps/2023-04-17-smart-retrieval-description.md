@@ -30,4 +30,4 @@ Smart Retrieval can also be used to perform tagging, or annotation of images, us
 ## Discover and test
 
 Try a **demo**  of  Smart Retrieval at the following link:\
-[https://reinherit-smart-retrie​val.herokuapp.com/](https://reinherit-smart-retrieval.herokuapp.com/)
+h[ttp://solaris.micc.unifi.it](http://solaris.micc.unifi.it)
