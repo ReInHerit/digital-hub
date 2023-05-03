@@ -30,4 +30,4 @@ Try the **Demo of VIOLA Multimedia Chatbot** at this link:\
 
 ![VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork](https://ucarecdn.com/dd6be94a-8b1e-428a-9830-6d870b9cface/ "VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork")
 
-`youtube: https://youtu.be/rIN_D9_MPIA`
+`youtube: https://youtu.be/BjstSqyxbOg`
