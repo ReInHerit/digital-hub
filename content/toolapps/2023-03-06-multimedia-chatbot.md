@@ -67,13 +67,13 @@ Examples of the interface of the multimedia chatbot for mobile devices are shown
 
 > *VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork*
 
-`youtube: https://youtu.be/rIN_D9_MPIA`
+`youtube: https://youtu.be/BjstSqyxbOg`
 
 ### Source code
 
 The source code of the app is available on the GitHub of ReInHerit: <https://github.com/ReInHerit/multimedia-chatbot>
 
-### Demo 
+### Demo
 
 Demo is available at this link:\
 [https://reinherit-multimedia-c​hatbot.herokuapp.com/](https://reinherit-multimedia-chatbot.herokuapp.com/)
