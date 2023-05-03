@@ -12,7 +12,7 @@ referenceTo: News
 theme: Technology
 thumbnail: https://ucarecdn.com/b5f7371c-f2a0-4481-9d95-fb48a66e245b/-/crop/716x558/60,0/-/preview/
 ---
-`youtube: https://youtu.be/rIN_D9_MPIA`
+`youtube: https://youtu.be/BjstSqyxbOg`
 
 *Are you interested in exploring the possibilities of the Artificial Intelligence chatbot in museums?*
 
