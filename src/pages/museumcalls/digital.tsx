@@ -30,7 +30,7 @@ const digitalCall = () => {
 <p><b>Together we create a European Collection to illustrate the rich diversity in the portfolio of the cultural sector and show the variety of perspectives on the respective topics.</b></p>
 <p></p>
 <h5>How to contribute?</h5>
-<p>Simply submit one or several of your collection objects and information on the objects <a href="https://docs.google.com/forms/d/1thxGJsVMk2a6OjyPLNSAm-5RfAGdnkM7-KjmA6nWeIw/prefill">via this form</a>. We will integrate your contributions into the ReInHerit Digital Collection, which will add your institution to the ReInHerit network.</p>
+<p>Simply submit one or several of your collection objects and information on the objects <a href="https://forms.gle/RcDdX8fvaDbdx78V7">via this form</a>. We will integrate your contributions into the ReInHerit Digital Collection, which will add your institution to the ReInHerit network.</p>
 <h5>Do you have questions?</h5>
 <p>Please feel free to contact us via e-mail: reinherit@stadt.graz.at </p>
 <p></p>
