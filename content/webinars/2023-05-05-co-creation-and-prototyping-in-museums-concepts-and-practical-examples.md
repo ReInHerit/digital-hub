@@ -20,7 +20,7 @@ The aim of this webinar is to delve into how co-creation can be used in developi
 
 Concept and Experience Designer Ines Montalvao will provide answers to these questions and tell us stories about co-creation processes she has been working on in museums around the world. Webinar co-facilitator Susanne Ådahl, Researcher in the ReInHerit project based at Arcada University of Applied Sciences will engage in a dialogue with Ines to deepen these important questions of museum development work.
 
-![Co-creation and prototyping in museums: Concepts and practical examples](https://ucarecdn.com/56da0bcf-6677-48d5-bf05-998443e23348/-/crop/793x657/0,0/-/preview/ "Co-creation and prototyping in museums: Concepts and practical examples")
+![Co-creation and prototyping in museums: Concepts and practical examples](https://ucarecdn.com/56da0bcf-6677-48d5-bf05-998443e23348/-/crop/789x609/0,0/-/preview/ "Co-creation and prototyping in museums: Concepts and practical examples")
 
 ![Co-creation and prototyping in museums: Concepts and practical examples](https://ucarecdn.com/51c7e4b0-b67f-4d15-8ac7-395728443ba3/-/crop/795x606/0,0/-/preview/ "Co-creation and prototyping in museums: Concepts and practical examples")
 
