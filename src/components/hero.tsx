@@ -178,7 +178,7 @@ const Hero = () => {
       backgroundSize: "cover"
     }}>
 <Container className="mt-3 mb-3 p3 text-center">
- <Row xs={1} md={2} style={{minHeight:"40vh", textAlign:"center"}}>
+ <Row xs={1} md={3} style={{minHeight:"40vh", textAlign:"center"}}>
   <Col sm>
      <Card className="ms-5 me-3 g-5" style={{marginTop:"8vh", maxWidth:"75vh"}}>
       <Card.Header as="h4">Featured</Card.Header>
@@ -203,11 +203,31 @@ const Hero = () => {
       </Card.Body>
     </Card>
   </Col>
+  <Col sm>
+     <Card className="ms-3 me-5 g-5" style={{marginTop:"8vh", maxWidth:"75vh"}}>
+      <Card.Header as="h4">Featured</Card.Header>
+      <Card.Body>
+        <Card.Title>ReInHerit e-Shop</Card.Title>
+        <Card.Text>
+          Visit the ReInHerit e-Shop to discover planners and games, 3D models and postcards, and get inspired by cultural heritage!
+        </Card.Text>
+        <Button variant="danger" href="/eshop">Discover our free digital products!</Button>
+      </Card.Body>
+    </Card>
+  </Col>
 </Row>
 </Container>
 </div>
 
 <div className="d-md-none text-center pt-5">
+        <br/>
+        <br></br>
+        <img alt="ReInHerit stock image" src="/images/bannerPeople2.jpg" width={400}></img>
+        <br/>
+        <br/>
+  </div>
+
+  <div className="d-md-none text-center pt-5">
         <br/>
         <br></br>
         <img alt="ReInHerit stock image" src="/images/bannerPeople2.jpg" width={400}></img>
