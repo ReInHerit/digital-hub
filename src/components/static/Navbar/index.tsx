@@ -162,6 +162,13 @@ const ReinNavbar: React.FC = () => {
                >
                  Toolkit Apps
                </Link>
+               <Link
+                 style={{ color: "#424753" }}
+                 className="text-dark text-decoration-none dropdown-item"
+                 to="/secondperfpublic/0Introduction"
+               >
+                 Performance at BoCCF
+               </Link>
           </NavDropdown>
         
           <NavDropdown title="Participate" id="basic-nav-dropdown">

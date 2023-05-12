@@ -45,7 +45,11 @@ const VisitorHubPage = () => {
           title="Toolkit Applications"
           url="/applications"
         />
-
+        <ReinGridCard
+          body="Discover the second ReInHerit immersive performance, taking place at BoCCF on the 19.05.2023."
+          title="Performance at BoCCF"
+          url="/secondperfpublic/0Introduction"
+        />
         {/*
         <ReinGridCard
           body="Performances developed and carried out in the course of the ReInHerit project."
