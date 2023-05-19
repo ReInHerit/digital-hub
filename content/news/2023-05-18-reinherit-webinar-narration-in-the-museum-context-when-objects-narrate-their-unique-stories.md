@@ -12,8 +12,6 @@ referenceTo: News
 theme: Management
 thumbnail: https://ucarecdn.com/9d79b8b0-5444-4b5c-b2bd-af354d83c957/
 ---
-
-
 ![ReInHerit Webinar - Narration in the museum context: when objects narrate their unique stories](https://ucarecdn.com/61ad86c1-3231-4c10-9dfd-a50e266b2662/ "ReInHerit Webinar - Narration in the museum context: when objects narrate their unique stories")
 
 * **1st June 2023 from 3:00-4:00 pm CET**
@@ -28,9 +26,7 @@ The Webinars are organised in the context of the  Horizon2020 [ReInHerit](http
 
 ### About this webinar:
 
-This webinar the disposal of museums and cultural heritage institutions. Narration and storytelling can take different forms. The development and presentation of an exhibition, the design of an educational programme for children, guided tours and books all are based on narration and storytelling techniques. These techniques unfold the interesting story of different objects of a museum, revealing their origin and new context within the museum they are placed in. This webinar aims at presenting the key uses of narration and storytelling in a museum context in relation to different museum activities, also featuring case studies and examples from the Museum of Cycladic Art in Athens, Greece. 
-
- 
+Narration and storytelling are central and powerful tools at the disposal of museums and cultural heritage institutions. Narration and storytelling can take different forms. The development and presentation of an exhibition, the design of an educational programme for children, guided tours and books all are based on narration and storytelling techniques. These techniques unfold the interesting story of different objects of a museum, revealing their origin and new context within the museum they are placed in. This webinar aims at presenting the key uses of narration and storytelling in a museum context in relation to different museum activities, also featuring case studies and examples from the Museum of Cycladic Art in Athens, Greece. 
 
 ### Speakers:
 
