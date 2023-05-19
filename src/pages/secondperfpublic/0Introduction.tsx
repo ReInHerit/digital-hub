@@ -19,8 +19,9 @@ const IntroSecondPerf = () => {
     <p>The exhibits of this "virtual" exhibition are scattered around the premises of the building and depending on your interaction, they appear on your screens and activate the sound installation located in the space. The virtual exhibition consists of 12 objects of folk art from the Pierides ethnographic collection, mainly from the 19th century, which were used in the daily life of that time, such as examples of silversmithing, woodcarving, ceramics and metalwork.</p>
     <p>During the event "ReInHerit a Museum: Immersive Performance at the Boccf" (19 May 2023), 20 musicians from the Cyprus Symphony Orchestra and the Cyprus Youth Symphony Orchestra accompany the exhibits of the Foundation's collections and exhibitions. You can influence the sounds in the space and interact with the music as you explore the space, then influence the creation of a video projection in the courtyard that will be interpreted as a music score at the end of the show. We hope you enjoy your exploration!</p>
     <p>Go to the applications (that will allow you to interact with the performance) using this QR code:</p>
-    <img alt="QR code performance apps" src="images/performances/QRcodeApps.png" width={"25%"} height={"auto"}></img>
-
+    <img alt="QR code performance apps" src="images/performances/QRcodeApps.png" width={"30%"} height={"auto"}></img>
+      <p></p>
+      <p></p>
     <img alt="Second Performance" src="images/performances/secondPerfPromo.jpg" width={"100%"} height={"auto"}></img>
     
         </SideBarsLayout>
