@@ -52,6 +52,9 @@ const SecondPerfNavPublic: React.FC<Props> = (props) => {
     <ListGroupItem>
       <Link to="/secondperfpublic/12ThroneChair">Throne Chair</Link>
     </ListGroupItem>
+    <ListGroupItem>
+      <Link to="/secondperfpublic/13questionnaires">Survey</Link>
+    </ListGroupItem>
   </ListGroup>
 
 }
