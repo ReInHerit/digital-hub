@@ -18,7 +18,7 @@ This webinar aims at presenting the main strategy for inclusion and accessibilit
 
 ![Museum strategy for people with visual or hearing impairments: In Touch with the Cycladic Civilization, a case study by the Museum of Cycladic Art](https://ucarecdn.com/1aad7c88-6e93-4ff7-97b6-383c3e4a29a3/ "Museum strategy for people with visual or hearing impairments: In Touch with the Cycladic Civilization, a case study by the Museum of Cycladic Art")
 
-![Museum strategy for people with visual or hearing impairments: In Touch with the Cycladic Civilization, a case study by the Museum of Cycladic Art](https://ucarecdn.com/06edfef9-802a-468c-9048-451df44e545c/ "Museum strategy for people with visual or hearing impairments: In Touch with the Cycladic Civilization, a case study by the Museum of Cycladic Art")
+![Museum strategy for people with visual or hearing impairments: In Touch with the Cycladic Civilization, a case study by the Museum of Cycladic Art](https://ucarecdn.com/06863c91-d5c2-4017-92f6-29eb51c8ffb7/ "Museum strategy for people with visual or hearing impairments: In Touch with the Cycladic Civilization, a case study by the Museum of Cycladic Art")
 
 ### Speakers:
 
