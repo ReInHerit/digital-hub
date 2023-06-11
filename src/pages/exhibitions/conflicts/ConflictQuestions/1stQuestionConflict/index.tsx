@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Badge } from "react-bootstrap"
+import { Container, Badge, Button, Row, Col } from "react-bootstrap"
 import BaseExhibitionConflict from "../../../../../components/static/BaseExhibitionConflicts"
 import CountryFormConflict from "../../../../../components/shared/ExhibitionQuestions/questionsConflict/O_countryConflict"
 import QuestionOneConflict from "../../../../../components/shared/ExhibitionQuestions/questionsConflict/A_questionConflict"
@@ -32,6 +32,19 @@ return (
         </div>
         
      </div>
+
+<div>
+<Row className="mt-5">
+    <Col sm={10}>
+    </Col>
+    <Col sm={2}>
+    <Button variant="outline-primary" size="lg" className="rounded-pill" href="exhibitions/conflicts/ConflictExhibitionOverview/">
+        <h4>Skip questions</h4>
+    </Button>
+    </Col>
+</Row>
+</div>
+
     </BaseExhibitionConflict>
     )
   }

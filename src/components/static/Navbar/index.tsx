@@ -143,6 +143,12 @@ const ReinNavbar: React.FC = () => {
                   Digital Collection
                 </a>
                 <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/travellingexhibitions"
+                >
+                  Travelling Exhibitions
+                </Link>
+                <Link
                  style={{ color: "#424753" }}
                  className="text-dark text-decoration-none dropdown-item"
                  to="/eshop"

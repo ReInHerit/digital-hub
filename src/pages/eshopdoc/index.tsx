@@ -6,7 +6,7 @@ import MainHeading from "../../components/static/MainHeading"
 const eShopDoc = () => {
   return (
     <BaseLayout
-    pageTitle="Architecture | ReInHerit Digital Hub"
+    pageTitle="eShop Documentation | ReInHerit Digital Hub"
     >
       <MainHeading subHeading="Documentation about the ReInHerit eShop"
         breadCrumb={[

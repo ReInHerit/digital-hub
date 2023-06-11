@@ -45,7 +45,7 @@ const QuestionFourConflictDE = () => {
     const handleSubmitD = async (e) => {
         e.preventDefault();
         await appendSpreadsheet();
-        window.location.href = "/exhibitions/conflicts/inGalleryDE/ConflictExhibitionMapDE";
+        window.location.href = "/exhibitions/conflicts/inGalleryDE/ConflictExhibitionMapDE/#QuestionMapConflDE";
       };
 
 return (
@@ -73,7 +73,7 @@ Viele Menschen meinen, Konflikte entstehen vor allem dadurch, dass man einander 
             </div>
             <Button className="exh_submit_btn" 
             type="submit" disabled={!answerFourConflictDE} onClick={handleSubmitD} >
-             <h1 style={{ color: "white" }}>Einreichen & Ergebnisse anzeigen</h1>
+             <h1 style={{ color: "white" }}>Einreichen</h1>
             </Button>
          </div>        
          </Form>

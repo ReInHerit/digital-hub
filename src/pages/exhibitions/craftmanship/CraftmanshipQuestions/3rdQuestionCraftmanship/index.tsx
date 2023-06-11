@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Badge } from "react-bootstrap"
+import { Container, Badge, Row, Col, Button } from "react-bootstrap"
 import BaseExhibitionCraftmanship from "../../../../../components/static/BaseExhibitionCraftmanship"
 import QuestionThreeCraftmanship from "../../../../../components/shared/ExhibitionQuestions/questionsCraftmanship/C_questionCraftmanship"
 
@@ -22,6 +22,19 @@ return (
         </div>
         
      </div>
+
+     <div>
+<Row className="mt-5">
+    <Col sm={10}>
+    </Col>
+    <Col sm={2}>
+    <Button variant="outline-primary" size="lg" className="rounded-pill" href="exhibitions/craftmanship/CraftmanshipExhibitionOverview/">
+        <h4>Skip questions</h4>
+    </Button>
+    </Col>
+</Row>
+</div>
+
     </BaseExhibitionCraftmanship>
     )
   }

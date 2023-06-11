@@ -44,7 +44,7 @@ const QuestionOneConflictDE = () => {
     const handleSubmitA = async (e) => {
         e.preventDefault();
         await appendSpreadsheet();
-        window.location.href = "/exhibitions/conflicts/inGalleryDE/2ndQuestionConflictDE";
+        window.location.href = "/exhibitions/conflicts/inGalleryDE/2ndQuestionConflictDE/#Question2ConflDE";
       };
 
 
