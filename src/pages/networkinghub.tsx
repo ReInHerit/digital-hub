@@ -24,6 +24,8 @@ const NetworkingHubPage = () => {
           body= "The ReInHerit Forum is currently under redevelopment. Please come back soon for joining our conversations!"
           //"Join the ReInHerit Forum. You can freely login with GitHub, join different thematic rooms, and participate in all the conversations."
           title="Forum"
+          url="/forum/"
+
         />
                 <ReinGridCard
           body="View the past conversations in the ReInHerit Forum."

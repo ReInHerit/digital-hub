@@ -50,17 +50,12 @@ const VisitorHubPage = () => {
           title="Performance at BoCCF"
           url="/secondperfpublic/0Introduction"
         />
-        {/*
         <ReinGridCard
-          body="Performances developed and carried out in the course of the ReInHerit project."
-          title="Performances"
-          url="/performances"
-        />
-        <ReinGridCard
-          body="On site exhibitions and related material provided by ReInHerit."
+          body="Travelling exhibitions in the ReInHerit museums: visit us in Cyprus, Greece, and Austria!"
           title="Travelling exhibitions"
-          url="/exhibs/travel"
+          url="/travellingexhibitions"
         />
+        {/*
         <ReinGridCard
           body="Hackathon organized by ReInHerit."
           title="Hackathon"
