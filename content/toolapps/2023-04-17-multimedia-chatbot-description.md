@@ -13,6 +13,7 @@ linkedToolkitComponents:
 license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/9a20f237-021c-4303-bbfa-f5f61d319465/
+chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applications-and-Toolkit/topic/Multimedia-Chatbot-VIOLA
 ---
 ![Multimedia Chatbot](https://ucarecdn.com/97a95fb1-19dc-46b2-bf0d-aac17699a195/ "Multimedia Chatbot")
 

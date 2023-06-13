@@ -13,6 +13,7 @@ license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/dad8926d-b220-4847-a923-7bdfa8aca482/
 pdf: https://ucarecdn.com/aab5dac1-b787-4590-a4dd-2b22575ee650/
+chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applications-and-Toolkit/topic/Immersive.20Performances
 ---
 ![](https://ucarecdn.com/cf4dd5aa-770e-4aa3-b26b-d8e0dcb258f5/)
 

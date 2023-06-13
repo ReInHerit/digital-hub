@@ -14,7 +14,7 @@ const Toolkit = () => {
         subText="Here you will find the documentation for applications developed as part of the ReInHerit Toolkit."
         breadCrumb={[
           {label:"Resources", value:"/resources"},
-          {label:"Applications-Documentation", value:"/tools/apps"}
+          {label:"Applications Documentation", value:"/tools/apps"}
         ]}
       >Applications</MainHeading>
       <p></p>

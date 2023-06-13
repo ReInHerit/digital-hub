@@ -28,7 +28,7 @@ export default function Template({
 
     switch(type){
       case "toolcomponent":
-        breadCrumbObj.label = "Technical components"
+        breadCrumbObj.label = "Technology components"
         breadCrumbObj.value = "/tools/components"
         addObj.label = "..."
         addObj.value = "/tools/components"
@@ -64,7 +64,7 @@ export default function Template({
         addObj.value = "/webinars"
         break; */
       default:
-        breadCrumbObj.label = "Technical components"
+        breadCrumbObj.label = "Technology components"
         breadCrumbObj.value = "/tools/components"
         addObj.label = "..."
         addObj.value = "/tools/components"
@@ -217,6 +217,12 @@ export default function Template({
                 </div>
                 <div>MIT - CC BY 4.0</div>
                 <br />
+
+                <div>
+                  Share your experience in <a href={`${frontmatter.chatApps}`}>the ReInHerit chat!</a>
+                </div>
+                <br />
+
               </div>
             }
           >
@@ -261,6 +267,7 @@ export const pageQuery = graphql`
         desc
         pdf
         thumbnail
+        chatApps 
       }
       id
       excerpt

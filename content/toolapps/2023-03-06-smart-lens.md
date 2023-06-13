@@ -18,6 +18,7 @@ linkedToolkitComponents:
 license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/52c6f7ac-f15b-4d79-a56c-73f1397bf5de/
+chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applications-and-Toolkit/topic/Smart-Lens
 ---
 Smart Lens is a **web application** that can be used to create an **interactive visual guide** that **recognizes artwork details**. The application can be executed on a **mobile device** like a **mobile phone** or a **tablet**. 
 

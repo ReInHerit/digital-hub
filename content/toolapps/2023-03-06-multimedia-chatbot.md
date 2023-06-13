@@ -15,6 +15,7 @@ license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/c9c5d1cb-997e-4111-ba9c-49d9b1690bf8/
 pdf: ""
+chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applications-and-Toolkit/topic/Multimedia-Chatbot-VIOLA
 ---
 **Multimedia Chatbot**  is a **web application** that can be integrated within a museum website or as a mobile web site, and provides an **interaction based on natural language processing and chat**. Users can either type their questions or interact with speech that is then translated to text. This **web-based application** implements a **chatbot** **system** that can answer questions about **visual content** of artworks or about their **context**, e.g. about the author and history of the artwork. The design of this application is motivated by the recent huge interest in chat-based interaction that has been popularized, for example, by ChatGPT.
 

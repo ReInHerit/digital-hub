@@ -6,7 +6,6 @@ desc: ReiInHerit Toolkit | Strike a Pose App
 date: 2023-02-06T11:42:49.330Z
 target-audience:
   - VISITOR
-mainReference: ""
 linkedWebinars:
   - 034cd93b-1043-42e9-9f2a-835d03a4e1cc____Artificial Intelligence and Computer
     Vision for Cultural Heritage
@@ -15,6 +14,7 @@ linkedWebinars:
 license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/021b57b5-1152-4f4e-9a6f-b8fadbfc8174/
+chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applications-and-Toolkit/topic/Strike-a-pose
 ---
 ![Strike a Pose](https://ucarecdn.com/7825e324-7dc2-415b-81d4-7d6d72d6a663/ "Strike a Pose")
 

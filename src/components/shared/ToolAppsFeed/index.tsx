@@ -65,7 +65,6 @@ return (
                     <div>
                       <p className="m-0"><FontAwesomeIcon icon={faClock} scale={".5x"}/> - {edge.node.wordCount.words} words</p>
                       <p className="m-0"><FontAwesomeIcon icon={faStamp} scale={".5x"}/> - {edge.node.frontmatter.license}</p>
-                      {edge.node.frontmatter.mainReference && <p className="m-0"><a style={{color:"#6c757d"}} className="text-decoration-none" target="_blank" href={edge.node.frontmatter.mainReference}><FontAwesomeIcon icon={faLink} scale={".5x"}/> - {edge.node.frontmatter.mainReference}</a></p>}
                     </div>
                   }
                 >
@@ -96,7 +95,6 @@ const ToolsQuery = graphql`
             layout
             type
             pageId
-            mainReference
             license
             thumbnail
           }
@@ -123,7 +121,6 @@ declare module ToolsQueryData {
     pageId: string
     license: string
     status: string
-    mainReference: string | null
     thumbnail?: string
   }
 

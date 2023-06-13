@@ -14,6 +14,7 @@ linkedToolkitComponents:
 license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/69fef94a-4726-4bae-90b9-0e1cfd24429e/
+chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applications-and-Toolkit/topic/Smart-Video-Restoration
 ---
 This is an application designed for **historical video** archive professionals that allows to restore analog videos using an **innovative neural network** capable of coping with severe degradations such as tape mistracking. Neural Network AI technology that uses multi - frame approach to restore videos and is able to deal with severe tape mistracking, which results in complete scrambled frames.  Historical videos constitute an important part of the cultural heritage of a society.  This novel architecture for restoring degraded real-world analog videos coming from historical archives. A **web app** lets users **upload videos** with similar system-intrinsic and aging-related types of degradations **and download the restored versions.**
 
