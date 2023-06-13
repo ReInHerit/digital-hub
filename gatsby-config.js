@@ -92,6 +92,7 @@ module.exports = {
                   image_three
                   slides
                   theme
+                  chatApps
                 }
               }
             }

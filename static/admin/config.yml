@@ -43,7 +43,6 @@ collections:
       - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
       - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text.", }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Main reference", name: "mainReference", widget: "string", required: false, hint: "Singular (web)-link displayed in the metadata section of the item.", }
       - { 
         label: "Target Audience", 
         name: "target-audience", 
@@ -104,18 +103,6 @@ collections:
           options: ["Technology", "Tourism", "Management"], 
           required: true,
           multiple: false, 
-        }
-      - {
-          label: "Tags",
-          name: "tags",
-          widget: "relation",
-          collection: "tags",
-          value_field: "title",
-          search_fields: ["title"],
-          display_fields: ["title"],
-          multiple: true,
-          required: false,
-          hint: "Use this to mention other ReInHerit content by type (e.g. apps, performances, etc.)"
         }
       - {
           label: "License",
@@ -186,17 +173,6 @@ collections:
           default: ["Management"],
           required: true,
           multiple: false,
-        }
-      - {
-          label: "Tags",
-          name: "tags",
-          widget: "relation",
-          collection: "tags",
-          value_field: "title",
-          search_fields: ["title"],
-          display_fields: ["title"],
-          multiple: true,
-          required: false,
         }
       - {
         label: "Abstract",
@@ -270,24 +246,6 @@ collections:
           options: ["VISITOR", "PROFESSIONAL"],
           default: ["VISITOR"],
           multiple: true,
-        }
-      - {
-          label: "Tags",
-          name: "tags",
-          widget: "relation",
-          collection: "tags",
-          value_field: "title",
-          search_fields: ["title"],
-          display_fields: ["title"],
-          multiple: true,
-          required: false,
-        }
-      - {
-          label: "Main reference",
-          name: "mainReference",
-          widget: "string",
-          required: false,
-          hint: "Singular (web)-link displayed in the metadata section of the item.",
         }
       - {
           label: "Linked webinars",
@@ -374,24 +332,6 @@ collections:
           multiple: true,
         }
       - {
-          label: "Tags",
-          name: "tags",
-          widget: "relation",
-          collection: "tags",
-          value_field: "title",
-          search_fields: ["title"],
-          display_fields: ["title"],
-          multiple: true,
-          required: false,
-        }
-      - {
-          label: "Main reference",
-          name: "mainReference",
-          widget: "string",
-          required: false,
-          hint: "Singular (web)-link displayed in the metadata section of the item.",
-        }
-      - {
           label: "Linked webinars",
           name: "linkedWebinars",
           widget: "relation",
@@ -442,89 +382,13 @@ collections:
           widget: "file",
           media_library: { config: { max_file_size: 50000000 } },
           required: false,
-        } 
-      - {
-          label: "Body",
-          name: "body",
-          widget: "markdown",
-          media_library: { config: { max_file_size: 10000000 } },
-        }
-  - name: "performances"
-    label: "Performances"
-    description: "This collection is intended for submitting texts on the performances, developed and carried out in the course of the ReInHerit project. The entries are not immediately visible on the HUB, but will be published in the course of the next rebuild process."
-    label_singular: "text"
-    hide: false # hides specific collection -> still available if you have the link!
-    folder: "content/performances"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    # disables creation + deletion of items in collection
-    # delete: false
-    create: true
-    #
-    fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - {
-          label: "Type",
-          name: "type",
-          widget: "hidden",
-          default: "performance",
-        }
-      - { label: "Page-ID", name: "pageId", widget: "uuid" }
-      - {
-          label: "Title",
-          name: "title",
-          widget: "string",
-          pattern: ["^.{1,150}$", "Must have between 5 and 150 characters"],
-          required: true,
         }
       - {
-          label: "Short description",
-          name: "desc",
-          widget: "string",
-          required: false,
-          hint: "Short description of current entry. Will be displayed in overviews as preview text.",
-        }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - {
-          label: "Target Audience",
-          name: "target-audience",
-          widget: "select",
-          options: ["VISITOR", "PROFESSIONAL"],
-          default: ["VISITOR"],
-          multiple: true,
-        }
-      - {
-          label: "Performance",
-          name: "linkedPerformance",
-          widget: "select",
-          options: ["PERFORMANCE_01", "PERFORMANCE_02"],
-          multiple: false,
-          required: true,
-        }
-      - {
-          label: "Tags",
-          name: "tags",
-          widget: "relation",
-          collection: "tags",
-          value_field: "title",
-          search_fields: ["title"],
-          display_fields: ["title"],
-          multiple: true,
-          required: false,
-        }
-      - {
-          label: "License",
-          name: "license",
-          widget: "string",
-          default: "CC BY 2.0",
-        }
-      - {
-          label: "Thumbnail",
-          name: "thumbnail",
-          hint: "Small image limited to 100kb to be used for overviews.",
-          widget: "image",
-          required: false,
-          media_library: { config: { max_file_size: 100000 } },
-        } # in bytes, only for default media library}
+        label: "Link to dedicated chat room",
+        name: "chatApps",
+        widget: "string",
+        required: false,
+      }
       - {
           label: "Body",
           name: "body",
@@ -647,66 +511,6 @@ collections:
           widget: "markdown",
           media_library: { config: { max_file_size: 10000000 } },
         }
-  - name: "tags"
-    label: "Digital-Hub: Flexible tags"
-    label_singular: "tag"
-    hide: false # hides specific collection -> still available if you have the link!
-    folder: "content/tags"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    # disables deletion of items in collection
-    delete: false
-    create: true
-    #
-    fields:
-      - { label: "Type", name: "type", widget: "hidden", default: "tag" }
-      - { label: "Page-ID", name: "pageId", widget: "uuid" }
-      - {
-          label: "Tag name",
-          name: "title",
-          widget: "string",
-          pattern: ["^.{1,150}$", "Must have between 5 and 150 characters"],
-          required: true,
-        }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - {
-          label: "Tag type",
-          name: "tag_type",
-          widget: "select",
-          options: ["TECHNICAL", "CONTENT_BASED"],
-          multiple: false,
-          required: true,
-        }
-      - {
-          label: "Tag group",
-          name: "tag_group",
-          widget: "select",
-          options:
-            [
-              "TOOLKIT",
-              "NEWS",
-              "E-SHOP",
-              "PERFORMANCE",
-              "EXHIBITION",
-              "TRAINING",
-            ],
-          default: ["NEWS"],
-          multiple: true,
-          required: true,
-        }
-      - {
-          label: "Short description",
-          name: "desc",
-          widget: "string",
-          required: false,
-          hint: "Short description of current entry. Will be displayed in overviews as preview text.",
-        }
-      - {
-          label: "Body",
-          name: "body",
-          widget: "markdown",
-          required: false,
-          media_library: { config: { max_file_size: 10000000 } },
-        }
   - name: "faq"
     label: "Digital-Hub: FAQ" # Used in the UI
     label_singular: "entry" # Used in the UI, ie: "New Post"
@@ -815,17 +619,6 @@ collections:
           default: ["Tourism"],
           required: true,
           multiple: false,
-        }
-      - {
-          label: "Tags",
-          name: "tags",
-          widget: "relation",
-          collection: "tags",
-          value_field: "title",
-          search_fields: ["title"],
-          display_fields: ["title"],
-          multiple: true,
-          required: false,
         }
       - {
           label: "License",
