@@ -23,7 +23,19 @@ const Forum: React.FC = () => {
     <p>In the platform, you will find <i>Streams</i>, i.e. top-level themes organising our chats, and <i>topics</i>, i.e. each different thread. The streams include the ReInHerit products (applications, toolkit, webinars, etc.) and themes (cultural tourism, technology in heritage, etc.), as well as a general chatroom and our ReInHerit chats series (i.e. moderated chats happening twice a month). Within each of these streams, you will find different topics, i.e. discussing each of the ReInHerit applications, or for each 'episode' of our ReInHerit chat.</p>
     <p>Zulip is an open source software, with a very detailed document about its data protection policies: you can find more <a href="https://zulip.com/help/gdpr-compliance">here</a> on GDPR compliance; <a href="https://zulip.com/policies/privacy">here</a> in regards of the Privacy Policy, including also GDPR Compliance of the Zulip Cloud, which hosts our chats.</p> 
     
-<Button variant="primary" style={{marginLeft: "20%", marginRight: "20%"}} href="https://reinherit.zulipchat.com/">Enter the Forum</Button>
+<Button variant="primary" size="lg" className="mt-5" style={{marginLeft: "35%", marginRight: "35%", fontSize: "35px", borderRadius: "45px"}} href="https://reinherit.zulipchat.com/">Enter the Forum</Button>
+
+<h3 className="mt-5">Quick graphic guide</h3>
+<p>Once you login, you will see a screen divided in three columns:</p>
+<ul>
+  <li>On the left, you will have a sidebar that allows you to: quickly navigate to things that might interest you the most (recent messages, direct messages, drafts, and starred ones); direct messages (these are private messages between you and other users); and the streams. The <b>streams</b> are macro-themes, grouping different <b>topics</b> (you can think of them as chat rooms, including different chats on that theme); within a stream, you can open a new topic or answer to existing ones.</li>
+  <li>In the central, larger section, you see the messages and, at the bottom of your screen, you will have the box for entering your text.</li>
+  <li>On the right, you can see if other users are online, and eventually invite colleagues to join the forum.</li>
+</ul>
+
+<img className="mt-5" alt="Forum Graphic Guide" src="/images/forumInfo.png" height={"auto"} width={"90%"} max-width={"100%"}></img>
+
+<Button variant="primary" size="lg" className="mt-5" style={{marginLeft: "35%", marginRight: "35%", fontSize: "35px", borderRadius: "45px"}} href="https://reinherit.zulipchat.com/">Enter the Forum</Button>
 
     </div>
     </Container>
