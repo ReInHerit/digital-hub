@@ -180,7 +180,7 @@ const ReinNavbar: React.FC = () => {
           <NavDropdown title="Participate" id="basic-nav-dropdown">
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
-                  to="/networkinghub"
+                  to="/forum"
                 >
                   Forum
                 </Link>
