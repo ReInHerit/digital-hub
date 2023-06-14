@@ -97,6 +97,7 @@ const ToolsQuery = graphql`
             pageId
             license
             thumbnail
+            chatApps
           }
           wordCount {
             words

@@ -6,11 +6,8 @@ import Footer from "../components/static/Footer"
 import Head from "../components/static/Head"
 import Header from "../components/static/Header"
 import ReinNavbar from "../components/static/Navbar"
-import {SSRProvider} from '@react-aria/ssr'; 
-
 
 const IndexPage = () => (
-<SSRProvider>
   <React.Fragment>
     {/* Entry page has different layout - therefore using this component directly! */}
     <Base>
@@ -25,7 +22,6 @@ const IndexPage = () => (
       <Footer></Footer>
     </Base>
   </React.Fragment>
-  </SSRProvider>
 )
 
 export default IndexPage

@@ -36,7 +36,7 @@ const data: ApplicationPromoData.Data = useStaticQuery(ApplicationPromoQuery)
   )
 }
 
-export default ApplicationPromoFeed
+export default ApplicationPromoFeed;
 
 const ApplicationPromoQuery = graphql`
 query ApplicationPromoQuery {
@@ -54,6 +54,7 @@ query ApplicationPromoQuery {
           pageId
           license
           thumbnail
+          chatApps
         }
       }
     }
