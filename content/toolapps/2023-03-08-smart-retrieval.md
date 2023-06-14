@@ -15,7 +15,7 @@ linkedToolkitComponents:
 license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/569eb601-3c1a-463d-a66b-995ac7b382a8/
-chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applications-and-Toolkit/topic/Smart-Retrieval
+chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applications-and-Toolkit/topic/Smart.20Retrieval
 ---
 This is a **web application** that can be used to provide **advanced** **search functions for multimedia archives.** It provides **content-based image retrieval (CBIR)** facilities, i.e. search images based on their content. Search can be performed in two ways: 
 

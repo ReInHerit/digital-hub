@@ -16,7 +16,7 @@ linkedToolkitComponents:
 license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/1c18ca8b-fda3-4762-ae95-0da66db2122f/
-chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applications-and-Toolkit/topic/Smart-Retrieval
+chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applications-and-Toolkit/topic/Smart.20Retrieval
 ---
 ![Smart Retrieval](https://ucarecdn.com/dfb81d5a-bcb6-42f4-89c1-58acdf766839/ "Smart Retrieval")
 

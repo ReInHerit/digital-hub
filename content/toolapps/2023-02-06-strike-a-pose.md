@@ -14,7 +14,7 @@ linkedWebinars:
 license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/021b57b5-1152-4f4e-9a6f-b8fadbfc8174/
-chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applications-and-Toolkit/topic/Strike-a-pose
+chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applications-and-Toolkit/topic/Strike.20a.20pose
 ---
 ![Strike a Pose](https://ucarecdn.com/7825e324-7dc2-415b-81d4-7d6d72d6a663/ "Strike a Pose")
 

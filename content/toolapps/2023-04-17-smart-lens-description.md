@@ -16,7 +16,7 @@ linkedToolkitComponents:
 license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/efbaf839-1e23-48d1-ab8c-45fec482c3e8/
-chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applications-and-Toolkit/topic/Smart-Lens
+chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applications-and-Toolkit/topic/Smart.20Lens
 ---
 ![Smart Lens](https://ucarecdn.com/abee0bb0-85af-47cf-a28b-c6adbc336f89/ "Smart Lens")
 

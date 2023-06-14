@@ -16,7 +16,7 @@ license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/69dd5cf6-0c17-43c5-b1c6-6d540a508625/
 pdf: ""
-chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applications-and-Toolkit/topic/Smart-Video-Restoration
+chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applications-and-Toolkit/topic/Smart.20Video.20Restoration
 ---
 ![](https://ucarecdn.com/7621be72-88c3-4836-a790-4969197937a3/)
 
