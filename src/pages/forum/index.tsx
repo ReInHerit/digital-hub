@@ -33,9 +33,7 @@ const Forum: React.FC = () => {
   <li>On the right, you can see if other users are online, and eventually invite colleagues to join the forum.</li>
 </ul>
 
-<img className="mt-5" alt="Forum Graphic Guide" src="/images/forumInfo.png" height={"auto"} width={"90%"} max-width={"100%"}></img>
-
-<Button variant="primary" size="lg" className="mt-5" style={{marginLeft: "35%", marginRight: "35%", fontSize: "35px", borderRadius: "45px"}} href="https://reinherit.zulipchat.com/">Enter the Forum</Button>
+<img className="mt-5" alt="Forum Graphic Guide" src="/images/forumInfo.jpg" height={"auto"} width={"90%"} max-width={"100%"} style={{marginLeft: "5%", marginRight: "5%"}}></img>
 
     </div>
     </Container>
