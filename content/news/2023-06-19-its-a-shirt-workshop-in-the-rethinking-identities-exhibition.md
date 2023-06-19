@@ -6,8 +6,7 @@ title: "\"It's a shirt\" workshop in the ReThinking Identities exhibition"
 date: 2023-06-19T10:27:39.020Z
 target-audience:
   - VISITOR
-referenceTo:
-  - News
+referenceTo: Event
 theme: Other
 thumbnail: https://ucarecdn.com/c24a2259-980e-43c5-8491-cdc0db0ddd40/
 ---
