@@ -31,14 +31,14 @@ const QuestionOneCraftmanship = () => {
 
 // these set the answer, once clicked, within the Form - the recorded value is stored as "answerOne"
     const AnswersOneCraftmanship = [
-      "The cheapest.",
-      "The best one, the handmade piece of furniture. Machine production never reaches the quality of craftsmanship.",
-      "The machine-made piece of furniture. Machines work more precisely than people.",
-      "The one that has the smallest ecological footprint. I think it’s the machine-made one because if you count it down per unit it probably takes less energy to make.",
-      "The one that has the smallest ecological footprint. I think it’s the handmade one. The energy that a person puts into something is sustainable. Very often energy used by machines is very often non-sustainable.",
-      "The one that lasts longer. The handmade one.",
-      "The handmade one. With my purchase, I ensure that the craftsman can earn his living and not give it to a money-hungry investor.",
-      "I do not care. They are the same anyway."
+      "Das Günstigste.",
+      "Das Beste, also das handgefertigte Möbelstück. Eine maschinelle Herstellung ist nie von so hoher Qualität wie Handwerkskunst.",
+      "Das maschinengefertigte Möbelstück. Maschinen arbeiten präziser als Personen.",
+      "Jenes mit dem geringsten ökologischen Fußabdruck. Das dürfte das Maschinengefertigte sein, denn wenn man die einzelnen dafür nötigen Einheiten betrachtet, braucht es vermutlich weniger Energie in der Herstellung.",
+      "Jenes mit dem geringsten ökologischen Fußabdruck. Das dürfte das Handgefertigte sein. Die von einer Person aufgewendete Energie ist nachhaltig. Von Maschinen verbrauchte Energie ist oft nicht nachhaltig.",
+      "Jenes, das länger hält. Das Handgefertigte.",
+      "Das Handgefertigte. Mit meinem Kauf sorge ich dafür, dass der Handwerker seinen Lebensunterhalt bestreiten kann und unterstützte keinen geldgierigen Investor.",
+      "Das ist mir egal. Sie sind ohnehin gleich."
     ]
     const onOptionChange = e => {
         setAnswerOneCraftmanship(e.target.value) 
@@ -47,15 +47,14 @@ const QuestionOneCraftmanship = () => {
     const handleSubmitA = async (e) => {
         e.preventDefault();
         await appendSpreadsheet();
-        window.location.href = "/exhibitions/craftmanship/inGalleryEN/3rdQuestionCraftmanshipEN";
+        window.location.href = "/exhibitions/craftmanship/inGalleryDE/3rdQuestionCraftmanshipDE/";
       };
 
 
       return (
         <React.Fragment>
           <h1 className="mt-5">
-          If you had the choice between a handmade piece of furniture and the same piece of machine-made furniture, which one would you choose?
-          </h1>
+          Wenn Sie sich zwischen einem handgefertigten und dem gleichen, aber maschinell hergestellten Möbelstück entscheiden müssten, welches würden Sie wählen?          </h1>
           <Form onSubmit={handleSubmitA}>
             {AnswersOneCraftmanship.map((possAnswOneCraftmanship, index) => (
               <Form.Check
@@ -74,7 +73,7 @@ const QuestionOneCraftmanship = () => {
                     <img className="exh_green_arrow" src="/images/exhibition_assets/arrow_green.svg" alt=""></img>
                 </div>
                 <Button className="exh_submit_btn" type="submit" disabled={!answerOneCraftmanship}  onClick={handleSubmitA} >
-                <h1 style={{ color: "white" }}>Next Question</h1>
+                <h1 style={{ color: "white" }}>Nächste Frage</h1>
                 </Button>
             </div>  
         </Form>

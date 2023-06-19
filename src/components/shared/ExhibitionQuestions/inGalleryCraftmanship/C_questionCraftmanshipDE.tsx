@@ -31,12 +31,12 @@ const QuestionThreeCraftmanship = () => {
 
 // these set the answer, once clicked, within the Form - the recorded value is stored as "answerThree"
     const AnswersThreeCraftmanship = [ 
-        "No. In earlier times people used to think that the human mind will never be defeated by a machine. In chess for example. Nobody talks about that anymore. It will be the same with handcrafted products.",
-        "Yes. A handcrafted product is always unique. But machine manufacturing never delivers unique items. It’s always one like the other.",
-        "Yes. Because there are quality levels that are unattainable for machines. Example: the handmade mouthpiece of a saxophone. Simply no machine-made mouthpiece can match the sound quality of a handmade mouthpiece.",
-        "I think the differences will be so small that no one will notice them anymore.",
-        "Artisan products require spirit, and mechanical products require only energy. There is an insurmountable gulf between them.",
-        "Perhaps machine-made products will never really be as good as handcrafted ones at the top. But in quantity, they are better."          
+    "Nein. Früher dachten die Menschen, dass das menschliche Gehirn nie von Maschinen übertroffen werden kann. Zum Beispiel im Schachspiel. Davon spricht keiner mehr. Mit handgefertigten Waren wird es dasselbe sein.",
+    "Ja. Ein handgefertigtes Produkt ist immer einzigartig, während maschinelle Herstellung niemals einzigartige Produkte erzeugt. Eines ist gleich wie das andere.",
+    "Ja, weil manche Qualitätsstufen nicht von Maschinen erreicht werden können. Ein Beispiel: Das handgefertigte Mundstück eines Saxophons. Ein maschinell hergestelltes Mundstück kann nie die Klangqualität eines handgefertigten erreichen.",
+    "Ich glaube, dass die Unterschiede so gering sind, dass niemand sie bemerken wird.",
+    "Kunsthandwerk braucht Geist und Hingabe, mechanisch erzeugte Produkte brauchen lediglich Energie. Zwischen beiden besteht eine unüberwindbare Kluft.",
+    "Womöglich werden maschinengefertigte Produkte nie so gut sein wie handgefertigte. Aber gemessen an der Menge sind sie besser."      
     ]
     const onOptionChange = e => {
         setAnswerThreeCraftmanship(e.target.value) 
@@ -45,14 +45,14 @@ const QuestionThreeCraftmanship = () => {
     const handleSubmitC = async (e) => {
         e.preventDefault();
         await appendSpreadsheet();
-        window.location.href = "/exhibitions/craftmanship/inGalleryEN/1stQuestionCraftmanshipEN";
+        window.location.href = "/exhibitions/craftmanship/inGalleryDE/1stQuestionCraftmanshipDE";
       };
 
 return (
 <React.Fragment>
 
 <h1 className="mt-5">
-Are there products of craftsmanship that can never be made by a machine? What do you think?
+Gibt es handwerkliche Produkte, die niemals von einer Maschine hergestellt werden können? Was meinen Sie?
 </h1>
 
         <Form onSubmit={handleSubmitC} >
@@ -73,7 +73,7 @@ Are there products of craftsmanship that can never be made by a machine? What do
             </div>
                     <Button className="exh_submit_btn" 
                     type="submit" disabled={!answerThreeCraftmanship} onClick={handleSubmitC} >
-                    <h1 style={{ color: "white" }}>Thanks and enjoy the exhibition!</h1>
+                    <h1 style={{ color: "white" }}>Danke & viel Vergnügen!</h1>
                     </Button>
             </div>        
         </Form>

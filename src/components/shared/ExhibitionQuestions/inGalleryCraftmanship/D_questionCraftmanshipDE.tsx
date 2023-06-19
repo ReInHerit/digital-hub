@@ -31,10 +31,10 @@ const QuestionFourCraftmanship = () => {
 
 // these set the answer, once clicked, within the Form - the recorded value is stored as "answerOne"
     const AnswersFourCraftmanship = [
-        "I do not know if knowledge will get lost. After all, there are still books or the Internet in which knowledge is stored and preserved. But the skills are lost, that is true.",
-        "That is true, but it is a good thing. Sometimes worse knowledge is simply replaced with better. Who cares how a diesel engine works when there are cars with better engines, such as electric cars?",
-        "Much more is lost, namely the adequate and holistic treatment of nature and its products. Everyone who produces cheese from the milk of their own cows is integrated into nature in a completely different way than the customer in the supermarket, who tends to suspect a chemical process or a 3D printer behind the cheese.",
-        "Above all, contexts of meaning are lost. Doing manual work also means experiencing one’s own activity in the manufacture of products as meaningful. Operating a machine does not provide such a meaning."
+    "Ich weiß nicht, ob Wissen verloren geht. Es gibt ja noch Bücher oder das Internet, wo Wissen gespeichert und aufbewahrt wird. Aber das Können geht verloren, das stimmt.",
+    "Das stimmt, aber das ist gut so. Manchmal wird mangelhaftes Wissen einfach durch besseres ersetzt. Wen interessiert es, wie ein Dieselmotor funktioniert, wenn es Autos mit besseren Motoren gibt, zum Beispiel Elektroautos?",
+    "Es geht noch viel mehr verloren, etwa der angemessene und ganzheitliche Umgang mit der Natur und ihren Erzeugnissen. Wer Käse mit der Milch seiner eigenen Kühe herstellt, ist auf eine ganz andere Weise in die Natur eingebunden als der Konsument im Supermarkt, der eher einen chemischen Prozess oder einen 3D-Drucker in der Käseerzeugung vermutet.",
+    "Vor allem gehen bedeutungsvolle Zusammenhänge verloren. Handarbeit bedeutet auch, die eigene Anstrengung bei der Produkterzeugung als sinnvoll zu erleben. Das Bedienen einer Maschine gibt keine solche Sinnhaftigkeit."
     ]
     const onOptionChange = e => {
         setAnswerFourCraftmanship(e.target.value) 
@@ -43,14 +43,14 @@ const QuestionFourCraftmanship = () => {
     const handleSubmitD = async (e) => {
         e.preventDefault();
         await appendSpreadsheet();
-        window.location.href = "/exhibitions/craftmanship/inGalleryEN/CraftmanshipExhibitionMapEN";
+        window.location.href = "/exhibitions/craftmanship/inGalleryDE/CraftmanshipExhibitionMapDE";
       };
 
 return (
 <React.Fragment>
 
 <h1 className="mt-5">
-Some say that when traditional crafts die out, much irreplaceable knowledge and skill would also be lost. Is that correct?
+Manche sagen, dass mit der traditionellen Handwerkskunst auch unersetzbares Wissen und Können verloren gehen. Stimmt das?
 </h1>
 
         <Form onSubmit={handleSubmitD} >
@@ -71,7 +71,7 @@ Some say that when traditional crafts die out, much irreplaceable knowledge and 
             </div>
             <Button className="exh_submit_btn" 
             type="submit" disabled={!answerFourCraftmanship} onClick={handleSubmitD} >
-             <h1 style={{ color: "white" }}>Submit & Show Result</h1>
+             <h1 style={{ color: "white" }}>Einreichen</h1>
             </Button>
          </div>        
          </Form>
