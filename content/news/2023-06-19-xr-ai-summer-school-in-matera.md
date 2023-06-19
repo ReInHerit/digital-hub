@@ -3,7 +3,7 @@ pageId: c3f848bb-f9fd-4f45-9fd4-e0448090e575
 layout: blog
 type: news
 title: XR & AI Summer School in Matera
-date: 2023-04-24T13:50:37.597Z
+date: 2023-06-19T13:50:37.597Z
 target-audience:
   - VISITOR
 referenceTo: Event
