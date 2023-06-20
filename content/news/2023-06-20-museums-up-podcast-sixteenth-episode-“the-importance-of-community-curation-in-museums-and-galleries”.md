@@ -2,7 +2,7 @@
 pageId: 6a5b8d18-68e1-436d-b8f5-c771d470cd95
 layout: blog
 type: news
-title: "Museums Up podcast sixteenth episode “The Importance of Community
+title: "Museums Up podcast sixteenth episode: “The Importance of Community
   Curation in Museums and Galleries” "
 date: 2023-06-20T07:28:02.064Z
 target-audience:
