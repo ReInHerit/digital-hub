@@ -17,7 +17,7 @@ return (
 <div className="craftmanshipQuestions exh_question_intro_text">
           <div className="d-flex justify-content-end">
             <Badge pill bg="success"><h2>
-            <Link to="/exhibitions/craftmanship/inGalleryDE/2ndQuestionCraftmanshipDE" style={{ color: "white" }} className="text-decoration-none">English</Link></h2></Badge>
+            <Link to="/exhibitions/craftmanship/inGalleryENGraz/2ndQuestionCraftmanshipENGraz/#Question2CraftmEN" style={{ color: "white" }} className="text-decoration-none">English</Link></h2></Badge>
           </div>
           </div>
 
