@@ -7,7 +7,7 @@ const QuestionTwoCraftmanship = () => {
 
     const [answerTwoCraftmanship, setAnswerTwoCraftmanship] = useState() 
 
-    const currentCountryCY = "\"Cyprus\""
+    const currentCountryCY = "\"Greece\""
     const doc = new GoogleSpreadsheet(creds.sheet_id)
 
 

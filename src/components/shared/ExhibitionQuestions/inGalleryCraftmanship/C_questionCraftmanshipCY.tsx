@@ -7,7 +7,7 @@ const QuestionThreeCraftmanship = () => {
 
     const [answerThreeCraftmanship, setAnswerThreeCraftmanship] = useState() 
 
-    const currentCountryCY = "\"Cyprus\""
+    const currentCountryCY = "\"Greece\""
     const doc = new GoogleSpreadsheet(creds.sheet_id)
 
     const appendSpreadsheet = async () => {
