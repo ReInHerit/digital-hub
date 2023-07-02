@@ -14,8 +14,8 @@ thumbnail: https://ucarecdn.com/302c95d5-3797-48ba-9e8b-836a11e2908e/
 ---
 ![ Reinventing museums and their evolving role in physical and mental wellbeing](https://ucarecdn.com/0ef380f6-b767-4ca9-a15c-38103ab33ed4/ " Reinventing museums and their evolving role in physical and mental wellbeing")
 
-*  **12 July 2023** from 3:00-4:00 pm CET
-* Facilitated by **Ioanna Hadjicosti** and **Marios Valiantis** [Bank of Cyprus Cultural Foundation](https://www.boccf.org/), Cyprus**.**
+* **12 July 2023** from 3:00-4:00 pm CET
+* Facilitated by **Ioanna Hadjicosti** and **Constantina Constantinou** [Bank of Cyprus Cultural Foundation](https://www.boccf.org/), Cyprus**.**
 * **Free Registration is open until 10 July 2023 (3 pm)** \*\* [HERE](https://docs.google.com/forms/d/e/1FAIpQLSfvIHXBCfnYOOK8i0u41GhY4gDh_jR94MbR78-2KM5mLEWwlA/viewform) \*\*\
   <https://shorturl.at/cwDIU>
 * The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available in the [resources section](https://reinherit-hub.eu/webinars).
@@ -27,8 +27,6 @@ The Webinars are organised in the context of the  Horizon2020 [ReInHerit](http
 ### About this webinar:
 
 The webinar examines the potential of reinventing museums through the role they can have in physical and mental wellbeing. The prevalence of mental and physical chronic diseases is increasing globally. In addition, the changing demographics towards an aging population pose a challenge to health care systems since aging is associated with a decrease in physical and mental capacity and an increased risk of developing disease. Museums may be integrated into the lifestyle of patients suffering from chronic conditions due to their value in offering non-pharmacological therapeutic methods to improve the patient's experience with disease. The interactive environment of museums may have positive health outcomes not only for patients with chronic diseases but also for improving the physical and mental wellbeing of elderly and younger populations. This webinar explores recent literature investigating the effects of art-based museum interventions on (a) patients with chronic diagnoses associated with mental health and/or physical impairment such as dementia, drug addiction and cancer, (b) hospitalised patients and (b) the wellbeing of young and elderly populations.  During the webinar recent studies will be discussed which provide evidence that museum art-based interventions may be integrated as part of the non-pharmacological management of patients suffering from chronic disorders and hospitalised patients as well as for improving the wellbeing of younger and elderly populations.
-
-
 
 ### Speakers:
 
