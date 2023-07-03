@@ -55,6 +55,20 @@ query BestPracticesQuery {
 }
 `
 
+const GAMEDOC_PAGES = `
+query GameDocQuery {
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/gamedoc/"}}) {
+    edges {
+      node {
+        frontmatter {
+          pageId
+        }
+      }
+    }
+  }
+}
+`
+
 
   const TOOL_APPS_PAGES = `
     query MyQuery {
@@ -142,6 +156,7 @@ query BestPracticesQuery {
     ESHOP_PAGES,
     FAQ_PAGES,
     MANUAL_PAGES,
-    BESTPRACTICES_PAGES
+    BESTPRACTICES_PAGES,
+    GAMEDOC_PAGES
   }
 })()
