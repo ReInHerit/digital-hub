@@ -11,7 +11,7 @@ const Videogame = () => {
       <MainHeading subHeading="Play and discover how museum works"
         breadCrumb={[
           {label:"Discover", value:"/visitorhub"},
-          {label:"videogame", value:"/game"}
+          {label:"Videogame", value:"/game"}
         ]}        
       >ReInHerit Videogame</MainHeading>
 
