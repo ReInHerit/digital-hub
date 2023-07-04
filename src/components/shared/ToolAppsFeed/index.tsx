@@ -57,9 +57,7 @@ return (
                   key={edge.node.frontmatter.pageId}
                   body={edge.node.excerpt}
                   title={edge.node.frontmatter.title}
-                  url={`/tools/apps/${
-                    edge.node.frontmatter.pageId
-                  }`}
+                  url={`/tools/apps/${edge.node.frontmatter.pageId}`}
                   uid={edge.node.frontmatter.pageId}
                   footerContent={
                     <div>

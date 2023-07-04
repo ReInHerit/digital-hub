@@ -19,7 +19,7 @@ const Videogame = () => {
      
 <h2>The ReInHerit Videogame</h2>
 <p></p>
-<iframe mozallowfullscreen="true" allow="autoplay; fullscreen" src="https://veupnea.github.io/ReInheritVideoGame/index.html" style="border:0px #000000 none;" name="ReInHerit Video Game" scrolling="no" msallowfullscreen="true" allowfullscreen="true" webkitallowfullscreen="true" allowtransparency="true" frameborder="0" marginheight="px" marginwidth="320px" height="540px" width="960px"></iframe>
+<iframe mozallowfullscreen="true" allow="autoplay; fullscreen" src="https://veupnea.github.io/ReInheritVideoGame/index.html" style={{border:"0px #000000 none"}} name="ReInHerit Video Game" scrolling="no" msallowfullscreen="true" allowfullscreen="true" webkitallowfullscreen="true" allowtransparency="true" frameborder="0" marginheight="0px" marginwidth="320px" height="582px" width="960px"></iframe>
 <p></p>
         </Container>
     </BaseLayout>
