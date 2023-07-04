@@ -3,7 +3,7 @@ pageId: 3b8ca813-ccca-498f-b132-25c3447ec814
 layout: blog
 type: news
 title: "Museums Up podcast seventeenth episode: “Sustainable and ecology-driven
-  management of CH institutions” "
+  management of cultural heritage institutions” "
 date: 2023-07-04T09:28:47.488Z
 target-audience:
   - VISITOR
