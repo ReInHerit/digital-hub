@@ -176,23 +176,25 @@ const Hero = () => {
       backgroundRepeat:"no-repeat",
       backgroundPosition: "center",
       backgroundSize: "cover"
-    }}>
+    }}></div>
+  
+  <div>
 <Container className="mt-3 mb-3 p3 text-center">
- <Row xs={1} md={3} style={{minHeight:"40vh", textAlign:"center"}}>
+ <Row xs={1} md={4} style={{minHeight:"40vh", textAlign:"center"}}>
   <Col sm>
-     <Card className="ms-5 me-3 g-5" style={{marginTop:"8vh", maxWidth:"75vh"}}>
+     <Card className="ms-3 me-1 g-5" style={{marginTop:"8vh", maxWidth:"75vh"}}>
       <Card.Header as="h4">Featured</Card.Header>
       <Card.Body>
         <Card.Title>ReThinking EXHIBITIONS</Card.Title>
         <Card.Text>
-          Visit our three digital exhibitions - a collaboration between the Graz Museum, the Museum of Cycladic Art, and the Bank of Cyprus Cultural Foundation.
+          Visit our three digital exhibitions: ReThinking Conflicts, ReThinking Identities, ReThinking Craftmanship.
         </Card.Text>
         <Button variant="success" href="/exhibitions/">Visit the digital exhibitions</Button>
       </Card.Body>
     </Card>
   </Col>
   <Col sm>
-     <Card className="ms-3 me-5 g-5" style={{marginTop:"8vh", maxWidth:"75vh"}}>
+     <Card className="ms-1 me-1 g-5" style={{marginTop:"8vh", maxWidth:"75vh"}}>
       <Card.Header as="h4">Featured</Card.Header>
       <Card.Body>
         <Card.Title>ReInHerit Webinars</Card.Title>
@@ -204,14 +206,27 @@ const Hero = () => {
     </Card>
   </Col>
   <Col sm>
-     <Card className="ms-3 me-5 g-5" style={{marginTop:"8vh", maxWidth:"75vh"}}>
+     <Card className="ms-1 me-1 g-5" style={{marginTop:"8vh", maxWidth:"75vh"}}>
       <Card.Header as="h4">Featured</Card.Header>
       <Card.Body>
         <Card.Title>ReInHerit e-Shop</Card.Title>
         <Card.Text>
           Visit the ReInHerit e-Shop to discover planners and games, 3D models and postcards, and get inspired by cultural heritage!
         </Card.Text>
-        <Button variant="danger" href="/eshop">Discover our free digital products!</Button>
+        <Button variant="danger" href="/eshop">Discover our free products!</Button>
+      </Card.Body>
+    </Card>
+  </Col>
+  <Col sm>
+     <Card className="ms-1 me-3 g-5" style={{marginTop:"8vh", maxWidth:"75vh"}}>
+      <Card.Header as="h4">Featured</Card.Header>
+      <Card.Body>
+        <Card.Title>ReInHerit Forum</Card.Title>
+        <Card.Text>
+          Join the ReInHerit Forum and chat with other heritage professionals and
+          participate in the #ReInHeritChats!
+        </Card.Text>
+        <Button variant="primary" href="/forum">Join the conversation!</Button>
       </Card.Body>
     </Card>
   </Col>
@@ -219,23 +234,7 @@ const Hero = () => {
 </Container>
 </div>
 
-<div className="d-md-none text-center pt-5">
-        <br/>
-        <br></br>
-        <img alt="ReInHerit stock image" src="/images/bannerPeople2.jpg" width={400}></img>
-        <br/>
-        <br/>
-  </div>
-
-  <div className="d-md-none text-center pt-5">
-        <br/>
-        <br></br>
-        <img alt="ReInHerit stock image" src="/images/bannerPeople2.jpg" width={400}></img>
-        <br/>
-        <br/>
-  </div>
-
-
+{/*
 <Container className="mt-3 mb-3 p3 text-center">
   <Row>
   <Container className="mt-3 p-1" style={textContainerStyle}>
@@ -260,7 +259,7 @@ const Hero = () => {
           </Container>
   </Row>   
 </Container>
-
+*/}
 <div
 style={{
  backgroundImage:'url("/images/bannerObjects2.jpg")',
