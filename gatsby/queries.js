@@ -68,7 +68,19 @@ query GameDocQuery {
   }
 }
 `
-
+const EXHIBDOC_PAGES = `
+query ExhibDocQuery {
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/exhibdoc/"}}) {
+    edges {
+      node {
+        frontmatter {
+          pageId
+        }
+      }
+    }
+  }
+}
+`
 
   const TOOL_APPS_PAGES = `
     query MyQuery {
@@ -157,6 +169,7 @@ query GameDocQuery {
     FAQ_PAGES,
     MANUAL_PAGES,
     BESTPRACTICES_PAGES,
-    GAMEDOC_PAGES
+    GAMEDOC_PAGES,
+    EXHIBDOC_PAGES
   }
 })()

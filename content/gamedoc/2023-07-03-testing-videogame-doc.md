@@ -1,7 +1,7 @@
 ---
 pageId: 75023f4b-38c7-445c-bbdc-7d75568f83b1
 layout: blog
-type: bestpractice
+type: videogame
 title: testing videogame doc
 date: 2023-07-03T11:53:39.289Z
 target-audience:

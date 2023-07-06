@@ -6,8 +6,7 @@ title: Tablet 1 test
 date: 2023-07-06T14:12:26.044Z
 target-audience:
   - PROFESSIONAL
-theme:
-  - Technology
+theme: - Technology
 exhibdocsection: Tablet
 license: CC BY 2.0
 ---

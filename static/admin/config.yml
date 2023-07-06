@@ -644,13 +644,13 @@ collections:
     label: "Videogame Documentation" # Used in the UI
     label_singular: "message" # Used in the UI, ie: "New Post"
     folder: "content/gamedoc"
-    description: This collection is intended for submitting best practices from WP5.
+    description: This collection is intended for submitting the videogame documentation.
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Page-ID", name: "pageId", widget: "uuid" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "bestpractice" }
+      - { label: "Type", name: "type", widget: "hidden", default: "videogame" }
       - {
           label: "Title",
           name: "title",
@@ -680,6 +680,84 @@ collections:
           widget: "select",
           options: ["Technology", "Tourism", "Management", "Other"],
           default: ["Technology"],
+          required: true,
+          multiple: false,
+        }
+      - {
+          label: "License",
+          name: "license",
+          widget: "string",
+          default: "CC BY 2.0",
+        }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          hint: "Small image limited to 100kb to be used for overviews.",
+          widget: "image",
+          required: false,
+          media_library: { config: { max_file_size: 100000 } },
+        } # in bytes, only for default media library
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          media_library: { config: { max_file_size: 10000000 } },
+        }
+      - { label: "Download PDF",
+          name: "mainImage",
+          widget: "file",
+          media_library: { config: { max_file_size: 50000000 } },
+          required: false,
+      }
+  - name: "exhibdocumentation"
+    label: "Exhibition Documentation" # Used in the UI
+    label_singular: "message" # Used in the UI, ie: "New Post"
+    folder: "content/exhibdoc"
+    description: This collection is intended for submitting exhibition documentation.
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "exhibdoc" }
+      - {
+          label: "Title",
+          name: "title",
+          widget: "string",
+          pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"],
+          required: true,
+        }
+      - {
+          label: "Short description",
+          name: "desc",
+          widget: "string",
+          required: false,
+          hint: "Short description of current entry. Will be displayed in overviews as preview text.",
+        }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - {
+          label: "Target Audience",
+          name: "target-audience",
+          widget: "select",
+          options: ["VISITOR", "PROFESSIONAL"],
+          default: ["PROFESSIONAL"],
+          multiple: true,
+        }
+      - {
+          label: "Theme",
+          name: "theme",
+          widget: "select",
+          options: ["Technology", "Tourism", "Management", "Other"],
+          default: ["Technology"],
+          required: true,
+          multiple: false,
+        }
+      - {
+          label: "Documentaton of",
+          name: "exhibdocsection",
+          widget: "select",
+          options: ["General Information", "Architecture", "Tablet", "Digital Exhibitions", "Intro/Outro", "Online Collection"],
+          default: ["General Information"],
           required: true,
           multiple: false,
         }
