@@ -6,8 +6,7 @@ title: The ReInHerit Digital Collection
 date: 2023-07-18T11:33:39.917Z
 target-audience:
   - PROFESSIONAL
-theme:
-  - Technology
+theme: Technology
 exhibdocsection: Online Collection
 license: CC BY 2.0
 ---
