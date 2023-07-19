@@ -11,15 +11,15 @@ exhibdocsection: Digital Exhibitions
 license: CC BY 2.0
 mainImage: ""
 ---
-Step 1: **Create the Story**
+**Step 1: Create the Story**
 
 What story do you want to tell about your object? How do you explain your object in the context of the Thematic Area? What story does it tell about that Thematic Area? What are the important story elements?
 
-Step 2: **Visualize the Story**
+**Step 2: Visualize the Story**
 
 When you have created the story, ask yourself: what do we need to see of the object to understand the story? What elements does the story need? How can we translate the story elements into images, texts or audio elements? How can we visualize the story?
 
-Step 3: **Choose your Tool**
+**Step 3: Choose your Tool**
 
 Once you have come up with the visual elements you need for telling the story, look at the available tools in your framework and what they do. Which tool best suits your visualization? Try to imagine how the tool would look if you fill it with images, text or audio of your object. Remember that you can make use of videos, GIFs, animations etc. . Take a look at existing applications created with your toolset to get inspiration of what is possible. Then choose the tool best suited for telling your story.
 
