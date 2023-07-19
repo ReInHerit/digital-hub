@@ -31,8 +31,6 @@ Once each object has been assigned to a suitable storytelling tool, it is time t
 
 ![H5P content builder example 2 part 1](https://ucarecdn.com/e8530a45-cbb1-431f-a825-f1ea552c56a8/)
 
-![H5P content builder example 2 part 2](https://ucarecdn.com/f6349c78-db8b-4fa5-8132-a0f3e916c421/)
-
 When all the tools are completed and have been tested, they can be downloaded and incorporated into the backend of the website they will be hosted on. 
 
 Storytelling elements can also be created without a framework like H5P, but H5P offers a great variety of engaging content types and is very suitable for people with limited experience in interactive content production, as its interface guides you through the process in an easily comprehensible way.\
@@ -40,11 +38,9 @@ Nevertheless, the options for creating storytelling content without a framework 
 
 Apart from storytelling tools, an exciting option for online content is incorporating 3D models in your online formats. This offers an innovative engagement modality for the viewers, as it almost mimics the possibility of touching and handling the object in real life – a possibility that not even traditional on-site exhibitions are able to deliver, as handling objects in an on-site exhibition is almost never allowed for the visitor. The most widely known platform for hosting 3D models is called Sketchfab. Sketchfab hosts 3D models and it offers an embeddable viewer that can easily be incorporated in any website. 3D models can also be annotated and thereby enriched with extra content via Sketchfab. The ReInHerit Digital Exhibitions offer embedded 3D models for each of the key objects where a 3D model was available. 
 
-![ReInHerit Digital Exhibitions interface](https://ucarecdn.com/604d7f7d-ac4d-4aa9-a33a-01b3a40ecabf/)
+![ReInHerit Digital Exhibitions interface](https://ucarecdn.com/29a89c38-e01d-483b-8b7c-5bd4ac436158/)
 
-![ReInHerit Digital Exhibitions interface](https://ucarecdn.com/01622c32-0227-4690-8625-e83f99a98ddc/)
-
-![ReInHerit Digital Exhibitions interface](https://ucarecdn.com/bbc9f513-f357-4862-b029-75c5305ff235/)
+![ReInHerit Digital Exhibitions interface](https://ucarecdn.com/128ca1fc-6014-43b7-86d7-ba2e4019b45e/)
 
 ![ReInHerit Digital Exhibitions interface](https://ucarecdn.com/b81d925d-888c-4708-bd89-79bbb6e4437b/)
 
