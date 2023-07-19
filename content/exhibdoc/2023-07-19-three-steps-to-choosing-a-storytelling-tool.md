@@ -25,8 +25,6 @@ Once you have come up with the visual elements you need for telling the story, l
 
 Once each object has been assigned to a suitable storytelling tool, it is time to prepare the needed files – such as images, videos, text, audio files etc. When all the content for the storytelling tools is completed, the elements are ready to be assembled. On the H5P platform, this is made easy by the H5P web interface, which guides you through the process.
 
-![H5P content builder example 1 part 1](https://ucarecdn.com/2df4c643-d426-41fc-83b2-0f560d23b590/)
-
 ![H5P content builder example 1 part 2](https://ucarecdn.com/6fbf9666-72f8-4373-9e40-d6645a9051d2/)
 
 ![H5P content builder example 2 part 1](https://ucarecdn.com/e8530a45-cbb1-431f-a825-f1ea552c56a8/)
