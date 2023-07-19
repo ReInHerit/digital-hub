@@ -21,8 +21,11 @@ The content is based on HTML5 and JavaScript and can be created using a web-base
 The following steps were taken to integrate the standalone version of H5P into the exhibition:
 
 1. **Standalone Code Selection**: Instead of utilizing the iframe version of H5P, a standalone version was chosen for improved performance and greater flexibility in terms of implementation and styling. The specific code used for the standalone H5P version can be found at https://github.com/tunapanda/h5p-standalone.
+
 2. **Uploading to the Digital Collection Server**: The H5P standalone version was uploaded to the server hosting the ReInHerit Digital Collection. This ensures that the necessary files and resources are available for displaying the H5P models within the exhibition independently from the maintenance of the H5P website.
+
 3. **Creation of Index Files**: For each H5P model, a separate index file was created on the server. These index files serve as entry points for each model, facilitating the proper rendering and functioning of the H5P content.
+
 4. **Resource Folder Upload**: Alongside each index file, the corresponding resources folder for each H5P model was uploaded to the server. These resource folders contain the necessary assets and media files required for the H5P models to function correctly.
 
 Displaying H5P Models via iFrame: Once the standalone H5P version and its associated resources were uploaded to the server, the H5P models could be displayed within the exhibition. This was achieved by embedding the H5P models using iframes, allowing visitors to interact with the interactive content seamlessly.
