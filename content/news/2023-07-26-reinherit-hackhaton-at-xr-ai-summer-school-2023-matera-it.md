@@ -41,7 +41,7 @@ Important **local museums** were visited to test the apps in these contexts. **E
 \
 The XR&AI Summer School 2023 was realised in collaboration with Casa delle Tecnologie Emergenti (Cte Square), the Ministry of Enterprise and Made in Italy, the Casa delle Tecnologie Emergenti Matera, and with the support of the University of Basilicata, the University of Salento, the Università Politecnica delle Marche, the University of Naples Federico II, the University of Florence (MICC), the CNR-ISPC, Basilicata Creativa, Materahub, the EDIH Heritage Smart Lab, the 'ReInHerit' project (Horizon 2020 programme), XRtech, Deep Reality, the Fund for Development and Cohesion, Geomatics Applications Processing, the Italian Association in Computer Vision and Pattern Recognition and Machine Learning.
 
-**Short Videos on EDIH - Heritage Smart Lab**
+**Short Videos on EDIH - Heritage Smart Lab | European Digital Innovation Lab**
 
 * [Marco Bertini](https://fb.watch/m1fi_IuJaJ/)
 * [Luca Melchionna](https://fb.watch/m1foR2slut/)
