@@ -47,7 +47,6 @@ The XR&AI Summer School 2023 was realised in collaboration with Casa delle Tecno
 * [Luca Melchionna](https://fb.watch/m1foR2slut/)
 * [Paolo Mazzanti](https://fb.watch/m1fnU4hRUN/)
 
-\
 **Online Press Release**
 
 * [Puglialive.net](https://www.puglialive.net/cte-matera-conclusa-nella-citta-dei-sassi-la-sesta-edizione-di-extended-reality-and-artificial-intelligence-international-summer-school-2023/)
@@ -56,7 +55,7 @@ The XR&AI Summer School 2023 was realised in collaboration with Casa delle Tecno
 * [GiormnaledellaBasilicata.com](https://www.giornaledibasilicata.com/2023/07/alla-cte-matera-si-e-tenuta-la-sesta.html)
 * [trmtv.it/tecnologia](https://www.trmtv.it/tecnologia/2023_07_24/386978.html?fbclid=IwAR0bnZPlckDJQ1WRNZtGANgvf3KZo0r8w6IbTs4Njvp3PgpoknN_eIAQqkk) 
 
-**INTERVIEWS with Local TV**
+**INTERVIEWS  Local TV**
 
 `youtube: https://youtu.be/f7aXbFrET1Y`
 
