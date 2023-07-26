@@ -43,11 +43,11 @@ The XR&AI Summer School 2023 was realised in collaboration with Casa delle Tecno
 \
 **Online  Press Release**
 
-* <https://www.puglialive.net/cte-matera-conclusa-nella-citta-dei-sassi-la-sesta-edizione-di-extended-reality-and-artificial-intelligence-international-summer-school-2023/> 
-* <https://www.materanews.net/a-matera-studenti-e-ricercatori-da-tutto-il-mondo-ecco-le-foto/> 
-* <https://www.sassilive.it/economia/lavoro/extended-reality-and-artificial-intelligence-international-summer-school-2023-6-edizione-alla-casa-delle-tecnologie-emergenti-di-matera-report-e-foto/> 
-* <https://www.giornaledibasilicata.com/2023/07/alla-cte-matera-si-e-tenuta-la-sesta.html> 
-* <https://www.trmtv.it/tecnologia/2023_07_24/386978.html?fbclid=IwAR0bnZPlckDJQ1WRNZtGANgvf3KZo0r8w6IbTs4Njvp3PgpoknN_eIAQqkk> 
+* [Puglialive.net](https://www.puglialive.net/cte-matera-conclusa-nella-citta-dei-sassi-la-sesta-edizione-di-extended-reality-and-artificial-intelligence-international-summer-school-2023/)
+* [Materanews.net](https://www.materanews.net/a-matera-studenti-e-ricercatori-da-tutto-il-mondo-ecco-le-foto/)
+* [Sassilive.it](https://www.sassilive.it/economia/lavoro/extended-reality-and-artificial-intelligence-international-summer-school-2023-6-edizione-alla-casa-delle-tecnologie-emergenti-di-matera-report-e-foto/)
+* [GiormnaledellaBasilicata.com](https://www.giornaledibasilicata.com/2023/07/alla-cte-matera-si-e-tenuta-la-sesta.html)
+* [trmtv.it/tecnologia](https://www.trmtv.it/tecnologia/2023_07_24/386978.html?fbclid=IwAR0bnZPlckDJQ1WRNZtGANgvf3KZo0r8w6IbTs4Njvp3PgpoknN_eIAQqkk) 
 
 **INTERVIEWS with Local TV**
 
