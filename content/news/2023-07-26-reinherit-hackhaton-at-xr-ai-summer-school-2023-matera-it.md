@@ -41,7 +41,7 @@ Important local museums were visited to test the apps in these contexts. Experts
 \
 The XR&AI Summer School 2023 was realised in collaboration with Casa delle Tecnologie Emergenti (Cte Square), the Ministry of Enterprise and Made in Italy, the Casa delle Tecnologie Emergenti Matera, and with the support of the University of Basilicata, the University of Salento, the Università Politecnica delle Marche, the University of Naples Federico II, the University of Florence (MICC), the CNR-ISPC, Basilicata Creativa, Materahub, the EDIH Heritage Smart Lab, the 'ReInHerit' project (Horizon 2020 programme), XRtech, Deep Reality, the Fund for Development and Cohesion, Geomatics Applications Processing, the Italian Association in Computer Vision and Pattern Recognition and Machine Learning.\
 \
-**Online  Press Release**
+**Online Press Release**
 
 * [Puglialive.net](https://www.puglialive.net/cte-matera-conclusa-nella-citta-dei-sassi-la-sesta-edizione-di-extended-reality-and-artificial-intelligence-international-summer-school-2023/)
 * [Materanews.net](https://www.materanews.net/a-matera-studenti-e-ricercatori-da-tutto-il-mondo-ecco-le-foto/)
