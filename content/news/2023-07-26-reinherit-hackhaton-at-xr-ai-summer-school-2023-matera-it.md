@@ -41,13 +41,13 @@ Important **local museums** were visited to test the apps in these contexts. **E
 \
 The **XR&AI Summer School 2023** was realised in **collaboration** with Casa delle Tecnologie Emergenti (Cte Square), the Ministry of Enterprise and Made in Italy, the Casa delle Tecnologie Emergenti Matera, and with the **support** of the University of Basilicata, the University of Salento, the Università Politecnica delle Marche, the University of Naples Federico II, the University of Florence (MICC), the CNR-ISPC, Basilicata Creativa, Materahub, the EDIH Heritage Smart Lab, the 'ReInHerit' project (Horizon 2020 programme), XRtech, Deep Reality, the Fund for Development and Cohesion, Geomatics Applications Processing, the Italian Association in Computer Vision and Pattern Recognition and Machine Learning.
 
-**Short Videos on EDIH - Heritage Smart Lab | European Digital Innovation Lab**
+> **Short videos of the speakers and supervisors of the two groups  working on ReInherit tools**  | EDIH - Heritage Smart Lab | European Digital Innovation Lab
 
-* [Marco Bertini](https://fb.watch/m1fi_IuJaJ/)
-* [Luca Melchionna](https://fb.watch/m1foR2slut/)
-* [Paolo Mazzanti](https://fb.watch/m1fnU4hRUN/)
+* **[Marco Bertini ](https://fb.watch/m1fi_IuJaJ/)** [MICC](http://www.micc.unifi.it) Director [](https://www.facebook.com/miccunifi?__tn__=-]K)
+* **L[uca Melchionna](https://fb.watch/m1WYwW2mCo/)** Co-Founder "[Machineria](https://machineria.it/machineria-stories-that-work) - Stories that Work"
+* **[Paolo Mazzanti](https://fb.watch/m1fnU4hRUN/)** [MICC](http://www.micc.unifi.it) Researcher
 
-**Online Press Release**
+> **Online Press Release**
 
 * [Puglialive.net](https://www.puglialive.net/cte-matera-conclusa-nella-citta-dei-sassi-la-sesta-edizione-di-extended-reality-and-artificial-intelligence-international-summer-school-2023/)
 * [Materanews.net](https://www.materanews.net/a-matera-studenti-e-ricercatori-da-tutto-il-mondo-ecco-le-foto/)
@@ -55,7 +55,7 @@ The **XR&AI Summer School 2023** was realised in **collaboration** with Casa del
 * [GiormnaledellaBasilicata.com](https://www.giornaledibasilicata.com/2023/07/alla-cte-matera-si-e-tenuta-la-sesta.html)
 * [trmtv.it/tecnologia](https://www.trmtv.it/tecnologia/2023_07_24/386978.html?fbclid=IwAR0bnZPlckDJQ1WRNZtGANgvf3KZo0r8w6IbTs4Njvp3PgpoknN_eIAQqkk) 
 
-**INTERVIEWS  Local TV**
+> **Interviews on Local TV**
 
 `youtube: https://youtu.be/f7aXbFrET1Y`
 
