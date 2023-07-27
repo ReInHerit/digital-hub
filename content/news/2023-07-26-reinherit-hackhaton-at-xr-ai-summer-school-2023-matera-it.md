@@ -55,7 +55,7 @@ The **XR&AI Summer School 2023** was realised in **collaboration** with Casa del
 * [GiormnaledellaBasilicata.com](https://www.giornaledibasilicata.com/2023/07/alla-cte-matera-si-e-tenuta-la-sesta.html)
 * [trmtv.it/tecnologia](https://www.trmtv.it/tecnologia/2023_07_24/386978.html?fbclid=IwAR0bnZPlckDJQ1WRNZtGANgvf3KZo0r8w6IbTs4Njvp3PgpoknN_eIAQqkk) 
 
-> **Interviews on Local TV**
+> **TV interviews**
 
 `youtube: https://youtu.be/f7aXbFrET1Y`
 
