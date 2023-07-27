@@ -54,6 +54,11 @@ The **XR&AI Summer School 2023** was realised in **collaboration** with Casa del
 * [Sassilive.it](https://www.sassilive.it/economia/lavoro/extended-reality-and-artificial-intelligence-international-summer-school-2023-6-edizione-alla-casa-delle-tecnologie-emergenti-di-matera-report-e-foto/)
 * [GiormnaledellaBasilicata.com](https://www.giornaledibasilicata.com/2023/07/alla-cte-matera-si-e-tenuta-la-sesta.html)
 * [trmtv.it/tecnologia](https://www.trmtv.it/tecnologia/2023_07_24/386978.html?fbclid=IwAR0bnZPlckDJQ1WRNZtGANgvf3KZo0r8w6IbTs4Njvp3PgpoknN_eIAQqkk) 
+* [Aise.it](https://www.aise.it/ambiente-e-ricerca/extended-reality-and-ai-international-summer-school-2023-a-matera-la-sesta-edizione-/193228/2)
+* [Genteeterritorio.it](https://www.genteeterritorio.it/conclusa-alla-cte-matera-la-extended-reality-and-artificial-intelligence/)
+* [Cittadinitwitter.it](https://cittadiniditwitter.it/news/alla-cte-matera-si-e-tenuta-la-sesta-edizione-di-extended-reality-and-artificial-intelligence-international-summer-school-2023/)
+* [Moltouomo.it](https://www.moltouomo.it/uomo-cultura-societa/intelligenza-artificiale-e-realta-estesa-la-citta-di-matera-splendida-cornice-allevento-internazionale/)
+* [Zazoom.it](https://www.zazoom.it/2023-07-24/intelligenza-artificiale-e-realta-estesa-la-citta-di-matera-splendida-cornice-allevento-internazionale/13258528/)
 
 ### **TRMTV interviews**
 
