@@ -44,7 +44,7 @@ The **XR&AI Summer School 2023** was realised in **collaboration** with Casa del
 > **Short videos of the speakers and supervisors of the two groups  working on ReInherit tools**  | EDIH - Heritage Smart Lab | European Digital Innovation Lab
 
 * **[Marco Bertini ](https://fb.watch/m1fi_IuJaJ/)** [MICC](http://www.micc.unifi.it) Director [](https://www.facebook.com/miccunifi?__tn__=-]K)
-* **L[uca Melchionna](https://fb.watch/m1WYwW2mCo/)** Co-Founder "[Machineria](https://machineria.it/machineria-stories-that-work) - Stories that Work"
+* **[Luca Melchionna](https://fb.watch/m1WYwW2mCo/)** Co-Founder "[Machineria](https://machineria.it/machineria-stories-that-work) - Stories that Work"
 * **[Paolo Mazzanti](https://fb.watch/m1fnU4hRUN/)** [MICC](http://www.micc.unifi.it)  [NEMECH](http://nemech.unifi.it) Researcher
 
 > **Online Press Release**
