@@ -1,6 +1,6 @@
 import React from "react";
 import BaseLayout from "../../components/static/BaseLayout";
-import OnCollExhibDocFeed from "../../components/shared/ExhibDocFeed/onlinecoll";
+import DigExhibExhibDocFeed from "../../components/shared/ExhibDocFeed/DigExhib";
 import MainHeading from "../../components/static/MainHeading";
 import { Container } from "react-bootstrap"
 import SideMainLayout from "../../components/shared/Layout/SideMainLayout"
@@ -23,13 +23,10 @@ const ExhibDocPage: React.FC = () => {
   <SideMainLayout
       side={
         <div className="card p-4 border-0 shadow bg-white">
-        <OnCollExhibDocFeed></OnCollExhibDocFeed>
+        <DigExhibExhibDocFeed></DigExhibExhibDocFeed>
         </div>
       }
       >  
-  <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">
-        <div>This section documents the design and development process of the ReInHerit exhibitions, as well as the technologies used. Discover more by exploring the items on the left!</div>
-  </Container>
   </SideMainLayout>
   </div>
 </div>

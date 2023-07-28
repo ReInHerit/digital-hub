@@ -1,6 +1,6 @@
 import React from "react";
 import BaseLayout from "../../components/static/BaseLayout";
-import TabletExhibDocFeed from "../../components/shared/ExhibDocFeed/tablet";
+import IntroOutroExhibDocFeed from "../../components/shared/ExhibDocFeed/IntroOutro";
 import MainHeading from "../../components/static/MainHeading";
 import { Container } from "react-bootstrap"
 import SideMainLayout from "../../components/shared/Layout/SideMainLayout"
@@ -23,7 +23,7 @@ const ExhibDocPage: React.FC = () => {
   <SideMainLayout
       side={
         <div className="card p-4 border-0 shadow bg-white">
-        <TabletExhibDocFeed></TabletExhibDocFeed>
+        <IntroOutroExhibDocFeed></IntroOutroExhibDocFeed>
         </div>
       }
       >  

@@ -21,19 +21,19 @@ const ExhibDocPage: React.FC = () => {
 
 <ReinCardGrid>
         <ReinGridCard
-          body= "Documentation of the digital exhibitions"
-          title="Digital Exhibitions"
-          url="/exhibitionsdoc/docdigexhib/"
+          body= "Overview of the process for setting up the travelling exhibitions."
+          title="General Information"
+          url="/exhibdoc/docgeninfo/"
         />
                 <ReinGridCard
-          body="Documentation of the quiz connecting the online/offline experiences."
-          title="Quiz"
-          url="/exhibitionsdoc/docintros/"
+          body="Description of the architecture of the travelling exhibitions and its components."
+          title="Architecture"
+          url="/exhibdoc/docarchitecture/"
         />
         <ReinGridCard
-          body="Documentation of the ReInHerit online collection."
-          title="Online Collection"
-          url="/exhibitionsdoc/doconlinecoll/"
+          body="Documentation of the Tablet application."
+          title="Tablet Application"
+          url="/exhibdoc/doctablet/"
         />
 </ReinCardGrid>
 
