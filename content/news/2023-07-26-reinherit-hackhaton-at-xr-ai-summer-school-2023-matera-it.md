@@ -22,7 +22,7 @@ Students and researchers from **different international academic backgrounds** p
 
 ![  ReInHerit Hackathon at XR&AI Summer School 2023 Matera IT](https://ucarecdn.com/52002673-3b44-4399-ae73-208557d670dd/ "  ReInHerit Hackathon at XR&AI Summer School 2023 Matera IT")
 
-During the week, **internationally** **famous** **speakers** and **experts** debated and engaged  with students and researchers with different educational content and skills, and  from different international countries: the United Arab Emirates to Saudi Arabia, from Sweden to the Netherlands, from Spain to Italy. The heterogeneous training of the participants covers different disciplines such as Robotics, Serious Games, Artificial Intelligence and Extended Reality, Digital Humanities, Interaction Design and Musum and Cultural Heritage Studies.
+During the week, **internationally** **speakers** and **famous experts** debated and engaged  with students and researchers with different educational content and skills, and  from different international countries: the United Arab Emirates to Saudi Arabia, from Sweden to the Netherlands, from Spain to Italy. The heterogeneous training of the participants covers different disciplines such as Robotics, Serious Games, Artificial Intelligence and Extended Reality, Digital Humanities, Interaction Design and Museum and Cultural Heritage Studies.
 
 ![  ReInHerit Hackathon at XR&AI Summer School 2023 Matera IT](https://ucarecdn.com/3ae68181-f9f9-456c-87a4-72e632bcc9f8/ "  ReInHerit Hackathon at XR&AI Summer School 2023 Matera IT")
 
