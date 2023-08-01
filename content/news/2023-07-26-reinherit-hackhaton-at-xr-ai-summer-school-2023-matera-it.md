@@ -14,7 +14,7 @@ thumbnail: https://ucarecdn.com/3a0e527b-6363-4e30-9648-ef2054b5b959/-/crop/367x
 ---
 ![  ReInHerit Hackathon at XR&AI Summer School 2023 Matera IT](https://ucarecdn.com/18469952-5a9a-4690-bd87-3cb8a6e2b105/ "  ReInHerit Hackathon at XR&AI Summer School 2023 Matera IT")
 
-Students and researchers from **different international academic backgrounds** participated in the international [XR&AI Summer School](https://xrsalento.it/xrai-summer-school-2023/) 2023 from 17 to 22 July in Matera Italy, working on the topics of **Extended Reality** and **Artificial Intelligence**. The school was held in the [House of Technology](https://ctematera.it) in Matera and was organized with the support of [**MeteraHUB**.](https://www.materahub.com)
+Students and researchers from **different international academic backgrounds** participated in the international [XR&AI Summer School](https://xrsalento.it/xrai-summer-school-2023/) 2023 from 17 to 22 July in Matera Italy, working on the topics of **Extended Reality** and **Artificial Intelligence**. The school was held in the [House of Technology](https://ctematera.it) in Matera and was organized with the support of [**MateraHUB**.](https://www.materahub.com)
 
 ![  ReInHerit Hackhaton at XR&AI Summer School 2023 Matera IT](https://ucarecdn.com/5445719d-8f27-4f79-858a-8e1a5d0f4f1d/ "  ReInHerit Hackhaton at XR&AI Summer School 2023 Matera IT")
 
