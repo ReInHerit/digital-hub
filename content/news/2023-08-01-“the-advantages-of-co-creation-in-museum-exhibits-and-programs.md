@@ -2,7 +2,7 @@
 pageId: 06e0022d-e7e2-4717-b8ae-8417de1955c6
 layout: blog
 type: news
-title: 'Museums Up - ReInHerit’s Podcast nineteen episode: “The Advantages of
+title: 'Museums Up - ReInHerit’s Podcast nineteenth episode: “The Advantages of
   Co-creation in Museum Exhibits and Programs"'
 date: 2023-08-01T08:46:02.653Z
 target-audience:
