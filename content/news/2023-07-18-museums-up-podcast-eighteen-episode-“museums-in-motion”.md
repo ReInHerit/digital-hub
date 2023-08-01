@@ -2,7 +2,7 @@
 pageId: b7e47b88-690a-4091-b991-d8cc1b825f5e
 layout: blog
 type: news
-title: "Museums Up - ReInHerit’s Podcast eighteen episode: “Museums in motion” "
+title: "Museums Up - ReInHerit’s Podcast eighteenth episode: “Museums in motion” "
 date: 2023-07-18T11:02:02.153Z
 target-audience:
   - VISITOR
