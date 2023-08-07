@@ -147,6 +147,56 @@ Here are the steps for adding the content:
   \[02] Audio or Video Files
 
   \[03] Annotations
-
 * Once all your data has been placed in the folders, our partner TRONIC Innovation GmbH will integrate it into the app. A few days later it can already be shown in the exhibition.
 * Have a look on the “Technical Documentation and Requirements”-File in the folder to see how to install the app on your tablet later.
+
+### 9﻿. Prepare the missing content
+
+Object labels of your objects in the following order:
+
+→ Artist/producer
+
+→ Date
+
+→ Material
+
+→ Size
+
+→ Place
+
+In the [Exhibition Architecture Manual](https://reinherit-hub.eu/exhibdoc/docarchitecture/) you’ll find an example of the object label design.
+
+All the content of the existing object labels are stored here:
+
+<https://docs.google.com/document/d/14r1NOjqG1fXQmgF7yR_sYHS5-dGnXyhL/edit?usp=sharing&ouid=113649536349326826292&rtpof=true&sd=true>.
+
+The exhibition texts can be taken over from the three museums or may be rewritten from your own institution with your own specifications. The text needs to be displayed somewhere in the beginning of the exhibition or right in front of it. You can choose the form of presentation of the exhibition text. In the three partner museums the texts were printed on the wall or on a textile, but you might also project it.
+
+Find the exhibition texts here:
+
+(link will follow)
+
+### 1﻿0. Install the INTRO and the OUTRO Station
+
+The INTRO and OUTRO stations are the connection to the visitors. In the case of the ReThinking exhibitions, visitors are digitally addressed with three questions at the INTRO station and asked about their personal approach to the respective exhibition theme. This serves to introduce the visitors to the topic and to sensitize them. The OUTRO Station is on the one hand another digital user interaction, but it also provides insights into the answers of other visitors in other countries. Since the stations are also displayed in digital space, a connection between these two spaces is created. The more people participate in different places, the more interesting the response comparison becomes.
+
+![Intro Station ](https://ucarecdn.com/d19aed18-ac52-4fd4-80fd-782a4a4ae992/)
+
+### 1﻿1. The Smart Lens
+
+![Smart Lens ](https://ucarecdn.com/8602cf63-3dbb-4818-9830-b28a05a2a91c/)
+
+The University of Florence and the MICC developed an app which can be used to get more ore detailed information about an object or specific parts of by using one’s own Smart Phone. It is a web app that does not require any download, but can be opened by scanning a QR code or by opening the link in a web browser.
+
+![Smart Lens QR Code](https://ucarecdn.com/b6453864-c214-40a0-9e69-afa1e1178f40/)
+
+The Smart Lens is an addition to the exhibitions. It allows the visitor to scan the object with its own smartphone. The Smart Lens highlights details of the object and provides additional information about it.
+
+Find some more information about the Smart Lens [HERE](https://reinherit-hub.eu/tools/apps/beae4f2a-8f09-4de1-949a-398f8b3626b3).
+
+
+
+#### If you have any questions or if you are interested in overtaking the exhibition, please don’t hesitate to contact us via mail: 
+
+#### 
+reinherit@stadt.graz.at
