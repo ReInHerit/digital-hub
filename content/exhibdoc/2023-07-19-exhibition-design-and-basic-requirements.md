@@ -24,23 +24,19 @@ physical dimensions of digital Key Objects as core entities.
 
 EXACT DIMENSIONS
 
-
 Elements of the Exhibition are distributed according to a hexagonal grid with a side length of 125
 cm. The grid organizes the Elements (Projection, Bench, Box) and secures the distance between the
 units.
 
-![map ReInHerit’s Travelling Exhibition architecture](https://ucarecdn.com/2f0673b8-ee97-4dc3-84ed-b69344efd080/)
+![map ReInHerit’s Travelling Exhibition architecture](https://ucarecdn.com/1668ef6c-09ad-4f50-9fec-281033d15c4e/)
 
 ELEMENT: BENCH WITH EXTENSION
-
 
 Maritime Pine Plywood 15mm, two layers, raw and polished,
 Inside, the sides as well as the back and top surface are lined with needle felt,
 Two additional loudspeakers are installed on the side or on the top;
 
-
 ELEMENT: BENCH (WITHOUT EXTENSION)
-
 
 Maritime Pine Plywood 15mm, two layers, raw and polished,
 Millings at the ends to accommodate the attachable extension;
@@ -49,17 +45,14 @@ Millings at the ends to accommodate the attachable extension;
 
 ELEMENT: PROJECTOR MOUNT
 
-
 Round steel, fixed with clamps on the telescopic rods, mounting plate for
 projector at the crossing point, painted in RAL7024;
-
 
 ELEMENT: PROJECTION SURFACE
 
 ![map ReInHerit’s Travelling Exhibition architecture](https://ucarecdn.com/db327c18-51ff-4f27-a369-53d2e74ce873/)
 
 ELEMENT: TELESCOPIC ROD
-
 
 Steel tubes telescoped, height-adjustable,
 foot and headstock, painted in RAL7024;
@@ -68,23 +61,17 @@ foot and headstock, painted in RAL7024;
 
 ELEMENT: BOX
 
-
 Maritime Pine Plywood 15mm, one layer, raw and polished, Butt-jointed at the edges,
 inner part adjustable in height, can be fixed in the slots with screws and Wing nuts;
 Dimensions depend on the objects, in this case:
 
-
 w: 35 x h: 50 x d: 40 cm
-
 
 w: 70 x h: 50 x d: 50 cm
 
-
 w: 50 x h: 50 x d: 50 cm
 
-
 w: 80 x h: 50 x d: 80 cm
-
 
 w: 40 x h: 50 x d: 40 cm
 
