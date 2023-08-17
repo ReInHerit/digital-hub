@@ -10,7 +10,7 @@ theme: Technology
 exhibdocsection: General Information
 license: CC BY 2.0
 ---
-### 8﻿. Add own content to the App 
+### Step 8﻿: Add own content to the App
 
 ![App](https://ucarecdn.com/65084deb-19e2-4c43-ad9c-98c747a96290/)
 
