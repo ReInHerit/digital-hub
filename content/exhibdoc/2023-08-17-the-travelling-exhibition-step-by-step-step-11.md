@@ -23,3 +23,8 @@ The University of Florence and the MICC developed an app which can be used to ge
 The Smart Lens is an addition to the exhibitions. It allows the visitor to scan the object with its own smartphone. The Smart Lens highlights details of the object and provides additional information about it.
 
 Find some more information about the Smart Lens [here](https://reinherit-hub.eu/tools/apps/beae4f2a-8f09-4de1-949a-398f8b3626b3).
+
+#### If you have any questions or if you are interested in overtaking the exhibition, please don’t hesitate to contact us via mail: 
+
+#### 
+reinherit@stadt.graz.at
