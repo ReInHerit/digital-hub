@@ -10,15 +10,13 @@ theme: Technology
 exhibdocsection: Architecture
 license: CC BY 2.0
 ---
-BENCH WITH EXTENSION
+#### Bench with Extension 
 
 Maritime Pine Plywood 15mm, two layers, raw and polished,
 Inside, the sides as well as the back and top surface are lined with needle felt,
 Two additional loudspeakers are installed on the side or on the top;
 
-
-
-BENCH (WITHOUT EXTENSION)
+#### B﻿ench (without Extension)
 
 Maritime Pine Plywood 15mm, two layers, raw and polished,
 Millings at the ends to accommodate the attachable extension;
