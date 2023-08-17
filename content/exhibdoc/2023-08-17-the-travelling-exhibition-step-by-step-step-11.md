@@ -12,6 +12,8 @@ license: CC BY 2.0
 ---
 ### Step 1﻿1:  The Smart Lens (Optional)
 
+
+
 ![Smart Lens ](https://ucarecdn.com/8602cf63-3dbb-4818-9830-b28a05a2a91c/)
 
 The University of Florence and the MICC developed an app which can be used to get more ore detailed information about an object or specific parts of by using one’s own Smart Phone. It is a web app that does not require any download, but can be opened by scanning a QR code or by opening the link in a web browser.
