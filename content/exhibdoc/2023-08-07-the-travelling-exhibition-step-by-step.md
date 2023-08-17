@@ -10,7 +10,7 @@ theme: Technology
 exhibdocsection: General Information
 license: CC BY 2.0
 ---
-### **Step 1. Check out the existing ReThinking exhibitions...**
+### **Step 1: Check out the existing ReThinking exhibitions...**
 
 ... at the Museum of Cycladic Art in Athens (Greece), at the Graz Museum in Graz (Austria) and at the Bank of Cyprus Cultural Foundation Nicosia (Cyprus):
 
