@@ -15,8 +15,8 @@ thumbnail: https://ucarecdn.com/43dbc857-7794-4732-a924-5778bd80ccb6/
 ![ReInHerit Webinar - European Capitals of Culture as a space for connecting tourism, cultural heritage and creative industries](https://ucarecdn.com/e963bac5-52aa-4ec2-bbe7-5afa9512df16/ "ReInHerit Webinar - European Capitals of Culture as a space for connecting tourism, cultural heritage and creative industries")
 
 * **8 September 2023 from 3:00-4:00 pm CET**
-* Facilitated by **Rita Orlando** - **Michaela Podolakova** - **Josephine Hage**  **and** moderated **by Paolo Montemurro** - [MateraHub ](https://www.materahub.com)Italy
-* **Free Registration is open until 7 September 2023 (3 pm)** * [HERE](https://docs.google.com/forms/d/e/1FAIpQLSfT2lBsxEDZEvxpZ9-Z5sRMJOZq64zhDSls3gtQGm-ibys3KA/viewform) *\
+* Facilitated by **Rita Orlando** - **Michaela Podolakova** - **Josephine Hage**  and moderated **by Paolo Montemurro** - [MateraHub ](https://www.materahub.com)Italy
+* **Free Registration is open until 7 September 2023 (3 pm)** * [HERE](https://docs.google.com/forms/d/e/1FAIpQLSfT2lBsxEDZEvxpZ9-Z5sRMJOZq64zhDSls3gtQGm-ibys3KA/viewform)* \
   <https://shorturl.at/kntwG>
 * The online webinar is limited to 50 participants on a first come, first serve basis. The webinar will be recorded and the recording video will be available in the [resources section.](https://reinherit-hub.eu/webinars)
 
@@ -33,8 +33,6 @@ More and more, over the years, the cities bidding for the title are reflecting n
 The role of creative industries as promoter of innovation, fully in line with the concepts of the New European Bauhaus, has become more and more central in the bid books of the candidate cities and in the final programs of the selected one.
 
 The webinar will explore these connections and dimensions by comparing the experiences of three European Capitals of Culture from the past (Kosice 2013), the present (Matera 2019) and the future (Chemnitz 2025) all of them with important experiences in connecting tourism, cultural heritage and creative industries and potential examples for future cities. 
-
-
 
 ### Speakers:
 
