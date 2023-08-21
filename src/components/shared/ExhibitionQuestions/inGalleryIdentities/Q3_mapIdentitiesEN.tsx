@@ -69,7 +69,7 @@ const MapQThree = () => {
             const map = new mapboxgl.Map({
               container: mapContainer.current,
               style: 'mapbox://styles/mapbox/light-v11',
-              center: [23.742, 37.975],
+              center: [15.754, 48.228],
               zoom: 5.15,
               projection: 'naturalEarth',
             });

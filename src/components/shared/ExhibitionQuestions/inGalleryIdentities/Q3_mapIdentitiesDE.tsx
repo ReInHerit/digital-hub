@@ -6,47 +6,48 @@ import creds from '../questionsIdentities/cred/myjson.json'
 import {GoogleSpreadsheet} from "google-spreadsheet"
 import { Button } from "react-bootstrap"
 
-const MapQOne = () => {
+const MapQThree = () => {
   mapboxgl.accessToken = "pk.eyJ1Ijoia2lhLXoiLCJhIjoiY2xkZzRnZjRnMHRvazN2bzZ0cnh4OWtzeSJ9.COmQgzmRsKnMZKw77WDF6w"
   const doc = new GoogleSpreadsheet(creds.sheet_id)
-  const [finalGeoJson, setfinalGeoJson] = useState([]);
+  const [finalGeoJsonThree, setfinalGeoJsonThree] = useState([]);
 
-        const [AllRows, setAllRows] = useState([]);
+        const [AllRowsThree, setAllRowsThree] = useState([]);
         useEffect( () => { 
           async function fetchData() {
                 await doc.useServiceAccountAuth(creds);
                 await doc.loadInfo();      
                 await doc.getInfo();
-                const sheet = doc.sheetsByIndex[2];
-                const rows = await sheet.getRows();
-                const AllRows = rows.map((GoogleSpreadsheetRow) => GoogleSpreadsheetRow._rawData);
+                const sheetThree = doc.sheetsByIndex[8];
+                const rowsThree = await sheetThree.getRows();
+                const AllRowsThree = rowsThree.map((GoogleSpreadsheetRow) => GoogleSpreadsheetRow._rawData);
             //  console.log(AllRows) 
-                setAllRows(AllRows)
+                setAllRowsThree(AllRowsThree)
 
-                const sortingRows = AllRows.map(({
+                const sortingRowsThree = AllRowsThree.map(({
                   [0]: exact_match,	[1]: longitude, [2]: latitude, [3]: Country,
-                  [4]: Ans1a,	[5]: Ans1b,	[6]: 	Ans1c,	[7]: 	Ans1d,		
-                  [8]: Ans1aFin,	[9]: Ans1bFin,	[10]: Ans1cFin,	[11]: Ans1dFin
+                  [4]: Ans3a,	[5]: Ans3b,	[6]: 	Ans3c,	[7]: 	Ans3d,	[8]: 	Ans3e,	
+                  [9]: Ans3aFin,	[10]: Ans3bFin,	[11]: Ans3cFin,	[12]: Ans3dFin,	[13]: Ans3eFin
                 }) => 
                 ({
                   exact_match,	longitude, latitude, Country,
-                  Ans1a,	Ans1b,	Ans1c,	Ans1d,		
-                  Ans1aFin,	Ans1bFin,	Ans1cFin,	Ans1dFin
+                  Ans3a,	Ans3b,	Ans3c,	Ans3d,	Ans3e,	
+                  Ans3aFin,	Ans3bFin,	Ans3cFin,	Ans3dFin,	Ans3eFin
                   }))
             //  console.log(sortingRows)
 
-            const hasAnswers = sortingRows.filter((res) => res.Ans1aFin !== "no answers");
+            const hasAnswersThree = sortingRowsThree.filter((res) => res.Ans3aFin !== "no answers");
             // console.log(hasAnswers)
            
-            const MyGeoJson = hasAnswers.map(row => {
+            const MyGeoJsonThree = hasAnswersThree.map(row => {
               return {
                 "type": "Feature",
                 "properties": {
                     "Country": row.Country,
-                    "Answer_A": row.Ans1aFin,
-                    "Answer_B": row.Ans1bFin,
-                    "Answer_C": row.Ans1cFin,
-                    "Answer_D": row.Ans1dFin,
+                    "Answer_A": row.Ans3aFin,
+                    "Answer_B": row.Ans3bFin,
+                    "Answer_C": row.Ans3cFin,
+                    "Answer_D": row.Ans3dFin,
+                    "Answer_E": row.Ans3eFin
                 },
                 "geometry": {
                   "coordinates": [Number(row.longitude), Number(row.latitude)],
@@ -55,7 +56,7 @@ const MapQOne = () => {
               }
             })      
             
-            setfinalGeoJson(MyGeoJson)
+            setfinalGeoJsonThree(MyGeoJsonThree)
 
         }
         fetchData();
@@ -75,10 +76,10 @@ const MapQOne = () => {
     
             map.addControl(new mapboxgl.NavigationControl(), "top-right");
             
-            const GeoJsonColl = {
+            const GeoJsonCollThree = {
                 "type": "FeatureCollection",
                 "features": 
-                    finalGeoJson
+                    finalGeoJsonThree
               };
                 // This GeoJson is valid
                 // console.log(JSON.stringify(GeoJsonColl))            
@@ -86,11 +87,11 @@ const MapQOne = () => {
         map.on('load', () => {
 
         map.addLayer({
-                id: 'resultsAnswerOneIdentities',
+                id: 'resultsAnswerThreeIdentities',
                 type: 'circle',
                 source: {
                   type: 'geojson',
-                  data: GeoJsonColl
+                  data: GeoJsonCollThree
                 },
                 paint: {
                'circle-color': '#526d9d',
@@ -111,7 +112,7 @@ const MapQOne = () => {
     
 // When a click event occurs on a feature in the csvData layer, open a popup at the
 // location of the feature, with description HTML from its properties.            
-                map.on('click', 'resultsAnswerOneIdentities', function(e) {
+                map.on('click', 'resultsAnswerThreeIdentities', function(e) {
                 var coordinates = e.features[0].geometry.coordinates.slice();
 
                 // set popup text
@@ -120,10 +121,11 @@ const MapQOne = () => {
                 e.features[0].properties.Country +
                 `</h4> 
                 <ul>
-                  <li>A: In total ` + e.features[0].properties.Answer_A + ` People</li>
-                  <li>B: In total ` + e.features[0].properties.Answer_B + ` People</li>
-                  <li>C: In total ` + e.features[0].properties.Answer_C + ` People</li>
-                  <li>D: In total ` + e.features[0].properties.Answer_D + ` People</li>
+                  <li>A: Gesamt ` + e.features[0].properties.Answer_A + ` Personen</li>
+                  <li>B: Gesamt ` + e.features[0].properties.Answer_B + ` Personen</li>
+                  <li>C: Gesamt ` + e.features[0].properties.Answer_C + ` Personen</li>
+                  <li>D: Gesamt ` + e.features[0].properties.Answer_D + ` Personen</li>
+                  <li>E: Gesamt ` + e.features[0].properties.Answer_E + ` Personen</li>
                 </ul>` 
 
                //add Popup to map
@@ -134,7 +136,7 @@ const MapQOne = () => {
                 });
                 
                 // Change the cursor to a pointer when the mouse is over the places layer.
-                map.on('mouseenter', 'resultsAnswerOneIdentities', function() {
+                map.on('mouseenter', 'resultsAnswerThreeIdentities', function() {
                   map.getCanvas().style.cursor = 'pointer';
                 });
                 
@@ -148,20 +150,33 @@ const MapQOne = () => {
 
     return (
     <React.Fragment>
-       <div>
+        <div>
             <div ref={mapContainer} className="map-container" />
         </div>
-     <div className="exh_map_result_content">
-        <h2>Question 1:</h2>
-            <h3>“Roles, including gender roles, are always associated with privileges. Only those who take on a role can enjoy the privileges associated with it. Therefore, taking on any role increases the space of personal freedom.” - Do you agree with this opinion?</h3> 
-                <div className="exh_map_quest_result_red"><span>A</span><p>Yes, I agree. Rights are always tied to roles. Anyone who does not take on a role is therefore left out without any rights. It starts with citizenship and ends with gender.</p></div>
-                <div className="exh_map_quest_result_red"><span>B</span><p>Anyone who speaks in this way tacitly assumes that one can freely choose one's role. However, roles are not chosen, they are imposed by society. This also applies to the freedom associated with a role. But of what use is the biggest freedom if it is not the freedom that I want? - Nothing.</p></div>
-                <div className="exh_map_quest_result_red"><span>C</span><p>That is only one side of the coin. Because even greater than the freedoms one gains are the freedoms one does not gain. So whoever takes on a role closes the door to others and thus also to other privileges. Therefore, taking on a role is always a negative business.</p></div>
-                <div className="exh_map_quest_result_red"><span>D</span><p>I do not like thinking about my life in terms of social roles. I am just me and I just want to be that. For me, taking on a role always means being fake and having to pretend.</p></div>
-      </div>
+        <div className="exh_map_result_content">
+        <h2>Frage 3:</h2>
+            <h3>
+            Woher stammen Geschlechterrollen? 
+            </h3> 
+            <div className="exh_map_quest_result_red"><span>A</span><p>
+            Geschlechterrollen sind in der menschlichen biologischen Vielfalt verwurzelt. Wenn alle Menschen biologisch das gleiche Geschlecht hätten, würden die Rollen nicht existieren. 
+            </p></div>
+            <div className="exh_map_quest_result_red"><span>B</span><p>
+            Rollen handeln immer von Machtverhältnissen. Die Mächtigen nennt man „Herren“ und die Untergebenen „Diener“. Mit den Geschlechtern ist es gleich. 
+            </p></div>
+            <div className="exh_map_quest_result_red"><span>C</span><p>
+            Woher Geschlechterrollen stammen, spielt keine Rolle. Was zählt ist, dass sie überwunden werden, wenn sie ungerecht sind. Alles, was es braucht, ist guter Wille. 
+            </p></div>
+            <div className="exh_map_quest_result_red"><span>D</span><p>
+            In der Vergangenheit wurden Geschlechterrollen als natürlich angesehen. Heutzutage wissen wir es besser. Zum Beispiel haben die Menschen gelernt, zwischen dem „biologischen“ und dem „sozialen“ Geschlecht zu unterscheiden. Aus historischer Sicht sind Geschlechterrollen also nichts weiter als ein anthropologischer Irrtum. 
+            </p></div>
+            <div className="exh_map_quest_result_red"><span>E</span><p>
+            Den Glauben an die Überlegenheit der eigenen Gruppe bezeichnet man als „Chauvinismus“. Beispiele dafür gibt es genügend, wie Hautfarbe, Religion oder eben das Geschlecht. Die typischen Geschlechterrollen machen diesen Chauvinismus lediglich sichtbar. 
+            </p></div>
+          </div>
 
     </React.Fragment>
     );          
 }
 
-export default MapQOne
+export default MapQThree

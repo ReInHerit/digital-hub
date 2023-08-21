@@ -120,10 +120,10 @@ const MapQOne = () => {
                 e.features[0].properties.Country +
                 `</h4> 
                 <ul>
-                  <li>A: In total ` + e.features[0].properties.Answer_A + ` People</li>
-                  <li>B: In total ` + e.features[0].properties.Answer_B + ` People</li>
-                  <li>C: In total ` + e.features[0].properties.Answer_C + ` People</li>
-                  <li>D: In total ` + e.features[0].properties.Answer_D + ` People</li>
+                  <li>A: Gesamt ` + e.features[0].properties.Answer_A + ` Personen</li>
+                  <li>B: Gesamt ` + e.features[0].properties.Answer_B + ` Personen</li>
+                  <li>C: Gesamt ` + e.features[0].properties.Answer_C + ` Personen</li>
+                  <li>D: Gesamt ` + e.features[0].properties.Answer_D + ` Personen</li>
                 </ul>` 
 
                //add Popup to map
@@ -152,12 +152,21 @@ const MapQOne = () => {
             <div ref={mapContainer} className="map-container" />
         </div>
      <div className="exh_map_result_content">
-        <h2>Question 1:</h2>
-            <h3>“Roles, including gender roles, are always associated with privileges. Only those who take on a role can enjoy the privileges associated with it. Therefore, taking on any role increases the space of personal freedom.” - Do you agree with this opinion?</h3> 
-                <div className="exh_map_quest_result_red"><span>A</span><p>Yes, I agree. Rights are always tied to roles. Anyone who does not take on a role is therefore left out without any rights. It starts with citizenship and ends with gender.</p></div>
-                <div className="exh_map_quest_result_red"><span>B</span><p>Anyone who speaks in this way tacitly assumes that one can freely choose one's role. However, roles are not chosen, they are imposed by society. This also applies to the freedom associated with a role. But of what use is the biggest freedom if it is not the freedom that I want? - Nothing.</p></div>
-                <div className="exh_map_quest_result_red"><span>C</span><p>That is only one side of the coin. Because even greater than the freedoms one gains are the freedoms one does not gain. So whoever takes on a role closes the door to others and thus also to other privileges. Therefore, taking on a role is always a negative business.</p></div>
-                <div className="exh_map_quest_result_red"><span>D</span><p>I do not like thinking about my life in terms of social roles. I am just me and I just want to be that. For me, taking on a role always means being fake and having to pretend.</p></div>
+        <h2>Frage 1:</h2>
+            <h3>„Rollen, so auch Geschlechterrollen, sind stets mit bestimmten Privilegien verbunden. Nur wer eine Rolle annimmt, kann auch die damit verbundenen Privilegien genießen. Daher vergrößert die Annahme jeglicher Rolle das Ausmaß der persönlichen Freiheit.“ – Stimmen Sie dieser Aussage zu? 
+            </h3> 
+                <div className="exh_map_quest_result_red"><span>A</span><p>
+                Ja, ich stimme zu. Rechte sind immer an Rollen geknüpft. Wer keine Rolle annimmt, wird daher ohne Rechte außen vor gelassen, von der Staatsbürgerschaft bis zum Geschlecht.                  
+                </p></div>
+                <div className="exh_map_quest_result_red"><span>B</span><p>
+                Jede*r, der*die so spricht, setzt stillschweigend voraus, dass man Rollen frei wählen kann. Allerdings werden Rollen nicht gewählt, sondern einem von der Gesellschaft auferlegt. Das betrifft auch die Freiheiten, die mit einer Rolle in Verbindung stehen. Welchen Nutzen hat die größte Freiheit, wenn es nicht jene Freiheit ist, die ich haben möchte? – Keinen.                  
+                </p></div>
+                <div className="exh_map_quest_result_red"><span>C</span><p>
+                Das ist nicht die ganze Geschichte, denn die Freiheiten, die man nicht erhält, sind bei Weitem umfassender als die Freiheiten, die man bekommt. Wer also eine Rolle annimmt, für den schließt sich die Tür zu anderen und damit auch zu anderen Privilegien. Eine Rolle anzunehmen ist also immer ein Minusgeschäft.
+                </p></div>
+                <div className="exh_map_quest_result_red"><span>D</span><p>
+                Ich bevorzuge es, über mein Leben nicht in Bezug auf soziale Rollen nachzudenken. Ich bin einfach ich und ich möchte auch einfach nur das sein. Eine Rolle anzunehmen bedeutet für mich immer „fake“ zu sein und mich verstellen zu müssen.
+                </p></div>
       </div>
 
     </React.Fragment>

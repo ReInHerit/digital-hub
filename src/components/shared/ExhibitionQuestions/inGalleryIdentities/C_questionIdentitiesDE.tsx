@@ -31,11 +31,11 @@ const QuestionThreeIdentities = () => {
 
 // these set the answer, once clicked, within the Form - the recorded value is stored as "answerThree"
     const AnswersThreeIdentities = [ 
-        "Gender roles have their roots in human biological diversity. If all people were biologically the same sex, the roles would not exist.",
-        "All roles are always about the distribution of power. The powerful are called \"lords\" and the inferior \"servants\". It is the same with the genders.",
-        "It does not matter where gender roles come from. It comes down to overcoming them when they are unjust. All you need is good will.",
-        "In the past, gender roles were considered natural. Today we know better. For example, people have learned to distinguish between “sex” and “gender”. From a historical point of view, gender roles are therefore nothing more than anthropological errors.",
-        "\"Chauvinism\" is the belief in the superiority of one's own group. Just take skin color, religion and of course gender as examples. The classic gender roles are only the manifestations of this chauvinism."         
+    "Geschlechterrollen sind in der menschlichen biologischen Vielfalt verwurzelt. Wenn alle Menschen biologisch das gleiche Geschlecht hätten, würden die Rollen nicht existieren.",
+    "Rollen handeln immer von Machtverhältnissen. Die Mächtigen nennt man „Herren“ und die Untergebenen „Diener“. Mit den Geschlechtern ist es gleich.",
+    "Woher Geschlechterrollen stammen, spielt keine Rolle. Was zählt ist, dass sie überwunden werden, wenn sie ungerecht sind. Alles, was es braucht, ist guter Wille.",
+    "In der Vergangenheit wurden Geschlechterrollen als natürlich angesehen. Heutzutage wissen wir es besser. Zum Beispiel haben die Menschen gelernt, zwischen dem „biologischen“ und dem „sozialen“ Geschlecht zu unterscheiden. Aus historischer Sicht sind Geschlechterrollen also nichts weiter als ein anthropologischer Irrtum.",
+    "Den Glauben an die Überlegenheit der eigenen Gruppe bezeichnet man als „Chauvinismus“. Beispiele dafür gibt es genügend, wie Hautfarbe, Religion oder eben das Geschlecht. Die typischen Geschlechterrollen machen diesen Chauvinismus lediglich sichtbar."
     ]
     const onOptionChange = e => {
         setAnswerThreeIdentities(e.target.value) 
@@ -44,14 +44,14 @@ const QuestionThreeIdentities = () => {
     const handleSubmitC = async (e) => {
         e.preventDefault();
         await appendSpreadsheet();
-        window.location.href = "/exhibitions/identities/inGalleryEN/1stQuestionIdentitiesEN";
+        window.location.href = "/exhibitions/identities/inGalleryDE/1stQuestionIdentitiesDE";
       };
 
 return (
 <React.Fragment>
 
 <h1 className="mt-5">
-Where do gender roles come from?
+Woher stammen Geschlechterrollen? 
 </h1>
 
         <Form onSubmit={handleSubmitC} >
@@ -72,7 +72,7 @@ Where do gender roles come from?
             </div>
                     <Button className="exh_submit_btn" 
                     type="submit" disabled={!answerThreeIdentities} onClick={handleSubmitC} >
-                    <h1 style={{ color: "white" }}>Thanks and enjoy the exhibition!</h1>
+                    <h1 style={{ color: "white" }}>Danke & viel Vergnügen!</h1>
                     </Button>
             </div>        
         </Form>

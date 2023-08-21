@@ -33,10 +33,10 @@ const QuestionTwoIdentities = () => {
 
 // these set the answer, once clicked, within the Form - the recorded value is stored as "answerOne"
     const AnswersTwoIdentities = [
-        "No. I can not imagine that. A gender role is simply not an invention of a poet, but linked to biological sex. But as long as the sexes are biologically different, there will also be different gender roles.",
-        "I am not even sure to appreciate that. I even welcome different gender roles. But the problem with gender roles is not their existence. It is discrimination that can be associated with such a role.",
-        "Yes. After all, gender is not natural, but only a human invention. If you want to build a society without gender roles, you simply have to stop paying too much attention to gender. Why should not that be possible?",
-        "I can even imagine a society divided in two. In one part of such a society there will still be gender roles. And for the other part, they just do not matter."
+        "Nein. Ich kann mir das nicht vorstellen. Eine Geschlechterrolle ist ja nicht die Erfindung eines Dichters, sondern an das biologische Geschlecht geknüpft. Solange die Geschlechter biologisch unterschiedlich sind, solange wird es auch unterschiedliche Geschlechterrollen geben.",
+        "Ich bin mir nicht sicher, ob ich das überhaupt begrüßen würde. Ich weiß unterschiedliche Geschlechterrollen sehr wohl zu schätzen. Das Problem mit Geschlechterrollen ist nicht ihre Existenz, sondern die Diskriminierung, die mit einer solchen Rolle einhergehen kann.",
+        "Ja. Schlussendlich ist das Geschlecht nichts Natürliches, sondern bloß eine Erfindung der Menschheit. Wenn man eine Gesellschaft ohne Geschlechterrollen schaffen möchte, muss man einfach aufhören, dem Geschlecht zu viel Aufmerksamkeit zu schenken. Warum sollte das nicht möglich sein?",
+        "Ich kann mir sogar eine zweigeteilte Gesellschaft vorstellen. In einem Teil der Gesellschaft wird es noch Geschlechterrollen geben. Für den anderen Teil sind sie von keiner Bedeutung mehr."
          ]
     const onOptionChange = e => {
         setAnswerTwoIdentities(e.target.value) 
@@ -45,14 +45,14 @@ const QuestionTwoIdentities = () => {
     const handleSubmitB = async (e) => {
         e.preventDefault();
         await appendSpreadsheet();
-        window.location.href = "/exhibitions/identities/inGalleryEN/3rdQuestionIdentitiesEN";
+        window.location.href = "/exhibitions/identities/inGalleryDE/3rdQuestionIdentitiesDE";
       };
 
 return (
 <React.Fragment>
 
 <h1 className="mt-5">
-Gender roles existed at all times and in every society. What do you think: is a society without gender roles possible in the future?
+Geschlechterrollen gab es zu jeder Zeit und in allen Gesellschaften. Was meinen Sie: Ist in der Zukunft eine Gesellschaft ohne Geschlechterrollen möglich?
 </h1>
 
         <Form onSubmit={handleSubmitB} >
@@ -73,7 +73,7 @@ Gender roles existed at all times and in every society. What do you think: is a 
             </div>
                 <Button className="exh_submit_btn" 
                 type="submit" disabled={!answerTwoIdentities} onClick={handleSubmitB} >
-                <h1 style={{ color: "white" }}>Next Question</h1>
+                <h1 style={{ color: "white" }}>Nächste Frage</h1>
                 </Button>
             </div> 
         </Form>

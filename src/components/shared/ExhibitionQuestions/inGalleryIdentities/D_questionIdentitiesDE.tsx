@@ -31,11 +31,11 @@ const QuestionFourIdentities = () => {
 
 // these set the answer, once clicked, within the Form - the recorded value is stored as "answerOne"
     const AnswersFourIdentities = [
-        "It is very important for me to know which social gender I belong to. I am part of my gender and I cannot change it like my internet provider.",
-        "In my opinion too much attention is paid to the issue of identity. It does not matter if I have an identity of any kind. The only thing that matters is my own happiness.",
-        "For me, the question of identity is of no interest. I do not even know who I am. And if I knew, what good would it do me?",
-        "I refuse the question of my identity. It presupposes that there is something in me that always remains the same - my nature, including me as a sexual being. But that is not the case with me. To me, chasing my identity means chasing a ghost.",
-        "The world we live in is still dominated by gender roles. That is the reason why I am interested in it. However, I hope that in future generations it will not matter what gender you belong to."
+        "Für mich ist es sehr wichtig zu wissen, welchem sozialen Geschlecht ich angehöre. Ich bin ein Teil dieses Geschlechts und kann es nicht wie meinen Internetanbieter wechseln.",
+        "Meiner Meinung nach wird der Debatte um Identität zu viel Aufmerksamkeit geschenkt. Es ist nicht wichtig, ob ich eine Identität von jeglicher Art habe. Das Einzige, was zählt, ist meine eigene Zufriedenheit.",
+        "Für mich spielt die Frage nach der Identität keine Rolle. Ich weiß nicht einmal, wer ich bin. Und wenn ich es wüsste, was hätte ich davon?",
+        "Ich lehne die Frage nach meiner Identität ab. Das setzt ja die Annahme voraus, dass da etwas in mir wäre, das sich nie verändern würde – meine Natur, auch mein sexuelles Sein. Aber das trifft auf mich nicht zu. Für mich kommt die Suche nach meiner Identität der Suche nach einem Gespenst gleich.",
+        "Die Welt, in der wir leben, wird noch immer von Geschlechterrollen beherrscht. Daher interessiere ich mich auch für diese Thematik. Allerdings hoffe ich, dass die Zuordnung zu einem Geschlecht für zukünftige Generationen keine Rolle mehr spielen wird."
     ]
     const onOptionChange = e => {
         setAnswerFourIdentities(e.target.value) 
@@ -44,14 +44,14 @@ const QuestionFourIdentities = () => {
     const handleSubmitD = async (e) => {
         e.preventDefault();
         await appendSpreadsheet();
-        window.location.href = "/exhibitions/identities/inGalleryEN/IdentitiesExhibitionMapEN";
+        window.location.href = "/exhibitions/identities/inGalleryDE/IdentitiesExhibitionMapDE";
       };
 
 return (
 <React.Fragment>
 
 <h1 className="mt-5">
-"Identity" means: having the answer to the question of who I actually am. "Gender identity" therefore means: having the answer to the question of which social gender I actually belong to. How important is the answer to this question to you?
+„Identität“ bedeutet, die Antwort auf die Frage zu kennen, wer man eigentlich ist. Daher bedeutet „Geschlechtsidentität“, die Antwort auf die Frage zu kennen, welchem sozialen Geschlecht man angehört. Wie wichtig ist für Sie die Antwort auf diese Frage?
 </h1>
 
         <Form onSubmit={handleSubmitD} >
@@ -72,7 +72,7 @@ return (
             </div>
             <Button className="exh_submit_btn" 
             type="submit" disabled={!answerFourIdentities} onClick={handleSubmitD} >
-             <h1 style={{ color: "white" }}>Submit & Show Result</h1>
+             <h1 style={{ color: "white" }}>Einreichen</h1>
             </Button>
          </div>        
          </Form>

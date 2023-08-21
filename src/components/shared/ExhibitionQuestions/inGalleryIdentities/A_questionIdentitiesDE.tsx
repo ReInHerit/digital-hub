@@ -31,10 +31,10 @@ const QuestionOneIdentities = () => {
 
 // these set the answer, once clicked, within the Form - the recorded value is stored as "answerOne"
     const AnswersOneIdentities = [
-      "Yes, I agree. Rights are always tied to roles. Anyone who does not take on a role is therefore left out without any rights. It starts with citizenship and ends with gender.",
-      "Anyone who speaks in this way tacitly assumes that one can freely choose one's role. However, roles are not chosen, they are imposed by society. This also applies to the freedom associated with a role. But of what use is the biggest freedom if it is not the freedom that I want? - Nothing.",
-      "That is only one side of the coin. Because even greater than the freedoms one gains are the freedoms one does not gain. So whoever takes on a role closes the door to others and thus also to other privileges. Therefore, taking on a role is always a negative business.",
-      "I do not like thinking about my life in terms of social roles. I am just me and I just want to be that. For me, taking on a role always means being fake and having to pretend."
+      "Ja, ich stimme zu. Rechte sind immer an Rollen geknüpft. Wer keine Rolle annimmt, wird daher ohne Rechte außen vor gelassen, von der Staatsbürgerschaft bis zum Geschlecht.",
+      "Jede*r, der*die so spricht, setzt stillschweigend voraus, dass man Rollen frei wählen kann. Allerdings werden Rollen nicht gewählt, sondern einem von der Gesellschaft auferlegt. Das betrifft auch die Freiheiten, die mit einer Rolle in Verbindung stehen. Welchen Nutzen hat die größte Freiheit, wenn es nicht jene Freiheit ist, die ich haben möchte? – Keinen.",
+      "Das ist nicht die ganze Geschichte, denn die Freiheiten, die man nicht erhält, sind bei Weitem umfassender als die Freiheiten, die man bekommt. Wer also eine Rolle annimmt, für den schließt sich die Tür zu anderen und damit auch zu anderen Privilegien. Eine Rolle anzunehmen ist also immer ein Minusgeschäft.",
+      "Ich bevorzuge es, über mein Leben nicht in Bezug auf soziale Rollen nachzudenken. Ich bin einfach ich und ich möchte auch einfach nur das sein. Eine Rolle anzunehmen bedeutet für mich immer „fake“ zu sein und mich verstellen zu müssen."
             ]
     const onOptionChange = e => {
         setAnswerOneIdentities(e.target.value) 
@@ -43,14 +43,14 @@ const QuestionOneIdentities = () => {
     const handleSubmitA = async (e) => {
         e.preventDefault();
         await appendSpreadsheet();
-        window.location.href = "/exhibitions/identities/inGalleryEN/2ndQuestionIdentitiesEN";
+        window.location.href = "/exhibitions/identities/inGalleryDE/2ndQuestionIdentitiesDE";
       };
 
       return (
         <React.Fragment>
           <h1 className="mt-5">
-          “Roles, including gender roles, are always associated with privileges. Only those who take on a role can enjoy the privileges associated with it. Therefore, taking on any role increases the space of personal freedom.” –
-          <br /> Do you agree with this opinion?
+          „Rollen, so auch Geschlechterrollen, sind stets mit bestimmten Privilegien verbunden. Nur wer eine Rolle annimmt, kann auch die damit verbundenen Privilegien genießen. Daher vergrößert die Annahme jeglicher Rolle das Ausmaß der persönlichen Freiheit.“ – 
+          <br /> Stimmen Sie dieser Aussage zu? 
           </h1>
           <Form onSubmit={handleSubmitA}>
             {AnswersOneIdentities.map((possAnswOneIdentities, index) => (
@@ -70,7 +70,7 @@ const QuestionOneIdentities = () => {
                     <img className="exh_red_arrow" src="/images/exhibition_assets/arrow_red.svg" alt=""></img>
                 </div>
                 <Button className="exh_submit_btn" type="submit" disabled={!answerOneIdentities}  onClick={handleSubmitA} >
-                <h1 style={{ color: "white" }}>Next Question</h1>
+                <h1 style={{ color: "white" }}>Nächste Frage</h1>
                 </Button>
             </div>  
         </Form>

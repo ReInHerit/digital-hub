@@ -121,11 +121,11 @@ const MapQFour = () => {
               e.features[0].properties.Country +
               `</h4> 
               <ul>
-                <li>A: In total ` + e.features[0].properties.Answer_A + ` People</li>
-                <li>B: In total ` + e.features[0].properties.Answer_B + ` People</li>
-                <li>C: In total ` + e.features[0].properties.Answer_C + ` People</li>
-                <li>D: In total ` + e.features[0].properties.Answer_D + ` People</li>
-                <li>E: In total ` + e.features[0].properties.Answer_E + ` People</li>
+                <li>A: Gesamt ` + e.features[0].properties.Answer_A + ` Personen</li>
+                <li>B: Gesamt ` + e.features[0].properties.Answer_B + ` Personen</li>
+                <li>C: Gesamt ` + e.features[0].properties.Answer_C + ` Personen</li>
+                <li>D: Gesamt ` + e.features[0].properties.Answer_D + ` Personen</li>
+                <li>E: Gesamt ` + e.features[0].properties.Answer_E + ` Personen</li>
               </ul>` 
 
                //add Popup to map
@@ -154,15 +154,24 @@ const MapQFour = () => {
             <div ref={mapContainer} className="map-container" />
         </div>
         <div className="exh_map_result_content">
-        <h2>Question 4:</h2>
+        <h2>Frage 4:</h2>
             <h3>
-            "Identity" means: having the answer to the question of who I actually am. "Gender identity" therefore means: having the answer to the question of which social gender I actually belong to. How important is the answer to this question to you?
-            </h3> 
-            <div className="exh_map_quest_result_red"><span>A</span><p>It is very important for me to know which social gender I belong to. I am part of my gender and I cannot change it like my internet provider.</p></div>
-            <div className="exh_map_quest_result_red"><span>B</span><p>In my opinion too much attention is paid to the issue of identity. It does not matter if I have an identity of any kind. The only thing that matters is my own happiness.</p></div>
-            <div className="exh_map_quest_result_red"><span>C</span><p>For me, the question of identity is of no interest. I do not even know who I am. And if I knew, what good would it do me?</p></div>
-            <div className="exh_map_quest_result_red"><span>D</span><p>I refuse the question of my identity. It presupposes that there is something in me that always remains the same - my nature, including me as a sexual being. But that is not the case with me. To me, chasing my identity means chasing a ghost.</p></div>
-            <div className="exh_map_quest_result_red"><span>E</span><p>The world we live in is still dominated by gender roles. That is the reason why I am interested in it. However, I hope that in future generations it will not matter what gender you belong to.</p></div>
+            „Identität“ bedeutet, die Antwort auf die Frage zu kennen, wer man eigentlich ist. Daher bedeutet „Geschlechtsidentität“, die Antwort auf die Frage zu kennen, welchem sozialen Geschlecht man angehört. Wie wichtig ist für Sie die Antwort auf diese Frage?            </h3> 
+            <div className="exh_map_quest_result_red"><span>A</span><p>
+            Für mich ist es sehr wichtig zu wissen, welchem sozialen Geschlecht ich angehöre. Ich bin ein Teil dieses Geschlechts und kann es nicht wie meinen Internetanbieter wechseln.
+            </p></div>
+            <div className="exh_map_quest_result_red"><span>B</span><p>
+            Meiner Meinung nach wird der Debatte um Identität zu viel Aufmerksamkeit geschenkt. Es ist nicht wichtig, ob ich eine Identität von jeglicher Art habe. Das Einzige, was zählt, ist meine eigene Zufriedenheit. 
+            </p></div>
+            <div className="exh_map_quest_result_red"><span>C</span><p>
+            Für mich spielt die Frage nach der Identität keine Rolle. Ich weiß nicht einmal, wer ich bin. Und wenn ich es wüsste, was hätte ich davon?
+            </p></div>
+            <div className="exh_map_quest_result_red"><span>D</span><p>
+            Ich lehne die Frage nach meiner Identität ab. Das setzt ja die Annahme voraus, dass da etwas in mir wäre, das sich nie verändern würde – meine Natur, auch mein sexuelles Sein. Aber das trifft auf mich nicht zu. Für mich kommt die Suche nach meiner Identität der Suche nach einem Gespenst gleich. 
+            </p></div>
+            <div className="exh_map_quest_result_red"><span>E</span><p>
+            Die Welt, in der wir leben, wird noch immer von Geschlechterrollen beherrscht. Daher interessiere ich mich auch für diese Thematik. Allerdings hoffe ich, dass die Zuordnung zu einem Geschlecht für zukünftige Generationen keine Rolle mehr spielen wird. 
+            </p></div>
         </div>
 
     </React.Fragment>
