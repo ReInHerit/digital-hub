@@ -9,7 +9,7 @@ date: 2023-09-08T09:41:14.883Z
 target-audience:
   - PROFESSIONAL
 referenceTo: News
-theme: Management
+theme: Technology
 thumbnail: https://ucarecdn.com/e58255e8-e085-496d-9d7a-ad4bb9dbd100/
 ---
 ![]()
