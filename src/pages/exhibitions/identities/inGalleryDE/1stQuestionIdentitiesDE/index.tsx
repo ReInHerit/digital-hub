@@ -19,7 +19,7 @@ return (
         <div className="identitiesQuestions exh_question_intro_text">
         <Row>
             <Col sm={10}>
-            <h4>Wie gehen Sie mit Konflikten um?</h4>
+            <h4>Wie gehen Sie mit Identitäten um?</h4>
             <p>Hinweis zum Datenschutz: <br></br>Die erhobenen Daten werden ausschließlich zu statistischen Zwecken innerhalb der Ausstellung verwendet.</p>
             </Col>
             <Col sm={2}>
