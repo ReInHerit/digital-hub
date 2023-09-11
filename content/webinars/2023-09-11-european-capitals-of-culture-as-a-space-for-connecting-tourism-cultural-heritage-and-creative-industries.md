@@ -21,6 +21,10 @@ The role of creative industries as promoter of innovation, fully in line with th
 
 The webinar will explore these connections and dimensions by comparing the experiences of three European Capitals of Culture from the past (Kosice 2013), the present (Matera 2019) and the future (Chemnitz 2025) all of them with important experiences in connecting tourism, cultural heritage and creative industries and potential examples for future cities.
 
+![European Capitals of Culture as a space for connecting tourism, cultural heritage and creative industries](https://ucarecdn.com/8acc602f-fb67-4203-af37-c9dd5a2985b3/ "European Capitals of Culture as a space for connecting tourism, cultural heritage and creative industries")
+
+![European Capitals of Culture as a space for connecting tourism, cultural heritage and creative industries](https://ucarecdn.com/a6625858-5f1b-4d93-bdd8-c7b1455ae861/ "European Capitals of Culture as a space for connecting tourism, cultural heritage and creative industries")
+
 ### Speakers:
 
 **Rita Orlando** - Background in architecture, since 2003 she has worked on urban and social regeneration projects, coordinating multidisciplinary and international working groups. In 2014, she joined the Matera 2019 team for the city's successful bid for the title of European Capital of Culture, managing experimental projects focused on innovation. Since 2016, she has been the manager of the Open Design School, a participatory and innovative design laboratory and partner of the New European Bauhaus. She is currently leading the cultural design team of the Foundation Matera Basilicata 2019.
