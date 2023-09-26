@@ -9,27 +9,32 @@ const EventsPage: React.FC = () => {
   pageTitle="Events | ReInHerit Digital Hub"
   >
     <MainHeading
-      subHeading="Cultural heritage events organised by ReInHerit"
-      subText="Here you'll find an overview of all cultural heritage related events provided via ReInHerit, like artistic performances."
+      subHeading="Our events"
+      subText="During the project, different events were organised. This page presents an overview of the main ones and is regularly updated."
       breadCrumb={[
         {label:"Events", value:"/events"}
       ]}
     >Events overview</MainHeading>
     <ReinCardGrid>
-      <ReinGridCard
-        title="Performances"
-        url="/performances"
-        body="Performances developed and carried out in the course of the ReInHerit project."
+    <ReinGridCard
+        title="Immersive Performance I"
+        url="/news/fa8d3e7f-4109-4804-b772-9e101d41ecfe/"
+        body="Information on the first immersive performance (October 2022)."
       />
       <ReinGridCard
-        title="Traveling exhibitions"
-        url="/exhibs/travel"
-        body="On site exhibitions and related material provided by ReInHerit."
+        title="Immersive Performance II"
+        url="/secondperfpublic/0Introduction/"
+        body="Information on the second immersive performance (May 2023)."
       />
       <ReinGridCard
-        title="Hackathon"
-        url="/hackathon"
-        body="Hackathon organized by ReInHerit"
+        title="Travelling exhibitions"
+        url="/travellingexhibitions/"
+        body="The RETHINKING Travelling exhibitions, hosted in Cyprus, Greece, and Austria."
+      />
+      <ReinGridCard
+        title="XR&AI Summer School"
+        url="/summerschool/"
+        body="Summer School on XR and AI organised in July 2023."
       />
         
     </ReinCardGrid>
