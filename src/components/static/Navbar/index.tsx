@@ -102,6 +102,24 @@ const ReinNavbar: React.FC = () => {
                 >
                   eShop documentation
                 </Link>
+                <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/exhibdoc/"
+                >
+                  Exhibitions documentation
+                </Link>
+                <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/exhibdoc/doconlinecoll/"
+                >
+                  Online collection documentation
+                </Link>
+                <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/firstperfdoc/overview/"
+                >
+                  First performance documentation
+                </Link>
                 {/*
                <Link
                   className="text-dark text-decoration-none dropdown-item"
@@ -115,12 +133,6 @@ const ReinNavbar: React.FC = () => {
                   to="/game"
                 >
                   Videogame documentation
-                </Link>
-                <Link
-                  className="text-dark text-decoration-none dropdown-item"
-                  to="/performances"
-                >
-                  Performances documentation
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
@@ -156,6 +168,13 @@ const ReinNavbar: React.FC = () => {
                  eShop
                </Link>
                <Link
+                 style={{ color: "#424753" }}
+                 className="text-dark text-decoration-none dropdown-item"
+                 to="/game"
+               >
+                 Videogame
+               </Link>
+               <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/podcasts"
                 >
@@ -171,9 +190,9 @@ const ReinNavbar: React.FC = () => {
                <Link
                  style={{ color: "#424753" }}
                  className="text-dark text-decoration-none dropdown-item"
-                 to="/secondperfpublic/0Introduction"
+                 to="/events"
                >
-                 Performance at BoCCF
+                 Events
                </Link>
           </NavDropdown>
         

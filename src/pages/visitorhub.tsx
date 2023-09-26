@@ -46,6 +46,16 @@ const VisitorHubPage = () => {
           url="/applications"
         />
         <ReinGridCard
+          body="Play the ReInHerit videogame and become a museum manager or curator."
+          title="Videogame"
+          url="/game"
+        />
+         <ReinGridCard
+          body="Discover the ReInHerit events."
+          title="Events"
+          url="/events"
+        />
+        <ReinGridCard
           body="Discover the second ReInHerit immersive performance, taking place at BoCCF on the 19.05.2023."
           title="Performance at BoCCF"
           url="/secondperfpublic/0Introduction"

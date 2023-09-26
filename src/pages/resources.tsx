@@ -45,15 +45,25 @@ const ResourcesPage = () => {
           body="ReInHerit eShop documentation."
           url="/eshopdoc"
         />
+        <ReinGridCard
+          title="First Immersive Performance"
+          body="Immersive Performance held in October 2022."
+          url="/firstperfdoc/overview/"
+        />
+        <ReinGridCard
+          title="Exhibitions"
+          body="Digital and travelling exhibitions, including applications and design guidelines."
+          url="/exhibdoc/"
+        />
+        <ReinGridCard
+          title="Online collection"
+          body="The ReInHerit digital collection: learn more and contribute."
+          url="/exhibdoc/doconlinecoll/"
+        />
       {/*
         <ReinGridCard
           title="Game"
           body="Video game developed within the ReInHerit project."
-          url="/tools"
-        />
-        <ReinGridCard
-          title="Performances"
-          body="Performances developed and carried out in the course of the ReInHerit project."
           url="/tools"
         />
         <ReinGridCard
