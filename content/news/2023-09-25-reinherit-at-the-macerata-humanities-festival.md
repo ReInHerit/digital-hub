@@ -13,9 +13,13 @@ referenceTo:
   - News
 theme: Technology
 status: draft
-thumbnail: https://ucarecdn.com/1c5a6ec9-d63c-460b-89c2-9c01ee7b512a/
+thumbnail: https://ucarecdn.com/1c5a6ec9-d63c-460b-89c2-9c01ee7b512a/-/crop/758x638/33,0/-/preview/
 ---
 Univ. di Firenze - MICC will show and demo the interactive applications of the ReInHerit toolkit during the Macerata Humanities Festival, organized by the University of Macerata, in two different sessions on Friday 29th and Saturday 30th at 15:00- 18:00.
+
+
+
+![Poster ReInHerit Toolkit | Macerata Humanities Festival](https://ucarecdn.com/b465cfc3-71e9-429a-8971-4e9823791085/ "ReInHerit Toolkit | Macerata Humanities Festival")
 
 During the 2 events the Smart Lens, VIOLA chatbot, Strike-a-pose and Face-fit will be presented and made available in an interactive installation. 
 
