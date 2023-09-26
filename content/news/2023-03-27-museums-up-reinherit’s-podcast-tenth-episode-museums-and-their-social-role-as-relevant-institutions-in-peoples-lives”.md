@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: Podcast
 theme: Other
+status: completed
 thumbnail: https://ucarecdn.com/526defbe-6823-47b7-a802-aa0761f1f783/
 ---
 Marlen Mouliou, Assistant Professor of Museology and Coordinator of CIVIS Open Labs at National and Kapodistrian University of Athens, explains her project "The Museum Inside Me" and the  benefits it generates for museum visitors. She will also give us some examples on how museums can be an effective medium for discussing significant and difficult social issues.

@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 theme: Management
 referenceTo: News
+status: completed
 thumbnail: https://ucarecdn.com/ff3c10bc-6a69-4796-a718-13482c54d517/
 ---
 ![ReInHerit Webinar - IP Management for Museums and Cultural Heritage Institutions ](https://ucarecdn.com/d059d11e-bab8-4bf4-ba4f-5fcca1638bd4/ "ReInHerit Webinar - IP Management for Museums and Cultural Heritage Institutions ")

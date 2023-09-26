@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: Podcast
 theme: Technology
+status: completed
 thumbnail: https://ucarecdn.com/3a3aa7d4-cd38-4164-8a49-5aa16bd05a91/
 ---
 Dr. Sandro Debono, museum thinker, speaker & consultant specialised in museum change management, chats about the digital toolbox for museums, reflecting on how 21st-century museums should feature digital content.

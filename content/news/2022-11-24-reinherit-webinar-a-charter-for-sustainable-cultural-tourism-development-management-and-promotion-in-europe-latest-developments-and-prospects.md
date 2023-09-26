@@ -12,6 +12,7 @@ target-audience:
 theme: Tourism
 referenceTo: News
 thumbnail: https://ucarecdn.com/8b27cc67-5d39-4ad8-ba9d-72ee1c6a58e9/
+status: completed
 ---
 ![A Charter for Sustainable Cultural Tourism development, management and promotion in Europe, latest developments and prospects](https://ucarecdn.com/68b5bc79-2d09-490f-9354-1dbbae8c56f2/ "A Charter for Sustainable Cultural Tourism development, management and promotion in Europe, latest developments and prospects")
 

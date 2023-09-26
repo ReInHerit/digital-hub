@@ -8,6 +8,7 @@ target-audience:
   - VISITOR
 referenceTo: Event
 theme: Other
+status: completed
 thumbnail: https://ucarecdn.com/c24a2259-980e-43c5-8491-cdc0db0ddd40/
 ---
 The workshop "My Shirt | Myself" took place in the framework of the "ReThinking Identities" exhibition at the Museum of Cycladic Art. Young people and teenagers participated in this creative workshop and through design and stimulating conversation explored themselves and their identities. 

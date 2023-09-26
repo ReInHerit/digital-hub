@@ -10,6 +10,7 @@ target-audience:
   - VISITOR
   - PROFESSIONAL
 referenceTo: News
+status: completed
 thumbnail: https://ucarecdn.com/66280840-77c7-4f81-9b71-fd17d17c0ea7/
 ---
 The ReInHerit Eshop gives you the solution! Through this online shop you will have the opportunity to **\#MAKEYOUROWN** games, gift cards, weekly planners and many other. You can then spend your time creatively or offer them to your loved ones.

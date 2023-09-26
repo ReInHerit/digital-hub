@@ -12,6 +12,7 @@ target-audience:
 theme: Tourism
 referenceTo: Podcast
 thumbnail: https://ucarecdn.com/5212b376-c5df-4908-aa73-2f74be7ab0df/
+status: completed
 ---
 Hi everyone! **Museums Up**, a series of Podcasts from the [ReInHerit](https://www.reinherit.eu/) project  has just been successfully launched.
 

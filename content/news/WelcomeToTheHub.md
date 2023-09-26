@@ -9,6 +9,7 @@ target-audience:
   - VISITOR 
   - PROFESSIONAL
 referenceTo: News
+status: completed
 desc: With this entry, we are launching the ReInHerit Digital Hub. The content of the Hub will be regularly updated in the coming months.
 thumbnail: /images/Reinherit-Logo(61x60).webp
 ---

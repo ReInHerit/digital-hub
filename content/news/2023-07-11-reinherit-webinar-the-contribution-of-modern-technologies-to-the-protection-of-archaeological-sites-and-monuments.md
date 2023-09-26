@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Technology
+status: completed
 thumbnail: https://ucarecdn.com/c756e9de-5247-4581-9857-d654ff66c0f2/
 ---
 ![The contribution of modern technologies to the protection of archaeological sites and monuments in an environment of intense climatic phenomena](https://ucarecdn.com/c03b4c0a-c6ca-417e-ad00-a657a9fc687b/ "The contribution of modern technologies to the protection of archaeological sites and monuments in an environment of intense climatic phenomena")

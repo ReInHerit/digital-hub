@@ -10,6 +10,7 @@ target-audience:
 referenceTo:
   - News
 theme: Management
+status: completed
 thumbnail: https://ucarecdn.com/4b19ca55-0253-4440-841f-ad6b00555728/
 ---
 ![ReInHerit Webinar - Compassion is a Rebellious Act](https://ucarecdn.com/e80ae71a-5f50-42d2-b6a4-ab13323253bc/ "ReInHerit Webinar - Compassion is a Rebellious Act")

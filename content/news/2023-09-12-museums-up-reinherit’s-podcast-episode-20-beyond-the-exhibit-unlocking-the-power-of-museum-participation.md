@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: Podcast
 theme: Other
+status: completed
 thumbnail: https://ucarecdn.com/995525f9-0209-47d5-a48d-2012fb851a7a/
 ---
 Prof. Dr. Emilie Sitzia, Special Chair at the @uva_amsterdam and an Associate Professor of Cultural Education at the @maastricht_sbe, delves into the fascinating capacity of museums to immerse visitors into the exhibition experience, enhancing their learning and creating a deep connection to museum collections.

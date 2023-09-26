@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Technology
+status: completed
 thumbnail: https://ucarecdn.com/e58255e8-e085-496d-9d7a-ad4bb9dbd100/
 ---
 ![ReInHerit Webinar - Video games in the service of CH institutions: the case of the ReInHerit Museum Management Game](https://ucarecdn.com/e0c192ac-c4f8-4152-9df1-19a0a281a840/ "ReInHerit Webinar - Video games in the service of CH institutions: the case of the ReInHerit Museum Management Game")

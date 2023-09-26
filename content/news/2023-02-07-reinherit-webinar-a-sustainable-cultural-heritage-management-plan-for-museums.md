@@ -9,6 +9,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Management
+status: completed
 thumbnail: https://ucarecdn.com/7c38d44b-2993-43cf-90dd-14e5dfa83262/
 ---
 ![ReInHerit Webinar - A Sustainable Cultural Heritage Management plan for Museums](https://ucarecdn.com/1764ea45-f971-48a8-b574-4881abad8c5b/ "ReInHerit Webinar - A Sustainable Cultural Heritage Management plan for Museums")

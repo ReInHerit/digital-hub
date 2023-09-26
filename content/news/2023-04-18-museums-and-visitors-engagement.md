@@ -8,6 +8,7 @@ target-audience:
   - VISITOR
   - PROFESSIONAL
 referenceTo: News
+status: completed
 theme: Management
 thumbnail: https://ucarecdn.com/66681891-14c8-46c6-9297-fffc13210b53/-/crop/1415x751/89,0/-/preview/
 ---

@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: Podcast
 theme: Management
+status: completed
 thumbnail: https://ucarecdn.com/8742d9b8-02cd-416a-82d7-f2ee0c60a3c0/
 ---
 Dr. Soren Brothers, respected ecologist and Shiff Curator of Climate Change at the Royal Ontario Museum in Toronto talks about this emerging new position in museums. He will also explain the term Anthropocene and why museums should embrace it.

@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: Podcast
 theme: Other
+status: completed
 thumbnail: https://ucarecdn.com/33d23913-44f5-4a2c-8e99-36e2e947e383/
 ---
 Josh Adair, researcher and associate professor of English at Murray State University [@murraystateuniv](https://www.instagram.com/murraystateuniv/?hl=es) where he also serves as coordinator of Gender & Diversity Studies, talks about museums and social activism, especially in connection to discourses -and silences- on gender and sexuality.

@@ -10,6 +10,7 @@ target-audience:
 referenceTo:
   - News
 theme: Management
+status: completed
 thumbnail: https://ucarecdn.com/346e29df-aa24-4154-a93a-80bdbbd9bfc4/
 ---
 Laura Jiménez, Art Historian and Curator at [Museo del traje](https://www.culturaydeporte.gob.es/mtraje/inicio.html) (The Garment Museum) and Research Center of Ethnology Heritage in Madrid, Spain, enlightens us on the museum's purpose in preserving and showcasing cultural heritage through the lens of garments and textiles. Laura also shares the intriguing criteria and meticulous process behind accessioning objects at this museum. 

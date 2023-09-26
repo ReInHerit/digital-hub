@@ -9,6 +9,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Management
+status: completed
 thumbnail: https://ucarecdn.com/4eb3bed2-942c-4889-8bed-b1c9a473f38c/
 ---
 ![ReInHerit Webinar -  How to make your museum ‘green’ ](https://ucarecdn.com/fc025aac-f58f-4727-9882-65d86d752021/ "ReInHerit Webinar -  How to make your museum ‘green’ ")

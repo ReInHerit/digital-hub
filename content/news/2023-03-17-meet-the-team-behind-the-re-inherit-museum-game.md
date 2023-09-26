@@ -9,6 +9,7 @@ target-audience:
   - VISITOR
 referenceTo: Game
 theme: Other
+status: completed
 thumbnail: https://ucarecdn.com/7bebacdf-0213-46a3-aa0c-e7b48ac46342/
 ---
 Behind every game there is a team of dedicated game developers, each with their own skillsets and roles. Here is a small introduction to the members of this effort.

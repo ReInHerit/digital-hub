@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: Game
 theme: Technology
+status: completed
 thumbnail: https://ucarecdn.com/a5979369-365c-44dd-9bd2-5e9fb48ea927/
 ---
 <!--StartFragment-->

@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Management
+status: completed
 thumbnail: https://ucarecdn.com/302c95d5-3797-48ba-9e8b-836a11e2908e/
 ---
 ![ Reinventing museums and their evolving role in physical and mental wellbeing](https://ucarecdn.com/0ef380f6-b767-4ca9-a15c-38103ab33ed4/ " Reinventing museums and their evolving role in physical and mental wellbeing")

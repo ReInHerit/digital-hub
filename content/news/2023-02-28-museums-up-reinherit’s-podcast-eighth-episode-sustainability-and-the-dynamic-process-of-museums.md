@@ -11,6 +11,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: Podcast
 theme: Other
+status: completed
 thumbnail: https://ucarecdn.com/244d428d-a164-47d5-a74e-74ba35b512b9/
 ---
 Leena Paaskoski, Development Director at The Finnish Forest Museum Lusto, and  Professor of Practise in Museology, at the University of Jyväskylä in Finland, share her experience on Museums and social impact, with a focus on forest relationships and human-forest culture.

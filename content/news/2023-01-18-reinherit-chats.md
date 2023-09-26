@@ -8,6 +8,7 @@ target-audience:
   - VISITOR
 referenceTo: News
 theme: Management
+status: completed
 thumbnail: https://ucarecdn.com/5bdae75b-be66-4889-ab52-87633a74fc2d/-/crop/1011x855/50,100/-/preview/
 ---
 W﻿ith this week, we are launching a ReInHerit chat series: ﻿join us in the ReInHerit forum, on Wedenesday at 16:00 CET for an informal chat on cultural heritage management, sustainability, cultural tourism, and the role of digital technologies in fostering and supporting the sector!

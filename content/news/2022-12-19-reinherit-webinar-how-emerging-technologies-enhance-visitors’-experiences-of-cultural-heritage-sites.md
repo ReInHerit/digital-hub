@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 theme: Technology
 referenceTo: News
+status: completed
 thumbnail: https://ucarecdn.com/b84cad34-3bd0-49bd-b0e2-8db917c51db5/
 ---
 ![How emerging technologies enhance visitors’ experiences of cultural heritage sites](https://ucarecdn.com/616516f0-7bd7-4913-bc01-669b5690233c/ "How emerging technologies enhance visitors’ experiences of cultural heritage sites")

@@ -8,6 +8,7 @@ target-audience:
   - VISITOR
   - PROFESSIONAL
 referenceTo: News
+status: completed
 theme: Technology
 thumbnail: https://ucarecdn.com/5640db19-4119-49b1-930c-273b27948c6e/
 ---

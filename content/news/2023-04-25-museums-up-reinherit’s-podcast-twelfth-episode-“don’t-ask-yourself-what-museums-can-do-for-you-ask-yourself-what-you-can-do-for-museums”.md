@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: Podcast
 theme: Management
+status: completed
 thumbnail: https://ucarecdn.com/ecaa4db6-b429-4eaf-967e-2ae5bc204dee/
 ---
 Dr Massimo Negri, a professional in the world of museology and industrial archaeology, member of the Board of the European Museum Academy Foundation and professor at the University of Padua, talks about audience participation in museums and how museums can involve local communities through their inclusion and representation in the projects they carry out.

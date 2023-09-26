@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: Podcast
 theme: Other
+status: completed
 thumbnail: https://ucarecdn.com/adcc88aa-76e8-46a4-928d-158daae28f83/
 ---
 Dianna Dianna Djokey, Learning Program Manager at the UK based visual arts organization Aspex Portsmouth, talks about the importance of collaborative curatorship in the cultural heritage sector.

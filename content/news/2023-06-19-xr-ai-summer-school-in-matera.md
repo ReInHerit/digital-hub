@@ -8,6 +8,7 @@ target-audience:
   - VISITOR
 referenceTo: Event
 theme: Technology
+status: completed
 thumbnail: https://ucarecdn.com/c14bcbd2-437c-4533-9025-a3447c0d2e8b/
 ---
 📣 ReinHerit Toolkit will be presented at the XR&AI Summer School in Matera, Italy from July 17-22, 2023! 🌞

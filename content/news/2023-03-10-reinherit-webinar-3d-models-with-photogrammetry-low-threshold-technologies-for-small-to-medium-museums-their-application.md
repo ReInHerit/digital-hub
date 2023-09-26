@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Technology
+status: completed
 thumbnail: https://ucarecdn.com/e3764500-f526-4b00-81a2-548a2433fdad/
 ---
 ![](https://ucarecdn.com/ea0346b0-885d-41f0-b21d-2c2834173efb/)

@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Management
+status: completed
 thumbnail: https://ucarecdn.com/9d79b8b0-5444-4b5c-b2bd-af354d83c957/
 ---
 ![ReInHerit Webinar - Narration in the museum context: when objects narrate their unique stories](https://ucarecdn.com/61ad86c1-3231-4c10-9dfd-a50e266b2662/ "ReInHerit Webinar - Narration in the museum context: when objects narrate their unique stories")

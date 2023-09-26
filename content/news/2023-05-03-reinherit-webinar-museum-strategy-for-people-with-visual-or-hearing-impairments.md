@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Management
+status: completed
 thumbnail: https://ucarecdn.com/37740dd2-f36c-4055-a2a1-6ef02be068c3/
 ---
 ![Museum strategy for people with visual or hearing impairments: In Touch with the Cycladic Civilization", a case study by the Museum of Cycladic Art ](https://ucarecdn.com/cddc9baa-1207-408c-9247-31a5444a8135/ "Museum strategy for people with visual or hearing impairments: In Touch with the Cycladic Civilization\", a case study by the Museum of Cycladic Art ")

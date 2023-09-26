@@ -11,6 +11,7 @@ target-audience:
 theme: Technology
 referenceTo: News
 thumbnail: https://ucarecdn.com/2f987758-3627-4130-993d-42b88fc1d084/
+status: completed
 ---
 ![ReInHerit Webinar: "Artificial Intelligence and Computer Vision for Cultural Heritage"](https://ucarecdn.com/fe669689-fd81-4171-be69-98b8dd2cef28/ "Artificial Intelligence and Computer Vision for Cultural Heritage")
 

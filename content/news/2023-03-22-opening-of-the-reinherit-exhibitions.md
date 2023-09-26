@@ -8,6 +8,7 @@ target-audience:
   - VISITOR
 referenceTo: Event
 theme: Management
+status: completed
 thumbnail: https://ucarecdn.com/e617beab-5c20-4c27-8055-c6990cc15fe3/
 ---
 **The Museum of Cycladic Art, the Bank of Cyprus Cultural Foundation and the Graz Museum invite you to the joint online opening of the project exhibitions:

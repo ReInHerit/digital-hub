@@ -9,6 +9,7 @@ target-audience:
   - VISITOR
 referenceTo: Event
 theme: Other
+status: completed
 thumbnail: https://ucarecdn.com/9fb8e161-dbf8-4e3d-9f18-31387275826d/
 ---
 **Dr Chryssanthi Papadopoulou

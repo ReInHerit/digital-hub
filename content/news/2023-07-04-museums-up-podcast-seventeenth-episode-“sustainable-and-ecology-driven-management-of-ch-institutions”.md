@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: Podcast
 theme: Management
+status: completed
 thumbnail: https://ucarecdn.com/14c5f507-640f-43b3-878d-c75fa9db9a40/
 ---
 Hicham Khalidi, contemporary art curator and Director of the Van Eyck Multiform Institute for Fine Art, Design, and Reflection in Maastricht, Netherlands, talks about how to implement actions committed to sustainability and ecology in the @janvaneyckacademie, an institution that has an official climate commitment. 

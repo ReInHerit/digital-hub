@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Technology
+status: completed
 thumbnail: https://ucarecdn.com/54b28764-749e-4abf-be13-7c2719573fa2/
 ---
 ![Visitor studies in the digital age: understanding digital audience engagement](https://ucarecdn.com/b5d25c86-1579-49db-a66d-4cc2599bbd5b/ "Visitor studies in the digital age: understanding digital audience engagement")

@@ -11,6 +11,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Management
+status: completed
 thumbnail: https://ucarecdn.com/5641d8a2-b3aa-46e2-8dc6-9ab084325bd9/
 ---
 ![Co-creation of Travelling and Digital Exhibitions: a value based approach](https://ucarecdn.com/62694ba2-73b2-4e03-b87c-ac9e2d1e00e5/ "Co-creation of Travelling and Digital Exhibitions: a value based approach")

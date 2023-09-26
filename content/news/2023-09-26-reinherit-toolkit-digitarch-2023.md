@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Technology
+status: draft
 thumbnail: https://ucarecdn.com/033e6e61-faf2-4a19-b4e3-d89a1a7db0e6/-/crop/733x591/67,0/-/preview/
 ---
 On September 6th, 2023, as part of the Summer School [DigitArch. Digital Collection Curator for Archaeology](https://site.unibo.it/digitarch/it?fbclid=IwAR3oGFKQQF2zNdFYc_J3xkILp_twSmG5s3A3zU46JsGg_HsOGeXFQ_njmrk) - Marco Bertini and Paolo Mazzanti, [MICC](http://www.micc.unifi.it) Media Integration and Communication Center / [NEMECH](http://nemech.unifi.it) - New Media For Cultural Herigtage Univ. of Florence,  gave a lecture titled "*Emotions, interactions and Digitals _ the museum experience"* presenting the [MuseiEmotivi ](http://nemech.unifi.it/musei-emotivi/)project,  innovative approaches for digital learning experience and emotional engagement, and on AI/CV tools part of the [Reinherit Toolkit.](https://reinherit-hub.eu/applications)

@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Tourism
+status: completed
 thumbnail: https://ucarecdn.com/43dbc857-7794-4732-a924-5778bd80ccb6/
 ---
 ![ReInHerit Webinar - European Capitals of Culture as a space for connecting tourism, cultural heritage and creative industries](https://ucarecdn.com/e963bac5-52aa-4ec2-bbe7-5afa9512df16/ "ReInHerit Webinar - European Capitals of Culture as a space for connecting tourism, cultural heritage and creative industries")

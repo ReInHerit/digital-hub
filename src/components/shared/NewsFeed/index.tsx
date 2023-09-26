@@ -117,7 +117,7 @@ export default NewsFeed
 const NEWS_QUERY = graphql`
 query NewsQuery {
   allMarkdownRemark(
-    filter: {fileAbsolutePath: {regex: "/news/"}}
+    filter: {fileAbsolutePath: {regex: "/news/"}, frontmatter: {status: {eq: "completed"}}}
     sort: {fields: frontmatter___date, order: DESC}
   ) {
     edges {
@@ -152,6 +152,7 @@ declare module NewsQueryData {
     mainReference: string | null
     thumbnail?: string
     theme: string
+    status: string
   }
 
   export interface Node {

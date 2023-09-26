@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Technology
+status: completed
 thumbnail: https://ucarecdn.com/b5f7371c-f2a0-4481-9d95-fb48a66e245b/-/crop/716x558/60,0/-/preview/
 ---
 `youtube: https://youtu.be/BjstSqyxbOg`

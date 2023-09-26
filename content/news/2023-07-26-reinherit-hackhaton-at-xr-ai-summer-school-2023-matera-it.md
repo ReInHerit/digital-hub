@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: Event
 theme: Technology
+status: completed
 thumbnail: https://ucarecdn.com/3a0e527b-6363-4e30-9648-ef2054b5b959/-/crop/367x392/0,58/-/preview/
 ---
 ![  ReInHerit Hackathon at XR&AI Summer School 2023 Matera IT](https://ucarecdn.com/18469952-5a9a-4690-bd87-3cb8a6e2b105/ "  ReInHerit Hackathon at XR&AI Summer School 2023 Matera IT")

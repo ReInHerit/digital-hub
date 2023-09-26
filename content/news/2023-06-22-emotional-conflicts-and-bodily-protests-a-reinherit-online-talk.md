@@ -9,6 +9,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Other
+status: completed
 thumbnail: https://ucarecdn.com/6a76e95e-540c-4e6d-b16f-89d2be3ecd1b/
 ---
 In the framework of the "ReThinking Identities" exhibition, the Museum of Cycladic Art organised an online talk titled "Emotional conflicts and bodily protests". The talk took place online on the 30th of March 2023 by Dr Chryssanthi Papadopoulou. 

@@ -9,6 +9,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: Podcast
 theme: Tourism
+status: completed
 thumbnail: https://ucarecdn.com/a3c32795-98ce-41fe-a86e-fc0087828c06/
 ---
 Do you know what sustainable cultural tourism means? How can museums and heritage sites develop and promote cultural tourism though cooperation? Manos Vougioukas, Secretary-General of the European Cultural Tourism Network (ECTN) and member of Europe Nostra, Interpret Europe and Europeana Network, will talk about the challenges of the regeneration of cultural tourism after the pandemic. 

@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Tourism
+status: completed
 thumbnail: https://ucarecdn.com/f79b6eb5-010f-453e-8180-d9ec64281086/
 ---
 ![Smart Tourism - Smart Destinations: Cultural Heritage, Digitalisation and Sustainability aspects](https://ucarecdn.com/0ce6398d-f135-4df5-b47e-5471115398dc/ "Smart Tourism - Smart Destinations: Cultural Heritage, Digitalisation and Sustainability aspects")

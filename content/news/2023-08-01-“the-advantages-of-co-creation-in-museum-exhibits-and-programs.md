@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: Podcast
 theme: Management
+status: completed
 thumbnail: https://ucarecdn.com/322659fe-5fe7-4bd4-bc45-215fb597bfb9/
 ---
 Tine Geunis, Head of the Education & Culture department at The Royal Museum for Central Africa in Belgium @[africamuseumbe](https://www.instagram.com/africamuseumbe/#), discuss co-creation during educational activities and with participants: learners taking control of their learning.

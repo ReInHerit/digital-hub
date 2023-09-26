@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: Podcast
 theme: Technology
+status: completed
 thumbnail: https://ucarecdn.com/6673cf1f-48bc-4446-b597-c0880bf4c330/
 ---
 Giuliano Gaia, a pioneer in the field of digital communications for museums in Italy, and co-founder together with Stefania Boiano of the cultural company [Invisible Studio](https://www.invisiblestudio.net/), will talk about how visitors can enrich their experience using digital technology in museums. He will also explain how the importance of a human-centered design is crucial to create better technology experiences in museums.

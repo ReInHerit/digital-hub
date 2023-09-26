@@ -9,6 +9,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Management
+status: completed
 thumbnail: https://ucarecdn.com/c5d4155e-d21e-4dbe-83bf-59526d1e08e0/
 ---
 ![ReInHerit Webinar - How to manage museums sustainably?](https://ucarecdn.com/84b3e4bb-7608-4c6c-90f9-c64deba59282/ "ReInHerit Webinar - How to manage museums sustainably?")

@@ -9,6 +9,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Management
+status: completed
 thumbnail: https://ucarecdn.com/ac41231a-2b3b-4f96-9290-5d971d0bc8ec/
 ---
 `youtube: https://www.youtube.com/watch?v=r166MjnxrD4`
