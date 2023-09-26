@@ -12,6 +12,9 @@ module.exports = {
     author: "Sebastian Stoff, Chiara Zuanni, Sina Krottmaier",
     image: "../static/images/rein_logo.jpg",
   },
+  flags: {
+    DEV_SSR: true
+  },
   // pathPrefix: ``,
   plugins: [
     {

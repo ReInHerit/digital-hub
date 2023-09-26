@@ -26,7 +26,7 @@ module.exports.DIGIHUB_QUERIES = (() => {
       }
     }
   }
-`
+  `
 
   const NEWS_PAGES = `
     query MyQuery {
@@ -185,6 +185,6 @@ query ExhibDocQuery {
     BESTPRACTICES_PAGES,
     GAMEDOC_PAGES,
     EXHIBDOC_PAGES,
-    SUMMERSCHOOL_PAGES
+    SUMMERSCHOOL_PAGES,
   }
 })()
