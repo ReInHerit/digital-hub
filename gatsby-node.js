@@ -121,7 +121,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
   });
 
    // adding summerschool documentation data from markdown
-   const summerschoolResult = await graphql(DIGIHUB_QUERIES.HACKATHONS_PAGES);
+   const summerschoolResult = await graphql(DIGIHUB_QUERIES.SUMMERSCHOOL_PAGES);
    summerschoolResult.data.allMarkdownRemark.edges.forEach(edge => {
      const mdId = edge.node.frontmatter.pageId
      actions.createPage({
