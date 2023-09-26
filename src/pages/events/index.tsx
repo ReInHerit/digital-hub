@@ -32,9 +32,9 @@ const EventsPage: React.FC = () => {
         body="The RETHINKING Travelling exhibitions, hosted in Cyprus, Greece, and Austria."
       />
       <ReinGridCard
-        title="XR&AI Summer School"
-        url="/summerschool/"
-        body="Summer School on XR and AI organised in July 2023."
+        title="Hackathons"
+        url="/hackathons/"
+        body="ReInHerit Hackathons."
       />
         
     </ReinCardGrid>

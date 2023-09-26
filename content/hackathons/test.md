@@ -1,6 +1,6 @@
 ---
 pageId: e48b6973-c140-40ff-bd51-a6ed7fb94e7f
-type: summerschool
+type: hackathons
 title: test
 date: 2023-09-05T13:35:49.756Z
 target-audience:

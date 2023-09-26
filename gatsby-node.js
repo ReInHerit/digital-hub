@@ -120,12 +120,12 @@ module.exports.createPages = async ({ graphql, actions}) => {
     })
   });
 
-   // adding summerschool documentation data from markdown
-   const summerschoolResult = await graphql(DIGIHUB_QUERIES.SUMMERSCHOOL_PAGES);
-   summerschoolResult.data.allMarkdownRemark.edges.forEach(edge => {
+   // adding hackathons documentation data from markdown
+   const hackathonsResult = await graphql(DIGIHUB_QUERIES.HACKATHONS_PAGES);
+   hackathonsResult.data.allMarkdownRemark.edges.forEach(edge => {
      const mdId = edge.node.frontmatter.pageId
      actions.createPage({
-       path: `/summerschool/${mdId}`,
+       path: `/hackathons/${mdId}`,
        component: require.resolve(`./src/templates/webinar.js`),
        context: { id: mdId },
      })
