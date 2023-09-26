@@ -33,7 +33,7 @@ const EventsPage: React.FC = () => {
       />
       <ReinGridCard
         title="Hackathons"
-        url="/hackathons/"
+        url="/summerschool/"
         body="ReInHerit Hackathons."
       />
         

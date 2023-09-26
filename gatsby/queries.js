@@ -13,9 +13,9 @@ module.exports.DIGIHUB_QUERIES = (() => {
       }
     }
   `
-  const HACKATHONS_PAGES = `
+  const SUMMERSCHOOL_PAGES = `
   query MyQuery {
-    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/hackathons/"}}) {
+    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/summerschool/"}}) {
       edges {
         node {
           frontmatter {
@@ -185,6 +185,6 @@ query ExhibDocQuery {
     BESTPRACTICES_PAGES,
     GAMEDOC_PAGES,
     EXHIBDOC_PAGES,
-    HACKATHONS_PAGES
+    SUMMERSCHOOL_PAGES
   }
 })()

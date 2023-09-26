@@ -7,47 +7,47 @@ import ReinGridCard from "../ReinCardGrid/ReinGridCard"
 import Thumbnail from "../Thumbnail"
 import { Row, Badge} from "react-bootstrap"
 
-const HackathonsFeed: React.FC = () => {
-  const data: HackathonsModel.Data = useStaticQuery(SUMMERSCHOOL_QUERY)
+const SummerSchoolFeed: React.FC = () => {
+  const data: SummerSchoolModel.Data = useStaticQuery(SUMMERSCHOOL_QUERY)
 
   return (
     <ReinCardGrid>
-      {data.allMarkdownRemark.edges.map((Hackathons, i) => (
+      {data.allMarkdownRemark.edges.map((SummerSchool, i) => (
         <ReinGridCard
-          key={Hackathons.node.frontmatter.pageId}
-          url={`/hackathons/${Hackathons.node.frontmatter.pageId}`}
-          title={Hackathons.node.frontmatter.title}
-          body={Hackathons.node.excerpt}
-          uid={Hackathons.node.frontmatter.pageId}
+          key={SummerSchool.node.frontmatter.pageId}
+          url={`/summerschool/${SummerSchool.node.frontmatter.pageId}`}
+          title={SummerSchool.node.frontmatter.title}
+          body={SummerSchool.node.excerpt}
+          uid={SummerSchool.node.frontmatter.pageId}
           footerContent={
             <Row>
             <Badge className={
             [
-                Hackathons.node.frontmatter.theme === "Technology" && "badge rounded-pill bg-primary float-end", 
-                Hackathons.node.frontmatter.theme === "Management" && "badge rounded-pill bg-warning float-end",
-                Hackathons.node.frontmatter.theme === "Tourism" && "badge rounded-pill bg-success float-end",
-                Hackathons.node.frontmatter.theme === "Other" && "badge rounded-pill bg-secondary float-end",
+                SummerSchool.node.frontmatter.theme === "Technology" && "badge rounded-pill bg-primary float-end", 
+                SummerSchool.node.frontmatter.theme === "Management" && "badge rounded-pill bg-warning float-end",
+                SummerSchool.node.frontmatter.theme === "Tourism" && "badge rounded-pill bg-success float-end",
+                SummerSchool.node.frontmatter.theme === "Other" && "badge rounded-pill bg-secondary float-end",
             ]
             }
-            style={{ fontSize: "1em", fontWeight: "normal", padding: "0.75em"}}>{Hackathons.node.frontmatter.theme}
+            style={{ fontSize: "1em", fontWeight: "normal", padding: "0.75em"}}>{SummerSchool.node.frontmatter.theme}
             </Badge>
           </Row>
         }
 
 
         >
-          {Hackathons.node.frontmatter.thumbnail && <Thumbnail src={Hackathons.node.frontmatter.thumbnail}></Thumbnail>}
+          {SummerSchool.node.frontmatter.thumbnail && <Thumbnail src={SummerSchool.node.frontmatter.thumbnail}></Thumbnail>}
         </ReinGridCard>
       ))}
     </ReinCardGrid>
   )
 }
 
-export default HackathonsFeed
+export default SummerSchoolFeed
 
-const HACKATHONS_QUERY = graphql`
-  query HackathonsQuery {
-    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/hackathons/" } }
+const SUMMERSCHOOL_QUERY = graphql`
+  query SummerSchoolQuery {
+    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/summerschool/" } }
     sort: {fields: frontmatter___date, order: DESC}
     ) {
       edges {
@@ -68,7 +68,7 @@ const HACKATHONS_QUERY = graphql`
   }
 `
 
-declare module HackathonsModel {
+declare module SummerSchoolModel {
   export interface Frontmatter {
     title: string
     date: string

@@ -795,17 +795,17 @@ collections:
           media_library: { config: { max_file_size: 50000000 } },
           required: false,
       }
-  - name: "hackathons"
-    label: "ReInHerit Hackathons" # Used in the UI
+  - name: "summerschool"
+    label: "ReInHerit XR&AI Summer School" # Used in the UI
     label_singular: "message" # Used in the UI, ie: "New Post"
-    folder: "content/hackathons"
-    description: This collection is intended for documenting the hackathons.
+    folder: "content/summerschool"
+    description: This collection is intended for documenting the summerschool.
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Page-ID", name: "pageId", widget: "uuid" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "hackathons" }
+      - { label: "Type", name: "type", widget: "hidden", default: "summerschool" }
       - {
           label: "Title",
           name: "title",
