@@ -1,4 +1,5 @@
 ---
+pageId: db96b296-45f2-4f8c-8bc7-5d3f5dca61d1
 layout: blog
 type: news
 title: ReInHerit Toolkit |  DIGITARCH 2023
