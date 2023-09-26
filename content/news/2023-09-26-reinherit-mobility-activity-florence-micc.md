@@ -10,7 +10,7 @@ target-audience:
   - PROFESSIONAL
 referenceTo: News
 theme: Technology
-thumbnail: https://ucarecdn.com/612c23d4-ad8f-42cc-8235-818590a4dc1e/-/crop/369x380/410,31/-/preview/
+thumbnail: https://ucarecdn.com/860f7383-b759-4cd3-9c0e-306545d4db71/-/crop/700x645/572,186/-/preview/
 ---
 On 13 July 2023 Within the framework of the ReInHerit mobility activities, the BoCCF- Bank of Cyprus Cultural Foundation has visited Florence and particularly the MICC  Media Integration and Communication Center of the University of Florence.
 
