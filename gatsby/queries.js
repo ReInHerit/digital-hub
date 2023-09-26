@@ -13,6 +13,20 @@ module.exports.DIGIHUB_QUERIES = (() => {
       }
     }
   `
+  const SUMMERSCHOOL_PAGES = `
+  query MyQuery {
+    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/summerschool/"}}) {
+      edges {
+        node {
+          frontmatter {
+            title
+            pageId
+          }
+        }
+      }
+    }
+  }
+`
 
   const NEWS_PAGES = `
     query MyQuery {

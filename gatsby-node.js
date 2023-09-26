@@ -120,6 +120,17 @@ module.exports.createPages = async ({ graphql, actions}) => {
     })
   });
 
+   // adding summerschool documentation data from markdown
+   const summerschoolResult = await graphql(DIGIHUB_QUERIES.SUMMERSCHOOL_PAGES);
+   summerschoolResult.data.allMarkdownRemark.edges.forEach(edge => {
+     const mdId = edge.node.frontmatter.pageId
+     actions.createPage({
+       path: `/summerschool/${mdId}`,
+       component: require.resolve(`./src/templates/webinar.js`),
+       context: { id: mdId },
+     })
+   });
+
    // adding exhibition documentation data from markdown
    const exhibdocResult = await graphql(DIGIHUB_QUERIES.EXHIBDOC_PAGES);
    exhibdocResult.data.allMarkdownRemark.edges.forEach(edge => {
