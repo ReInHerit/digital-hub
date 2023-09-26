@@ -3,7 +3,7 @@ layout: blog
 type: news
 title: ReInHerit Toolkit |  DIGITARCH 2023
 desc: " Summer School DigitArch. - Digital Collection Curator for Archaeology "
-date: 2023-09-26T08:27:06.183Z
+date: 2023-09-12T08:27:06.183Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
