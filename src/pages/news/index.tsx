@@ -4,9 +4,11 @@ import SideMainLayout from "../../components/shared/Layout/SideMainLayout"
 import NewsFeed from "../../components/shared/NewsFeed"
 import BaseLayout from "../../components/static/BaseLayout"
 import MainHeading from "../../components/static/MainHeading"
+import {SSRProvider} from '@react-aria/ssr'
 
 const NewsPage: React.FC = () => {
   return (
+    <SSRProvider>
     <BaseLayout
     pageTitle="News | ReInHerit Digital Hub"
     >
@@ -15,6 +17,7 @@ const NewsPage: React.FC = () => {
       </MainHeading>
       <NewsFeed></NewsFeed>
     </BaseLayout>
+    </SSRProvider>
   )
 }
 

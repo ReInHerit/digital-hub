@@ -6,15 +6,15 @@ import MainHeading from "../../components/static/MainHeading";
 const SummerSchoolPage = () => {
 
   return <BaseLayout
-  pageTitle="SummerSchool | ReInHerit Digital Hub"
+  pageTitle="Hackathon @ XR&AI Summer School | ReInHerit Digital Hub"
   >
     <MainHeading
-      subHeading="ReInHerit XR&AI SummerSchool."
+      subHeading="Showcase of the ReInHerit Hackathon during the XR&AI Summer School in Matera in July 2023."
       breadCrumb={[
         {label:"Resources", value:"/resources"},
-        {label:"SummerSchool", value:"/summerschool"}
+        {label:"Hackathon @Matera", value:"/summerschoolhackathon"}
       ]}
-    >ReInHerit SummerSchool</MainHeading>
+    >ReInHerit Hackathon (Matera, July 2023)</MainHeading>
     <SummerSchoolFeed></SummerSchoolFeed>
   </BaseLayout>
 

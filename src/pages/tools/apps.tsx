@@ -3,9 +3,11 @@ import React from "react"
 import ToolAppsFeed from "../../components/shared/ToolAppsFeed"
 import BaseLayout from "../../components/static/BaseLayout"
 import MainHeading from "../../components/static/MainHeading"
+import {SSRProvider} from '@react-aria/ssr'
 
 const Toolkit = () => {
   return (
+    <SSRProvider>
     <BaseLayout
     pageTitle="Applications documentation | ReInHerit Digital Hub"
     >
@@ -20,6 +22,7 @@ const Toolkit = () => {
       <p></p>
       <ToolAppsFeed></ToolAppsFeed>
     </BaseLayout>
+    </SSRProvider>
   )
 }
 
