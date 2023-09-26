@@ -1,0 +1,46 @@
+.button_hero_prof {
+    background-color: #18a0fb;
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 40px;
+    position: relative;
+    width: 250px;
+    color: #ffffff;
+    text-decoration: none;
+    text-decoration-thickness: 0px;
+    font-size: 16px;
+    left: 34px;
+    letter-spacing: -0.23px;
+    line-height: normal;
+}
+
+.button_hero_vis {
+    background-color: green;
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 40px;
+    position: relative;
+    width: 250px;
+    color: #ffffff;
+    text-decoration: none;
+    text-decoration-thickness: 0px;
+    font-size: 16px;
+    left: 34px;
+    letter-spacing: -0.23px;
+    line-height: normal;
+}
+
+.button_heroForum {
+    background-color: pink;
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 40px;
+    position: relative;
+    width: 250px;
+    color: #000000;
+    font-size: 25px;
+    left: 34px;
+    letter-spacing: -0.23px;
+    line-height: normal;
+    text-decoration: none;
+}
