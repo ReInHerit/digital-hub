@@ -7,6 +7,7 @@ import LatestFeedManagement from "./shared/LatestFeed/management"
 import LatestFeedTourism from "./shared/LatestFeed/tourism"
 import LatestFeedTechnology from "./shared/LatestFeed/technology"
 import "../styles/home.css"
+import "../styles/hero2.css"
 
 const Hero = () => {
 
@@ -54,28 +55,264 @@ const Hero = () => {
         <p className="ms-5 me-5 ps-sm-5 pe-sm-5" style={{fontSize:"1.35em", fontWeight:400}}>The Digital Hub of the ReInHerit project hosts the project exhibitions and gives access to engaging content for anyone passionate about heritage. Heritage professionals will find resources and training material to foster and support cultural tourism in museums and heritage sites, and a networking platform to connect and exchange experiences.</p>
         <br></br>
         <h3>Choose your path and #MakeItYourOwn!</h3>
-        <br></br>        
-      </Container>
-      <br />
-      <br />
-
-{/*
-      <Container className="p-md-4 ps-md-5 pe-md-5 text-center">
-      <div>
-      <Row xs={1} md={2} xxl={2} className="g-2" style={{minHeight:"10vh", textAlign:"center"}}>
-      <Col>
-      <h3>I am a professional</h3>
-      </Col>
-      <Col>
-      <h3>I am passionate about cultural heritage</h3>
-      </Col>
-      </Row>
+        <br></br>  
+        <br />
+        <br />
+      <div className="d-grid gap-2">
+      <Button variant="primary" size="lg" href="#professionalhero" style={{padding:"1em", fontSize:"1.5em"}}>I am working with Cultural Heritage</Button>
+      <Button variant="success" size="lg" href="#visitorhero" style={{padding:"1em", fontSize:"1.5em"}}>I am passionate about cultural heritage</Button>
       </div>
       </Container>
-    */}
+      <br />
+      <br />
 
-    <Container className="p-md-4 ps-md-5 pe-md-5 text-center">
+<div style={{backgroundColor:"#c5c7c6"}}>
+<Container className="mt-3 mb-3 p3 text-center">
+ <Row xs={1} md={4} style={{minHeight:"40vh", textAlign:"center"}}>
+  <Col>
+     <Card style={{marginTop:"8vh", maxWidth:"75vh"}}>
+      <Card.Header as="h4">Featured</Card.Header>
+      <Card.Body>
+        <Card.Title>ReThinking EXHIBITIONS</Card.Title>
+        <Card.Text>
+          Visit our three digital exhibitions: ReThinking Conflicts, ReThinking Identities, ReThinking Craftmanship.
+        </Card.Text>
+        <Button variant="success" href="/exhibitions/">Visit the digital exhibitions</Button>
+      </Card.Body>
+    </Card>
+  </Col>
+  <Col>
+     <Card style={{marginTop:"8vh", maxWidth:"75vh"}}>
+      <Card.Header as="h4">Featured</Card.Header>
+      <Card.Body>
+        <Card.Title>ReInHerit Webinars</Card.Title>
+        <Card.Text>
+          The webinars cover a range of topic in cultural heritage management and digital practices.
+        </Card.Text>
+        <Button variant="warning" href="/webinars">Check the past webinars</Button>
+      </Card.Body>
+    </Card>
+  </Col>
+  <Col>
+     <Card style={{marginTop:"8vh", maxWidth:"75vh"}}>
+      <Card.Header as="h4">Featured</Card.Header>
+      <Card.Body>
+        <Card.Title>ReInHerit e-Shop</Card.Title>
+        <Card.Text>
+          Visit the ReInHerit e-Shop to discover postcards, games, and more, and get inspired by cultural heritage!
+        </Card.Text>
+        <Button variant="danger" href="/eshop">Discover our free products!</Button>
+      </Card.Body>
+    </Card>
+  </Col>
+  <Col>
+     <Card style={{marginTop:"8vh", maxWidth:"75vh"}}>
+      <Card.Header as="h4">Featured</Card.Header>
+      <Card.Body>
+        <Card.Title>ReInHerit Forum</Card.Title>
+        <Card.Text>
+          Join the ReInHerit Forum and chat with other heritage professionals and
+          participate in the #ReInHeritChats!
+        </Card.Text>
+        <Button variant="primary" href="/forum">Join the conversation!</Button>
+      </Card.Body>
+    </Card>
+  </Col>
+</Row>
+</Container>
+<p></p>
+<br />
+</div>
+  
+
+<div id="visitorhero">
+<Container className="mt-5 mb-5 p3 text-center">
+<h2 className="mt-3 mb-3">Passionate about heritage?</h2>
+<Row>
+<p style={{textAlign: "left", fontSize:"1.35em", fontWeight:400}}>
+The ReInHerit project experimented with new technologies and new collaborations to develop an offer for anyone interested in cultural heritage. Here you can find:
+</p>
+<p></p>
+<p></p>
+  <Col>
+  <div className="d-grid gap-2">
+      <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/exhibitions/">The ReThinking Digital Exhibitions</Button>
+      <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/applications/">A set of AI-driven applications</Button>
+      <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="https://collection.reinherit-hub.eu/">The ReInHerit online collection</Button>
+      <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/game/">A videogame</Button>
+      <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/podcasts/">The Museums Up Podcast</Button>
+      <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/travellingexhibitions/">Info on the Travelling Exhibitions</Button>
+      <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/eshop/">The e-Shop</Button>
+      <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/events/">Info on our events</Button>
+  </div>
+  </Col>
+
+<Col>
+<Carousel variant="dark" style={{textAlign: "center"}}>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/visitors/eshop-visitors.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/visitors/events-visitors.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/visitors/DigExhib.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/visitors/game-visitors.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/visitors/onlineColl.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/visitors/podcast.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/visitors/toolkit-visitors.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/visitors/travExhib.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+</Carousel>
+</Col>
+</Row>
+</Container>
+</div>
+
+<div
+      style={{
+      backgroundImage:'url("/images/bannerObjects2.jpg")',
+      width: "99vw",
+      height: "45vh",
+      backgroundRepeat:"no-repeat",
+      backgroundPosition: "center",
+      backgroundSize: "cover"
+    }}></div>
+
+<div id="professionalhero">
+<Container className="mt-5 mb-5 p3 text-center">
+<h2 className="mt-3 mb-3">For heritage professionals</h2>
+<Row>
+<p style={{textAlign: "left", fontSize:"1.35em", fontWeight:400}}>
+The ReInHerit project developed learning resources and provides detailed documentation and code for its applications. Explore the resources here:
+</p>
+<p></p>
+<p></p>
+<Col>
+<Carousel variant="dark" style={{textAlign: "center"}}>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/12webinars.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/13onlineColl.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/14Performances.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/15Exhibitions.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/16eshop.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/17toolkit.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/18BestPractices.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/19Factsheets.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/20game.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/21components.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+</Carousel>
+</Col>
+
+<Col>
+<h5>Training material:</h5>
+  <div className="d-grid gap-2">
+
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/webinars/">Webinars</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/factsheets/">Research Factsheets</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="">(coming soon) Best Practices</Button>
+    
+  </div>
+    <Row className="mt-4"><h5>Documentation:</h5></Row>
+  <div className="d-grid gap-2">  
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/tools/apps/">AI-Apps Documentation</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/exhibdoc/">Exhibitions Documentation</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/firstperfdoc/overview/">Performances Documentation</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/eshopdoc/">e-Shop Documentation</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="">(coming soon) Videogame</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/exhibdoc/doconlinecoll/">Online Collection Documentation</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/tools/components/">A glossary for AI Apps</Button>
+  </div>
+
+</Col>
+</Row>
+</Container>
+</div>
+
+<div style={{backgroundColor:"#f5e9e9"}}>
+<Container className="mt-5 p3 text-center">
+<Row>
+<p style={{textAlign: "center", fontSize:"1.25em", fontWeight:500, marginTop:"6vh", marginBottom: "3vh"}}>
+Join the ReInHerit Forum to network with professionals and share your experiences navigating the Digital hub and using its tools!
+</p>
+<Button variant="danger" size="lg" href="/forum/">Join the Forum!</Button>
+</Row>
+
+<Row xs={1} md={2} style={{minHeight:"40vh", textAlign:"center"}}>
+  <Col>
+     <Card style={{marginTop:"8vh", maxWidth:"75vh"}}>
+      <Card.Header as="h4">Call for Action</Card.Header>
+      <Card.Body>
+        <Card.Title>Host an exhibition</Card.Title>
+        <Card.Text>
+          Discover how to host one of our travelling "ReTHINKING" exhibitions.
+        </Card.Text>
+        <Button variant="danger" href="/museumcalls/travelling/">Learn more</Button>
+      </Card.Body>
+    </Card>
+  </Col>
+  <Col>
+     <Card style={{marginTop:"8vh", maxWidth:"75vh"}}>
+      <Card.Header as="h4">Call for Action</Card.Header>
+      <Card.Body>
+        <Card.Title>Contribute to the Online Collection</Card.Title>
+        <Card.Text>
+          Discover how to share your objects in the ReInHerit Digital Collection.
+        </Card.Text>
+        <Button variant="danger" href="/museumcalls/digital/">Learn more</Button>
+      </Card.Body>
+    </Card>
+  </Col>
+</Row>
+</Container>
+</div>
+
+
+<div
+style={{
+ backgroundImage:'url("/images/bannerPeople2.jpg")',
+ width: "99vw",
+ height: "45vh",
+ backgroundRepeat:"no-repeat",
+ backgroundPosition: "center",
+ backgroundSize: "cover"
+ }}>
+</div>
+
+
+<div style={{backgroundColor:"#c5c7c6"}}>
+<Container className="p-md-4 ps-md-5 pe-md-5 text-center">
       <div>
+        <h3>Quick links to core areas</h3>
       <br />
       <Row xs={1} md={3} xxl={3} className="g-3" style={{minHeight:"50vh", textAlign:"left"}}>
       <Col>
@@ -165,73 +402,6 @@ const Hero = () => {
       </Row>
       </div>
     </Container>
-      <br />
-      <br />
-
-    <div
-      style={{
-      backgroundImage:'url("/images/bannerPeople2.jpg")',
-      width: "99vw",
-      height: "45vh",
-      backgroundRepeat:"no-repeat",
-      backgroundPosition: "center",
-      backgroundSize: "cover"
-    }}></div>
-  
-  <div>
-<Container className="mt-3 mb-3 p3 text-center">
- <Row xs={1} md={4} style={{minHeight:"40vh", textAlign:"center"}}>
-  <Col sm>
-     <Card className="ms-3 me-1 g-5" style={{marginTop:"8vh", maxWidth:"75vh"}}>
-      <Card.Header as="h4">Featured</Card.Header>
-      <Card.Body>
-        <Card.Title>ReThinking EXHIBITIONS</Card.Title>
-        <Card.Text>
-          Visit our three digital exhibitions: ReThinking Conflicts, ReThinking Identities, ReThinking Craftmanship.
-        </Card.Text>
-        <Button variant="success" href="/exhibitions/">Visit the digital exhibitions</Button>
-      </Card.Body>
-    </Card>
-  </Col>
-  <Col sm>
-     <Card className="ms-1 me-1 g-5" style={{marginTop:"8vh", maxWidth:"75vh"}}>
-      <Card.Header as="h4">Featured</Card.Header>
-      <Card.Body>
-        <Card.Title>ReInHerit Webinars</Card.Title>
-        <Card.Text>
-          The webinars cover a range of topic in cultural heritage management and digital practices. A new webinar is published every two weeks.
-        </Card.Text>
-        <Button variant="warning" href="/webinars">Check the past webinars</Button>
-      </Card.Body>
-    </Card>
-  </Col>
-  <Col sm>
-     <Card className="ms-1 me-1 g-5" style={{marginTop:"8vh", maxWidth:"75vh"}}>
-      <Card.Header as="h4">Featured</Card.Header>
-      <Card.Body>
-        <Card.Title>ReInHerit e-Shop</Card.Title>
-        <Card.Text>
-          Visit the ReInHerit e-Shop to discover planners and games, 3D models and postcards, and get inspired by cultural heritage!
-        </Card.Text>
-        <Button variant="danger" href="/eshop">Discover our free products!</Button>
-      </Card.Body>
-    </Card>
-  </Col>
-  <Col sm>
-     <Card className="ms-1 me-3 g-5" style={{marginTop:"8vh", maxWidth:"75vh"}}>
-      <Card.Header as="h4">Featured</Card.Header>
-      <Card.Body>
-        <Card.Title>ReInHerit Forum</Card.Title>
-        <Card.Text>
-          Join the ReInHerit Forum and chat with other heritage professionals and
-          participate in the #ReInHeritChats!
-        </Card.Text>
-        <Button variant="primary" href="/forum">Join the conversation!</Button>
-      </Card.Body>
-    </Card>
-  </Col>
-</Row>
-</Container>
 </div>
 
 {/*
@@ -260,16 +430,7 @@ const Hero = () => {
   </Row>   
 </Container>
 */}
-<div
-style={{
- backgroundImage:'url("/images/bannerObjects2.jpg")',
- width: "99vw",
- height: "45vh",
- backgroundRepeat:"no-repeat",
- backgroundPosition: "center",
- backgroundSize: "cover"
- }}>
-</div>
+
 
 </div>
   )
