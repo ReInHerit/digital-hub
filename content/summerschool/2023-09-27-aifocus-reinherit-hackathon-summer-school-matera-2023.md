@@ -20,8 +20,10 @@ A multidisciplinary group of young PhD students worked on the theme *"Smart Inte
 
 During the week, international speakers and famous experts debated and engaged with international students and researchers with different educational content and skills. Young PhD students worked in an interdisciplinary way on the ReInherit web apps Strike-a-Pose / Face-Fit using open-source codes shared by the Digital Hub. 
 
-This co-creation process added new technological developments for apps and user interaction scenarios, improving engagement, inclusivity and new design features The project proposal, entitled AIFOCUS, aims to merge the chatbot 'VIOLA' and Smart Lens to create an interactive art experience, offering insights into works of art through conversation. Users explore works of art through the camera of their smartphone, engaging in discovering details through the enjoyment of multimedia content. The aim is to promote knowledge among young people and stimulate their curiosity about art, making learning an engaging and accessible experience for all. Users can scan the details to be examined with their smartphone camera. When users open the web app, they can explore and discover the details of the artwork. 
+This co-creation process added new technological developments for apps and user interaction scenarios, improving engagement, inclusivity and new design features The project proposal, entitled AIFOCUS, aims to merge the chatbot 'VIOLA' and Smart Lens to create an interactive art experience, offering insights into works of art through conversation. Users explore works of art through the camera of their smartphone, engaging in discovering details through the enjoyment of multimedia content. The aim is to promote knowledge among young people and stimulate their curiosity about art, making learning an engaging and accessible experience for all. Users can scan the details to be examined with their smartphone camera. When users open the web app, they can explore and discover the details of the artwork.  They can start a conversation with the chatbot, which provides detailed answers about the analysed details.
 
-They can initiate a conversation with the chatbot, which provides detailed answers about the analysed details. As a case study applied to the local context, the crib of the Matera Cathedral was chosen.
+
+
+ As a case study applied to the local context, the crib of the Matera Cathedral was chosen.
 
 `youtube: https://youtu.be/THX_2PNmJ9I?si=0iA0afQL2vdTXON9`
