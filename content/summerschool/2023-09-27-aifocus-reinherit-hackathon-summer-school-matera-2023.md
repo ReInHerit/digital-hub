@@ -15,7 +15,7 @@ slides: https://ucarecdn.com/2a04c7eb-3bf1-4f04-b7dc-25ea2d56414f/
 ---
 ![AIFOCUS | ReInHerit Hackathon - Summer School Matera 2023](https://ucarecdn.com/f9336792-575e-47d8-bf68-85a6257801ae/ "AIFOCUS | ReInHerit Hackathon - Summer School Matera 2023")
 
-Smart Lens and VIOLA Multimedia Chatbot web apps of the ReInHerit Toolkit were tested and redesigned during a hackathon organised as part of the AI&XR Summer School held in Matera in July 2023. 
+[Smart Lens](https://reinherit-hub.eu/tools/apps/1e20d094-391f-40d4-820f-84423e30cec4) and [VIOLA Multimedia Chatbot](https://reinherit-hub.eu/tools/apps/543b2b77-35f1-41b5-b06e-3a355f2a1c6b) web apps of the [ReInHerit Toolkit ](https://reinherit-hub.eu/tools/apps)were tested and redesigned during a hackathon organised as part of the [AI&XR Summer School ](https://xrsalento.it/xrai-summer-school-2023/)held in Matera in July 2023. 
 
 ![AIFOCUS | ReInHerit Hackathon - Summer School Matera 2023](https://ucarecdn.com/b4140c6d-0058-45b1-a4d8-d7951736d43e/ "AIFOCUS | ReInHerit Hackathon - Summer School Matera 2023")
 
@@ -29,4 +29,6 @@ This co-creation process added new technological developments for apps and user 
 
  As a case study applied to the local context, the crib of the Matera Cathedral was chosen.
 
-`youtube: https://youtu.be/THX_2PNmJ9I?si=0iA0afQL2vdTXON9`
+`youtube: https://youtu.be/THX_2PNmJ9I?si=0iA0afQL2vdTXON9 `
+
+`youtube: https://youtu.be/BjstSqyxbOg?si=SYvXYPbXGOZh_ogB`
