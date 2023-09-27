@@ -14,9 +14,9 @@ thumbnail: https://ucarecdn.com/531dff6d-5885-4a16-b93c-7017fa237143/
 ---
 Smart Lens and VIOLA Multimedia Chatbot web apps of the ReInHerit Toolkit were tested and redesigned during a hackathon organised as part of the AI&XR Summer School held in Matera in July 2023. 
 
+![](https://ucarecdn.com/f924096e-f8b2-4bb7-9135-29a3c23a9a51/)
+
 A multidisciplinary group of young PhD students worked on the theme *"Smart Interaction and Digital Content*", testing the Strike-a-Pose and Face-Fit apps, using the open-source codes of Digital Hub. 
-
-
 
 During the week, international speakers and famous experts debated and engaged with international students and researchers with different educational content and skills. Young PhD students worked in an interdisciplinary way on the ReInherit web apps Strike-a-Pose / Face-Fit using open-source codes shared by the Digital Hub. 
 
