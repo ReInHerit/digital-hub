@@ -61,4 +61,4 @@ During the hackathon, professionals and experts were invited [to chat  via  th
 
 ### SmartLens video prsentation:
 
-`youtube: https://youtu.be/ySTcIsiZkao?si=37zC436YLMpGtICH&t=60`
+`youtube: https://youtu.be/ySTcIsiZkao?si=dtU-F12zZVixbMSG&t=53`
