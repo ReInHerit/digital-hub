@@ -11,8 +11,6 @@ target-audience:
 theme: Technology
 license: CC BY 2.0
 ---
-
-
 ![XR&AI Summer School 2023 - ReInHerit Hackathon ](https://ucarecdn.com/c6b4b5cb-c7ab-4c8f-989b-178242da9cbb/ "XR&AI Summer School 2023 - ReInHerit Hackathon ")
 
 Students and researchers from **different international academic backgrounds** participated in the international [XR&AI Summer School](https://xrsalento.it/xrai-summer-school-2023/) 2023 from 17 to 22 July in Matera Italy, working on the topics of **Extended Reality** and **Artificial Intelligence**. The school was held in the [House of Technology](https://ctematera.it) in Matera and was organized with the support of [**MateraHUB**.](https://www.materahub.com)
@@ -34,3 +32,18 @@ The **XR&AI Summer School 2023** was realised in **collaboration** with Casa
 
 * AIFOCUS
 * Strike A Pose 2.0
+
+
+
+### **Online Press Release**
+
+* [Puglialive.net](https://www.puglialive.net/cte-matera-conclusa-nella-citta-dei-sassi-la-sesta-edizione-di-extended-reality-and-artificial-intelligence-international-summer-school-2023/)
+* [Materanews.net](https://www.materanews.net/a-matera-studenti-e-ricercatori-da-tutto-il-mondo-ecco-le-foto/)
+* [Sassilive.it](https://www.sassilive.it/economia/lavoro/extended-reality-and-artificial-intelligence-international-summer-school-2023-6-edizione-alla-casa-delle-tecnologie-emergenti-di-matera-report-e-foto/)
+* [GiormnaledellaBasilicata.com](https://www.giornaledibasilicata.com/2023/07/alla-cte-matera-si-e-tenuta-la-sesta.html)
+* [trmtv.it/tecnologia](https://www.trmtv.it/tecnologia/2023_07_24/386978.html?fbclid=IwAR0bnZPlckDJQ1WRNZtGANgvf3KZo0r8w6IbTs4Njvp3PgpoknN_eIAQqkk) 
+* [Aise.it](https://www.aise.it/ambiente-e-ricerca/extended-reality-and-ai-international-summer-school-2023-a-matera-la-sesta-edizione-/193228/2)
+* [Genteeterritorio.it](https://www.genteeterritorio.it/conclusa-alla-cte-matera-la-extended-reality-and-artificial-intelligence/)
+* [Cittadinitwitter.it](https://cittadiniditwitter.it/news/alla-cte-matera-si-e-tenuta-la-sesta-edizione-di-extended-reality-and-artificial-intelligence-international-summer-school-2023/)
+* [Moltouomo.it](https://www.moltouomo.it/uomo-cultura-societa/intelligenza-artificiale-e-realta-estesa-la-citta-di-matera-splendida-cornice-allevento-internazionale/)
+* [Zazoom.it](https://www.zazoom.it/2023-07-24/intelligenza-artificiale-e-realta-estesa-la-citta-di-matera-splendida-cornice-allevento-internazionale/13258528/)
