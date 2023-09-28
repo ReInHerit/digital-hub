@@ -38,6 +38,7 @@ During the week, international speakers and famous experts debated and engaged w
 ###  Supervisors:
 
 * Marco Bertini Media Integration and Communication Center, UNIFI IT
+* Paolo Mazzanti Media Integration and Communication Center, UNIFI IT
 * Filippo Principi Media Integration and Communication Center, UNIFI IT
 * with the support of Luca Mechionna - “[Machineria - Stories that Work"](https://machineria.it/machineria-stories-that-work)
 * coordinated by  Raffaele Vitulli MateraHUB
