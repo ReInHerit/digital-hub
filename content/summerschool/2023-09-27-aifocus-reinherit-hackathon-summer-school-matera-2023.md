@@ -24,7 +24,7 @@ slides: https://ucarecdn.com/2a04c7eb-3bf1-4f04-b7dc-25ea2d56414f/
 
 ### Team:
 
-A multidisciplinary group of young PhD students worked on the theme *"Smart Interaction and Digital Content*", testing the Viola Chatbot and SmartLens apps, using open-source codes from Digital Hub and adapted them to artworks from some local museums. This co-creation process has revealed new potential technological developments for the apps and user interaction scenarios.
+A multidisciplinary group of young PhD students worked on the theme *"Smart Interaction and Digital Content*", testing the Viola Chatbot and SmartLens apps, using open-source codes from Digital Hub and adapted them to artworks from some local museums. This co-creation process has revealed new potential technological developments for the ReinHerit apps and new user interaction scenarios.
 
 * Antonio Aprile PAVANA A.P.S, Italy
 * Fabio Vangi POLIBA Politecnico Bari, Italy 
