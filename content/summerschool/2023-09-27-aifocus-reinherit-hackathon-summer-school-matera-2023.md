@@ -5,7 +5,7 @@ type: summerschool
 title: AIFOCUS | ReInHerit Hackathon - Summer School Matera 2023
 desc: “AIFOCUS “ Smart Interaction and Digital Contents (AI/CV) | SmartLens &
   VIOLA Multimedia Chatbot
-date: 2023-09-27T10:07:15.136Z
+date: 2023-09-28T10:07:15.136Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
