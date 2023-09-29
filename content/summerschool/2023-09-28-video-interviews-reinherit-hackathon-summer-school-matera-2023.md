@@ -2,7 +2,7 @@
 pageId: 4f663fec-1b52-4434-a6ad-6dd5e8c71fc0
 layout: blog
 type: summerschool
-title: Video Interviews  | ReInHerit Hackathon - Summer School Matera 2023
+title: Video Interviews  | ReInHerit Hackathon
 desc: Video Interviews | ReInHerit Hackathon - Summer School Matera 2023
 date: 2023-09-28T17:10:02.798Z
 target-audience:
