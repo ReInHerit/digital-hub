@@ -2,8 +2,8 @@
 pageId: 533d385a-9b20-4026-b6db-805395fc1dd4
 layout: blog
 type: summerschool
-title: Redesigning  the Toolkit Apps | ReIhHerit Hackathon  - XR&AI Summer School
-desc: Redesigning the Toolkit Apps | ReIhHerit Hackathon  - XR&AI Summer School
+title: Co-create Toolkit Apps | ReIhHerit Hackathon  - XR&AI Summer School
+desc: Co-create Toolkit Apps | ReIhHerit Hackathon  - XR&AI Summer School
 date: 2023-09-28T16:42:00.495Z
 target-audience:
   - VISITOR
