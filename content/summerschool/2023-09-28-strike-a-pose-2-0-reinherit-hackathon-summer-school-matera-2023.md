@@ -2,7 +2,7 @@
 pageId: 6205f8e2-60aa-46d2-bca3-bc46c9283029
 layout: blog
 type: summerschool
-title: " Strike a Pose 2.0 | ReInHerit Hackathon - Summer School Matera 2023"
+title: " Strike a Pose 2.0 | ReInHerit Hackathon"
 date: 2023-09-27T09:32:27.766Z
 target-audience:
   - VISITOR
