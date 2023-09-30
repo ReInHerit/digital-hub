@@ -10,7 +10,7 @@ target-audience:
   - PROFESSIONAL
 theme: Technology
 license: CC BY 2.0
-thumbnail: https://ucarecdn.com/7d7363be-23f5-4018-9b00-0be263bc603f/
+thumbnail: https://ucarecdn.com/8aad8d94-a445-4fb8-bacb-835f731ef112/
 ---
 **TRMTV Network  interviews**
 
