@@ -11,7 +11,7 @@ target-audience:
   - PROFESSIONAL
 theme: Technology
 license: CC BY 2.0
-thumbnail: null
+thumbnail: https://ucarecdn.com/5f63db77-7f5b-40ac-a40a-f145b6d81111/
 slides: https://ucarecdn.com/2a04c7eb-3bf1-4f04-b7dc-25ea2d56414f/
 ---
 `youtube: https://youtu.be/THX_2PNmJ9I?si=0iA0afQL2vdTXON9 `
