@@ -126,7 +126,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
      const mdId = edge.node.frontmatter.pageId
      actions.createPage({
        path: `/summerschool/${mdId}`,
-       component: require.resolve(`./src/templates/webinar.js`),
+       component: require.resolve(`./src/templates/summerschool.js`),
        context: { id: mdId },
      })
    });
