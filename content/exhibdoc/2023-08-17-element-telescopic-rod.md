@@ -2,7 +2,7 @@
 pageId: 4356dfbb-9144-46cf-a126-1901488dd663
 layout: blog
 type: exhibdoc
-title: "5. Element: Telescopic Rod"
+title: "6. Element: Telescopic Rod"
 date: 2023-08-17T11:28:02.376Z
 target-audience:
   - PROFESSIONAL
