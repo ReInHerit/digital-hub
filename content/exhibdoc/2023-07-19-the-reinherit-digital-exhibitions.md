@@ -2,7 +2,7 @@
 pageId: 0fefc1e5-ef8a-48dc-a476-945a3e0bf371
 layout: blog
 type: exhibdoc
-title: 0. The ReInHerit Digital Exhibitions
+title: 1. The ReInHerit Digital Exhibitions
 date: 2023-07-19T08:02:40.033Z
 target-audience:
   - PROFESSIONAL
