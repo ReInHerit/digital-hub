@@ -2,7 +2,7 @@
 pageId: 9d4b4d8c-8b8e-47ac-bf8e-a69678f4d13d
 layout: blog
 type: exhibdoc
-title: "The Travelling Exhibition Step by Step - Step 9 "
+title: "9. The Travelling Exhibition - Step 9 "
 date: 2023-08-17T10:50:22.141Z
 target-audience:
   - PROFESSIONAL
