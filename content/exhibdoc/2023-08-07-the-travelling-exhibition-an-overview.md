@@ -2,7 +2,7 @@
 pageId: de1b509e-a40a-4128-bc24-9e4fdfac2c6e
 layout: blog
 type: exhibdoc
-title: The Travelling Exhibition - An Overview
+title: 1. The Travelling Exhibition - An Overview
 date: 2023-08-07T10:28:48.582Z
 target-audience:
   - PROFESSIONAL
