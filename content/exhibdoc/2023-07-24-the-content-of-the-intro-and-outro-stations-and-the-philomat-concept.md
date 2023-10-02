@@ -2,7 +2,7 @@
 pageId: 30697f18-ab6e-44cc-b573-b8ef6896f4f9
 layout: blog
 type: exhibdoc
-title: The Content of the Intro and Outro Stations and the Philomat Concept
+title: 3. The Content of the Intro and Outro Stations and the Philomat Concept
 date: 2023-07-24T08:12:36.078Z
 target-audience:
   - PROFESSIONAL
