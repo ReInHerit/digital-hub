@@ -2,7 +2,7 @@
 pageId: 30076ad6-1b88-4487-b685-cff8c08958ad
 layout: blog
 type: exhibdoc
-title: Choosing the Right Tools
+title: 3. Choosing the Right Tools
 date: 2023-07-19T09:06:31.595Z
 target-audience:
   - PROFESSIONAL
