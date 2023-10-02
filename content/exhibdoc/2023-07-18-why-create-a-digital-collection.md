@@ -2,7 +2,7 @@
 pageId: 8123ca3d-bbee-4d61-9f5f-1c35bb947534
 layout: blog
 type: exhibdoc
-title: Why Create a Digital Collection?
+title: 2. Why Create a Digital Collection?
 date: 2023-07-18T11:37:03.955Z
 target-audience:
   - PROFESSIONAL
