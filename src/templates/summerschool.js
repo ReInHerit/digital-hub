@@ -93,6 +93,23 @@ export default function Template({
                   frontmatter.slides.length !== 0 && (
               <a style={{borderRadius:0}} href={frontmatter.slides} download="webinar_slides" className="btn btn-info border-radius-0" target="_blank" rel="noreferrer">Click this button to download the presentation of project concepts by the participants.</a>
                   )}
+
+            {frontmatter.iframe &&
+                  frontmatter.iframe.length !== 0 && (
+                  <div>
+                    <iframe 
+                    src={frontmatter.iframe}
+                    width="560" 
+                    height="488" 
+                    style="border:none;overflow:hidden" 
+                    scrolling="no" 
+                    frameborder="0" 
+                    allowfullscreen="true" 
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
+                    allowFullScreen="true">
+                    </iframe>
+                  </div>
+              )}
               </Container>
           </SideMainLayout>
         </div>
