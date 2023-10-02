@@ -2,7 +2,7 @@
 pageId: c6b06adf-df77-45e7-aacb-e2c10484496e
 layout: blog
 type: exhibdoc
-title: Exhibition design and basic requirements
+title: 1. Exhibition design and basic requirements
 date: 2023-07-19T10:39:06.775Z
 target-audience:
   - PROFESSIONAL
