@@ -2,7 +2,7 @@
 pageId: 5e57b484-7bff-41dc-a9ea-9035c0bc7dc2
 layout: blog
 type: exhibdoc
-title: Structure of the Intro and Outro Stations
+title: 4. Structure of the Intro and Outro Stations
 date: 2023-07-24T08:13:30.570Z
 target-audience:
   - PROFESSIONAL
