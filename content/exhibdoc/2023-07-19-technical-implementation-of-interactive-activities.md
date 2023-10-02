@@ -2,7 +2,7 @@
 pageId: e11ff6f9-6eaa-4cfd-87d5-74029c148db3
 layout: blog
 type: exhibdoc
-title: 5. Technical Implementation of Interactive Activities
+title: 6. Technical Implementation of Interactive Activities
 date: 2023-07-19T09:28:33.242Z
 target-audience:
   - PROFESSIONAL
