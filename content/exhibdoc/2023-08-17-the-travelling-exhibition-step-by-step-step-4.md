@@ -2,7 +2,7 @@
 pageId: 428b9d32-215a-4d7f-9204-c953e572ffac
 layout: blog
 type: exhibdoc
-title: The Travelling Exhibition Step by Step - Step 4
+title: 4. The Travelling Exhibition - Step 4
 date: 2023-08-17T10:36:40.210Z
 target-audience:
   - PROFESSIONAL
