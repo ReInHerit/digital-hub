@@ -2,7 +2,7 @@
 pageId: e4235692-127b-41ae-a393-950f03561868
 layout: blog
 type: exhibdoc
-title: 1. Developing Digital Formats
+title: 2. Developing Digital Formats
 date: 2023-07-19T08:11:33.840Z
 target-audience:
   - PROFESSIONAL
