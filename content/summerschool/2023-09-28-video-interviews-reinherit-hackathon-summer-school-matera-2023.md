@@ -12,7 +12,7 @@ theme: Technology
 license: CC BY 2.0
 thumbnail: https://ucarecdn.com/b048a8e4-ee71-41dd-aecc-28f208a3c5a7/
 ---
-**TRMTV Network  interviews**
+### TRMTV Network Interviews:
 
 `youtube: https://youtu.be/f7aXbFrET1Y`
 
@@ -20,7 +20,7 @@ thumbnail: https://ucarecdn.com/b048a8e4-ee71-41dd-aecc-28f208a3c5a7/
 
 `youtube: https://youtu.be/iawKAPBtJk4`
 
-**Short videos of lecturers and supervisors | EDIH - Heritage Smart Lab | European Digital Innovation Lab**
+### Short videos of lecturers and supervisors | EDIH - Heritage Smart Lab | European Digital Innovation Lab:
 
 * **[Marco Bertini ](https://fb.watch/m1fi_IuJaJ/)**[MICC](http://www.micc.unifi.it) Director [](https://www.facebook.com/miccunifi?__tn__=-%5DK)
 * **[Paolo Mazzanti](https://fb.watch/m1fnU4hRUN/)** [MICC](http://www.micc.unifi.it)  [NEMECH](http://nemech.unifi.it) Researcher
