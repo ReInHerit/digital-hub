@@ -2,7 +2,7 @@
 pageId: c2e9f7d0-69c4-49ed-96f1-4cd9ca036b0b
 layout: blog
 type: exhibdoc
-title: The ReInHerit Digital Collection
+title: 1. The ReInHerit Digital Collection
 date: 2023-07-18T11:33:39.917Z
 target-audience:
   - PROFESSIONAL
