@@ -2,7 +2,7 @@
 pageId: 674237f5-dadf-492b-a5b5-f90eac89177b
 layout: blog
 type: exhibdoc
-title: "Elements: Overview"
+title: "2. Elements: Overview"
 date: 2023-08-17T11:19:56.274Z
 target-audience:
   - PROFESSIONAL
