@@ -2,7 +2,7 @@
 pageId: 6b8b8465-e1e9-479f-a991-db9fcad85c3c
 layout: blog
 type: exhibdoc
-title: The Travelling Exhibition Step by Step - Step 1
+title: 1. The Travelling Exhibition - Step 1
 date: 2023-08-07T11:23:47.263Z
 target-audience:
   - PROFESSIONAL
