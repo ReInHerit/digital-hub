@@ -2,7 +2,7 @@
 pageId: bda2292f-73d0-4225-8790-c8c616c30e8e
 layout: blog
 type: exhibdoc
-title: Technical Requirements
+title: 4. Technical Requirements
 date: 2023-07-20T11:50:36.823Z
 target-audience:
   - PROFESSIONAL
