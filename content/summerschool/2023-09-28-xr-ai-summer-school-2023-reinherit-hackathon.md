@@ -10,6 +10,7 @@ target-audience:
   - PROFESSIONAL
 theme: Technology
 license: CC BY 2.0
+thumbnail: https://ucarecdn.com/6cab6091-fe15-40b2-9a33-c63cd5a754a1/
 ---
 ![XR&AI Summer School 2023 - ReInHerit Hackathon ](https://ucarecdn.com/c6b4b5cb-c7ab-4c8f-989b-178242da9cbb/ "XR&AI Summer School 2023 - ReInHerit Hackathon ")
 
