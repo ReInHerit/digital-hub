@@ -94,19 +94,40 @@ export default function Template({
               <a style={{borderRadius:0}} href={frontmatter.slides} download="webinar_slides" className="btn btn-info border-radius-0" target="_blank" rel="noreferrer">Click this button to download the presentation of project concepts by the participants.</a>
                   )}
 
-            {frontmatter.iframe &&
-                  frontmatter.iframe.length !== 0 && (
+            {frontmatter.iframesrc1 &&
+                  frontmatter.iframesrc1.length !== 0 && (
                   <div>
                     <iframe 
-                    src={frontmatter.iframe}
-                    width="560" 
-                    height="488" 
-                    style="border:none;overflow:hidden" 
-                    scrolling="no" 
-                    frameborder="0" 
-                    allowfullscreen="true" 
-                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
-                    allowFullScreen="true">
+                    src={frontmatter.iframesrc1}
+                    width={560}
+                    height={488}
+                    allowFullScreen="true" 
+                    >
+                    </iframe>
+                  </div>
+              )}
+              {frontmatter.iframesrc2 &&
+                  frontmatter.iframesrc2.length !== 0 && (
+                  <div>
+                    <iframe 
+                    src={frontmatter.iframesrc2}
+                    width={560}
+                    height={488}
+                    allowFullScreen="true" 
+                    >
+                    </iframe>
+                  </div>
+              )}
+              {frontmatter.iframesrc3 &&
+                  frontmatter.iframesrc3.length !== 0 && (
+                  <div>
+                    <iframe 
+                    src={frontmatter.iframesrc3}
+                    width={560}
+                    height={500}
+                    allowFullScreen="true"
+                    style={{border: "2px", borderColor:"grey"}}
+                    >
                     </iframe>
                   </div>
               )}
@@ -132,6 +153,9 @@ query($id: String!) {
       theme
       thumbnail
       type
+      iframesrc1
+      iframesrc2
+      iframesrc3
     }
   id
   excerpt
