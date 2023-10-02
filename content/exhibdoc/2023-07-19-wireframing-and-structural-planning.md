@@ -2,7 +2,7 @@
 pageId: e9b2c4c8-2162-4505-86b8-48f5eee9460b
 layout: blog
 type: exhibdoc
-title: 2. Wireframing and Structural Planning
+title: 3. Wireframing and Structural Planning
 date: 2023-07-19T08:23:27.679Z
 target-audience:
   - PROFESSIONAL
