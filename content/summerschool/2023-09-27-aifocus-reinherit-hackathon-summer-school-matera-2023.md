@@ -16,7 +16,7 @@ slides: https://ucarecdn.com/2a04c7eb-3bf1-4f04-b7dc-25ea2d56414f/
 ---
 `youtube: https://youtu.be/THX_2PNmJ9I?si=0iA0afQL2vdTXON9 `
 
-### **Project Proposal: AIFOCUS Smart Interaction and Digital Contents (AI/CV) | SmartLens & VIOLA Multimedia Chatbot**
+### Project Proposal: AIFOCUS Smart Interaction and Digital Contents (AI/CV) | SmartLens & VIOLA Multimedia Chatbot
 
 [Smart Lens](https://reinherit-hub.eu/tools/apps/1e20d094-391f-40d4-820f-84423e30cec4) and [VIOLA Multimedia Chatbot](https://reinherit-hub.eu/tools/apps/543b2b77-35f1-41b5-b06e-3a355f2a1c6b) web apps of the [ReInHerit Toolkit ](https://reinherit-hub.eu/tools/apps)were tested and redesigned during a hackathon organised as part of the [AI&XR Summer School ](https://xrsalento.it/xrai-summer-school-2023/)held in Matera in July 2023. 
 
