@@ -2,7 +2,7 @@
 pageId: a2d020ec-c0e0-40a4-ae61-6e98f52eef29
 layout: blog
 type: exhibdoc
-title: The Idea Behind the Intro and Outro Stations
+title: 2. The Idea Behind the Intro and Outro Stations
 date: 2023-07-24T08:04:46.357Z
 target-audience:
   - PROFESSIONAL
