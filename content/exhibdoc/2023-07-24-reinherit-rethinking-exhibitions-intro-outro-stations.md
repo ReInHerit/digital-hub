@@ -2,7 +2,7 @@
 pageId: cd0a15c9-eaab-4520-85bc-056917098b21
 layout: blog
 type: exhibdoc
-title: "ReInHerit Rethinking Exhibitions Intro & Outro stations "
+title: "1. ReInHerit Rethinking Exhibitions Intro & Outro stations "
 date: 2023-07-24T08:02:22.289Z
 target-audience:
   - PROFESSIONAL
