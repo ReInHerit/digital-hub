@@ -25,15 +25,3 @@ thumbnail: https://ucarecdn.com/b048a8e4-ee71-41dd-aecc-28f208a3c5a7/
 * **[Marco Bertini ](https://fb.watch/m1fi_IuJaJ/)**[MICC](http://www.micc.unifi.it) Director [](https://www.facebook.com/miccunifi?__tn__=-%5DK)
 * **[Paolo Mazzanti](https://fb.watch/m1fnU4hRUN/)** [MICC](http://www.micc.unifi.it)  [NEMECH](http://nemech.unifi.it) Researcher
 * **[Luca Melchionna](https://fb.watch/m1WYwW2mCo/)** Co-Founder "[Machineria](https://machineria.it/machineria-stories-that-work) - Stories that Work"
-
-  ```
-  <iframe src="https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fwww.facebook.com%2Fedihheritagesmartlab%2Fvideos%2F1231476744196631%2F&show_text=true&width=560&t=0" width="560" height="488" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-  ```
-
-  ```
-  <iframe src="https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fwww.facebook.com%2Fedihheritagesmartlab%2Fvideos%2F1539670553508537%2F&show_text=true&width=560&t=0" width="560" height="488" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-  ```
-
-  ```
-  <iframe src="https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fwww.facebook.com%2Fedihheritagesmartlab%2Fvideos%2F160826557018919%2F&show_text=true&width=560&t=0" width="560" height="488" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-  ```
