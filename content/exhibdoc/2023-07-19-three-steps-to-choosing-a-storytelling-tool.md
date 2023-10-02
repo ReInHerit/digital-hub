@@ -2,7 +2,7 @@
 pageId: 85519c7f-e21c-4338-b07d-925431e798fb
 layout: blog
 type: exhibdoc
-title: 4. Three Steps to Choosing a Storytelling Tool
+title: 5. Three Steps to Choosing a Storytelling Tool
 date: 2023-07-19T09:10:59.718Z
 target-audience:
   - PROFESSIONAL
