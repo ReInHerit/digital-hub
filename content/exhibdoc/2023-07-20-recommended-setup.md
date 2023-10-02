@@ -2,7 +2,7 @@
 pageId: e2183c88-e8e4-45ba-a4cd-e5ad996360ee
 layout: blog
 type: exhibdoc
-title: Recommended Setup
+title: 6. Recommended Setup
 date: 2023-07-20T11:53:40.929Z
 target-audience:
   - PROFESSIONAL
