@@ -12,11 +12,15 @@ license: CC BY 2.0
 thumbnail: https://ucarecdn.com/5d6b688d-4b74-48b7-987b-5b280807d0c2/
 slides: https://ucarecdn.com/50e005a7-d8d2-41fe-b078-f58d0141c9e5/
 ---
-![ Strike a Pose 2.0 | ReInHerit Hackathon - Summer School Matera 2023](https://ucarecdn.com/fa30ea9c-19f8-4ed2-ac2c-61bd71bae706/ " Strike a Pose 2.0 | ReInHerit Hackathon - Summer School Matera 2023")
+`youtube: https://youtu.be/IWGtKHc6Pqc?si=HjdAc9XMEdGtQyId`
 
 ### Project Proposal: Strike A Pose 2.0 Gamification and Playful engagement (AI/CV) |  Strike-a-Pose & Face-Fit
 
+
+
 The [Strike-a-Pose ](https://reinherit-hub.eu/tools/apps/de7756ad-67f6-4b6d-823e-0ce12f3f6c0d)and[ Face-Fit ](https://reinherit-hub.eu/tools/apps/051e7d78-de61-4e04-8b05-ab6f7a184153)web apps of the [ReInHerit Toolkit ](https://reinherit-hub.eu/tools/apps) were tested and redesigned during a hackathon organised as part of the [AI&XR Summer School ](https://xrsalento.it/xrai-summer-school-2023/)held in Matera in July 2023.
+
+![ Strike a Pose 2.0 | ReInHerit Hackathon - Summer School Matera 2023](https://ucarecdn.com/f503e6b7-d25c-4428-a3bd-a18b968124ff/ " Strike a Pose 2.0 | ReInHerit Hackathon - Summer School Matera 2023")
 
 ![ Strike a Pose 2.0 | ReInHerit Hackathon - Summer School Matera 2023](https://ucarecdn.com/5811a641-4ac1-4e5a-9b2d-49935fab741f/ " Strike a Pose 2.0 | ReInHerit Hackathon - Summer School Matera 2023")
 
@@ -50,9 +54,7 @@ This co-creation process added new technological developments for apps and user 
 
 During the hackathon, professionals and experts were invited [to chat  via  the Digital Hub Forum](https://reinherit.zulipchat.com/#narrow/stream/395690-XR.26AI-Summer-School-2023) to support students as they work, answering questions and sharing ideas and suggestions in a co-creative and interdisciplinary approach.
 
-### Strike A Pose 2.0 project proposal video presentation:
-
-`youtube: https://youtu.be/IWGtKHc6Pqc?si=HjdAc9XMEdGtQyId`
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ### Strike A Pose and Face-Fit  video presentation:
 
