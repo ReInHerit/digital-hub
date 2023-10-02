@@ -4,7 +4,7 @@ layout: blog
 type: summerschool
 title: Co-create Toolkit Apps | ReIhHerit Hackathon
 desc: Co-create Toolkit Apps | ReIhHerit Hackathon  - XR&AI Summer School
-date: 2023-09-26T16:42:00.495Z
+date: 2023-09-28T16:42:00.495Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
