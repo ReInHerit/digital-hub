@@ -16,9 +16,9 @@ slides: https://ucarecdn.com/d4204583-831e-48c5-8e18-1f39ba01fb2e/
 
 An exciting exploration of the fusion between modern technology and cultural heritage as we delve into the world of video games! In this webinar, we'll take you on a captivating journey through the innovative use of video games within cultural heritage institutions. Discover how video games are becoming powerful tools to engage and educate audiences about cultural heritage, learn about the process behind our implementation of the ReInHerit Museum Management game that utilizes many technologies such as Artificial Intelligence, Game Engines, 3D modeling and reconstruction and see how we make this process more accessible to institutions that are interested in doing something similar. Follow this webinar to unlock the potential of video games in educating and promoting cultural heritage!
 
-![Video games in the service of CH institutions: the case of the ReInHerit Museum Management Game](https://ucarecdn.com/943fef63-cf28-4a71-8a8e-ae9bfafea217/ "Video games in the service of CH institutions: the case of the ReInHerit Museum Management Game")
+![Video games in the service of CH institutions: the case of the ReInHerit Museum Management Game](https://ucarecdn.com/943fef63-cf28-4a71-8a8e-ae9bfafea217/-/crop/785x568/7,0/-/preview/ "Video games in the service of CH institutions: the case of the ReInHerit Museum Management Game")
 
-![Video games in the service of CH institutions: the case of the ReInHerit Museum Management Game](https://ucarecdn.com/d42b4c57-be29-4307-9a8a-e674088023af/ "Video games in the service of CH institutions: the case of the ReInHerit Museum Management Game")
+![Video games in the service of CH institutions: the case of the ReInHerit Museum Management Game](https://ucarecdn.com/d42b4c57-be29-4307-9a8a-e674088023af/-/crop/784x574/7,0/-/preview/ "Video games in the service of CH institutions: the case of the ReInHerit Museum Management Game")
 
 ### Speakers:
 
