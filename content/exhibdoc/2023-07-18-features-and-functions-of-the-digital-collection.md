@@ -2,7 +2,7 @@
 pageId: dfe2ae72-8a4b-4b29-a008-278f1caeef56
 layout: blog
 type: exhibdoc
-title: Features and Functions of the Digital Collection
+title: 4. Features and Functions of the Digital Collection
 date: 2023-07-18T12:39:00.754Z
 target-audience:
   - PROFESSIONAL
