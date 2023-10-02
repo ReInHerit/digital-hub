@@ -2,7 +2,7 @@
 pageId: aa8bffca-e684-4d15-914d-10b452228ddb
 layout: blog
 type: exhibdoc
-title: Exact Dimensions
+title: 3. Exact Dimensions
 date: 2023-08-17T11:20:39.242Z
 target-audience:
   - PROFESSIONAL
