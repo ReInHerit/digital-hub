@@ -137,7 +137,7 @@ The ReInHerit project experimented with new technologies and new collaborations 
   <Col>
   <div className="d-grid gap-2">
       <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/exhibitions/">The ReThinking Digital Exhibitions</Button>
-      <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/applications/">A set of AI-driven applications</Button>
+      <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/applications/">Toolkit applications</Button>
       <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="https://collection.reinherit-hub.eu/">The ReInHerit online collection</Button>
       <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/game/">A videogame</Button>
       <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/podcasts/">The Museums Up Podcast</Button>
@@ -244,13 +244,13 @@ The ReInHerit project developed learning resources and provides detailed documen
   </div>
     <Row className="mt-4"><h5>Documentation:</h5></Row>
   <div className="d-grid gap-2">  
-    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/tools/apps/">AI-Apps Documentation</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/tools/apps/">Toolkit Apps Documentation</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/exhibdoc/">Exhibitions Documentation</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/firstperfdoc/overview/">Performances Documentation</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/eshopdoc/">e-Shop Documentation</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="">(coming soon) Videogame</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/exhibdoc/doconlinecoll/">Online Collection Documentation</Button>
-    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/tools/components/">A glossary for AI Apps</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/tools/components/">Toolkit components</Button>
   </div>
 
 </Col>
@@ -334,7 +334,7 @@ style={{
               <ul>
                 <li>Webinars on cultural management, cultural tourism, digital transformation, and new technologies.</li>
                 <li>Factsheets on cultural heritage management.</li>
-                <li>Documentation of the ReInHerit computer vision applications.</li>
+                <li>Documentation of the ReInHerit Toolkit applications.</li>
                 <li>Documentation of the ReInHerit eShop.</li>
               </ul>
               </div>
@@ -390,7 +390,7 @@ style={{
                   <li>Visit the ReTHINKING digital exhibitions.</li>
                   <li>Visit the ReInHerit digital collection.</li>
                   <li>Visit our eShop with free digital objects inspired by our collections.</li>
-                  <li>Discover the ReInHerit applications.</li>
+                  <li>Discover the ReInHerit Toolkit apps.</li>
                   <li>Listen to our Museums Up podcast.</li>
                 </ul>
                 </div>
