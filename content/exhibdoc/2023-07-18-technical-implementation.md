@@ -2,7 +2,7 @@
 pageId: 08eb7642-312d-40f8-b380-2b9d5b8d43cd
 layout: blog
 type: exhibdoc
-title: "Technical Implementation "
+title: "5. Technical Implementation "
 date: 2023-07-18T13:02:27.879Z
 target-audience:
   - PROFESSIONAL
