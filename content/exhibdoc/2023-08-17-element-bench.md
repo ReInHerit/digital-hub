@@ -2,7 +2,7 @@
 pageId: 6863cde3-a709-41bd-bea6-35bfa1ccf4cf
 layout: blog
 type: exhibdoc
-title: "3. Element: Bench "
+title: "4. Element: Bench "
 date: 2023-08-17T11:22:26.824Z
 target-audience:
   - PROFESSIONAL
