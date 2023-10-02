@@ -2,7 +2,7 @@
 pageId: 7c2fbdd5-345b-49f8-9299-7c52983f1d8f
 layout: blog
 type: exhibdoc
-title: "6. Element: Box"
+title: "7. Element: Box"
 date: 2023-08-17T11:28:29.075Z
 target-audience:
   - PROFESSIONAL
