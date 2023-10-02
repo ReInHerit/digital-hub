@@ -28,6 +28,7 @@ const GenInfoExhibDocQuery = graphql`
 query GenInfoExhibDocQuery {
   allMarkdownRemark(
     filter: {fileAbsolutePath: {regex: "/exhibdoc/"}, frontmatter: {exhibdocsection: {eq: "General Information"}}}
+    sort: {fields: frontmatter___title, order: ASC}
   ) {
     edges {
       node {

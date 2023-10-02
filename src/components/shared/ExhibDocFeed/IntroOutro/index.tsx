@@ -28,6 +28,7 @@ const IntroOutroExhibDocQuery = graphql`
 query IntroOutroExhibDocQuery {
   allMarkdownRemark(
     filter: {fileAbsolutePath: {regex: "/exhibdoc/"}, frontmatter: {exhibdocsection: {eq: "Intro/Outro"}}}
+    sort: {fields: frontmatter___title, order: ASC}
   ) {
     edges {
       node {

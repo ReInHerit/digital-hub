@@ -28,6 +28,7 @@ const TabletExhibDocQuery = graphql`
 query TabletExhibDocQuery {
   allMarkdownRemark(
     filter: {fileAbsolutePath: {regex: "/exhibdoc/"}, frontmatter: {exhibdocsection: {eq: "Tablet"}}}
+    sort: {fields: frontmatter___title, order: ASC}
   ) {
     edges {
       node {

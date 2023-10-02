@@ -28,6 +28,7 @@ const ArchitectureExhibDocQuery = graphql`
 query ArchitectureExhibDocQuery {
   allMarkdownRemark(
     filter: {fileAbsolutePath: {regex: "/exhibdoc/"}, frontmatter: {exhibdocsection: {eq: "Architecture"}}}
+    sort: {fields: frontmatter___title, order: ASC}
   ) {
     edges {
       node {

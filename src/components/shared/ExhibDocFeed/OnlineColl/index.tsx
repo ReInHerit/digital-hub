@@ -28,6 +28,7 @@ const OnCollExhibDocQuery = graphql`
 query OnCollExhibDocQuery {
   allMarkdownRemark(
     filter: {fileAbsolutePath: {regex: "/exhibdoc/"}, frontmatter: {exhibdocsection: {eq: "Online Collection"}}}
+    sort: {fields: frontmatter___title, order: ASC}
   ) {
     edges {
       node {

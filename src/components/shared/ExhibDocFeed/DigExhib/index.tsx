@@ -28,6 +28,7 @@ const DigExhibExhibDocQuery = graphql`
 query DigExhibExhibDocQuery {
   allMarkdownRemark(
     filter: {fileAbsolutePath: {regex: "/exhibdoc/"}, frontmatter: {exhibdocsection: {eq: "Digital Exhibitions"}}}
+    sort: {fields: frontmatter___title, order: ASC}
   ) {
     edges {
       node {
@@ -47,7 +48,6 @@ query DigExhibExhibDocQuery {
     }
   }
 }
-
 `
 
 declare module ExhibDocQueryData {
