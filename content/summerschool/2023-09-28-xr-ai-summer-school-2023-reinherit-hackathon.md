@@ -34,7 +34,7 @@ The **XR&AI Summer School 2023** was realised in **collaboration** with Casa
 * **[AIFOCUS](https://reinherit-hub.eu/summerschool/314ed627-6f30-4d43-9428-4e55aee28066)**
 * **[Strike A Pose 2.0](https://reinherit-hub.eu/summerschool/6205f8e2-60aa-46d2-bca3-bc46c9283029)**
 
-### **Online Press Release**
+### Online Press Release:
 
 * [Puglialive.net](https://www.puglialive.net/cte-matera-conclusa-nella-citta-dei-sassi-la-sesta-edizione-di-extended-reality-and-artificial-intelligence-international-summer-school-2023/)
 * [Materanews.net](https://www.materanews.net/a-matera-studenti-e-ricercatori-da-tutto-il-mondo-ecco-le-foto/)
