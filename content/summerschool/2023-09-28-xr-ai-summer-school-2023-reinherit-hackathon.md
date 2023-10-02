@@ -31,8 +31,8 @@ The **XR&AI Summer School 2023** was realised in **collaboration** with Casa
 
 ### More info about the Project Proposals of the Hackathon:
 
-* AIFOCUS
-* Strike A Pose 2.0
+* **[AIFOCUS](https://reinherit-hub.eu/summerschool/314ed627-6f30-4d43-9428-4e55aee28066)**
+* **[Strike A Pose 2.0](https://reinherit-hub.eu/summerschool/6205f8e2-60aa-46d2-bca3-bc46c9283029)**
 
 ### **Online Press Release**
 
