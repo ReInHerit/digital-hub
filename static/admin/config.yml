@@ -691,7 +691,7 @@ collections:
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0", }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
       - { label: "PDF/slides", name: "slides", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, } 
-      - { label: "iframesrc1", name: "iframe", widget: "string", media_library: { config: { max_file_size: 50000000 } }, required: false, }
-      - { label: "iframesrc2", name: "iframe", widget: "string", media_library: { config: { max_file_size: 50000000 } }, required: false, }
-      - { label: "iframesrc3", name: "iframe", widget: "string", media_library: { config: { max_file_size: 50000000 } }, required: false, }
+      - { label: "iframesrc1", name: "iframesrc1", widget: "string", media_library: { config: { max_file_size: 50000000 } }, required: false, }
+      - { label: "iframesrc2", name: "iframesrc2", widget: "string", media_library: { config: { max_file_size: 50000000 } }, required: false, }
+      - { label: "iframesrc3", name: "iframesrc3", widget: "string", media_library: { config: { max_file_size: 50000000 } }, required: false, }
       - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
