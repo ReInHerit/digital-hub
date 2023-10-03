@@ -43,31 +43,9 @@ collections:
       - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
       - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text.", }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { 
-        label: "Target Audience", 
-        name: "target-audience", 
-        widget: "select", 
-        options: ["VISITOR", "PROFESSIONAL"], 
-        default: ["VISITOR"], 
-        multiple: true, 
-        }
-      - {
-        label: "Reference to", 
-        name: "referenceTo", 
-        widget: "select", 
-        options: ["News", "Event", "Podcast", "Game"], 
-        default: ["News"], 
-        hint: "By default this will appear as a news; if it is a podcast, the WP3 videogame, or an event, please change the option here.",
-        multiple: false,
-        }
-      - {
-        label: "Status",
-        name: "status",
-        widget: "select",
-        options: ["draft", "completed"],
-        default: ["completed"],
-        hint: "to keep drafts unpublished, in the pubblication of the toolkit",
-        }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true, }
+      - { label: "Reference to", name: "referenceTo", widget: "select", options: ["News", "Event", "Podcast", "Game"], default: ["News"], hint: "By default this will appear as a news; if it is a podcast, the WP3 videogame, or an event, please change the option here.", multiple: false, }
+      - { label: "Status", name: "status", widget: "select", options: ["draft", "completed"], default: ["completed"], hint: "to keep drafts unpublished, in the pubblication of the toolkit", }
       - { label: "Theme", name: "theme", widget: "select", options: ["Technology", "Tourism", "Management", "Other"], multiple: false, required: true, }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
       - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
@@ -82,63 +60,15 @@ collections:
     fields:
       - { label: "Type", name: "type", widget: "hidden", default: "webinar" }
       - { label: "Page-ID", name: "pageId", widget: "uuid" }
-      - {
-          label: "Title",
-          name: "title",
-          widget: "string",
-          pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"],
-          required: true,
-        }
-      - {
-          label: "Short description",
-          name: "desc",
-          widget: "string",
-          required: false,
-          hint: "Short description of current entry. Will be displayed in overviews as preview text.",
-        }
+      - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text.", }
       - { label: "Date", name: "date", widget: "datetime" }
-      - {
-          label: "Target Audience",
-          name: "target-audience",
-          widget: "select",
-          options: ["VISITOR", "PROFESSIONAL"],
-          default: ["PROFESSIONAL"],
-          multiple: true,
-        }
-      - { label: "Theme", 
-          name: "theme", 
-          widget: "select", 
-          options: ["Technology", "Tourism", "Management"], 
-          required: true,
-          multiple: false, 
-        }
-      - {
-          label: "License",
-          name: "license",
-          widget: "string",
-          default: "CC BY 2.0",
-        }
-      - {
-          label: "Thumbnail",
-          name: "thumbnail",
-          hint: "Small image limited to 100kb to be used for overviews.",
-          widget: "image",
-          required: false,
-          media_library: { config: { max_file_size: 100000 } },
-        } # in bytes, only for default media library}
-      - {
-          label: "Slides",
-          name: "slides",
-          widget: "file",
-          media_library: { config: { max_file_size: 50000000 } },
-          required: false,
-        } 
-      - {
-          label: "Body",
-          name: "body",
-          widget: "markdown",
-          media_library: { config: { max_file_size: 10000000 } },
-        }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["PROFESSIONAL"], multiple: true, }
+      - { label: "Theme", name: "theme", widget: "select", options: ["Technology", "Tourism", "Management"], required: true, multiple: false, }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0", }
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library}
+      - { label: "Slides", name: "slides", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, } 
+      - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
   - name: "factsheets"
     label: "WP2 Factsheets" # Used in the UI
     label_singular: "message" # Used in the UI, ie: "New Post"
@@ -150,68 +80,16 @@ collections:
       - { label: "Page-ID", name: "pageId", widget: "uuid" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "factsheet" }
-      - {
-          label: "Title",
-          name: "title",
-          widget: "string",
-          pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"],
-          required: true,
-        }
-      - {
-          label: "Short description",
-          name: "desc",
-          widget: "string",
-          required: false,
-          hint: "Short description of current entry. Will be displayed in overviews as preview text.",
-        }
+      - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
+      - { label: "Short description", name: "desc", widget: "string", required: false, hint: "Short description of current entry. Will be displayed in overviews as preview text.", }
       - { label: "Date", name: "date", widget: "datetime" }
-      - {
-          label: "Target Audience",
-          name: "target-audience",
-          widget: "select",
-          options: ["VISITOR", "PROFESSIONAL"],
-          default: ["PROFESSIONAL"],
-          multiple: true,
-        }
-      - {
-          label: "Theme",
-          name: "theme",
-          widget: "select",
-          options: ["Technology", "Tourism", "Management", "Other"],
-          default: ["Management"],
-          required: true,
-          multiple: false,
-        }
-      - {
-        label: "Abstract",
-        name: "abstract",
-        widget: "string",
-        }
-      - {
-          label: "License",
-          name: "license",
-          widget: "string",
-          default: "CC BY 2.0",
-        }
-      - {
-          label: "Thumbnail",
-          name: "thumbnail",
-          hint: "Small image limited to 100kb to be used for overviews.",
-          widget: "image",
-          required: false,
-          media_library: { config: { max_file_size: 100000 } },
-        } # in bytes, only for default media library
-      - { label: "Download PDF",
-          name: "mainImage",
-          widget: "file",
-          media_library: { config: { max_file_size: 50000000 } },
-      }
-      - {
-          label: "Body",
-          name: "body",
-          widget: "markdown",
-          media_library: { config: { max_file_size: 10000000 } },
-        }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["PROFESSIONAL"], multiple: true, }
+      - { label: "Theme", name: "theme", widget: "select", options: ["Technology", "Tourism", "Management", "Other"], default: ["Management"], required: true, multiple: false, }
+      - { label: "Abstract", name: "abstract", widget: "string", }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0", }
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
+      - { label: "Download PDF", name: "mainImage", widget: "file", media_library: { config: { max_file_size: 50000000 } }, }
+      - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
   - name: "toolcomponents"
     label: "Toolkit: components"
     description: "This collection is intended for submitting texts on tool components that are either developed within the ReInHerit project or play an important role for CH management or preservation. The entries are not immediately visible on the Hub, but will be published in the course of the next rebuild process."
@@ -799,7 +677,7 @@ collections:
     label: "ReInHerit XR&AI Summer School" # Used in the UI
     label_singular: "message" # Used in the UI, ie: "New Post"
     folder: "content/summerschool"
-    description: This collection is intended for documenting the summerschool.
+    description: This collection is intended for documenting the hackathon during the Matera summerschool.
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -865,7 +743,7 @@ collections:
           widget: "string",
           media_library: { config: { max_file_size: 50000000 } },
           required: false,
-        },
+        }
       - {
           label: "iframesrc2",
           name: "iframe",
