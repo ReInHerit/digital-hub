@@ -21,8 +21,8 @@ export default function Template({
         frontmatter.type.slice(1, frontmatter.type.length)
       }
       breadCrumb={[
-          {label:"Webinars", value:"/webinars"},
-          {label:"...", value:"/webinars"},
+          {label:"Events", value:"/events"},
+          {label:"Hackathon @Matera", value:"/summerschoolhackathon"},
         ]}
       >
         {frontmatter.title}

@@ -11,7 +11,7 @@ const SummerSchoolPage = () => {
     <MainHeading
       subHeading="Showcase of the ReInHerit Hackathon during the XR&AI Summer School in Matera in July 2023."
       breadCrumb={[
-        {label:"Resources", value:"/resources"},
+        {label:"Events", value:"/events"},
         {label:"Hackathon @Matera", value:"/summerschoolhackathon"}
       ]}
     >ReInHerit Hackathon (Matera, July 2023)</MainHeading>
