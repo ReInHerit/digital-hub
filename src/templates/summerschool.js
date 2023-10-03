@@ -94,11 +94,11 @@ export default function Template({
               <a style={{borderRadius:0}} href={frontmatter.slides} download="webinar_slides" className="btn btn-info border-radius-0" target="_blank" rel="noreferrer">Click this button to download the presentation of project concepts by the participants.</a>
                   )}
 
-            {frontmatter.iframesrc1 &&
-                  frontmatter.iframesrc1.length !== 0 && (
+            {frontmatter.iframesrc_one &&
+                  frontmatter.iframesrc_one.length !== 0 && (
                   <div>
                     <iframe 
-                    src={frontmatter.iframesrc1}
+                    src={frontmatter.iframesrc_one}
                     width={560}
                     height={488}
                     allowFullScreen="true" 
@@ -106,11 +106,11 @@ export default function Template({
                     </iframe>
                   </div>
               )}
-              {frontmatter.iframesrc2 &&
-                  frontmatter.iframesrc2.length !== 0 && (
+              {frontmatter.iframesrc_two &&
+                  frontmatter.iframesrc_two.length !== 0 && (
                   <div>
                     <iframe 
-                    src={frontmatter.iframesrc2}
+                    src={frontmatter.iframesrc_two}
                     width={560}
                     height={488}
                     allowFullScreen="true" 
@@ -118,11 +118,11 @@ export default function Template({
                     </iframe>
                   </div>
               )}
-              {frontmatter.iframesrc3 &&
-                  frontmatter.iframesrc3.length !== 0 && (
+              {frontmatter.iframesrc_three &&
+                  frontmatter.iframesrc_three.length !== 0 && (
                   <div>
                     <iframe 
-                    src={frontmatter.iframesrc3}
+                    src={frontmatter.iframesrc_three}
                     width={560}
                     height={500}
                     allowFullScreen="true"
@@ -153,9 +153,9 @@ query($id: String!) {
       theme
       thumbnail
       type
-      iframesrc1
-      iframesrc2
-      iframesrc3
+      iframesrc_one
+      iframesrc_two
+      iframesrc_three
     }
   id
   excerpt

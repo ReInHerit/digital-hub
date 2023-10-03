@@ -11,9 +11,9 @@ target-audience:
 theme: Technology
 license: CC BY 2.0
 thumbnail: https://ucarecdn.com/b048a8e4-ee71-41dd-aecc-28f208a3c5a7/
-iframesrc1: "https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fwww.facebook.com%2Fedihheritagesmartlab%2Fvideos%2F1231476744196631%2F&show_text=true&width=560&t=0"
-iframesrc2: "https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fwww.facebook.com%2Fedihheritagesmartlab%2Fvideos%2F160826557018919%2F&show_text=true&width=560&t=0"
-iframesrc3: "https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fwww.facebook.com%2Fedihheritagesmartlab%2Fvideos%2F1539670553508537%2F&show_text=true&width=560&t=0"
+iframesrc_one: "https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fwww.facebook.com%2Fedihheritagesmartlab%2Fvideos%2F1231476744196631%2F&show_text=true&width=560&t=0"
+iframesrc_two: "https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fwww.facebook.com%2Fedihheritagesmartlab%2Fvideos%2F160826557018919%2F&show_text=true&width=560&t=0"
+iframesrc_three: "https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fwww.facebook.com%2Fedihheritagesmartlab%2Fvideos%2F1539670553508537%2F&show_text=true&width=560&t=0"
 ---
 ### TRMTV Network Interviews:
 

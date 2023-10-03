@@ -61,9 +61,9 @@ const SUMMERSCHOOL_QUERY = graphql`
             date(fromNow: true)
             target_audience
             thumbnail
-            iframesrc1
-            iframesrc2
-            iframesrc3
+            iframesrc_one
+            iframesrc_two
+            iframesrc_three
           }
         }
       }
