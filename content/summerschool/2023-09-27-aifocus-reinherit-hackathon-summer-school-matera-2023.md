@@ -42,7 +42,7 @@ During the week, international speakers and famous experts debated and engaged w
 * Marco Bertini Media Integration and Communication Center, UNIFI IT
 * Paolo Mazzanti Media Integration and Communication Center, UNIFI IT
 * Filippo Principi Media Integration and Communication Center, UNIFI IT
-* with the support of Luca Mechionna - “[Machineria - Stories that Work"](https://machineria.it/machineria-stories-that-work)
+* with the support of Luca Melchionna - “[Machineria - Stories that Work"](https://machineria.it/machineria-stories-that-work)
 * coordinated by  Raffaele Vitulli MateraHUB
 
 ![AIFOCUS | ReInHerit Hackathon - Summer School Matera 2023](https://ucarecdn.com/bd6ed277-b1a7-41b1-b776-b921209d9707/ "AIFOCUS | ReInHerit Hackathon - Summer School Matera 2023")
