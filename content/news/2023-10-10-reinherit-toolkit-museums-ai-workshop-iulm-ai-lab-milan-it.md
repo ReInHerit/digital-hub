@@ -35,4 +35,4 @@ During the workshop, they presented AI/CV-based tools developed as part of the [
 
 The presentation of these applications through the working groups provided valuable insights and feedback to improve AI practices in museums. 
 
-Italian Case histories of this workshop will be included in the Italian translation of ["AI: AMuseum Planning Toolkit" ](https://themuseumsai.network/toolkit/)edited by Dr Giuliano Gaia  InvisibleStudio, in collaboration with Dr. Oonagh Murphy co-leader of the project [AI+Museums Network.](https://themuseumsai.network)
+Italian Case histories of this workshop will be inserted in the Italian translation of ["AI: AMuseum Planning Toolkit" ](https://themuseumsai.network/toolkit/)edited by Dr Giuliano Gaia  InvisibleStudio, in collaboration with Dr. Oonagh Murphy co-leader of the project [AI+Museums Network.](https://themuseumsai.network)
