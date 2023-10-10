@@ -15,7 +15,7 @@ thumbnail: https://ucarecdn.com/5082bdbd-6f04-4a97-a087-a8297cfbc147/-/crop/995x
 ---
 ### **ReInHerit Toolkit - Museums+AI Workshop IULM AI LAB Milan IT, 9th October 2023**
 
-The recent explosion in generative AI means that museums have to quickly adapt to the new landscape and understand how to make the most of it ethically. 
+> *"The recent explosion in generative AI means that museums have to quickly adapt to the new landscape and understand how to make the most of it ethically."*
 
 ![ReInHerit Toolkit - Museums+AI Workshop IULM AI LAB Milan IT](https://ucarecdn.com/78ff8ccc-0975-4998-8299-bfbc039459c6/ "ReInHerit Toolkit - Museums+AI Workshop IULM AI LAB Milan IT")
 
