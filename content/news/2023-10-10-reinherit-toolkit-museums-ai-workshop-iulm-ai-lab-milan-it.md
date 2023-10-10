@@ -9,7 +9,7 @@ target-audience:
   - VISITOR
   - PROFESSIONAL
 referenceTo: Event
-status: draft
+status: completed
 theme: Technology
 thumbnail: https://ucarecdn.com/5082bdbd-6f04-4a97-a087-a8297cfbc147/-/crop/995x910/641,242/-/preview/
 ---
