@@ -29,7 +29,7 @@ This hands-on event brings together museums, university researchers and privat
 
 ![ReInHerit Toolkit - Museums+AI Workshop IULM AI LAB Milan IT](https://ucarecdn.com/9babf62e-3633-4052-afce-b2bba647cbda/ "ReInHerit Toolkit - Museums+AI Workshop IULM AI LAB Milan IT")
 
-During the workshop, they presented AI/CV-based tools developed as part of the [ReInHerit Toolkit](https://reinherit-hub.eu/applications), following a useful discussion on ethical Issues with the goal to connect Museums Networks focused on users, interactions and innovation.
+During the workshop, MICC presented AI/CV-based tools developed as part of the [ReInHerit Toolkit](https://reinherit-hub.eu/applications), following a useful discussion on ethical Issues with the goal to connect Museums Networks focused on users, interactions and innovation.
 
 ![ReInHerit Toolkit - Museums+AI Workshop IULM AI LAB Milan IT](https://ucarecdn.com/6fc91ffb-c26f-43ab-b059-f751a820cc28/ "ReInHerit Toolkit - Museums+AI Workshop IULM AI LAB Milan IT")
 
