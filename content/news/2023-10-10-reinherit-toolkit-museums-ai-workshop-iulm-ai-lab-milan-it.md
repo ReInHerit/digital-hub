@@ -19,7 +19,7 @@ thumbnail: https://ucarecdn.com/5082bdbd-6f04-4a97-a087-a8297cfbc147/-/crop/995x
 
 ![ReInHerit Toolkit - Museums+AI Workshop IULM AI LAB Milan IT](https://ucarecdn.com/78ff8ccc-0975-4998-8299-bfbc039459c6/ "ReInHerit Toolkit - Museums+AI Workshop IULM AI LAB Milan IT")
 
-To help museums in doing so[ InvisibleStudio ](https://www.invisiblestudio.net)have partnered with two leading institutions, the [Goldsmiths University ](https://www.gold.ac.uk)in London and [IULM AI Lab ](https://www.iulm.it/en/ricerca/iulm-ai-lab)in Milan. Together they designed a groundbreaking[ workshop focused on navigating the ethical landscape of AI in museums, ](https://www.invisiblestudio.net/portfolio/museums-ai-workshop?fbclid=IwAR1uI8j9ErwvFB86x1dec3mv3SdAHpS52qxco-8VCCHMbiQ4CUEbi5PTs14)9th October 2023, Milan, Italy.
+To help museums in doing so[ InvisibleStudio ](https://www.invisiblestudio.net)together with two leading institutions, the [Goldsmiths University ](https://www.gold.ac.uk)in London and [IULM AI Lab ](https://www.iulm.it/en/ricerca/iulm-ai-lab)in Milan, designed a [ workshop focused on navigating the ethical landscape of AI in museums, ](https://www.invisiblestudio.net/portfolio/museums-ai-workshop?fbclid=IwAR1uI8j9ErwvFB86x1dec3mv3SdAHpS52qxco-8VCCHMbiQ4CUEbi5PTs14)9th October 2023, Milan, Italy.
 
 ![ReInHerit Toolkit - Museums+AI Workshop IULM AI LAB Milan IT](https://ucarecdn.com/81e7a1ae-b72b-4096-8452-8d5fb13feb4e/ "ReInHerit Toolkit - Museums+AI Workshop IULM AI LAB Milan IT")
 
