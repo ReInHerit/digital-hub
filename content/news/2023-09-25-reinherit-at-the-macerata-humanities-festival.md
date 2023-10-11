@@ -23,7 +23,7 @@ During the 2 events the Smart Lens, VIOLA chatbot, Strike-a-pose and Face-fit we
 
 ![ReInHerit Toolkit | Macerata Humanities Festival](https://ucarecdn.com/0695f41c-0a8b-4263-a238-772470ae9665/ "ReInHerit Toolkit | Macerata Humanities Festival")
 
-The event was free and open to the citizenry, and aims to show how art, human and social sciences are the key to a better understanding of contemporary society and to the valorisation of the cultural heritage of the territory. Special and welcome guests were the families with children who enjoyed and  testing the Toolkit apps with fun and interest!
+The event was free and open to the citizenry, and aims to show how art, human and social sciences are the key to a better understanding of contemporary society and to the valorisation of the cultural heritage of the territory. Special and welcome guests were the families with children who enjoyed and  tested the Toolkit apps with fun and interest!
 
 ![ReInHerit Toolkit | Macerata Humanities Festival](https://ucarecdn.com/32721736-1cd7-4405-9a22-32c647caae7c/ "ReInHerit Toolkit | Macerata Humanities Festival")
 
