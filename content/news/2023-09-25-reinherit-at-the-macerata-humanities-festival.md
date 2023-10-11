@@ -11,19 +11,21 @@ target-audience:
   - PROFESSIONAL
 referenceTo:
   - News
+status: completed
 theme: Technology
-status: draft
 thumbnail: https://ucarecdn.com/1c5a6ec9-d63c-460b-89c2-9c01ee7b512a/-/crop/758x638/33,0/-/preview/
 ---
-Univ. di Firenze - MICC will show and demo the interactive applications of the ReInHerit toolkit during the Macerata Humanities Festival, organized by the University of Macerata, in two different sessions on Friday 29th and Saturday 30th at 15:00- 18:00.
-
-
+Univ. di Firenze - MICC showed and demonstrated  the interactive applications of the ReInHerit toolkit during the Macerata Humanities Festival, organized by the University of Macerata, in two different sessions on Friday 29th and Saturday 30th at 15:00- 18:00.
 
 ![Poster ReInHerit Toolkit | Macerata Humanities Festival](https://ucarecdn.com/b465cfc3-71e9-429a-8971-4e9823791085/ "ReInHerit Toolkit | Macerata Humanities Festival")
 
 During the 2 events the Smart Lens, VIOLA chatbot, Strike-a-pose and Face-fit will be presented and made available in an interactive installation. 
 
-The event is free and open to the citizenry, and aims to show how art, human and social sciences are the key to a better understanding of contemporary society and to the valorisation of the cultural heritage of the territory.
+![ReInHerit Toolkit | Macerata Humanities Festival](https://ucarecdn.com/0695f41c-0a8b-4263-a238-772470ae9665/ "ReInHerit Toolkit | Macerata Humanities Festival")
+
+The event was free and open to the citizenry, and aims to show how art, human and social sciences are the key to a better understanding of contemporary society and to the valorisation of the cultural heritage of the territory.
+
+![ReInHerit Toolkit | Macerata Humanities Festival](https://ucarecdn.com/32721736-1cd7-4405-9a22-32c647caae7c/ "ReInHerit Toolkit | Macerata Humanities Festival")
 
 The full program of the Humanities Festival is available here: <https://www.unimc.it/it/unimc-comunica/events/2023/mhf2023/mhf_programmaweb>. 
 
