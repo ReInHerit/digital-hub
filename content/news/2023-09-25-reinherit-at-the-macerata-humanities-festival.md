@@ -19,7 +19,7 @@ Univ. di Firenze - MICC showed and demonstrated  the interactive applications of
 
 ![Poster ReInHerit Toolkit | Macerata Humanities Festival](https://ucarecdn.com/b465cfc3-71e9-429a-8971-4e9823791085/ "ReInHerit Toolkit | Macerata Humanities Festival")
 
-During the 2 events the Smart Lens, VIOLA chatbot, Strike-a-pose and Face-fit will be presented and made available in an interactive installation. 
+During the 2 events the Smart Lens, VIOLA chatbot, Strike-a-pose and Face-fit were presented and made available in an interactive installation. 
 
 ![ReInHerit Toolkit | Macerata Humanities Festival](https://ucarecdn.com/0695f41c-0a8b-4263-a238-772470ae9665/ "ReInHerit Toolkit | Macerata Humanities Festival")
 
