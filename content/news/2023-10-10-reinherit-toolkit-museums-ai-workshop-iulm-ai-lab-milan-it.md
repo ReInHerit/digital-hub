@@ -21,6 +21,14 @@ thumbnail: https://ucarecdn.com/5082bdbd-6f04-4a97-a087-a8297cfbc147/-/crop/995x
 
 To help museums in doing so[ InvisibleStudio ](https://www.invisiblestudio.net)together with two leading institutions, the [Goldsmiths University ](https://www.gold.ac.uk)in London and [IULM AI Lab ](https://www.iulm.it/en/ricerca/iulm-ai-lab)in Milan, designed a [ workshop focused on navigating the ethical landscape of AI in museums, ](https://www.invisiblestudio.net/portfolio/museums-ai-workshop?fbclid=IwAR1uI8j9ErwvFB86x1dec3mv3SdAHpS52qxco-8VCCHMbiQ4CUEbi5PTs14)9th October 2023, Milan, Italy.
 
+Italian Case Histories:
+
+* **Paolo Mazzanti & Marco Bertini**  [MICC](http://www.micc.unifi.it) University of Florence / H2020 Reinherit Consortium  "AI Vision"
+*  **Luca Melchionn**a [Machineria](https://machineria.it/machineria-stories-that-work) "AI and attempts not to reinvent the wheel. Lessons learned in the recent past 
+* **Francesco Ronchi** [Synestesia](https://synesthesia.it/en/) "AI experiments at the Museo Nazionale del Cinema of Turin"
+
+
+
 ![ReInHerit Toolkit - Museums+AI Workshop IULM AI LAB Milan IT](https://ucarecdn.com/81e7a1ae-b72b-4096-8452-8d5fb13feb4e/ "ReInHerit Toolkit - Museums+AI Workshop IULM AI LAB Milan IT")
 
 ![ReInHerit Toolkit - Museums+AI Workshop IULM AI LAB Milan IT](https://ucarecdn.com/22e40a9a-bbe4-4a4f-b4c6-e6f3ae07a888/ "ReInHerit Toolkit - Museums+AI Workshop IULM AI LAB Milan IT")
