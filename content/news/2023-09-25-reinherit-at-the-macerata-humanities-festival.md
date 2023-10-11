@@ -3,8 +3,8 @@ pageId: 8b82d931-2b8f-4ce5-a7aa-a33b38d83031
 layout: blog
 type: news
 title: ReInHerit Toolkit | Macerata Humanities Festival
-desc: Interactive applications of the ReInHerit Toolkit will be presented and
-  demoes to the attendees of the Macerata Humanities Festival 2023.
+desc: Interactive applications of the ReInHerit Toolkit al  Macerata Humanities
+  Festival 2023.
 date: 2023-09-25T15:46:18.449Z
 target-audience:
   - VISITOR
