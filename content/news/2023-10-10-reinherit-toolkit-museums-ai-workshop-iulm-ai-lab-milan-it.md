@@ -29,7 +29,7 @@ Hosts & Workshop Facilitators:
 
 Italian Case Histories:
 
-* **Paolo Mazzanti & Marco Bertini**  [MICC](http://www.micc.unifi.it) University of Florence / H2020 Reinherit Consortium  "AI Vision"
+* **Paolo Mazzanti & Marco Bertini**  [MICC](http://www.micc.unifi.it) University of Florence / H2020 Reinherit Consortium  "Increase User Engagement and motivate learning in Museums with Computer Vision and AI - The ReInHerit Toolkit”
 * **Luca Melchionn**a [Machineria](https://machineria.it/machineria-stories-that-work) "AI and attempts not to reinvent the wheel. Lessons learned in the recent past"
 * **Francesco Ronchi** [Synestesia](https://synesthesia.it/en/) "AI experiments at the Museo Nazionale del Cinema of Turin IT"
 
