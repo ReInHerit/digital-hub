@@ -9,8 +9,7 @@ date: 2023-09-30T15:46:18.449Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
-referenceTo:
-  - News
+referenceTo: News
 status: completed
 theme: Technology
 thumbnail: https://ucarecdn.com/1c5a6ec9-d63c-460b-89c2-9c01ee7b512a/-/crop/758x638/33,0/-/preview/
