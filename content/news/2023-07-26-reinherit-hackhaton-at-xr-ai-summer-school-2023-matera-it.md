@@ -9,8 +9,8 @@ target-audience:
   - VISITOR
   - PROFESSIONAL
 referenceTo: Event
-theme: Technology
 status: completed
+theme: Technology
 thumbnail: https://ucarecdn.com/3a0e527b-6363-4e30-9648-ef2054b5b959/-/crop/367x392/0,58/-/preview/
 ---
 ![  ReInHerit Hackathon at XR&AI Summer School 2023 Matera IT](https://ucarecdn.com/18469952-5a9a-4690-bd87-3cb8a6e2b105/ "  ReInHerit Hackathon at XR&AI Summer School 2023 Matera IT")
@@ -42,7 +42,9 @@ Important **local museums** were visited to test the apps in these contexts. **E
 \
 The **XR&AI Summer School 2023** was realised in **collaboration** with Casa delle Tecnologie Emergenti (Cte Square), the Ministry of Enterprise and Made in Italy, the Casa delle Tecnologie Emergenti Matera, and with the **support** of the University of Basilicata, the University of Salento, the Università Politecnica delle Marche, the University of Naples Federico II, the University of Florence (MICC), the CNR-ISPC, Basilicata Creativa, Materahub, the EDIH Heritage Smart Lab, the 'ReInHerit' project (Horizon 2020 programme), XRtech, Deep Reality, the Fund for Development and Cohesion, Geomatics Applications Processing, the Italian Association in Computer Vision and Pattern Recognition and Machine Learning.
 
-### Short videos of lecturers and supervisors | EDIH - Heritage Smart Lab | European Digital Innovation Lab
+**<https://reinherit-hub.eu/summerschool/>**
+
+### [](https://reinherit-hub.eu/summerschool/)Short videos of lecturers and supervisors | EDIH - Heritage Smart Lab | European Digital Innovation Lab
 
 * **[Marco Bertini ](https://fb.watch/m1fi_IuJaJ/)** [MICC](http://www.micc.unifi.it) Director [](https://www.facebook.com/miccunifi?__tn__=-]K)
 * **[Paolo Mazzanti](https://fb.watch/m1fnU4hRUN/)** [MICC](http://www.micc.unifi.it)  [NEMECH](http://nemech.unifi.it) Researcher
