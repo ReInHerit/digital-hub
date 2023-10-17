@@ -59,7 +59,7 @@ const Hero = () => {
         <br />
         <br />
       <div className="d-grid gap-2">
-      <Button variant="primary" size="lg" href="#professionalhero" style={{padding:"1em", fontSize:"1.5em"}}>I am working with Cultural Heritage</Button>
+      <Button variant="primary" size="lg" href="#professionalhero" style={{padding:"1em", fontSize:"1.5em"}}>I am working with cultural heritage</Button>
       <Button variant="success" size="lg" href="#visitorhero" style={{padding:"1em", fontSize:"1.5em"}}>I am passionate about cultural heritage</Button>
       </div>
       </Container>

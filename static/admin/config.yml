@@ -252,6 +252,7 @@ collections:
         name: "status",
         widget: "select",
         options: ["draft", "completed"],
+        default: "completed",
         hint: "to keep drafts unpublished, in the pubblication of the toolkit",
       }
       - {
