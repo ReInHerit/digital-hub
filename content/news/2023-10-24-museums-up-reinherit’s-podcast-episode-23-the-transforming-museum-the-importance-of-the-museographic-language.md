@@ -2,8 +2,8 @@
 pageId: 95f81bea-d33d-4faf-93c4-634ee67bc3c7
 layout: blog
 type: news
-title: "Museums Up - ReInHerit’s Podcast episode 23: The Transforming Museum:
-  the importance of the museographic language. "
+title: 'Museums Up - ReInHerit’s Podcast episode 23: "The Transforming Museum:
+  the importance of the museographic language" '
 date: 2023-10-24T14:47:19.049Z
 target-audience:
   - VISITOR
