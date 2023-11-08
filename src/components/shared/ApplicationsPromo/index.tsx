@@ -41,7 +41,7 @@ export default ApplicationPromoFeed;
 const ApplicationPromoQuery = graphql`
 query ApplicationPromoQuery {
   allMarkdownRemark(
-    filter: {fileAbsolutePath: {regex: "/toolapps/"}, frontmatter: {target_audience: {eq: "VISITOR"}, status: {eq: "completed"}}}
+    filter: {fileAbsolutePath: {regex: "/toolapps/"}, frontmatter: {target_audience: {eq: "VISITOR"}}}
   ) {
     edges {
       node {

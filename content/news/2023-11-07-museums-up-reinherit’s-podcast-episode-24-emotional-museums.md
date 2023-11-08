@@ -8,8 +8,7 @@ target-audience:
   - VISITOR
   - PROFESSIONAL
 referenceTo: Podcast
-status:
-  - completed
+status: completed
 theme: Other
 thumbnail: https://ucarecdn.com/67fa6fc2-8cf6-4d52-96ff-9422827c30fb/
 ---
