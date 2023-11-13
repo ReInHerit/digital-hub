@@ -40,8 +40,8 @@ export default BestPracticesFeed
 const BestPracticesQuery = graphql`
 query BestPracticesQuery {
   allMarkdownRemark(
-    filter: { fileAbsolutePath: { regex: "/bestpractices/" }, frontmatter: {} }
-  ) {
+    filter: {fileAbsolutePath: {regex: "/bestpractices/"}, frontmatter: {status: {eq: "completed"}}}
+    ) {
     edges {
       node {
         html
@@ -53,6 +53,26 @@ query BestPracticesQuery {
           pageId
           license
           thumbnail
+          abstract
+          challengesbestpractice
+          desc
+          emailbestpractice
+          formtypbestpractice
+          infosbestpractice
+          keywordsbestpractice
+          locationbestpractice
+          orgbestpractice
+          partnerbestpractice
+          personsbestpractice
+          resourcesbestpractice
+          successbestpractice
+          timebestpractice
+          transferbestpractice
+          urlsbestpractice
+          videosbestpractice
+          theme
+          type
+          status
         }
       }
     }

@@ -464,69 +464,6 @@ collections:
           widget: "markdown",
           media_library: { config: { max_file_size: 10000000 } },
         }
-  - name: "bestpractices"
-    label: "WP5 Best Practices" # Used in the UI
-    label_singular: "message" # Used in the UI, ie: "New Post"
-    folder: "content/bestpractices"
-    description: This collection is intended for submitting best practices from WP5.
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Page-ID", name: "pageId", widget: "uuid" }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "bestpractice" }
-      - {
-          label: "Title",
-          name: "title",
-          widget: "string",
-          pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"],
-          required: true,
-        }
-      - {
-          label: "Short description",
-          name: "desc",
-          widget: "string",
-          required: false,
-          hint: "Short description of current entry. Will be displayed in overviews as preview text.",
-        }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - {
-          label: "Target Audience",
-          name: "target-audience",
-          widget: "select",
-          options: ["VISITOR", "PROFESSIONAL"],
-          default: ["PROFESSIONAL"],
-          multiple: true,
-        }
-      - {
-          label: "Theme",
-          name: "theme",
-          widget: "select",
-          options: ["Technology", "Tourism", "Management", "Other"],
-          default: ["Tourism"],
-          required: true,
-          multiple: false,
-        }
-      - {
-          label: "License",
-          name: "license",
-          widget: "string",
-          default: "CC BY 2.0",
-        }
-      - {
-          label: "Thumbnail",
-          name: "thumbnail",
-          hint: "Small image limited to 100kb to be used for overviews.",
-          widget: "image",
-          required: false,
-          media_library: { config: { max_file_size: 100000 } },
-        } # in bytes, only for default media library
-      - {
-          label: "Body",
-          name: "body",
-          widget: "markdown",
-          media_library: { config: { max_file_size: 10000000 } },
-        }
   - name: "gamedoc"
     label: "Videogame Documentation" # Used in the UI
     label_singular: "message" # Used in the UI, ie: "New Post"
@@ -696,3 +633,86 @@ collections:
       - { label: "iframe 2", name: "iframesrc_two", widget: "string", media_library: { config: { max_file_size: 50000000 } }, required: false, }
       - { label: "iframe 3", name: "iframesrc_three", widget: "string", media_library: { config: { max_file_size: 50000000 } }, required: false, }
       - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
+  - name: "bestpractices"
+    label: "WP5 Best Practices" # Used in the UI
+    label_singular: "message" # Used in the UI, ie: "New Post"
+    folder: "content/bestpractices"
+    description: This collection is intended for submitting best practices from WP5.
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "bestpractice" }
+      - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, hint: "The title of your Best Practice should be 15 words max." }
+      - { label: "Summary of best practice", name: "desc", widget: "string", required: true, pattern: ["^.{1,900}$", "Must have max 100 words"], hint: "Short summary of current entry. Will be displayed in overviews as preview text." }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Target Audience",  name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["PROFESSIONAL"], multiple: true, }
+      - { label: "Theme", name: "theme", widget: "select", options: ["Technology", "Tourism", "Management", "Other"], default: ["Tourism"], required: true, multiple: false, }
+      - { label: "License", name: "license", widget: "string", default: "CC BY 2.0", }
+      - { label: "Status", name: "status", widget: "select", options: ["draft", "completed"], default: ["completed"], hint: "to keep drafts unpublished, in the pubblication of the toolkit", }
+      - { label: "Submitting partner",
+          name: "partnerbestpractice",
+          widget: "string",
+        }
+      - { label: "Submitting partner contact person",
+          name: "personsbestpractice",
+          widget: "select",
+          options: ["Bank of Cyprus Cultural Foundation", "Arte Sostenible", "University of Florence - MICC", "ECTN", "University of Nicosia - School of Law", "Materahub", "Museum of Cycladic Art", "University of Graz", "CYENS", "Blue Shield", "University of Applied Science - Arcada", "Graz Museum", "other"]
+        }
+      - { label: "Submitting partner contact email",
+          name: "emailbestpractice",
+          widget: "string",
+        }
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: true, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library 
+      - { label: "Type of Best Practice", name: "formtypbestpractice", widget: "select",
+          options: ["General Cultural Heritage Management", "Cooperation between Museums and Heritage sites", "Communication between Museums and Heritage Sites", "IPR for Museums and Cultural Heritage Institutions",
+          "Conservation and Preservation", "VR/AR & Technologies, inc. Gamification & Immersive perfomances", "Innovation (including 3D, AI, Big data, Metaverse, etc)", 
+          "Audience and Local Community Engagement", "Pandemic impacts and post-pandemic relaunching of Cultural Heritage", "Environmental and Climate change concerns",
+          "Marketing and Branding", "Sustainable Cultural Tourism", "Smart Tourism - Smart Destinations", "Travelling and Digital Exhibitions", "Sustainability", "Accessibility"],
+          required: true, }
+      - { label: "Organisation in charge of the Best Practice", name: "orgbestpractice", widget: "string", }
+      - { label: "Location of the Best Practice (City, Region, Country)", name: "locationbestpractice", widget: "string", }
+      - { label: "Timescale (start-end date, or ongoing)",
+          name: "timebestpractice",
+          widget: "string",
+        }
+      - { label: "Resources needed",
+          name: "resourcesbestpractice",
+          widget: "string",
+          pattern: ["^.{1,900}$", "Must have max 100 words"],
+        }
+      - { label: "Evidence of success",
+          name: "successbestpractice",
+          widget: "string",
+          pattern: ["^.{1,4500}$", "Must have max 500 words"],
+        }
+      - { label: "Challenges encountered",
+          name: "challengesbestpractice",
+          widget: "string",
+          pattern: ["^.{1,2500}$", "Must have max 250 words"],
+        }
+      - { label: "Potential for transfer",
+          name: "transferbestpractice",
+          widget: "string",
+          pattern: ["^.{1,2500}$", "Must have max 250 words"],
+        }
+      - { label: "Further info",
+          name: "infosbestpractice",
+          widget: "string",
+          pattern: ["^.{1,2500}$", "Must have max 250 words"],
+        }
+      - { label: "Relevant Websites URLs",
+          name: "urlsbestpractice",
+          widget: "string",
+        }
+      - { label: "Keywords",
+          name: "keywordsbestpractice",
+          widget: "string",
+        }
+      - { label: "Videos links",
+          name: "videosbestpractice",
+          widget: "string",
+          hint: "Max 5 video links"
+        }
+      - { label: "Description", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, hint: "Upload at least one photo." }
