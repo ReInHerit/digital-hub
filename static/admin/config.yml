@@ -650,16 +650,16 @@ collections:
       - { label: "Target Audience",  name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["PROFESSIONAL"], multiple: true, }
       - { label: "Theme", name: "theme", widget: "select", options: ["Technology", "Tourism", "Management", "Other"], default: ["Tourism"], required: true, multiple: false, }
       - { label: "License", name: "license", widget: "string", default: "CC BY 2.0", }
-      - { label: "Status", name: "status", widget: "select", options: ["draft", "completed"], default: ["completed"], hint: "to keep drafts unpublished, in the pubblication of the toolkit", }
+      - { label: "Status", name: "pubstatus", widget: "select", options: ["draft", "completed"], default: ["completed"], hint: "to keep drafts unpublished", }
       - { label: "Submitting partner",
           name: "partnerbestpractice",
-          widget: "string",
-        }
-      - { label: "Submitting partner contact person",
-          name: "personsbestpractice",
           widget: "select",
           options: ["Bank of Cyprus Cultural Foundation", "Arte Sostenible", "University of Florence - MICC", "ECTN", "University of Nicosia - School of Law", "Materahub", "Museum of Cycladic Art", "University of Graz", "CYENS", "Blue Shield", "University of Applied Science - Arcada", "Graz Museum", "other"]
         }
+      - { label: "Submitting partner contact person",
+          name: "personsbestpractice",
+          widget: "string",
+          }
       - { label: "Submitting partner contact email",
           name: "emailbestpractice",
           widget: "string",
@@ -710,9 +710,4 @@ collections:
           name: "keywordsbestpractice",
           widget: "string",
         }
-      - { label: "Videos links",
-          name: "videosbestpractice",
-          widget: "string",
-          hint: "Max 5 video links"
-        }
-      - { label: "Description", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, hint: "Upload at least one photo." }
+      - { label: "Description", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, hint: "Upload at least one photo. You can also link videos (max 5)." }

@@ -81,7 +81,7 @@ const ToolsQuery = graphql`
   query ToolsQuery {
     allMarkdownRemark(
       filter: {fileAbsolutePath: {regex: "/toolapps/"}, 
-      frontmatter: {target_audience: {eq: "PROFESSIONAL"}, status: {eq: "completed"}}}
+      frontmatter: {target_audience: {eq: "PROFESSIONAL"}}}
       ) {
       edges {
         node {

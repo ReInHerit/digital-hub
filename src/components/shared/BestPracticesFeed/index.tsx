@@ -40,7 +40,7 @@ export default BestPracticesFeed
 const BestPracticesQuery = graphql`
 query BestPracticesQuery {
   allMarkdownRemark(
-    filter: {fileAbsolutePath: {regex: "/bestpractices/"}, frontmatter: {status: {eq: "completed"}}}
+    filter: {fileAbsolutePath: {regex: "/bestpractices/"}, frontmatter: {pubstatus: {eq: "completed"}}}
     ) {
     edges {
       node {
@@ -48,6 +48,7 @@ query BestPracticesQuery {
         excerpt
         frontmatter {
           title
+          pubstatus
           date(fromNow: true)
           target_audience
           pageId
@@ -72,7 +73,6 @@ query BestPracticesQuery {
           videosbestpractice
           theme
           type
-          status
         }
       }
     }
