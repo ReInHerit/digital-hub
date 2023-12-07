@@ -15,7 +15,7 @@ thumbnail: https://ucarecdn.com/2c354ee1-dfc3-4ce0-8c78-467bff8929d5/
 ---
 ![ReInHerit Toolkit presented at "NexUs -  Culture and Research" Florence IT](https://ucarecdn.com/06bdf815-538f-4734-93a7-060644c52c32/ "ReInHerit Toolkit presented at \\\"NexUs -  Culture and Research\\\" Florence IT")
 
-On 5 december 2023 at[ Istituto e Museo degli Innocenti ](https://www.museodeglinnocenti.it/en/) - Florence in the context of the event "[NexUs | Culture and Research: Connections for Innovation"](https://www.regione.toscana.it/-/evento_nexus), MICC presented its research on Cultural Heritage sector with a focus on the ReInHerit Tooklit with a pitch titled  “*Human-centered approaches for Accessiblity in the Cultural Heritage domain.*” 
+On 5 december 2023 at[ Istituto e Museo degli Innocenti ](https://www.museodeglinnocenti.it/en/) - Florence in the context of the event "[NexUs | Culture and Research: Connections for Innovation"](https://www.regione.toscana.it/-/evento_nexus), MICC presented its research on Cultural Heritage sector with a focus on the ReInHerit Tooklit in a pitch titled  “*Human-centered approaches for Accessiblity in the Cultural Heritage domain.*” 
 
 ![ ReInHerit Toolkit presented at "NexUs -  Culture and Research" Florence IT](https://ucarecdn.com/a658e40e-d32f-471a-9b24-c9a8a50954a4/ "ReInHerit Toolkit presented at \\\"NexUs -  Culture and Research\\\" Florence IT")
 
