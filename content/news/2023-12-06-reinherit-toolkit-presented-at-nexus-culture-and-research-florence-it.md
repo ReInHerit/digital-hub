@@ -13,11 +13,11 @@ status: completed
 theme: Technology
 thumbnail: https://ucarecdn.com/2c354ee1-dfc3-4ce0-8c78-467bff8929d5/
 ---
-![ReInHerit Toolkit presented at "NexUs -  Culture and Research" Florence IT](https://ucarecdn.com/06bdf815-538f-4734-93a7-060644c52c32/ "ReInHerit Toolkit presented at \\"NexUs -  Culture and Research\\" Florence IT")
+![ReInHerit Toolkit presented at "NexUs -  Culture and Research" Florence IT](https://ucarecdn.com/06bdf815-538f-4734-93a7-060644c52c32/ "ReInHerit Toolkit presented at \\\"NexUs -  Culture and Research\\\" Florence IT")
 
-On 5 december 2023 at[ Istituto e Museo degli Innocenti ](https://www.museodeglinnocenti.it/en/) in Florence in the context of the event "[NexUs | Culture and Research: Connections for Innovation"](https://www.regione.toscana.it/-/evento_nexus), MICC presented its research on Cultural Heritage sector with a focus on the ReInHerit Tooklit with a pitch titled  “*Human-centered approaches for Accessiblity in the Cultural Heritage domain.*” 
+On 5 december 2023 at[ Istituto e Museo degli Innocenti ](https://www.museodeglinnocenti.it/en/) - Florence in the context of the event "[NexUs | Culture and Research: Connections for Innovation"](https://www.regione.toscana.it/-/evento_nexus), MICC presented its research on Cultural Heritage sector with a focus on the ReInHerit Tooklit with a pitch titled  “*Human-centered approaches for Accessiblity in the Cultural Heritage domain.*” 
 
-![ ReInHerit Toolkit presented at "NexUs -  Culture and Research" Florence IT](https://ucarecdn.com/a658e40e-d32f-471a-9b24-c9a8a50954a4/ "ReInHerit Toolkit presented at \\"NexUs -  Culture and Research\\" Florence IT")
+![ ReInHerit Toolkit presented at "NexUs -  Culture and Research" Florence IT](https://ucarecdn.com/a658e40e-d32f-471a-9b24-c9a8a50954a4/ "ReInHerit Toolkit presented at \\\"NexUs -  Culture and Research\\\" Florence IT")
 
 An Event targeted mainly at cultural institutions, creative industries, startups, Bank Foundations and other public and private institutions and organized by [URTT Regional Technology Transfer Office](https://www.regione.toscana.it/università-e-ricerca/speciali/ufficio-regionale-di-trasferimento-tecnologico) together with the Region of Tuscany, University of Siena, the University of Pisa, the University of Florence, Scuola Superiore Sant'Anna, Scuola Normale Superiore, Scuola IMT Alti Studi Lucca and Toscana Life Sciences Foundation. The University for Foreigners of Siena and the CNR - Research Area of Florence and Pisa also collaborated on the event. It was an opportunity to interact and share ideas in order to promote technologies, knowledge and methods and respond to the main challenges.
 
