@@ -11,7 +11,7 @@ target-audience:
 referenceTo: Event
 status: completed
 theme: Technology
-thumbnail: https://ucarecdn.com/2c354ee1-dfc3-4ce0-8c78-467bff8929d5/
+thumbnail: https://ucarecdn.com/61718be1-5614-4d9f-935b-f49998295ccd/-/preview/
 ---
 ![ReInHerit Toolkit presented at "NexUs -  Culture and Research" Florence IT](https://ucarecdn.com/06bdf815-538f-4734-93a7-060644c52c32/ "ReInHerit Toolkit presented at \\\"NexUs -  Culture and Research\\\" Florence IT")
 
