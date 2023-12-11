@@ -24,7 +24,7 @@ The second edition of Magma Fest unfolded an immersive exploration into the intr
 
 ![Cultural Convergence, Reinherit Lights up Magma Fest](https://ucarecdn.com/2343da8f-0253-4265-a07e-bef16874ec29/ "Cultural Convergence, Reinherit Lights up Magma Fest")
 
-The first day of the festival was dedicated to the theme of tourism, featuring insightful presentations from Cristina Amenta and Vania Cauzillo of Eco Verticale, a captivating cultural space and hotel in Matera. They shed light on the Cultour Data project, which received complementary funding through an open call under the COSME program. Cultour Data aims to enhance data-driven, accessible, and transformative cultural tourism across Europe, offering a dual support scheme targeting both tourism SMEs and European Capitals of Culture, such as Matera.
+The first day of the festival was dedicated to the theme of tourism, featuring insightful presentations from Cristina Amenta and Vania Cauzillo of [EcoVerticale](https://www.ecoverticale.it), a captivating cultural space and hotel in Matera. They shed light on the Cultour Data project, which received complementary funding through an open call under the[ COSME program](https://single-market-economy.ec.europa.eu/smes/cosme_en). [Cultour Data ](https://www.cultouriscapital.eu/cultourdata/)aims to enhance data-driven, accessible, and transformative cultural tourism across Europe, offering a dual support scheme targeting both tourism SMEs and European Capitals of Culture, such as Matera.
 
 ![Cultural Convergence, Reinherit Lights up Magma Fest](https://ucarecdn.com/fdc7e1cb-824e-4d86-ae2c-1a7ea547e431/ "Cultural Convergence, Reinherit Lights up Magma Fest")
 
