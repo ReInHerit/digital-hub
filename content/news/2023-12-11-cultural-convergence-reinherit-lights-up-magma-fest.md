@@ -4,7 +4,7 @@ layout: blog
 type: news
 title: Cultural Convergence, ReInHerit Lights up Magma Fest
 desc: Cultural Convergence, ReInHerit Lights up Magma Fest
-date: 2023-12-11T15:22:41.417Z
+date: 2023-11-29T15:22:41.417Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
