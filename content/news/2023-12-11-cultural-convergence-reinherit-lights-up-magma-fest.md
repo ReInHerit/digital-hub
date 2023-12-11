@@ -2,8 +2,8 @@
 pageId: 07fa5b02-9213-449d-adf3-6e0725736e69
 layout: blog
 type: news
-title: Cultural Convergence, Reinherit Lights up Magma Fest
-desc: Cultural Convergence, Reinherit Lights up Magma Fest
+title: Cultural Convergence, ReInHerit Lights up Magma Fest
+desc: Cultural Convergence, ReInHerit Lights up Magma Fest
 date: 2023-12-11T15:22:41.417Z
 target-audience:
   - VISITOR
