@@ -9,22 +9,16 @@ target-audience:
   - PROFESSIONAL
 referenceTo:
   - News
-status: draft
+status: completed
 theme: Technology
 thumbnail: https://ucarecdn.com/2050d518-674d-4f96-8d2d-ccb3a90174df/
 ---
 On the 28th of November, ReInHerit partners Museum of Cycladic Art, Media Integration and Communication Center MICC-UNIFI, ECTN - European Cultural Tourism Network, CYENS Centre of Excellence and Bank of Cyprus Cultural Foundation had the opportunity to meet at the Museum of Cycladic Art in Athens and discuss the next steps of development of the apps of the project. 
 
-![](https://ucarecdn.com/9c5df493-47a3-4eb2-ae1d-1d83fbd1becb/)
-
-
+![group picture ](https://ucarecdn.com/5c218ae8-58d9-4f2b-91c4-bc83e295b68e/)
 
 Moreover, the partners tested the Smart Tourism App for Athens in the centre of the city.
 
-
-
-![Smart Tousim App Pop Up ](https://ucarecdn.com/033ab87e-08d8-40b1-bc43-d092adae7e5b/)
-
-![](https://ucarecdn.com/2eb7f3cc-4c74-43b2-a1ff-75481bd9766a/)
+![Smart Tousim App testing ](https://ucarecdn.com/9120b965-bceb-4265-8c00-594708a6a807/-/preview/)
 
 Stay tuned, more news and activities are coming up!
