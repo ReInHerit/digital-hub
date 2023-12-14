@@ -17,17 +17,11 @@ On the 23rd of October, the ReInHerit´s team from the University of Graz presen
 
 <!--StartFragment-->
 
-Different European projects and initiatives dedicated to cultural heritage were presented, including the Horizon projects Vast, InTavia, and Odeuropa. In this context, Sina Krottmaier, Pamela Frasson and Chiara Zuanni had the opportunity to give not only an introduction to the ReInHerit project, but also to promote the contents of the Digital Hub. It was also a great occasion to invite people to listen to podcasts and webinars,created in the course of the project, and to invite them to participate in the ReInHerit chats (hosted weekly on the [ReInHerit Forum](https://reinherit-hub.eu/forum/)). 
-
-
+Different European projects and initiatives dedicated to cultural heritage were presented, including the Horizon projects Vast, InTavia, and Odeuropa. In this context, Sina Krottmaier, Pamela Frasson and Chiara Zuanni had the opportunity to give not only an introduction to the ReInHerit project, but also to promote the contents of the Digital Hub. It was also a great occasion to invite people to listen to podcasts and webinars, created in the course of the project, and to invite them to participate in the ReInHerit chats (hosted weekly on the [ReInHerit Forum](https://reinherit-hub.eu/forum/)). 
 
 After lunch, participants were encouraged to take part in a World Café workshop, where they could reflect on three different challenges cultural heritage is facing today: modelling - users - interlinking. A useful discussion at the end brought together the main strands of these projects and offered a reflection on the challenges in cultural heritage, which these European projects are all trying to address through their different approaches and focuses. The conference proceedings will be published next year.
 
-
-
 The CaTCH Conference was a great platform to discover new aspects of cultural heritage, share opinions, and make new connections and exchange ideas with other projects. Moreover, the poster on the ReInHerit Digital Hub received positive feedback and allowed us to open up a discussion with colleagues working in other H2020 projects.
-
-
 
 More information about the program of the Conference: [here](https://www.vast-project.eu/news-events/catch-conference/)
 
