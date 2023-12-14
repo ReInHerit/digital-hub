@@ -7,7 +7,7 @@ date: 2023-12-14T08:57:28.528Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
-referenceTo: News
+referenceTo: Event
 status: draft
 theme: Technology
 ---
