@@ -2,20 +2,19 @@
 pageId: cb3c63e3-c8df-4f79-b629-bc3bebeb0299
 layout: blog
 type: news
-title: ReInHerits Digital Hub presented at the CaTCH Conference in Maribor
+title: ReInHerit's Digital Hub presented at the CaTCH Conference in Maribor
 date: 2023-12-14T08:57:28.528Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
-referenceTo: Event
-status: draft
+referenceTo: News
+status: completed
 theme: Technology
+thumbnail: https://ucarecdn.com/22f7244f-5927-492e-b556-de2f0de0efb8/
 ---
-On the 23rd of October, the ReInHerit´s team from the University of Graz presented the project and the Digital Hub at the CaTCH Conference organised by the two Horizon 2020 projects [VAST](https://www.vast-project.eu/) (Values Across Space and Time) and [InTavia](https://intavia.eu/) (In/Tangible European Heritage Visual Analysis, Curation & Communication). The conference was held in the University of Maribor and it welcomed representatives also from other European projects. The focus of this event was on the digitisation of tangible and intangible cultural heritage and the conference aimed to promote inclusive and contemporary practices and knowledge exchange within these projects on cultural heritage.
+On the 23rd of October, the ReInHerit's team from the University of Graz presented the project and the Digital Hub at the CaTCH Conference organised by the two Horizon 2020 projects [VAST](https://www.vast-project.eu/) (Values Across Space and Time) and [InTavia](https://intavia.eu/) (In/Tangible European Heritage Visual Analysis, Curation & Communication). The conference was held in the University of Maribor and it welcomed representatives also from other European projects. The focus of this event was on the digitisation of tangible and intangible cultural heritage and the conference aimed to promote inclusive and contemporary practices and knowledge exchange within these projects on cultural heritage.
 
 ![Organising Commitee and Program Commitee](https://ucarecdn.com/a447fe2d-5536-457d-bf77-d72b72d8240c/ "Organising Commitee and Program Commitee")
-
-
 
 Different European projects and initiatives dedicated to cultural heritage were presented, including the Horizon projects VAST, InTavia, and Odeuropa. In this context, Sina Krottmaier, Pamela Frasson and Chiara Zuanni had the opportunity to give not only an introduction to the ReInHerit project, but also to promote the contents of the Digital Hub. It was also a great occasion to invite people to listen to podcasts and webinars, created in the course of the project, and to invite them to participate in the ReInHerit chats (hosted on the [ReInHerit Forum](https://reinherit-hub.eu/forum/)). 
 
