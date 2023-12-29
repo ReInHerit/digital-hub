@@ -65,14 +65,11 @@ const VisitorHubPage = () => {
           title="Travelling exhibitions"
           url="/travellingexhibitions"
         />
-        {/*
         <ReinGridCard
           body="Hackathon organized by ReInHerit."
           title="Hackathon"
-          url="/hackathon"
-        />
-        */}
-        
+          url="https://reinherithackathon.cyens.org.cy/homepage/"
+        />        
       </ReinCardGrid>
     </BaseLayout>
   )

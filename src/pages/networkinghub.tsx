@@ -41,6 +41,11 @@ const NetworkingHubPage = () => {
           title="Host an exhibition"
           url="/museumcalls/travelling"
       />
+       <ReinGridCard
+          body="Discover our events and participate."
+          title="Events"
+          url="/events"
+      />
        </ReinCardGrid>
     </BaseLayout>
   )

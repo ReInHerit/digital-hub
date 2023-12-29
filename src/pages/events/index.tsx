@@ -32,11 +32,15 @@ const EventsPage: React.FC = () => {
         body="The RETHINKING Travelling exhibitions, hosted in Cyprus, Greece, and Austria."
       />
       <ReinGridCard
-        title="Hackathons"
+        title="Hackathon in Matera"
         url="/summerschool/"
-        body="ReInHerit Hackathons."
+        body="ReInHerit Hackathon in Matera."
       />
-        
+      <ReinGridCard
+        title="Hackathon in Nicosia"
+        url="https://reinherithackathon.cyens.org.cy/homepage/"
+        body="ReInHerit Hackathon in Nicosia."
+      />
     </ReinCardGrid>
   </BaseLayout>;
 }

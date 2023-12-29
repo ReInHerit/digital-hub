@@ -98,6 +98,12 @@ const ReinNavbar: React.FC = () => {
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
+                  to="/gamedoc/5761ffde-e42d-4697-973a-353c16f32590"
+                >
+                  Videogame Documentation
+                </Link>
+                <Link
+                  className="text-dark text-decoration-none dropdown-item"
                   to="/eshopdoc"
                 >
                   eShop documentation
@@ -128,12 +134,7 @@ const ReinNavbar: React.FC = () => {
                   Overview
                 </Link>
                  */}
-              {/*  <Link
-                  className="text-dark text-decoration-none dropdown-item"
-                  to="/game"
-                >
-                  Videogame documentation
-                </Link>
+              {/*  
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/bestpractices"
@@ -223,6 +224,13 @@ const ReinNavbar: React.FC = () => {
               >
                 Contribute to the collection
               </Link>
+              <Link
+                 style={{ color: "#424753" }}
+                 className="text-dark text-decoration-none dropdown-item"
+                 to="https://reinherithackathon.cyens.org.cy/homepage/"
+               >
+                 ReInHerit Hackathon
+               </Link>
           </NavDropdown>
 
 
