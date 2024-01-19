@@ -14,7 +14,7 @@ target-audience:
   - PROFESSIONAL
 theme: Tourism
 license: CC BY 2.0
-pubstatus: draft
+pubstatus: completed
 partnerbestpractice: ECTN
 personsbestpractice: Manos Vougioukas
 emailbestpractice: sectetary-general@culturaltourism-net.eu
