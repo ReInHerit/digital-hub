@@ -64,19 +64,25 @@ This second system allows to create longer answers compared to the first approac
 
 Examples of the interface of the multimedia chatbot are shown in the following Images. The content used by the chatbot is  provided by curators using a specific ADMIN interface.
 
+
+
+
+
+![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/e5541477-fcb5-4333-9361-e612c629fc57/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
+
+![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/d62ead48-95c6-4d4b-96d9-1c5d1d68805e/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
+
+VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork
+
 ![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/e2b58a76-85c9-4892-8c51-ec1e044b2bad/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
 
 > *VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork*
 
-![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/fac7769e-e04f-4cee-8891-b19019bbf383/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
-
-*VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork.*
-
-![VIOLA multimedia chatbot: ADMIN Interface for curators](https://ucarecdn.com/55c29543-5e38-4f27-9ae7-28b996d7a715/ "VIOLA multimedia chatbot: ADMIN Interface for curators")
+![VIOLA multimedia chatbot: ADMIN Interface for curators](https://ucarecdn.com/57de6711-8598-4307-822c-00bd8fcc4e84/ "VIOLA multimedia chatbot: ADMIN Interface for curators")
 
 *VIOLA multimedia chatbot: ADMIN Interface for curators*
 
-
+![VIOLA multimedia chatbot: ADMIN Interface for curators](https://ucarecdn.com/7aed416f-ad1a-468c-8d69-d7a33acd4891/ "VIOLA multimedia chatbot: ADMIN Interface for curators")
 
 ### Source code
 
