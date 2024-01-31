@@ -67,16 +67,16 @@ Examples of the interface of the multimedia chatbot are shown in the following I
 ![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/e2b58a76-85c9-4892-8c51-ec1e044b2bad/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
 
 > *VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork*
->
-> ![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/33d293b1-9f5b-4b15-9d04-30dddc086d8c/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
->
-> *VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork.*
->
-> ![VIOLA multimedia chatbot: ADMIN Interface for curators](https://ucarecdn.com/55c29543-5e38-4f27-9ae7-28b996d7a715/ "VIOLA multimedia chatbot: ADMIN Interface for curators")
->
-> *VIOLA multimedia chatbot: ADMIN Interface for curators*
 
-`youtube: https://youtu.be/BjstSqyxbOg`
+![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/fac7769e-e04f-4cee-8891-b19019bbf383/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
+
+*VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork.*
+
+![VIOLA multimedia chatbot: ADMIN Interface for curators](https://ucarecdn.com/55c29543-5e38-4f27-9ae7-28b996d7a715/ "VIOLA multimedia chatbot: ADMIN Interface for curators")
+
+*VIOLA multimedia chatbot: ADMIN Interface for curators*
+
+
 
 ### Source code
 
