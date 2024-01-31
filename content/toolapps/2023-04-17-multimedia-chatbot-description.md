@@ -29,6 +29,6 @@ Join the chatbot and discover a new way to interact with art by starting to askÂ
 Try the **Demo of VIOLA Multimedia Chatbot** at this link:\
 [https://reinherit-multimedia-câ€‹hatbot.herokuapp.com/](https://reinherit-multimedia-chatbot.herokuapp.com/)
 
-![VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork](https://ucarecdn.com/dd6be94a-8b1e-428a-9830-6d870b9cface/ "VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork")
+![VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork](https://ucarecdn.com/6adfc128-9bc3-4005-b996-aba3869bc16f/ "VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork")
 
 `youtube: https://youtu.be/BjstSqyxbOg`
