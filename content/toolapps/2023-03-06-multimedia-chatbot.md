@@ -68,11 +68,11 @@ Examples of the interface of the multimedia chatbot for mobile devices are shown
 
 > *VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork*
 >
-> ![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/8cf2dcaf-5fac-4e54-ad9a-803352fd8305/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
+> ![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/33d293b1-9f5b-4b15-9d04-30dddc086d8c/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
 >
 > *VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork.*
 >
-> ![VIOLA multimedia chatbot: ADMIN Interface for curators](https://ucarecdn.com/a8d371e6-2f9d-4990-8d12-8efc8f922613/ "VIOLA multimedia chatbot: ADMIN Interface for curators")
+> ![VIOLA multimedia chatbot: ADMIN Interface for curators](https://ucarecdn.com/55c29543-5e38-4f27-9ae7-28b996d7a715/ "VIOLA multimedia chatbot: ADMIN Interface for curators")
 >
 > *VIOLA multimedia chatbot: ADMIN Interface for curators*
 
