@@ -60,7 +60,7 @@ urlsbestpractice: https://www.argonautica-network.eu/
 keywordsbestpractice: Cultural Route, Intangible Heritage, Sustainable Tourism,
   Cultural Tourism, Smart Tourism, Mythology, Poetry, Literature, Visual Arts
 ---
-![](https://ucarecdn.com/3ad25c6f-3760-4047-8f45-4c78d799ac4f/)
+![](https://ucarecdn.com/9b703ddd-08b8-437a-822b-ee1222f66a4b/)
 
 `youtube: https://www.youtube.com/watch?v=EUwkKIbNDyo`
 
