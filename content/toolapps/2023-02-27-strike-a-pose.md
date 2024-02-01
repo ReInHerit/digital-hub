@@ -46,7 +46,7 @@ Use state-of-the-art AI techniques that can runon mobile devices, to follow
 
 > *Strike a Pose - Setting the room*
 
-**Museum** an access the Admin Dashboar to directly manage user interaction artworks.
+**Museum** is able to access the Admin Dashboar to directly manage user interaction artworks.
 
 ![Strike-a-pose - Admin Dashboard](https://ucarecdn.com/1cf5540d-ecfa-4fdc-848b-58b5df986b1a/ "Strike-a-pose - Admin Dashboard")
 
