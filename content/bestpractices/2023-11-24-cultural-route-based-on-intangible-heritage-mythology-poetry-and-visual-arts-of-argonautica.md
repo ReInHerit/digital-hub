@@ -12,7 +12,7 @@ desc: "A European Cultural Route of the Argonautica, based on intangible
 date: 2023-11-24T12:56:47.183Z
 target-audience:
   - PROFESSIONAL
-theme: Tourism
+theme: Other
 license: CC BY 2.0
 pubstatus: completed
 partnerbestpractice: ECTN
