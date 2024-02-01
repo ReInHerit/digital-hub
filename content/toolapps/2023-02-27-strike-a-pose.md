@@ -40,7 +40,7 @@ Use state-of-the-art AI techniques that can runon mobile devices, to follow
 
 > *Strike a Pose - Policy Privacy*
 
-**User** is able to **create a room** by choosing the number of participants (clients) i.e. whether to interact alone ( solo) or a challange with another user (Versus), setting the number of poses the number of rounds and the level of half bust or full body of the artwork. Once the room is created, user can share the id number to invite participants. 
+**User** is able to **create a room** by choosing the number of participants (clients) i.e. whether to interact alone (Solo) or a challange with another user (Versus), setting the number of poses the number of rounds and the level of half bust or full body of the artwork. Once the room is created, user can share the id number to invite participants. 
 
 ![Strike a Pose - Setting the room](https://ucarecdn.com/d965100e-a971-4662-9e15-3dcc92e50be7/ "Strike a Pose - Setting the room")
 
