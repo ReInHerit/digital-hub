@@ -17,7 +17,7 @@ license: CC BY 2.0
 pubstatus: completed
 partnerbestpractice: ECTN
 personsbestpractice: Manos Vougioukas
-emailbestpractice: sectetary-general@culturaltourism-net.eu
+emailbestpractice: info@argonautica-network.eu
 thumbnail: https://ucarecdn.com/02dac1ef-b149-4c6f-9b1b-e17a3976f8c8/
 formtypbestpractice: General Cultural Heritage Management
 orgbestpractice: Argonautica Network
