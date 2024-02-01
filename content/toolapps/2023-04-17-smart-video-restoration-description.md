@@ -35,4 +35,4 @@ Due to computational costs the demo handles only images. People interested in vi
 Try the **demo** for image restoration at this link (the online demo works on photos and not videos, for timing reasons):\
 [https://reinherit-image-restor​e.herokuapp.com](https://reinherit-image-restore.herokuapp.com/)
 
-![Smart Video Restoration](https://ucarecdn.com/b424e03a-dcb6-435f-9c5c-25bdceb09742/ "Smart Video Restoration")
+![Smart Video/Photo Restoration](https://ucarecdn.com/f013c43e-ff3b-4951-bb17-3e83030a5cbc/ "Smart Video/Photo Restoration")
