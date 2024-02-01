@@ -62,11 +62,7 @@ In addition to this first type of chatbot system, following the emergence and su
 
 This second system allows to create longer answers compared to the first approach, thus creating a more natural interaction. To cope with the fact that **GPT-based system** tend to create texts that sound plausible only from a linguistic point of view, but that are not based on actual knowledge, the system has been designed using prompt-engineering techniques that force the neural network to adhere to the contextual and content-based information provided by the JSON files that contain actual details and information related to the artwork.
 
-Examples of the interface of the multimedia chatbot are shown in the following Images. The content used by the chatbot is  provided by curators using a specific ADMIN interface.
-
-
-
-
+**Examples of the interface of the multimedia chatbot** are shown in the following Images.
 
 ![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/e5541477-fcb5-4333-9361-e612c629fc57/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
 
@@ -77,6 +73,8 @@ VIOLA multimedia chatbot: Gallery and  Answering questions related to the contex
 ![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/e2b58a76-85c9-4892-8c51-ec1e044b2bad/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
 
 > *VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork*
+
+ The content used by the chatbot is  provided by curators using a specific **ADMIN interface.**
 
 ![VIOLA multimedia chatbot: ADMIN Interface for curators](https://ucarecdn.com/57de6711-8598-4307-822c-00bd8fcc4e84/ "VIOLA multimedia chatbot: ADMIN Interface for curators")
 
