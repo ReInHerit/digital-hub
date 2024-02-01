@@ -34,7 +34,7 @@ The application has been developed in **JavaScript** on the client side and in *
 
 The base interface, implemented in **HTML** can be adapted by different users, maintaining the computer vision functionalities, so as to allow customization by different museums.  The web interface is designed to be responsive and adapt to different devices.
 
-Use state-of-the-art AI techniques that can runon mobile devices, to follow BYOD approach. App doesn’t ask for personal data, no logging of personal data, performing as much as possible computation on end-user devices, as explained in the **Policy Privacy.**
+Use state-of-the-art AI techniques that can run on mobile devices, to follow BYOD approach. App doesn’t ask for personal data, no logging of personal data, performing as much as possible computation on end-user devices, as explained in the **Policy Privacy.**
 
 ![Strike a Pose - Policy Privacy](https://ucarecdn.com/b0886b3b-af0a-486d-9b42-a8d769cb6a89/ "Strike a Pose - Policy Privacy")
 
@@ -64,9 +64,6 @@ The application is composed of a **backend** that manages the challenges and a *
 The interface is completely written in **HTML5**. The computer vision task of matching the pose of the user with the pose of the artworks of the challenge can be implemented completely using the **Tensorflow JS** executed in the browser. The creation of the video produced upon successful completion of the challenge is performed server-side.  The **backend** implements a RESTful API using Flask, and is fully implemented in Python. This eases the integration of several other libraries to access the database of the challenges, using SQLAlchemy and to create the final videos using OpenCV**.** Challenges are maintained in the DB, e.g. allowing to pick poses that require to use only the upper body (e.g. to allow also people with mobility issues to play) or with full body. 
 
 jQuery and Bootstrap are the main components used to design the interface and provide user interaction with the GUI, Webcam Easy JS allows to connect to the webcam through the browser and Tensorflow JS is the workhorse to implement the computer vision functionalities.
-
-**Usage Example**\
-App requires a server to host the mobile app and to provide the RESTful APIs of the backend. A QR code can be used to avoid typing the URL of the web apps.
 
 **Guidelines for reuse**\
 The simplest type of reuse is substituting the selected sample artworks with those of the collection of the museum/organization that desires to customize the apps, along with the associated information. Setup of the apps is based on Docker, to simplify the installation of the backend. 
