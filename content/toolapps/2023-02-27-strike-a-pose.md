@@ -52,7 +52,8 @@ Use state-of-the-art AI techniques that can run on mobile devices, to follo
 
 > *Strike-a-pose - Admin Dashboard*
 
-**Usage Example**\
+### **Usage Example**
+
 App requires a server to host the mobile app and to provide the RESTful APIs of the backend. A QR code can be used to avoid typing the URL of the web apps.
 
 The application is composed of a **backend** that manages the challenges and a **front-end** that runs on mobile devices. A schema of the **main components** of the **backend and front end**  is shown in the following figures:
@@ -65,7 +66,8 @@ The interface is completely written in **HTML5**. The computer vision task of ma
 
 jQuery and Bootstrap are the main components used to design the interface and provide user interaction with the GUI, Webcam Easy JS allows to connect to the webcam through the browser and Tensorflow JS is the workhorse to implement the computer vision functionalities.
 
-**Guidelines for reuse**\
+### **Guidelines for reuse**
+
 The simplest type of reuse is substituting the selected sample artworks with those of the collection of the museum/organization that desires to customize the apps, along with the associated information. Setup of the apps is based on Docker, to simplify the installation of the backend. 
 
 It is possible to extend the apps introducing new types of challenges, e.g. combining classes of artworks, creating collections of artworks according to some criterion. The challenges of Strike-a-pose can be changed to follow some other criterion other than using full/upper/lower body parts, e.g. according to styles or time. 
