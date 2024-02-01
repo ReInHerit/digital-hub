@@ -19,7 +19,7 @@ partnerbestpractice: ECTN
 personsbestpractice: Manos Vougioukas
 emailbestpractice: sectetary-general@culturaltourism-net.eu
 thumbnail: https://ucarecdn.com/02dac1ef-b149-4c6f-9b1b-e17a3976f8c8/
-formtypbestpractice: Sustainable Cultural Tourism
+formtypbestpractice: General Cultural Heritage Management
 orgbestpractice: Argonautica Network
 locationbestpractice: Greece, Georgia, Romania, Bulgaria, Serbia, Croatia, Slovenia, Italy, France
 timebestpractice: Ongoing
