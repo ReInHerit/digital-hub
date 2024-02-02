@@ -68,7 +68,7 @@ This second system allows to create longer answers compared to the first approac
 
 ![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/d62ead48-95c6-4d4b-96d9-1c5d1d68805e/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
 
-VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork
+> *VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork*
 
 ![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/e2b58a76-85c9-4892-8c51-ec1e044b2bad/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
 
