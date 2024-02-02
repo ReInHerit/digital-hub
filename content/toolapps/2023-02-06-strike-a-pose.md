@@ -25,7 +25,7 @@ The goal of this application is to challenge the user to **analyze and replicate
 
 ![Strike a Pose WebApp - Examples of pose matching](https://ucarecdn.com/82b1e645-bfeb-4dbc-b5ca-4309e46ddbe0/ "Strike a Pose WebApp - Examples of pose matching")
 
-> > *Strike a Pose WerbApp - The user trying to strike the pose in the painting (playing in “easy" mode, with visible skeletons - Challenge completed: download the video.*
+> > *Strike a Pose WebApp - The user trying to strike the pose in the painting (playing in “easy" mode, with visible skeletons - Challenge completed: download the video.*
 >
 > The user is challenged to reproduce in sequence the poses of some artworks from the museum's collections. Once all the poses have been matched, the application allows the user to **generate** a video that can be saved for any **social sharing** and provide info on the artworks. The video shows the user matching process and the overall **interactive experience** lived at the museum.
 
