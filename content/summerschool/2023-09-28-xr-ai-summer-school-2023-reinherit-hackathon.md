@@ -3,7 +3,6 @@ pageId: 533d385a-9b20-4026-b6db-805395fc1dd4
 layout: blog
 type: summerschool
 title: Co-create Toolkit Apps | ReIhHerit Hackathon
-desc: Co-create Toolkit Apps | ReIhHerit Hackathon  - XR&AI Summer School
 date: 2023-09-29T16:42:00.495Z
 target-audience:
   - VISITOR
@@ -11,10 +10,11 @@ target-audience:
 theme: Technology
 license: CC BY 2.0
 thumbnail: https://ucarecdn.com/6cab6091-fe15-40b2-9a33-c63cd5a754a1/
+desc: Co-create Toolkit Apps | ReIhHerit Hackathon  - XR&AI Summer School
 ---
 ![XR&AI Summer School 2023 - ReInHerit Hackathon ](https://ucarecdn.com/c6b4b5cb-c7ab-4c8f-989b-178242da9cbb/ "XR&AI Summer School 2023 - ReInHerit Hackathon ")
 
-Students and researchers from **different international academic backgrounds** participated in the international [XR&AI Summer School](https://xrsalento.it/xrai-summer-school-2023/) 2023 from 17 to 22 July in Matera Italy, working on the topics of **Extended Reality** and **Artificial Intelligence**. The school was held in the [House of Technology](https://ctematera.it) in Matera and was organized with the support of [**MateraHUB**.](https://www.materahub.com)
+Students and researchers from **different international academic backgrounds** participated in the international [XR&AI Summer School](https://xrsalento.it/xrsalento2023/xrai-summer-school-2023/) 2023 from 17 to 22 July in Matera Italy, working on the topics of **Extended Reality** and **Artificial Intelligence**. The school was held in the [House of Technology](https://ctematera.it) in Matera and was organized with the support of [**MateraHUB**.](https://www.materahub.com)
 
 In the context of the School, a **creative hackathon** was organised where young PhD students worked in an **interdisciplinary** way on web apps re-using open-source codes shared in the ReInherit Digital Hub.  In collaboration with particular multidisciplinary experts, apps from the **Reinherit Toolkit were co-created, tested and redesigned,** working on the codes, user experience, graphical user interface and application scenarios in museum contexts.
 
