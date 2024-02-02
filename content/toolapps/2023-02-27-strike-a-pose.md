@@ -34,11 +34,11 @@ The application has been developed in **JavaScript** on the client side and in *
 
 The base interface, implemented in **HTML** can be adapted by different users, maintaining the computer vision functionalities, so as to allow customization by different museums.  The web interface is designed to be responsive and adapt to different devices.
 
-Use state-of-the-art AI techniques that can run on mobile devices, to follow BYOD approach. App doesn’t ask for personal data, no logging of personal data, performing as much as possible computation on end-user devices, as explained in the **Policy Privacy.**
+Use state-of-the-art AI techniques that can run on mobile devices, to follow BYOD approach. App doesn’t ask for personal data, no logging of personal data, performing as much as possible computation on end-user devices, as explained in the **Privacy Policy .**
 
-![Strike a Pose - Policy Privacy](https://ucarecdn.com/b0886b3b-af0a-486d-9b42-a8d769cb6a89/ "Strike a Pose - Policy Privacy")
+![Strike a Pose - Privacy Policy](https://ucarecdn.com/b0886b3b-af0a-486d-9b42-a8d769cb6a89/ "Strike a Pose - Privacy Policy")
 
-> *Strike a Pose - Policy Privacy*
+> *Strike a Pose - Privacy Policy*
 
 **User** is able to **create a room** by selecting the number of participants (clients) i.e. whether to interact alone (Solo) or a challange with another user (Versus), setting the number of poses the number of rounds and the level of half bust or full body of the artwork. Once the room is created, user can share the id number to invite participants. 
 
