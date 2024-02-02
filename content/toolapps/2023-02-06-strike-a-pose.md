@@ -25,11 +25,11 @@ The goal of this application is to challenge the user to **analyze and replicate
 
 ![Strike a Pose WebApp - Examples of pose matching](https://ucarecdn.com/82b1e645-bfeb-4dbc-b5ca-4309e46ddbe0/ "Strike a Pose WebApp - Examples of pose matching")
 
-> > *Strike a Pose WebApp - The user trying to strike the pose in the painting (playing in “easy" mode, with visible skeletons - Challenge completed: download the video.*
->
-> The user is challenged to reproduce in sequence the poses of some artworks from the museum's collections. Once all the poses have been matched, the application allows the user to **generate** a video that can be saved for any **social sharing** and provide info on the artworks. The video shows the user matching process and the overall **interactive experience** lived at the museum.
+> *Strike a Pose WebApp - The user trying to strike the pose in the painting (playing in “easy" mode, with visible skeletons - Challenge completed: download the video.*
 
- As part of the ReinHerit Toolkit, the application is designed for the cultural heritage domain and exploit gamification techniques in order to **improve enjoyment and learning** of museum artworks.
+The user is challenged to reproduce in sequence the poses of some artworks from the museum's collections. Once all the poses have been matched, the application allows the user to **generate** a video that can be saved for any **social sharing** and provide info on the artworks. The video shows the user matching process and the overall **interactive experience** lived at the museum.
+
+As part of the ReinHerit Toolkit, the application is designed for the cultural heritage domain and exploit gamification techniques in order to **improve enjoyment and learning** of museum artworks.
 
 ![Strike a Pose - User Interaction during a test at ACM Multimedia 2022](https://ucarecdn.com/e374f086-8574-47ba-be80-b9afedbdb597/ "Strike a Pose - User Interaction during a test at ACM Multimedia 2022")
 
