@@ -3,7 +3,7 @@ pageId: 6f7aafa2-01df-48a1-9495-44849deba59b
 layout: blog
 type: bestpractice
 title: Collaboration in the ReInHerit Horizon 2020 Project - Redefining the
-  Future of Cultural Heritage, through a disruptive model of sustainability
+  Future of Cultural Heritage, through a disruptive model of sustainability)
 desc: "The ReInHerit project involved the collaboration between 12 partners
   (Bank of Cyprus Cultural Foundation, CYENS CoE, ECTN, University of Graz,
   University of Florence, Arcada University of Applied Sciences, Graz Museum,
