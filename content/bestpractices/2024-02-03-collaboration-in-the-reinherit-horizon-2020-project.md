@@ -24,7 +24,7 @@ pubstatus: draft
 partnerbestpractice: Bank of Cyprus Cultural Foundation
 personsbestpractice: Polina Nicolaou
 emailbestpractice: polina.nicolaou@bankofcyprus.com
-thumbnail: https://drive.google.com/open?id=1eixPQ957pkfLSJQbtHRAJmSXErn84hTt
+thumbnail: https://ucarecdn.com/13092fa4-3beb-4822-82b0-89faa8504d92/
 formtypbestpractice: Cooperation between Museums and Heritage sites
 orgbestpractice: Bank of Cyprus Cultural Foundation (BoCCF)
 locationbestpractice: Nicosia, Cyprus
