@@ -18,7 +18,7 @@ target-audience:
   - PROFESSIONAL
 theme: Technology
 license: CC BY 2.0
-pubstatus: draft
+pubstatus: completed
 partnerbestpractice: University of Florence - MICC
 personsbestpractice: Paolo Mazzanti / Marco Bertini / Paolo Montemurro / Raffaele Vitulli
 emailbestpractice: marco.bertini@unifi.it
