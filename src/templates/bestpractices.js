@@ -112,11 +112,11 @@ y      breadCrumb={[
               </div>
               <div>{frontmatter.infosbestpractice}</div>
               <br />
-              <div>
+              {/* <div>
                   <i>Videos</i>
               </div>
               <div>{frontmatter.videosbestpractice}</div>
-              <br />
+          <br /> */}
 
         </Container>
           </SideMainLayout>

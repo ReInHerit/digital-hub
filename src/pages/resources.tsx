@@ -60,12 +60,12 @@ const ResourcesPage = () => {
           body="The ReInHerit digital collection: learn more and contribute."
           url="/exhibdoc/doconlinecoll/"
         />
-      {/*
         <ReinGridCard
-          title="Game"
+          title="Videogame Documentation"
           body="Video game developed within the ReInHerit project."
-          url="/tools"
+          url="/gamedoc"
         />
+        {/*
         <ReinGridCard
           title="Best practices"
           body="Guidelines, recommendations and manuals related to digital cultural heritage management."
