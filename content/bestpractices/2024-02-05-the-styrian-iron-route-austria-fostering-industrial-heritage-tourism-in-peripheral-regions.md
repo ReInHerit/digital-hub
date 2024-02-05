@@ -4,7 +4,7 @@ layout: blog
 type: bestpractice
 title: "The Styrian Iron Trail, Austria: Fostering Industrial heritage tourism
   in Peripheral Regions"
-desc: The region of the Styrian Iron Route is known for its rich mining and iron
+desc: The region of the Styrian Iron Trail is known for its rich mining and iron
   processing heritage with the still active Erzberg ore mine being an highlight.
   Additionally, the region also has a range of other cultural features (city,
   mineral, water works museums, etc.) present in various locations within the
@@ -24,7 +24,7 @@ personsbestpractice: Jasmin Sandriester
 emailbestpractice: jasmin.sandriester@uni-graz.at
 thumbnail: https://ucarecdn.com/3810cffe-af6a-4536-846a-cb0d0c188879/
 formtypbestpractice: Cooperation between Museums and Heritage sites
-orgbestpractice: Styrian Iron Trail
+orgbestpractice: Styrian Iron Trail Association
 locationbestpractice: Styria, Austria
 timebestpractice: 2004 - current
 resourcesbestpractice: "The Association was founded thanks to the efforts of the
