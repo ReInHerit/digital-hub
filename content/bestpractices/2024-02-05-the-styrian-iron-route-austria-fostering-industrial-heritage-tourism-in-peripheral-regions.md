@@ -24,7 +24,7 @@ personsbestpractice: Jasmin Sandriester
 emailbestpractice: jasmin.sandriester@uni-graz.at
 thumbnail: https://ucarecdn.com/3810cffe-af6a-4536-846a-cb0d0c188879/
 formtypbestpractice: Cooperation between Museums and Heritage sites
-orgbestpractice: Styrian Iron Trail Association
+orgbestpractice: MUSEUMSVERBUND BETRIEBS Ges.m.b.H., Mag. Susanne Leitner-Böchzelt
 locationbestpractice: Styria, Austria
 timebestpractice: 2004 - current
 resourcesbestpractice: "The Association was founded thanks to the efforts of the
@@ -64,4 +64,8 @@ urlsbestpractice: https://www.eisenstrassenmuseen.at/
   https://pages.facebook.com/eisenstrassenmuseen/
 keywordsbestpractice: Cultural institutions, cultural marketing, cultural management
 ---
-In 2004, 12 regional museums in the region agreed to pool their resources and to form the Museum Association Steirische Eisenstrasse (Museumsverbund). The network is mostly composed of smaller heritage institutions with a narrow thematic focus. The overall aim of the cooperation is to raise the visiblity of the different small museums in the area and improve the cultural offer via the pooling of resources, the support for joint funding applications, and knowledge exchange between the participating institutions.
+In 2004, 12 regional museums in the region agreed to pool their resources and to form the Museum Association Steirische Eisenstrasse (Museumsverbund). The network is mostly composed of smaller heritage institutions with a narrow thematic focus. The overall aim of the cooperation is to raise the visiblity of the different small museums in the area and improve the cultural offer via the pooling of resources, the support for joint funding applications, and knowledge exchange between the participating institutions. 
+
+At the centre of the association is the MuseumCentre Leoben/Kunsthalle, which is situated in the regional capital and has the biggest numbers of staff and visitors, providing stable and professional structures for the network. This is especially important in the regional context, as the themes covered by the different regional museums are wide, but their organisational structures are similar: they are mostly based on voluntary work, which leads to little time and workforce for new concept development or proper archiving. In this case, the association helps to maintain and improve the offer of the single museums without threatening their unique displays and themes by sharing staff and experiences, as well as lobbying for joint funding. Additionally, the association undertakes joint marketing efforts, constituting an umbrella brand and a plattform, for shared marketing and therefore helping to raise the profile and the outreach of the regional offer mainly in a national context. 
+
+Due to the established network and exchange, the institutions now profit from an increased quality of their exhibitions, new funding, an increased outreach and joint archiving efforts. Overall, the cooperation has helped to build capacities in a rather dispersed heritage landscape outside the tourism mainstream, marked by many small, volunteer-based cultural institutions. Since 2016 the museum association, together with the „Abenteuer Erzberg”, is part of the European Route of Industrial Heritage (ERIH), further raising the profile of the cultural offer in the region.
