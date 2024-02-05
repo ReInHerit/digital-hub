@@ -21,7 +21,7 @@ target-audience:
   - PROFESSIONAL
 theme: Management
 license: CC BY 2.0
-pubstatus: draft
+pubstatus: completed
 partnerbestpractice: Bank of Cyprus Cultural Foundation
 personsbestpractice: Polina Nicolaou
 emailbestpractice: polina.nicolaou@bankofcyprus.com
