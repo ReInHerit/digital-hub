@@ -70,7 +70,6 @@ query BestPracticesQuery {
           timebestpractice
           transferbestpractice
           urlsbestpractice
-          videosbestpractice
           theme
           type
         }

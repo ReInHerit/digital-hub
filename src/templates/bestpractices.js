@@ -151,7 +151,6 @@ query($id: String!) {
         timebestpractice
         transferbestpractice
         urlsbestpractice
-        videosbestpractice
         theme
         type          
     }
