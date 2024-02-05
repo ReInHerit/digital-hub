@@ -24,9 +24,10 @@ formtypbestpractice: Audience and Local Community Engagement
 orgbestpractice: Hellenic Committee of the Blue Shield, Greece
 locationbestpractice: Athens, Greece and Online
 timebestpractice: Conference 27/11/2023, Survey 27/12/2023-30/01/2024
-resourcesbestpractice: Digitization of collections Text descriptions and open
-  data  IPR on images and content and open data Museum Dataset Updated datasets
-  free of bias Model cards for selected neural networks
+resourcesbestpractice: Financial resources allocated by the ReInHerit budget of
+  the Blue Shield. Human resources relying on the staff involved in the project
+  as well as expertise both of the staff and the Scientific Committee involved
+  in the organisation of the conference.
 successbestpractice: First and foremost, our Committee achieved to engage policy
   makers and cultural heritage professionals so as to inform, influence, impact
   and embed robust evidence-based policymaking in the ReInHerit project results;
