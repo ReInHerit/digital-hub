@@ -11,7 +11,7 @@ target-audience:
   - PROFESSIONAL
 theme: Management
 license: CC BY 2.0
-pubstatus: draft
+pubstatus: completed
 partnerbestpractice: Arte Sostenible
 personsbestpractice: "Jaime Lopez "
 emailbestpractice: jaime@artesostenible.org
