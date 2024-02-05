@@ -53,17 +53,19 @@ transferbestpractice: The policy recommendations and the survey results can help
   draw conclusions on what policies should be implemented to address the
   challenges CH professionals are facing at an EU level and increase visibility
   of the project.
-infosbestpractice: https://www.hellenicblueshield.com/en/home/
-  https://www.youtube.com/@blueshieldgreecebs-greekna3364/videos
+infosbestpractice: https://www.hellenicblueshield.com/en/home/   https://www.youtube.com/@blueshieldgreecebs-greekna3364/videos
 urlsbestpractice: https://www.hellenicblueshield.com/en/cultural-heritage-innovation-and-sustainable-development-the-contribution-of-re%ce%b9n%ce%b7erit-2/
 keywordsbestpractice: cultural heritage, sustainable development
 ---
-Important steps and recommendations for regulating GenAI based on a human-centered approach include concerns related to the Ethics of AI Chatbots, user privacy policy compliance, training data, and the scientific accuracy of chatbot outputs. The development of artificial intelligence applications involved extensive training on datasets. Ensuring that the final training data is ethically sourced, unbiased, and devoid of discriminatory content is crucial for maintaining the ethical integrity of AI tools. 
-
-_Training data: AI applications involved extensive training on large data sets. It is crucial to ensure that the final training is ethically sourced and respect the privacy of users.
-_Transparency: Chatbot must be transparent about how the data is used and ensure that the data is stored securely and, where appropriate, anonymised.
-_Scientific accuracy: Chatbot responses must be tested and validated by museums. This is especially important for applications that provide historical or scientific information to museum visitors through solutions that avoid AI “hallucinations”.
-
-The ReInHerit project created Ethics Cards for the developed applications, considering fairness and all the ethical issues associated with a user-centered approach with AI/CV. These cards analyse different aspects of the applications such as Training Data (Dataset and Model cards used, bias discrimations) User Data (user data collection, privacy, transparency, use Third part…) Data Security (data protection, cyber-attacks) Copyright aspects (copyright for the training data)
-
-To guarantee quality content, the descriptions of the artworks accessible to visitors during the Smart Interaction and the data used by the Chatbot have been provided by by the Museums involved in the ReinHerit Project (GrazMuseum, Cycladic Museum, Bank of Cyprus Foundation) The content used by the chatbot is provided by curators using a specific interface. System do not rely on something “memorized” by the chatbot. The questions of the users are encapsulated in other instructions (prompt engineering) that instruct the chatbot to answer only using the curated material.
+The conference "Cultural heritage, innovation and sustainable development: the contribution of ReΙnΗerit" organized by the Hellenic Committee of the Blue Shield was held in Athens, on 27th November 2023 in a hybrid (phygital) mode to facilitate the participation of international speakers and audiences and thus have a glocal impact, increase the ReΙnΗerit project’s visibility and improve its branding.
+The conference aimed at assessing the contribution of the ReΙnΗerit project to sustainable development and compile policy recommendations made by the experts participating in it. Following the conference, a survey was conducted to understand how familiar the audience of our conference was with the outputs and the tools offered by the ReInHerit project and to create the conditions for a larger number of people to benefit from them. At the same time, the goal was to draw conclusions on what policies should be implemented to address the challenges CH professionals are facing at an EU level.
+This survey made use of quantitative and qualitative data based on both open-ended and closed-ended, multiple choice questions. It was anonymous, was used to assess and evaluate the ReInHerit project’s added value. 
+The conference included four sessions.
+Session Α. ReΙnΗerit and social sustainability
+This session was dedicated to the contribution of the Reihnerit project’s tools to the social dimensions of sustainable development. The overall aim was to showcase its model of social sustainability, focusing on its contribution to human development, based on cultural participation and accessibility to cultural heritage, respect of cultural diversity and viability of cultural institutions.
+Session Β. ReΙnΗerit and economic sustainability
+The second session was dedicated to the contribution of Reinherit’s tools to economic sustainability of cultural organizations and local communities. Apart from the connection of Reinherit to the promotion of smart tourism and the contribution of cultural tourism and creativity to regional economies, other issues dealt in the project such as intellectual property rights and innovation were addressed.
+SESSION C. Reinherit and environmental sustainability
+This session focused on the Reinherit model contribution to environmental sustainability which encompasses the conservation of the broader cultural environment.
+SESSION D. Reinherit, peace and security and sustainability
+This session focused on the connection between the Reinherit project and the topics of peace, security and sustainability.
