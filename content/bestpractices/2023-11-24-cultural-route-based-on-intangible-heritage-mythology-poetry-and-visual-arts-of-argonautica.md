@@ -2,29 +2,29 @@
 pageId: a791a8d9-1ed0-4b94-9525-cc38a28a1665
 layout: blog
 type: bestpractice
-title: "Cultural Route based on Intangible Heritage: Mythology, Poetry and
-  Visual Arts of Argonautica"
-desc: "a Cultural Route of the Argonautica, based on intangible heritage of
-  mythology, traditions, ancient theatre, poetry and literature, as well as
-  visual and performing arts in several countries along the Argonautica Route.
-  The Argonautica tells the myth of their voyage to retrieve the Golden Fleece.
-  "
+title: "Cultural Route development based on Intangible Heritage: Mythology,
+  Poetry and Visual Arts of 'Argonautica'"
+desc: "A European Cultural Route of the Argonautica, based on intangible
+  heritage of mythology, traditions, ancient theatre, poetry and literature, as
+  well as visual and performing arts in several countries along the Argonautica
+  Route. The Argonautica tells the myth of the voyage to retrieve the Golden
+  Fleece. "
 date: 2023-11-24T12:56:47.183Z
 target-audience:
   - PROFESSIONAL
-theme: Tourism
+theme: Other
 license: CC BY 2.0
 pubstatus: completed
 partnerbestpractice: ECTN
 personsbestpractice: Manos Vougioukas
-emailbestpractice: sectetary-general@culturaltourism-net.eu
+emailbestpractice: info@argonautica-network.eu
 thumbnail: https://ucarecdn.com/02dac1ef-b149-4c6f-9b1b-e17a3976f8c8/
-formtypbestpractice: Sustainable Cultural Tourism
-orgbestpractice: ECTN
+formtypbestpractice: General Cultural Heritage Management
+orgbestpractice: Argonautica Network
 locationbestpractice: Greece, Georgia, Romania, Bulgaria, Serbia, Croatia, Slovenia, Italy, France
 timebestpractice: Ongoing
-resourcesbestpractice: Human resources to prepare the submission as a candidte
-  route to Council of Europe. A network association must be fomed involving
+resourcesbestpractice: Human resources to prepare the submission as a candidate
+  route to Council of Europe. A network association must be formed involving
   national, regional and local authorities, Tourism Boards, Destination
   Management Organisations, Universities and research Institutes, relevant
   cultural NGOs and citizens.
@@ -34,7 +34,8 @@ successbestpractice: The ‘Return of the Argonauts’ Candidate Cultural Route 
   Cultural Tourism Conference in Guimaraes, Portugal in September 2016. There
   has been a lot of interest from several countries. The result is an innovative
   Cultural Route Network that develops sustainable cultural tourism based on
-  intangible heritage to be certified by the Council of Europe.
+  intangible heritage, as a candidate for certification by the Council of
+  Europe.
 challengesbestpractice: "There are several alternative versions of the return
   journey, such as by: Apollonius Rhodius Argonautica, Orphic Argonautica,
   Pindar, Herodotus of Heraclea, Hecataeus of Miletus, Timaeus, Judith Bacon,
@@ -59,7 +60,7 @@ urlsbestpractice: https://www.argonautica-network.eu/
 keywordsbestpractice: Cultural Route, Intangible Heritage, Sustainable Tourism,
   Cultural Tourism, Smart Tourism, Mythology, Poetry, Literature, Visual Arts
 ---
-![](https://ucarecdn.com/3ad25c6f-3760-4047-8f45-4c78d799ac4f/)
+![](https://ucarecdn.com/9b703ddd-08b8-437a-822b-ee1222f66a4b/)
 
 `youtube: https://www.youtube.com/watch?v=EUwkKIbNDyo`
 

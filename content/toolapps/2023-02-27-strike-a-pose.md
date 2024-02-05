@@ -24,27 +24,36 @@ Strike-a-Pose can be made available on the visitors' **smartphone**, following t
 
 The application exploits a **gamification paradigm** with the **educational** purpose of getting users interested in works of art using fun. Once registered, the user is challenged to reproduce in sequence the poses of some artworks from the museum's collections. The skeleton of both the artwork and the visitor can be displayed on the screen in order to facilitate the user in matching the various points and segments. **Matching the poses** provides the **descriptions of each artwork**. The poses to be matched are organized in sets of challenges, e.g. challenges to replicate poses using the whole body, using only the torso (e.g. to allow also wheelchair users to interact), or any other type of challenge that is considered interesting by the museum curators (e.g. based on thematic collections). Once all the poses have been matched, the application allows the user to g**enerate a video** that can be saved for any **social sharing**. The video shows the user matching process and the overall interactive experience lived at the museum. The basic application can be adapted to provide variations of the gamification, e.g. introducing a competition between different users. An example of screenshots of the basic app are shown in the following figure.
 
-![Strike a Pose App for smartphone](https://ucarecdn.com/3eb026de-153c-49ef-8b1a-83433189b979/ "Strike a Pose App for smartphone")
+User is challenged to reproduce in sequence the poses of some artworks from the museum'scollections. Once all the poses have been matched, the application allows the user to generate a video that can be saved for any social sharing and provide info on the artworks.
 
-> *Strike a Pose App for smartphone. 1) Login. 2-3) The user trying to strike the pose in the painting (playing in “easy" mode, with visible skeletons). 3) Challenge completed: download the video.*
+![Strike a Pose WebApp ](https://ucarecdn.com/cf36b953-7d93-4e76-9747-ff76a011af30/ "Strike a Pose WebApp WebApp ")
+
+> *Strike a Pose WerbApp -  The user trying to strike the pose in the painting (playing in “easy" mode, with visible skeletons -  Challenge completed: download the video.*
 
 The application has been developed in **JavaScript** on the client side and in **Python** on the server side. Pose detection on the human bodies is achieved using **TensorflowJS** detection API exploiting the pose detection model, **MoveNet**. MoveNet is a very fast and accurate model that detects 17 key points of a body. The model is used in the variant “Lightning” intended for latency-critical applications and runs faster than real time (30+ FPS) on most modern desktops, laptops, and phones. The model runs completely client-side in the browser; this allows us to run the whole computer vision task on the device of the user, providing a better user experience thanks to the reduced latency for the pose analysis. Server-side an SQLLite database is used to store artworks' collections, challenges and artworks' metadata and descriptions. Communication between the knowledge-base and the interface is ensured through RESTful APIs developed in Flask. The video is created server side. 
 
-The base interface, implemented in **HTML** can be adapted by different users, maintaining the computer vision functionalities, so as to allow customization by different museums. An example of such customization is shown in the following figures:
+The base interface, implemented in **HTML** can be adapted by different users, maintaining the computer vision functionalities, so as to allow customization by different museums.  The web interface is designed to be responsive and adapt to different devices.
 
-![Customized login screen and challenge selection](https://ucarecdn.com/e33839df-0fef-45ff-878b-062e7e5b94bd/ "Customized login screen and challenge selection")
+Use state-of-the-art AI techniques that can run on mobile devices, to follow BYOD approach. App doesn’t ask for personal data, no logging of personal data, performing as much as possible computation on end-user devices, as explained in the **Privacy Policy .**
 
-> *Customized login screen and challenge selection*
+![Strike a Pose - Privacy Policy](https://ucarecdn.com/b0886b3b-af0a-486d-9b42-a8d769cb6a89/ "Strike a Pose - Privacy Policy")
 
-![Horizontal interface for installations - customized template | Customized end-game screen with informations about the artworks](https://ucarecdn.com/70e896cc-9511-48f6-bb90-fcd5dc3ab8a5/ "Horizontal interface for installations - customized template | Customized end-game screen with informations about the artworks")
+> *Strike a Pose - Privacy Policy*
 
-> *Horizontal interface for installations - customized template \ Customized end-game screen with informations about the artworks*
+**User** is able to **create a room** by selecting the number of participants (clients) i.e. whether to interact alone (Solo) or a challange with another user (Versus), setting the number of poses the number of rounds and the level of half bust or full body of the artwork. Once the room is created, user can share the id number to invite participants. 
 
-![Strike-a-pose in a competitive setup. ](https://ucarecdn.com/ae137a2b-f721-4f74-8ea7-fcc86b4a00a4/ "Strike-a-pose in a competitive setup. ")
+![Strike a Pose - Setting the room](https://ucarecdn.com/d965100e-a971-4662-9e15-3dcc92e50be7/ "Strike a Pose - Setting the room")
 
-> *Strike-a-pose in a competitive setup. Two users attempt to complete the same challenge in less time || Strike-a-pose in a competitive setup: results of the challenge for each user.*
+> *Strike a Pose - Setting the room*
 
-**Usage Example**\
+**Museum** is able to access the **Admin Dashboard** to directly manage user interaction artworks.
+
+![Strike-a-pose - Admin Dashboard](https://ucarecdn.com/1cf5540d-ecfa-4fdc-848b-58b5df986b1a/ "Strike-a-pose - Admin Dashboard")
+
+> *Strike-a-pose - Admin Dashboard*
+
+### **Usage Example**
+
 App requires a server to host the mobile app and to provide the RESTful APIs of the backend. A QR code can be used to avoid typing the URL of the web apps.
 
 The application is composed of a **backend** that manages the challenges and a **front-end** that runs on mobile devices. A schema of the **main components** of the **backend and front end**  is shown in the following figures:
@@ -57,10 +66,8 @@ The interface is completely written in **HTML5**. The computer vision task of ma
 
 jQuery and Bootstrap are the main components used to design the interface and provide user interaction with the GUI, Webcam Easy JS allows to connect to the webcam through the browser and Tensorflow JS is the workhorse to implement the computer vision functionalities.
 
-**Usage Example**\
-App requires a server to host the mobile app and to provide the RESTful APIs of the backend. A QR code can be used to avoid typing the URL of the web apps.
+### **Guidelines for reuse**
 
-**Guidelines for reuse**\
 The simplest type of reuse is substituting the selected sample artworks with those of the collection of the museum/organization that desires to customize the apps, along with the associated information. Setup of the apps is based on Docker, to simplify the installation of the backend. 
 
 It is possible to extend the apps introducing new types of challenges, e.g. combining classes of artworks, creating collections of artworks according to some criterion. The challenges of Strike-a-pose can be changed to follow some other criterion other than using full/upper/lower body parts, e.g. according to styles or time. 

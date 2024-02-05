@@ -62,19 +62,33 @@ In addition to this first type of chatbot system, following the emergence and su
 
 This second system allows to create longer answers compared to the first approach, thus creating a more natural interaction. To cope with the fact that **GPT-based system** tend to create texts that sound plausible only from a linguistic point of view, but that are not based on actual knowledge, the system has been designed using prompt-engineering techniques that force the neural network to adhere to the contextual and content-based information provided by the JSON files that contain actual details and information related to the artwork.
 
-Examples of the interface of the multimedia chatbot for mobile devices are shown in the following are shown examples of the web application designed for PC browsers.
+**Examples of the interface of the multimedia chatbot** are shown in the following Images.
 
-![VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork](https://ucarecdn.com/53ad5186-ae21-4f5c-9f1e-a428d3d03724/ "VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork")
+![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/e5541477-fcb5-4333-9361-e612c629fc57/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
 
-> *VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork*
+![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/d62ead48-95c6-4d4b-96d9-1c5d1d68805e/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
 
-`youtube: https://youtu.be/BjstSqyxbOg`
+> *VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork*
+
+![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/e2b58a76-85c9-4892-8c51-ec1e044b2bad/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
+
+> *VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork*
+
+ The content used by the chatbot is  provided by curators using a specific **ADMIN interface.**
+
+![VIOLA multimedia chatbot: ADMIN Interface for curators](https://ucarecdn.com/57de6711-8598-4307-822c-00bd8fcc4e84/ "VIOLA multimedia chatbot: ADMIN Interface for curators")
+
+*VIOLA multimedia chatbot: ADMIN Interface for curators*
+
+![VIOLA multimedia chatbot: ADMIN Interface for curators](https://ucarecdn.com/7aed416f-ad1a-468c-8d69-d7a33acd4891/ "VIOLA multimedia chatbot: ADMIN Interface for curators")
 
 ### Source code
 
 The source code of the app is available on the GitHub of ReInHerit: <https://github.com/ReInHerit/multimedia-chatbot>
 
 ### Demo
+
+The DEMO version of the Chatbot includes a gallery with a limited selection of artworks provided by the museums involved in the ReinHerit project (GrazMuseum, Cycladic Museum, Bank of Cyprus Foundation). The curators provided the images and related contents.
 
 Demo is available at this link:\
 [https://reinherit-multimedia-c​hatbot.herokuapp.com/](https://reinherit-multimedia-chatbot.herokuapp.com/)

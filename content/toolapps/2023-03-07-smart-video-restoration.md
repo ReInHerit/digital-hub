@@ -84,9 +84,9 @@ The system has been further improved, reconsidering the design of the neural net
 
 The source code of the app is available on Github: <https://github.com/miccunifi/analog-video-restoration>
 
-### Demo Smart Video Restoration 
+### Demo Smart Video Restoration
 
  **Demo** of "Smart Video Restoration"  is available at the following link (the online demo works on photos and not videos, for timing reasons):\
 [https://reinherit-image-restor​e.herokuapp.com](https://reinherit-image-restore.herokuapp.com/)
 
-![Smart Video Restoration](https://ucarecdn.com/90397b12-c164-4265-a1d2-0c310fbb037f/ "Smart Video Restoration")
+![Smart Video/Photo Restoration](https://ucarecdn.com/58c061bd-e99a-4ecd-8c17-b710ac4f1987/ "Smart Video/Photo Restoration")

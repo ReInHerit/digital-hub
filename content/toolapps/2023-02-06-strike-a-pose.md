@@ -11,6 +11,7 @@ linkedWebinars:
     Vision for Cultural Heritage
   - f2a58e91-3c1a-43c0-baeb-45234da1cbce____Engaging Museum Visitors with
     Gamification Apps
+  - 7982ca67-54fa-4c84-9cf2-c1b6e874e9e5____ Compassion is a Rebellious Act
 license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/021b57b5-1152-4f4e-9a6f-b8fadbfc8174/
@@ -22,13 +23,21 @@ chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applic
 
 The goal of this application is to challenge the user to **analyze and replicate** artworks with their own body a obtaining information on the artworks that are replicated and personalized artwork representations that can be shared on social networks.
 
-![Examples of pose matching](https://ucarecdn.com/8b3821df-f7aa-4fe7-a63e-beb95da0db81/ "Examples of pose matching")
+![Strike a Pose WebApp - Examples of pose matching](https://ucarecdn.com/82b1e645-bfeb-4dbc-b5ca-4309e46ddbe0/ "Strike a Pose WebApp - Examples of pose matching")
 
-> *Strike a Pose App for smartphone. 1) Login. 2-3) The user trying to strike the pose in the painting (playing in “easy" mode, with visible skeletons). 3) Challenge completed: download the video.* 
+> *Strike a Pose WebApp - The user trying to strike the pose in the painting (playing in “easy" mode, with visible skeletons - Challenge completed: download the video.*
 
 The user is challenged to reproduce in sequence the poses of some artworks from the museum's collections. Once all the poses have been matched, the application allows the user to **generate** a video that can be saved for any **social sharing** and provide info on the artworks. The video shows the user matching process and the overall **interactive experience** lived at the museum.
 
- As part of the ReinHerit Toolkit, the application is designed for the cultural heritage domain and exploit gamification techniques in order to **improve enjoyment and learning** of museum artworks.
+**User** is able to **create a room** by selecting the number of participants (clients) i.e. whether to interact alone (Solo) or a challange with another user (Versus), setting the number of poses the number of rounds and the level of half bust or full body of the artwork. Once the room is created, user can share the id number to invite participants.
+
+![Strike a Pose - Setting the room](https://ucarecdn.com/4d670441-12f0-453f-ab43-8f0a3251f77c/ "Strike a Pose - Setting the room")
+
+
+
+> *Strike a Pose - Setting the room*
+
+As part of the ReinHerit Toolkit, the application is designed for the cultural heritage domain and exploit gamification techniques in order to **improve enjoyment and learning** of museum artworks.
 
 ![Strike a Pose - User Interaction during a test at ACM Multimedia 2022](https://ucarecdn.com/e374f086-8574-47ba-be80-b9afedbdb597/ "Strike a Pose - User Interaction during a test at ACM Multimedia 2022")
 

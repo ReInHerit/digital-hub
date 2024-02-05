@@ -17,11 +17,13 @@ chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applic
 ---
 ![Multimedia Chatbot](https://ucarecdn.com/97a95fb1-19dc-46b2-bf0d-aac17699a195/ "Multimedia Chatbot")
 
-Experience art in a new and exciting way with **VIOLA Multimedia Chatbot**! Developed by the UNIFI Media Integration and Communication Center, this innovative **web application** allows users to **interact with artworks** using **natural language and AI chatbots**. With VIOLA, users can ask **questions** about the **visual content and context of artworks** in a museum.
+Experience art in a new and exciting way with **VIOLA Multimedia Chatbot**! Developed by the UNIFI Media Integration and Communication Center, this innovative **web application** allows users to **interact with artworks** using **natural language and AI chatbots**. With VIOLA, users can ask **questions** about the **visual content and context of artworks** in a museum. 
 
 > "Whether you are an art enthusiast or just beginning to explore the art world, VIOLA is the perfect tool to **enhance your experience**. Simply type in your questions or talk to VIOLA to see how your requests are answered with ease."
 
-The design of this application is motivated by the recent huge interest **in chat-based interaction** that has been popularized, for example, by Chat GPT.
+The design of this application is motivated by the recent huge interest **in chat-based interaction** that has been popularized, for example, by Chat GPT. 
+
+The DEMO version of the Chatbot includes a gallery with a limited selection of artworks provided by the museums involved in the ReinHerit project (GrazMuseum, Cycladic Museum, Bank of Cyprus Foundation). The curators provided the images and related contents using a specific **[ADMIN interface](<https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3>).**[](<https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3>)
 
 ## Discover and test
 
@@ -29,6 +31,6 @@ Join the chatbot and discover a new way to interact with art by starting to ask�
 Try the **Demo of VIOLA Multimedia Chatbot** at this link:\
 [https://reinherit-multimedia-c​hatbot.herokuapp.com/](https://reinherit-multimedia-chatbot.herokuapp.com/)
 
-![VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork](https://ucarecdn.com/dd6be94a-8b1e-428a-9830-6d870b9cface/ "VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork")
+![VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork](https://ucarecdn.com/6adfc128-9bc3-4005-b996-aba3869bc16f/ "VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork")
 
 `youtube: https://youtu.be/BjstSqyxbOg`

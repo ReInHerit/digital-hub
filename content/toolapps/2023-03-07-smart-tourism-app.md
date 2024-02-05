@@ -50,12 +50,16 @@ Considering the **computational costs** of the variants of MobileNet V3 tested, 
 
 The following figure shows screenshots of the **application**, with additional debug information in the first two images, and the recognition of a landmark with the associated information.
 
-![Smart tourism app](https://ucarecdn.com/121572b3-e191-405d-8dbd-212b186d0785/ "Smart tourism app")
+![Active exploration: Users interact with the app getting info from the lists of suggested tours, the suggestion adapts based on the clicks of the user and the description of the landmark.  Users are directed to the landmarks of interest and get suggestion on other relevant destinations.](https://ucarecdn.com/975ec430-2cc7-4bb2-b6e2-0069861b7a20/ "Active exploration: Users interact with the app getting info from the lists of suggested tours, the suggestion adapts based on the clicks of the user and the description of the landmark.  Users are directed to the landmarks of interest and get suggestion on other relevant destinations.")
 
-![Smart tourism app](https://ucarecdn.com/5ad89dbe-6707-4aeb-8fe0-957cf4b07ba5/ "Smart tourism app")
+> *Active exploration: Users interact with the app getting info from the lists of suggested tours, the suggestion adapts based on the clicks of the user and the description of the landmark.  Users are directed to the landmarks of interest and get suggestion on other relevant destinations.*
 
-> *Smart tourism app, views of the application: debug information to test the capability to differentiate between visually similar landmarks; debug info on camera setup and neural network inference (using CPU instead of GPU); examples of landmark recognition and information on the recognized landmark.*
->
+![Active exploration: Users are alerted about their proximity to an interesting landmark  Users can take a photo of something that attracts their interest and get related info](https://ucarecdn.com/8be5bece-e57c-4192-b1bc-47e7d62e690d/ "Active exploration: Users are alerted about their proximity to an interesting landmark  Users can take a photo of something that attracts their interest and get related info")
+
+> *Active exploration: Users are alerted about their proximity to an interesting landmark  Users can take a photo of something that attracts their interest and get related info*
+
+
+
 > ### Source code
 >
 > The source code of the app is available on the Github of ReInHerit: <https://github.com/ReInHerit/SmartTourism>
