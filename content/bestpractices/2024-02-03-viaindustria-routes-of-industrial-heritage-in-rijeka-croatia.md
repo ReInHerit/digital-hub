@@ -17,7 +17,7 @@ target-audience:
   - PROFESSIONAL
 theme: Technology
 license: CC BY 2.0
-pubstatus: draft
+pubstatus: completed
 partnerbestpractice: ECTN
 personsbestpractice: " Kristina Pandža"
 emailbestpractice: " kristina.pandza@uniri.hr"
