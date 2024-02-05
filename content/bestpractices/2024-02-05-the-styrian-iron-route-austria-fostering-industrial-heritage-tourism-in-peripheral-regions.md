@@ -2,9 +2,9 @@
 pageId: 88a1eb42-6c8d-4ea5-8548-34aaab465a1e
 layout: blog
 type: bestpractice
-title: "The Styrian Iron Trail, Austria: Fostering Industrial heritage tourism
+title: "The Styrian Iron Route, Austria: Fostering Industrial heritage tourism
   in Peripheral Regions"
-desc: The region of the Styrian Iron Trail is known for its rich mining and iron
+desc: The region of the Styrian Iron Route is known for its rich mining and iron
   processing heritage with the still active Erzberg ore mine being an highlight.
   Additionally, the region also has a range of other cultural features (city,
   mineral, water works museums, etc.) present in various locations within the
@@ -22,7 +22,7 @@ pubstatus: completed
 partnerbestpractice: University of Graz
 personsbestpractice: Jasmin Sandriester
 emailbestpractice: jasmin.sandriester@uni-graz.at
-thumbnail: https://ucarecdn.com/3810cffe-af6a-4536-846a-cb0d0c188879/
+thumbnail: https://ucarecdn.com/73f44dc3-972b-4542-8c08-d05ff6dc8acb/-/crop/1556x1322/492,0/-/preview/
 formtypbestpractice: Cooperation between Museums and Heritage sites
 orgbestpractice: MUSEUMSVERBUND BETRIEBS Ges.m.b.H., Mag. Susanne Leitner-Böchzelt
 locationbestpractice: Styria, Austria
@@ -59,7 +59,8 @@ transferbestpractice: A joint museum association can be an important step to
   Nevertheless, the process has to be carefully prepared and moderated, so to
   overcome barriers in organisational cultures and achieve a sustainable and
   productive collaboration across all members.
-infosbestpractice: This best practice is related to SPOT Horizon2020 project.
+infosbestpractice: This best practice is related to the SPOT Horizon2020 project
+  (www.spotprojecth2020.eu).
 urlsbestpractice: https://www.eisenstrassenmuseen.at/
   https://pages.facebook.com/eisenstrassenmuseen/
 keywordsbestpractice: Cultural institutions, cultural marketing, cultural management
