@@ -19,7 +19,7 @@ pubstatus: completed
 partnerbestpractice: Blue Shield
 personsbestpractice: Katerina Dimitriadi
 emailbestpractice: blueshield.greece@gmail.com
-thumbnail: https://ucarecdn.com/958d6e4b-a342-4aff-af65-785f34f6e057/
+thumbnail: https://ucarecdn.com/eeda39de-3a9b-49f2-9eb0-53ef72c81101/
 formtypbestpractice: Audience and Local Community Engagement
 orgbestpractice: Hellenic Committee of the Blue Shield, Greece
 locationbestpractice: Athens, Greece and Online
@@ -68,4 +68,11 @@ The second session was dedicated to the contribution of Reinherit’s tools to e
 SESSION C. Reinherit and environmental sustainability
 This session focused on the Reinherit model contribution to environmental sustainability which encompasses the conservation of the broader cultural environment.
 SESSION D. Reinherit, peace and security and sustainability
-This session focused on the connection between the Reinherit project and the topics of peace, security and sustainability.
+This session focused on the connection between the Reinherit project and the topics of peace, security and sustainability. 
+
+Some brief conclusions that can be drawn are the following:
+
+In relation to the social sustainability dimension and the cultural heritage – innovation nexus, the focus on the ReInHerit methodology showed that what is of great importance is to facilitate participation, accessibility and social inclusion. 
+Regarding the economic sustainability dimension and the cultural heritage – innovation nexus, it was shown that digital environments are key if we are to achieve community engagement and interaction, whereas digital learning platforms are crucial for the upskilling and reskilling of professionals. This was highlighted also in the survey conducted, with the vast majority of participants responding that they need to receive training and be provided with practical guidance. In terms of new technologies and digital social innovation, it was made clear that access and openness should be promoted, and investment is needed. Another issue that was underlined related to the environmental sustainability dimension and the cultural heritage – innovation nexus. A holistic approach is what is necessary in the implementation of the EU Green Deal and driving action in line with the SDGs.
+Finally, regarding Reinherit, peace, security and sustainability, there are three basic challenges that need to be addressed. Firstly, to ensure that a human centered approach is at the heart of the application of digital solutions and the development of new technologies. Secondly, to facilitate participation and thirdly to involve all stakeholders.
+All the measures and the policies to be implemented should take into account the role of cultural heritage in societies, integrate good practices already in place by international organisations, and last but not least have an integrated approach to culture, cultural values and cultural rights in the sustainable development goals.
