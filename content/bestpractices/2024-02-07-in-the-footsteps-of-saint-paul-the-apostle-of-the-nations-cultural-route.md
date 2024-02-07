@@ -28,10 +28,12 @@ orgbestpractice: '"In the footsteps of Saint Paul, the Apostle of the nations" -
 locationbestpractice: Cyprus, Greece, Italy, Spain, Malta
 timebestpractice: June 2021 to date
 resourcesbestpractice: Commitment by relevant partners in several countries (at
-  least 3 Council of Europe member states), around 6 person-months of
-  preparatory work, good contacts and cooperation with UNESCO World Heritage
-  Sites, relevant museums, Municipalities and Regional Authorities, Cultural
-  Associations NGOs, Tourist Boards and DMOs along the proposed route.
+  least 3 Council of Europe member states). Around 6 person-months of
+  preparatory work. Good contacts and cooperation with UNESCO World Heritage
+  Sites, relevant museums. Support by Municipalities and Regional Authorities,
+  Cultural Associations NGOs, Tourist Boards and DMOs along the route.
+  Marketing, including presence at tourist fairs, relevant events, involvement
+  of travel blogs and also digital marketing.
 successbestpractice: The development of “Saint Paul’s footsteps European
   Cultural Route” in Cyprus, Greece and Italy by the European Grouping of
   Territorial Cooperation (EGTC) “In the footsteps of St Paul, the Apostle of
