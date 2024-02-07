@@ -27,7 +27,7 @@ emailbestpractice: katerina.patsalides@bankofcyprus.com
 thumbnail: https://ucarecdn.com/9997d04f-6892-4e60-905d-c5b091730cb9/
 formtypbestpractice: Accessibility
 orgbestpractice: Bank of Cyprus Cultural Foundation
-locationbestpractice: Nicosia, Cyorus
+locationbestpractice: Nicosia, Cyprus
 timebestpractice: January 2023 - Ongoing
 resourcesbestpractice: "Implementing the \"Aisthiseis\" programme and
   specialised workshops at BOCCF requires financial backing for development,
