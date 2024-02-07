@@ -2,7 +2,8 @@
 pageId: 71f0545a-7cfd-4895-8610-6589e456ca37
 layout: blog
 type: bestpractice
-title: '"In the footsteps of Saint Paul, the Apostle of the nations" - Cultural Route'
+title: "Development and promotion of a European Cultural Route, based on
+  religious heritage: St Paul's footsteps"
 desc: A Cultural Route highlighting the cultural values, heritage and legacy of
   Saint Paul’s missions to Europe,  to honour Saint Paul, as the Apostle of the
   nations, through his epistles and intangible heritage in literature, arts,
