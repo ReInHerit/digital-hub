@@ -22,7 +22,7 @@ pubstatus: completed
 partnerbestpractice: University of Graz
 personsbestpractice: Jasmin Sandriester
 emailbestpractice: jasmin.sandriester@uni-graz.at
-thumbnail: https://ucarecdn.com/bcf01456-e370-4b7f-89c9-2e950b3acfe8/
+thumbnail: https://ucarecdn.com/d1396091-8fe5-4051-bc2d-5b8ab91a0523/
 formtypbestpractice: Cooperation between Museums and Heritage sites
 orgbestpractice: MUSEUMSVERBUND BETRIEBS Ges.m.b.H., Mag. Susanne Leitner-Böchzelt
 locationbestpractice: Styria, Austria
