@@ -98,12 +98,12 @@ The [Region of Central Macedonia](https://www.pkm.gov.gr/) from Greece, the [
 * To develop and promote sustainable [cultural tourism ](https://www.stpaul-culturalroute.eu/about/cultural-tourism.html)at the points of interest, pilgrimage and [walking tourism](https://www.stpaul-culturalroute.eu/about/walking-tourism.html) along the Cultural Route.
 * To include other relevant regions in Greece (Eastern Macedonia & Thrace, Athens-Attica, Corinth, Crete, North & South Aegean), in Italy (Sicily, Campania), as well as Malta and Spain, in the further development of the St Paul's footsteps European Cultural Route.
 
-![](https://ucarecdn.com/6b87c508-dfe3-4689-bbb6-52653e74bf6f/)
+![](https://ucarecdn.com/6b87c508-dfe3-4689-bbb6-52653e74bf6f/ "Cultural Route promotion at tourism fair 'Taxidi', Nicosia, Cyprus, 2022.")
 
 The legacy of Saint Paul, the Apostle of the nations, is an excellent and fundamental representative theme of European ideals closely and uniquely related to the principal values of the Council of Europe.
 
 In both the Acts and Apostle Paul’s 14 epistles there are several references of wise and divine preaching about freedom, equality, dignity, human rights, democracy and the rule of law.
 
-![](https://ucarecdn.com/9c2fdc40-70bd-44c4-a7b7-69a32fa5bed1/)
+![](https://ucarecdn.com/9c2fdc40-70bd-44c4-a7b7-69a32fa5bed1/ "Cultural Route sign with QR code at Vlatadon monastery, Thessaloniki, Central Macedonia, Greece")
 
 `youtube: https://www.youtube.com/watch?v=mqCWRdCLX5c`
