@@ -2,7 +2,7 @@
 pageId: 813413f2-06f8-4401-be96-7e4891ae946a
 layout: blog
 type: bestpractice
-title: Culture is for living - Inspire -Animate ASTRA Museum, Sibiu
+title: Culture is for living - Inspire -Animate ASTRA Museum, Sibiu County
 desc: '"Animă ASTRA/Animate ASTRA” is a cultural program of the Astra Museum.
   Its mission is to provide a context where visitors can explore Romanian
   intangible cultural heritage directly linked to the architectural heritage of
