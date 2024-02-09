@@ -22,7 +22,7 @@ pubstatus: completed
 partnerbestpractice: ECTN
 personsbestpractice: Barry Rogers
 emailbestpractice: tourism@dublincitycouncilculturecompany.ie
-thumbnail: https://ucarecdn.com/8c2a033d-83fe-4de0-b6e2-3ea6fb7b9606/
+thumbnail: https://ucarecdn.com/fdbb3bbe-d8c4-418f-9f53-c93192981593/
 formtypbestpractice: Innovation (including 3D, AI, Big data, Metaverse, etc)
 orgbestpractice: Dublin City Council
 locationbestpractice: Dublin, Republic of Ireland
@@ -35,10 +35,12 @@ successbestpractice: Since the launch of the App in January 2021 the App has had
   development of the app we feel that these metrics have matched our
   expectations.
 challengesbestpractice: n/a
-transferbestpractice: Great
+transferbestpractice: During the development of Dublin Discovery Trails we
+  launched the first ever Digital Trails Toolkit (attached), so that others
+  could learn from our experience.
 infosbestpractice: https://www.failteireland.ie/FailteIreland/media/WebsiteStructure/Documents/Dublin/dublin-trails-toolkitupdated-2022.pdf   https://www.irishexaminer.com/news/arid-41045846.html
 urlsbestpractice: https://doorsintodocklands.com/   https://www.bu.edu/bhr/2021/10/04/digital-trail-development-opportunities-for-tourism-and-hospitality-lessons-from-ireland/
-keywordsbestpractice: Digital
+keywordsbestpractice: Digitalisation, Smart Tourism, Dublin, Docklands
 ---
 The Aim: 
 In 2019 Dublin City decided to invest in a new and unique story telling App for the city. The aim was to use technology to bring Dublin's old stories to life in a new way. The core idea was to help drive visitors to less frequented areas of the city and encourage the development of new experiences thought out Dublin. 
