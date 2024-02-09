@@ -36,8 +36,8 @@ successbestpractice: Since the launch of the App in January 2021 the App has had
   expectations.
 challengesbestpractice: n/a
 transferbestpractice: Great
-infosbestpractice: https://www.failteireland.ie/FailteIreland/media/WebsiteStructure/Documents/Dublin/dublin-trails-toolkitupdated-2022.pdf
-urlsbestpractice: https://doorsintodocklands.com/
+infosbestpractice: https://www.failteireland.ie/FailteIreland/media/WebsiteStructure/Documents/Dublin/dublin-trails-toolkitupdated-2022.pdf   https://www.irishexaminer.com/news/arid-41045846.html
+urlsbestpractice: https://doorsintodocklands.com/   https://www.bu.edu/bhr/2021/10/04/digital-trail-development-opportunities-for-tourism-and-hospitality-lessons-from-ireland/
 keywordsbestpractice: Digital
 ---
 The Aim: 
