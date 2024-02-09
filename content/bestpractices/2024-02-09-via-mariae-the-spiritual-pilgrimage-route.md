@@ -67,4 +67,4 @@ Via Mariae – the last 100 km was built in a partnership by Harghita County Cou
 This road addresses everyone, it calls everyone. They are waiting for those who, regardless of nationality, religion, want to be pilgrims for religious, spiritual, self-knowledge purposes and they are also waiting for those who want to step on this road for now only for touristic or sports purposes. This road will be a bridge between nations, religions, people, connecting the west to the east, thus becoming the Road Connecting the Nations of Central and Eastern Europe, the "Road of Reconciliation", which in the future can become a European cultural road.
 The road is divided  in 7 sections, each section is described according with all information that it is needed.
 
-![]()
+![](https://ucarecdn.com/066b5fac-50a3-4353-9858-ae35cb8dafd8/)
