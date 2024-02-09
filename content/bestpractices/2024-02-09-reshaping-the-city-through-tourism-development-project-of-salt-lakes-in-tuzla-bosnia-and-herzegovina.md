@@ -32,7 +32,7 @@ resourcesbestpractice: The resources that were required  for this project in all
   its phases were around 5 million EUR, and were invested from the Tuzla City
   Budget throughout the years, as the Complex of Pannonian lakes was growing and
   evolving.
-successbestpractice: "\"The Pannonian Lakes Complex, as the only salt lakes in
+successbestpractice: The Pannonian Lakes Complex, as the only salt lakes in
   Europe, with its tourism activities (attractiveness, water and environmental
   cleanliness, good and affordable services, location, a large number of
   visitors) decisively influenced the decision to award the Municipality of
@@ -45,8 +45,8 @@ successbestpractice: "\"The Pannonian Lakes Complex, as the only salt lakes in
   2012. As the culmination of 2012, the city of Tuzla and the salt lakes
   received the second prize in the 2012 UNWTO ULYSSES AWARD, the highest
   recognition of the United Nations World Tourism Organization for innovations
-  in public policies and management, for the project \"\"Valorization of Natural
-  Heritage – Pannonian Salt Lakes in Tuzla,\"\" awarded for innovations in the
+  in public policies and management, for the project ""Valorization of Natural
+  Heritage – Pannonian Salt Lakes in Tuzla,"" awarded for innovations in the
   field of tourism. In 2013, the city of Tuzla and the Pannonian Lakes received
   the International Tourism Award GOLDEN INTERSTAS 2013 for outstanding
   contribution to the development of tourism in the city of Tuzla and a
@@ -66,13 +66,13 @@ successbestpractice: "\"The Pannonian Lakes Complex, as the only salt lakes in
   Archaeological Park has been established, and various cultural events such as
   Kaleidoscope Festival have been organized. These developments have contributed
   not only to the attractiveness of Tuzla as a destination for tourists but also
-  to the quality of life for us citizens who live here."
-challengesbestpractice: '"In the early stages of this project, the major
-  challenge was to get the public support as most people did not believe that it
-  was feasible to realize such a project in Tuzla, which back in early 2000’s
-  seemed impossible. The City Administration gathered renown experts, engineers
-  and technologists to prepare and design the project and also to ensure that
-  the public understood the effects it will have on the entire city, without any
+  to the quality of life for us citizens who live here.
+challengesbestpractice: In the early stages of this project, the major challenge
+  was to get the public support as most people did not believe that it was
+  feasible to realize such a project in Tuzla, which back in early 2000’s seemed
+  impossible. The City Administration gathered renown experts, engineers and
+  technologists to prepare and design the project and also to ensure that the
+  public understood the effects it will have on the entire city, without any
   risks. Later in the implementation of the project, the challenges were related
   to the technological aspects of the entire system at the lakes, which was also
   successfully ensured because special attention and care are taken in the
@@ -92,7 +92,7 @@ challengesbestpractice: '"In the early stages of this project, the major
   water (three times a week during the bathing season) are conducted at the
   Institute of Public Health of the Tuzla Canton, where all previous
   measurements have proven the absolute correctness and high quality of lake
-  water during the bathing season.'
+  water during the bathing season.
 transferbestpractice: '"This project is a perfect example how any local
   community, small or big, can identify its own potential or a resource which
   makes it unique and specific and turn it into its competitive advantage.  In
