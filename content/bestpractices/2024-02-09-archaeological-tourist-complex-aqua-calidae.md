@@ -29,15 +29,15 @@ formtypbestpractice: VR/AR & Technologies, inc. Gamification & Immersive perfoma
 orgbestpractice: Burgas Municipality
 locationbestpractice: Burgas, Bulgaria
 timebestpractice: January 2019 - October 2022
-resourcesbestpractice: calidae", part of the project "The Power of Water",
-  funded by the Operational Program "Growing Regions" 2014-2020, Budget 4 255
-  757euro.  Own staff with additional qualification to support the new
-  implemented technologies.
-successbestpractice: '"The construction of archaeological tourist complex Aquae
+resourcesbestpractice: '"Aqua calidae", part of the project "The Power of
+  Water", funded by the Operational Program "Growing Regions" 2014-2020, Budget
+  4 255 757euro.  Own staff with additional qualification to support the new
+  implemented technologies.'
+successbestpractice: The construction of archaeological tourist complex Aquae
   Calidae attracted additional interest in the tourist destination as about 45
   200 people have visited the place since its opening. Reaching and attracting
   new public that so far was not interested. Increasing interest of visitors to
-  the site and the surrounding area.'
+  the site and the surrounding area.
 challengesbestpractice: Implementing digital technologies is not an easy task,
   it requires highly specialized experts and staff that needs new skills. The
   representation and transfer of cultural heritage to digital means takes time,
