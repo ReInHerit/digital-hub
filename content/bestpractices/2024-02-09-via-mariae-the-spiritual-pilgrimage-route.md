@@ -20,7 +20,8 @@ theme: Management
 license: CC BY 2.0
 pubstatus: completed
 partnerbestpractice: ECTN
-personsbestpractice: Cristina Lixandroiu
+personsbestpractice: Cristina Lixandroiu, National Institute of Research and
+  Development in Tourism - INCDT, Romania
 emailbestpractice: curea@incdt.ro
 thumbnail: https://ucarecdn.com/9d2e436b-501f-4eaa-af74-2a79f1d336f9/
 formtypbestpractice: Cooperation between Museums and Heritage sites
