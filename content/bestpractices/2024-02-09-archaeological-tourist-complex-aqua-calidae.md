@@ -18,14 +18,14 @@ date: 2024-02-09T16:26:09.301Z
 target-audience:
   - PROFESSIONAL
   - VISITOR
-theme: Management
+theme: Technology
 license: CC BY 2.0
 pubstatus: completed
 partnerbestpractice: ECTN
 personsbestpractice: Zoya Stoyanova
 emailbestpractice: z.stoyanova@burgas.bg
 thumbnail: https://ucarecdn.com/b44ad209-c13c-4ed2-ade4-63a8aefbb9fa/
-formtypbestpractice: General Cultural Heritage Management
+formtypbestpractice: VR/AR & Technologies, inc. Gamification & Immersive perfomances
 orgbestpractice: Burgas Municipality
 locationbestpractice: Burgas, Bulgaria
 timebestpractice: January 2019 - October 2022
@@ -63,3 +63,13 @@ keywordsbestpractice: Digital presentation of cultural heritage, Digitalization,
 The Municipality of Burgas has been continuously investing in the development of the Aquae calidae archaeological complex for more than ten years. As most large archaeological sites it requires complex approach in order to present the cultural heritage to the wide public and in the same time to preserve it. The requirements of the younger generations of tourists have changed with the digital era. Bringing technologies to experience the digital world in the same time with physical activities, has been the core idea of the project.
 
 A new museum exposition and an active replica of a Roman bath have been built in line with the archaeological structures. The exhibition areas in the building include a training museum, a museum exposition and stock rooms. The museum exposition will exhibit archaeological finds and artifacts found during excavations in the field, now from the collection of the Regional Historical Museum - Burgas. In the training museum, visitors will have the opportunity to get acquainted with the way of life of the Romans, to soak in the baths, play games, to put on their everyday clothes or their military equipment. The exposition areas have a mixed purpose and can be used for recreational activities. The second layer is virtual and gives the opportunity to the visitors to time travel and see how the place looked like through the 20 centuries of its existence by entering a special room with 360°3D mapping. VR glasses will let the tourists enjoy the view of the old baths, learn more about the locals’ culture, while getting physically massaged. The place will continue to increase its tourist attractiveness, while preserving and promoting its cultural heritage as the technologies provide huge amount of opportunities to quick and safe extension of the services with increased added value of visitor experience.
+
+![](https://ucarecdn.com/cf433fb5-f6a9-44b4-9434-a22873039da0/)
+
+![](https://ucarecdn.com/6fefa26b-aeac-4096-afc1-1678befc5c4f/)
+
+![](https://ucarecdn.com/b919867e-5c3a-4cb2-838e-3f761db85f86/)
+
+![](https://ucarecdn.com/ed6b3350-d112-4de9-9e43-c7e8359dfbba/)
+
+![](https://ucarecdn.com/dac5d260-9f69-4c39-9bc0-e9e204f00952/)
