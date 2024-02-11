@@ -13,7 +13,7 @@ desc: The development of digital tools involves mediation between different
   been designed and tested using a co-creative, bottom-up approach. An
   Interdisciplinary community participated in the creation process through
   inclusive and collaborative workshops and hackathons.
-date: 2024-02-03T22:47:50.120Z
+date: 2024-01-23T22:47:50.120Z
 target-audience:
   - PROFESSIONAL
 theme: Technology
