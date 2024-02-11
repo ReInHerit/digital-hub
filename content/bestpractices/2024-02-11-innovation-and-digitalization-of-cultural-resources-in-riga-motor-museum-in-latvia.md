@@ -7,7 +7,7 @@ title: Innovation and digitalization of cultural resources in Riga Motor Museum
 desc: "Creation of an entirely new innovative Riga Motor Museum exposition with
   interactive and multimedia solutions, highlighting the museum’s collections
   and unique exhibits. "
-date: 2024-02-11T19:32:50.363Z
+date: 2024-01-12T14:32:50.363Z
 target-audience:
   - PROFESSIONAL
   - VISITOR
