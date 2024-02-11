@@ -17,8 +17,8 @@ theme: Tourism
 license: CC BY 2.0
 pubstatus: completed
 partnerbestpractice: ECTN
-personsbestpractice: Manos Vougioukas
-emailbestpractice: info@culturaltourism-net.eu
+personsbestpractice: Business Developer Torsten Engsig Marketing and Digital Manager Stefan Asp
+emailbestpractice: stefan@bornholm.info info@bornholm.info
 thumbnail: https://ucarecdn.com/71fe757c-4252-4a24-970b-d13ca571e002/
 formtypbestpractice: Smart Tourism - Smart Destinations
 orgbestpractice: ECTN
