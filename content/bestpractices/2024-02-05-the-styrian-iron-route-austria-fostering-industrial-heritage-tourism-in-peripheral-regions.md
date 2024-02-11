@@ -12,7 +12,7 @@ desc: The region of the Styrian Iron Route is known for its rich mining and iron
   its tourism value a museum association was founded. This best practice
   presents the work of the association and its benefits for the cultural
   heritage organisations in the area.
-date: 2024-02-05T14:12:15.146Z
+date: 2023-12-05T14:12:15.146Z
 target-audience:
   - PROFESSIONAL
   - VISITOR
