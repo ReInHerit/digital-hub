@@ -48,13 +48,9 @@ transferbestpractice: In Sweden, a lot of work in society is organized through
   general. The civil society is an important actor in this cooperation. The good
   practice of the cooperation platform Prisma VG is used by the CHRISTA-partner
   Granada County Council in a pilot action.
-infosbestpractice: The good practice is an example of cooperation between the
-  non-profit sector on one hand and the public sector on the other hand in one
-  narrow field - industrial cultural heritage. The platform enhances and
-  leverages each other's strengths and competences and is an excellent example
-  of cooperation at the crossroad between cultural heritage, regional
-  development and tourism. Regions with rich industrial heritage could further
-  explore and replicate this example.
+infosbestpractice: This is a good practice from the CHRISTA Interreg Europe
+  project (2016-2020), initiated by ECTN and also supported as an advisory
+  partner.
 urlsbestpractice: https://www.prismavg.se/
 keywordsbestpractice: cultural heritage, industrial heritage, sustainability, digitalisation
 ---
@@ -69,3 +65,5 @@ Since stories are the basis of the development of today's cultural tourism, one 
 Västarvet have used Prisma VG as an implementation channel within the CHRISTA project. The steering group has been one of the stakeholder groups. Another more operational stakeholder group has been 13 industrial history museums with the ambition to play a role in the tourism industry.
 
 ![](https://ucarecdn.com/41d2d777-1cd2-455b-b2c5-e4c655d315ad/)
+
+The good practice is an example of cooperation between the non-profit sector on one hand and the public sector on the other hand in one narrow field - industrial cultural heritage. The platform enhances and leverages each other's strengths and competences and is an excellent example of cooperation at the crossroad between cultural heritage, regional development and tourism. Regions with rich industrial heritage could further explore and replicate this example.
