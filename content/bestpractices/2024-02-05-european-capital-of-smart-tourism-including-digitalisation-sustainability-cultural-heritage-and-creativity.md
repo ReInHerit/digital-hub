@@ -92,6 +92,10 @@ urlsbestpractice: https://www.visitpafos.org.cy/pafos-european-capital-of-smart-
 keywordsbestpractice: creativity, cultural heritage, digitalisation, smart
   tourism, sustainability, sustainable tourism
 ---
+![](https://ucarecdn.com/c4203c7b-bc1f-46fe-acaa-dcf6efdd5671/)
+
+
+
 Pafos as a destination has long been incorporating the concepts of sustainability, accessibility, innovation/digitalisation and cultural heritage-creative tourism into its planning.  Pafos is motivated by a vision of being a quality destination where visitors can enjoy a diverse range of experiences while also contributing to sustainable tourism growth,  respecting the natural environment and cultural heritage.
 
 Pafos has evolved from a classic mass-tourist sun-and-sea hotspot to a sophisticated and innovative tourism destination. After over 15 years of evolution, the destination is now successfully incorporating sustainability themes into its comprehensive smart tourism strategy and operations.
