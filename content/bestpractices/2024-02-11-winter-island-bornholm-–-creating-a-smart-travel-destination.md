@@ -9,7 +9,7 @@ desc: "Destination Bornholm’s Winter Island Project has helped develop Bornhol
   during the winter of 2021-2022. The project has helped support and grow
   local  businesses and the local community throughout the COVID-19 pandemic by
   increasing the est.  revenue from 47 Mio. DKK to 72 Mio. DKK. "
-date: 2023-11-16T22:39:46.702Z
+date: 2024-02-11T22:39:46.702Z
 target-audience:
   - PROFESSIONAL
   - VISITOR
