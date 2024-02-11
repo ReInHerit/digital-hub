@@ -25,8 +25,8 @@ pubstatus: completed
 partnerbestpractice: Bank of Cyprus Cultural Foundation
 personsbestpractice: Polina Nicolaou
 emailbestpractice: polina.nicolaou@bankofcyprus.com
-thumbnail: https://ucarecdn.com/13092fa4-3beb-4822-82b0-89faa8504d92/
-formtypbestpractice: Cooperation between Museums and Heritage sites
+thumbnail: https://ucarecdn.com/794e672d-5426-4ea5-b2fb-8c5a1d140687/
+formtypbestpractice: General Cultural Heritage Management
 orgbestpractice: Bank of Cyprus Cultural Foundation (BoCCF)
 locationbestpractice: Nicosia, Cyprus
 timebestpractice: 1 March 2021 - 29 February 2024
