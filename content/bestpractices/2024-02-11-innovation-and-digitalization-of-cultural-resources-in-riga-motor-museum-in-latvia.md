@@ -18,7 +18,7 @@ partnerbestpractice: ECTN
 personsbestpractice: Janis Sijats
 emailbestpractice: janis.sijats@gmail.com
 thumbnail: https://ucarecdn.com/76af769d-9faf-4005-b92b-2fbea15374e6/
-formtypbestpractice: VR/AR & Technologies, inc. Gamification & Immersive perfomances
+formtypbestpractice: Innovation (including 3D, AI, Big data, Metaverse, etc)
 orgbestpractice: ECTN
 locationbestpractice: Brussels
 timebestpractice: 2016 to date
