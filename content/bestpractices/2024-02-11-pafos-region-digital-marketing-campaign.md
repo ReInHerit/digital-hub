@@ -8,7 +8,7 @@ desc: Powered by artificial intelligence and traveller intent data, we have
   digital campaign was targeting potential travellers (B2C) with real travel
   intention, travellers based on interest and travel behaviour as well as
   travellers based on location.
-date: 2024-02-11T20:29:59.718Z
+date: 2024-02-05T08:29:59.718Z
 target-audience:
   - PROFESSIONAL
 theme: Tourism
