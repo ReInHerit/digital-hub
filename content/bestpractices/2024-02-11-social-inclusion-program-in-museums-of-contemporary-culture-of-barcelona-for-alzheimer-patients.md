@@ -6,7 +6,7 @@ title: Social inclusion program in museums of Contemporary Culture of Barcelona
   for Alzheimer patients
 desc: Alzheimer’s program offers adapted exhibition tours, cinema sessions, and
   history lessons on demand on Mondays.
-date: 2023-12-20T09:31:31.031Z
+date: 2023-12-13T09:31:31.031Z
 target-audience:
   - PROFESSIONAL
 theme:
