@@ -134,3 +134,5 @@ The project’s work plan consisted of nine key steps:
 The project developed a set of applications following the above workflow. It also relied on digital storytelling methods to foster engagement with the presentation. Digital storytelling can help not only to build memories and instil values, but it can also educate about our shared obligation to preserve these memories and our archaeological heritage.
 
 The project included knowledge exchange workshops and mobility actions for the participant organisations, often in parallel to training and discussion events for local museum and heritage professionals. In parallel, exhibitions testing and showcasing the technological solutions were opened at all the museums, and were evaluated through an international visitor survey aiming to investigate the effect of the different applications on their audiences.
+
+![](https://ucarecdn.com/d6f0c083-59c2-40d0-acce-778af4b06bd6/)
