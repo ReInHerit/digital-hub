@@ -9,7 +9,7 @@ desc: "A European Cultural Route of the Argonautica, based on intangible
   well as visual and performing arts in several countries along the Argonautica
   Route. The Argonautica tells the myth of the voyage to retrieve the Golden
   Fleece. "
-date: 2023-11-24T12:56:47.183Z
+date: 2023-11-01T12:56:47.183Z
 target-audience:
   - PROFESSIONAL
 theme: Other
