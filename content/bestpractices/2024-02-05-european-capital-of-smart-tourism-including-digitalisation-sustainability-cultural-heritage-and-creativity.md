@@ -12,7 +12,7 @@ desc: Pafos applied for the European Capital of Smart Tourism Award in June 2022
   city initiatives and applications, previous European Capital of Culture
   (2017), the DESTI-SMART Interreg Europe project (2018-2022) and its UNESCO
   World Heritage Site status.
-date: 2024-01-30T12:50:59.661Z
+date: 2023-11-10T12:50:59.661Z
 target-audience:
   - PROFESSIONAL
 theme: Tourism
