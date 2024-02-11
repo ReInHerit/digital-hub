@@ -6,7 +6,7 @@ title: Developing attractive, safe and sustainable cultural routes for
   inhabitants and visitors
 desc: "The practice includes: a working process, an evaluation of routes matrix
   and a model for sustainable organisation of routes."
-date: 2024-02-11T22:26:19.747Z
+date: 2024-02-10T22:26:19.747Z
 target-audience:
   - PROFESSIONAL
 theme: Management
