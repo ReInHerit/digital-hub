@@ -88,7 +88,7 @@ infosbestpractice: ECTN members Bremerhaven and Cork were finalists in the
   2019. Cultural Heritage and Creativity, as well as Sustainability are two of
   the four components of Smart Tourism directly linked to Sustainable Cultural
   Tourism that ECTN facilitates and promotes.
-urlsbestpractice: https://smart-tourism-capital.ec.europa.eu/pafos-winner-2023-competition_en
+urlsbestpractice: https://www.visitpafos.org.cy/pafos-european-capital-of-smart-tourism-2023   https://smart-tourism-capital.ec.europa.eu/pafos-winner-2023-competition_en
 keywordsbestpractice: creativity, cultural heritage, digitalisation, smart
   tourism, sustainability, sustainable tourism
 ---
@@ -129,6 +129,8 @@ Some of the most important best practice aspects towards Smart tourism , Smart d
   -Creative destination-awards. Pafos was awarded the best creative destination award in 2016 and the ‘Best Strategy in Creative Tourism Development 2020’, by the Creative Tourism Network (CTN).
   -Innovative & creative private and public offerings.  The Municipality of Pafos has established the KHAN, an artist space where local and visiting artists can exhibit their work. Private funding has also been provided, resulting in Pafos Creative Tourism uncovering hidden Cyprus for arts, handicrafts, and traditional products.
   Pafos has gained the title of the European Capital of Smart Tourism  2023 because has a plan, commitment of residents, local authorities and stakeholders, resources and willingness to change things for a Smarter Pafos, thus for a better and a Smarter Europe.
+
+`youtube: https://www.youtube.com/watch?v=BrFX_m_AlqE&list=PLdz9RTpENJgM-oCVBsgHOOCXXofmBu2BQ&index=7`
 
 Pafos has been**[European Capital of Smart Tourism 2023,](https://smart-tourism-capital.ec.europa.eu/news/european-capital-smart-tourism-2023-winners-announced-2022-11-09_en)** together with Seville. Pafos Regional Board of Tourism currently holds the Presidency of the European Cultural Tourism Network (ECTN).\
 \
