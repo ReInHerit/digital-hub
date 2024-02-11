@@ -14,7 +14,7 @@ desc: The SmartCulTour Game is a vital component of intervention toolkits for
   and Android), and physical intervention cards. Players, acting as cultural
   heritage stakeholders, aim to achieve their goals through interventions,
   fostering discussion and evaluation for sustainability in various contexts.
-date: 2024-02-09T15:19:37.264Z
+date: 2023-12-01T13:19:37.264Z
 target-audience:
   - PROFESSIONAL
   - VISITOR
