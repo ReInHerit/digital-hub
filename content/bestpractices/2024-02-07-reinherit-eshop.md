@@ -2,7 +2,7 @@
 pageId: d1e1784d-25ee-4079-aa25-f4f1c626183c
 layout: blog
 type: bestpractice
-title: ReInHerit Eshop
+title: ReInHerit Eshop - Collection of digital objects from the ReInHerit museums
 desc: The aim is to create a sustainably managed E-shop where needed services
   for the CH are provided. With the consent of the consortium, printable digital
   items were created. This means that the users could download and print in 2D
@@ -36,3 +36,5 @@ urlsbestpractice: https://reinherit-hub.eu/eshop
 keywordsbestpractice: Eshop, collections, audience engagement
 ---
 Taking into account the primary and secondary research, the consortium agreed to create printable digital items instead of tangible objects, responding thus to the need for museums to demonstrate environmental sustainability by making effective and balanced use of their resources through digital needs. This means that the users could download and print in 2D or 3D these digital items that will be available for free through the digital hub. The E-shop presentation has been agreed upon with UniGraz (WP4 leader) and BOCCF (during meetings through M8-10). At the same time, the three partner-museums proposed some of their artefacts to serve as the inspiration for the E-shop products.
+
+All the digital objects in the ReInHerit eShop are free to download.
