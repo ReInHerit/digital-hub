@@ -20,7 +20,7 @@ pubstatus: completed
 partnerbestpractice: ECTN
 personsbestpractice: Manos Vougioukas
 emailbestpractice: info@culturaltourism-net.eu
-thumbnail: https://ucarecdn.com/4d057fea-6f3c-42eb-b548-c15f20ad5773/
+thumbnail: https://ucarecdn.com/96db3a57-b2e9-4007-82ae-dc62ca2532b9/
 formtypbestpractice: Cooperation between Museums and Heritage sites
 orgbestpractice: ECTN
 locationbestpractice: Brussels
