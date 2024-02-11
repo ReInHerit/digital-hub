@@ -16,7 +16,7 @@ pubstatus: completed
 partnerbestpractice: Bank of Cyprus Cultural Foundation
 personsbestpractice: Polina Nikolaou
 emailbestpractice: polina.nicolaou@bankofcyprus.com
-thumbnail: https://ucarecdn.com/f576c0ef-f0dd-4e8a-90cd-87efd472992f/
+thumbnail: https://ucarecdn.com/0698fde1-529c-4f9a-856a-33b57abdf98f/
 formtypbestpractice: Cooperation between Museums and Heritage sites
 orgbestpractice: Bank of Cyprus Cultural Foundation, ReInHerit Consortium
 locationbestpractice: Nicosia and online
