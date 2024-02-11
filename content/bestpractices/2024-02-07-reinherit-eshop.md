@@ -7,7 +7,7 @@ desc: The aim is to create a sustainably managed E-shop where needed services
   for the CH are provided. With the consent of the consortium, printable digital
   items were created. This means that the users could download and print in 2D
   or 3D these digital items.
-date: 2023-11-30T11:36:31.457Z
+date: 2023-11-02T11:36:31.457Z
 target-audience:
   - PROFESSIONAL
 theme: Management
