@@ -6,7 +6,7 @@ title: “Museum in Questions” campaign by the Royal Museums of Fine Arts of B
 desc: As part of the “Museum in Questions” campaign initiated in the fall of
   2021, the Royal Museums of Fine Arts of Belgium are eager to join the debate
   on current social issues
-date: 2024-02-03T16:58:31.538Z
+date: 2023-12-04T13:58:31.538Z
 target-audience:
   - PROFESSIONAL
 theme: Management
