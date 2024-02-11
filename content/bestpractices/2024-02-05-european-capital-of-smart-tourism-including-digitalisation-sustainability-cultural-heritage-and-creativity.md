@@ -80,21 +80,27 @@ transferbestpractice: "The key Good Practice features to share and transfer
   resources to achieve success. -Past and present successful initiatives and
   stories must share. All of the above contributes towards a smarter tourism,
   smarter destinations!"
-infosbestpractice: ECTN members Bremerhaven and Cork were finalists in the
-  'European Capital of Smart Tourism 2024' Award.  ECTN is proud that two of our
-  members, Bremerhaven, Germany, and Cork, Republic of Ireland, are selected in
-  the seven finalists for the European Capital of Smart Tourism 2024 Award. ECTN
-  has supported the European Capital of Smart Tourism Awards since the launch in
-  2019. Cultural Heritage and Creativity, as well as Sustainability are two of
-  the four components of Smart Tourism directly linked to Sustainable Cultural
-  Tourism that ECTN facilitates and promotes.
+infosbestpractice: "The journey towards smart tourism, smart destinations is
+  ongoing. Actions and initiatives need to be accelerated in the coming years.
+  As a destination, the focus in the next years is to continue incorporating the
+  concepts of sustainability, accessibility, innovation/digitalisation and
+  cultural heritage-creative tourism into strategic planning. Some of the
+  actions that are in progress by Pafos Municipality and Pafos Regional Board of
+  Tourism are:  - Water management system, to achieve optimal use and quality of
+  water, - 'Pafos Now' app, for all services in the region. ECTN members
+  Bremerhaven and Cork were finalists in the 'European Capital of Smart Tourism
+  2024' Award.  ECTN is proud that two of our members, Bremerhaven, Germany, and
+  Cork, Republic of Ireland, are selected in the seven finalists for the
+  European Capital of Smart Tourism 2024 Award. ECTN has supported the European
+  Capital of Smart Tourism Awards since the launch in 2019. Cultural Heritage
+  and Creativity, as well as Sustainability are two of the four components of
+  Smart Tourism directly linked to Sustainable Cultural Tourism that ECTN
+  facilitates and promotes."
 urlsbestpractice: https://www.visitpafos.org.cy/pafos-european-capital-of-smart-tourism-2023   https://smart-tourism-capital.ec.europa.eu/pafos-winner-2023-competition_en
 keywordsbestpractice: creativity, cultural heritage, digitalisation, smart
   tourism, sustainability, sustainable tourism
 ---
 ![](https://ucarecdn.com/c4203c7b-bc1f-46fe-acaa-dcf6efdd5671/)
-
-
 
 Pafos as a destination has long been incorporating the concepts of sustainability, accessibility, innovation/digitalisation and cultural heritage-creative tourism into its planning.  Pafos is motivated by a vision of being a quality destination where visitors can enjoy a diverse range of experiences while also contributing to sustainable tourism growth,  respecting the natural environment and cultural heritage.
 
@@ -114,8 +120,7 @@ Some of the most important best practice aspects towards Smart tourism , Smart d
 -Introduction of Smart signs (QR codes) as a way to provide better interpretation and interaction while at the same time eliminating visual pollution by replacing the traditional static, large in size, signs.(Smart signs include content in several languages, 360 touring, video, photo gallery, audio guiding etc) 
 -Launch of an innovative digital campaign in 8 countries using a latest technology with an algorithm which traces potential visitors that show active travel intentions. 
 
-\
--Pafos has adopted the UN Sustainable Development Goals as they apply to tourism sustainability, in particular 5 of the 13 SDGs
+\-Pafos has adopted the UN Sustainable Development Goals as they apply to tourism sustainability, in particular 5 of the 13 SDGs
 -18 blue ﬂag beaches, Quality Coast Gold Award 2013 -2023, part of the EU Green Destinations
 -Over ten nature trails have recently been revalued and upgraded, and they are now all promoted through unique portals such as Komoot, Alltrails, and others.
 -Most of the hotel properties are ISO140000 certiﬁed
