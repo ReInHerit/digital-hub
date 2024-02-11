@@ -11,7 +11,7 @@ desc: When working with AI in museums, especially with Generative Artificial
   descriptive content of the  museum collection considered the fairness of the
   models used and compiled a proper ReInHerit Ethics Cards, to avoid ethical
   issues and errors.
-date: 2024-01-24T09:57:14.571Z
+date: 2024-01-25T09:57:14.571Z
 target-audience:
   - PROFESSIONAL
 theme: Technology
