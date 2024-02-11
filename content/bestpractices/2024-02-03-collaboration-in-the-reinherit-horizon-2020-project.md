@@ -79,3 +79,5 @@ Innovation in ReInHerit addresses a key priority  of the European Commission whi
 “A Europe fit for the digital age: empowering people with new generation technologies”
 
 The aim with this priority is to achieve digital transformation that will enhance both economic and environmental efficiency while developing new sustainable, circular and inclusive ways to satisfy human needs and wellbeing. The ReInHerit project contributes to this by providing innovative solutions (processes and products, see figure below) that enables the formation of a sustainable heritage management by creating a guided path through learning resources, prototypes and codes, best practices and handbook, webinars that can help museum and heritage professionals recreate, adopt and adapt the ReInHerit’s Digital Toolkit and exhibitions.
+
+![](https://ucarecdn.com/8566cb47-4ecb-4d73-85b9-11a753841a39/)
