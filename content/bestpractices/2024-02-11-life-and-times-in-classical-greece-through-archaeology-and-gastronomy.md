@@ -23,7 +23,7 @@ partnerbestpractice: ECTN
 personsbestpractice: Nick Bogiazides and Konstantina Moula
 emailbestpractice: nbog@uth.gr
 thumbnail: https://ucarecdn.com/ce66604f-8a44-4cf4-9aae-7e8dc9862ebd/
-formtypbestpractice: Cooperation between Museums and Heritage sites
+formtypbestpractice: Audience and Local Community Engagement
 orgbestpractice: Archaeological Museum of Agios Kirykos
 locationbestpractice: Ikaria island, North Aegean region, Greee
 timebestpractice: Three hours per one day session, available according to demand.
