@@ -2,7 +2,7 @@
 pageId: 9ce9fae0-f139-43a6-9295-a22914090388
 layout: blog
 type: bestpractice
-title: "Toolkit Development: Open Source & User-Centered Approach"
+title: "ReInHerit Toolkit Development: Open Source & User-Centered Approach"
 desc: "\"According to ReInherit's analysis and strategy, the Toolkit's
   innovative and interactive tools are able to increase visitor engagement and
   are based on a user-centered approach.  Web apps have been developed as
