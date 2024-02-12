@@ -12,6 +12,7 @@ desc: "A European Cultural Route of the Argonautica, based on intangible
 date: 2023-11-01T12:56:47.183Z
 target-audience:
   - PROFESSIONAL
+  - VISITOR
 theme: Other
 license: CC BY 2.0
 pubstatus: completed
@@ -64,14 +65,13 @@ keywordsbestpractice: Cultural Route, Intangible Heritage, Sustainable Tourism,
 
 `youtube: https://www.youtube.com/watch?v=EUwkKIbNDyo`
 
-<!--StartFragment-->
+
 
 Cultural Routes (CRs) of Council of Europe (CoE) are pioneers in initiatives concerning European cultural integration and European identity. They involve Cultural Heritage as a strong link of European nations, linking Culture with Tourism.\
 \
 CR is a route which includes two or more countries or regions and is organized on a theme whose historical, artistic or social interest is European, either according to the geographical route’s features it follows or according to its nature and/or significance. The route is based on multitude of features which present European culture as a whole, and it includes destinations rich in historic associations.\
 \
-Most existing Cultural Routes are mainly based on tangible heritage, such as castles, monuments, products, places of worship, archeological sites, spas, cemeteries, etc. Cultural Routes based almost exclusively on\
-intangible heritage is an innovation, particularly based on: Mythology, Poetry and Visual arts.\
+Most existing Cultural Routes are mainly based on tangible heritage, such as castles, monuments, products, places of worship, archeological sites, spas, cemeteries, etc. Cultural Routes based almost exclusively on intangible heritage is an innovation, particularly based on: Mythology, Poetry and Visual arts.\
 \
 The Argonautic expedition dating back to 1200 BC is the oldest legendary long-distance maritime journey in the world ever, covering several countries, seas,crivers, cities, places, referred to:\
 
@@ -81,4 +81,14 @@ The Argonautic expedition dating back to 1200 BC is the oldest legendary long-di
   \
   ‘The Return of the Argonauts’ as a CoE Candidate Cultural Route is hence developed.
 
-<!--EndFragment-->
+The mission of Jason and the Argonauts from Iolcos, present day City of Volos in Greece, to Colchis, present day Kutaisi in Georgia, to bring back the golden fleece has inspired several works of art, including poetry, literature, pottery, theatre, opera, painting, sculpture, cinema, documentaries, music and publications.
+
+Although a lot of attention has been given to the outbound journey from Iolkos to Colchis, the return journey of the Argonauts has not been given the exposure it deserves. This is despite the fact that the return journey accounted for over three quarters of the overall journey.
+
+The return of the Argonauts has left a cultural footprint in several places: Jason is considered to be the founder of Lubliana, capital of Slovenia, and Argonautica is celebrated at the Dalmatian coast, Istria peninsula, in Croatia, as well as in Marseille in the south of France.
+
+![](https://ucarecdn.com/93e0aef2-c655-4683-ac2c-e05c1f22cd8d/)
+
+![](https://ucarecdn.com/34fd68f6-416e-449e-a9cf-0db2c11ee992/)
+
+![](https://ucarecdn.com/37b6f297-4f20-46e6-8d28-c1a9c6093aee/)
