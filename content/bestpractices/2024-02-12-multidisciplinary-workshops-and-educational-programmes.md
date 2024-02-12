@@ -180,6 +180,8 @@ The BOCCF also actively collaborates with diverse institutions to organise multi
 
 In conclusion, the BOCCF actively tries to incorporate various disciplines in its workshops, educational programmes, and through its collaborations with other organisations. This approach has been proven to be very effective for the participants’ learning experience, creativity, comprehensive understanding in various fields, as well as encouraging innovation and creativity as different disciplines bring unique perspectives and methodologies.
 
+![](https://ucarecdn.com/1e1d9441-fdde-45b5-b823-05a40b914d0a/)
+
 ![](https://ucarecdn.com/d3ae1006-836d-48cb-aee4-988d8da7a69f/)
 
 ![](https://ucarecdn.com/18789c22-e292-4b41-a6d4-209846b5a7e6/)
