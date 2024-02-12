@@ -63,8 +63,9 @@ Important steps and recommendations for regulating GenAI based on a human-center
 
 The ReInHerit project created Ethics Cards for the developed applications, considering fairness and all the ethical issues associated with a user-centered approach with AI/CV. These cards analyse different aspects of the applications such as Training Data (Dataset and Model cards used, bias discrimations) User Data (user data collection, privacy, transparency, use Third part…) Data Security (data protection, cyber-attacks) Copyright aspects (copyright for the training data)
 
-To guarantee quality content, the descriptions of the artworks accessible to visitors during the Smart Interaction and the data used by the Chatbot have been provided by by the Museums involved in the ReinHerit Project (GrazMuseum, Cycladic Museum, Bank of Cyprus Foundation) The content used by the chatbot is provided by curators using a specific interface. System do not rely on something “memorized” by the chatbot. The questions of the users are encapsulated in other instructions (prompt engineering) that instruct the chatbot to answer only using the curated material.
-
 ![ReIhHerit Ethics Cards](https://ucarecdn.com/c00e1c96-8dd5-4651-80d7-7d3ff25b9aaf/ "ReIhHerit Ethics Cards")
 
 > *ReIhHerit Ethics Cards*
+
+To guarantee quality content, the descriptions of the artworks accessible to visitors during the Smart Interaction and the data used by the Chatbot have been provided by by the Museums involved in the ReinHerit Project (GrazMuseum, Cycladic Museum, Bank of Cyprus Foundation) The content used by the chatbot is provided by curators using a specific interface. System do not rely on something “memorized” by the chatbot. The questions of the users are encapsulated in other instructions (prompt engineering) that instruct the chatbot to answer only using the curated material.
+
