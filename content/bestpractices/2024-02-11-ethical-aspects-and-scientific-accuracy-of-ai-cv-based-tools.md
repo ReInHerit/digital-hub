@@ -57,9 +57,9 @@ keywordsbestpractice: " Ethics, AI tools, Fairness, Scientific Accuracy "
 ---
 Important steps and recommendations for regulating GenAI based on a human-centered approach include concerns related to the Ethics of AI Chatbots, user privacy policy compliance, training data, and the scientific accuracy of chatbot outputs. The development of artificial intelligence applications involved extensive training on datasets. Ensuring that the final training data is ethically sourced, unbiased, and devoid of discriminatory content is crucial for maintaining the ethical integrity of AI tools. 
 
-_Training data: AI applications involved extensive training on large data sets. It is crucial to ensure that the final training is ethically sourced and respect the privacy of users.
-_Transparency: Chatbot must be transparent about how the data is used and ensure that the data is stored securely and, where appropriate, anonymised.
-_Scientific accuracy: Chatbot responses must be tested and validated by museums. This is especially important for applications that provide historical or scientific information to museum visitors through solutions that avoid AI “hallucinations”.
+* Training data: AI applications involved extensive training on large data sets. It is crucial to ensure that the final training is ethically sourced and respect the privacy of users.
+* Transparency: Chatbot must be transparent about how the data is used and ensure that the data is stored securely and, where appropriate, anonymised.
+* Scientific accuracy: Chatbot responses must be tested and validated by museums. This is especially important for applications that provide historical or scientific information to museum visitors through solutions that avoid AI “hallucinations”.
 
 The ReInHerit project created Ethics Cards for the developed applications, considering fairness and all the ethical issues associated with a user-centered approach with AI/CV. These cards analyse different aspects of the applications such as Training Data (Dataset and Model cards used, bias discrimations) User Data (user data collection, privacy, transparency, use Third part…) Data Security (data protection, cyber-attacks) Copyright aspects (copyright for the training data)
 
