@@ -2,7 +2,7 @@
 pageId: 28bcb3a1-37b2-48f0-a62f-545892524cad
 layout: blog
 type: bestpractice
-title: Training Webinars
+title: ReInHerit Training Webinars
 desc: "Webinars have emerged as a preferred tool for guidance and training, well
   known for their easy accessibility, especially since the pandemic. Webinars
   stand out as a best practice for training professionals on digital tools and
