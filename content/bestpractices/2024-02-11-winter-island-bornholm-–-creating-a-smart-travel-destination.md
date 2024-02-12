@@ -15,7 +15,7 @@ target-audience:
   - VISITOR
 theme: Tourism
 license: CC BY 2.0
-pubstatus: draft
+pubstatus: completed
 partnerbestpractice: ECTN
 personsbestpractice: Business Developer Torsten Engsig Marketing and Digital Manager Stefan Asp
 emailbestpractice: stefan@bornholm.info info@bornholm.info
