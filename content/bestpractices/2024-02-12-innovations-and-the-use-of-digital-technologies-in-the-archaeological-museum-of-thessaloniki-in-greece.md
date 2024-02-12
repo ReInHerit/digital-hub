@@ -24,7 +24,7 @@ pubstatus: completed
 partnerbestpractice: University of Nicosia - School of Law
 personsbestpractice: Konstantinos Roussos - Irini Stamatoudi
 emailbestpractice: roussos.k@unic.ac.cy
-thumbnail: https://ucarecdn.com/d7fdfc79-94d7-4f7c-9abd-5235fb987c66/
+thumbnail: https://ucarecdn.com/ef326703-07b6-40ce-b140-b06a69cf4867/
 formtypbestpractice: Innovation (including 3D, AI, Big data, Metaverse, etc)
 orgbestpractice: "Archaeological Museum of Thessaloniki "
 locationbestpractice: Thessaloniki, Greece
