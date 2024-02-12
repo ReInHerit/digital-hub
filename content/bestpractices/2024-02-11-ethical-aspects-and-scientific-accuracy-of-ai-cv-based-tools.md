@@ -55,17 +55,16 @@ urlsbestpractice: "https://reinherit-hub.eu/applications   https://reinherit-hu\
   b.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3 "
 keywordsbestpractice: " Ethics, AI tools, Fairness, Scientific Accuracy "
 ---
-Important steps and recommendations for regulating GenAI based on a human-centered approach include concerns related to the Ethics of AI Chatbots, user privacy policy compliance, training data, and the scientific accuracy of chatbot outputs. The development of artificial intelligence applications involved extensive training on datasets. Ensuring that the final training data is ethically sourced, unbiased, and devoid of discriminatory content is crucial for maintaining the ethical integrity of AI tools. 
+Important steps and recommendations for **regulating GenAI** based on a **human-centered approach** include concerns related to the **Ethics** of AI Chatbots, user privacy policy compliance, training data, and the scientific accuracy of chatbot outputs. The development of artificial intelligence applications involved extensive training on datasets. Ensuring that the final training data is ethically sourced, unbiased, and devoid of discriminatory content is crucial for maintaining the ethical integrity of AI tools. 
 
-* Training data: AI applications involved extensive training on large data sets. It is crucial to ensure that the final training is ethically sourced and respect the privacy of users.
-* Transparency: Chatbot must be transparent about how the data is used and ensure that the data is stored securely and, where appropriate, anonymised.
-* Scientific accuracy: Chatbot responses must be tested and validated by museums. This is especially important for applications that provide historical or scientific information to museum visitors through solutions that avoid AI “hallucinations”.
+* **Training data:** AI applications involved extensive training on large data sets. It is crucial to ensure that the final training is ethically sourced and respect the privacy of users.
+* **Transparency**: Chatbot must be transparent about how the data is used and ensure that the data is stored securely and, where appropriate, anonymised.
+* **Scientific accuracy**: Chatbot responses must be tested and validated by museums. This is especially important for applications that provide historical or scientific information to museum visitors through solutions that avoid AI “hallucinations”.
 
-The ReInHerit project created Ethics Cards for the developed applications, considering fairness and all the ethical issues associated with a user-centered approach with AI/CV. These cards analyse different aspects of the applications such as Training Data (Dataset and Model cards used, bias discrimations) User Data (user data collection, privacy, transparency, use Third part…) Data Security (data protection, cyber-attacks) Copyright aspects (copyright for the training data)
+The ReInHerit project created **Ethics Cards** for the developed applications, considering fairness and all the ethical issues associated with a user-centered approach with AI/CV. These cards analyse different aspects of the applications such as **Training Data** (Dataset and Model cards used, bias discrimations) **User Data** (user data collection, privacy, transparency, use Third part…) **Data Security** (data protection, cyber-attacks) **Copyright aspects** (copyright for the training data)
 
 ![ReIhHerit Ethics Cards](https://ucarecdn.com/c00e1c96-8dd5-4651-80d7-7d3ff25b9aaf/ "ReIhHerit Ethics Cards")
 
 > *ReIhHerit Ethics Cards*
 
 To guarantee quality content, the descriptions of the artworks accessible to visitors during the Smart Interaction and the data used by the Chatbot have been provided by by the Museums involved in the ReinHerit Project (GrazMuseum, Cycladic Museum, Bank of Cyprus Foundation) The content used by the chatbot is provided by curators using a specific interface. System do not rely on something “memorized” by the chatbot. The questions of the users are encapsulated in other instructions (prompt engineering) that instruct the chatbot to answer only using the curated material.
-
