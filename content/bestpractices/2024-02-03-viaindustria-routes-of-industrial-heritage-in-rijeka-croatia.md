@@ -12,7 +12,7 @@ desc: The ViaIndustRIa application offers an overview of Rijeka's most
   app has been designed with utmost care to ensure that it is easy  to use. The
   app is available in both Croatian and English and is compatible with both
   Android and iOS devices.
-date: 2024-02-02T14:33:21.858Z
+date: 2024-01-22T14:33:21.858Z
 target-audience:
   - PROFESSIONAL
 theme: Technology
