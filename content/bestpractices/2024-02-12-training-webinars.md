@@ -103,16 +103,16 @@ keywordsbestpractice: Webinars, Training, Networking, Cooperation, Communication
 
 The macro topics and themes formed the basis for the webinars conducted within the ReInHerit project, providing participants with valuable insights and knowledge in their respective areas.
 
-* Digital and Emerging Technology: Exploring the use of innovative digital tools and emerging technologies for Cultural Heritage.Gamification and Immersive Performances: Examining the application of gamification techniques and immersive experiences to enhance visitor engagement and understanding of cultural heritage.
-* Digital Strategy and Audience Research: Discussing strategies for developing effective digital strategies and conducting audience research to optimize digital experiences and reach wider audiences.
-* IPR (Intellectual Property Rights): Addressing the legal and ethical considerations related to intellectual property rights in the context of cultural heritage preservation, dissemination, and access.
-* Co-creation and Prototyping in Museums: Exploring collaborative approaches to museum practices, including co-creation and prototyping, to enhance visitor experiences and foster community engagement.
-* Inclusive and Green Museums: Highlighting the importance of inclusivity and sustainability in museum management, focusing on accessibility, diversity, environmental practices, and social responsibility.
-* Sustainability and Cultural Heritage: Examining sustainable practices and approaches in the conservation, management, and promotion of cultural heritage, considering environmental, economic, and social dimensions.
-* Cultural Tourism: Discussing the intersection of cultural heritage and tourism, exploring ways to leverage cultural assets to promote sustainable and enriching tourism experiences.
-* Smart Tourism: Investigating the application of smart technologies and approaches in enhancing the visitor experience, destination management, and tourism services.
-* Smart Destinations: Examining the concept of smart destinations, which utilize technology and innovation to provide personalized, seamless, and sustainable experiences for tourists.
-* Sustainable Cultural Tourism: Addressing the challenges and opportunities of sustainable cultural tourism, considering environmental, socio-cultural, and economic aspects.
+* **Digital and Emerging Technology:** Exploring the use of innovative digital tools and emerging technologies for Cultural Heritage.Gamification and Immersive Performances: Examining the application of gamification techniques and immersive experiences to enhance visitor engagement and understanding of cultural heritage.
+* **Digital Strategy and Audience Research**: Discussing strategies for developing effective digital strategies and conducting audience research to optimize digital experiences and reach wider audiences.
+* **IPR (Intellectual Property Rights)**: Addressing the legal and ethical considerations related to intellectual property rights in the context of cultural heritage preservation, dissemination, and access.
+* **Co-creation and Prototyping in Museums**: Exploring collaborative approaches to museum practices, including co-creation and prototyping, to enhance visitor experiences and foster community engagement.
+* **Inclusive and Green Museums:** Highlighting the importance of inclusivity and sustainability in museum management, focusing on accessibility, diversity, environmental practices, and social responsibility.
+* **Sustainability and Cultural Heritage:** Examining sustainable practices and approaches in the conservation, management, and promotion of cultural heritage, considering environmental, economic, and social dimensions.
+* **Cultural Tourism**: Discussing the intersection of cultural heritage and tourism, exploring ways to leverage cultural assets to promote sustainable and enriching tourism experiences.
+* **Smart Tourism:** Investigating the application of smart technologies and approaches in enhancing the visitor experience, destination management, and tourism services.
+* **Smart Destinations:** Examining the concept of smart destinations, which utilize technology and innovation to provide personalized, seamless, and sustainable experiences for tourists.
+* **Sustainable Cultural Tourism:** Addressing the challenges and opportunities of sustainable cultural tourism, considering environmental, socio-cultural, and economic aspects.
   ![Macro Topics and all Themes Identified by the ReinHerit Project](https://ucarecdn.com/1215b200-31d2-479a-a354-9188599c52c2/ "Macro Topics and all Themes Identified by the ReinHerit Project")
 
 > *Macro Topics and all Themes Identified by the ReinHerit Project*
