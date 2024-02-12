@@ -11,7 +11,7 @@ desc: European Heritage Label (EHL) sites bring to life the European narrative
   for their symbolic value, the role they have played in European history and
   activities they offer. These sites bring the European Union and its citizens
   closer together.
-date: 2024-01-24T14:07:48.282Z
+date: 2024-01-29T14:07:48.282Z
 target-audience:
   - PROFESSIONAL
 theme: Management
