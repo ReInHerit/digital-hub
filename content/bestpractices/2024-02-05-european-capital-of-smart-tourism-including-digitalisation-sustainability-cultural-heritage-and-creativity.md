@@ -111,8 +111,9 @@ Pafos, is well served by the Pafos International airport, offers outstanding hot
 
 Pafos is currently reinvesting heavily in the region’s infrastructure, tourist products, services & experiences offered, tourism technology and environmental protection.
 
-Some of the most important best practice aspects towards Smart tourism , Smart destinations are:
--Enhancement of the old town Pafos with renovation of buildings, new pedestrian areas, installation of smart parking facilities, smart LED lighting, smart bus stops etc
+Some of the most important best practice aspects towards Smart tourism, Smart destinations are:
+
+\-Enhancement of the old town Pafos with renovation of buildings, new pedestrian areas, installation of smart parking facilities, smart LED lighting, smart bus stops etc
 -Continuous upgrades in Public transport by introducing low carbon public transport (electric minibus), provisions for e bikes and e cars like charging stations etc
 -Accessible tourism facilities at attractions such as braille signage, wheel chair friendly routes, e buggies and more
 -Continuous upgrades of Hotel establishments (rooms, public areas, spa, catering facilities etc) Introduction of renewable energy installations (photovoltaic), NO plastic policy, paper recycling, as well as water treatment/recycling facilities
@@ -132,13 +133,17 @@ Some of the most important best practice aspects towards Smart tourism , Smart d
 -During off season the destination offers on a weekly basis, free Walking guided tours “Meet the Locals”
 -Launch new cleanliness program, recycling programs, door to door pick up
 
-* “Pafos Smart Parking” is a solution of effective parking management. Citizens and visitors to the municipality of Pafos can be notified and identify free parking spots swiftly and precisely by utilising Internet of Things (IoT) and Mobile Communications (Smartphones) technology.
-  -Intangible heritage-Phytiotiko weaving. As a first successful step, all participating partners have managed to register the Phyti embroideries in the ICH of Cyprus. The second phase is presently underway, with the goal of standardising the techniques for this specific weaving and moving on with the preparation of the application for the ICA’s world heritage list.
-  -European Cultural Route: "In the footsteps of St Paul, the Apostle of nations”. The region of Central Macedonia in Greece, the Lazio region in Italy, the Pafos Regional Board of Tourism in association with the Municipality of Pafos in Cyprus, and the European Cultural Tourism Network based in Brussels, Belgium, have agreed to form a European Grouping of Territorial Cooperation (EGTC) that develops, implements, manages, promotes, and supports the European Cultural Route: “In the footsteps of St Paul, the Apostle of nations,” .The above founding members of this EGTC have signed a memorandum of understanding and cooperation in which they have pledged to collaborate on the development, implementation, management, promotion, and support of the transnational cultural route for final accreditation by the Council of Europe.
-  -Pafos Aphrodite Festival. The festival encourages cultural tourism by promoting the intangible heritage of opera and related CCIs. Pafos Aphrodite Festival has celebrated 20 years of success.
-  -Creative destination-awards. Pafos was awarded the best creative destination award in 2016 and the ‘Best Strategy in Creative Tourism Development 2020’, by the Creative Tourism Network (CTN).
-  -Innovative & creative private and public offerings.  The Municipality of Pafos has established the KHAN, an artist space where local and visiting artists can exhibit their work. Private funding has also been provided, resulting in Pafos Creative Tourism uncovering hidden Cyprus for arts, handicrafts, and traditional products.
-  Pafos has gained the title of the European Capital of Smart Tourism  2023 because has a plan, commitment of residents, local authorities and stakeholders, resources and willingness to change things for a Smarter Pafos, thus for a better and a Smarter Europe.
+\-“Pafos Smart Parking” is a solution of effective parking management. Citizens and visitors to the municipality of Pafos can be notified and identify free parking spots swiftly and precisely by utilising Internet of Things (IoT) and Mobile Communications (Smartphones) technology.
+
+\-Intangible heritage-Phytiotiko weaving. As a first successful step, all participating partners have managed to register the Phyti embroideries in the ICH of Cyprus. The second phase is presently underway, with the goal of standardising the techniques for this specific weaving and moving on with the preparation of the application for the ICA’s world heritage list.
+
+\-European Cultural Route: "In the footsteps of St Paul, the Apostle of nations”. The region of Central Macedonia in Greece, the Lazio region in Italy, the Pafos Regional Board of Tourism in association with the Municipality of Pafos in Cyprus, and the European Cultural Tourism Network based in Brussels, Belgium, have agreed to form a European Grouping of Territorial Cooperation (EGTC) that develops, implements, manages, promotes, and supports the European Cultural Route: “In the footsteps of St Paul, the Apostle of nations,” .The above founding members of this EGTC have signed a memorandum of understanding and cooperation in which they have pledged to collaborate on the development, implementation, management, promotion, and support of the transnational cultural route for final accreditation by the Council of Europe.
+
+\-Pafos Aphrodite Festival. The festival encourages cultural tourism by promoting the intangible heritage of opera and related CCIs. Pafos Aphrodite Festival has celebrated 20 years of success.
+-Creative destination-awards. Pafos was awarded the best creative destination award in 2016 and the ‘Best Strategy in Creative Tourism Development 2020’, by the Creative Tourism Network (CTN).
+-Innovative & creative private and public offerings.  The Municipality of Pafos has established the KHAN, an artist space where local and visiting artists can exhibit their work. Private funding has also been provided, resulting in Pafos Creative Tourism uncovering hidden Cyprus for arts, handicrafts, and traditional products.
+
+Pafos has gained the title of the European Capital of Smart Tourism  2023 because has a plan, commitment of residents, local authorities and stakeholders, resources and willingness to change things for a Smarter Pafos, thus for a better and a Smarter Europe. 
 
 `youtube: https://www.youtube.com/watch?v=BrFX_m_AlqE&list=PLdz9RTpENJgM-oCVBsgHOOCXXofmBu2BQ&index=7`
 
@@ -148,8 +153,7 @@ The selection was made by a jury composed by representatives of EU institutions 
 \
 ​The announcement was made in Brussels today, following presentations of all finalists to the Jury and the decision of the Jury. In breaking the news, a member of the Jury stated:\
 \
-*"Pafos is a city full of initiatives, has become a smart leader, thanks to your forward looking approach, so well done for that! We were particularly impressed by the commitment to meeting ambitious sustainability objectives, with constant monitoring at the same time and a strategy retune in place. And we were also pleased with you realizing your plan to work together with previous winners of this competition.\
-You had a series of successes! You were a capital in ancient times, a former European Capital of Culture and now on top of this, well done, a 2023 European Capital of Smart Tourism, well done again!"*\
+*"Pafos is a city full of initiatives, has become a smart leader, thanks to your forward looking approach, so well done for that! We were particularly impressed by the commitment to meeting ambitious sustainability objectives, with constant monitoring at the same time and a strategy retune in place. And we were also pleased with you realizing your plan to work together with previous winners of this competition. You had a series of successes! You were a capital in ancient times, a former European Capital of Culture and now on top of this, well done, a 2023 European Capital of Smart Tourism, well done again!"*\
 \
 This is the first time that a tourist destination in Cyprus wins this contest. Pafos and Seville are the two Capitals of Smart Tourism for 2023, selected amongst seven finalists. The finalists had been selected by a panel of independent experts with specialist knowledge covering each award category (accessibility, sustainability, digitalisation, cultural heritage and creativity), who evaluated all submitted applications. This is the first time that a tourist destination in Cyprus wins this contest.\
 \
@@ -159,17 +163,17 @@ Coming with the title of 2023 European Capital of Smart Tourism, communication a
 \
 ​**Smart tourism**, according to the European Commission's definition, responds to new challenges and demands in a fast-changing sector, including the evolution of digital tools, products and services; equal opportunity and access for all visitors; sustainable development of the local area; and support to creative industries, local talent and heritage.\
 \
-ECTN has supported this EU initiative from the outset and the candidature of Pafos. For 2024, two other ECTN members, Cork and Bremerhaven have been selected as finalists.
+ECTN has supported this EU initiative from the outset and the candidature of Pafos.
 
-###### Transforming quantity into quality with innovation and creativity
+##### Transforming quantity into quality with innovation and creativity
 
 Pafos is one of the most popular tourist destinations in Cyprus and it attracts most of the visitors coming to the island. The whole city is included in the UNESCO world heritage list and people can discover important places of interest, such as the UNESCO Archaeological Park of Kato Pafos, the Medieval Castle by the ancient harbour, the Old Town, among others. This rich area attracts then over 550,000 international visitors with an average duration of stay of 8 days, has the capacity of 12,000 license tourist beds and it is estimated that the tourism industry within the city of Pafos employs around 14,000 people. The city is currently investing heavily in the region’s infrastructures, tourist products, services and experiences offered, tourism technology and environmental protection. Pafos has transformed from a traditional mass sun-and-sea tourism hotspot into a modern and innovative tourism destination.
 
-###### Where myth meets technology
+##### Where myth meets technology
 
 Pafos is at the heart of the myth of Aphrodite, with the beach of her birthplace. The city then offers a new experience to visitors with the possibility – coming soon – to download the Myth of Aphrodite app for free, after the success of the pilot project using AR (Augmented Reality). Users will be able to scan relevant photos of Aphrodite in three different places on the beach, to enjoy Aphrodite in a real environment through their smart devices. The scenes include the mythical goddess emerging from the foam of the sea, sitting on a rock, and reading a book on the beach. Users can then interact, and find information on the app, with locations and description. Culture lovers or explorers, all can download the app and enjoy it.
 
-###### Pafos Aphrodite Festival – Opera in a UNESCO city
+##### Pafos Aphrodite Festival – Opera in a UNESCO city
 
 Since 1999, the Pafos Aphrodite Festival has taken place in the city in early September. It promotes the intangible heritage of opera and has been established as a cultural event of international recognition with high preconditions for artistic performances and administrative efficiency. Every year, there is great interest from an international audience of holidaymakers and visitors, with 3-day performances, and it always goes sold-out. With the imposing Medieval Castle of Pafos and the sea as a backdrop, the event attracts sponsors, who support it. This event has been successfully attracting cultural tourism for 20 years.
 
