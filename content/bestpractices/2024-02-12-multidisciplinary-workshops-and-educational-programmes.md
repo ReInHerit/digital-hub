@@ -12,7 +12,7 @@ desc: "The Bank of Cyprus Cultural Foundation embraces a multidisciplinary
   better and fairer society) and collaborations with other institutions, one of
   the BOCCF’s main objectives is to offer a holistic educational journey for
   people of all ages. "
-date: 2024-02-09T11:34:03.948Z
+date: 2024-02-07T11:34:03.948Z
 target-audience:
   - PROFESSIONAL
   - VISITOR
