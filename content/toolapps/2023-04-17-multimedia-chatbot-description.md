@@ -33,6 +33,6 @@ Try the **Demo of VIOLA Multimedia Chatbot** at this link:\
 
 ![VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork](https://ucarecdn.com/6adfc128-9bc3-4005-b996-aba3869bc16f/ "VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork")
 
-`youtube: https://youtu.be/BjstSqyxbOg`
-
 `youtube: https://youtu.be/lVeM2oazqvA?si=CF5jnZ9Z93grxGbS`
+
+`youtube: https://youtu.be/BjstSqyxbOg`
