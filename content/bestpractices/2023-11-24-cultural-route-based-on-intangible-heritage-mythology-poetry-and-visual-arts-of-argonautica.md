@@ -36,7 +36,10 @@ successbestpractice: The ‘Return of the Argonauts’ Candidate Cultural Route 
   has been a lot of interest from several countries. The result is an innovative
   Cultural Route Network that develops sustainable cultural tourism based on
   intangible heritage, as a candidate for certification by the Council of
-  Europe.
+  Europe. This project received the 3rd prize in the ECTN Awards 'Destination of
+  Sustainable Cultural Tourism 2019', in the category 'Transnational Thematic
+  Tourism Products', by a joint jury with Europa Nostra and European Travel
+  Commission.
 challengesbestpractice: "There are several alternative versions of the return
   journey, such as by: Apollonius Rhodius Argonautica, Orphic Argonautica,
   Pindar, Herodotus of Heraclea, Hecataeus of Miletus, Timaeus, Judith Bacon,
