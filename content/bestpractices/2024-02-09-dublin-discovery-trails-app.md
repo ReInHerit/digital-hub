@@ -12,7 +12,7 @@ desc: Dublin City Council (DCC) launched Dublin Discovery Trails – ‘Doors in
   Fáilte Ireland, is an innovative way to see the history of the Docklands come
   to life through Augmented Reality which combines the real-world history with
   smart technology.
-date: 2024-02-08T13:59:45.094Z
+date: 2024-02-09T13:59:45.094Z
 target-audience:
   - PROFESSIONAL
   - VISITOR
