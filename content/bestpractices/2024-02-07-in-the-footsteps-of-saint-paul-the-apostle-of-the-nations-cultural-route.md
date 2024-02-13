@@ -110,4 +110,4 @@ In both the Acts and Apostle Paul’s 14 epistles there are several references o
 
 `youtube: https://www.youtube.com/watch?v=mqCWRdCLX5c`
 
-![](https://ucarecdn.com/bdaa1bf7-f3ae-4db8-b608-068c1e5103a6/)
+![](https://ucarecdn.com/bdaa1bf7-f3ae-4db8-b608-068c1e5103a6/ "This project received the joint 1st prize in the ECTN Awards 'Destination of Sustainable Cultural Tourism 2022', in the category 'Transnational Thematic Tourism Products', by a joint jury with Europa Nostra and European Travel Commission also in the framework of ReInHerit Horizon 2020 CSA.")
