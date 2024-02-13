@@ -148,7 +148,6 @@ in line with the trend of the world’s central banks and museums it provides ex
 Visitors’ experience - innovations
 If anyone should be intimidated by the modern spectacle of the exhibition due to the many digital “gadgets” in the exhibition, we are happy to reassure everyone that no prior special training or additional knowledge of IT or finance is required, just a natural curiosity and openness to the subject, so the exhibition is accessible for everyone.
 
-
 To be able to achieve our ambitious goal of engaging the widest strata of the public, and enhance visitors’ experience in all possible ways, visitors need to be amazed from the first moment they enter the museum due to a series of surprises that start to unfold:
 
 * There are two robots moving around in the lobby, welcoming visitors and giving information about the museum. 
@@ -200,3 +199,5 @@ We are also present at student-centric events, such as:
 ![](https://ucarecdn.com/f10c2cca-63fc-4bd8-9730-f7e9be38eaaa/)
 
 ![](https://ucarecdn.com/14e71112-320c-4293-b9da-4d2e751f95c3/)
+
+![](https://ucarecdn.com/c2b853b8-265e-447a-a44d-16174050707e/)
