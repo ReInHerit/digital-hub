@@ -12,7 +12,7 @@ desc: "The Hungarian Money Museum was established by the Central Bank of Hungary
   its members, which is essential in individual, family, and community life. So,
   we believe that financial knowledge can make our whole society richer, both
   literally and metaphorically."
-date: 2024-02-08T14:41:09.054Z
+date: 2024-02-07T14:41:09.054Z
 target-audience:
   - PROFESSIONAL
 theme: Technology
