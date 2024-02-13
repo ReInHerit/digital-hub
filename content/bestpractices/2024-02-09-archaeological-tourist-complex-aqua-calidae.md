@@ -73,3 +73,5 @@ A new museum exposition and an active replica of a Roman bath have been built in
 ![](https://ucarecdn.com/ed6b3350-d112-4de9-9e43-c7e8359dfbba/)
 
 ![](https://ucarecdn.com/dac5d260-9f69-4c39-9bc0-e9e204f00952/)
+
+![](https://ucarecdn.com/922350d0-e0f1-4d35-9393-0262269fe3a0/)
