@@ -25,7 +25,8 @@ thumbnail: https://ucarecdn.com/f9be7f49-961a-4780-8168-b48d24cebd0e/
 formtypbestpractice: Smart Tourism - Smart Destinations
 orgbestpractice: Pafos Regional Board of Tourism
 locationbestpractice: Pafos, Cyprus
-timebestpractice: June 2022 - December 2023
+timebestpractice: "June 2022 - December 2023, Main actions started January 2019,
+  completed October 2023+ "
 resourcesbestpractice: All involved stakeholders including local authorities,
   tourism related union and association, the state all contributed for the
   implementation of the actions. Key players though was the Pafos municipality
@@ -160,20 +161,16 @@ Coming with the title of 2023 European Capital of Smart Tourism, communication a
 \
 ECTN has supported this EU initiative from the outset and the candidature of Pafos. For 2024, two other ECTN members, Cork and Bremerhaven have been selected as finalists.
 
-
-
 ###### Transforming quantity into quality with innovation and creativity
 
 Pafos is one of the most popular tourist destinations in Cyprus and it attracts most of the visitors coming to the island. The whole city is included in the UNESCO world heritage list and people can discover important places of interest, such as the UNESCO Archaeological Park of Kato Pafos, the Medieval Castle by the ancient harbour, the Old Town, among others. This rich area attracts then over 550,000 international visitors with an average duration of stay of 8 days, has the capacity of 12,000 license tourist beds and it is estimated that the tourism industry within the city of Pafos employs around 14,000 people. The city is currently investing heavily in the region’s infrastructures, tourist products, services and experiences offered, tourism technology and environmental protection. Pafos has transformed from a traditional mass sun-and-sea tourism hotspot into a modern and innovative tourism destination.
-
-
 
 ###### Where myth meets technology
 
 Pafos is at the heart of the myth of Aphrodite, with the beach of her birthplace. The city then offers a new experience to visitors with the possibility – coming soon – to download the Myth of Aphrodite app for free, after the success of the pilot project using AR (Augmented Reality). Users will be able to scan relevant photos of Aphrodite in three different places on the beach, to enjoy Aphrodite in a real environment through their smart devices. The scenes include the mythical goddess emerging from the foam of the sea, sitting on a rock, and reading a book on the beach. Users can then interact, and find information on the app, with locations and description. Culture lovers or explorers, all can download the app and enjoy it.
 
-
-
 ###### Pafos Aphrodite Festival – Opera in a UNESCO city
 
 Since 1999, the Pafos Aphrodite Festival has taken place in the city in early September. It promotes the intangible heritage of opera and has been established as a cultural event of international recognition with high preconditions for artistic performances and administrative efficiency. Every year, there is great interest from an international audience of holidaymakers and visitors, with 3-day performances, and it always goes sold-out. With the imposing Medieval Castle of Pafos and the sea as a backdrop, the event attracts sponsors, who support it. This event has been successfully attracting cultural tourism for 20 years.
+
+![](https://ucarecdn.com/a41f6d2e-c5e9-4ff6-9524-c588b0b18a5b/)
