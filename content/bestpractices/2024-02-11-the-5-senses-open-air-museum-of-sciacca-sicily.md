@@ -11,7 +11,7 @@ desc: "The 5 Senses Open-air Museum of Sciacca in Sicily, Italy was born from an
   windows are the showcases through which our land true treasure can be
   discovered: the people and their identity. Our foods’ flavours, our lands’
   colours, our voices’ sounds, our hands’ works, our fruits’ perfume."
-date: 2024-02-11T13:57:57.479Z
+date: 2024-02-09T13:57:57.479Z
 target-audience:
   - PROFESSIONAL
   - VISITOR
