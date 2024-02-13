@@ -6,7 +6,7 @@ title: Game of TraCEs web app mapping European Capital of Culture offer of
   tourism experiences born in cooperation with Creative and Cultural Industries
 desc: Game of TraCEs is an web app mapping European Capital of Culture offer of
   tourism experiences born in cooperation with Creative and Cultural Industries.
-date: 2024-02-13T15:10:33.340Z
+date: 2023-11-13T13:10:33.340Z
 target-audience:
   - PROFESSIONAL
 theme: Technology
