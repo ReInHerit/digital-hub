@@ -52,7 +52,7 @@ challengesbestpractice: "Environmental impact: environmental protection has also
   part of the tourist offer (the Marevivo Oasis  in Eraclea Minoa) o
   accommodations are progressively replacing single use soaps with local bio
   liquid  soap, produced with olive oil and orange blossoms from the territory."
-transferbestpractice: Great
+transferbestpractice: "Great potential for transfer "
 infosbestpractice: "- Town re-generation project involving the whole
   neighborhood who takes care of the plants: o Before:
   https://drive.google.com/file/d/1O6xtlrLRDXW9A7TXs_Qgiiro803cws4r/view?usp=sh\
@@ -68,7 +68,9 @@ infosbestpractice: "- Town re-generation project involving the whole
 urlsbestpractice: https://www.sciacca5sensi.it
 keywordsbestpractice: "museum, cultural heritage "
 ---
-The 5 Senses Open-air Museum of Sciacca in Sicily (Italy) is a project aimed at creating a collaborative network engaging local communities and public administrations to make the historic city and its surroundings an unforgettable cultural tourism experience, relying on Sciacca’s uniqueness: people and the “beautiness” of the place where they live. During this period with millions of jobs at risk because of the pandemic crisis covid19, especially in the tourism sector, the 5 Senses Open-air Museum turns out to offer a governance model which can strongly help communities recover from the crisis both socially and economically, in a sustainable and responsible way. Small shops, craftsmen, accommodations, local products restaurants, institutions, work together in Sciacca to develop the territory and connecting it with buyers, consumers and influencers alike in the cultural heritage and tourism industries to generate value added markets centred on authentic cultural experience and local identity. This inclusive and bottom-up tourism innovation project has been implemented in only 2 years, generating a community network with more than 50 engagement agreements signed with all the trade categories, public institutions and volunteers’ associations, over 18 “care of hospitality” specifications signed with the accommodations, as many bar, restaurants, craftsman involved and over 50 experiences ready for tourists. 
+The 5 Senses Open-air Museum of Sciacca in Sicily (Italy) is a project aimed at creating a collaborative network engaging local communities and public administrations to make the historic city and its surroundings an unforgettable cultural tourism experience, relying on Sciacca’s uniqueness: people and the “beautiness” of the place where they live. During this period with millions of jobs at risk because of the pandemic crisis covid19, especially in the tourism sector, the 5 Senses Open-air Museum turns out to offer a governance model which can strongly help communities recover from the crisis both socially and economically, in a sustainable and responsible way. Small shops, craftsmen, accommodations, local products restaurants, institutions, work together in Sciacca to develop the territory and connecting it with buyers, consumers and influencers alike in the cultural heritage and tourism industries to generate value added markets centred on authentic cultural experience and local identity. This inclusive and bottom-up tourism innovation project has been implemented in only 2 years, generating a community network with more than 50 engagement agreements signed with all the trade categories, public institutions and volunteers’ associations, over 18 “care of hospitality” specifications signed with the accommodations, as many bar, restaurants, craftsman involved and over 50 experiences ready for tourists.
+
+![](https://ucarecdn.com/831f1334-f215-425f-b504-d8a4fc6d4850/)
 
 A big community engaged to build its future. This is done through an innovative, inclusive and responsible GOVERNANCE that: 
 
@@ -88,7 +90,11 @@ The Method implemented is a 3-phase process which guides communities from awaren
 
 • COMPETENCE in transforming resources into social, cultural, environmental, economic, human value;
 
- • CONNECTIONS in the territories, so essential today, to create synergies for a development that will last over time Our Vision is a community engaged in a sustainable and responsible development of its territory. An engaged-community is able to guarantee viable long-term economic operations, providing socioeconomic benefits to all stakeholders that are fairly distributed, including stable employment and income-earning opportunities, and contributing to equality and poverty alleviation. 
+ • CONNECTIONS in the territories, so essential today, to create synergies for a development that will last over time Our Vision is a community engaged in a sustainable and responsible development of its territory. An engaged-community is able to guarantee viable long-term economic operations, providing socioeconomic benefits to all stakeholders that are fairly distributed, including stable employment and income-earning opportunities, and contributing to equality and poverty alleviation.
+
+![](https://ucarecdn.com/cc35105a-157b-4ff0-8539-fc7009c5a124/)
+
+ 
 
 Our Mission is to guide communities to move from a condition of fragmentation and limited integration between supply and demand in tourist and cultural services to a cooperative, participated and inclusive network ecosystem. The overall outcome is that the whole community grows and develops in a horizontal, sustainable, responsible, and circular way. 
 
@@ -105,6 +111,8 @@ A) Respect for the environment as a fundamental strategic resource that must las
 B) Controlled use of the land’s products by respectful tourism 
 
 C) Ethics and profit are no longer in conflict and we can combine humans and nature’s needs in a harmonious way, guaranteeing long-term economic sustainability for the whole community. 
+
+![](https://ucarecdn.com/8053fed8-c28a-4960-9547-8ef26708024d/)
 
 The project innovative part is both about process and tools. From a process point of view, the project aims to foster a successful tourism innovation and entrepreneurial ecosystem by connecting all stakeholders, the “engaged community”, to collaboration opportunities and prioritizing capacity building in tourism and cultural services. In order to achieve this strategic target, we have developed: - an innovative Governance Model for the actions and resource management and control; templates and disciplinary agreements to help the community be engaged and get higher quality standards; - an innovative tool called the Identity Business Model Canvas (IBMC) to facilitate the collaborative action among the different categories and to enable the creation of a Business Model whose stakeholders are not the members of a single company but the citizens of an entire community and which Core Business is the Storytelling of the historical/artistic/cultural heritage of the area.
 
