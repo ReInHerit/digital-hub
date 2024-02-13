@@ -29,21 +29,24 @@ orgbestpractice: Via Mariae Association
 locationbestpractice: Harghta County Council, Romania
 timebestpractice: 2016-2020
 resourcesbestpractice: Training for guides and hosts Maintaining anddeveloping
-  the road Maps and brochures
+  the road Maps and brochures.
 successbestpractice: "Number of participants: On the Road 1day pilgrimage
   (connecting shrines from Austria, Hungary and Romania): 2500  Rosary
   pilgrimage: 200  Thematic pilgrimage: 50 Registered participants/year:
   Pentecostal 40 days pilgrimage from Budapest to Șumuleu Ciuc (Csíksomlyó):
   100  individual pilgrims: 50 Last 100 km pilgrimage: 60  Horseback pilgrimage:
   140  Bicycle: 150  Marathon of Holy Mary: 50  Sacred Marathon: 350  New guides
-  and volunteers: 30"
+  and volunteers: 30. This project received the 2nd Prize in the ECTN Awards
+  'Destination of Sustainable Cultural Tourism 2023', in the category
+  'Spiritual, Religious and Pilgrimage Tourism', by a joint jury with Europa
+  Nostra and European Travel Commission."
 challengesbestpractice: Clear understanding from the local authorities, the real
   benefit from the pilgrims expenditures for local community.
 transferbestpractice: Communication strategy for local community, adopted local
   tourism products to develop and promote the the route, promotional materials
   to engage the pilgrims to move forward, Organizing pilgrimage for groups
   Cooperation with local stakeholders (land owners, mountain rescue teams, local
-  authorities, churches) Revitalizing local traditional activities.
+  authorities, churches). Revitalizing local traditional activities.
 infosbestpractice: The main Via Mariae routes start from Mariazell in Austria
   and go to Şumuleu Ciuc. They do not end here, they cross the Eastern
   Carpathians and continue in Bucovina and Moldova. The terminal points at the
@@ -62,10 +65,20 @@ infosbestpractice: The main Via Mariae routes start from Mariazell in Austria
   Circuits can also be made. It is good to choose the optimal option depending
   on interest, physical condition, time available.
 urlsbestpractice: https://viamariaecj.ro/2020/11/13/sfaturi-practice-pentru-drumeti/
-keywordsbestpractice: "pilgrimage, local community, cultural heritage, Cultural Heritage Management "
+keywordsbestpractice: pilgrimage, local community, cultural heritage, cultural
+  heritage management, sustainable cultural tourism
 ---
-Via Mariae – the last 100 km was built in a partnership by Harghita County Council, Transylvanian Way of Mary Organization, Harghita Community Development Association, local municipalities and associations. The 6,500 euro project (building of the routes, pilgrimage insignias, certificates and passports, promotional materials, event organization etc.) budget was funded by partners. The 100 kilometres pilgrimage route is available on foot, bicycle and horse. Pilgrims can experience a lifelong adventure with the possibility of learning about local history and attractions, and also which will help them not only to get closer to the environment but to prove their own physical and mental perseverance. The www.100km.mariaut.ro website contributes to a calm and meaningful pilgrimage, including accommodations, attractions, shops, cafes, pharmacies, health centers, police stations, and other important locations. Local contacts are available in each settlement to support pilgrims.
-This road addresses everyone, it calls everyone. They are waiting for those who, regardless of nationality, religion, want to be pilgrims for religious, spiritual, self-knowledge purposes and they are also waiting for those who want to step on this road for now only for touristic or sports purposes. This road will be a bridge between nations, religions, people, connecting the west to the east, thus becoming the Road Connecting the Nations of Central and Eastern Europe, the "Road of Reconciliation", which in the future can become a European cultural road.
+Via Mariae – the last 100 km was built in a partnership by Harghita County Council, Transylvanian Way of Mary Organization, Harghita Community Development Association, local municipalities and associations. 
+
+The 6,500 euro project (building of the routes, pilgrimage insignias, certificates and passports, promotional materials, event organization etc.) budget was funded by partners. The 100 kilometres pilgrimage route is available on foot, bicycle and horse. Pilgrims can experience a lifelong adventure with the possibility of learning about local history and attractions, and also which will help them not only to get closer to the environment but to prove their own physical and mental perseverance. 
+
+The www.100km.mariaut.ro website contributes to a calm and meaningful pilgrimage, including accommodations, attractions, shops, cafes, pharmacies, health centers, police stations, and other important locations. Local contacts are available in each settlement to support pilgrims.
+This road addresses everyone, it calls everyone. 
+
+They are waiting for those who, regardless of nationality, religion, want to be pilgrims for religious, spiritual, self-knowledge purposes and they are also waiting for those who want to step on this road for now only for touristic or sports purposes. This road will be a bridge between nations, religions, people, connecting the west to the east, thus becoming the Road Connecting the Nations of Central and Eastern Europe, the "Road of Reconciliation", which in the future can become a European cultural road.
+
 The road is divided  in 7 sections, each section is described according with all information that it is needed.
 
 ![](https://ucarecdn.com/066b5fac-50a3-4353-9858-ae35cb8dafd8/)
+
+![](https://ucarecdn.com/0a1a4cd9-ab47-4c27-bbc9-001d18d753ba/ "This project received the 2nd Prize in the ECTN Awards 'Destination of Sustainable Cultural Tourism 2023', in the category 'Spiritual, Religious and Pilgrimage Tourism', by a joint jury with Europa Nostra and European Travel Commission.")
