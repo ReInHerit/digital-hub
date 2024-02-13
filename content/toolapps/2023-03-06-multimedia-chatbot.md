@@ -82,11 +82,11 @@ In addition to this first type of chatbot system, following the emergence and su
 
 **A first Alpha version of the VIOLA Multimedia Chatbot** has been created by importing a dataset called [Artpedia](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=35) that includes numerous images and descriptions and is commonly used in the computer vision community to test Visual Question Answering (VQA) systems.  This version was only an Alpha phase of demonstration testing with a large gallery of images.  To resolve ethical issues related to the data accuracy.  
 
-`youtube: https://youtu.be/BjstSqyxbOg?si=9a1dpGt6Mc2uf3jb`
+`youtube: https://youtu.be/BjstSqyxbOg?si=vWhda_wdZyITDDkO`
 
-**A new version of the multimedia chatbot VIOL**A has been implemented. The number of images are significantly reduced to show only a gallery of images related to a limited selection of artworks provided by the Museums involved in the ReinHerit Project (Graz Museum, Cycladic Museum, Bank of Cyprus Foundation). Museum curators and experts from the ReInHerit Consortium have provided quality content on some of the artworks in these museums. The related data helped validate the chatbot results, ensuring that the system's responses are in line with scientific accuracy. A final backend interface was developed for museum curators, where they can add and edit artwork data, including with the ability to upload code via a JSON file. 
+**A new version of the multimedia chatbot VIOLA** has been implemented. The number of images are significantly reduced to show only a gallery of images related to a limited selection of artworks provided by the Museums involved in the ReinHerit Project (Graz Museum, Cycladic Museum, Bank of Cyprus Foundation). Museum curators and experts from the ReInHerit Consortium have provided quality content on some of the artworks in these museums. The related data helped validate the chatbot results, ensuring that the system's responses are in line with scientific accuracy. A final backend interface was developed for museum curators, where they can add and edit artwork data, including with the ability to upload code via a JSON file. 
 
-`youtube: https://youtu.be/lVeM2oazqvA?si=Ndyy4apClAiJ1xaD`
+`youtube: https://youtu.be/lVeM2oazqvA?si=CF5jnZ9Z93grxGbS`
 
 **The chatbot works this way**: the questions of the users are encapsulated within a set of instructions that force the chatbot to answer only using the quality content about the artwork. This solution will seek to avoid errors by relying on quality content provided by curators, through the development of appropriate prompts capable of directing responses to the validated dataset collected. The more the textual description the better the chatbot will answer the questions of the users.
 
