@@ -70,3 +70,5 @@ Review and Learnings:
 During the development of Dublin Discovery Trails we launched the first ever Digital Trails Toolkit (attached), so that others could learn from our experience.
 
 `youtube: https://www.youtube.com/watch?v=ssTZ6cqjT0Y`
+
+![](https://ucarecdn.com/52f7f9aa-a2e1-4942-9eea-c29ea0a46d66/ "This project received the 2nd prize in the ECTN Awards 'Destination of Sustainable Cultural Tourism 2023' Digitalisation category, also in the framework of ReInHerit Horozon 2020 CSA, joint jury with Europa Nostra and European Travel Commission.")
