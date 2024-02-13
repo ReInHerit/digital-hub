@@ -3,7 +3,7 @@ pageId: a791a8d9-1ed0-4b94-9525-cc38a28a1665
 layout: blog
 type: bestpractice
 title: "Cultural Route development based on Intangible Heritage: Mythology,
-  Poetry and Visual Arts of 'Argonautica'"
+  Poetry, Performing and Visual Arts of 'Argonautica'"
 desc: "A European Cultural Route of the Argonautica, based on intangible
   heritage of mythology, traditions, ancient theatre, poetry and literature, as
   well as visual and performing arts in several countries along the Argonautica
