@@ -200,4 +200,4 @@ We are also present at student-centric events, such as:
 
 ![](https://ucarecdn.com/14e71112-320c-4293-b9da-4d2e751f95c3/)
 
-![](https://ucarecdn.com/c2b853b8-265e-447a-a44d-16174050707e/ "This project received the 3rd prize in the ECTN Awards 'Destination of Sustainable Cultural Tourism 2023', in the category 'Digitalisation advances and digital transition in Sustainable Cultural Tourism', by a joint jury with Europa Nostra and European Travel Commission.")
+![](https://ucarecdn.com/c2b853b8-265e-447a-a44d-16174050707e/ "This project received the 3rd prize in the ECTN Awards 'Destination of Sustainable Cultural Tourism 2023', in the category 'Digitalisation advances and digital transition in Sustainable Cultural Tourism', by a joint jury with Europa Nostra and European Travel Commission also in the framework of ReInHerit Horizon 2020 CSA.")
