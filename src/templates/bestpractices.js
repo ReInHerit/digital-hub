@@ -6,7 +6,6 @@ import SideMainLayout from "../components/shared/Layout/SideMainLayout"
 import BaseLayout from "../components/static/BaseLayout"
 import MainHeading from "../components/static/MainHeading"
 
-
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
@@ -55,6 +54,11 @@ y      breadCrumb={[
                 <br />
                 <div>
                 </div>
+{/*
+                <div>
+                <a style={{borderRadius:0}} href="/bppdf/..." download="bestpractice_pdf" className="btn btn-info border-radius-0" target="_blank" rel="noreferrer">Download PDF</a>
+            </div>
+            */}
               </div>
             }
           >
@@ -63,61 +67,61 @@ y      breadCrumb={[
               <div><i>{frontmatter.desc}</i></div>
               <br />
               <div>
-                  <i>Organisation in charge of best practice</i>
+                  <b>Organisation in charge of best practice</b>
                 </div>
                 <div>{frontmatter.orgbestpractice}</div>
                 <br />
               <div>
-                  <i>Location</i>
+                  <b>Location</b>
                 </div>
                 <div>{frontmatter.locationbestpractice}</div>
                 <br />
                 <div>
-                  <i>Dates</i>
+                  <b>Dates</b>
                 </div>
                 <div>{frontmatter.timebestpractice}</div>
                 <br />
-                <div><i>Description</i></div>            
+                <div><b>Description</b></div>            
               <div
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
               <div>
-                  <i>Links</i>
+                  <b>Links</b>
               </div>
-              <div>{frontmatter.urlsbestpractice}</div>
+              <div><a href={`${frontmatter.urlsbestpractice}`} target="_blank">{frontmatter.urlsbestpractice}</a></div>
               <br />
               <div>
-                  <i>Resources needed</i>
+                  <b>Resources needed</b>
               </div>
               <div>{frontmatter.resourcesbestpractice}</div>
               <br />
               <div>
-                  <i>Challenges encountered</i>
+                  <b>Challenges encountered</b>
               </div>
               <div>{frontmatter.challengesbestpractice}</div>
               <br />
               <div>
-                  <i>Evidence of success</i>
+                  <b>Evidence of success</b>
               </div>
               <div>{frontmatter.successbestpractice}</div>
               <br />
               <div>
-                  <i>Potential for transfer</i>
+                  <b>Potential for transfer</b>
               </div>
               <div>{frontmatter.transferbestpractice}</div>
               <br />
               <div>
-                  <i>Further Information</i>
+                  <b>Further Information</b>
               </div>
               <div>{frontmatter.infosbestpractice}</div>
               <br />
               {/* <div>
-                  <i>Videos</i>
+                  <b>Videos</b>
               </div>
               <div>{frontmatter.videosbestpractice}</div>
           <br /> */}
-
+           
         </Container>
           </SideMainLayout>
         </div>
