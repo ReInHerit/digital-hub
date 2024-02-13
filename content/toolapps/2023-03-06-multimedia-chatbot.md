@@ -19,6 +19,26 @@ chatApps: https://reinherit.zulipchat.com/#narrow/stream/392282-ReInHerit-Applic
 ---
 **Multimedia Chatbot**  is a **web application** that can be integrated within a museum website or as a mobile web site, and provides an **interaction based on natural language processing and chat**. Users can either type their questions or interact with speech that is then translated to text. This **web-based application** implements a **chatbot** **system** that can answer questions about **visual content** of artworks or about their **context**, e.g. about the author and history of the artwork. The design of this application is motivated by the recent huge interest in chat-based interaction that has been popularized, for example, by ChatGPT.
 
+**Examples of the interface of the multimedia chatbot** are shown in the following Images.
+
+![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/e5541477-fcb5-4333-9361-e612c629fc57/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
+
+![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/d62ead48-95c6-4d4b-96d9-1c5d1d68805e/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
+
+> *VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork*
+
+![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/e2b58a76-85c9-4892-8c51-ec1e044b2bad/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
+
+> *VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork*
+
+ The content used by the chatbot is  provided by curators using a specific **ADMIN interface.**
+
+![VIOLA multimedia chatbot: ADMIN Interface for curators](https://ucarecdn.com/57de6711-8598-4307-822c-00bd8fcc4e84/ "VIOLA multimedia chatbot: ADMIN Interface for curators")
+
+*VIOLA multimedia chatbot: ADMIN Interface for curators*
+
+![VIOLA multimedia chatbot: ADMIN Interface for curators](https://ucarecdn.com/7aed416f-ad1a-468c-8d69-d7a33acd4891/ "VIOLA multimedia chatbot: ADMIN Interface for curators")
+
 The application **frontend** is based on **Javascript**, and the interface is based on a reactive design that adapts both to desktop web browsers, allowing to add this functionality to the existing websites of museums, or to a mobile application to provide a new type of smart guide. To ease this latter type of interaction, queries of the users can be performed using speech recognition, so to avoid typing long queries on the small keyboard of the device.
 
 The **backend** is implemented in **Python**, using **Flask** to provide the REST API to the **frontend**.
@@ -58,29 +78,17 @@ The following figures show some qualitative results obtained by the system, high
 
 >  *Multimedia chatbot: qualitative results of the question classifier, question answering network and visual question answering network.*
 
-In addition to this first type of chatbot system, following the emergence and success of neural networks based on **GPT architectures** and training, a second chatbot engine has been added to the backend, using a **GPT-based neural network**. A paper describing the use of this type of neural network has been published in a workshop dedicated to applications of AI and computer vision to cultural heritage in one of the foremost conferences on computer vision ([European Conference on Computer Vision 2022](https://eccv2022.ecva.net)) 
+In addition to this first type of chatbot system, following the emergence and success of neural networks based on **GPT architectures** and training, a second chatbot engine has been added to the backend, using a **GPT-based neural network**. A paper describing the use of this type of neural network has been published in a workshop dedicated to applications of AI and computer vision to cultural heritage in one of the foremost conferences on computer vision ([European Conference on Computer Vision 2022](https://eccv2022.ecva.net)) This second system allows to create longer answers compared to the first approach, thus creating a more natural interaction. To cope with the fact that **GPT-based system** tend to create texts that sound plausible only from a linguistic point of view, but that are not based on actual knowledge, the system has been designed using prompt-engineering techniques that force the neural network to adhere to the contextual and content-based information provided by the JSON files that contain actual details and information related to the artwork.
 
-This second system allows to create longer answers compared to the first approach, thus creating a more natural interaction. To cope with the fact that **GPT-based system** tend to create texts that sound plausible only from a linguistic point of view, but that are not based on actual knowledge, the system has been designed using prompt-engineering techniques that force the neural network to adhere to the contextual and content-based information provided by the JSON files that contain actual details and information related to the artwork.
+A first Alpha version of the VIOLA Multimedia Chatbot has been created by importing a dataset called [Artpedia](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=35) that includes numerous images and descriptions and is commonly used in the computer vision community to test Visual Question Answering (VQA) systems.  This version was only an Alpha phase of demonstration testing with a large gallery of images.  To resolve ethical issues related to the data accuracy.  
 
-**Examples of the interface of the multimedia chatbot** are shown in the following Images.
+`youtube: https://youtu.be/BjstSqyxbOg?si=9a1dpGt6Mc2uf3jb`
 
-![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/e5541477-fcb5-4333-9361-e612c629fc57/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
+A new version of the multimedia chatbot VIOLA has been implemented. The number of images are significantly reduced to show only a gallery of images related to a limited selection of artworks provided by the Museums involved in the ReinHerit Project (Graz Museum, Cycladic Museum, Bank of Cyprus Foundation). Museum curators and experts from the ReInHerit Consortium have provided quality content on some of the artworks in these museums. The related data helped validate the chatbot results, ensuring that the system's responses are in line with scientific accuracy. A final backend interface was developed for museum curators, where they can add and edit artwork data, including with the ability to upload code via a JSON file. 
 
-![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/d62ead48-95c6-4d4b-96d9-1c5d1d68805e/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
+`youtube: https://youtu.be/lVeM2oazqvA?si=Ndyy4apClAiJ1xaD`
 
-> *VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork*
-
-![VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork](https://ucarecdn.com/e2b58a76-85c9-4892-8c51-ec1e044b2bad/ "VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork")
-
-> *VIOLA multimedia chatbot: Gallery and  Answering questions related to the context of an artwork*
-
- The content used by the chatbot is  provided by curators using a specific **ADMIN interface.**
-
-![VIOLA multimedia chatbot: ADMIN Interface for curators](https://ucarecdn.com/57de6711-8598-4307-822c-00bd8fcc4e84/ "VIOLA multimedia chatbot: ADMIN Interface for curators")
-
-*VIOLA multimedia chatbot: ADMIN Interface for curators*
-
-![VIOLA multimedia chatbot: ADMIN Interface for curators](https://ucarecdn.com/7aed416f-ad1a-468c-8d69-d7a33acd4891/ "VIOLA multimedia chatbot: ADMIN Interface for curators")
+The chatbot works this way: the questions of the users are encapsulated within a set of instructions that force the chatbot to answer only using the quality content about the artwork. This solution will seek to avoid errors by relying on quality content provided by curators, through the development of appropriate prompts capable of directing responses to the validated dataset collected. The more the textual description the better the chatbot will answer the questions of the users.
 
 ### Source code
 
