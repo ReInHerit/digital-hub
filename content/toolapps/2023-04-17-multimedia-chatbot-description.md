@@ -23,7 +23,7 @@ Experience art in a new and exciting way with **VIOLA Multimedia Chatbot**! Deve
 
 The design of this application is motivated by the recent huge interest **in chat-based interaction** that has been popularized, for example, by Chat GPT. 
 
-The DEMO version of the Chatbot includes a gallery with a limited selection of artworks provided by the museums involved in the ReinHerit project (GrazMuseum, Cycladic Museum, Bank of Cyprus Foundation). The curators provided the images and related contents using a specific **[ADMIN interface](<https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3>).**[](<https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3>)
+The DEMO version of the Chatbot includes a gallery with a limited selection of artworks provided by the museums involved in the ReinHerit project (GrazMuseum, Cycladic Museum, Bank of Cyprus Foundation). The curators provided the images and related contents using a specific **[ADMIN interface](https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3).**[](https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3)
 
 ## Discover and test
 
@@ -34,3 +34,5 @@ Try the **Demo of VIOLA Multimedia Chatbot** at this link:\
 ![VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork](https://ucarecdn.com/6adfc128-9bc3-4005-b996-aba3869bc16f/ "VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork")
 
 `youtube: https://youtu.be/BjstSqyxbOg`
+
+`youtube: https://youtu.be/lVeM2oazqvA?si=CF5jnZ9Z93grxGbS`
