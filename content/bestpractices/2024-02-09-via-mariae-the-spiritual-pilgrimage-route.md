@@ -81,4 +81,4 @@ The road is divided  in 7 sections, each section is described according with all
 
 ![](https://ucarecdn.com/066b5fac-50a3-4353-9858-ae35cb8dafd8/)
 
-![](https://ucarecdn.com/0a1a4cd9-ab47-4c27-bbc9-001d18d753ba/ "This project received the 2nd Prize in the ECTN Awards 'Destination of Sustainable Cultural Tourism 2023', in the category 'Spiritual, Religious and Pilgrimage Tourism', by a joint jury with Europa Nostra and European Travel Commission.")
+![](https://ucarecdn.com/0a1a4cd9-ab47-4c27-bbc9-001d18d753ba/ "This project received the 2nd Prize in the ECTN Awards 'Destination of Sustainable Cultural Tourism 2023', in the category 'Spiritual, Religious and Pilgrimage Tourism', by a joint jury with Europa Nostra and European Travel Commission also in the frame of ReInHerit Horizon 2020 CSA.")
