@@ -13,7 +13,7 @@ desc: The project rurAllure has established a broad ecosystem of private and
   project develops a digital repository of cultural points of interest which
   guides hikers and pilgrims along the routes and helps them to discover
   heritage without significantly deviating from the original route.
-date: 2024-02-09T19:21:14.352Z
+date: 2024-02-05T19:21:14.352Z
 target-audience:
   - PROFESSIONAL
   - VISITOR
