@@ -9,11 +9,11 @@ desc: "A European Cultural Route of the Argonautica, based on intangible
   well as visual and performing arts in several countries along the Argonautica
   Route. The Argonautica tells the myth of the voyage to retrieve the Golden
   Fleece. "
-date: 2023-11-01T12:56:47.183Z
+date: 2023-11-01T12:59:47.183Z
 target-audience:
   - PROFESSIONAL
   - VISITOR
-theme: Other
+theme: Management
 license: CC BY 2.0
 pubstatus: completed
 partnerbestpractice: ECTN
@@ -23,7 +23,7 @@ thumbnail: https://ucarecdn.com/02dac1ef-b149-4c6f-9b1b-e17a3976f8c8/
 formtypbestpractice: Cooperation between Museums and Heritage sites
 orgbestpractice: Argonautica Network
 locationbestpractice: Greece, Georgia, Romania, Bulgaria, Serbia, Croatia, Slovenia, Italy, France
-timebestpractice: Ongoing
+timebestpractice: 2019 - Ongoing
 resourcesbestpractice: Human resources to prepare the submission as a candidate
   route to Council of Europe. A network association must be formed involving
   national, regional and local authorities, Tourism Boards, Destination
@@ -56,16 +56,14 @@ transferbestpractice: "The mission of Jason and the Argonauts to bring back the
   seas.  The 'Return of the Argonauts' cultural route development forms a very
   good basis for learning about intangible cultural heritage and for transfer to
   other regions and cities."
-infosbestpractice: https://argonautica-network.eu/contact.html
-urlsbestpractice: https://www.argonautica-network.eu/
+infosbestpractice: https://argonautica-network.eu
+urlsbestpractice: https://www.argonautica-network.eu
 keywordsbestpractice: Cultural Route, Intangible Heritage, Sustainable Tourism,
   Cultural Tourism, Smart Tourism, Mythology, Poetry, Literature, Visual Arts
 ---
-![](https://ucarecdn.com/9b703ddd-08b8-437a-822b-ee1222f66a4b/)
+
 
 `youtube: https://www.youtube.com/watch?v=EUwkKIbNDyo`
-
-
 
 Cultural Routes (CRs) of Council of Europe (CoE) are pioneers in initiatives concerning European cultural integration and European identity. They involve Cultural Heritage as a strong link of European nations, linking Culture with Tourism.\
 \
@@ -87,8 +85,12 @@ Although a lot of attention has been given to the outbound journey from Iolkos t
 
 The return of the Argonauts has left a cultural footprint in several places: Jason is considered to be the founder of Lubliana, capital of Slovenia, and Argonautica is celebrated at the Dalmatian coast, Istria peninsula, in Croatia, as well as in Marseille in the south of France.
 
-![](https://ucarecdn.com/93e0aef2-c655-4683-ac2c-e05c1f22cd8d/)
+![](https://ucarecdn.com/d6437545-0fa0-4fe7-a1a7-4af140c27888/ "from the book by Jason Colavito 'Jason and the Argonauts through the Ages', 2014")
 
-![](https://ucarecdn.com/34fd68f6-416e-449e-a9cf-0db2c11ee992/)
+![](https://ucarecdn.com/34fd68f6-416e-449e-a9cf-0db2c11ee992/ "Jason and the Argonauts arriving at Colchis  by Charles de La Fosse, circa 1672   Painting in the Palace of Versailles, Diana room")
+
+
 
 ![](https://ucarecdn.com/37b6f297-4f20-46e6-8d28-c1a9c6093aee/)
+
+![](https://ucarecdn.com/85a482d0-8d5c-45de-9737-b3ba21bfe259/ "This project received the 3rd prize in the ECTN Awards 'Destination of Sustainable Cultural Tourism 2019', in the category 'Transnational Thematic Tourism Products', by a joint jury with Europa Nostra and European Travel Commission.")
