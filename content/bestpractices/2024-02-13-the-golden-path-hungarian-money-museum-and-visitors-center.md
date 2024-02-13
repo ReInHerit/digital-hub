@@ -15,8 +15,7 @@ desc: "The Hungarian Money Museum was established by the Central Bank of Hungary
 date: 2024-02-08T14:41:09.054Z
 target-audience:
   - PROFESSIONAL
-theme:
-  - Tourism
+theme: Technology
 license: CC BY 2.0
 pubstatus: completed
 partnerbestpractice: ECTN
