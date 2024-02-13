@@ -94,8 +94,6 @@ The Method implemented is a 3-phase process which guides communities from awaren
 
 ![](https://ucarecdn.com/cc35105a-157b-4ff0-8539-fc7009c5a124/)
 
- 
-
 Our Mission is to guide communities to move from a condition of fragmentation and limited integration between supply and demand in tourist and cultural services to a cooperative, participated and inclusive network ecosystem. The overall outcome is that the whole community grows and develops in a horizontal, sustainable, responsible, and circular way. 
 
 HORIZONTAL ECONOMY: inside the 5 Senses Open-air Museum, with a horizontal structure, the stakeholders are the whole community, the governance is the expression of the engaged residents, investments are shared and the revenues immediately distributed among all the community individuals. 
@@ -118,4 +116,4 @@ The project innovative part is both about process and tools. From a process poin
 
 T﻿his museum won the 1st prize in the 2022 ECTN Awards, also in the framework of ReInHerit Horizon 2020 CSA, with Europa Nostra and European Travel Commission.
 
-![](https://ucarecdn.com/c97025bf-9673-4e8a-8a34-3e4d60325097/)
+![](https://ucarecdn.com/c97025bf-9673-4e8a-8a34-3e4d60325097/ "This project received the 1st prize in the ECTN Awards 'Destination of Sustainable Cultural Tourism 2019', in the category 'Cooperation between museums and heritage sites', by a joint jury with Europa Nostra and European Travel Commission also in the framework of ReInHerit 2020 CSA.")
