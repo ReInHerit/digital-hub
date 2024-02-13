@@ -13,7 +13,7 @@ desc: "Tuzla is a city that firmly decided to position tourism as one of the
   advantage for further successful development. This site used to be a marshy
   area without any content or purpose, and only 20 years later, it is a popular
   touristic site. "
-date: 2024-02-09T18:13:46.992Z
+date: 2024-02-09T11:13:46.992Z
 target-audience:
   - PROFESSIONAL
   - VISITOR
