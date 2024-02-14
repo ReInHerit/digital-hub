@@ -16,8 +16,7 @@ desc: "Webinars have emerged as a preferred tool for guidance and training, well
 date: 2024-01-30T09:11:55.167Z
 target-audience:
   - PROFESSIONAL
-theme:
-  - Tourism
+theme: Tourism
 license: CC BY 2.0
 pubstatus: completed
 partnerbestpractice: University of Florence - MICC

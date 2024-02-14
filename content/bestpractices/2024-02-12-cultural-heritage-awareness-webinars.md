@@ -10,8 +10,7 @@ desc: The Hellenic Committee of the Blue Shield in collaboration with the
 date: 2024-01-30T12:56:37.284Z
 target-audience:
   - PROFESSIONAL
-theme:
-  - Tourism
+theme: Tourism
 license: CC BY 2.0
 pubstatus: completed
 partnerbestpractice: Blue Shield

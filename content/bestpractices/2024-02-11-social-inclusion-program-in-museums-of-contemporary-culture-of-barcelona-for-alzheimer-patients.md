@@ -9,11 +9,9 @@ desc: Alzheimer’s program offers adapted exhibition tours, cinema sessions, an
 date: 2023-12-13T09:31:31.031Z
 target-audience:
   - PROFESSIONAL
-theme:
-  - Tourism
+theme: Tourism
 license: CC BY 2.0
-pubstatus:
-  - completed
+pubstatus: completed
 partnerbestpractice: Arte Sostenible
 personsbestpractice: Lorena González Ruiz
 emailbestpractice: lorena@artesostenible.org

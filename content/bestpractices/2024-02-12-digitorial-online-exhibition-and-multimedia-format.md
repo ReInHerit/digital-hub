@@ -18,11 +18,9 @@ desc: A "digitorial" is a special type of online exhibition and multimedia
 date: 2024-01-28T12:36:04.463Z
 target-audience:
   - PROFESSIONAL
-theme:
-  - Tourism
+theme: Tourism
 license: CC BY 2.0
-pubstatus:
-  - completed
+pubstatus: completed
 partnerbestpractice: Graz Museum
 personsbestpractice: Antonia Nussmüller
 emailbestpractice: antonia.nussmueller@stadt.graz.at
