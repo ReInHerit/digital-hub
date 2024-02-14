@@ -133,14 +133,13 @@ const ReinNavbar: React.FC = () => {
                 >
                   Overview
                 </Link>
-                 */}
-              {/*  
+                 */}  
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/bestpractices"
                 >
                   Best practices
-                </Link> */}
+                </Link>
           </NavDropdown>
           
           <NavDropdown title="Discover" id="basic-nav-dropdown">

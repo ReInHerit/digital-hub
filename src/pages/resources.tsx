@@ -65,13 +65,11 @@ const ResourcesPage = () => {
           body="Video game developed within the ReInHerit project."
           url="/gamedoc"
         />
-        {/*
         <ReinGridCard
-          title="Best practices"
+          title="Best Practices"
           body="Guidelines, recommendations and manuals related to digital cultural heritage management."
-          url="/tools"
+          url="/bestpractices"
         />
-    */}
       
         </ReinCardGrid>
 

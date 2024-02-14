@@ -239,7 +239,7 @@ The ReInHerit project developed learning resources and provides detailed documen
 
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/webinars/">Webinars</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/factsheets/">Research Factsheets</Button>
-    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="">(coming soon) Best Practices</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/bestpractices/">Best Practices</Button>
     
   </div>
     <Row className="mt-4"><h5>Documentation:</h5></Row>
