@@ -93,6 +93,9 @@ urlsbestpractice: Wissen - Über Schlösserstrasse - Schlösserstrasse -
   SI-AT Castle Road | ZRS Bistra, Ptuj Project - Building sustainable
   institutionalised cooperation between castles and castles for the development
   and marketing of joint cross-border offers (keep.eu)
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/Schlosserstrasse.pdf
 keywordsbestpractice: Cultural institutions, joint marketing, cultural
   management, cross-border cooperation
 ---

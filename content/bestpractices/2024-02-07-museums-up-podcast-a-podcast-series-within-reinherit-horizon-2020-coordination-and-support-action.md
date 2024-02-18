@@ -45,8 +45,10 @@ transferbestpractice: Easy adaptability to different needs, sectors and
   visitors or other audiences.
 infosbestpractice: The contents for the podcast are produced monthly and are
   freely accessible to the public.
-urlsbestpractice: "Access to the resource from the project's official website:
-  //reinherit-hub.eu/podcasts https://rss.com/podcasts/museumsup-reinherit/"
+urlsbestpractice: "https://reinherit-hub.eu/podcasts"
+urlsbestpracticeTwo: "https://rss.com/podcasts/museumsup-reinherit/"
+urlsbestpracticeThree: ""
+pdf: /bppdf/MuseumUpPodcast.pdf
 keywordsbestpractice: news technologies, streaming, podcast, dissemination,
   communication, experts, museums, cultural heritage, sustainability, social
   media, tourism, sustainable tourism, sustainability, continuous

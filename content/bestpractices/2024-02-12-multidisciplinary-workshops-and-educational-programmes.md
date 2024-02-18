@@ -162,6 +162,9 @@ infosbestpractice: "More about ‘Summer at the Museum 2023’:  In July 2023, t
   as a transformative force in the cultural landscape, enriching understanding
   and encouraging a dynamic and inclusive approach to learning."
 urlsbestpractice: https://www.boccf.org
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/MultidisciplinaryWorkshops.pdf
 keywordsbestpractice: Accessibility, Inclusivity, multi-disciplinary
 ---
 The Bank of Cyprus Cultural Foundation’s multidisciplinary educational programmes and ‘Aisthiseis’ (Senses) workshops are designed to provide participants (both children and adults) with a holistic experience, drawing from various fields of knowledge, and fostering creativity, collaboration, and critical thinking. Below, these methods will be analysed in three different sections. The first section will explore the educational programmes provided by the BOCCF. The second section will analyse the implementation of the aforementioned values in BOCCF ‘Aisthiseis’ (‘Senses’) workshops (This programme aims to remove some of the barriers faced by vulnerable people for the benefit of us all and with a view to designing a better and fairer society). Finally, the third section will delineate how these values feature in collaborations between BOCCF and other institutions.

@@ -45,6 +45,9 @@ transferbestpractice: The focus is on how this CHM plan has been communicated to
   (e.g. factsheets on the platform, the actual Plan published, webinars).
 infosbestpractice: "https://reinherit-hub.eu/factsheets/ "
 urlsbestpractice: "https://www.youtube.com/watch?v=aT8jx_-My2k&t=10s "
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/SustainableCHPlan.pdf
 keywordsbestpractice: Cultural Heritage Management, Cultural Heritage Management
   Plan, Museums, Cultural Heritage institutions, Audience, Young people, Local
   communities, Sustainability

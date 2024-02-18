@@ -57,9 +57,10 @@ transferbestpractice: "These parallel activities have the potential to be
   "
 infosbestpractice: "More information is available on the digital hub of the
   project: https://reinherit-hub.eu/ "
-urlsbestpractice: "https://youtu.be/I4XgzVNS7x0   https://www.tiktok.com/@reinh\
-  erit_/video/7225913360246787355  https://youtu.be/I4XgzVNS7x0  https://www.ti\
-  ktok.com/@reinherit_/video/7225913360246787355 "
+urlsbestpractice: "https://youtu.be/I4XgzVNS7x0"
+urlsbestpracticeTwo: "https://www.tiktok.com/@reinherit_/video/7225913360246787355"
+urlsbestpracticeThree: "https://youtu.be/I4XgzVNS7x0"
+pdf: /bppdf/parallelactivities.pdf
 keywordsbestpractice: workshops, parallel activities, audience engagement, travelling exhibitions
 ---
 <!--\[if gte mso 9]><xml>

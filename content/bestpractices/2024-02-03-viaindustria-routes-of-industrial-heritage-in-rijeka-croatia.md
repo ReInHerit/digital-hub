@@ -56,6 +56,9 @@ infosbestpractice: n/a
 urlsbestpractice: "
   https://play.google.com/store/apps/details?id=com.ivanzubak.viaindustria&hl=b\
   s&gl=US"
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/ViaIndustria.pdf
 keywordsbestpractice: Industrial Heritage, Mobile Application, Cultural Routes
   of Industrial Heritage, Rijeka
 ---

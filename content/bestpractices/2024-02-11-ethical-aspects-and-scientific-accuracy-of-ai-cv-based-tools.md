@@ -51,8 +51,10 @@ transferbestpractice: The ReInHerit model cards could be used in other projects
   ReInHerit cards can open a connection between the Digital Hub and other CH
   projects and networks working on the introduction of AI in museums.
 infosbestpractice: n/a
-urlsbestpractice: "https://reinherit-hub.eu/applications   https://reinherit-hu\
-  b.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3 "
+urlsbestpractice: "https://reinherit-hub.eu/applications"
+urlsbestpracticeTwo: "https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3"
+urlsbestpracticeThree: ""
+pdf: /bppdf/EthicsAI.pdf
 keywordsbestpractice: " Ethics, AI tools, Fairness, Scientific Accuracy "
 ---
 Important steps and recommendations for **regulating GenAI** based on a **human-centered approach** include concerns related to the **Ethics** of AI Chatbots, user privacy policy compliance, training data, and the scientific accuracy of chatbot outputs. The development of artificial intelligence applications involved extensive training on datasets. Ensuring that the final training data is ethically sourced, unbiased, and devoid of discriminatory content is crucial for maintaining the ethical integrity of AI tools. 

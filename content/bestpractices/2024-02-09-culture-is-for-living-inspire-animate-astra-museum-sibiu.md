@@ -71,10 +71,10 @@ infosbestpractice: "\"The ASTRA Museum is located in the city of Sibiu, one of
   Interactive elements such as panels with QR codes, quizzes, virtual reality
   experiences, an app, and thematic exhibitions are employed to interpret the
   rich cultural and natural heritage for diverse audiences."
-urlsbestpractice: https://muzeulastra.ro/en/
-  https://muzeulastra.ro/en/eveniment/anima-astra-ateliere-de-olarit-de-ardere-a-ceramicii-croitorie-dulgherie/
-  https://muzeulastra.ro/en/eveniment/pictam-croim-faurim-anima-astra/
-  https://muzeulastra.ro/en/eveniment/anima-astra-de-la-fier-la-lemn-pana-la-lut-si-fir-de-lana/
+urlsbestpractice: "https://muzeulastra.ro/en/eveniment/anima-astra-de-la-fier-la-lemn-pana-la-lut-si-fir-de-lana/"
+urlsbestpracticeTwo: "https://muzeulastra.ro/en/eveniment/anima-astra-ateliere-de-olarit-de-ardere-a-ceramicii-croitorie-dulgherie/"
+urlsbestpracticeThree: "https://muzeulastra.ro/en/eveniment/pictam-croim-faurim-anima-astra/"
+pdf: /bppdf/AstraMuseumSibiu.pdf
 keywordsbestpractice: "#IntangibleHeritage #ExperienceHeritage
   #CommunicateHeritage #astramuseum #Sibiu #crafts "
 ---

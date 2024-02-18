@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "Reinherit Digital-Hub",
-    description: "coming soon",
+    description: "ReInHerit Digital Hub",
     author: "Sebastian Stoff, Chiara Zuanni, Sina Krottmaier",
     image: "../static/images/rein_logo.jpg",
   },

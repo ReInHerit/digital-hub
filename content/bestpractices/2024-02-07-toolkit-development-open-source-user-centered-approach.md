@@ -71,8 +71,10 @@ transferbestpractice: '"In order to adopt a sustainable management perspective,
   supplemented by additional documentation and associated webinars, accessible
   in the Digital Hub.'
 infosbestpractice: No
-urlsbestpractice: "https://reinherit-hub.eu/tools/apps   https://reinherit-hub.\
-  eu/applications   https://reinherit-hub.eu/tools/components   "
+urlsbestpractice: "https://reinherit-hub.eu/tools/apps"
+urlsbestpracticeTwo: "https://reinherit-hub.eu/applications"
+urlsbestpracticeThree: "https://reinherit-hub.eu/tools/components"
+pdf: /bppdf/ToolkitOpenSource.pdf
 keywordsbestpractice: Development, Digital Tools, User-centered-Approach, BYOD
   (Bring Your Own Device), Open Source, Web Apps
 ---
@@ -88,4 +90,6 @@ In conclusion, the ReInHerit Toolkit provides a framework for best practices in 
 
 > *ReInHerit Toolkit Strategy*
 
-`youtube: https://www.youtube.com/playlist?list=PLUekJ7cIDbhzwNZ8JVFtFLBJdPe2H8MsT`
+ `youtube: https://youtu.be/GHgBIRXqKK8?feature=shared`
+ `youtube: https://youtu.be/BjstSqyxbOg?feature=shared`
+ `youtube: https://youtu.be/lVeM2oazqvA?feature=shared`

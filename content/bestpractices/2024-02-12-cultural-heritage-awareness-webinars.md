@@ -36,6 +36,9 @@ transferbestpractice: The webinars could be updated and customised to address
   heritage professionals.
 infosbestpractice: For further information contact blueshield.greece@gmail.com
 urlsbestpractice: https://www.hellenicblueshield.com/en/webex-meeting-recording-cultural-heritage-webinars-20210223-1601-1-2/
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/CHAwarenessWebinars.pdf
 keywordsbestpractice: "cultural heritage, international security, Climate
   Change, Return of antiquities,  management "
 ---
@@ -47,5 +50,3 @@ The events were interdisciplinary in character and thematically focused on five 
 (d) return of antiquities illegally removed from their countries of origin,
 (e) legal and managerial issues pertaining to the collections of Museums and Cultural Institutions.
 The organizing institutions’ initiative sought to bring together academics, students, practitioners, professionals of cultural institutions, representatives from NGOs, policy makers and representatives of the civil society from Greece, Cyprus and other countries, in order to discuss the current challenges in areas that underpin cultural heritage protection in emergency situations. The webinars took place virtually due to the COVID-19 restrictions. At the end of each event an open discussion followed. 
-
-`youtube: https://www.hellenicblueshield.com/en/webex-meeting-recording-cultural-heritage-webinars-20210223-1601-1-2/`

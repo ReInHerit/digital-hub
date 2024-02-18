@@ -39,7 +39,10 @@ transferbestpractice: During the development of Dublin Discovery Trails we
   launched the first ever Digital Trails Toolkit (attached), so that others
   could learn from our experience.
 infosbestpractice: https://www.failteireland.ie/FailteIreland/media/WebsiteStructure/Documents/Dublin/dublin-trails-toolkitupdated-2022.pdf   https://www.irishexaminer.com/news/arid-41045846.html
-urlsbestpractice: https://doorsintodocklands.com/   https://www.bu.edu/bhr/2021/10/04/digital-trail-development-opportunities-for-tourism-and-hospitality-lessons-from-ireland/
+urlsbestpractice: "https://doorsintodocklands.com/"
+urlsbestpracticeTwo: "https://www.bu.edu/bhr/2021/10/04/digital-trail-development-opportunities-for-tourism-and-hospitality-lessons-from-ireland/"
+urlsbestpracticeThree: ""
+pdf: /bppdf/DublinDiscoveryTrail.pdf
 keywordsbestpractice: Digitalisation, Smart Tourism, Dublin, Docklands
 ---
 The Aim: 

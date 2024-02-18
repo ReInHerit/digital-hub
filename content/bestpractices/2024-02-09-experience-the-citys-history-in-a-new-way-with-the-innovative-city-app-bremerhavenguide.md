@@ -116,7 +116,10 @@ infosbestpractice: "\"Through the CMS system anchored at the tourism company,
   identification-creating tours, such as a tour to the museum ships, are
   currently being realised. A tour on the topic of sustainability will be
   developed in spring 2024."
-urlsbestpractice: www.bremerhaven.de/bremerhavenguide
+urlsbestpractice: "http://www.bremerhaven.de/bremerhavenguide"
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/BremerhavenGuide.pdf
 keywordsbestpractice: City history, cultural heritage, city identity, city
   tours, innovative, new experiences, digital
 ---

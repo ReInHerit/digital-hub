@@ -66,6 +66,9 @@ infosbestpractice: "- Town re-generation project involving the whole
   https://drive.google.com/file/d/1RAAUPiZjkoF3PMgPu3jy0LPoqGsI6y6r/view?usp=sh\
   ari ng"
 urlsbestpractice: https://www.sciacca5sensi.it
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/Sciacca.pdf
 keywordsbestpractice: "museum, cultural heritage "
 ---
 The 5 Senses Open-air Museum of Sciacca in Sicily (Italy) is a project aimed at creating a collaborative network engaging local communities and public administrations to make the historic city and its surroundings an unforgettable cultural tourism experience, relying on Sciacca’s uniqueness: people and the “beautiness” of the place where they live. During this period with millions of jobs at risk because of the pandemic crisis covid19, especially in the tourism sector, the 5 Senses Open-air Museum turns out to offer a governance model which can strongly help communities recover from the crisis both socially and economically, in a sustainable and responsible way. Small shops, craftsmen, accommodations, local products restaurants, institutions, work together in Sciacca to develop the territory and connecting it with buyers, consumers and influencers alike in the cultural heritage and tourism industries to generate value added markets centred on authentic cultural experience and local identity. This inclusive and bottom-up tourism innovation project has been implemented in only 2 years, generating a community network with more than 50 engagement agreements signed with all the trade categories, public institutions and volunteers’ associations, over 18 “care of hospitality” specifications signed with the accommodations, as many bar, restaurants, craftsman involved and over 50 experiences ready for tourists.

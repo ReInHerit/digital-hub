@@ -75,7 +75,10 @@ transferbestpractice: The collaboration with MateraHub and the MICC Center
 infosbestpractice: A reasonable duration for a productive Hackathon is 1 week;
   can be shortened to a few days when considering a preliminary on-line
   preparation.
-urlsbestpractice: "https://reinherit-hub.eu/summerschool/     "
+urlsbestpractice: "https://reinherit-hub.eu/summerschool/"
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/CoCreativeDesign.pdf
 keywordsbestpractice: CoCreation, Mediation, Interdisciplinarity, Development, Design, Digital Tools
 ---
 **Mediation and co-creation process** can be considered a best practice in digital tool development, to address innovative and sustainable frameworks in cultural heritage. This approach includes the active involvement of communities in the creative process through **interdisciplinary hackathons.** Co-design methods are used throughout the process to empathize with diverse audiences, understand their needs, define problems, generate innovative solutions, and test prototypes.

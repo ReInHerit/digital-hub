@@ -89,6 +89,9 @@ infosbestpractice: "- The project created a European network of public and
   clearly-defined strategy for exploitation of the project’s results were
   produced on the basis of the findings resulting from the pilots. "
 urlsbestpractice: https://rurallure.eu/
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/rurAllure.pdf
 keywordsbestpractice: digital
 ---
 “rurAllure – promotion of rural museums and heritage sites in the vicinity of European pilgrimage routes” is an Horizon2020 project aimed at fostering cultural cooperation and sustainable tourism in the proximity of European historic pilgrimage routes.

@@ -95,6 +95,9 @@ infosbestpractice: "Complementary Activities: A set of activities that can be
   encouraging and helping other cultural centres to implement activities along
   these lines."
 urlsbestpractice: https://www.cccb.org/en/the-cccb/alzheimer-programme/231797
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/BarcelonaAlzheimer.pdf
 keywordsbestpractice: inclusivity, accessibility, disability, Alzheimer programming, Sustainability
 ---
 The CCCB’s Alzheimer Programme was created in October 2010 by a group of workers from the Centre with the aim of bringing art and culture closer to people suffering the initial stages of the disease, as well as for their carers and family members. It offers adapted visits to the CCCB’s exhibitions and organises a complementary set of activities.

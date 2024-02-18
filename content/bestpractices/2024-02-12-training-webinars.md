@@ -90,9 +90,12 @@ transferbestpractice: More than 250 experts were involved and participated in
   be valuable resources for professional development in the museum sector.
 infosbestpractice: n/a
 urlsbestpractice: " https://reinherit-hub.eu/webinars "
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/ReInHeritWebinars.pdf
 keywordsbestpractice: Webinars, Training, Networking, Cooperation, Communication, Management
 ---
-`youtube: https://www.youtube.com/playlist?list=PLUekJ7cIDbhwnv43Tb6Kaoj0jrLfmLUP5`
+[YouTube Playlist](https://www.youtube.com/playlist?list=PLUekJ7cIDbhwnv43Tb6Kaoj0jrLfmLUP5)
 
 **[Webinars](https://reinherit-hub.eu/webinars)** facilitate knowledge exchange and collaboration. Those developed within ReInHerit are related to cultural heritage management, technology and tourism and are aimed at cultural professionals.  They consist of a “how to guide” for small and medium-sized museums and cultural heritage organizations that documents processes, provides instruction, and technical requirements.  The webinars include various material produced by different consortium partners such as video recordings, presentation slides, and useful references. The objective is to foster knowledge exchange, collaboration, and networking among professionals in the museum and cultural heritage sector, leveraging the expertise and experiences of project partners and external experts. Webinars were conducted by project partners and invited experts, focusing on the specific topics identified through the research conducted. Drawing on the insights and expertise gained in the project, the webinars covered a diverse range of topics, ensuring a comprehensive and enriching learning experience for participants.  The ReInHerit project identified several macro topics and themes to guide the webinars and discussions. These topics included various aspects of technology, management, and tourism in relation to cultural heritage
 

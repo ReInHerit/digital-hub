@@ -28,6 +28,9 @@ challengesbestpractice: Covid pandemic reduced the possibility to interact with 
 transferbestpractice: Applicable to all ECoC ecosystem cities.
 infosbestpractice: Project finished but platform still updated.
 urlsbestpractice: https://www.gameoftraces.com/
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/GameOfTraces.pdf
 keywordsbestpractice: sustainable tourism, ECoCs, digitalisation
 ---
 Born from the COSME program, the TraCEs project has developed a methodology to promote innovative tourism experiences created by the collaboration of tourism operators and CCIs in European Capitals of Culture. These products are mapped in an online platform, the Game of TraCEs, which is offering for all ECoCs in the map a list of experiences and a presentation of the local creative and cultural scene for tourist to explore the cities from new angles and perspectives.

@@ -55,6 +55,9 @@ transferbestpractice: The policy recommendations and the survey results can help
   of the project.
 infosbestpractice: https://www.hellenicblueshield.com/en/home/   https://www.youtube.com/@blueshieldgreecebs-greekna3364/videos
 urlsbestpractice: https://www.hellenicblueshield.com/en/cultural-heritage-innovation-and-sustainable-development-the-contribution-of-re%ce%b9n%ce%b7erit-2/
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/CHInnovationSustDev.pdf
 keywordsbestpractice: cultural heritage, sustainable development
 ---
 The conference "Cultural heritage, innovation and sustainable development: the contribution of ReΙnΗerit" organized by the Hellenic Committee of the Blue Shield was held in Athens, on 27th November 2023 in a hybrid (phygital) mode to facilitate the participation of international speakers and audiences and thus have a glocal impact, increase the ReΙnΗerit project’s visibility and improve its branding.

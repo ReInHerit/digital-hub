@@ -51,6 +51,9 @@ transferbestpractice: "The campaign primarily targeting travellers with real
   competitors but undecided."
 infosbestpractice: https://www.visitpafos.org.cy/
 urlsbestpractice: https://www.visitpafos.org.cy/
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/PafosRegion.pdf
 keywordsbestpractice: digital marketing, Pafos, tourism
 ---
 

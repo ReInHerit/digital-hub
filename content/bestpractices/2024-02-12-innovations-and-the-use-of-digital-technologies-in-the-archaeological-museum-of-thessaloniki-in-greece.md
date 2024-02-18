@@ -53,6 +53,9 @@ transferbestpractice: "This case is one of the most illustrative examples that
   disabled persons. "
 infosbestpractice: n/a
 urlsbestpractice: https://www.amth.gr/en/research/programs?field_research_category_tid=10
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/InnovationsThessaloniki.pdf
 keywordsbestpractice: Digital technologies, Innovation, Democratization, Social
   inclusion, People centered approach, Collaborations between museums and
   heritage sites

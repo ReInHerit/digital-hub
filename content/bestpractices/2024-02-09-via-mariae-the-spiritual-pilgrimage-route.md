@@ -65,6 +65,9 @@ infosbestpractice: The main Via Mariae routes start from Mariazell in Austria
   Circuits can also be made. It is good to choose the optimal option depending
   on interest, physical condition, time available.
 urlsbestpractice: https://viamariaecj.ro/2020/11/13/sfaturi-practice-pentru-drumeti/
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/ViaMariae.pdf
 keywordsbestpractice: pilgrimage, local community, cultural heritage, cultural
   heritage management, sustainable cultural tourism
 ---

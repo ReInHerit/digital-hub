@@ -60,7 +60,10 @@ transferbestpractice: High potential for transfer and imitation, because it is
   accessible to interested visitors/users even after the exhibition has been
   dismantled already.
 infosbestpractice: "About the digitorials: https://www.staedelmuseum.de/en/digital/digitorials "
-urlsbestpractice: "Van Gogh digitorial: https://vangogh.staedelmuseum.de/ "
+urlsbestpractice: "https://vangogh.staedelmuseum.de/"
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/Digitorials.pdf
 keywordsbestpractice: "digital exhibition, multimedia "
 ---
 Around ten years ago an online exhibition boom began. Almost every major museum wanted to go online with its exhibition content or its online collection. The Städel Museum in Frankfurt am Main was one of the first museums in the German-speaking world to have a strong online presence. In a cooperation between the Städel Museum, the Liebieghaus Skulpturensammlung and the Schirn Kunsthalle Frankfurt the trademark "digitorial" was invented which influenced the design and appearence of online or digital exhibitions until today.

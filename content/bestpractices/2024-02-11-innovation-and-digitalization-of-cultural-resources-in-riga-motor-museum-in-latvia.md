@@ -41,6 +41,9 @@ transferbestpractice: Museums European-wide have the opportunity to learn from
   cultural assets, and included in the relevant policy documents.
 infosbestpractice: This is a good practice from the CHRISTA Interreg Europe project.
 urlsbestpractice: http://www.motormuzejs.lv/
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/RigaMotorMuseum.pdf
 keywordsbestpractice: Motor museum, Industrial herutage, Digitalisation, Gamification
 ---
 

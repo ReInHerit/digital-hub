@@ -62,7 +62,9 @@ transferbestpractice: A joint museum association can be an important step to
 infosbestpractice: This best practice is related to the SPOT Horizon2020 project
   (www.spotprojecth2020.eu).
 urlsbestpractice: https://www.eisenstrassenmuseen.at/
-  https://pages.facebook.com/eisenstrassenmuseen/
+urlsbestpracticeTwo: "https://pages.facebook.com/eisenstrassenmuseen/"
+urlsbestpracticeThree: ""
+pdf: /bppdf/StyrianIronRoute.pdf
 keywordsbestpractice: Cultural institutions, cultural marketing, cultural management
 ---
 When we talk about the Steirische Eisenstraße, we do it in the context of being a regional association (VESTE) and a LEADER region. Both organisations cover parts of the industrial and mining area. The LEADER region includes 17 municipalities, the largest being the town of Leoben. It is the regions administrative, economic, urban and cultural centre with about 25.000 inhabitants. Furthermore, it is home to a polytechnical university, specialising in mining, metallurgy and material sciences. Also, the iron ore mountain still operates, being the biggest ore mining site in in Europe. Other industries are also still in place with the VOEST Alpine steel maker, being the one with the most international recognition.

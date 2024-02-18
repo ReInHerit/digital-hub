@@ -119,7 +119,10 @@ infosbestpractice: Tuzla has a special geological past. Tuzla locals say that
   called Castron de Salenes (Greek), Salenes (Greek), Ad Salinas (Latin), Soli
   (South Slavic), Memlehatejn (Arabic), Memleha-i Zir (Persian), Tuz (Turkish)
   ... until its current name, Tuzla, which means salt pans in Turkish.
-urlsbestpractice: https://panonika.ba/   https://tztz.ba/ba/panonska-jezera/
+urlsbestpractice: "https://panonika.ba/"
+urlsbestpracticeTwo: "https://tztz.ba/ba/panonska-jezera/"
+urlsbestpracticeThree: ""
+pdf: /bppdf/SaltLakesTuzla.pdf
 keywordsbestpractice: Tuzla, Salt, Pannonica, Pannonian Salt Lakes, Sustainable Cultural Tourism
 ---
 Tuzla is a city that has firmly decided to position tourism as one of the main drivers of further urban development, through concrete projects that have transformed the image of our country's industrial center into a significant tourist destination. The story of the beginnings of significant tourism development in our city began in 2003, after the construction of Phase I of the Pannonian Lakes complex, although the roots of tourism in the city of Tuzla date back to 1914 when the first Salty Spa, known in Europe for treating various rheumatic diseases, was built.

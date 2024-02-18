@@ -50,6 +50,9 @@ infosbestpractice: For museums and other cultural heritage institutions the
   People's knowledge, experiences and memories are at the center of this format
   of collecting.
 urlsbestpractice: https://www.topothek.at/en/
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/topothequeGraz.pdf
 keywordsbestpractice: citizen science, collection, participation
 ---
 The topotheque is an regional historical source of reference, focusing on not only preserving historical material kept in private hands but making it visible to the public. Topotheques already exist in a number of different European countries. This allows for a comparison of regional historical conditions on a European level, making the diversity and common grounds of every-day life tangible. As a virtual collection, the Topotheque is easily expandable and doesn´t have to comply with editorial deadlines or page limits.

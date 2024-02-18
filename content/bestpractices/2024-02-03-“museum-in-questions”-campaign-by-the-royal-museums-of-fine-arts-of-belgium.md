@@ -52,6 +52,9 @@ transferbestpractice: The initiative can be adapted to museums that have in
 infosbestpractice: This Best Practice was identified by Arte Sostenible during
   study visits in Brussels by ReInHerit Horizon 2020 CSA partners in May 2023.
 urlsbestpractice: https://fine-arts-museum.be/en/exhibitions/our-collection-in-question
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/MuseumInQuestion.pdf
 keywordsbestpractice: democratization, communication, developement,
   non-discriminatory, decolonial, art. inlusivity, dialogic, cultural heritage,
   decolonial museum, curating, debate, social, diversity

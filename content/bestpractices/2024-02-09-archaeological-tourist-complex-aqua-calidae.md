@@ -60,6 +60,9 @@ infosbestpractice: Exposition and demonstration center "Mineral waters of Aquae
   historical layers and époques found on the territory of this historical
   cultural heritage of national importance.
 urlsbestpractice: " http://www.aquae-calidae.com/bg"
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/AquaCalidae.pdf
 keywordsbestpractice: Digital presentation of cultural heritage, Digitalization,
   Cultural heritage tourism
 ---

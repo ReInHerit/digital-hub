@@ -63,6 +63,9 @@ transferbestpractice: "Many surveys have been conducted in the last few years on
 infosbestpractice: "All the resources can be found on the project's digital hub:
   https://reinherit-hub.eu"
 urlsbestpractice: https://reinherit-hub.eu
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/CollaborationReInHerit.pdf
 keywordsbestpractice: collaboration, digital hub, communication, museums,
   heritage sites, heritage management, sustainable cultural tourism, smart
   tourism, smart destinations

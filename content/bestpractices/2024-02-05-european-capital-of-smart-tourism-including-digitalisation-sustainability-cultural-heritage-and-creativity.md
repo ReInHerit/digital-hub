@@ -97,7 +97,10 @@ infosbestpractice: "The journey towards smart tourism, smart destinations is
   and Creativity, as well as Sustainability are two of the four components of
   Smart Tourism directly linked to Sustainable Cultural Tourism that ECTN
   facilitates and promotes."
-urlsbestpractice: https://www.visitpafos.org.cy/pafos-european-capital-of-smart-tourism-2023   https://smart-tourism-capital.ec.europa.eu/pafos-winner-2023-competition_en
+urlsbestpractice: "https://www.visitpafos.org.cy/pafos-european-capital-of-smart-tourism-2023"   
+urlsbestpracticeTwo: "https://smart-tourism-capital.ec.europa.eu/pafos-winner-2023-competition_en"
+urlsbestpracticeThree: ""
+pdf: /bppdf/EuropeanCapitalSmartTourism.pdf
 keywordsbestpractice: creativity, cultural heritage, digitalisation, smart
   tourism, sustainability, sustainable tourism
 ---

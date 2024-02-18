@@ -48,6 +48,9 @@ transferbestpractice: We know that other regions in Sweden and countries with
   socially, economically and ecologically sustainable nature tourism.
 infosbestpractice: n/a
 urlsbestpractice: n/a
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/DevelopingAttractiveSustainableRoutes.pdf
 keywordsbestpractice: cultural routes
 ---
 The interest and need to get into nature are increasing nationally and internationally. The hiker today has higher demands and expectations for the routes they are going to wander than before. At the same time, the thresholds are too high to find out and hike. Many routes do not hold quality, no one is in charge of the team or finance the development, service along the routes is missing, maps do not match reality and we do not have a common national quality standard for our routes, that is located outside the mountainous area, the lowland routes. Developing hiking routes in northern Europe is challenging, due to the routes in many cases are quite new, which creates conflicts with the landowners, long stretches of wilderness demands intensive management at high costs and to create service to live and eat along the routes is challenging. The practice includes: a working process, an evaluation of routes matrix and a model for sustainable organisation of routes. When working in this certain way we can go from status having routes of low quality with no management to a status where we have high quality routes with an organisation and infrastructure and service creating growth and jobs by developing hiking products demanded on an international market where quality goes before quantity. Stakeholders are the region, municipalities, SMEs, the Church and associations (cultural-, nature- and sports organisations, land owners).

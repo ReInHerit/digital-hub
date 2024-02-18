@@ -52,6 +52,9 @@ infosbestpractice: This is a good practice from the CHRISTA Interreg Europe
   project (2016-2020), initiated by ECTN and also supported as an advisory
   partner.
 urlsbestpractice: https://www.prismavg.se/
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/PrimaVastraGotaland.pdf
 keywordsbestpractice: cultural heritage, industrial heritage, sustainability, digitalisation
 ---
 In VGR there are many actors working with industrial heritage. Most of them are non-profit associations or private actors. They do not have enough contact with public actors such as museums or decision makers in the field of culture and even less contact with tourism actors. Museums and cultural institutions do not have sufficient anchoring in the hundreds of places with extensive local knowledge that attract large numbers of visitors every year.

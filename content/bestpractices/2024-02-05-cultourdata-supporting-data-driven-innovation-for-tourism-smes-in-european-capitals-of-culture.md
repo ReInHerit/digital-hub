@@ -36,7 +36,9 @@ transferbestpractice: Applicable in other European Capitals of Culture -
   cooperate with tech and digital experts.
 infosbestpractice: https://deuscci.eu/cultourdata/ https://www.cultouriscapital.eu/cultourdata/
 urlsbestpractice: https://www.cultouriscapital.eu/cultourdata/
-  https://www.youtube.com/@cultouriscapital4899/playlists
+urlsbestpracticeTwo: "https://www.youtube.com/@cultouriscapital4899/playlists"
+urlsbestpracticeThree: ""
+pdf: /bppdf/CulTourData.pdf
 keywordsbestpractice: culture, tourism, data, creative industries
 ---
 The project targets tourism SMEs in the European Capitals of Culture and supports them to:

@@ -127,7 +127,10 @@ infosbestpractice: Since the above synergy proved very successful we have
   wine produced . With the above in mind the initiative will be enriching with
   visits to the vineyards and local wineries with the aim to further enhance
   sustainable cultural tourism.
-urlsbestpractice: "ww.visitpafos.org.cy "
+urlsbestpractice: "http://www.visitpafos.org.cy "
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/Laona.pdf
 keywordsbestpractice: Pafos region, Arts and Crafts, Akamas, Laona, Sustainable
   Tourism, Mueums, Cooperation
 ---

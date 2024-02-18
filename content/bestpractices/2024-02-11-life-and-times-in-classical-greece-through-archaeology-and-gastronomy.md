@@ -59,6 +59,9 @@ transferbestpractice: The project can be easily transferred as its initiator and
 infosbestpractice: "Further information can be obtained from the project’s
   animator, Ms Konstantina Moula, email: konstatinamoula@yahoo.com"
 urlsbestpractice: https://archaeologicalmuseums.gr/el/museum/5df34af3deca5e2d79e8c141/archaeological-museum-of-agios-kirykos
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/LifeClassicalGreece.pdf
 keywordsbestpractice: Young museum visitors; participant museum activities;
   explanatory narratives; understanding through clay reproduction of exhibits;
   gastronomy; cultural and creative tourism

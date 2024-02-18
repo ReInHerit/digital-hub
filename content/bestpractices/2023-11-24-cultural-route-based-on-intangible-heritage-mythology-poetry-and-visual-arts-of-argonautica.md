@@ -61,6 +61,9 @@ transferbestpractice: "The mission of Jason and the Argonauts to bring back the
   other regions and cities."
 infosbestpractice: https://argonautica-network.eu
 urlsbestpractice: https://www.argonautica-network.eu
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/argonautica.pdf
 keywordsbestpractice: Cultural Route, Intangible Heritage, Sustainable Tourism,
   Cultural Tourism, Smart Tourism, Mythology, Poetry, Literature, Visual Arts
 ---

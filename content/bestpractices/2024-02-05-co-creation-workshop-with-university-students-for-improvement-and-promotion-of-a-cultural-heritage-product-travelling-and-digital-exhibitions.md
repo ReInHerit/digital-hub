@@ -52,6 +52,9 @@ infosbestpractice: GDPR and Privacy It is important to consider the GDPR
   shoot and partial filming of the activity for the purposes of promotion of the
   activity and relevant reporting in the framework of the project.
 urlsbestpractice: https://www.tiktok.com/@reinherit_/video/7166558394176883973?is_from_webapp=1&sender_device=pc&web_id=7106878265042208262
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/CoCreationWorkshop.pdf
 keywordsbestpractice: co-creation, innovation, exhibitions, cultural heritage
   sector, promotion, cultural heritage product
 ---

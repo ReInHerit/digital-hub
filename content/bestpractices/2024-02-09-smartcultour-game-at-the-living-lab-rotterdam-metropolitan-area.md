@@ -124,6 +124,9 @@ infosbestpractice: By interest in the SmartCulTour game, please visit the
   Digital Transformation in Cultural Tourism at BUAS. You can contact her at
   weber.j@buas.nl.
 urlsbestpractice: http://www.smartcultour.eu/smartcultour-game/
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/SmartCultourGame.pdf
 keywordsbestpractice: serious gaming, playful intervention, policy game,
   cultural tourism, heritage management
 ---

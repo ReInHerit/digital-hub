@@ -42,6 +42,9 @@ transferbestpractice: Numerous other city museums took up the idea o rparts of
   to prepare new museum concepts.
 infosbestpractice: https://www.historisches-museum-frankfurt.de/de/stadtlabor?language=en
 urlsbestpractice: https://historisches-museum-frankfurt.de/de/stadtlabor-archiv?language=en
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/CityLab.pdf
 keywordsbestpractice: Participation, democratization, exhibitions, co-creation
 ---
 The City Lab has been up and running since 2010. It consists of three different formats:

@@ -52,6 +52,9 @@ infosbestpractice: "https://www.helinamuseo.fi/en/ Ilona Niinikangas, Museum
   Director, ilona.ninikangas@helinamuseo.fi Foto credits:  Karri
   Anttila/Lvngroom"
 urlsbestpractice: https://www.helinamuseo.fi/en/study-and-learn/projects/i-am-european
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/Mystory.pdf
 keywordsbestpractice: community, youth, co-creation, gamification, education,
   empathy, advocacy, visual media, digitalisation
 ---

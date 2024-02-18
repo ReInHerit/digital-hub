@@ -54,7 +54,10 @@ transferbestpractice: "This best practice has great potential for transfer as it
   can easily apply to the communication and dissemination strategy of a European
   Union- funded project, from Erasmus+ to Horizon projects. "
 infosbestpractice: "n/a "
-urlsbestpractice: "https://www.facebook.com/ReInHerit/ https://www.instagram.com/reinherit_/ "
+urlsbestpractice: "https://www.facebook.com/ReInHerit/"
+urlsbestpracticeTwo: "https://www.instagram.com/reinherit_/"
+urlsbestpracticeThree: ""
+pdf: /bppdf/SocialMedia.pdf
 keywordsbestpractice: "social media audience engagement digitalisation "
 ---
 <!--\[if gte mso 9]><xml>

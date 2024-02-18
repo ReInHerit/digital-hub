@@ -108,6 +108,9 @@ infosbestpractice: "\"The evaluation of \"\"ReInHerit in Performance: The
   success, aiming to inspire a broader cultural shift toward more engaging and
   meaningful museum experiences. \""
 urlsbestpractice: https://reinherit.eu
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/ImmersivePerformances.pdf
 keywordsbestpractice: Cultural Heritage, Immersion, Performance, Interactivity, Interdisciplinary
 ---
 The immersive performance titled "ReInHerit in Performance: The Hadjigeorgakis Kornesios Mansion”, which took place on 29 October 2022 at the Ethnological Museum, in Nicosia, Cyprus, is a ground-breaking initiative in encouraging audience engagement within cultural heritage sites. This avant-garde experience seamlessly combines artistic mediums, integrating contemporary music and cutting-edge technologies. Examining the conceptual framework and the dynamic interaction between the audience and the immersive environment of this performance reveals a deliberate effort to enhance visitors' experiences in cultural heritage sites and attract a more diverse audience.

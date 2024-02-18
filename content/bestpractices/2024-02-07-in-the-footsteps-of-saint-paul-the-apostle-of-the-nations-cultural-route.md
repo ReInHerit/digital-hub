@@ -84,6 +84,9 @@ transferbestpractice: "Cultural Routes offer a very good basis for effective
   and historical ties. "
 infosbestpractice: https://www.stpaul-culturalroute.eu/about/
 urlsbestpractice: https://www.stpaul-culturalroute.eu/
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/StPaulCultRoute.pdf
 keywordsbestpractice: cultural heritage, religious heritage, cultural route,
   cooperation between museums and heritage sites, sustainable cultural tourism
 ---

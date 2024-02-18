@@ -50,6 +50,9 @@ transferbestpractice: "There European Heritage Label may be awarded to three
   the intangible heritage associated with a place."
 infosbestpractice: https://culture.ec.europa.eu/cultural-heritage/initiatives-and-success-stories/european-heritage-label
 urlsbestpractice: https://culture.ec.europa.eu/news/commission-introduces-new-action-to-support-european-heritage-label-sites
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/EuropeanHeritageLabel.pdf
 keywordsbestpractice: european heritage, cultural heritage, history, label
 ---
 The EHL began as an initiative of several national governments to improve knowledge of European history and the role and values of the EU.\

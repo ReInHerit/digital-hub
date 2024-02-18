@@ -96,10 +96,10 @@ infosbestpractice: '"Different workshops, forums and action plans, where
   been organised. The EU INTERREG webpage and the project’s social media
   (Instagram and Facebook) offer an overview of these activities and present the
   project deliverables.'
-urlsbestpractice: "https://www.interreg-danube.eu/approved-projects/danube-s-ar\
-  chaeological-elandscapes
-  http://www.dael-routes.eu/  https://www.museum-joanneum.at/en/archaeology-mus\
-  eum-schloss-eggenberg/projects/danubes-archaeological-elandscapes "
+urlsbestpractice: "https://www.interreg-danube.eu/approved-projects/danube-s-archaeological-elandscapes"
+urlsbestpracticeTwo: "http://www.dael-routes.eu/"
+urlsbestpracticeThree: "https://www.museum-joanneum.at/en/archaeology-museum-schloss-eggenberg/projects/danubes-archaeological-elandscapes"
+pdf: /bppdf/DanubeseLandscapes.pdf
 keywordsbestpractice: Landscapes, cultural heritage, sustainable tourism,
   Danube, archaeological sites
 ---

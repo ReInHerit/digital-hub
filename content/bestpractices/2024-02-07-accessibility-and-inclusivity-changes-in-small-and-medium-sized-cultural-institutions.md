@@ -161,6 +161,9 @@ infosbestpractice: In 2023, the BOCCF embarked on a transformative journey to
   medium-sized cultural institutions seeking to create culturally enriching
   environments for diverse audiences.
 urlsbestpractice: https://www.boccf.org
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/accessibility.pdf
 keywordsbestpractice: Accessibility, inclusivity
 ---
 In the year 2023, the BOCCF emerged as a trailblazer among small to medium-sized cultural institutions in Cyprus through the implementation of its "Aisthiseis" (Senses) programme. This initiative highlights BOCCF’s commitment to encouraging accessibility and inclusivity within cultural spaces, particularly by integrating vulnerable groups into various cultural activities. Rooted in the belief that culture fundamentally defines societal identity, the "Aisthiseis" programme represents a transformative endeavor, highlighting the importance of providing inclusive cultural experiences for all. The notable changes instituted within BOCCF, including the introduction of sign language tours and Braille guides, not only meet specific accessibility needs but also elevate the overall cultural experience for the broader public. Going beyond the confines of traditional museum settings, the programme's innovative adaptation ensures inclusivity across diverse cultural contexts, signaling dedication dedication to embracing diversity in all its forms.

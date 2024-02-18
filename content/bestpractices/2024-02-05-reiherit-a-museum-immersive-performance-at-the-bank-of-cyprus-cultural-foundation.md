@@ -111,9 +111,10 @@ infosbestpractice: "\"The evaluation of \"\"ReInHerit a Museum\"\" provides
   positive transformations. The project's mission goes beyond its success,
   aiming to inspire a broader cultural shift toward more engaging and meaningful
   museum experiences. \""
-urlsbestpractice: https://reinherit-hub.eu/,
-  https://www.boccf.org/research-programmes/ReInHerit/,
-  https://reinherit-hub.eu/firstperfdoc/overview/
+urlsbestpractice: https://reinherit-hub.eu/
+urlsbestpracticeTwo: "https://www.boccf.org/research-programmes/ReInHerit/"
+urlsbestpracticeThree: "https://reinherit-hub.eu/firstperfdoc/overview/"
+pdf: /bppdf/ReInHeritaMuseum.pdf
 keywordsbestpractice: "Immersive performance, Museum Experiences, Human-Centered
   computing, Mixed/Augmented Reality, "
 ---

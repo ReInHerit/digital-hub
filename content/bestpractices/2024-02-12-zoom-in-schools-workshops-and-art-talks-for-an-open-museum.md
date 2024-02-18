@@ -47,6 +47,9 @@ transferbestpractice: "•\tThis best practice can be easily transferred to any
 infosbestpractice: "More info is available on the Museum of Cycladic Art's
   website: https://cycladic.gr/en/page/zoom-sta-scholia "
 urlsbestpractice: "https://cycladic.gr/en/page/zoom-sta-scholia "
+urlsbestpracticeTwo: ""
+urlsbestpracticeThree: ""
+pdf: /bppdf/ZoomInSchools.pdf
 keywordsbestpractice: online guided tours, school visits, audience engagement, pandemic effects
 ---
 <!--\[if gte mso 9]><xml>

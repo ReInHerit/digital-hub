@@ -15,7 +15,7 @@ export default function Template({
   return (
     <BaseLayout>
       <MainHeading
-y      breadCrumb={[
+       breadCrumb={[
           {label:"Resources", value:"/resources"},
           {label:"Best Practices", value:"/bestpractices"},
         ]}
@@ -33,11 +33,6 @@ y      breadCrumb={[
                 <div>{frontmatter.partnerbestpractice}</div>
                 <br />
                 <div>
-                  <i>Publication date</i>
-                </div>
-                <div>{frontmatter.date}</div>
-                <br />
-                <div>
                   <i>Terms of reuse</i>
                 </div>
                 <div>{frontmatter.license}</div>
@@ -53,12 +48,15 @@ y      breadCrumb={[
                 <div>{frontmatter.keywordsbestpractice}</div>
                 <br />
                 <div>
+                  <i>Theme</i>
                 </div>
-{/*
+                <div>{frontmatter.theme}</div>
+                <br />
                 <div>
-                <a style={{borderRadius:0}} href="/bppdf/..." download="bestpractice_pdf" className="btn btn-info border-radius-0" target="_blank" rel="noreferrer">Download PDF</a>
+                </div>
+                <div>
+                <a style={{borderRadius:0}} href={frontmatter.pdf} download="bestpractice_pdf" className="btn btn-info border-radius-0" target="_blank" rel="noreferrer">Download PDF</a>
             </div>
-            */}
               </div>
             }
           >
@@ -89,7 +87,11 @@ y      breadCrumb={[
               <div>
                   <b>Links</b>
               </div>
-              <div><a href={`${frontmatter.urlsbestpractice}`} target="_blank">{frontmatter.urlsbestpractice}</a></div>
+              <div>
+                <a href={`${frontmatter.urlsbestpractice}`} target="_blank" rel="noreferrer">{frontmatter.urlsbestpractice}</a><br />
+                <a href={`${frontmatter.urlsbestpracticeTwo}`} target="_blank" rel="noreferrer">{frontmatter.urlsbestpractice}</a><br />
+                <a href={`${frontmatter.urlsbestpracticeThree}`} target="_blank" rel="noreferrer">{frontmatter.urlsbestpractice}</a>
+                </div>
               <br />
               <div>
                   <b>Resources needed</b>
@@ -116,11 +118,6 @@ y      breadCrumb={[
               </div>
               <div>{frontmatter.infosbestpractice}</div>
               <br />
-              {/* <div>
-                  <b>Videos</b>
-              </div>
-              <div>{frontmatter.videosbestpractice}</div>
-          <br /> */}
            
         </Container>
           </SideMainLayout>
@@ -155,6 +152,9 @@ query($id: String!) {
         timebestpractice
         transferbestpractice
         urlsbestpractice
+        urlsbestpracticeTwo
+        urlsbestpracticeThree
+        pdf
         theme
         type          
     }

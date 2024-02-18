@@ -88,7 +88,10 @@ transferbestpractice: This particular application has the ability to adapt.
 infosbestpractice: This project won the ECTN 'Destination of Sustainable
   Cultural Tourism' Award 1st prize in 2022, in the framework of ReInHerit
   Horizon 2020 CSA, jointly with Europa Nostra and European Travel Commission.
-urlsbestpractice: https://bornholm.info/ https://bornholm.info/erhverv
+urlsbestpractice: "https://bornholm.info/"
+urlsbestpracticeTwo: "https://bornholm.info/erhverv"
+urlsbestpracticeThree: ""
+pdf: /bppdf/WinterIslandBornholm.pdf
 keywordsbestpractice: "smart destination, cooperation, digitalisation "
 ---
 Bornholm is known as the “Sunshine Island” Historically, the Danish Island of Bornholm has always been known as a summer destination. For this reason, Bornholm has been nicknamed “The Sunny Island”. Destination Bornholm ApS has been working with local partners in the tourism industry, municipality, and other public and private entities to build a sustainable tourism destination since 1992. Through the years, both the Spring and Autumn months have seen a steady increase in visitors and helped prolong the season, benefiting the island through economic and social stability and growth. 
