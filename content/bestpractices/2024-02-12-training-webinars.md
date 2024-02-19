@@ -90,8 +90,6 @@ infosbestpractice: By exploiting the potential of digital platforms and
   the accompanying training material, will continue to be valuable resources for
   professional development in the museum sector.
 urlsbestpractice: " https://reinherit-hub.eu/webinars "
-urlsbestpracticeTwo: " https://reinherit-hub.eu/webinars "
-urlsbestpracticeThree: " https://reinherit-hub.eu/webinars "
 keywordsbestpractice: Webinars, Training, Networking, Cooperation, Communication, Management
 pdf: /bppdf/ReInHeritWebinars.pdf
 ---

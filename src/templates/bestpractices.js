@@ -89,8 +89,15 @@ export default function Template({
               </div>
               <div>
                 <a href={`${frontmatter.urlsbestpractice}`} target="_blank" rel="noreferrer">{frontmatter.urlsbestpractice}</a><br />
-                <a href={`${frontmatter.urlsbestpracticeTwo}`} target="_blank" rel="noreferrer">{frontmatter.urlsbestpractice}</a><br />
-                <a href={`${frontmatter.urlsbestpracticeThree}`} target="_blank" rel="noreferrer">{frontmatter.urlsbestpractice}</a>
+                {frontmatter.urlsbestpracticeTwo &&
+                  frontmatter.urlsbestpracticeTwo.length !== 0 && (
+                <a href={`${frontmatter.urlsbestpracticeTwo}`} target="_blank" rel="noreferrer">{frontmatter.urlsbestpracticeTwo}</a>
+                )}
+                <br />
+                {frontmatter.urlsbestpracticeThree &&
+                  frontmatter.urlsbestpracticeThree.length !== 0 && (
+                <a href={`${frontmatter.urlsbestpracticeThree}`} target="_blank" rel="noreferrer">{frontmatter.urlsbestpracticeThree}</a>
+                )}
                 </div>
               <br />
               <div>
