@@ -63,23 +63,22 @@ challengesbestpractice: Coordinating diverse expertise during co-creative
   Toolkit's ability to overcome obstacles and achieve success highlights its
   resilience and the importance of its transdisciplinary approach in fostering
   meaningful connections between technology, culture, and local communities.
-transferbestpractice: The collaboration with MateraHub and the MICC Center
+transferbestpractice: "The collaboration with MateraHub and the MICC Center
   further strengthens the evidence of success. Their crucial roles in initiating
   a collaborative process with the local museum community, creative industries,
   and technology experts underscore the toolkit's broader impact and relevance
   beyond academic settings. Cultural Convergence and the engagement of local
   stakeholders in following events like MagmaFest 2023 at the Giovanni Ridola
   Archaeological Museum (Matera) signifies the toolkit's influence in bridging
-  the gap between technology, cultural sectors and the local
-  community.  https://reinherit-hub.eu/news/07fa5b02-9213-449d-adf3-6e0725736e69
+  the gap between technology, cultural sectors and the local community. "
 infosbestpractice: A reasonable duration for a productive Hackathon is 1 week;
   can be shortened to a few days when considering a preliminary on-line
   preparation.
-urlsbestpractice: "https://reinherit-hub.eu/summerschool/"
-urlsbestpracticeTwo: ""
-urlsbestpracticeThree: ""
-pdf: /bppdf/CoCreativeDesign.pdf
+urlsbestpractice: https://reinherit-hub.eu/summerschool/
+urlsbestpracticeTwo: https://reinherit-hub.eu/news/f7e285c0-f364-403d-a09e-48618e6380f1
+urlsbestpracticeThree: " https://reinherit-hub.eu/news/07fa5b02-9213-449d-adf3-6e0725736e69"
 keywordsbestpractice: CoCreation, Mediation, Interdisciplinarity, Development, Design, Digital Tools
+pdf: /bppdf/CoCreativeDesign.pdf
 ---
 **Mediation and co-creation process** can be considered a best practice in digital tool development, to address innovative and sustainable frameworks in cultural heritage. This approach includes the active involvement of communities in the creative process through **interdisciplinary hackathons.** Co-design methods are used throughout the process to empathize with diverse audiences, understand their needs, define problems, generate innovative solutions, and test prototypes.
 
