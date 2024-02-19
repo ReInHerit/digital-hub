@@ -16,7 +16,7 @@ desc: "Webinars have emerged as a preferred tool for guidance and training, well
 date: 2024-01-30T09:11:55.167Z
 target-audience:
   - PROFESSIONAL
-theme: Tourism
+theme: Management
 license: CC BY 2.0
 pubstatus: completed
 partnerbestpractice: University of Florence - MICC
@@ -90,10 +90,10 @@ transferbestpractice: More than 250 experts were involved and participated in
   be valuable resources for professional development in the museum sector.
 infosbestpractice: n/a
 urlsbestpractice: " https://reinherit-hub.eu/webinars "
-urlsbestpracticeTwo: ""
-urlsbestpracticeThree: ""
-pdf: /bppdf/ReInHeritWebinars.pdf
+urlsbestpracticeTwo: " https://reinherit-hub.eu/webinars "
+urlsbestpracticeThree: " https://reinherit-hub.eu/webinars "
 keywordsbestpractice: Webinars, Training, Networking, Cooperation, Communication, Management
+pdf: /bppdf/ReInHeritWebinars.pdf
 ---
 [YouTube Playlist](https://www.youtube.com/playlist?list=PLUekJ7cIDbhwnv43Tb6Kaoj0jrLfmLUP5)
 
