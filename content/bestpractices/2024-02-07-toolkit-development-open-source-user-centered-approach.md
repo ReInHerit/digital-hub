@@ -63,20 +63,20 @@ challengesbestpractice: A main challenge in the development of generative
   involvement of new museum skills and professions is an important challenge to
   address. Designing new AI/CV applications require a deep knowledge of
   technical aspects that may be hard to acquire.
-transferbestpractice: '"In order to adopt a sustainable management perspective,
+transferbestpractice: "In order to adopt a sustainable management perspective,
   the strategic focus of the toolkit was the development of open-source code, so
   as to facilitate maintenance issues and reuse of applications by different
-  organizations.  Promoting a “future-oriented” Digital Strategy focused on
+  organizations.  "
+infosbestpractice: Promoting a “future-oriented” Digital Strategy focused on
   modular and reusable digital architecture, the codes of these applications are
   supplemented by additional documentation and associated webinars, accessible
-  in the Digital Hub.'
-infosbestpractice: No
-urlsbestpractice: "https://reinherit-hub.eu/tools/apps"
-urlsbestpracticeTwo: "https://reinherit-hub.eu/applications"
-urlsbestpracticeThree: "https://reinherit-hub.eu/tools/components"
-pdf: /bppdf/ToolkitOpenSource.pdf
+  in the Digital Hub.
+urlsbestpractice: https://reinherit-hub.eu/tools/apps
+urlsbestpracticeTwo: https://reinherit-hub.eu/applications
+urlsbestpracticeThree: https://reinherit-hub.eu/tools/components
 keywordsbestpractice: Development, Digital Tools, User-centered-Approach, BYOD
   (Bring Your Own Device), Open Source, Web Apps
+pdf: /bppdf/ToolkitOpenSource.pdf
 ---
 The [ReInHerit Toolkit ](https://reinherit-hub.eu/tools/apps)represents a paradigm shift in museum engagement, distinguished by its **interdisciplinary, co-creative, and sustainable approach.** Through **open-source code development,** it offers customization across diverse museum contexts, fostering a continuous dialogue between museum professionals, visitors, and technology experts. This toolkit is born out of collaboration, with in-depth analyses of visitor and museum professional needs shaping its development. The process involves hackathons and workshops, fostering a collaborative environment where communities actively contribute to tailored solutions. At its core, the ReInHerit Toolkit is designed with a **user-centric approach**, aiming to enhance visitor engagement and create interactive experiences. Geared towards young museum visitors it harnesses digital technology to make museum visits playful, emotional, and people-centered.
 
