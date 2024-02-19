@@ -51,6 +51,11 @@ const ResourcesPage = () => {
           url="/firstperfdoc/overview/"
         />
         <ReinGridCard
+          title="Second Immersive Performance"
+          body="Immersive Performance held in May 2023."
+          url="/secondperfdoc/spoverview"
+        />
+        <ReinGridCard
           title="Exhibitions"
           body="Digital and travelling exhibitions, including applications and design guidelines."
           url="/exhibdoc/"

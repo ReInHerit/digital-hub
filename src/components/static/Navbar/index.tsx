@@ -126,6 +126,12 @@ const ReinNavbar: React.FC = () => {
                 >
                   First performance documentation
                 </Link>
+                <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/secondperfdoc/spoverview"
+                >
+                  Second performance documentation
+                </Link>
                 {/*
                <Link
                   className="text-dark text-decoration-none dropdown-item"

@@ -17,9 +17,9 @@ const spApplication = () => {
       <SideBarsLayout left={<SecondPerfNavDoc />}>
       <p>This document presents a short description for the setting up and usage of the source code developed to support the immersive performance for the ReInHerit project that took place at the Bank of Cyprus Cultural Foundation on the 19th of May 2023. The purpose of the document is to facilitate users who wish to recreate a similar experience to their own premises. The code for the application can be accessed from the following <a href="https://github.com/CYENS/ReInHeritArApp">GitHub repository link</a>.</p>
       
-      {/* <p>
-    <a style={{borderRadius:0}} href="/pdfs/secondPerfDocApplication.pdf" download="Application Documentation" className="btn btn-info border-radius-0" target="_blank" rel="noreferrer">Click this button to download the documentation of the application.</a>
-    </p> */}
+      <p>
+    <a style={{borderRadius:0}} href="/pdfs/ReInHerit a Museum AR Application - Techncial Documentation.pdf" download="Application Documentation" className="btn btn-info border-radius-0" target="_blank" rel="noreferrer">Click this button to download the documentation of the application.</a>
+    </p>
         </SideBarsLayout>
         </Container>
       </BaseLayout>
