@@ -28,7 +28,7 @@ timebestpractice: January 2022 - December 2023
 resourcesbestpractice: Digitization of collections Text descriptions and open
   data  IPR on images and content and open data Museum Dataset Updated datasets
   free of bias Model cards for selected neural networks.
-successbestpractice: '"Successful testing of the apps with diverse users (age,
+successbestpractice: "Successful testing of the apps with diverse users (age,
   ethnicity, etc.): the apps have been tested in multiple venues with diverse
   users, without issues related to visual appearances. Collaboration with museum
   curators for the creation of the test datasets and collection of materials for
@@ -37,9 +37,7 @@ successbestpractice: '"Successful testing of the apps with diverse users (age,
   selected artworks Awards AI/CV communities: the scientific communities in
   multimedia and computer vision have awarded the developed applications in demo
   competition associated with the foremost scientific conferences in those
-  fields. Selection of the ReInHerit toolkit for inclusion in the Italian
-  edition of the Museum+AI
-  Toolkit.  https://reinherit-hub.eu/news/5c0b413f-51f1-40c6-9524-9dc0dc87be3b"'
+  fields."
 challengesbestpractice: Specific areas of resistance within the museum due an
   old conservative mindset of a closed museum focused only on collections,
   objects and not on visitors’ interaction.  The Lack of digital skills by
@@ -50,12 +48,22 @@ transferbestpractice: The ReInHerit model cards could be used in other projects
   and processes, complementing the model cards used in AI/CV communities. The
   ReInHerit cards can open a connection between the Digital Hub and other CH
   projects and networks working on the introduction of AI in museums.
-infosbestpractice: n/a
-urlsbestpractice: "https://reinherit-hub.eu/applications"
-urlsbestpracticeTwo: "https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3"
-urlsbestpracticeThree: ""
-pdf: /bppdf/EthicsAI.pdf
+infosbestpractice: "The recent explosion in generative AI means that museums
+  have to quickly adapt to the new landscape and understand how to make the most
+  of it ethically. The ReInHerit Toolkit was presented as an Italian case study
+  at the “Museums+AI Workshop” IULM AI LAB in Milan, Italy, on October 9th,
+  2023, organized by Dr. Giuliano Gaia – InvisibleStudio and Dr. Oonagh Murphy,
+  Goldsmiths University /AI+Museums Network. 12 The experience and reference to
+  this important Network is useful for testing and updating the ReInHerit
+  Toolkit following an interdisciplinary, sustainable, and up-to-date approach
+  to the impact of AI in the museum world. Italian case studies from this
+  workshop will be included in the Italian translation of AI: A Museum Planning
+  Toolkit. "
+urlsbestpractice: https://reinherit-hub.eu/applications
+urlsbestpracticeTwo: https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3
+urlsbestpracticeThree: https://reinherit-hub.eu/news/5c0b413f-51f1-40c6-9524-9dc0dc87be3b"
 keywordsbestpractice: " Ethics, AI tools, Fairness, Scientific Accuracy "
+pdf: /bppdf/EthicsAI.pdf
 ---
 Important steps and recommendations for **regulating GenAI** based on a **human-centered approach** include concerns related to the **Ethics** of AI Chatbots, user privacy policy compliance, training data, and the scientific accuracy of chatbot outputs. The development of artificial intelligence applications involved extensive training on datasets. Ensuring that the final training data is ethically sourced, unbiased, and devoid of discriminatory content is crucial for maintaining the ethical integrity of AI tools. 
 
