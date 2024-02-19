@@ -80,15 +80,15 @@ challengesbestpractice: "The work to research and identify the topics was
   materials for publishing news and registration forms, creation of graphical
   interface of the single webinar rooms, collection of material to be
   published."
-transferbestpractice: More than 250 experts were involved and participated in
+transferbestpractice: "More than 250 experts were involved and participated in
   various online webinar sessions. Webinars played a crucial role in fostering
   collaboration, disseminating knowledge, and building a network of experts
-  within the context of the ReInHerit project. By exploiting the potential of
-  digital platforms and involving professionals from various institutions, a
-  dynamic and inclusive learning environment was created. The recorded webinar
-  sessions, together with the accompanying training material, will continue to
-  be valuable resources for professional development in the museum sector.
-infosbestpractice: n/a
+  within the context of the ReInHerit project. "
+infosbestpractice: By exploiting the potential of digital platforms and
+  involving professionals from various institutions, a dynamic and inclusive
+  learning environment was created. The recorded webinar sessions, together with
+  the accompanying training material, will continue to be valuable resources for
+  professional development in the museum sector.
 urlsbestpractice: " https://reinherit-hub.eu/webinars "
 urlsbestpracticeTwo: " https://reinherit-hub.eu/webinars "
 urlsbestpracticeThree: " https://reinherit-hub.eu/webinars "
