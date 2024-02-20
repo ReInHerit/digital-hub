@@ -38,7 +38,7 @@ const EventsPage: React.FC = () => {
       />
       <ReinGridCard
         title="Hackathon in Nicosia"
-        url="https://reinherithackathon.cyens.org.cy/homepage/"
+        url="/hackathonnicosia/"
         body="ReInHerit Hackathon in Nicosia."
       />
     </ReinCardGrid>
