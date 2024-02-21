@@ -39,11 +39,11 @@ transferbestpractice: During the development of Dublin Discovery Trails we
   launched the first ever Digital Trails Toolkit (attached), so that others
   could learn from our experience.
 infosbestpractice: https://www.failteireland.ie/FailteIreland/media/WebsiteStructure/Documents/Dublin/dublin-trails-toolkitupdated-2022.pdf   https://www.irishexaminer.com/news/arid-41045846.html
-urlsbestpractice: "https://doorsintodocklands.com/"
-urlsbestpracticeTwo: "https://www.bu.edu/bhr/2021/10/04/digital-trail-development-opportunities-for-tourism-and-hospitality-lessons-from-ireland/"
-urlsbestpracticeThree: ""
-pdf: /bppdf/DublinDiscoveryTrail.pdf
+urlsbestpractice: https://web.archive.org/web/20230929202807/https://doorsintodocklands.com/
+urlsbestpracticeTwo: https://www.bu.edu/bhr/2021/10/04/digital-trail-development-opportunities-for-tourism-and-hospitality-lessons-from-ireland/
+urlsbestpracticeThree: " "
 keywordsbestpractice: Digitalisation, Smart Tourism, Dublin, Docklands
+pdf: /bppdf/DublinDiscoveryTrail.pdf
 ---
 The Aim: 
 In 2019 Dublin City decided to invest in a new and unique story telling App for the city. The aim was to use technology to bring Dublin's old stories to life in a new way. The core idea was to help drive visitors to less frequented areas of the city and encourage the development of new experiences thought out Dublin. 
