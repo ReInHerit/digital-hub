@@ -61,14 +61,12 @@ transferbestpractice: "The mission of Jason and the Argonauts to bring back the
   other regions and cities."
 infosbestpractice: https://argonautica-network.eu
 urlsbestpractice: https://www.argonautica-network.eu
-urlsbestpracticeTwo: ""
-urlsbestpracticeThree: ""
-pdf: /bppdf/argonautica.pdf
+urlsbestpracticeTwo: " "
+urlsbestpracticeThree: " "
 keywordsbestpractice: Cultural Route, Intangible Heritage, Sustainable Tourism,
   Cultural Tourism, Smart Tourism, Mythology, Poetry, Literature, Visual Arts
+pdf: /bppdf/argonautica.pdf
 ---
-
-
 `youtube: https://www.youtube.com/watch?v=EUwkKIbNDyo`
 
 Cultural Routes (CRs) of Council of Europe (CoE) are pioneers in initiatives concerning European cultural integration and European identity. They involve Cultural Heritage as a strong link of European nations, linking Culture with Tourism.\
@@ -77,13 +75,13 @@ CR is a route which includes two or more countries or regions and is organized o
 \
 Most existing Cultural Routes are mainly based on tangible heritage, such as castles, monuments, products, places of worship, archeological sites, spas, cemeteries, etc. Cultural Routes based almost exclusively on intangible heritage is an innovation, particularly based on: Mythology, Poetry and Visual arts.\
 \
-The Argonautic expedition dating back to 1200 BC is the oldest legendary long-distance maritime journey in the world ever, covering several countries, seas,crivers, cities, places, referred to:\
+The Argonautic expedition dating back to 1200 BC is the oldest legendary long-distance maritime journey in the world ever, covering several countries, seas,crivers, cities, places, referred to:
 
-* in ancient Greek theatre tragedy Media by Euripidis, in 4th century BC\
-* in poetry ‘Argonautica’ by Apollonius Rhodius 250 BC, Orpheus 6th centrury BC and Pindar\
-* depicted at paintings and frescos of the Rainessance, also in modern art.\
-  \
-  ‘The Return of the Argonauts’ as a CoE Candidate Cultural Route is hence developed.
+* in ancient Greek theatre tragedy Media by Euripidis, in 4th century BC
+* in poetry ‘Argonautica’ by Apollonius Rhodius 250 BC, Orpheus 6th centrury BC and Pindar
+* depicted at paintings and frescos of the Rainessance, also in modern art.
+
+‘The Return of the Argonauts’ as a CoE Candidate Cultural Route is hence developed.
 
 The mission of Jason and the Argonauts from Iolcos, present day City of Volos in Greece, to Colchis, present day Kutaisi in Georgia, to bring back the golden fleece has inspired several works of art, including poetry, literature, pottery, theatre, opera, painting, sculpture, cinema, documentaries, music and publications.
 
@@ -94,8 +92,6 @@ The return of the Argonauts has left a cultural footprint in several places: Jas
 ![](https://ucarecdn.com/d6437545-0fa0-4fe7-a1a7-4af140c27888/ "from the book by Jason Colavito 'Jason and the Argonauts through the Ages', 2014")
 
 ![](https://ucarecdn.com/34fd68f6-416e-449e-a9cf-0db2c11ee992/ "Jason and the Argonauts arriving at Colchis  by Charles de La Fosse, circa 1672   Painting in the Palace of Versailles, Diana room")
-
-
 
 ![](https://ucarecdn.com/37b6f297-4f20-46e6-8d28-c1a9c6093aee/)
 
