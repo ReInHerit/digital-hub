@@ -50,21 +50,22 @@ transferbestpractice: "There European Heritage Label may be awarded to three
   the intangible heritage associated with a place."
 infosbestpractice: https://culture.ec.europa.eu/cultural-heritage/initiatives-and-success-stories/european-heritage-label
 urlsbestpractice: https://culture.ec.europa.eu/news/commission-introduces-new-action-to-support-european-heritage-label-sites
-urlsbestpracticeTwo: ""
-urlsbestpracticeThree: ""
-pdf: /bppdf/EuropeanHeritageLabel.pdf
+urlsbestpracticeTwo: " "
+urlsbestpracticeThree: " "
 keywordsbestpractice: european heritage, cultural heritage, history, label
+pdf: /bppdf/EuropeanHeritageLabel.pdf
 ---
 The EHL began as an initiative of several national governments to improve knowledge of European history and the role and values of the EU.\
 In 2008 the European Commission began, at the invitation of the Council of Ministers, examining the possibility of adopting the scheme at an EU level. Following a proposal to the European Parliament and Council, the EHL was formally established in 2011. The first selection of sites took place in 2013. So far 38 sites have been designated. The next selection will be in 2019.\
 Every 2 years, participating countries pre-select a maximum of 2 sites. Following this, an independent panel of experts who make up the jury at EU level may select a maximum of 1 site from each country.\
-The sites are assessed according to three main criteria:\
+The sites are assessed according to three main criteria:
 
-* the symbolic European value of a site\
-* the quality of the project proposed to promote its European dimension\
-* the quality of the work plan.\
-  \
-  EHL sites bring to life the European narrative and the history behind it. They are about much more than just aesthetics.
+* the symbolic European value of a site
+* the quality of the project proposed to promote its European dimension
+* the quality of the work plan.
+
+\
+EHL sites bring to life the European narrative and the history behind it. They are about much more than just aesthetics.
 
 \
 The focus is on the promotion of the European dimension of the sites and providing access to them. This includes organising a wide range of educational activities, especially for young people.\
