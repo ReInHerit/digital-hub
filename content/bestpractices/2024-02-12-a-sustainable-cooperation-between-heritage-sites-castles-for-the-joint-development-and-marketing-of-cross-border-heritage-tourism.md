@@ -85,19 +85,12 @@ transferbestpractice: " A joint association across heritage sites can be an
   region in connecting and developing a common brand and principles for their
   marketing offer."
 infosbestpractice: n/a
-urlsbestpractice: Wissen - Über Schlösserstrasse - Schlösserstrasse -
-  Steiermark, Burgenland, Österreich - Slovenien (schloesserstrasse.com)
-  castleroad_verkaufshandbuch_d.pdf (apswiss.ch) Project - Building sustainable
-  institutionalised cooperation between castles and castles for the development
-  and marketing of joint cross-border offers (keep.eu) Castle Road – EN Interreg
-  SI-AT Castle Road | ZRS Bistra, Ptuj Project - Building sustainable
-  institutionalised cooperation between castles and castles for the development
-  and marketing of joint cross-border offers (keep.eu)
-urlsbestpracticeTwo: ""
-urlsbestpracticeThree: ""
-pdf: /bppdf/Schlosserstrasse.pdf
+urlsbestpractice: www.schloesserstrasse.com
+urlsbestpracticeTwo: https://backonline.apswiss.ch/6086/castleroad_verkaufshandbuch_d.pdf
+urlsbestpracticeThree: https://keep.eu/projects/22479/Aufbau-einer-nachhaltigen-i-DE/
 keywordsbestpractice: Cultural institutions, joint marketing, cultural
   management, cross-border cooperation
+pdf: /bppdf/Schlosserstrasse.pdf
 ---
 The ”Castle Road” is a cross-border route, which incorporates an area with one of the highest density of castles and palaces in Europe. Dating back in history to the 8th century, Franks in the west and Avars in the east began building two opposite defence lines, spreading from the outskirts of the Alps to the Drava River in the south. The area was long considered a bridge between middle and South-Eastern Europe and witnessed notable battles by the Holy Roman Empire, Mongols, Osmans and other peoples (unfolding over a period of over 1,000 years) for the dominance over this territory. This border area is a rich of notable remnants from these times and prominent for having one of the highest numbers of such defence constructions in the whole of Europe. 
 
