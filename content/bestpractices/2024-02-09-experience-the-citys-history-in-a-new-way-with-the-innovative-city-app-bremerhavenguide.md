@@ -116,12 +116,12 @@ infosbestpractice: "\"Through the CMS system anchored at the tourism company,
   identification-creating tours, such as a tour to the museum ships, are
   currently being realised. A tour on the topic of sustainability will be
   developed in spring 2024."
-urlsbestpractice: "http://www.bremerhaven.de/bremerhavenguide"
-urlsbestpracticeTwo: ""
-urlsbestpracticeThree: ""
-pdf: /bppdf/BremerhavenGuide.pdf
+urlsbestpractice: http://www.bremerhaven.de/bremerhavenguide
+urlsbestpracticeTwo: " "
+urlsbestpracticeThree: " "
 keywordsbestpractice: City history, cultural heritage, city identity, city
   tours, innovative, new experiences, digital
+pdf: /bppdf/BremerhavenGuide.pdf
 ---
 With the BremerhavenGuide app, users can go on a historical and cultural journey of discovery and experience places of culture and history, sights, insider places and scientific and tourist facilities. The BremerhavenGuide offers an interactive, digital city map in which various themed tours can be started, such as the historical tour "Experience a journey through time in Bremerhaven". The digital tour of the city's history takes you to interesting sights and historical locations. From the oldest active lighthouse on the German North Sea coast to the Historical Museum, the Emigration Monument and the historic bascule bridge. The app uses videos, audio stories, images and texts to provide entertaining information at a total of 20 stations.  At some "Points of Interest" (PoI), a very special information experience awaits the user. Whenever the word "Augmented Reality" (AR) is displayed on a PoI page, you can use your smartphone to explore unexpected insights, entertaining visualisations or exciting all-round views. AR technology offers users an enhanced city experience by merging the real environment with virtual elements. Virtual reality glasses are not required for the interactive city experience. The user only needs an AR-capable smartphone or tablet to play the AR scenes. The interactive experiences, which conventional sources of information cannot reproduce, evoke positive emotional reactions in the viewer (wow effect), which also contribute to an improved perception of the historical sites and cultural assets. The innovative storytelling, such as fascinating 360-degree views and the integration of numerous playful elements and activities, motivates users even more to engage with the city's historical sites and sights and also creates positive experiences.
 
@@ -141,4 +141,4 @@ The content of the APP is created and managed via a content management system, w
 
 The presentation of the historical and cultural sites by the BremerhavenGuide provides digital rather than physical information. By dispensing with printed advertising media, natural resources are conserved and an active contribution is made to greater climate protection.
 
-`youtube: https://player.vimeo.com/progressive_redirect/playback/719867136/rendition/720p/file.mp4?loc=external&signature=b5cc77e7ec45a9ed521eae458fd48aa831b8df0f7548a512e14592b3dd7825a2`
+<iframe src="https://player.vimeo.com/progressive_redirect/playback/719867136/rendition/720p/file.mp4?loc=external&signature=b5cc77e7ec45a9ed521eae458fd48aa831b8df0f7548a512e14592b3dd7825a2" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
