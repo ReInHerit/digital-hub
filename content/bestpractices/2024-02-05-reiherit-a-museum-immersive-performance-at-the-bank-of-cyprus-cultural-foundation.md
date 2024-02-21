@@ -2,7 +2,7 @@
 pageId: bbddc20b-2c0d-4737-86fa-471417445bf8
 layout: blog
 type: bestpractice
-title: "Reiherit a Museum: Immersive Performance at the Bank of Cyprus Cultural
+title: "ReInHerit a Museum: Immersive Performance at the Bank of Cyprus Cultural
   Foundation"
 desc: This practice explores how an immersive performance enhances museum
   experiences and broadens audience participation. It integrates interactive
@@ -112,11 +112,11 @@ infosbestpractice: "\"The evaluation of \"\"ReInHerit a Museum\"\" provides
   aiming to inspire a broader cultural shift toward more engaging and meaningful
   museum experiences. \""
 urlsbestpractice: https://reinherit-hub.eu/
-urlsbestpracticeTwo: "https://www.boccf.org/research-programmes/ReInHerit/"
-urlsbestpracticeThree: "https://reinherit-hub.eu/firstperfdoc/overview/"
-pdf: /bppdf/ReInHeritaMuseum.pdf
+urlsbestpracticeTwo: https://www.boccf.org/research-programmes/ReInHerit/
+urlsbestpracticeThree: https://reinherit-hub.eu/firstperfdoc/overview/
 keywordsbestpractice: "Immersive performance, Museum Experiences, Human-Centered
-  computing, Mixed/Augmented Reality, "
+  computing, Mixed/Augmented Reality "
+pdf: /bppdf/ReInHeritaMuseum.pdf
 ---
 The immersive performance titled "ReInHerit a Museum," which took place on International Museum Day at the Bank of Cyprus Cultural Foundation, marks a pioneering initiative in reshaping audience engagement within heritage sites. This avant-garde experience seamlessly weaves together artistic expressions, integrating contemporary music and cutting-edge technologies. Delving into the conceptual framework and the dynamic interaction between the audience and the application reveals a deliberate effort to enhance visitors' experiences and attract a more diverse audience.
 
