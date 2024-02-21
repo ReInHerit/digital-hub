@@ -26,9 +26,9 @@ emailbestpractice: info@culturaltourism-net.eu
 thumbnail: https://ucarecdn.com/2d11f240-c4bd-441e-9b68-4e1ad4887dea/
 formtypbestpractice: VR/AR & Technologies, inc. Gamification & Immersive perfomances
 orgbestpractice: University of Vigo
-locationbestpractice: ": Galicia region (Spain) and Northern Portugal; Italy
-  with a specific focus on Veneto, Tuscany and EmiliaRomagna regions,
-  south-eastern Norway; Hungary, Slovakia, and Romanian Transylvania"
+locationbestpractice: Galicia region (Spain) and Northern Portugal; Italy with a
+  specific focus on Veneto, Tuscany and EmiliaRomagna regions, south-eastern
+  Norway; Hungary, Slovakia, and Romanian Transylvania
 timebestpractice: 2021-2023
 resourcesbestpractice: n/a
 successbestpractice: "Both the online platform and the mobile app are free of
@@ -89,10 +89,10 @@ infosbestpractice: "- The project created a European network of public and
   clearly-defined strategy for exploitation of the project’s results were
   produced on the basis of the findings resulting from the pilots. "
 urlsbestpractice: https://rurallure.eu/
-urlsbestpracticeTwo: ""
-urlsbestpracticeThree: ""
-pdf: /bppdf/rurAllure.pdf
+urlsbestpracticeTwo: " "
+urlsbestpracticeThree: " "
 keywordsbestpractice: digital
+pdf: /bppdf/rurAllure.pdf
 ---
 “rurAllure – promotion of rural museums and heritage sites in the vicinity of European pilgrimage routes” is an Horizon2020 project aimed at fostering cultural cooperation and sustainable tourism in the proximity of European historic pilgrimage routes.
 
@@ -107,16 +107,18 @@ The rurAllure project addresses one weak point hidden behind this depiction of s
 The opportunity for the project is reinforced by the aim to set the basis for rural communities to develop relevant and cohesive tourist products that may help facing the economic challenges arising with the COVID 19 crisis – considering that tourism is one of the most affected areas, the EU should put strong focus in the future into domestic tourism and well as outdoor activities.
 
 The goal of rurAllure is to overcome this situation through the allure of the cultural heritage found in the rural environment. The opportunity arises from the fact that pilgrimage is usually planned with some flexibility regarding dates, distances travelled in successive journeys, places to rest, etc. Many pilgrims are amenable to serendipitous findings, too. This makes pilgrimage largely different from other types of cultural and touristic experiences, thus opening possibilities of increasing the numbers of visitors to the least-known heritage sites by: 
-● Assembling meaningful cultural experiences with resources found in the rural environment
-● Mobilising transportation, accommodation, and dining in one click
-● Offering the whole packs to the pilgrims through tailor-made means of promotion
-● Creation of a network of pilgrims, tourists, travellers, local stakeholders, heritage and fostering the exchange of knowledge and experience.
+
+* Assembling meaningful cultural experiences with resources found in the rural environment
+* Mobilising transportation, accommodation, and dining in one click
+* Offering the whole packs to the pilgrims through tailor-made means of promotion
+* Creation of a network of pilgrims, tourists, travellers, local stakeholders, heritage and fostering the exchange of knowledge and experience.
 
 The project is developed according to four pilots, which function as "laboratories of ideas" within the project and work on different thematic areas in different geographical areas: 
-● Pilot 1: Literary heritage on the ways to Santiago de Compostela.
-● Pilot 2: Thermal heritage and others on the ways to Rome.
-● Pilot 3: Ethnographic heritage on the ways to Trondheim.
-● Pilot 4: Natural heritage on the ways to Csíksomlyó.
+
+* Pilot 1: Literary heritage on the ways to Santiago de Compostela.
+* Pilot 2: Thermal heritage and others on the ways to Rome.
+* Pilot 3: Ethnographic heritage on the ways to Trondheim.
+* Pilot 4: Natural heritage on the ways to Csíksomlyó.
 
 Mapping heritage sites along and in the proximity of the routes constitutes the core of the project’s action. The materials are compiled into a digital repository of cultural points of interest, available both as web platform and mobile application. Pilgrims can use the tool to discover new cultural spots, integrate them into their travel itineraries and share featured travel plans with the community, while private and public stakeholders can contribute to the heritage repository to strengthen the visibility of local resources.
 
