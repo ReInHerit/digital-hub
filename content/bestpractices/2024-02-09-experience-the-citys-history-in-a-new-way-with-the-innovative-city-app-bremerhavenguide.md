@@ -141,4 +141,4 @@ The content of the APP is created and managed via a content management system, w
 
 The presentation of the historical and cultural sites by the BremerhavenGuide provides digital rather than physical information. By dispensing with printed advertising media, natural resources are conserved and an active contribution is made to greater climate protection.
 
-<iframe src="https://player.vimeo.com/progressive_redirect/playback/719867136/rendition/720p/file.mp4?loc=external&signature=b5cc77e7ec45a9ed521eae458fd48aa831b8df0f7548a512e14592b3dd7825a2" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+A﻿ short video about the BremerhavenGuide can be watched [here](https://vod-progressive.akamaized.net/exp=1708528143~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F3973%2F28%2F719867136%2F3338721573.mp4~hmac=9fa6c96e6b111063109a22ab2626789592aacdf320200b5acf92bfb0df97ab8f/vimeo-prod-skyfire-std-us/01/3973/28/719867136/3338721573.mp4?filename=file.mp4).
