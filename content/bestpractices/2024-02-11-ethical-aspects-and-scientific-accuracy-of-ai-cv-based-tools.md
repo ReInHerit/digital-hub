@@ -61,7 +61,7 @@ infosbestpractice: "The recent explosion in generative AI means that museums
   Toolkit. "
 urlsbestpractice: https://reinherit-hub.eu/applications
 urlsbestpracticeTwo: https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3
-urlsbestpracticeThree: https://reinherit-hub.eu/news/5c0b413f-51f1-40c6-9524-9dc0dc87be3b"
+urlsbestpracticeThree: https://reinherit-hub.eu/news/5c0b413f-51f1-40c6-9524-9dc0dc87be3b
 keywordsbestpractice: " Ethics, AI tools, Fairness, Scientific Accuracy "
 pdf: /bppdf/EthicsAI.pdf
 ---
