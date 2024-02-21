@@ -105,11 +105,11 @@ infosbestpractice: "Outreach programmes include cooperation with senior and
   open to the public on appointment, and it also provides a research service.
   The museum is accessible by public transport, parking is available in nearby
   streets, and the whole area of the museum is accessible for wheelchair users."
-urlsbestpractice: "https://www.origo.hu/gazdasag/20220118-penzmuzeum-intezmeny-ilyen-lesz.html"
-urlsbestpracticeTwo: "https://welovebudapest.com/cikk/2022/3/25/latnivalok-es-kultura-ahol-barki-a-kezebe-foghat-egy-250-millioforintos-aranytombot-megneztuk-az-uj-es-interaktiv-penzmuzeumot"
-urlsbestpracticeThree: "https://magyarnemzet.hu/gazdasag/2022/03/penzmuzeum-es-latogatokozpont-az-egykori-postapalotaban"
+urlsbestpractice: https://www.origo.hu/gazdasag/20220118-penzmuzeum-intezmeny-ilyen-lesz.html
+urlsbestpracticeTwo: https://welovebudapest.com/cikk/2022/3/25/latnivalok-es-kultura-ahol-barki-a-kezebe-foghat-egy-250-millioforintos-aranytombot-megneztuk-az-uj-es-interaktiv-penzmuzeumot
+urlsbestpracticeThree: https://magyarnemzet.hu/gazdasag/2022/03/penzmuzeum-es-latogatokozpont-az-egykori-postapalotaban
+keywordsbestpractice: Money museum, Visitors centre
 pdf: /bppdf/TheGoldenPath.pdf
-keywordsbestpractice: "Money museum, Visitors centre, "
 ---
 The Hungarian Money Museum, founded by the Central Bank of Hungary, serves the development of financial culture, and has a dual function: it houses the MNB numismatic collection as a museum, and
 in line with the trend of the world’s central banks and museums it provides experiential knowledge transfer, i.e., entertaining, and engaging visitors.
@@ -172,18 +172,48 @@ We are also present at student-centric events, such as:
 ![](https://ucarecdn.com/c2b853b8-265e-447a-a44d-16174050707e/ "This project received the 3rd prize in the ECTN Awards 'Destination of Sustainable Cultural Tourism 2023', in the category 'Digitalisation advances and digital transition in Sustainable Cultural Tourism', by a joint jury with Europa Nostra and European Travel Commission also in the framework of ReInHerit Horizon 2020 CSA.")
 
 Extra publications about the museum in the media:
+
+
   https://www.vg.hu/kozelet/2023/03/egy-eves-a-penzmuzeum-rengeteg-program-varj\a-az-erdeklodoket
-  https://www.penzcentrum.hu/szorakozas/20211001/uj-muzeum-nyilik-budapesten-ez\-lesz-benne-a-kulonlegesrengeteg-penzrol-van-szo-1118230
+
+
+  https://www.penzcentrum.hu/szorakozas/20211001/uj-muzeum-nyilik-budapesten-ez-lesz-benne-a-kulonlegesrengeteg-penzrol-van-szo-1118230
+
+
   https://www.penzcentrum.hu/szorakozas/20211222/hamarosan-nyilik-a-magyar-penz\muzeum-hihetetlen-ertekukincseket-allitanak-ki-1120503
-  https://pestbuda.hu/cikk/20211223_marciusra_elkeszul_a_penzmuzeum_az_egykori_\postapalotaban
-  https://www.origo.hu/gazdasag/20230314-penzmuzeum-elso-ev-unnepseg-erdeklodes\.html
+
+
+  https://pestbuda.hu/cikk/20211223*marciusra_elkeszul_a_penzmuzeum_az_egykori*\postapalotaban
+
+
+  https://www.origo.hu/gazdasag/20230314-penzmuzeum-elso-ev-unnepseg-erdeklodes.html
+
+
   https://www.origo.hu/itthon/20230511-ujabb-szakmai-elismeresben-reszesult-a-p\enzmuzeum.html
+
+
   https://index.hu/kultur/2021/12/22/nalunk-is-lesz-penzmuzeum-most-epul/
+
+
   https://hirado.hu/kultura-eletmod/cikk/2021/10/10/europa-leglatvanyosabb-penz\muzeuma-budapesten-nyiltjameg-kapujat
-  https://novekedes.hu/hirek/tudta-hogy-valaha-a-penzmuzeum-helyen-banyato-volt\-idoszaki-tarlat-meseli-el-ahely-tortenetet
+
+
+  https://novekedes.hu/hirek/tudta-hogy-valaha-a-penzmuzeum-helyen-banyato-volt-idoszaki-tarlat-meseli-el-ahely-tortenetet
+
+
   https://novekedes.hu/hirek/minden-varakozast-felulmult-a-penzmuzeum-nepszerus\ege
+
+
   https://novekedes.hu/hirek/mar-a-100-ezer-latogatohoz-kozelit-a-szakmai-elism\eresben-reszesult-penzmuzeum
+
+
   https://index.hu/gazdasag/2022/03/15/penzmuzeum-postapalota-bankjegynyomtatas/
+
+
   https://novekedes.hu/hirek/matolcsy-gyorgy-62306a306dea8
+
+
   https://www.magyarhirlap.hu/gazdasag/20230310-a-penz7-programsorozat-keretebe\n-a-koztarsasagi-elnok-ferjeis-bekapcsolodott-a-penzmuzeum-rendhagyo-tarlatve\zetesebe
+
+
   https://hellomagyar.hu/2022/09/11/hatalmas-erdeklodes-elkapraztat-a-penzmuzeu\m-ingyen-a-penzrol/
