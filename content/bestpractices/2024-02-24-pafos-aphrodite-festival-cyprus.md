@@ -19,7 +19,7 @@ personsbestpractice: Manos Vougioukas
 emailbestpractice: info@culturaltourism-net.eu
 thumbnail: https://ucarecdn.com/101be015-bf9d-4edb-aa76-10f0ece25098/
 formtypbestpractice: Audience and Local Community Engagement
-orgbestpractice: ECTN
+orgbestpractice: Pafos Municipality
 locationbestpractice: Pafos, Cyprus
 timebestpractice: 1999 - 2018
 resourcesbestpractice: Each production costs about 250000 EUR with half the
@@ -66,3 +66,5 @@ Each performance has a minimum capacity of 2.500 seats on metal tiers amphitheat
 The founding Sponsors of Pafos Aphrodite Festival 2018 are the Ministry of Education and Culture and the Cyprus Tourism Organization.\
 \
 The Festival promotes the intangible heritage of opera and related CCIs, attracting cultural tourism.
+
+![](https://ucarecdn.com/24ce2b71-7626-4be0-9166-d046941dd850/)
