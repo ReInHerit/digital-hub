@@ -57,14 +57,14 @@ transferbestpractice: The project can be easily transferred as its initiator and
   Kerameikos, in Athens, informing and explaining on the burial rites of
   Classical Greece.
 infosbestpractice: "Further information can be obtained from the project’s
-  animator, Ms Konstantina Moula, email: konstatinamoula@yahoo.com"
+  animator, Ms Konstantina Moula, email: konstantinamoula@yahoo.com"
 urlsbestpractice: https://archaeologicalmuseums.gr/el/museum/5df34af3deca5e2d79e8c141/archaeological-museum-of-agios-kirykos
-urlsbestpracticeTwo: ""
-urlsbestpracticeThree: ""
-pdf: /bppdf/LifeClassicalGreece.pdf
+urlsbestpracticeTwo: n/a
+urlsbestpracticeThree: n/a
 keywordsbestpractice: Young museum visitors; participant museum activities;
   explanatory narratives; understanding through clay reproduction of exhibits;
   gastronomy; cultural and creative tourism
+pdf: /bppdf/LifeClassicalGreece.pdf
 ---
 In the project 'Tonight We Are Having A Banquet', young audiences, both among visitors during the tourist season and school children during the school year, follow a two and a half hour session enabling them to   get to know a little better the ancient Greek culture and everyday life, to come directly to the exhibits, and to realise that, even if we are separated by thousands of years from the ancient Greek society and culture, there are some things that have not changed over the centuries. In addition, during the educational programme, children will learn how to observe, categorise, search and identify the objects in the display cases and therefore relate the ancient tools with their modern equivalents.
 
