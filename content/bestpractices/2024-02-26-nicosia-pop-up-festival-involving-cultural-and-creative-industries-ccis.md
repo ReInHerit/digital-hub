@@ -14,8 +14,8 @@ theme: Management
 license: CC BY 2.0
 pubstatus: completed
 partnerbestpractice: ECTN
-personsbestpractice: Maria Klioumi
-emailbestpractice: admin@culturaltourism-net.eu
+personsbestpractice: Sotiris Christoforou
+emailbestpractice: s.christoforou@ccci.org.cy
 thumbnail: https://ucarecdn.com/24f06372-d107-4791-843a-43419612e138/
 formtypbestpractice: Cooperation between Museums and Heritage sites
 orgbestpractice: Nicosia Municipal Arts Centre (NiMAC), Nicosia Tourism Board (NTB)
