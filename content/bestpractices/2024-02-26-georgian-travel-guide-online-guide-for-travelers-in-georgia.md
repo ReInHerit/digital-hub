@@ -18,7 +18,7 @@ personsbestpractice: Maia Meladze
 emailbestpractice: m.meladze@gruni.edu.ge
 thumbnail: https://ucarecdn.com/49f9f106-a6b7-44bc-8357-648be15a32fb/
 formtypbestpractice: Audience and Local Community Engagement
-orgbestpractice: https://georgiantravelguide.com/en
+orgbestpractice: Georgian Travel Guide
 locationbestpractice: Georgia, online
 timebestpractice: 2021-2023
 resourcesbestpractice: Programming services are needed.
@@ -47,6 +47,20 @@ Georgian Travel Guide is founded by travelers with the desire to share the excit
 
 The tourism platform includes web pages, mobile applications (android and iOS), and social media channels. It have several goals one of which is to share the love and excitement of traveling in Georgia. 
 
-
-
 `youtube: https://www.youtube.com/channel/UCl84InXwTdrcXZyR04LzUSA`
+
+# Georgian Travel Guide
+
+Via **GeorgianTravelGuide.Com**, we are trying to provide you with the information about Georgia’s most interesting and remarkable places in the most convenient way, what will assist you to select the optimal routes and plan the tours effectively.
+
+Every opinion counts.
+
+Every initiative and person is welcome who wants to contribute in the popularization of Georgia and development of its tourism potential.
+
+We believe that sharing the knowledge and experience with each other will make our journeys more comfortable and refreshing.
+
+# Contact Information
+
+Are you a traveler in need of help? Are you a guide, driver or hotel owner? Are you looking for partnership with us? Do you have any problem on our website? Do you want to give us some feedback? Feel free to contact us anytime...
+
+info@georgiantravelguide.com
