@@ -13,7 +13,7 @@ target-audience:
   - VISITOR
 theme: Management
 license: CC BY 2.0
-pubstatus: draft
+pubstatus: completed
 partnerbestpractice: ECTN
 personsbestpractice: Jānis Sijāts
 emailbestpractice: " janis.sijats@gmail.com"
