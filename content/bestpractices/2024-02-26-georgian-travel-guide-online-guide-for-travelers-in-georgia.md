@@ -10,14 +10,14 @@ date: 2024-02-26T19:36:46.140Z
 target-audience:
   - PROFESSIONAL
   - VISITOR
-theme: Tourism
+theme: Technology
 license: CC BY 2.0
 pubstatus: completed
 partnerbestpractice: ECTN
 personsbestpractice: Maia Meladze
 emailbestpractice: m.meladze@gruni.edu.ge
 thumbnail: https://ucarecdn.com/49f9f106-a6b7-44bc-8357-648be15a32fb/
-formtypbestpractice: Sustainable Cultural Tourism
+formtypbestpractice: Audience and Local Community Engagement
 orgbestpractice: https://georgiantravelguide.com/en
 locationbestpractice: Georgia, online
 timebestpractice: 2021-2023
