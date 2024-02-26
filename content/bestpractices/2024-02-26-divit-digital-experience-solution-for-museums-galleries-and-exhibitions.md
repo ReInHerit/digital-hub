@@ -19,7 +19,7 @@ personsbestpractice: Bianka Vamhidy
 emailbestpractice: pazaurek.szabina@pbkik.hu
 thumbnail: https://ucarecdn.com/e4f16dc5-5823-4042-98a1-d39b77d45886/
 formtypbestpractice: VR/AR & Technologies, inc. Gamification & Immersive perfomances
-orgbestpractice: Chamber of Commerce and Industry of Pécs-Baranya
+orgbestpractice: INNOTEQ, Chamber of Commerce and Industry of Pécs-Baranya
 locationbestpractice: " Pécs, Hungary"
 timebestpractice: 2018 ongoing
 resourcesbestpractice: "The project in Janus Pannonius Museum was funded by
