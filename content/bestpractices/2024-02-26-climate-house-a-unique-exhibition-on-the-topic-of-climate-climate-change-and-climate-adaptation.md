@@ -19,7 +19,7 @@ pubstatus: completed
 partnerbestpractice: ECTN
 personsbestpractice: Franziska Stenzel
 emailbestpractice: stenzel@erlebnis-bremerhaven.de
-thumbnail: https://ucarecdn.com/54894e13-d43d-4729-b142-4eb1367099ab/
+thumbnail: https://ucarecdn.com/e2411bca-798c-4345-ac5b-fc042a8d14b7/
 formtypbestpractice: Environmental and Climate change concerns
 orgbestpractice: Climate House Bremerhaven
 locationbestpractice: Bremerhaven, Germany
