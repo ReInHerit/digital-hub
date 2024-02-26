@@ -61,11 +61,21 @@ An average of 30 unexploited shops are being renovated and rented to creative ac
 
 An outstanding example of a CCIs festival that is re-shaping an area’s image and develop Creative Tourism. Creative artists, locals and tourists are interacting and co-producing new forms of cultural products having a sustainable social and economic impact.
 
+## Expert opinion (Interreg Europe Policy Learning Platform)
+
+This is an interesting practice that was initiated in the wake of the 2013 economic crisis. The Creative and Cultural Industry has been identified as an important contributor to the new economic model by renewing urban space and promoting creative tourism.\
+\
+The festival receives applications from startups, business professionals, young entrepreneurs, art retailers (e.g. art exhibitions, installations, theatre, music, and dance shows and performances), as well as education experts (e.g. workshops, courses, lectures, and other related activities) and craftsmen.\
+\
+Although the practice began as a 6-week festival it has had a broader impact. The festival is a precursor of the Nicosia’s “Creative Business Quarter” strategic plan and a catalyst for upgrading municipal plans of urban revitalization, enrichment of cultural policies and improvement of urban mobility plans. The Nicosia Municipality has therefore taken a strategic aim to provide yearly investments into developing the space where CCI can flourish while also improving the aesthetics of degraded urban areas.\
+\
+This practice could be of other policy makers seeking to use the potential of CCI for strengthening the local economy and can be especially interesting in the Covid-19 crisis context. As international tourism will most likely not return to its former volume in the months to come, initiatives such as a CCI festival can increase the attractiveness of a municipality for internal tourism.
+
+<!--EndFragment-->
+
 ![](https://ucarecdn.com/de8d648d-1ca4-4d22-b88d-de087da63410/)
 
 NiMAC \[Nicosia Municipal Arts Centre, Associated with the Pierides Foundation / Old Powerhouse] is housed in the renovated building of the Old Powerhouse, located in the historical centre of Nicosia after an agreement between the Electricity Authority of Cyprus and Nicosia Municipality. NiMAC was inaugurated on 14 January 1994 and it is the oldest and largest Contemporary Art Centre of the island. Its architectural restoration and conversion into a beautiful art and cultural space was awarded the Europa Nostra Award in 1994. During its twenty plus years of its operation, the Nicosia Arts Centre has organized and presented more than eighty exhibitions of modern and contemporary art with the participation of well-known artists from Cyprus and abroad. Many of these were organized in collaboration with museums, art centres and cultural institutions of Europe and other countries.
-
-
 
 The Nicosia Open Up Festival – A festival open to all is a multi-dimensional arts festival that features an art exhibition, performances, an open discussion, lectures–performances, video-installations, multifaceted art activities, music, screenings, a street party, culinary events and workshops. The four- day events of the festival begin on Thursday, 19 October 2023, with the opening of the Open Up exhibition at NiMAC \[The Nicosia Municipal Arts Centre, Associated with the Pierides Foundation] and conclude on Sunday, 22 October 2023, with a large street party.
 
