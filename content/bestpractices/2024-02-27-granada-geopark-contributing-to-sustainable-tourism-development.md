@@ -53,6 +53,7 @@ urlsbestpractice: https://www.geoparquedegranada.com/
 urlsbestpracticeTwo: n/a
 urlsbestpracticeThree: n/a
 keywordsbestpractice: Geopark, UNESCO, Heritage, Interpretation centres
+pdf: https://ucarecdn.com/62ba64e6-45ee-408a-827c-fd664ae1cff1/
 ---
 In the **province of Granada** there is a territory with a spectacular landscape and **one of the best continental geological records of the last 5 million years.** Among other treasures, this record contains the most complete set of fossil remains of the now extinct large mammals that lived **during the Quaternary Period** (the last 2.5 million years of the Earth’s history, when humanity appeared on the planet).
 
@@ -60,7 +61,7 @@ The territory of the Granada Geopark, with **4,722 km2 and 47 municipalities**�
 
 **Since the UNESCO Global Geopark declaration** was obtained **(on 10 July 2020)**, through the International Geoscience and Geoparks programme, this territory – and especially its people – have had a unique opportunity to mitigate the constant depopulation process to which it is subject, as well as to raise public awareness of the importance of the natural, cultural and ethnographic heritage, all with a responsible attitude to the environment.
 
-![](https://ucarecdn.com/452b1ae9-847d-47b6-b5e3-d4fdbc59e4ea/)
+![](https://ucarecdn.com/634535fc-930a-423b-ab64-94cddeeaa2b6/)
 
 Granada Geopark is an initiative based on a relevant geological heritage and other natural and cultural resources located in the north area of Granada where the depopulation is a deep problem. It is an important tool for local population since it allows them to discover its potential, new professional opportunities and the pride of belonging to a territory where history has left its mark. It focuses on a bottom up development strategy implemented by Local Action Groups guaranteeing an active participation of all the social and economic sectors and the involvement of the Public Institutions as well.
 
