@@ -66,10 +66,8 @@ This is an innovative and creative project as it reveals a different type of an 
 
 The main stakeholder is the ASTRA Open Air Museum and this project is dedicated to all the tourists who visit it.
 
-
-
 ## Expert opinion of Interreg Europe Policy Learning Platform
 
 Europe’s cultural heritage is as rich and diverse as are its member states. It comprises archaeological sites, museums, monuments, artworks, historic cities, literary and musical work, and is an important element of social life, as well as economic development. The recent COVID-19 pandemic substantially impacted access to heritage, leading to increased interest in sites that could be accessed digitally. According to the UNESCO’s Charter on the Preservation of the Digital Heritage, digitalisation helps to preserve heritage for the future and allows it to be accessed in any part of the world. Unprecedented opportunities enabled by technologies bring cultural heritage sites back to life. The sector’s transformation has led to easier online access to cultural material for everybody. This good practice is an excellent example of the use of digitalisation, specifically virtual reality, through which visitors can experience historical events, landscape, nature, architecture, and local customs. The good practice can easily be replicated and transferred to other regions in Europe.
 
-<!--EndFragment-->
+`youtube: https://www.youtube.com/watch?v=CyW_oYSYSlc`
