@@ -132,3 +132,5 @@ The Smart Tourism Hackathon tackled challenges in attracting broader audiences t
    The prizes for the winners were attractive awards, and special awards from sponsors were also included. The winning project should showcase the collaborative part of tech enthusiasts, cultural heritage experts, and museum experts to present solutions on how we experience museums and cultural heritage sites. Teams were tasked with developing cutting-edge projects that leverage technology to improve visitor experiences, promote sustainable tourism practices, and optimize destination management. 
 
 ![](https://ucarecdn.com/9a3378e1-045f-472a-b609-fd37551fe4f3/)
+
+![](https://ucarecdn.com/e0117722-3850-44fe-8cd6-9bb75967229e/)
