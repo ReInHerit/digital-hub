@@ -2,7 +2,7 @@
 pageId: 2056726a-4ffd-43c6-ba11-aa609324e819
 layout: blog
 type: bestpractice
-title: Granada Global Geopark, contributing to sustainable tourism development
+title: Granada UNESCO Global Geopark
 desc: In the province of Granada there is a territory with a spectacular
   landscape and one of the best continental geological records of the last 5
   million years. Among other treasures, this record contains the most complete
