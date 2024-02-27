@@ -24,7 +24,7 @@ pubstatus: completed
 partnerbestpractice: ECTN
 personsbestpractice: Manos Vougioukas
 emailbestpractice: em.vougioukas@gmail.com
-thumbnail: https://ucarecdn.com/187e90d3-509d-4e0f-909d-7aaed2ce4940/
+thumbnail: https://ucarecdn.com/995dc2a2-ae67-4497-a3e5-a6bf54b66c52/
 formtypbestpractice: Cooperation between Museums and Heritage sites
 orgbestpractice: ‘Friends of Athanasakio Arheological Museum of Volos’
 locationbestpractice: Volos, Greece
