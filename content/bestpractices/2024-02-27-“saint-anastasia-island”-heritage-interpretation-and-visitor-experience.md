@@ -21,7 +21,7 @@ thumbnail: https://ucarecdn.com/e41b239e-0c2f-4acf-9f65-526fd1a801ef/
 formtypbestpractice: Cooperation between Museums and Heritage sites
 orgbestpractice: Municipality of Burgas
 locationbestpractice: Burgas, Bulgaria
-timebestpractice: 2016 ongoing
+timebestpractice: 2014 ongoing
 resourcesbestpractice: 2 756 529 EUR-amount of the initial investment
 successbestpractice: Saint Anastasia Island is accessible for visiting during
   the summer season – from April until October. Almost 200 000 people have
