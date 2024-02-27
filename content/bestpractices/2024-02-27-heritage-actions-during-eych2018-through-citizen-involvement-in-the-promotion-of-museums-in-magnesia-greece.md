@@ -2,7 +2,7 @@
 pageId: 6e26ed44-9350-4178-a5e1-a7003407ef42
 layout: blog
 type: bestpractice
-title: heritage actions during EYCH2018, through citizen involvement in the
+title: Heritage actions during EYCH2018, through citizen involvement in the
   promotion of museums in Magnesia, Greece
 desc: 'The Association ‘Friends of Athanasakio Arheological Museum of Volos’
   during the European Year of Cultural Heritage 2018 (EYCH2018) aimed to
