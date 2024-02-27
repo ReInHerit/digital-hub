@@ -12,7 +12,7 @@ desc: The best practice describes the Smart Tourism Hackathon, which was
   Teams were tasked with developing cutting-edge projects that leverage
   technology to improve visitor experiences, promote sustainable tourism
   practices, and optimize destination management.
-date: 2024-02-27T11:31:07.601Z
+date: 2024-02-20T11:31:07.601Z
 target-audience:
   - PROFESSIONAL
 theme: Technology
