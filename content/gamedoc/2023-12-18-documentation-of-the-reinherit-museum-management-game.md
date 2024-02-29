@@ -12,6 +12,8 @@ license: CC BY 2.0
 thumbnail: https://ucarecdn.com/f7a9aafb-f97b-4769-81af-2601d466fa0b/
 mainImage: https://ucarecdn.com/16ae64e6-540c-4991-bad4-649737d745c8/
 ---
+![](https://ucarecdn.com/df2b502b-722c-4f22-bb16-3cbddd2f2978/)
+
 [A game design document (GDD) is a software design document that serves as a blueprint from which a game is to be built](https://www.nuclino.com/articles/game-design-document-template). It helps define the scope of the game and sets the general direction for the project, keeping the entire team on the same page. The GDD is created and edited by the development team and is primarily used in the video game industry to organize efforts within a development team. It covers the core concept, plot, characters, game mechanics, and more. A well-crafted GDD acts like a guide, ensuring everyone on the team is on the same page. It should be thorough and specific enough to let a team of people build a cohesive, consistent game. 
 In essence, a GDD takes out most of the guesswork and informs every decision the team makes. Despite some arguments against the use of GDDs, they can be very helpful if done correctly, especially for complicated concepts.
 
