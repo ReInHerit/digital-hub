@@ -11,6 +11,12 @@ license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/b7e4b513-5880-4499-9bee-1560e48ef832/
 ---
+
+
 This application is designed for **cultural smart tourism** and provides functionalities for landmark recognition using **computer vision** and **personalized tour recommendations** based on user preferences in terms of types of tours (designed by the guide creators, e.g. historical buildings or museums) and properties of the locations (e.g. guided tours, free entrances, kid-friendly...).
 
 ![Smart Tourism app screenshots](https://ucarecdn.com/40275c1b-6d6a-44e7-8609-f3dc324b71b0/ "Smart Tourism app screenshots")
+
+**Link to Google Play Store**
+
+* XXX
