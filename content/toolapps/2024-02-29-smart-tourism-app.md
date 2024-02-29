@@ -2,6 +2,7 @@
 type: toolapp
 pageId: aaa31b72-e103-4956-8b62-3e9d4ef693d6
 title: Smart Tourism app
+desc: Smart Tourism applications based on the Toolkit app
 date: 2024-02-29T11:27:56.615Z
 target-audience:
   - VISITOR
