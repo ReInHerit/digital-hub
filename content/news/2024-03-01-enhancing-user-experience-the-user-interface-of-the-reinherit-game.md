@@ -10,6 +10,7 @@ target-audience:
 referenceTo: Game
 status: completed
 theme: Technology
+thumbnail: https://ucarecdn.com/30a91683-81c6-4b5c-ae82-9ae5f3b98602/
 ---
 ![](https://ucarecdn.com/bb48293b-52d8-4b49-85ae-95808469ffb4/)
 
