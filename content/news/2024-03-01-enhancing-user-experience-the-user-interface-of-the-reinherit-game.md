@@ -8,7 +8,7 @@ target-audience:
   - VISITOR
   - PROFESSIONAL
 referenceTo: Game
-status: draft
+status: completed
 theme: Technology
 ---
 ![](https://ucarecdn.com/bb48293b-52d8-4b49-85ae-95808469ffb4/)
