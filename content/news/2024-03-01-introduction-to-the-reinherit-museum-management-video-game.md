@@ -10,10 +10,13 @@ target-audience:
 referenceTo: Game
 status: completed
 theme: Technology
+thumbnail: https://ucarecdn.com/1a4ebb6c-a1fb-49d0-a328-ecb09777705a/-/crop/557x401/292,76/-/preview/
 ---
+**Game concept:** The game revolves around museum management.  Players assume the role of a museum director and make decisions that shape and curate the museum experience for visitors.  The success of the museum determines the player's progress and rewards in the game.  The concept was inspired by games like Idle Museum Tycoon, Roller Coaster Tycoon, Two Point Hospital, and Theme Hospital.  The goal is to create a simulation game that allows players to create their own emergent story and learn about museum design and management in a fun and creative way. 
+
 ![Brainstorming sessions with representatives of BOCCF and CYENS ](https://ucarecdn.com/40318658-eb5e-4f3b-b62d-395870e9d76c/ "Brainstorming sessions with representatives of BOCCF and CYENS ")
 
-**Game concept:** The game revolves around museum management.  Players assume the role of a museum director and make decisions that shape and curate the museum experience for visitors.  The success of the museum determines the player's progress and rewards in the game.  The concept was inspired by games like Idle Museum Tycoon, Roller Coaster Tycoon, Two Point Hospital, and Theme Hospital.  The goal is to create a simulation game that allows players to create their own emergent story and learn about museum design and management in a fun and creative way. 
+
 
 **Game flow:**  The game starts with a splash screen and menu options for starting a new game, loading a saved session, adjusting game settings, or quitting the game.  The player serves as the protégé of the Bank of Cyprus Cultural Foundation Director and is tasked with running the museum for a month to prove their worthiness.  The game progresses through rounds, with players managing the museum in closed and open modes.  In the open mode, visitors come to the museum to view exhibits, and events occur that can have positive or negative effects on the museum.  The game continues until the player either wins by meeting certain conditions or loses by bankruptcy or low ratings. 
 
