@@ -4,7 +4,7 @@ layout: blog
 type: news
 title: Digitizing artifacts of the Bank of Cyprus Cultural Foundation for the game
 desc: Digitizing artifacts of the Bank of Cyprus Cultural Foundation for the game
-date: 2024-02-29T14:42:24.390Z
+date: 2024-02-29T11:36:24.390Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
