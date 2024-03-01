@@ -9,9 +9,9 @@ target-audience:
   - VISITOR
   - PROFESSIONAL
 referenceTo: Game
-status:
-  - completed
+status: completed
 theme: Technology
+thumbnail: https://ucarecdn.com/aaaacc8f-8efc-4610-ba2a-e6a500c77f86/-/crop/675x556/0,0/-/preview/
 ---
 ![](https://ucarecdn.com/6c9d8522-2d87-4fee-a83d-9e061d1d669b/)
 
