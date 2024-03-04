@@ -28,6 +28,13 @@ const HackathonPage = () => {
         <Thumbnail src="/images/hackathonNicosia/thumbnail.png"></Thumbnail>
       </ReinGridCard>
       <ReinGridCard
+          url={`/hackathonnicosia/webinars`}
+          title={"Pre-Hackathon Webinars"}
+          body={"Webinar series in preparation of the Hackathon."}
+      >
+        <Thumbnail src="/images/hackathonNicosia/webinars.png"></Thumbnail>
+      </ReinGridCard>
+      <ReinGridCard
           url={`/hackathonnicosia/projectOne`}
           title={"Nicosia Light Festival"}
           body={"First Prize Winner: Nicosia Light Festival, by Jannis Sidiropoulos"}
