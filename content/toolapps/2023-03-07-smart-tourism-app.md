@@ -1,7 +1,7 @@
 ---
 type: toolapp
 pageId: 437c8b14-f2c8-4fe6-9162-104d4abbb5b6
-title: Smart Tourism App - Description
+title: "Smart Tourism App "
 date: 2023-03-07T12:54:03.959Z
 target-audience:
   - PROFESSIONAL
