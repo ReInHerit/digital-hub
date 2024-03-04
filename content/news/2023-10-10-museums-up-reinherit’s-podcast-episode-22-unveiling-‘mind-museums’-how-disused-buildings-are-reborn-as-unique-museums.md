@@ -2,7 +2,7 @@
 pageId: a9dd5f8f-5f3c-415d-a448-923d29b7925d
 layout: blog
 type: news
-title: ' Museums Up - ReInHerit’s Podcast episode 22: "Unveiling ‘Mind Museums’:
+title: 'Museums Up - ReInHerit’s Podcast episode 22: "Unveiling ‘Mind Museums’:
   How Disused Buildings are Reborn as Unique Museums"'
 date: 2023-10-10T07:19:22.864Z
 target-audience:
