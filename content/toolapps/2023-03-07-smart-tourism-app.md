@@ -57,9 +57,9 @@ The following figure shows screenshots of the **application**, with additional d
 ![Active exploration: Users are alerted about their proximity to an interesting landmark  Users can take a photo of something that attracts their interest and get related info](https://ucarecdn.com/8be5bece-e57c-4192-b1bc-47e7d62e690d/ "Active exploration: Users are alerted about their proximity to an interesting landmark  Users can take a photo of something that attracts their interest and get related info")
 
 > *Active exploration: Users are alerted about their proximity to an interesting landmark  Users can take a photo of something that attracts their interest and get related info*
-
-
-
+>
 > ### Source code
 >
 > The source code of the app is available on the Github of ReInHerit: <https://github.com/ReInHerit/SmartTourism>
+>
+> `youtube: https://youtu.be/Mlfbmtp1LKk?si=qUDEJjgsdkhgiXJ-`
