@@ -1,11 +1,16 @@
 ---
 type: toolapp
 pageId: aaa31b72-e103-4956-8b62-3e9d4ef693d6
-title: Smart Tourism app _ Description
+title: Smart Tourism app  Description
 desc: Smart Tourism applications based on the Toolkit app
 date: 2024-02-29T11:27:56.615Z
 target-audience:
   - VISITOR
+linkedWebinars:
+  - 034cd93b-1043-42e9-9f2a-835d03a4e1cc____Artificial Intelligence and Computer
+    Vision for Cultural Heritage
+  - "05055bcf-561e-48da-b0b5-3b1dc8fc5893____Smart Tourism - Smart Destinations:
+    Cultural Heritage, Digitalisation and Sustainability aspects"
 linkedToolkitComponents:
   - d9376609-c121-41cc-b560-cc3b430bf350____Content-based image retrieval (CBIR)
 license: CC BY 2.0
@@ -30,6 +35,6 @@ The following figure shows screenshots of the **application**, with additional 
 
 **Link to Google Play Store**
 
-* XXX
+* Available soon
 
 `youtube: https://youtu.be/Mlfbmtp1LKk?si=qUDEJjgsdkhgiXJ-`
