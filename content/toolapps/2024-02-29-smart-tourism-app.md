@@ -11,6 +11,9 @@ linkedWebinars:
     Vision for Cultural Heritage
   - "05055bcf-561e-48da-b0b5-3b1dc8fc5893____Smart Tourism - Smart Destinations:
     Cultural Heritage, Digitalisation and Sustainability aspects"
+  - b85f55db-c231-44b2-8cf6-6912dd3b296b____A Charter for Sustainable Cultural
+    Tourism development, management and promotion in Europe, latest developments
+    and prospects
 linkedToolkitComponents:
   - d9376609-c121-41cc-b560-cc3b430bf350____Content-based image retrieval (CBIR)
 license: CC BY 2.0
