@@ -125,6 +125,11 @@ export default function Template({
               </div>
               <div>{frontmatter.infosbestpractice}</div>
               <br />
+
+              <div>
+                <h4>Get in touch</h4>
+                <p><a href="mailto:reinherit@culturaltourism-net.eu">Click here</a> to send us an email, if you have any question or comment on this best practice.</p>
+              </div>
            
         </Container>
           </SideMainLayout>
