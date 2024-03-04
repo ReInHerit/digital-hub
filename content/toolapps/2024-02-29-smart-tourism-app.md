@@ -16,11 +16,7 @@ thumbnail: https://ucarecdn.com/b7e4b513-5880-4499-9bee-1560e48ef832/-/preview/
 
 This application is designed for **cultural smart tourism** and provides functionalities for landmark recognition using **computer vision** and **personalized tour recommendations** based on user preferences in terms of types of tours (designed by the guide creators, e.g. historical buildings or museums) and properties of the locations (e.g. guided tours, free entrances, kid-friendly...).
 
-
-
-![](https://ucarecdn.com/c8cbc62c-34ba-4ae8-b479-0170a8d14a6b/)
-
-
+![](https://ucarecdn.com/f19777d1-6207-49d1-b422-7b4d25670cf7/-/preview/-/enhance/23/)
 
 The following figure shows screenshots of the **application**, with additional debug information in the first two images, and the recognition of a landmark with the associated information. 
 
