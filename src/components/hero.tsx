@@ -267,7 +267,7 @@ Join the ReInHerit Forum to network with professionals and share your experience
 <Button variant="danger" size="lg" href="/forum/">Join the Forum!</Button>
 </Row>
 
-<Row xs={1} md={3} style={{minHeight:"40vh", textAlign:"center"}}>
+<Row xs={1} md={2} style={{minHeight:"40vh", textAlign:"center"}}>
   <Col>
      <Card style={{marginTop:"8vh", maxWidth:"75vh"}}>
       <Card.Header as="h4">Call for Action</Card.Header>
@@ -289,18 +289,6 @@ Join the ReInHerit Forum to network with professionals and share your experience
           Discover how to share your objects in the ReInHerit Digital Collection.
         </Card.Text>
         <Button variant="danger" href="/museumcalls/digital/">Learn more</Button>
-      </Card.Body>
-    </Card>
-  </Col>
-  <Col>
-     <Card style={{marginTop:"8vh", maxWidth:"75vh"}}>
-      <Card.Header as="h4">Call for Action</Card.Header>
-      <Card.Body>
-        <Card.Title>ReInHerit Hackathon</Card.Title>
-        <Card.Text>
-          Participate in the ReInHerit Smart Tourism Hackathon in Nicosia, Cyprus, in January 2024.
-        </Card.Text>
-        <Button variant="danger" href="https://reinherithackathon.cyens.org.cy/homepage/">Join us</Button>
       </Card.Body>
     </Card>
   </Col>

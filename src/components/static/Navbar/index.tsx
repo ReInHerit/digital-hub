@@ -86,6 +86,18 @@ const ReinNavbar: React.FC = () => {
                  </Link>
                  <Link
                   className="text-dark text-decoration-none dropdown-item"
+                  to="/bestpractices"
+                >
+                  Best practices
+                </Link>
+                <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/hackathonnicosia"
+                >
+                  Hackathon Training Material
+                </Link>
+                 <Link
+                  className="text-dark text-decoration-none dropdown-item"
                   to="/tools/apps"
                 >
                   Toolkit Apps documentation
@@ -140,12 +152,6 @@ const ReinNavbar: React.FC = () => {
                   Overview
                 </Link>
                  */}  
-                <Link
-                  className="text-dark text-decoration-none dropdown-item"
-                  to="/bestpractices"
-                >
-                  Best practices
-                </Link>
           </NavDropdown>
           
           <NavDropdown title="Discover" id="basic-nav-dropdown">
