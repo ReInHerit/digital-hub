@@ -105,6 +105,4 @@ Since 2006 this Archaeology Park has become one of the tourist products of Tuzla
 
 In 2012 an addition was made to the Archaeology park with opening of the Geological Exhibition 'Pannonica' which represents a significant element for the development of cultural tourism in the city of Tuzla, as it speaks to the continuity of life in this area and complements the offerings of the Pannonian Lakes complex. 
 
-`youtube: https://panonikasojenice.ba/ `
-
 `youtube: https://www.youtube.com/watch?v=qC4xiH5LYwg`
