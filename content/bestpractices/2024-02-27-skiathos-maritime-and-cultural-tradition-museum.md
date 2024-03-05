@@ -28,15 +28,15 @@ orgbestpractice: ECTN
 locationbestpractice: Skiathos island, Northenr Sporades, Magnesia, Greece
 timebestpractice: 2015 ongoing
 resourcesbestpractice: Dedication
-successbestpractice: The Museum of Skiathos’ Maritime and Cultural Tradition\
-  through its permanent collection of more than 600 exhibits\ tells the story of
+successbestpractice: The Museum of Skiathos’ Maritime and Cultural Tradition
+  through its permanent collection of more than 600 exhibits tells the story of
   the two centuries of Shipbuilding and\ Maritime History of Skiathos
-  (παραπομπή). Because of its\ geographical position and its safe port, Skiathos
-  was meant\ to play an important part both in shipbuilding and in maritime\
-  tradition. The residents of Skiathos have been uninterruptedly\ and
-  continuously engaging with seafaring for centuries. Τhe\ Museum also houses a
-  small feature on the Navy and the\ history of the Lambros Katsonis submarine
-  that was sunk off\ the coast of Skiathos in 1943.
+  (παραπομπή). Because of its geographical position and its safe port, Skiathos
+  was meant to play an important part both in shipbuilding and in maritime
+  tradition. The residents of Skiathos have been uninterruptedly and
+  continuously engaging with seafaring for centuries. Τhe Museum also houses a
+  small feature on the Navy and the history of the Lambros Katsonis submarine
+  that was sunk off the coast of Skiathos in 1943.
 challengesbestpractice: n/a
 transferbestpractice: n/a
 infosbestpractice: n/a
