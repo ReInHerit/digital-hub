@@ -40,14 +40,12 @@ infosbestpractice: Georgian Travel Guide follows the overall goal of the company
   better experience for customers.
 urlsbestpractice: https://georgiantravelguide.com/en
 urlsbestpracticeTwo: "https://www.facebook.com/GeorgianTravelGuideCom/ "
-urlsbestpracticeThree: n/a
+urlsbestpracticeThree: "https://www.youtube.com/channel/UCl84InXwTdrcXZyR04LzUSA "
 keywordsbestpractice: Travel Guide, Georgia country, Digital presence
 ---
 Georgian Travel Guide is founded by travelers with the desire to share the exciting places all around Georgia which we have experienced ourselves. In the early days of the platform, it was only sharing information about places and means to reach the destination. As the platform was evolving it introduced powerful e-commerce tools to help small and medium tourism businesses to enhance their digital presence and chances to compete in the modern digital age.
 
 The tourism platform includes web pages, mobile applications (android and iOS), and social media channels. It have several goals one of which is to share the love and excitement of traveling in Georgia. 
-
-`youtube: https://www.youtube.com/channel/UCl84InXwTdrcXZyR04LzUSA`
 
 # Georgian Travel Guide
 
