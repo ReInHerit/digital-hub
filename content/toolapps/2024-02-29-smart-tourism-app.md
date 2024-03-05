@@ -32,9 +32,10 @@ The following figure shows screenshots of the **application**, with additional 
 
 > *Active exploration: Users interact with the app getting info from the lists of suggested tours, the suggestion adapts based on the clicks of the user and the description of the landmark. Users are directed to the landmarks of interest and get suggestion on other relevant destinations.*
 
+![Smart Tourism app screenshots](https://ucarecdn.com/40275c1b-6d6a-44e7-8609-f3dc324b71b0/-/crop/771x500/0,0/-/preview/ "Smart Tourism app screenshots")
+
 ![Smart Tourism App - Active exploration](https://ucarecdn.com/3cc5d969-6176-4cd1-9c69-60cbe91de4a5/ "Smart Tourism App - Active exploration")
 
-![Smart Tourism app screenshots](https://ucarecdn.com/40275c1b-6d6a-44e7-8609-f3dc324b71b0/-/crop/771x500/0,0/-/preview/ "Smart Tourism app screenshots")
 
 **Link to Google Play Store**
 
