@@ -57,14 +57,12 @@ During the years of its activity the Turaida Museum Reserve has accumulated a co
 
 Different tools are in use to reach aim e.g.:
 
-1. Folk-song Park – Folk-song Hill and Folk-song Garden;\
-2. Internationale folklore festival “BALTICA”;\
-3. Latvian annual celebrations;\
-4. Summer Solstice celebration;\
-5. Legend about Maija – the Rose of Turaida;\
+1. Folk-song Park – Folk-song Hill and Folk-song Garden;
+2. Internationale folklore festival “BALTICA”;
+3. Latvian annual celebrations;
+4. Summer Solstice celebration;
+5. Legend about Maija – the Rose of Turaida;
 6. The campaign “Meet your master".
-
-
 
 ## Expert opinion of Interreg Europe Policy Learning Platform
 
