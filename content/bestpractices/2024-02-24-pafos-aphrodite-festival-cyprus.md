@@ -51,8 +51,8 @@ transferbestpractice: "Pafos Aphrodite Festival constitutes an annual cultural
   local community and stakeholders."
 infosbestpractice: n/a
 urlsbestpractice: https://www.visitpafos.org.cy/
-urlsbestpracticeTwo: https://www.visitpafos.org.cy/
-urlsbestpracticeThree: pafc.com.cy
+urlsbestpracticeTwo: pafc.com.cy
+urlsbestpracticeThree: " "
 keywordsbestpractice: festival, intangible heritage, opera
 ---
 The Pafos Aphrodite Festival has been established as a cultural event of international recognition with high preconditions for artistic performance and administrative efficiency. It takes place every year in early September since 1999, with great operas.\
