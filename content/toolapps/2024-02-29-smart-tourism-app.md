@@ -36,9 +36,8 @@ The following figure shows screenshots of the **application**, with additional 
 
 ![Smart Tourism App - Active exploration](https://ucarecdn.com/3cc5d969-6176-4cd1-9c69-60cbe91de4a5/ "Smart Tourism App - Active exploration")
 
-
 **Link to Google Play Store**
 
 * Available soon
 
-`youtube: https://youtu.be/Mlfbmtp1LKk?si=qUDEJjgsdkhgiXJ-`
+`youtube: https://youtu.be/Mlfbmtp1LKk?si=oN2-pzVSmgxZvnVJ`
