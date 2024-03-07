@@ -62,4 +62,4 @@ The following figure shows screenshots of the **application**, with additional d
 >
 > The source code of the app is available on the Github of ReInHerit: <https://github.com/ReInHerit/SmartTourism>
 >
-> `youtube: https://youtu.be/Mlfbmtp1LKk?si=qUDEJjgsdkhgiXJ-`
+> `youtube: https://youtu.be/Mlfbmtp1LKk?si=oN2-pzVSmgxZvnVJ`
