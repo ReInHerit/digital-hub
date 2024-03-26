@@ -23,7 +23,7 @@ On March 22, 2024 during the [C.R.E.A. CULTURA 2024 Festival](https://www.social
 
 ![ReInHerit WS_ CREA Cultura Festival](https://ucarecdn.com/4f8b3e39-df52-456a-8fe2-1dc329a0b443/ "ReInHerit WS_ CREA Cultura Festival")
 
-**Part 2**: **Testing**  the  [Multimedia VIOLA Chatbot](https://reinherit-hub.eu/tools/apps/543b2b77-35f1-41b5-b06e-3a355f2a1c6b) and[ Face Fit](https://reinherit-hub.eu/tools/apps/051e7d78-de61-4e04-8b05-ab6f7a184153) apps with museum experts and a large group of young students who interacted with a selection of artworks. The images and related content have been selected working in collaboration with the curators of the [Museo Capitolare Diocesano ](http://www.museifoligno.it/i-musei/museo-capitolare-diocesano)(Foligno IT) in order to be added to  online App Galleries of the ReInHerit Digital Hub.
+**Part 2**: **Testing**  the  [Multimedia VIOLA Chatbot](https://reinherit-hub.eu/tools/apps/543b2b77-35f1-41b5-b06e-3a355f2a1c6b) and[ Face Fit](https://reinherit-hub.eu/tools/apps/051e7d78-de61-4e04-8b05-ab6f7a184153) apps with museum experts and a large group of young students who interacted with a selection of artworks. The images and related content have been selected working in collaboration with the curators of the [Museo Capitolare Diocesano ](http://www.museifoligno.it/i-musei/museo-capitolare-diocesano)(Foligno IT) in order to be added to online App Galleries of the ReInHerit Digital Hub.
 
 ![ReInHerit WS_ CREA Cultura Festival](https://ucarecdn.com/bfb0592a-0d36-406c-a11f-be3f7dfbdfeb/ "ReInHerit WS_ CREA Cultura Festival")
 
