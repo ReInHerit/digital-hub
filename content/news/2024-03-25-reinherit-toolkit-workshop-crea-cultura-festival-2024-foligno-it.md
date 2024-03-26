@@ -13,7 +13,7 @@ status: completed
 theme: Technology
 thumbnail: https://ucarecdn.com/d52ff8d2-2c60-4c26-a947-b0acccbe024b/-/preview/
 ---
-![ReInHerit WS_ CREA Cultura Festival](https://ucarecdn.com/966e6add-35a2-4e4c-9b5a-5e0c5539b641/ "lReInHerit WS_ CREA Cultura Festival")
+![ReInHerit WS_ CREA Cultura Festival](https://ucarecdn.com/3d597c23-400d-4a9d-85c5-e97eaabc100f/ "lReInHerit WS_ CREA Cultura Festival")
 
 On March 22, 2024 during the [C.R.E.A. CULTURA 2024 Festival](https://www.socialhackademy.it/creacultura/) organized by [CRHACK LAB FOLIGNO 4D ](https://www.socialhackademy.it)Paolo Mazzanti and Filippo Principi researchers  at[  MICC Media Integration and Communication Center](http://www.micc.unifi.it) (Univ. if Forence IT  ) held a workshop entitled: [“Interacting, Engaging and Motivating at Museum? The ReInHerit approach and Toolkit tools, based on Artificial Intelligence.”](https://www.socialhackademy.it/creacultura/en/event/interagire-coinvolgere-e-motivare-al-museo-lapproccio-reinherit-e-gli-strumenti-del-toolkit-basati-sullintelligenza-artificiale/)
 
