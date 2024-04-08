@@ -15,7 +15,7 @@ thumbnail: https://ucarecdn.com/d52ff8d2-2c60-4c26-a947-b0acccbe024b/-/preview/
 ---
 ![ReInHerit WS_ CREA Cultura Festival](https://ucarecdn.com/3d597c23-400d-4a9d-85c5-e97eaabc100f/ "lReInHerit WS_ CREA Cultura Festival")
 
-On March 22, 2024 during the [C.R.E.A. CULTURA 2024 Festival](https://www.socialhackademy.it/creacultura/) organized by [CRHACK LAB FOLIGNO 4D ](https://www.socialhackademy.it)Paolo Mazzanti and Filippo Principi researchers  at[  MICC Media Integration and Communication Center](http://www.micc.unifi.it) (Univ. of Forence IT) held a workshop entitled: [“Interacting, Engaging and Motivating at Museum? The ReInHerit approach and Toolkit tools, based on Artificial Intelligence.”](https://www.socialhackademy.it/creacultura/en/event/interagire-coinvolgere-e-motivare-al-museo-lapproccio-reinherit-e-gli-strumenti-del-toolkit-basati-sullintelligenza-artificiale/)
+On March 22, 2024 during the [C.R.E.A. CULTURA 2024 Festival](https://www.socialhackademy.it/creacultura/) organized by [CRHACK LAB FOLIGNO 4D ](https://www.socialhackademy.it)Paolo Mazzanti and Filippo Principi researchers  at[  MICC Media Integration and Communication Center](http://www.micc.unifi.it) (Univ. of Florence IT) held a workshop entitled: [“Interacting, Engaging and Motivating at Museum? The ReInHerit approach and Toolkit tools, based on Artificial Intelligence.”](https://www.socialhackademy.it/creacultura/en/event/interagire-coinvolgere-e-motivare-al-museo-lapproccio-reinherit-e-gli-strumenti-del-toolkit-basati-sullintelligenza-artificiale/)
 
 ![ReInHerit WS_ CREA Cultura Festival](https://ucarecdn.com/2a12e74d-92aa-4b16-b52f-5b3f6e95d6d3/ "ReInHerit WS_ CREA Cultura Festival")
 
