@@ -55,6 +55,7 @@ urlsbestpractice: https://muzeulastra.ro/blog/astra-vr-muzeul-astra/
 urlsbestpracticeTwo: http://www.sibiu-turism.ro/
 urlsbestpracticeThree: https://romaniatourism.com/sibiu.html
 keywordsbestpractice: VR, visitor experience, Astra Museum
+pdf: /bppdf/AstraMuseumVR.pdf
 ---
 It is a 3D animated world which shows various life events, landscape, nature, architecture, and local customs.
 

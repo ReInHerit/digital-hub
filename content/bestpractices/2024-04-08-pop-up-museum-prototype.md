@@ -44,6 +44,7 @@ urlsbestpractice: https://bruksmuseum.fi/en/home/
 urlsbestpracticeTwo: https://www.norpas.fi/en/kuvataide/minun-taalintehtaani-pop-up-museo/
 urlsbestpracticeThree: https://www.norpas.fi/en/meista/
 keywordsbestpractice: Prototyping, co-creation, local communities, engagement, identity, dialogue
+pdf: /bppdf/PopUpMuseumFinland.pdf
 ---
 A Pop-up museum is a "museum-like" space where people share stories with others, and learn something about someone else through conversations. It is temporary, nomadic and typically located in a public space. The mission of a pop-up museum is to create conversation between people of all ages and walks of life. It is a low resource type of activity and is thus easy to test in a museum. We had a crew consisting of two experience museologists and an assitant that helped set up the tent and tables, as well as act as the event photographer.
 

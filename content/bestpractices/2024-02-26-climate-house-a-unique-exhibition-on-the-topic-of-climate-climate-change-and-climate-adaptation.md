@@ -75,11 +75,11 @@ transferbestpractice: The expansion of a climate house to other destinations
 infosbestpractice: n/a
 urlsbestpractice: "https://www.klimahaus-bremerhaven.de/en/ "
 urlsbestpracticeTwo: https://www.bremerhaven.de/en/
-urlsbestpracticeThree: n/a
+urlsbestpracticeThree: https://ucarecdn.com/90f9fcbe-32a4-4fd4-88a5-883e97ce2a8e/
 keywordsbestpractice: technology, smart, climate change and adaption, tourism,
   sustainable, future, energy efficiency, climate experience, awareness,
   education
-pdf: https://ucarecdn.com/90f9fcbe-32a4-4fd4-88a5-883e97ce2a8e/
+pdf: /bppdf/ClimateHouse.pdf
 ---
 Climate change is the challenge of our time.
 

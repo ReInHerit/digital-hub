@@ -52,6 +52,7 @@ urlsbestpractice: https://en.unesco.org/creative-cities/dundee
 urlsbestpracticeTwo: https://en.unesco.org/creative-cities/
 urlsbestpracticeThree: https://www.visitdundee.com/
 keywordsbestpractice: design, creative cities, Dundee, Scotland
+pdf: /bppdf/dundee.pdf
 ---
 Dundee, a Cult-CreaTE Interreg Europe project partner, is a member of UCCN since 2014 in the Design creative field. Dundee is a remarkable city with a population of 147,000 inhabitants – small & compact, but reaching far beyond its boundaries with a thriving & innovative design heart. Dundee’s contemporary creative scene & economy has design expertise in fashion & textile, art & jewellery as well as several digital companies. Dundee uses design & creativity to build and sustain economic growth, but also to change lives in the city. The city is home to a dynamic digital media industry, Dundee Design Festival, a vibrant design & creative industries sector. All of the above invove SMEs that are more competitive by UCCN member activities.
 

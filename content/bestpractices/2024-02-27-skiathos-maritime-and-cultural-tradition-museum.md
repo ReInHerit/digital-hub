@@ -44,7 +44,7 @@ urlsbestpractice: https://iloveskiathos.gr/maritime-and-culture-museum/
 urlsbestpracticeTwo: http://www.skiathos.gr/en/
 urlsbestpracticeThree: n/a
 keywordsbestpractice: Maritime heritage, Maritime museum, Skiathos island, Traditions
-pdf: ""
+pdf: /bppdf/skiathos.pdf
 ---
 The museum is located in Skiathos, in the Cultural Community Centre of “Bourtzi” and was founded in 2015.
 

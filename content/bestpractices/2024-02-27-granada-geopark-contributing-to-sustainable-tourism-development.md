@@ -50,10 +50,10 @@ transferbestpractice: This practice is potentially interesting for all the
 infosbestpractice: www.facebook.com/geoparquegold/ (new offers)
   www.azimuthspain.es (new offers) www.onturi.com (new entrepreneur)
 urlsbestpractice: https://www.geoparquedegranada.com/
-urlsbestpracticeTwo: n/a
+urlsbestpracticeTwo: https://ucarecdn.com/62ba64e6-45ee-408a-827c-fd664ae1cff1/ 
 urlsbestpracticeThree: n/a
 keywordsbestpractice: Geopark, UNESCO, Heritage, Interpretation centres
-pdf: https://ucarecdn.com/62ba64e6-45ee-408a-827c-fd664ae1cff1/
+pdf: /bppdf/Granadaunesco.pdf
 ---
 In the **province of Granada** there is a territory with a spectacular landscape and **one of the best continental geological records of the last 5 million years.** Among other treasures, this record contains the most complete set of fossil remains of the now extinct large mammals that lived **during the Quaternary Period** (the last 2.5 million years of the Earth’s history, when humanity appeared on the planet).
 

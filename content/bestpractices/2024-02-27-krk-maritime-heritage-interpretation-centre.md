@@ -43,6 +43,7 @@ urlsbestpractice: https://www.info-krk.com/en/krk/culture/281/maritime-heritage-
 urlsbestpracticeTwo: https://www.krk360.com/projekti/pmuzej/
 urlsbestpracticeThree: https://www.tz-krk.hr/en/explore/krk-island-maritime-heritage-interpretation-centre
 keywordsbestpractice: maritime heritage, history, ships, maps, multimedia, visitor experience
+pdf: /bppdf/krk.pdf
 ---
 As you move through the historical centre of the town of Krk, making your way through the narrow town streets, you will easily find the current location of the new Krk Island Maritime Heritage Centre, opened in 2018 as part of the “Tiny Boat 2”project, achieved from the cooperation of Interreg V-A Slovenia-Croatia 2014-2020.
 

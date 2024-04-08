@@ -44,6 +44,7 @@ urlsbestpractice: https://www.turaida-muzejs.lv/
 urlsbestpracticeTwo: n/a
 urlsbestpracticeThree: n/a
 keywordsbestpractice: n/a
+pdf: /bppdf/Turaida.pdf
 ---
 Specially protected cultural monument Turaida Museum Reserve is a unique cultural and historic site of Latvia and an important European cultural tourism attraction.
 

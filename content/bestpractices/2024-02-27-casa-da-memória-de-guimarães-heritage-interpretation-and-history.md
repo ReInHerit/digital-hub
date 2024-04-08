@@ -52,6 +52,7 @@ urlsbestpractice: https://www.casadamemoria.pt/
 urlsbestpracticeTwo: https://cim-ave.pt/
 urlsbestpracticeThree: n/a
 keywordsbestpractice: history, heritage, visitor experience
+pdf: /bppdf/casadememoria.pdf
 ---
 The Casa da Memória of Guimarães is a center of interpretation and knowledge that exposes, through the exhibition Territory and Community, various perspectives of the memory of a place. Located in the old plastic factory Pátria, in Av. Conde Margaride, is a place where citizens of Guimarães share and reflect on their roots, traditions and memories. Casa da Memória brings together a set of stories, documents, facts and objects enabling us to get to know different aspects of the community from Prehistory to the Dawn of Portugal’s Nationhood, from Rural Societies and Festivities to the Industrialization of the Ave River Valley and Contemporary Times.
 

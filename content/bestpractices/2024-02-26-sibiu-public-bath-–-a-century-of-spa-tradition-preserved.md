@@ -73,6 +73,7 @@ urlsbestpractice: "https://www.baiapopularasibiu.ro/en "
 urlsbestpracticeTwo: https://sibiucityapp.ro/en/places/the-public-bath-5_cy_t3lxtueya
 urlsbestpracticeThree: n/a
 keywordsbestpractice: "#culturalheritage #architecturalheritage #restoration #historicalspa"
+pdf: /bppdf/SibiuPublicBath.pdf
 ---
 The architecture of the Public Bath seamlessly blends Baroque and Art Nouveau elements, crafted in 1904 by Karl Hocheder. Mr. Hocheder is the mastermind behind the design of the Müller Volksbad in Munich, renowned as one of the world's most spectacular public baths.
 

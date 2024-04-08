@@ -38,6 +38,7 @@ urlsbestpractice: https://www.gtp.gr/TDirectoryDetails.asp?id=12956&lng=2
 urlsbestpracticeTwo: https://www.tripadvisor.com.gr/Attraction_Review-g189507-d5598179-Reviews-Athanasakeion_Archaeological_Museum_of_Volos-Volos_Magnesia_Region_Thessaly.html
 urlsbestpracticeThree: http://odysseus.culture.gr/h/1/eh151.jsp?obj_id=3271
 keywordsbestpractice: archaeology, museum, community
+pdf: /bppdf/EYCH2018.pdf
 ---
 The Association ‘Friends of Athanasakio Arheologicam Museum of Volos and archeological
 sites of Magnesia and Northern Sporades islands’ was founded in June 2015 in order to

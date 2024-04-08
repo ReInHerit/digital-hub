@@ -53,7 +53,7 @@ urlsbestpractice: https://innoteq.eu/en/content/mecsek-mining-exhibition-p%C3%A9
 urlsbestpracticeTwo: https://innoteq.eu/en/divit
 urlsbestpracticeThree: n/a
 keywordsbestpractice: digital, museums, exhibitions, galleries, CCIs
-pdf: ""
+pdf: /bppdf/divit.pdf
 ---
 ![](https://ucarecdn.com/70f4b0a7-03c4-4736-9a8c-c4808123b138/)
 

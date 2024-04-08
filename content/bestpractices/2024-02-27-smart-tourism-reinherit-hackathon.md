@@ -109,6 +109,7 @@ urlsbestpracticeTwo: n/a
 urlsbestpracticeThree: n/a
 keywordsbestpractice: Smart Tourism Hackathon, ReInHerit, Technology
   Integration, Game Prototypes, Business Ideas, App Prototypes
+pdf: /bppdf/ReinheritHackathon.pdf
 ---
 The main goal of the Smart Tourism Hackathon was to deliver creative solutions to enhance the experience of museums or cultural heritage sites by employing new and innovative ways and using technology.  The goal of the Smart Tourism Hackathon was to address possible problems or challenges related to its topic. More specifically, provide help to museums and cultural heritage sites to attract wider audiences.
 

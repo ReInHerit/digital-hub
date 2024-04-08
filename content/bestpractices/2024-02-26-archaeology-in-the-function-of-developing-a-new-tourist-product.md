@@ -79,6 +79,7 @@ urlsbestpractice: "https://panonika.ba/arheoloski-park-neolitsko-sojenicko-nasel
 urlsbestpracticeTwo: https://panonikasojenice.ba/
 urlsbestpracticeThree: n/a
 keywordsbestpractice: archaeology park, pile dwellings, neolithic
+pdf: /bppdf/ArchaeologyTuzla.pdf
 ---
 Tuzla is a city whose name and history are closely tied to salt, a natural wealth that remained beneath Tuzla after the withdrawal of the Pannonian Sea into the Black Sea 10 million years ago, in the form of saline water and rock salt. The remains of the saline water were used to construct the Pannonian salt lakes complex in Tuzla.
 

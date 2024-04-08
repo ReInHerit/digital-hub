@@ -52,6 +52,7 @@ urlsbestpractice: https://nimac.org.cy/pop-up/
 urlsbestpracticeTwo: n/a
 urlsbestpracticeThree: n/a
 keywordsbestpractice: Cultural and Creative Industries (CCIs), Creative Tourism, Nicosia, Festival
+pdf: /bppdf/NicosiaPopUpFestival.pdf
 ---
 ![](https://ucarecdn.com/a7e02fed-94e1-442b-b465-fe09934caf80/)
 

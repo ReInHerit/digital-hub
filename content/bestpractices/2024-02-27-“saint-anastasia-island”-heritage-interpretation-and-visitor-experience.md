@@ -46,6 +46,7 @@ urlsbestpractice: http://anastasia-island.com/
 urlsbestpracticeTwo: n/a
 urlsbestpracticeThree: n/a
 keywordsbestpractice: cultural heritage, digitalisation, visitor experience, sustainable tourism
+pdf: /bppdf/saintAnastasia.pdf
 ---
 The implemented activities under the project have had a significant effect on the process of transforming Burgas into attractive and sought tourist destination. St. Anastasia Island has extremely interesting history and attracts people with its unique nature.Some effects of the project implementation:
 

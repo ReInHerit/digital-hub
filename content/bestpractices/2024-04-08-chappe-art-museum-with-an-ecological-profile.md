@@ -45,6 +45,7 @@ urlsbestpracticeTwo: " https://chappe.fi/en/frontpage/#contact-information"
 urlsbestpracticeThree: " "
 keywordsbestpractice: Ecology, education, community, social sustainability,
   ecological sustainability, contemporary art, exhibition design
+pdf: /bppdf/ChappeArtMuseum.pdf
 ---
 
 
