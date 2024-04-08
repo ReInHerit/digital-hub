@@ -30,9 +30,9 @@ On March 22, 2024 during the [C.R.E.A. CULTURA 2024 Festival](https://www.social
 Interesting **takeaways** and insights that emerged from the discussion:
 
 > * The **Chatbot** responds correctly to several questions and “prompt" helps in this direction. 
-> * Mainly it doesn't answer questions about visitors' curiosities, the ones that the curators didn't write in the description forms.
+> * Mainly it doesn't answer **questions** about visitors' curiosities, the ones that the curators didn't write in the description forms.
 > * **FaceFit** works with different skin-tones. It worked correctly with both whites and blacks.
-> * The reaction of the young students during the interaction experience was enjoyment, enthusiasm, and smiles. Some wanted to receive the result of the interaction via e-mail, despite the fact that it was only a test.
+> * The **response** of the young students during the interaction experience was enjoyment, enthusiasm, and smiles. Some wanted to receive the result of the interaction via e-mail, despite the fact that it was only a test.
 
 ![ReInHerit WS_ CREA Cultura Festival](https://ucarecdn.com/c9101c96-3c14-4eb8-85fd-d33b1ec227f6/ "ReInHerit WS_ CREA Cultura Festival")
 
