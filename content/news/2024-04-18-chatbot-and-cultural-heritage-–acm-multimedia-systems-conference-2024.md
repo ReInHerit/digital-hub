@@ -2,7 +2,7 @@
 pageId: 3dc34ed3-2680-493c-9bb2-be00965f5732
 layout: blog
 type: news
-title: Chatbot and Cultural Heritage –ACM Multimedia Systems Conference 2024
+title: Chatbot and Cultural Heritage – DEMO at ACM Multimedia Systems Conference 2024
 date: 2024-04-18T09:41:01.531Z
 target-audience:
   - VISITOR
