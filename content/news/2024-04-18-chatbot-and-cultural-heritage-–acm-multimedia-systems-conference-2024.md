@@ -10,7 +10,7 @@ target-audience:
 referenceTo: News
 status: completed
 theme: Technology
-thumbnail: https://ucarecdn.com/656f9c2d-f560-4965-8ae0-6511fa9ab5e2/
+thumbnail: https://ucarecdn.com/ea9602fe-8256-43a9-a9a1-1af84cd899db/-/crop/617x506/668,0/-/preview/
 ---
 ![MMSys 2024](https://ucarecdn.com/738c0eb2-c8bb-44dd-9133-7338931fb624/ "MMSys 2024")
 
