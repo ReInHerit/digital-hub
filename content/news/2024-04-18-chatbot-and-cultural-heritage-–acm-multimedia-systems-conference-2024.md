@@ -22,8 +22,8 @@ MICC researchers participated in the **[15th ACM Multimedia Systems Conference](
 
 A great opportunity to present the results achieved to the **scientific community**, introducing the system **architecture**, the chatbot **dataset**, **design** considerations, discussing possible developments and **challenges**, following the **chatbot test** carried out with the community of prominent researchers from around the world attending the Conference.
 
-
-
 ![MMSys 2024](https://ucarecdn.com/28b6ab61-3f06-41af-a64b-8093c511b106/ "MMSys 2024")
 
 **MMSys 2024 Progra**m  <https://2024.acmmmsys.org/program/detailed-program/>
+
+![MMSys 2024](https://ucarecdn.com/bed1897d-1888-4dba-aef2-88bc7def7667/ "MMSys 2024")
