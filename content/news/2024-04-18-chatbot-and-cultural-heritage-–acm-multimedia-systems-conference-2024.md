@@ -12,6 +12,12 @@ status: completed
 theme: Technology
 thumbnail: https://ucarecdn.com/333aa16f-768a-4fce-b3e3-d5a68b31e42c/
 ---
+
+
+![](https://ucarecdn.com/8e4c8209-4fe8-4a20-b274-816f07c59e76/)
+
+
+
 MICC researchers participated in the **[15th ACM Multimedia Systems Conference](https://2024.acmmmsys.org)** held from 15-18 April, 2024 in Bari, Italy. **MMSys 2024** provides a forum to leading researchers from academia and industry to present and share their latest findings in **multimedia systems.** A unique opportunity to investigate the intersections and the interplay of the various approaches and solutions developed across these domains to deal with multimedia data types.
 
 ![MMSys 2024 ](https://ucarecdn.com/6ecb59a9-b4b3-4b11-9d53-70faf719bedd/ "MMSys 2024")
