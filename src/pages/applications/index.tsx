@@ -17,7 +17,9 @@ const ApplicationPromoPage: React.FC = () => {
         {label:"Discover", value:"/visitorhub"},
         {label:"ReInHerit Applications", value:"/applications"}
       ]}
-    >Discover and test the ReInHerit applications</MainHeading>
+    >Discover and test the ReInHerit applications. Find technical information and documentation in the Resources section.</MainHeading>
+    <p></p><a style={{borderRadius:3}} href="/pdfs/ReInHerit_Toolkit.pdf" download="toolkitSummary" className="btn btn-info border-radius-2" target="_blank" rel="noreferrer">Click this button to download an overview of the Toolkit and all the material available about it (documentation, webinars, further info).</a>
+    <p></p>
     <ApplicationPromoFeed></ApplicationPromoFeed>
   </BaseLayout>
   </SSRProvider>
