@@ -10,32 +10,52 @@ const Authorization = () => {
     <BaseLayout
       pageTitle="User roles | ReInHerit Digital Hub"
     >
-      <MainHeading subHeading="Materials / manuals about the ReInHerit digital-hub itself" subText="Here you'll find explainatory material, helpful texts and graphics for the digital-hub itself.">Documentation</MainHeading>
+      <MainHeading subText="User roles in the Digital Hub.">Documentation</MainHeading>
       <Container fluid className="bg-white p-md-4 p-sm-3 shadow border-0">
       <SideBarsLayout left={<DocNav />}>
-        <h3>Access levels / roles in the Digital Hub</h3>
-        <p>Overview of the basic access levels the digital hub provides. In short: if content should be contributed to the digital-hub enviroment then - depending on the used funcationality - authentication (is the user wo he/she claims to be?) and authorization (what access levels has the user?) are required.</p>
-        <p>Below the list of authorization levels / roles of the digital-hub:</p>
+        <h2>Access levels and roles in the Digital Hub</h2>
+        <p>This page offers an overview of the access levels the digital hub provides.</p>
         <Accordion>
           <Accordion.Item eventKey="1">
-            <Accordion.Header>Visitor</Accordion.Header>
-            <Accordion.Body>The most basic role used in the digital-hub is the anonymous visitor (with no login / authentication required). A visitor might read public available content on the digital-hub and read the discussions in public available chat-rooms. A visitor is not allowed to participate in private chat or to contribute content to the digital-hub itself.</Accordion.Body>
+            <Accordion.Header>Viewer</Accordion.Header>
+            <Accordion.Body>The most basic role is the anonymous viewer
+               (with no login / authentication required). A viewer might read content on the Digital Hub, which is all offered with
+               open licenses (Creative Commons licenses). A viewer might view the forum archive, but he/she is not allowed
+               to see current chats and/or to participate in the forum. He/she also cannot add material to the Digital Hub.
+          </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
-            <Accordion.Header>Professional</Accordion.Header>
-            <Accordion.Body>A professional is an authenticated user with verified identity. These kind of users are allowed to join various chat-rooms, contribute to discussions and to add other users to chat rooms. A professional cannot access the content management system of the digital-hub, nor create chat-rooms inside the ReInHerit project environment. Authentication (=login) process is done via using external authentication providers like github / twitter etc.</Accordion.Body>
+            <Accordion.Header>Community member</Accordion.Header>
+            <Accordion.Body>A community member is an authenticated user with verified identity, who participates in the forum.
+              Authentication is done via the forum platform (Zulip) based on an email or a social media account. These users can participate
+              in the forum, creating new topics in the rooms and sending private messages to other forum users. The only information publicly
+              available will be the username in the forum and - if the users choses to add one - the profile photo.
+          </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
-            <Accordion.Header>Hub member</Accordion.Header>
-            <Accordion.Body>A project member is a professional with active membership to the ReInHerit github organization. A project member has more control over chat functionalities but no access to the CMS of the digital-hub. </Accordion.Body>
+            <Accordion.Header>Community admin</Accordion.Header>
+            <Accordion.Body>A community admin is an authenticated user with verified identity, who participates in the forum and has 
+              admin rights on it. Authentication is done via the forum platform (Zulip) based on an email or a social media account. 
+              Additionally to community members, an admin has also the power to remove inappropriate content or disruptive users from the forum 
+              and close conversations. 
+          </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="4">
-            <Accordion.Header>Hub moderator</Accordion.Header>
-            <Accordion.Body>A hub moderator is a hub member with additional membership in the "hub-moderators" github team. A hub moderator has full CMS and full chat access. A hub moderator cannot delete code repositories nor has he/she access to the internal configurations.</Accordion.Body>
+            <Accordion.Header>Digital Hub contributor</Accordion.Header>
+            <Accordion.Body>A Digital Hub contributor is a ReInHerit member who contributes directly material to the Digital Hub.
+              The GitHub username of a Hub contributor needs to be added by an Hub Admin to the ReInHerit GitHub team. 
+              Subsequently, a Hub contributor has full access to the Digital Hub Content Management System (CMS) and is therefore
+              able to add and edit content. However, he/she cannot delete code repositories, access internal configurations, and
+              directly publish content (publication happens only after a further check by an Hub admin).
+          </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="5">
-            <Accordion.Header>Hub admin</Accordion.Header>
-            <Accordion.Body>A hub admin is an authorized member inside the ReInHerit github organization. A hub admin has full control over all functionalities needed for the development of the digital-hub</Accordion.Body>
+            <Accordion.Header>Digital Hub admin</Accordion.Header>
+            <Accordion.Body>A Digital Hub admin is a member with full rights within the ReInHerit GitHub organisation. He/she has 
+              full control over all functionalities needed for the development of the Digital Hub and the code repositories.
+              The admin team is currently composed by University of Graz members, as the team responsible for the development
+              of the Digital Hub.              
+              </Accordion.Body>
           </Accordion.Item>
         </Accordion>
       </SideBarsLayout>

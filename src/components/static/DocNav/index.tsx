@@ -14,16 +14,16 @@ const DocNav: React.FC<Props> = (props) => {
 
   return <ListGroup className={props.sticky && "sticky-top"} variant="flush">
     <ListGroupItem>
-      <Link to="/doc">Architecture</Link>
+      <Link to="/doc">Technologies</Link>
     </ListGroupItem>
     <ListGroupItem>
-      <Link to="/doc/authorization">Access levels / roles</Link>
+      <Link to="/doc/datamodel">Information Architecture</Link>
     </ListGroupItem>
     <ListGroupItem>
-      <Link to="/doc/faq">FAQ</Link>
+      <Link to="/doc/authorization">Access roles</Link>
     </ListGroupItem>
     <ListGroupItem>
-      <Link to="/doc/howto">Manuals</Link>
+      <Link to="/doc/howto">Manual for Hub Contributors</Link>
     </ListGroupItem>
   </ListGroup>
 
