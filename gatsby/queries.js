@@ -140,39 +140,7 @@ query ExhibDocQuery {
     }
   `
 
-  const FAQ_PAGES = `
-    query FAQQuery {
-      allMarkdownRemark(filter: {frontmatter: {type: {eq: "faq"}}}) {
-        edges {
-          node {
-            frontmatter {
-              question
-              pageId
-              type
-            }
-          }
-        }
-      }
-    }
-  `
-
-  const MANUAL_PAGES = `
-    query FAQQuery {
-      allMarkdownRemark(filter: {frontmatter: {type: {eq: "howto"}}}) {
-        edges {
-          node {
-            frontmatter {
-              title
-              pageId
-              type
-            }
-          }
-        }
-      }
-    }
-  `
-
- 
+  
   return {
     WEBINARS_PAGES,
     NEWS_PAGES,
@@ -180,8 +148,6 @@ query ExhibDocQuery {
     TOOL_COMPONENTS_PAGES,
     FACTSHEETS_PAGES,
     ESHOP_PAGES,
-    FAQ_PAGES,
-    MANUAL_PAGES,
     BESTPRACTICES_PAGES,
     GAMEDOC_PAGES,
     EXHIBDOC_PAGES,
