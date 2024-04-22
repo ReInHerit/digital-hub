@@ -41,6 +41,18 @@ const ReinNavbar: React.FC = () => {
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
+                  to="/doc"
+                >
+                  About the Digital Hub
+            </Link>
+            <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/doc/faq"
+                >
+                  FAQ
+            </Link>
+            <Link
+                  className="text-dark text-decoration-none dropdown-item"
                   to="/about/imprint"
                 >
                   Imprint
@@ -51,14 +63,6 @@ const ReinNavbar: React.FC = () => {
                 >
                   Data protection
                 </Link>
-                
-                {/*
-                <Link
-                  className="text-dark text-decoration-none dropdown-item"
-                  to="/doc"
-                >
-                  Documentation
-            </Link> */}
               </NavDropdown>
               <Nav.Link as="div">
                 <Link
@@ -242,26 +246,7 @@ const ReinNavbar: React.FC = () => {
                >
                  ReInHerit Hackathon
                </Link>
-          </NavDropdown>
-
-
-              {/* <Link className="text-dark text-decoration-none nav-link" to="/">Events</Link> */}
-              {/*<NavDropdown title="Events" id="basic-nav-dropdown">
-                <Link
-                  className="text-dark text-decoration-none dropdown-item"
-                  to="/events"
-                >
-                  Overview
-                </Link>
-                <Link
-                  className="text-dark text-decoration-none dropdown-item"
-                  to="/performances"
-                >
-                  Performances
-                </Link>
-              </NavDropdown>
-             */}             
-            
+          </NavDropdown>           
             </Nav>
 
             

@@ -137,11 +137,11 @@ The ReInHerit project experimented with new technologies and new collaborations 
   <Col>
   <div className="d-grid gap-2">
       <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/exhibitions/">The ReThinking Digital Exhibitions</Button>
-      <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/applications/">Toolkit applications</Button>
+      <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/travellingexhibitions/">Info on the Travelling Exhibitions</Button>
       <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="https://collection.reinherit-hub.eu/">The ReInHerit online collection</Button>
+      <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/applications/">Toolkit applications</Button>
       <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/game/">A videogame</Button>
       <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/podcasts/">The Museums Up Podcast</Button>
-      <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/travellingexhibitions/">Info on the Travelling Exhibitions</Button>
       <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/eshop/">The e-Shop</Button>
       <Button variant="success" style={{padding:"0.5em", fontSize:"1em"}} href="/events/">Info on our events</Button>
   </div>
@@ -149,29 +149,29 @@ The ReInHerit project experimented with new technologies and new collaborations 
 
 <Col>
 <Carousel variant="dark" style={{textAlign: "center"}}>
-  <Carousel.Item>
-    <img className="imgCarousel" src="/images/heroCarousels/visitors/eshop-visitors.png" alt="" style={{textAlign: "center"}}/>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img className="imgCarousel" src="/images/heroCarousels/visitors/events-visitors.png" alt="" style={{textAlign: "center"}}/>
-  </Carousel.Item>
-  <Carousel.Item>
+<Carousel.Item>
     <img className="imgCarousel" src="/images/heroCarousels/visitors/DigExhib.png" alt="" style={{textAlign: "center"}}/>
   </Carousel.Item>
   <Carousel.Item>
-    <img className="imgCarousel" src="/images/heroCarousels/visitors/game-visitors.png" alt="" style={{textAlign: "center"}}/>
+    <img className="imgCarousel" src="/images/heroCarousels/visitors/travExhib.png" alt="" style={{textAlign: "center"}}/>
   </Carousel.Item>
   <Carousel.Item>
     <img className="imgCarousel" src="/images/heroCarousels/visitors/onlineColl.png" alt="" style={{textAlign: "center"}}/>
   </Carousel.Item>
   <Carousel.Item>
-    <img className="imgCarousel" src="/images/heroCarousels/visitors/podcast.png" alt="" style={{textAlign: "center"}}/>
-  </Carousel.Item>
-  <Carousel.Item>
     <img className="imgCarousel" src="/images/heroCarousels/visitors/toolkit-visitors.png" alt="" style={{textAlign: "center"}}/>
   </Carousel.Item>
   <Carousel.Item>
-    <img className="imgCarousel" src="/images/heroCarousels/visitors/travExhib.png" alt="" style={{textAlign: "center"}}/>
+    <img className="imgCarousel" src="/images/heroCarousels/visitors/game-visitors.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+    <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/visitors/podcast.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/visitors/eshop-visitors.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/visitors/events-visitors.png" alt="" style={{textAlign: "center"}}/>
   </Carousel.Item>
 </Carousel>
 </Col>
@@ -204,32 +204,36 @@ The ReInHerit project developed learning resources and provides detailed documen
     <img className="imgCarousel" src="/images/heroCarousels/professionals/12webinars.png" alt="" style={{textAlign: "center"}}/>
   </Carousel.Item>
   <Carousel.Item>
-    <img className="imgCarousel" src="/images/heroCarousels/professionals/13onlineColl.png" alt="" style={{textAlign: "center"}}/>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/19Factsheets.png" alt="" style={{textAlign: "center"}}/>
   </Carousel.Item>
   <Carousel.Item>
-    <img className="imgCarousel" src="/images/heroCarousels/professionals/14Performances.png" alt="" style={{textAlign: "center"}}/>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/23BestPractices.png" alt="" style={{textAlign: "center"}}/>
   </Carousel.Item>
   <Carousel.Item>
-    <img className="imgCarousel" src="/images/heroCarousels/professionals/15Exhibitions.png" alt="" style={{textAlign: "center"}}/>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img className="imgCarousel" src="/images/heroCarousels/professionals/16eshop.png" alt="" style={{textAlign: "center"}}/>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/22ReInHeritHackathon.png" alt="" style={{textAlign: "center"}}/>
   </Carousel.Item>
   <Carousel.Item>
     <img className="imgCarousel" src="/images/heroCarousels/professionals/17toolkit.png" alt="" style={{textAlign: "center"}}/>
   </Carousel.Item>
   <Carousel.Item>
-    <img className="imgCarousel" src="/images/heroCarousels/professionals/18BestPractices.png" alt="" style={{textAlign: "center"}}/>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img className="imgCarousel" src="/images/heroCarousels/professionals/19Factsheets.png" alt="" style={{textAlign: "center"}}/>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img className="imgCarousel" src="/images/heroCarousels/professionals/20game.png" alt="" style={{textAlign: "center"}}/>
-  </Carousel.Item>
-  <Carousel.Item>
     <img className="imgCarousel" src="/images/heroCarousels/professionals/21components.png" alt="" style={{textAlign: "center"}}/>
   </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/15Exhibitions.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/13onlineColl.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/14Performances.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+    <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/16eshop.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img className="imgCarousel" src="/images/heroCarousels/professionals/24gameDoc.png" alt="" style={{textAlign: "center"}}/>
+  </Carousel.Item>
+
 </Carousel>
 </Col>
 
@@ -240,17 +244,18 @@ The ReInHerit project developed learning resources and provides detailed documen
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/webinars/">Webinars</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/factsheets/">Research Factsheets</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/bestpractices/">Best Practices</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/hackathonnicosia/">Hackathon Training Material</Button>
     
   </div>
     <Row className="mt-4"><h5>Documentation:</h5></Row>
   <div className="d-grid gap-2">  
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/tools/apps/">Toolkit Apps Documentation</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/tools/components/">Toolkit components</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/exhibdoc/">Exhibitions Documentation</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/exhibdoc/doconlinecoll/">Online Collection Documentation</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/firstperfdoc/overview/">Performances Documentation</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/eshopdoc/">e-Shop Documentation</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/gamedoc/5761ffde-e42d-4697-973a-353c16f32590">Videogame Documentation</Button>
-    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/exhibdoc/doconlinecoll/">Online Collection Documentation</Button>
-    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/tools/components/">Toolkit components</Button>
   </div>
 
 </Col>
