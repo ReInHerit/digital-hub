@@ -87,27 +87,6 @@ module.exports.createPages = async ({ graphql, actions}) => {
     })
   });
 
-  // adding faq data from markdown
-  const faqResult = await graphql(DIGIHUB_QUERIES.FAQ_PAGES);
-  faqResult.data.allMarkdownRemark.edges.forEach(edge => {
-    const mdId = edge.node.frontmatter.pageId
-    actions.createPage({
-      path: `/doc/faq/${mdId}`,
-      component: require.resolve(`./src/templates/faqHowto.js`),
-      context: { id: mdId },
-    })
-  });
-
-  // adding Hub documentation data from markdown
-  const manualsResult = await graphql(DIGIHUB_QUERIES.MANUAL_PAGES);
-  manualsResult.data.allMarkdownRemark.edges.forEach(edge => {
-    const mdId = edge.node.frontmatter.pageId
-    actions.createPage({
-      path: `/doc/howto/${mdId}`,
-      component: require.resolve(`./src/templates/faqHowto.js`),
-      context: { id: mdId },
-    })
-  });
 
   // adding videogame documentation data from markdown
   const gamedocResult = await graphql(DIGIHUB_QUERIES.GAMEDOC_PAGES);

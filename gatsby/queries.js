@@ -140,7 +140,6 @@ query ExhibDocQuery {
     }
   `
 
-  
   return {
     WEBINARS_PAGES,
     NEWS_PAGES,
