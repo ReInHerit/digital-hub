@@ -104,7 +104,7 @@ Through collaboration with curators from small and medium-sized museums, the gal
 * [Fondazione Musei Senesi](https://www.museisenesi.org/en/) IT
 * [Giara Gipsoteca di Arte Antica e Antiquarium University of Pisa](https://www.gipsoteca.sma.unipi.it/en/) IT
 * [Musei Civici di Reggio Emilia](https://www.musei.re.it/musei2021/) IT
-*  [Museo Capitolare Diocesano Foligno](http://www.museifoligno.it/i-musei/museo-capitolare-diocesano) IT
+* [Museo Capitolare Diocesano Foligno](http://www.museifoligno.it/i-musei/museo-capitolare-diocesano) IT
 
 Demo is available at this link:\
 [https://reinherit-multimedia-c​hatbot.herokuapp.com/](https://reinherit-multimedia-chatbot.herokuapp.com/)
