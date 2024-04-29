@@ -20,6 +20,6 @@ A novel multimodal image retrieval system, that combines images and texts has be
 
 ![ACM Multimedia Conference 2023](https://ucarecdn.com/768ac96d-37f0-4f5d-aa6d-063b6ab42be3/ "ACM Multimedia Conference 2023")
 
-At the ACM Multimedia 2023 Workshop n **Deep Multimodal Learning for Information Retrieva**l was instead presented the novel technique for Composed Image Retrieval, titled “Zero-Shot Composed Image Retrieval with Textual Inversion”, that allows to implement composed image retrieval techniques without the need to create expensive training datasets. This novel approach allows to use this technique also in domains were the creation of **datasets is expensive or not practical such as in Cultural Heritage**.
+At the ACM Multimedia 2023 Workshop n **Deep Multimodal Learning for Information Retrieva**l was instead presented the novel technique for Composed Image Retrieval, titled “Zero-Shot Composed Image Retrieval with Textual Inversion”, that allows to implement composed **image retrieval techniques without the need to create expensive training datasets.** This novel approach allows to use this technique also in domains were the creation of datasets is expensive or not practical such as in Cultural Heritage.
 
 Info: <https://www.acmmm2023.org/>
