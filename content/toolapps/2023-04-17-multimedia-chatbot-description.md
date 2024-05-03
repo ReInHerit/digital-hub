@@ -21,12 +21,12 @@ Experience art in a new and exciting way with **VIOLA Multimedia Chatbot**! Deve
 
 > "Whether you are an art enthusiast or just beginning to explore the art world, VIOLA is the perfect tool to **enhance your experience**. Simply type in your questions or talk to VIOLA to see how your requests are answered with ease."
 
-The design of this application is motivated by the recent huge interest **in chat-based interaction** that has been popularized, for example, by Chat GPT. 
+The design of this application is motivated by the recent huge interest **in chat-based interaction** that has been popularized, for example, by Chat GPT. ìì
 
-The DEMO version of the Chatbot includes a gallery with a limited selection of artworks provided by the museums involved in the ReinHerit project ([GrazMuseum](https://www.grazmuseum.at/en/), [Cycladic Museum](https://cycladic.gr/en/),\
-[Bank of Cyprus Cultural Foundation](https://www.boccf.org/en-gb/homepage/))).The curators provided the images and related contents using a specific **[ADMIN interface](https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3).**[](https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3)
+The **DEMO version** of the Chatbot includes a gallery with a limited selection of artworks provided by the museums participating in the ReinHerit project ([GrazMuseum](https://www.grazmuseum.at/en/), [Cycladic Museum](https://cycladic.gr/en/),\
+[Bank of Cyprus Cultural Foundation](https://www.boccf.org/en-gb/homepage/)). The curators supplied the images and related content,  using a specific**[ interface](https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3).**[](https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3)
 
-Through collaboration with curators from small and medium-sized museums, the gallery was also populated with images of artworks and quality content provided by:
+Additionally, through collaboration with curators from small and medium-sized museums, the gallery was populated with images of artworks and quality content provided by:
 
 * [Fondazione Musei Senesi](https://www.museisenesi.org/en/) IT
 * [Giara Gipsoteca di Arte Antica e Antiquarium University of Pisa](https://www.gipsoteca.sma.unipi.it/en/) IT
