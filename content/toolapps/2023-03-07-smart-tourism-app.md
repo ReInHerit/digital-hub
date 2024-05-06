@@ -62,4 +62,9 @@ The following figure shows screenshots of the **application**, with additional d
 >
 > The source code of the app is available on the Github of ReInHerit: <https://github.com/ReInHerit/SmartTourism>
 >
+> **Link to Google Play Store**
+>
+> * [Smart Tourism Florence](<* https://play.google.com/store/apps/details?id=org.reinherit.lite.examples.classification>)
+> * [Smart Tourism Athens (testing)](https://play.google.com/apps/testing/org.reinherit.lite.examples.classification.athens)
+>
 > `youtube: https://youtu.be/Mlfbmtp1LKk?si=oN2-pzVSmgxZvnVJ`
