@@ -2,15 +2,16 @@
 pageId: c375e2e1-b76a-42a8-b188-7ccf4bf69b87
 layout: blog
 type: news
-title: "ICOM Italy Webinar: Emotional Experiences at the Museum. Engaging,
+title: "ICOM IT Webinar: Emotional Experiences at the Museum. Engaging,
   interacting and connecting even with AI-based tools "
 date: 2024-05-15T09:46:03.904Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
 referenceTo: News
-status: draft
+status: completed
 theme: Technology
+thumbnail: https://ucarecdn.com/7ac30958-2c00-407c-b1dd-14144040da0d/-/crop/456x496/38,10/-/preview/
 ---
 
 
