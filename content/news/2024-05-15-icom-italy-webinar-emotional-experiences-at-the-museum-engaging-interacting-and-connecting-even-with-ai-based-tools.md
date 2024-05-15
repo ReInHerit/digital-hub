@@ -13,13 +13,11 @@ status: completed
 theme: Technology
 thumbnail: https://ucarecdn.com/7ac30958-2c00-407c-b1dd-14144040da0d/-/crop/456x496/38,10/-/preview/
 ---
-
-
 ![Esperienze Emotive al Museo _ Mazzanti](https://ucarecdn.com/649de358-d54b-482b-95d9-5576e56b9028/ "Esperienze Emotive al Museo _ Mazzanti")
 
 On May 13, 2024 Paolo Mazzanti, researcher at MICC Media Integration and Communication Center, Univ. Florence IT, held a webinar entitled: **Emotional Experiences at the Museum. Engaging, interacting and connecting even with AI-based tools.** \
 \
-The webinar is part of a series of seminars organized by Univpm- Università Politecnica delle Marche IT, Marche Regional Coordination ICOM Italy, and part of the activities of the [ICOM National Working Group “Multimedia and Emerging Technologies."](https://www.icom-italia.org/gruppo-di-lavoro-multimedia-e-tecnologie-emergenti/)
+The webinar is part of a series of seminars organized by [Univpm- Università Politecnica delle Marche](https://www.univpm.it/Entra/Universita_Politecnica_delle_Marche_Home/L/1) IT, Marche Regional Coordination ICOM Italy, and part of the activities of the [ICOM National Working Group “Multimedia and Emerging Technologies."](https://www.icom-italia.org/gruppo-di-lavoro-multimedia-e-tecnologie-emergenti/)
 
 ![Esperienze Emotive al Museo _ Mazzanti](https://ucarecdn.com/b1303eca-dc8f-4438-be80-a5e041f14fc4/ "Esperienze Emotive al Museo _ Mazzanti")
 
