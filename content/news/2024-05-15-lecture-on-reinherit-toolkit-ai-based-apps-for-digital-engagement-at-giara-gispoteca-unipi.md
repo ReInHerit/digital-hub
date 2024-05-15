@@ -15,7 +15,7 @@ thumbnail: https://ucarecdn.com/555a0da5-cdd1-471d-91d3-66e751e01c5d/-/preview/
 ---
 ![ReInherit Toolkit AI-based Apps for Digital Engagement](https://ucarecdn.com/959e64e1-fd73-4cf7-8f67-1d9c492cf071/ "ReInherit Toolkit AI-based Apps for Digital Engagement")
 
-On May 9, 2024 Paolo Mazzanti and Marco Bertini, MICC University of Florece IT, held an interactive lecture titled "ReInherit Toolkit AI-based Apps for Digital Engagement" at the University of Pisa invited by Professor Chiara Tarantino, curator of the [GIARA Gipsoteca di Arte Antica e Antiquarium dell'Università di Pisa Sistema Museale di Ateneo](https://www.gipsoteca.sma.unipi.it) UNIPI, Italy. The lecture is part of the “Museology and Archaeological Museography” course of Specialization in Archaeological Heritage of the [University of Pisa. ](https://www.cfs.unipi.it)
+On May 9, 2024 Paolo Mazzanti and Marco Bertini, MICC University of Florence IT, held an interactive lecture titled "ReInherit Toolkit AI-based Apps for Digital Engagement" at the University of Pisa invited by Professor Chiara Tarantino, curator of the [GIARA Gipsoteca di Arte Antica e Antiquarium dell'Università di Pisa Sistema Museale di Ateneo](https://www.gipsoteca.sma.unipi.it) UNIPI, Italy. The lecture is part of the “Museology and Archaeological Museography” course of Specialization in Archaeological Heritage of the [University of Pisa. ](https://www.cfs.unipi.it)
 
 ![ReInherit Toolkit AI-based Apps for Digital Engagement](https://ucarecdn.com/feab48d2-2e1f-4f79-9877-dc7e6c397e40/ "ReInherit Toolkit AI-based Apps for Digital Engagement")
 
