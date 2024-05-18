@@ -21,7 +21,7 @@ The webinar is included in a series of seminars organized by [Univpm- Universit�
 
 ![Esperienze Emotive al Museo _ Mazzanti](https://ucarecdn.com/b1303eca-dc8f-4438-be80-a5e041f14fc4/ "Esperienze Emotive al Museo _ Mazzanti")
 
-An occasion to explore the topic of emotional experiences at the museum and to present to the ICOM Network the AI-based tools designed to connect, interact and motivate learning at museums and developed by MICC in the ReInHerit Project.\
+An occasion to explore the topic of emotional experiences at the museum and to present to the ICOM Network the AI-based tools developed by MICC in the ReInHerit Project and designed to connect, interact and motivate learning at museums.\
 \
 Info:  [https://www.icom-italia.org/​alla-scoperta-dei-musei-del-​futuro-la-trasformazione-​digitale-tra-tecnologia-e-​identita/](https://www.icom-italia.org/alla-scoperta-dei-musei-del-futuro-la-trasformazione-digitale-tra-tecnologia-e-identita/)
 
