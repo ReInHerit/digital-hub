@@ -96,12 +96,12 @@ The text+image to image search function (i.e. composed image retrieval)  is cur
 
 Another extension of the work has addressed one of the main issues that hampers the development of composed image retrieval systems, i.e. the high effort and cost required for labeling datasets. This issue is particularly relevant in the cultural heritage domain where smaller organizations have difficulty in creating the large datasets required to train the neural networks required to address the task. This work, that has relevant scientific novelty and is currently under submission at one of the foremost conferences on computer vision [(International Conference on Computer Vision, 2023](https://iccv2023.thecvf.com)), extends conditioned image retrieval (CIR) to a zero-shot context, that does not require a labeled training dataset, thus extending the method to any dataset. The method is still based on the CLIP neural network and maps the visual features of the reference image into a pseudo-word token in CLIP token embedding space and integrates it with the relative caption. The method improves on two standard datasets that were used in our previous works (and that were until now the state-of-the-art results per scientific literature, i.e. FashionIQ and the more general CIRR dataset.
 
-
-
 ### Source code
 
 The source code of the app is available in different repositories:
 
 * Main repository with training code: <https://github.com/ABaldrati/CLIP4Cir>
+* A new version of the system that is capable of zero-shot CIR, is available here: <https://github.com/miccunifi/SEARLE>
 * Repository of the demo system (CIR and FashionIQ): <https://github.com/ABaldrati/CLIP4CirDemo>
 * Repository of the demo system for NoisyArt dataset: <https://github.com/ReInHerit/SmartRetrievalArtDemo>
+* Repository of a demo app specialzied for fashion retrieval: <https://github.com/ReInHerit/SmartRetrievalFashion/tree/master>
