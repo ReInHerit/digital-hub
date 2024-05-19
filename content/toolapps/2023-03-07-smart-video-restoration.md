@@ -86,6 +86,8 @@ The source code of the app is available on Github: <https://github.com/miccunifi
 
 A new and more capable version of the app is available here: <https://github.com/miccunifi/TAPE> 
 
+Code for a new metric to evaluate video quality in a no-reference setting (useful for restoration of archive materials) is available here: <https://github.com/miccunifi/ARNIQA>
+
 ### Demo Smart Video Restoration
 
  **Demo** of "Smart Video Restoration"  is available at the following link (the online demo works on photos and not videos, for timing reasons):\
