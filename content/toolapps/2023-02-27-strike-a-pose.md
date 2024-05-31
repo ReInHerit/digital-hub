@@ -81,7 +81,7 @@ Changing the GUIs is relatively easy, since it is needed to update the HTML5 of 
 
 ### Demo
 
-**Demo** is available at this link:\
+**Demo** is available at this link (using Chrome or Firefox browser): :\
 [https://reinherit-strike-a-pos​e.herokuapp.com/](https://reinherit-strike-a-pose.herokuapp.com/)
 
 For more information and support contact [marco.bertini@unifi.it  ](<>)MICC - [Media Integration and Communication Cente](http://www.micc.unifi.it)r, University of Florence,  Italy
