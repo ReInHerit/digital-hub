@@ -34,7 +34,7 @@ Unlike traditional guides that rely on QR codes, Smart Lens requires **active  a
 
 Gallery images  includes limited selection of artworks provided by museums participating in the ReinHerit project ([GrazMuseum](https://www.grazmuseum.at/en/), [Cycladic Museum](https://cycladic.gr/en/), [Bank of Cyprus Cultural Foundation](https://www.boccf.org/en-gb/homepage/)).
 
-Try the **Smart Lens Tester** at the following link (using Chrome or Firefox browser): \
+Try the **Smart Lens Tester** at the following link: \
 [https://reinherit-smartlens-te​ster.herokuapp.com/ ](https://reinherit-smartlens-tester.herokuapp.com/)
 
 ![Smart Lens Tester](https://ucarecdn.com/55dc7c74-dd1e-4aa8-a413-c5597d4ef6b9/ "Smart Lens Tester")
