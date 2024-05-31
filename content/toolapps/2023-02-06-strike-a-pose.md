@@ -33,8 +33,6 @@ The user is challenged to reproduce in sequence the poses of some artworks from 
 
 ![Strike a Pose - Setting the room](https://ucarecdn.com/4d670441-12f0-453f-ab43-8f0a3251f77c/ "Strike a Pose - Setting the room")
 
-
-
 > *Strike a Pose - Setting the room*
 
 As part of the ReinHerit Toolkit, the application is designed for the cultural heritage domain and exploit gamification techniques in order to **improve enjoyment and learning** of museum artworks.
@@ -53,7 +51,7 @@ This app won a **Best Demo Honorable Mention award** at ACM Multimedia 2022, the
 
 ## Discover and test
 
-**Demo** is available at this link:\
+**Demo** is available at this link (using Chrome or Firefox browser): \
 [https://reinherit-strike-a-pos​e.herokuapp.com/](https://reinherit-strike-a-pose.herokuapp.com/)
 
 `youtube: https://www.youtube.com/watch?v=GHgBIRXqKK8`
