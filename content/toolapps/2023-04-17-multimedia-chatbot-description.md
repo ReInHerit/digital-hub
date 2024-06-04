@@ -25,7 +25,7 @@ The design of this application is motivated by the recent huge interest **in cha
 
 ## Discover and test
 
-**VIOLA Chatbot Gallery**, includes a limited selection of artworks provided by Museums participating in the ReinHerit project ([GrazMuseum](https://www.grazmuseum.at/en/), [Cycladic Museum](https://cycladic.gr/en/), [Bank of Cyprus Cultural Foundation](https://www.boccf.org/en-gb/homepage/)). Curators privided  images and related content,  using a specific**[ interface](https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3).**[ ](https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3) They  validated descriptive content of the artworks in order to provide quality responses. Unanswered questions will be saved to add more descriptive content and improve interaction with the chatbot.
+**IOLA Chatbot Gallery**, includes a limited selection of artworks provided by Museums participating in the ReinHerit project ([GrazMuseum](https://www.grazmuseum.at/en/), [Cycladic Museum](https://cycladic.gr/en/), [Bank of Cyprus Cultural Foundation](https://www.boccf.org/en-gb/homepage/)). Curators privided  images and related content,  using a specific**[ interface](https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3).**[ ](https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3) They validated descriptive content of the artworks in order to provide quality responses. Unanswered questions will be saved to add more descriptive content and improve dialogue and chatbot  interaction.
 
 Additionally, , we are working with curators of the following small and medium-sized museums, in order to test and add more artworks:
 
