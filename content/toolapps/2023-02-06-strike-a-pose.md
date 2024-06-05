@@ -43,7 +43,7 @@ This app won a **Best Demo Honorable Mention award** at ACM Multimedia 2022, the
 
 ![Best Demo Honorable Mention award at ACM Multimedia 2022](https://ucarecdn.com/a1fde0c2-d8f2-43bd-99d8-920f0df0a0af/ "Best Demo Honorable Mention award at ACM Multimedia 2022")
 
-In the Demo Version of Strike-A-Pose**, User**  is able to **play** by setting the number of poses  and the level of half bust or full body of the artwork. 
+ Strike-A-Pose (Demo Version): ** User**  is able to **play** by setting the number of poses  and the level of half bust or full body of the artwork. 
 
 ![Strike a Pose - Setting the challenge](https://ucarecdn.com/40142267-ad60-43c7-8848-e5ad934d6629/ "Strike a Pose - Setting the challenge")
 
