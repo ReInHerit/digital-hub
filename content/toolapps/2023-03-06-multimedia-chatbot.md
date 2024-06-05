@@ -97,7 +97,7 @@ The source code of the app is available on the GitHub of ReInHerit: <https://git
 ### Demo
 
 The DEMO version of the Chatbot includes a gallery with a limited selection of artworks validated by the museums participating in the ReinHerit project ([GrazMuseum](https://www.grazmuseum.at/en/), [Cycladic Museum](https://cycladic.gr/en/),\
-[Bank of Cyprus Cultural Foundation](https://www.boccf.org/en-gb/homepage/)).The curators provided  images and related content.
+[Bank of Cyprus Cultural Foundation](https://www.boccf.org/en-gb/homepage/)). The curators provided  images and related content.
 
 Additionally, we are working with curators of the following small and medium-sized museums to test and add more artworks: [Fondazione Musei Senesi](https://www.museisenesi.org/en/) IT, [Giara Gipsoteca di Arte Antica e Antiquarium University of Pisa](https://www.gipsoteca.sma.unipi.it/en/) IT, [Musei Civici di Reggio Emilia](https://www.musei.re.it/musei2021/) IT, [Museo Capitolare Diocesano Foligno](http://www.museifoligno.it/i-musei/museo-capitolare-diocesano) IT
 
