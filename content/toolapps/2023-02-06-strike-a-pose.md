@@ -41,14 +41,13 @@ The innovative application promotes a user-centred and **gamification** approach
 
 This app won a **Best Demo Honorable Mention award** at ACM Multimedia 2022, the foremost conference on multimedia.
 
-
 ![Best Demo Honorable Mention award at ACM Multimedia 2022](https://ucarecdn.com/a1fde0c2-d8f2-43bd-99d8-920f0df0a0af/ "Best Demo Honorable Mention award at ACM Multimedia 2022")
 
 In the Demo Version of Strike-A-Pose**, User**  is able to **play** by setting the number of poses  and the level of half bust or full body of the artwork. 
 
-![Strike a Pose - Setting the room](https://ucarecdn.com/40142267-ad60-43c7-8848-e5ad934d6629/ "Strike a Pose - Setting the room")
+![Strike a Pose - Setting the challenge](https://ucarecdn.com/40142267-ad60-43c7-8848-e5ad934d6629/ "Strike a Pose - Setting the challenge")
 
-> *Strike a Pose - Setting the room*
+> *Strike a Pose - Setting the* challenge
 
 ## Discover and test
 
