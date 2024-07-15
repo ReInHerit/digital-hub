@@ -5,7 +5,7 @@ type: news
 title: "NEMO Members’ Meetup: Networking and European cooperation projectsEMO
   Members’ Meetup"
 desc: "NEMO Members’ Meetup: Networking and European cooperation projects"
-date: 2024-07-15T09:28:29.167Z
+date: 2024-06-13T09:28:29.167Z
 target-audience:
   - VISITOR
   - PROFESSIONAL
