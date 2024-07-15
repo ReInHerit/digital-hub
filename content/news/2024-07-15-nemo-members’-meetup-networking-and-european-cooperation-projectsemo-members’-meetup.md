@@ -2,8 +2,7 @@
 pageId: c29fbf53-b2a1-4c95-af66-33045ee945d9
 layout: blog
 type: news
-title: "NEMO Members’ Meetup: Networking and European cooperation projectsEMO
-  Members’ Meetup"
+title: "NEMO Members’ Meetup: Networking and European cooperation projects"
 desc: "NEMO Members’ Meetup: Networking and European cooperation projects"
 date: 2024-06-13T09:28:29.167Z
 target-audience:
