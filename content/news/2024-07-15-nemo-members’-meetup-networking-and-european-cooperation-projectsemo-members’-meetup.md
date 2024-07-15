@@ -13,8 +13,6 @@ status: completed
 theme: Technology
 thumbnail: https://ucarecdn.com/3b5f69c8-76cf-4c15-a0b2-6e5f218d2660/-/preview/
 ---
-
-
 ![NEMO Members’ Meetup](https://ucarecdn.com/c15c6407-d8f3-4eec-8605-ae97b8a84c0e/ "NEMO Members’ Meetup")
 
 The ReInHerit project was recently presented during a meetup of members of the Network of European Museum Organizations (NEMO)! It was a great opportunity to network and share the results of cooperative projects.
