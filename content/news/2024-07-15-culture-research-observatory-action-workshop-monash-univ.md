@@ -2,7 +2,7 @@
 pageId: e636543a-cc97-4987-a433-2f10c6f6dac5
 layout: blog
 type: news
-title: Culture Research Observatory - Action Workshop, Monash Univ.
+title: Culture Research Observatory - Action Workshop, Monash University
 desc: Culture Research Observatory - Action Workshop, Monash Univ.
 date: 2024-07-15T13:25:21.613Z
 target-audience:
