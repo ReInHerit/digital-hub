@@ -13,11 +13,9 @@ status: completed
 theme: Technology
 thumbnail: https://ucarecdn.com/94ca9c25-fbb8-460b-b120-7884b84e6ae7/-/crop/655x676/47,124/-/preview/
 ---
-
-
 ![Culture Research Observatory  Action Workshop - Monash Univ.](https://ucarecdn.com/d6f49164-5596-4284-9b56-70d62e1cfcfd/ "Culture Research Observatory  Action Workshop - Monash Univ.")
 
-The results and toolkit of the ReInherit project were presented and shared with interdisciplinry experts attending the **Culture Research Observatory  Action Workshop**, July 11-12, 2024 at [Monash University Prato](https://www.monash.edu/prato) and [Centro Pecci Prato,](http://www.centropecci.it) Italy.
+The results and Toolkit of the ReInherit project were presented and shared with interdisciplinry experts attending the **Culture Research Observatory  Action Workshop**, July 11-12, 2024 at [Monash University Prato](https://www.monash.edu/prato) and [Centro Pecci Prato,](http://www.centropecci.it) Italy.
 
 ![Culture Research Observatory  Action Workshop - Monash Univ.](https://ucarecdn.com/bfdf20c5-ee3b-4f85-a81c-21092326c49b/ "Culture Research Observatory  Action Workshop - Monash Univ.")
 
