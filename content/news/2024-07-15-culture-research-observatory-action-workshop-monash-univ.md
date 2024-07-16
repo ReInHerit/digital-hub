@@ -15,7 +15,7 @@ thumbnail: https://ucarecdn.com/94ca9c25-fbb8-460b-b120-7884b84e6ae7/-/crop/655x
 ---
 ![Culture Research Observatory  Action Workshop - Monash Univ.](https://ucarecdn.com/d6f49164-5596-4284-9b56-70d62e1cfcfd/ "Culture Research Observatory  Action Workshop - Monash Univ.")
 
-The results and Toolkit of the ReInherit project were presented and shared with interdisciplinry experts attending the **Culture Research Observatory  Action Workshop**, July 11-12, 2024 at [Monash University Prato](https://www.monash.edu/prato) and [Centro Pecci Prato,](http://www.centropecci.it) Italy.
+ ReInherit Toolkit was presented to  interdisciplinry experts attending the **Culture Research Observatory  Action Workshop**, July 11-12, 2024 at [Monash University Prato](https://www.monash.edu/prato) and [Centro Pecci Prato,](http://www.centropecci.it) Italy.
 
 ![Culture Research Observatory  Action Workshop - Monash Univ.](https://ucarecdn.com/bfdf20c5-ee3b-4f85-a81c-21092326c49b/ "Culture Research Observatory  Action Workshop - Monash Univ.")
 
@@ -34,10 +34,9 @@ The results and Toolkit of the ReInherit project were presented and shared with 
 
 *  **Marco Bertini** and **Paolo Mazzanti,** MICC Media Integration and Communication Center (Univ. Florence, IT) partner of the ReInHerit Project
 * **Rafael Brundo Uriarte**,  Kunsthistorisches Institut in Florenz – Max-Planck-Institut, Florence IT
-* **Simone Natale,**  Department of Humanities University of Turin, IT
+* **Simone Natale,**  Department of Humanities, University of Turin, IT
 * **Rossana Damiano**, Department of Computer Science, University of Turin, IT
-* **Simona Casonato**,  curator of  Media, ICT and digital culture collections\
-  Museo Nazionale Scienza e Tecnologia Leonardo da Vinci, Milano, IT
+* **Simona Casonato**, Museo Nazionale Scienza e Tecnologia Leonardo da Vinci, Milano, IT
 * **Elisa Corro,** Research Institute for Digital and Cultural Heritage, Univ. Venice, IT
 * **Eleonora Lupo,** Politecnico di Milano, Department of Design, Milano, IT
 * **Marco Borsotti,** DABC Department of Architecture, Built Environment and Construction Engineering, Politecnico Milano, IT 
