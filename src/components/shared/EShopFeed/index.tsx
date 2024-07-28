@@ -122,7 +122,7 @@ const EshopQuery = graphql`
  
 query EshopQuery {
   allMarkdownRemark(
-    filter: { fileAbsolutePath: { regex: "/eshop/" }, frontmatter: {}}
+    filter: { fileAbsolutePath: { regex: "/(/eshop/)/" }, frontmatter: {}}
   ) {
     edges {
       node {
