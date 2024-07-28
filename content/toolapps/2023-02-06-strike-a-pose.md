@@ -29,14 +29,6 @@ The goal of this application is to challenge the user to **analyze and replicate
 
 The user is challenged to reproduce in sequence the poses of some artworks from the museum's collections. Once all the poses have been matched, the application allows the user to **generate** a video that can be saved for any **social sharing** and provide info on the artworks. The video shows the user matching process and the overall **interactive experience** lived at the museum.
 
-**User** is able to **create a room** by selecting the number of participants (clients) i.e. whether to interact alone (Solo) or a challange with another user (Versus), setting the number of poses the number of rounds and the level of half bust or full body of the artwork. Once the room is created, user can share the id number to invite participants.
-
-![Strike a Pose - Setting the room](https://ucarecdn.com/4d670441-12f0-453f-ab43-8f0a3251f77c/ "Strike a Pose - Setting the room")
-
-
-
-> *Strike a Pose - Setting the room*
-
 As part of the ReinHerit Toolkit, the application is designed for the cultural heritage domain and exploit gamification techniques in order to **improve enjoyment and learning** of museum artworks.
 
 ![Strike a Pose - User Interaction during a test at ACM Multimedia 2022](https://ucarecdn.com/e374f086-8574-47ba-be80-b9afedbdb597/ "Strike a Pose - User Interaction during a test at ACM Multimedia 2022")
@@ -51,9 +43,15 @@ This app won a **Best Demo Honorable Mention award** at ACM Multimedia 2022, the
 
 ![Best Demo Honorable Mention award at ACM Multimedia 2022](https://ucarecdn.com/a1fde0c2-d8f2-43bd-99d8-920f0df0a0af/ "Best Demo Honorable Mention award at ACM Multimedia 2022")
 
+ **Strike-A-Pose (Demo Version):  User**  is able to **play** by setting the number of poses  and the level of half bust or full body of the artwork. 
+
+![Strike a Pose - Setting the challenge](https://ucarecdn.com/40142267-ad60-43c7-8848-e5ad934d6629/ "Strike a Pose - Setting the challenge")
+
+> *Strike a Pose - Setting the* challenge
+
 ## Discover and test
 
-**Demo** is available at this link:\
+**Demo** is available at this link (using Chrome or Firefox browser): \
 [https://reinherit-strike-a-pos​e.herokuapp.com/](https://reinherit-strike-a-pose.herokuapp.com/)
 
 `youtube: https://www.youtube.com/watch?v=GHgBIRXqKK8`

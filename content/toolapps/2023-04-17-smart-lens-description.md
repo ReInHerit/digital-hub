@@ -32,10 +32,9 @@ Unlike traditional guides that rely on QR codes, Smart Lens requires **active  a
 
 ## Discover and test
 
-Gallery images are part of[ WikiArt ](https://www.wikiart.org)-Visual Art Encyclopedia.  DEMO version also includes limited selection of artworks provided by museums participating in the ReinHerit project ([GrazMuseum](https://www.grazmuseum.at/en/), [Cycladic Museum](https://cycladic.gr/en/),\
-[Bank of Cyprus Cultural Foundation](https://www.boccf.org/en-gb/homepage/)). In addition, through collaboration with curators of small and medium-sized museums, the gallery has been populated with images of artworks and additional contents provided by [Fondazione Musei Senesi](https://www.museisenesi.org/en/) IT, [Giara Gipsoteca di Arte Antica e Antiquarium University of Pisa](https://www.gipsoteca.sma.unipi.it/en/) IT, [Musei Civici di Reggio Emilia](https://www.musei.re.it/musei2021/) IT, [Museo Capitolare Diocesano Foligno](http://www.museifoligno.it/i-musei/museo-capitolare-diocesano) IT.
+Gallery images include a limited selection of artworks and contents provided by museums participating in the ReinHerit project. Selected artworks were used by visitors via SmartLens during the [ReInHerit ReThinking ](https://reinherit-hub.eu/travellingexhibitions)live exhibitions held at the [GrazMuseum](https://www.grazmuseum.at/en/) (Austria), the [Museum of Cycladic Art](https://cycladic.gr/en/)[](https://cycladic.gr/en/) (Athens, Greece), and the [ank of Cyprus Cultural Foundation](https://www.boccf.org/en-gb/homepage/) (Nicosia, Cyprus).
 
-Try the **Smart Lens Tester** at the following link:\
+Try the **Smart Lens Tester** at the following link: \
 [https://reinherit-smartlens-te​ster.herokuapp.com/ ](https://reinherit-smartlens-tester.herokuapp.com/)
 
 ![Smart Lens Tester](https://ucarecdn.com/55dc7c74-dd1e-4aa8-a413-c5597d4ef6b9/ "Smart Lens Tester")

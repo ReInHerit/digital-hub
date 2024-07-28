@@ -22,4 +22,4 @@ Face-Fit application has been developed in JavaScript on the client side and in 
 The model runs completely client-side in the browser. Server-side an SQLLite database is used to stores artworks’collections, challenges and artworks’ metadata and descriptions.
 
 **Free Codes of the App are available here:**\
-<https://github.com/ReInHerit/strike-a-pose>
+<https://github.com/ReInHerit/face-fit>

@@ -21,25 +21,15 @@ Experience art in a new and exciting way with **VIOLA Multimedia Chatbot**! Deve
 
 > "Whether you are an art enthusiast or just beginning to explore the art world, VIOLA is the perfect tool to **enhance your experience**. Simply type in your questions or talk to VIOLA to see how your requests are answered with ease."
 
-The design of this application is motivated by the recent huge interest **in chat-based interaction** that has been popularized, for example, by Chat GPT. ìì
-
-The **DEMO version** of the Chatbot includes a gallery with a limited selection of artworks provided by the museums participating in the ReinHerit project ([GrazMuseum](https://www.grazmuseum.at/en/), [Cycladic Museum](https://cycladic.gr/en/),\
-[Bank of Cyprus Cultural Foundation](https://www.boccf.org/en-gb/homepage/)). The curators supplied the images and related content,  using a specific**[ interface](https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3).**[](https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3)
-
-Additionally, through collaboration with curators from small and medium-sized museums, the gallery was populated with images of artworks and quality content provided by:
-
-* [Fondazione Musei Senesi](https://www.museisenesi.org/en/) IT
-* [Giara Gipsoteca di Arte Antica e Antiquarium University of Pisa](https://www.gipsoteca.sma.unipi.it/en/) IT
-* [Musei Civici di Reggio Emilia](https://www.musei.re.it/musei2021/) IT
-* [Museo Capitolare Diocesano Foligno](http://www.museifoligno.it/i-musei/museo-capitolare-diocesano) IT
-
-Demo is available at this link:\
-[https://reinherit-multimedia-c​hatbot.herokuapp.com/](https://reinherit-multimedia-chatbot.herokuapp.com/)
+The design of this application is motivated by the recent huge interest **in chat-based interaction** that has been popularized, for example, by Chat GPT. 
 
 ## Discover and test
 
-Join the chatbot and discover a new way to interact with art by starting to ask your own questions. \
-Try the **Demo of VIOLA Multimedia Chatbot** at this link:\
+**VIOLA Chatbot Gallery**, includes a limited selection of artworks provided by museums participating in the ReinHerit project ([GrazMuseum](https://www.grazmuseum.at/en/), [Cycladic Museum](https://cycladic.gr/en/), [Bank of Cyprus Cultural Foundation](https://www.boccf.org/en-gb/homepage/)). Curators provided images and related content using a specific **[interface](https://reinherit-hub.eu/tools/apps/c01cc7e5-033c-4d07-a56f-4612f9f210b3)**. They validated the descriptive content of the artworks to ensure quality responses. Unanswered questions will be saved to add more descriptive content and improve dialogue and chatbot interaction
+
+Additionally, we are working with curators of the following small and medium-sized museums to test and add more artworks: [Fondazione Musei Senesi](https://www.museisenesi.org/en/) IT, [Giara Gipsoteca di Arte Antica e Antiquarium University of Pisa](https://www.gipsoteca.sma.unipi.it/en/) IT, [Musei Civici di Reggio Emilia](https://www.musei.re.it/musei2021/) IT, [Museo Capitolare Diocesano Foligno](http://www.museifoligno.it/i-musei/museo-capitolare-diocesano) IT
+
+**Demo is available at this link:**\
 [https://reinherit-multimedia-c​hatbot.herokuapp.com/](https://reinherit-multimedia-chatbot.herokuapp.com/)
 
 ![VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork](https://ucarecdn.com/6adfc128-9bc3-4005-b996-aba3869bc16f/ "VIOLA multimedia chatbot: landing page and answering questions related to the context of an artwork")
