@@ -91,7 +91,7 @@ Code for a new metric to evaluate video quality in a no-reference setting (usefu
 ### Demo Smart Video Restoration
 
  **Demo** of "Smart Video Restoration"  is available at the following link (the online demo works on photos and not videos, for timing reasons):\
-[https://reinherit-image-restor​e.herokuapp.com](https://reinherit-image-restore.herokuapp.com/)
+<http://solaris.micc.unifi.it:8000>[](http://solaris.micc.unifi.it:8000)
 
 The code of the demo is available here: <https://github.com/ReInHerit/image_restoration>
 
