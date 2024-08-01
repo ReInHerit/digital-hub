@@ -37,4 +37,4 @@ Gallery images include a limited selection of artworks and contents provided by 
 Try the **Smart Lens Tester** at the following link: \
 [https://reinherit-smartlens-te​ster.herokuapp.com/ ](https://reinherit-smartlens-tester.herokuapp.com/)
 
-![Smart Lens Tester](https://ucarecdn.com/55dc7c74-dd1e-4aa8-a413-c5597d4ef6b9/ "Smart Lens Tester")
+![Smart Lens Tester](https://ucarecdn.com/4590087b-dc4e-4a8f-9075-764355452553/ "Smart Lens Tester")
