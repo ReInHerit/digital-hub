@@ -32,7 +32,6 @@ With this innovative technology, you will be able to restore historic phots and 
 
 Due to computational costs the demo handles only images. People interested in video restoration must install the Smart Video Restoration app.
 
-Try the **demo** for image restoration at this link (the online demo works on photos and not videos, for timing reasons):\
-<http://solaris.micc.unifi.it:8000>
+Try the **demo** for image restoration at this link (the online demo works on photos and not videos, for timing reasons): <http://solaris.micc.unifi.it:8000>[](http://solaris.micc.unifi.it:8000)
 
 ![Smart Video/Photo Restoration](https://ucarecdn.com/f013c43e-ff3b-4951-bb17-3e83030a5cbc/ "Smart Video/Photo Restoration")
