@@ -654,3 +654,159 @@ collections:
         }
       - { label: "PDF", name: "pdf", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, } 
       - { label: "Description", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, hint: "Upload at least one photo. You can also link videos (max 5)." }
+  - name: "about"
+    label: "About" # Used in the UI
+    label_singular: "message" # Used in the UI, ie: "New Post"
+    folder: "content/about"
+    description: about the project and the Hub
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ['title']
+    fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true, }
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
+      - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
+  - name: "doc"
+    label: "Documentation of the Hub" # Used in the UI
+    label_singular: "message" # Used in the UI, ie: "New Post"
+    folder: "content/doc"
+    description: documentation about the Hub
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ['title']
+    fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["PROFESSIONAL"], multiple: true, }
+      - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
+  - name: "eshopdoc"
+    label: "Documentation of the ReInHerit e-shop" # Used in the UI
+    label_singular: "message" # Used in the UI, ie: "New Post"
+    folder: "content/eshopdoc"
+    description: Documentation of the ReInHerit e-shop
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ['title']
+    fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["PROFESSIONAL"], multiple: true, }
+      - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
+  - name: "firstperfdoc"
+    label: "Documentation of the first ReInHerit performance" # Used in the UI
+    label_singular: "message" # Used in the UI, ie: "New Post"
+    folder: "content/firstperfdoc"
+    description: Documentation of the first ReInHerit performance
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ['title']
+    fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["PROFESSIONAL"], multiple: true, }
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
+      - { label: "PDF", name: "pdf", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, }
+      - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
+  - name: "hackathonnicosia"
+    label: "Hackathon in Nicosia" # Used in the UI
+    label_singular: "message" # Used in the UI, ie: "New Post"
+    folder: "content/hackathonnicosia"
+    description: Hackathon in Nicosia
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ['title']
+    fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true, }
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
+      - { label: "PDF", name: "pdf", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, }
+      - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
+  - name: "handbook"
+    label: "The ReInHerit Handbook" # Used in the UI
+    label_singular: "message" # Used in the UI, ie: "New Post"
+    folder: "content/handbook"
+    description: The ReInHerit Handbook
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ['title']
+    fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["PROFESSIONAL"], multiple: true, }
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
+      - { label: "PDF", name: "pdf", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, }
+      - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
+  - name: "museumcalls"
+    label: "Calls for Participation by the ReInHerit Museums" # Used in the UI
+    label_singular: "message" # Used in the UI, ie: "New Post"
+    folder: "content/museumcalls"
+    description: Calls for Participation by the ReInHerit Museums
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ['title']
+    fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["PROFESSIONAL"], multiple: true, }
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
+      - { label: "PDF", name: "pdf", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, }
+      - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
+  - name: "secondperfdoc"
+    label: "Documentation of the second ReInHerit performance" # Used in the UI
+    label_singular: "message" # Used in the UI, ie: "New Post"
+    folder: "content/secondperfdoc"
+    description: Documentation of the second ReInHerit performance
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ['title']
+    fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["PROFESSIONAL"], multiple: true, }
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
+      - { label: "PDF", name: "pdf", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, }
+      - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
+  - name: "travellingexhibitions"
+    label: "The ReInHerit travelling exhibitions" # Used in the UI
+    label_singular: "message" # Used in the UI, ie: "New Post"
+    folder: "content/travellingexhib"
+    description: The ReInHerit travelling exhibitions
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ['title']
+    fields:
+      - { label: "Page-ID", name: "pageId", widget: "uuid" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true, }
+      - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
+      - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }     

@@ -57,6 +57,60 @@ export default function Template({
           addObj.label = "..."
           addObj.value = "/bestpractices"
           break;
+        case "about":
+          breadCrumbObj.label = "About"
+          breadCrumbObj.value = "/about"
+          addObj.label = "..."
+          addObj.value = "/about"
+          break;
+        case "doc":
+          breadCrumbObj.label = "Hub Documentation"
+          breadCrumbObj.value = "/doc"
+          addObj.label = "..."
+          addObj.value = "/doc"
+          break;
+        case "eshopdoc":
+          breadCrumbObj.label = "E-Shop Documentation"
+          breadCrumbObj.value = "/eshopdoc"
+          addObj.label = "..."
+          addObj.value = "/eshopdoc"
+          break;
+        case "firstperfdoc":
+          breadCrumbObj.label = "Documentation of the first ReInHerit performance"
+          breadCrumbObj.value = "/firstperfdoc"
+          addObj.label = "..."
+          addObj.value = "/firstperfdoc"
+          break;
+        case "hackathonnicosia":
+          breadCrumbObj.label = "ReInHerit Hackathon in Nicosia"
+          breadCrumbObj.value = "/hackathonnicosia"
+          addObj.label = "..."
+          addObj.value = "/hackathonnicosia"
+          break;
+        case "handbook":
+          breadCrumbObj.label = "ReInHerit Handbook"
+          breadCrumbObj.value = "/handbook"
+          addObj.label = "..."
+          addObj.value = "/handbook"
+          break;
+        case "museumcalls":
+          breadCrumbObj.label = "Museum Calls"
+          breadCrumbObj.value = "/museumcalls"
+          addObj.label = "..."
+          addObj.value = "/museumcalls"
+          break;
+        case "secondperfdoc":
+          breadCrumbObj.label = "Documentation of the second ReInHerit performance"
+          breadCrumbObj.value = "/secondperfdoc"
+          addObj.label = "..."
+          addObj.value = "/secondperfdoc"
+          break;
+        case "travellingexhib":
+          breadCrumbObj.label = "ReInHerit travelling exhibitions"
+          breadCrumbObj.value = "/travellingexhib"
+          addObj.label = "..."
+          addObj.value = "/travellingexhib"
+          break;
    /*   case "webinar":
         breadCrumbObj.label = "Webinars"
         breadCrumbObj.value = "/webinars"

@@ -139,6 +139,132 @@ query ExhibDocQuery {
       }
     }
   `
+  const ABOUT_PAGES = `
+    query MyQuery {
+      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(/about/)/"}}) {
+        edges {
+          node {
+            frontmatter {
+              pageId
+            }
+          }
+        }
+      }
+    }
+  ` 
+  const DOC_PAGES = `
+    query MyQuery {
+      allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(/doc/)/"}}) {
+        edges {
+          node {
+            frontmatter {
+              pageId
+            }
+          }
+        }
+      }
+    }
+  ` 
+
+  const ESHOPDOC_PAGES = `
+  query MyQuery {
+    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(/eshopdoc/)/"}}) {
+      edges {
+        node {
+          frontmatter {
+            pageId
+          }
+        }
+      }
+    }
+  }
+` 
+
+const FIRSTPERFDOC_PAGES = `
+query MyQuery {
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(/firstperfdoc/)/"}}) {
+    edges {
+      node {
+        frontmatter {
+          pageId
+        }
+      }
+    }
+  }
+}
+` 
+
+const HACKATHONNICOSIA_PAGES = `
+query MyQuery {
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(/hackathonnicosia/)/"}}) {
+    edges {
+      node {
+        frontmatter {
+          pageId
+        }
+      }
+    }
+  }
+}
+` 
+const HANDBOOK_PAGES = `
+query MyQuery {
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(/handbook/)/"}}) {
+    edges {
+      node {
+        frontmatter {
+          pageId
+        }
+      }
+    }
+  }
+}
+` 
+
+const MUSEUMCALLS_PAGES = `
+query MyQuery {
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(/museumcalls/)/"}}) {
+    edges {
+      node {
+        frontmatter {
+          pageId
+        }
+      }
+    }
+  }
+}
+` 
+
+const SECONDPERFDOC_PAGES = `
+query MyQuery {
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(/secondperfdoc/)/"}}) {
+    edges {
+      node {
+        frontmatter {
+          pageId
+        }
+      }
+    }
+  }
+}
+` 
+
+const TRAVELLINGEXHIB_PAGES = `
+query MyQuery {
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(/travellingexhib/)/"}}) {
+    edges {
+      node {
+        frontmatter {
+          pageId
+        }
+      }
+    }
+  }
+}
+` 
+
+
+
 
   return {
     WEBINARS_PAGES,
@@ -151,5 +277,14 @@ query ExhibDocQuery {
     GAMEDOC_PAGES,
     EXHIBDOC_PAGES,
     SUMMERSCHOOL_PAGES,
+    ABOUT_PAGES,
+    DOC_PAGES,
+    ESHOPDOC_PAGES,
+    FIRSTPERFDOC_PAGES,
+    HACKATHONNICOSIA_PAGES,
+    HANDBOOK_PAGES,
+    MUSEUMCALLS_PAGES,
+    SECONDPERFDOC_PAGES,
+    TRAVELLINGEXHIB_PAGES,
   }
 })()
