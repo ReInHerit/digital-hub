@@ -121,6 +121,105 @@ module.exports.createPages = async ({ graphql, actions}) => {
      })
    });
 
+   // adding about data from markdown
+   const aboutResult = await graphql(DIGIHUB_QUERIES.ABOUT_PAGES);
+   aboutResult.data.allMarkdownRemark.edges.forEach(edge => {
+     const mdId = edge.node.frontmatter.pageId
+     actions.createPage({
+       path: `/about/${mdId}`,
+       component: require.resolve(`./src/templates/gamedoc.js`),
+       context: { id: mdId },
+     })
+   });
+
+   // adding Hub Documentation data from markdown
+   const docResult = await graphql(DIGIHUB_QUERIES.DOC_PAGES);
+   docResult.data.allMarkdownRemark.edges.forEach(edge => {
+     const mdId = edge.node.frontmatter.pageId
+     actions.createPage({
+       path: `/doc/${mdId}`,
+       component: require.resolve(`./src/templates/gamedoc.js`), // change template
+       context: { id: mdId },
+     })
+   });
+   
+   // adding eShop Documentation data from markdown
+   const eshopdocResult = await graphql(DIGIHUB_QUERIES.ESHOPDOC_PAGES);
+   eshopdocResult.data.allMarkdownRemark.edges.forEach(edge => {
+     const mdId = edge.node.frontmatter.pageId
+     actions.createPage({
+       path: `/eshopdoc/${mdId}`,
+       component: require.resolve(`./src/templates/gamedoc.js`),
+       context: { id: mdId },
+     })
+   });
+   
+   // adding first performance documentation data from markdown
+   const firstperfdocResult = await graphql(DIGIHUB_QUERIES.FIRSTPERFDOC_PAGES);
+   firstperfdocResult.data.allMarkdownRemark.edges.forEach(edge => {
+     const mdId = edge.node.frontmatter.pageId
+     actions.createPage({
+       path: `/firstperfdoc/${mdId}`,
+       component: require.resolve(`./src/templates/gamedoc.js`), // change template
+       context: { id: mdId },
+     })
+   });
+
+   // adding Hackathon Nicosia data from markdown
+   const hackathonnicosiaResult = await graphql(DIGIHUB_QUERIES.HACKATHONNICOSIA_PAGES);
+   hackathonnicosiaResult.data.allMarkdownRemark.edges.forEach(edge => {
+     const mdId = edge.node.frontmatter.pageId
+     actions.createPage({
+       path: `/hackathonnicosia/${mdId}`,
+       component: require.resolve(`./src/templates/gamedoc.js`),
+       context: { id: mdId },
+     })
+   });
+   
+   // adding Handbook data from markdown
+   const handbookResult = await graphql(DIGIHUB_QUERIES.HANDBOOK_PAGES);
+   handbookResult.data.allMarkdownRemark.edges.forEach(edge => {
+     const mdId = edge.node.frontmatter.pageId
+     actions.createPage({
+       path: `/handbook/${mdId}`,
+       component: require.resolve(`./src/templates/gamedoc.js`),
+       context: { id: mdId },
+     })
+   });
+   
+   // adding museum calls data from markdown
+   const museumcallsResult = await graphql(DIGIHUB_QUERIES.MUSEUMCALLS_PAGES);
+   museumcallsResult.data.allMarkdownRemark.edges.forEach(edge => {
+     const mdId = edge.node.frontmatter.pageId
+     actions.createPage({
+       path: `/museumcalls/${mdId}`,
+       component: require.resolve(`./src/templates/gamedoc.js`),
+       context: { id: mdId },
+     })
+   });
+   
+   // adding second performance documentation data from markdown
+   const secondperfdocResult = await graphql(DIGIHUB_QUERIES.SECONDPERFDOC_PAGES);
+   secondperfdocResult.data.allMarkdownRemark.edges.forEach(edge => {
+     const mdId = edge.node.frontmatter.pageId
+     actions.createPage({
+       path: `/secondperfdoc/${mdId}`,
+       component: require.resolve(`./src/templates/gamedoc.js`), // change template
+       context: { id: mdId },
+     })
+   });
+   
+   // adding travelling exhibitions data from markdown
+   const travellingexhibResult = await graphql(DIGIHUB_QUERIES.TRAVELLINGEXHIB_PAGES);
+   travellingexhibResult.data.allMarkdownRemark.edges.forEach(edge => {
+     const mdId = edge.node.frontmatter.pageId
+     actions.createPage({
+       path: `/travellingexhib/${mdId}`,
+       component: require.resolve(`./src/templates/gamedoc.js`),
+       context: { id: mdId },
+     })
+   });
+
 
   // adding object-collection data from markdown
  // const exhibitionCollectionResult = await graphql(DIGIHUB_QUERIES.EXHIBITION_COLLECTION_PAGES);
