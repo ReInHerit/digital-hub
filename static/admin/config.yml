@@ -665,7 +665,7 @@ collections:
     fields:
       - { label: "Page-ID", name: "pageId", widget: "uuid" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Type", name: "type", widget: "hidden", default: "about" }
       - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true, }
@@ -682,7 +682,7 @@ collections:
     fields:
       - { label: "Page-ID", name: "pageId", widget: "uuid" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Type", name: "type", widget: "hidden", default: "doc" }
       - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["PROFESSIONAL"], multiple: true, }
@@ -697,7 +697,7 @@ collections:
     sortable_fields: ['title']
     fields:
       - { label: "Page-ID", name: "pageId", widget: "uuid" }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "eshopdoc" }
       - { label: "Type", name: "type", widget: "hidden", default: "news" }
       - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
       - { label: "Date", name: "date", widget: "datetime" }
@@ -714,12 +714,12 @@ collections:
     fields:
       - { label: "Page-ID", name: "pageId", widget: "uuid" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Type", name: "type", widget: "hidden", default: "firstperfdoc" }
       - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["PROFESSIONAL"], multiple: true, }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
-      - { label: "PDF", name: "pdf", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, }
+      - { label: "PDF", name: "mainImage", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, }
       - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
   - name: "hackathonnicosia"
     label: "Hackathon in Nicosia" # Used in the UI
@@ -732,12 +732,12 @@ collections:
     fields:
       - { label: "Page-ID", name: "pageId", widget: "uuid" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Type", name: "type", widget: "hidden", default: "hackathonnicosia" }
       - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true, }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
-      - { label: "PDF", name: "pdf", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, }
+      - { label: "PDF", name: "mainImage", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, }
       - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
   - name: "handbook"
     label: "The ReInHerit Handbook" # Used in the UI
@@ -750,12 +750,17 @@ collections:
     fields:
       - { label: "Page-ID", name: "pageId", widget: "uuid" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Type", name: "type", widget: "hidden", default: "handbook" }
       - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["PROFESSIONAL"], multiple: true, }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
-      - { label: "PDF", name: "pdf", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, }
+      - { label: "Download PDF",
+          name: "mainImage",
+          widget: "file",
+          media_library: { config: { max_file_size: 50000000 } },
+          required: false,
+      }      
       - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
   - name: "museumcalls"
     label: "Calls for Participation by the ReInHerit Museums" # Used in the UI
@@ -768,12 +773,12 @@ collections:
     fields:
       - { label: "Page-ID", name: "pageId", widget: "uuid" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Type", name: "type", widget: "hidden", default: "museumcalls" }
       - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["PROFESSIONAL"], multiple: true, }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
-      - { label: "PDF", name: "pdf", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, }
+      - { label: "PDF", name: "mainImage", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, }
       - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
   - name: "secondperfdoc"
     label: "Documentation of the second ReInHerit performance" # Used in the UI
@@ -786,12 +791,12 @@ collections:
     fields:
       - { label: "Page-ID", name: "pageId", widget: "uuid" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Type", name: "type", widget: "hidden", default: "secondperfdoc" }
       - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["PROFESSIONAL"], multiple: true, }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
-      - { label: "PDF", name: "pdf", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, }
+      - { label: "PDF", name: "mainImage", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, }
       - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
   - name: "travellingexhibitions"
     label: "The ReInHerit travelling exhibitions" # Used in the UI
@@ -804,7 +809,7 @@ collections:
     fields:
       - { label: "Page-ID", name: "pageId", widget: "uuid" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Type", name: "type", widget: "hidden", default: "news" }
+      - { label: "Type", name: "type", widget: "hidden", default: "travellingexhib" }
       - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true, }

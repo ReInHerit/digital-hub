@@ -6,7 +6,7 @@ title: "Project: The Archeological Odyssey"
 date: 2024-09-05T10:52:57.698Z
 target-audience:
   - VISITOR
-pdf: https://ucarecdn.com/2b4b95a3-e212-4811-aab7-37b77ba12f14/
+mainImage: https://ucarecdn.com/2b4b95a3-e212-4811-aab7-37b77ba12f14/
 ---
 **Special Award Winner from the European Cultural Tourism Council: The Archeological Odyssey, by Georgiou Athanasiadis and Daniil Georgiou, received the special award of 1,000 euros.**
 

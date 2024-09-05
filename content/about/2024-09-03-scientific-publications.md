@@ -1,7 +1,7 @@
 ---
 pageId: 3b438d0d-239e-4027-a5c3-917263e373aa
 layout: blog
-type: news
+type: about
 title: Scientific Publications
 date: 2024-09-03T09:49:52.020Z
 target-audience:

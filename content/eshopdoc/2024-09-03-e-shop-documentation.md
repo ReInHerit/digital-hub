@@ -1,7 +1,7 @@
 ---
 pageId: 7ad7993f-c1c6-42dc-a183-192aae852ccd
 layout: blog
-type: news
+type: eshopdoc
 title: E-Shop Documentation
 date: 2024-09-03T10:11:54.435Z
 target-audience:

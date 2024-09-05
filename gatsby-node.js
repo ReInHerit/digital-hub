@@ -138,7 +138,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
      const mdId = edge.node.frontmatter.pageId
      actions.createPage({
        path: `/doc/${mdId}`,
-       component: require.resolve(`./src/templates/gamedoc.js`), // change template
+       component: require.resolve(`./src/templates/sidebar.js`), 
        context: { id: mdId },
      })
    });
@@ -160,7 +160,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
      const mdId = edge.node.frontmatter.pageId
      actions.createPage({
        path: `/firstperfdoc/${mdId}`,
-       component: require.resolve(`./src/templates/gamedoc.js`), // change template
+       component: require.resolve(`./src/templates/sidebar.js`), 
        context: { id: mdId },
      })
    });
@@ -204,7 +204,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
      const mdId = edge.node.frontmatter.pageId
      actions.createPage({
        path: `/secondperfdoc/${mdId}`,
-       component: require.resolve(`./src/templates/gamedoc.js`), // change template
+       component: require.resolve(`./src/templates/sidebar.js`), 
        context: { id: mdId },
      })
    });

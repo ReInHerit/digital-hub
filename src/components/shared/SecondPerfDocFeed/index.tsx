@@ -30,7 +30,7 @@ export default SecondPerfDocFeed
 const SECONDPERFDOC_QUERY = graphql`
   query SecondPerfDocQuery {
     allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/(/secondperfdoc/)/" } }
-    sort: {fields: frontmatter___date, order: DESC}
+    sort: {fields: frontmatter___date, order: ASC}
     ) {
       edges {
         node {

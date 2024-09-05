@@ -1,7 +1,7 @@
 ---
 pageId: 3b13e4f5-741f-472c-a58d-a9895088b486
 layout: blog
-type: news
+type: about
 title: Data Protection
 date: 2024-09-03T09:31:35.057Z
 target-audience:

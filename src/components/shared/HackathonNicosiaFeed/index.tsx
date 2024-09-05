@@ -30,7 +30,7 @@ export default HackathonNicosiaFeed
 const HACKATHONNICOSIA_QUERY = graphql`
   query HackathonNicosiaQuery {
     allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/(/hackathonnicosia/)/" } }
-    sort: {fields: frontmatter___date, order: DESC}
+    sort: {fields: frontmatter___date, order: ASC}
     ) {
       edges {
         node {

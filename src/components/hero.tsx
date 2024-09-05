@@ -244,9 +244,9 @@ The ReInHerit project developed learning resources and provides detailed documen
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/webinars/">Webinars</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/factsheets/">Research Factsheets</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/bestpractices/">Best Practices</Button>
-    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/handbook/">Handbook</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/handbook/e85d8d26-e074-4f5e-b5f6-329d76bba0f0/">Handbook</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/about/3b438d0d-239e-4027-a5c3-917263e373aa">Scientific Publications</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/hackathonnicosia/">Hackathon Training Material</Button>
-    
   </div>
     <Row className="mt-4"><h5>Documentation:</h5></Row>
   <div className="d-grid gap-2">  
@@ -254,8 +254,9 @@ The ReInHerit project developed learning resources and provides detailed documen
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/tools/components/">Toolkit components</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/exhibdoc/">Exhibitions Documentation</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/exhibdoc/doconlinecoll/">Online Collection Documentation</Button>
-    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/firstperfdoc/overview/">Performances Documentation</Button>
-    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/eshopdoc/">e-Shop Documentation</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/firstperfdoc/">First Performance Documentation</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/secondperfdoc/">Second Performance Documentation</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/eshopdoc/7ad7993f-c1c6-42dc-a183-192aae852ccd">e-Shop Documentation</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/gamedoc/5761ffde-e42d-4697-973a-353c16f32590">Videogame Documentation</Button>
   </div>
 
@@ -282,7 +283,7 @@ Join the ReInHerit Forum to network with professionals and share your experience
         <Card.Text>
           Discover how to host one of our travelling "ReTHINKING" exhibitions.
         </Card.Text>
-        <Button variant="danger" href="/museumcalls/travelling/">Learn more</Button>
+        <Button variant="danger" href="/museumcalls/ecef209d-8276-4aff-90d7-4228f5238731">Learn more</Button>
       </Card.Body>
     </Card>
   </Col>
@@ -294,7 +295,7 @@ Join the ReInHerit Forum to network with professionals and share your experience
         <Card.Text>
           Discover how to share your objects in the ReInHerit Digital Collection.
         </Card.Text>
-        <Button variant="danger" href="/museumcalls/digital/">Learn more</Button>
+        <Button variant="danger" href="/museumcalls/96ee4e71-7184-4557-ac18-ca825fe33b05">Learn more</Button>
       </Card.Body>
     </Card>
   </Col>

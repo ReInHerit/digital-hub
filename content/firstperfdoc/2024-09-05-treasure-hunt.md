@@ -6,7 +6,7 @@ title: Treasure Hunt
 date: 2024-09-05T10:23:50.495Z
 target-audience:
   - PROFESSIONAL
-pdf: https://ucarecdn.com/d73f3928-2fac-46af-a4c4-ed1a246f2ce6/
+mainImage: https://ucarecdn.com/d73f3928-2fac-46af-a4c4-ed1a246f2ce6/
 ---
 ## Description of treasure hunt and museological approach for Immersive Performance by Maria Shehade
 

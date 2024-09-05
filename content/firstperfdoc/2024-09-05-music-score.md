@@ -6,6 +6,6 @@ title: Music Score
 date: 2024-09-05T10:29:08.907Z
 target-audience:
   - PROFESSIONAL
-pdf: https://ucarecdn.com/406f4d6d-7bdd-452f-94c6-914aa92e4d31/
+mainImage: https://ucarecdn.com/406f4d6d-7bdd-452f-94c6-914aa92e4d31/
 ---
 The music score of the first performance was written by Dr Andreas Papapetrou. In the following PDF, a detailed description and the score are presented.

@@ -4,22 +4,72 @@ import { Container } from "react-bootstrap"
 // import { useReinLocalStorage } from "../hooks/useReinLocalStorage"
 import BaseLayout from "../components/static/BaseLayout"
 import MainHeading from "../components/static/MainHeading"
-import SideMainLayout from "../components/shared/Layout/SideMainLayout"
-import GameDocFeed from "../components/shared/GameDocFeed"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
- 
+
+  const addBreadCrumbTypeAware = (type) => {
+    let breadCrumbObj = {};
+    let addObj = {}
+   
+    switch(type){
+        case "about":
+          breadCrumbObj.label = "About"
+          breadCrumbObj.value = "/about"
+          addObj.label = "..."
+          addObj.value = "/about"
+          break;
+        case "eshopdoc":
+          breadCrumbObj.label = "E-Shop Documentation"
+          breadCrumbObj.value = "/eshopdoc"
+          addObj.label = "..."
+          addObj.value = "/eshopdoc"
+          break;
+        case "hackathonnicosia":
+          breadCrumbObj.label = "ReInHerit Hackathon in Nicosia"
+          breadCrumbObj.value = "/hackathonnicosia"
+          addObj.label = "..."
+          addObj.value = "/hackathonnicosia"
+          break;
+        case "handbook":
+          breadCrumbObj.label = "ReInHerit Handbook"
+          breadCrumbObj.value = "/handbook"
+          addObj.label = "..."
+          addObj.value = "/handbook"
+          break;
+        case "museumcalls":
+          breadCrumbObj.label = "Museum Calls"
+          breadCrumbObj.value = "/museumcalls"
+          addObj.label = "..."
+          addObj.value = "/museumcalls"
+          break;
+        case "travellingexhib":
+          breadCrumbObj.label = "ReInHerit travelling exhibitions"
+          breadCrumbObj.value = "/travellingexhib"
+          addObj.label = "..."
+          addObj.value = "/travellingexhib"
+          break;
+      default:
+        breadCrumbObj.label = "Videogame Documentation"
+        breadCrumbObj.value = "/gamedoc"
+        addObj.label = "..."
+        addObj.value = "/gamedoc"
+        break;
+    }
+  }
+
   return (
     <BaseLayout>
-      <MainHeading
-      breadCrumb={[
-          {label:"Videogame Documentation", value:"/gamedoc"},
-          {label:"...", value:"/gamedoc"},
-        ]}
+      <MainHeading  
+//          subHeading={
+//          frontmatter.type.charAt(0).toUpperCase() +
+//          frontmatter.type.slice(1, frontmatter.type.length)
+//        }
+//        subText={frontmatter.desc ? frontmatter.desc : markdownRemark.excerpt}
+        breadCrumb={addBreadCrumbTypeAware(frontmatter.type)}
       >
         {frontmatter.title}
       </MainHeading>
@@ -32,7 +82,7 @@ export default function Template({
               />
               {frontmatter.mainImage &&
                   frontmatter.mainImage.length !== 0 && (
-              <a style={{borderRadius:0}} href={frontmatter.mainImage} download="mainImage" className="btn btn-info border-radius-0" target="_blank" rel="noreferrer">Click this button to download the GDD.</a>
+              <a style={{borderRadius:0}} href={frontmatter.mainImage} download="mainImage" className="btn btn-info border-radius-0" target="_blank" rel="noreferrer">Click this button to download it.</a>
                   )}
         </Container>
         </div>

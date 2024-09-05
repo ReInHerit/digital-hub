@@ -30,7 +30,7 @@ export default FirstPerfDocFeed
 const FIRSTPERFDOC_QUERY = graphql`
   query FirstPerfDocQuery {
     allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/(/firstperfdoc/)/" } }
-    sort: {fields: frontmatter___date, order: DESC}
+    sort: {fields: frontmatter___date, order: ASC}
     ) {
       edges {
         node {

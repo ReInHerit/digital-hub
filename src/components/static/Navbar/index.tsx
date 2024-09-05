@@ -29,13 +29,13 @@ const ReinNavbar: React.FC = () => {
                 <Link
                   style={{ color: "#424753" }}
                   className="text-decoration-none dropdown-item"
-                  to="/about"
+                  to="/about/dd779b45-1ce5-411a-9c80-f887f1ddb4c2"
                 >
                   Project
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
-                  to="/about/team"
+                  to="/about/12654fad-79d5-4c78-99a1-dd6d4b777cb1"
                 >
                   Consortium
                 </Link>
@@ -53,13 +53,13 @@ const ReinNavbar: React.FC = () => {
             </Link>
             <Link
                   className="text-dark text-decoration-none dropdown-item"
-                  to="/about/imprint"
+                  to="/about/69482c10-2859-452f-b7fc-fdc901f9e0a1"
                 >
                   Imprint
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
-                  to="/about/dataprot"
+                  to="/about/3b13e4f5-741f-472c-a58d-a9895088b486"
                 >
                   Data protection
                 </Link>
@@ -75,6 +75,12 @@ const ReinNavbar: React.FC = () => {
               </Nav.Link>
 
               <NavDropdown title="Resources" id="basic-nav-dropdown">
+              <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/resources"
+                >
+                  <b>Overview of all the ReInHerit resources</b>
+                </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/webinars"
@@ -96,9 +102,15 @@ const ReinNavbar: React.FC = () => {
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
-                  to="/handbook"
+                  to="/handbook/e85d8d26-e074-4f5e-b5f6-329d76bba0f0"
                 >
                   Handbook
+                </Link>
+                <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/about/3b438d0d-239e-4027-a5c3-917263e373aa"
+                >
+                  Scientific Publications
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
@@ -126,7 +138,7 @@ const ReinNavbar: React.FC = () => {
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
-                  to="/eshopdoc"
+                  to="/eshopdoc/7ad7993f-c1c6-42dc-a183-192aae852ccd"
                 >
                   eShop documentation
                 </Link>
@@ -144,27 +156,25 @@ const ReinNavbar: React.FC = () => {
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
-                  to="/firstperfdoc/overview/"
+                  to="/firstperfdoc/"
                 >
                   First performance documentation
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
-                  to="/secondperfdoc/spoverview"
+                  to="/secondperfdoc/"
                 >
                   Second performance documentation
                 </Link>
-                {/*
-               <Link
-                  className="text-dark text-decoration-none dropdown-item"
-                  to="/resources"
-                >
-                  Overview
-                </Link>
-                 */}  
           </NavDropdown>
           
           <NavDropdown title="Discover" id="basic-nav-dropdown">
+          <Link
+                  className="text-dark text-decoration-none dropdown-item"
+                  to="/visitorhub"
+                >
+                  <b>Overview of the ReInHerit products</b>
+                </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
                   to="/exhibitions"
@@ -234,14 +244,14 @@ const ReinNavbar: React.FC = () => {
                 <Link
                 style={{ color: "#424753" }}
                 className="text-dark text-decoration-none dropdown-item"
-                to="/museumcalls/travelling"
+                to="/museumcalls/ecef209d-8276-4aff-90d7-4228f5238731"
               >
                 Host an exhibition
               </Link>
               <Link
                 style={{ color: "#424753" }}
                 className="text-dark text-decoration-none dropdown-item"
-                to="/museumcalls/digital"
+                to="/museumcalls/96ee4e71-7184-4557-ac18-ca825fe33b05"
               >
                 Contribute to the collection
               </Link>
@@ -254,7 +264,6 @@ const ReinNavbar: React.FC = () => {
                </Link>
           </NavDropdown>           
             </Nav>
-
             
             <Nav>
             {/* 

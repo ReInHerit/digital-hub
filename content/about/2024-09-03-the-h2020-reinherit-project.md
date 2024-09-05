@@ -1,7 +1,7 @@
 ---
 pageId: dd779b45-1ce5-411a-9c80-f887f1ddb4c2
 layout: blog
-type: news
+type: about
 title: The H2020 ReInHerit project
 date: 2024-09-03T09:28:49.781Z
 target-audience:

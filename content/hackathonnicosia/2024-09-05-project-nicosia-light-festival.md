@@ -6,7 +6,7 @@ title: "Project: Nicosia Light Festival"
 date: 2024-09-05T10:48:35.407Z
 target-audience:
   - VISITOR
-pdf: https://ucarecdn.com/e49448e8-5f22-4562-9941-45110e0dfe40/
+mainImage: https://ucarecdn.com/e49448e8-5f22-4562-9941-45110e0dfe40/
 ---
 **First Prize Winner: Nicosia Light Festival, by Jannis Sidiropoulos, which received gifts worth 3,000 euros.**
 

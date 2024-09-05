@@ -34,12 +34,12 @@ const NetworkingHubPage = () => {
         <ReinGridCard
           body="Contribute to the ReInHerit digital exhibitions with your collections! Participatory action open to all European museums."
           title="Call for exhibition objects"
-          url="/museumcalls/digital"
+          url="/museumcalls/96ee4e71-7184-4557-ac18-ca825fe33b05"
       />
         <ReinGridCard
           body="Host a ReInHerit travelling exhibition. Call open to all museums."
           title="Host an exhibition"
-          url="/museumcalls/travelling"
+          url="/museumcalls/ecef209d-8276-4aff-90d7-4228f5238731"
       />
        <ReinGridCard
           body="Discover our events and participate."

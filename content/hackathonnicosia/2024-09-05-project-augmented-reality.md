@@ -6,7 +6,7 @@ title: "Project: Augmented Reality"
 date: 2024-09-05T10:51:49.832Z
 target-audience:
   - VISITOR
-pdf: https://ucarecdn.com/6b219f9f-db5f-42e8-9a26-ae09742f242b/
+mainImage: https://ucarecdn.com/6b219f9f-db5f-42e8-9a26-ae09742f242b/
 ---
 **Third Prize Winner: Augmented Reality, by Kostas Tsagaridis, who won gifts worth 750 euros.**
 

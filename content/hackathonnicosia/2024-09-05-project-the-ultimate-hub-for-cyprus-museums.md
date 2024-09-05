@@ -6,7 +6,7 @@ title: "Project: The ultimate Hub for Cyprus museums"
 date: 2024-09-05T10:50:21.451Z
 target-audience:
   - VISITOR
-pdf: https://ucarecdn.com/9db804aa-784f-4ae8-8e14-9220854b1005/
+mainImage: https://ucarecdn.com/9db804aa-784f-4ae8-8e14-9220854b1005/
 ---
 Second Prize Winner: The ultimate Hub for Cyprus museums, by Maxim Grosul, who received gifts worth 1,250 euros
 
