@@ -20,13 +20,7 @@ const travellingExhib = () => {
     <Container fluid className="bg-white p-md-4 p-sm-3 shadow border-0">
         <Row>
             <Col>
-            <Card>
-      <Card.Body>
-        <Card.Text>
         <TravellingExhibFeed></TravellingExhibFeed>
-        </Card.Text>
-      </Card.Body>
-    </Card>
             </Col>
             <Col>
             <Card style={{ backgroundColor: "blue"}}>
