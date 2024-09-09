@@ -41,13 +41,13 @@ const ReinNavbar: React.FC = () => {
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
-                  to="/doc"
+                  to="/doc/2096bb3c-78d3-4d21-b9cc-992e6e170a2f"
                 >
                   About the Digital Hub
             </Link>
             <Link
                   className="text-dark text-decoration-none dropdown-item"
-                  to="/doc/faq"
+                  to="/doc/531acbfb-d484-4c46-9c5c-dc6ed84ef62a"
                 >
                   FAQ
             </Link>

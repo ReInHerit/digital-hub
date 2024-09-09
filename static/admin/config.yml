@@ -686,6 +686,7 @@ collections:
       - { label: "Title", name: "title", widget: "string", pattern: ["^.{1,150}$", "Must have between 1 and 150 characters"], required: true, }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["PROFESSIONAL"], multiple: true, }
+      - { label: "PDF", name: "mainImage", widget: "file", media_library: { config: { max_file_size: 50000000 } }, required: false, }
       - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }
   - name: "eshopdoc"
     label: "Documentation of the ReInHerit e-shop" # Used in the UI

@@ -53,7 +53,13 @@ export default function Template({
               <div className="card p-4 border-0 shadow bg-white">
 
                 {frontmatter.type === "doc" && (
-                <Link to="/doc">Documentation</Link>
+                 <ul>
+                 <li><Link to="/doc/2096bb3c-78d3-4d21-b9cc-992e6e170a2f">Technologies overview</Link></li>
+                 <li><Link to="/doc/1f06a32f-7619-41da-9d35-afe90a2befee">Information architecture</Link></li>
+                 <li><Link to="/doc/bcb081bc-04aa-447b-a817-e9f9c42d8d75">Access levels</Link></li>
+                 <li><Link to="/doc/0279ce90-3848-4d27-b2d9-c930838f3417">Manual for contributors</Link></li>
+                 <li><Link to="/doc/531acbfb-d484-4c46-9c5c-dc6ed84ef62a">FAQ</Link></li>
+                 </ul>
                 )}
 
               {frontmatter.type === "firstperfdoc" && (
@@ -75,7 +81,7 @@ export default function Template({
                 <li><Link to="/secondperfdoc/2a98cf27-db12-48d9-8982-2729731600d3">Video Art</Link></li>
                 </ul>
               )}
-            </div>
+            </div> 
             }
             >
         <Container fluid className="bg-white card p-4 mb-2 border-0 shadow">
