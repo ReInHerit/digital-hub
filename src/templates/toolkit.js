@@ -62,7 +62,7 @@ export default function Template({
           breadCrumbObj.value = "/about"
           addObj.label = "..."
           addObj.value = "/about"
-          break;
+          break; 
         case "doc":
           breadCrumbObj.label = "Hub Documentation"
           breadCrumbObj.value = "/doc"
@@ -74,12 +74,6 @@ export default function Template({
           breadCrumbObj.value = "/eshopdoc"
           addObj.label = "..."
           addObj.value = "/eshopdoc"
-          break;
-        case "firstperfdoc":
-          breadCrumbObj.label = "Documentation of the first ReInHerit performance"
-          breadCrumbObj.value = "/firstperfdoc"
-          addObj.label = "..."
-          addObj.value = "/firstperfdoc"
           break;
         case "hackathonnicosia":
           breadCrumbObj.label = "ReInHerit Hackathon in Nicosia"
@@ -98,12 +92,6 @@ export default function Template({
           breadCrumbObj.value = "/museumcalls"
           addObj.label = "..."
           addObj.value = "/museumcalls"
-          break;
-        case "secondperfdoc":
-          breadCrumbObj.label = "Documentation of the second ReInHerit performance"
-          breadCrumbObj.value = "/secondperfdoc"
-          addObj.label = "..."
-          addObj.value = "/secondperfdoc"
           break;
         case "travellingexhib":
           breadCrumbObj.label = "ReInHerit travelling exhibitions"
@@ -273,7 +261,7 @@ export default function Template({
                 <br />
 
                 <div>
-                  Share your experience in <a href={`${frontmatter.chatApps}`}>the ReInHerit chat!</a>
+                  Share your experience in <Link to={`/forum/`}>the ReInHerit chat!</Link>
                 </div>
                 <br />
 

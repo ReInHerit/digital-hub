@@ -12,13 +12,8 @@ const TravellingExhibFeed: React.FC = () => {
     <ReinCardGrid>
       {data.allMarkdownRemark.edges.map((TravellingExhib, i) => (
         <ReinGridCard
-          key={TravellingExhib.node.frontmatter.pageId}
-          url={`/travellingexhib/${TravellingExhib.node.frontmatter.pageId}`}
-          title={TravellingExhib.node.frontmatter.title}
-          body={TravellingExhib.node.excerpt}
-          uid={TravellingExhib.node.frontmatter.pageId}
+          body={TravellingExhib.node.frontmatter.description}
           >
-          {TravellingExhib.node.frontmatter.thumbnail && <Thumbnail src={TravellingExhib.node.frontmatter.thumbnail}></Thumbnail>}
         </ReinGridCard>
       ))}
     </ReinCardGrid>
@@ -30,7 +25,7 @@ export default TravellingExhibFeed
 const TRAVELLINGEXHIB_QUERY = graphql`
   query TravellingExhibQuery {
     allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/(/travellingexhib/)/" } }
-    sort: {fields: frontmatter___date, order: DESC}
+    sort: {fields: frontmatter___date, order: ASC}
     ) {
       edges {
         node {
@@ -39,10 +34,9 @@ const TRAVELLINGEXHIB_QUERY = graphql`
           frontmatter {
             pageId
             title
-            date(fromNow: true)
+            description
             target_audience
-            thumbnail
-          }
+            }
         }
       }
     }

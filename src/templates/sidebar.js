@@ -30,6 +30,12 @@ export default function Template({
         addObj.label = "..."
         addObj.value = "/firstperfdoc"
         break;
+      case "gamedoc":
+        breadCrumbObj.label = "Documentation of the ReInHerit videogame"
+        breadCrumbObj.value = "/gamedoc"
+        addObj.label = "..."
+        addObj.value = "/gamedoc"
+        break;
     default:
         breadCrumbObj.label = "Documentation of the second ReInHerit performance"
         breadCrumbObj.value = "/secondperfdoc"
@@ -52,7 +58,7 @@ export default function Template({
             side={
               <div className="card p-4 border-0 shadow bg-white">
 
-                {frontmatter.type === "doc" && (
+              {frontmatter.type === "doc" && (
                  <ul>
                  <li><Link to="/doc/2096bb3c-78d3-4d21-b9cc-992e6e170a2f">Technologies overview</Link></li>
                  <li><Link to="/doc/1f06a32f-7619-41da-9d35-afe90a2befee">Information architecture</Link></li>
@@ -60,7 +66,15 @@ export default function Template({
                  <li><Link to="/doc/0279ce90-3848-4d27-b2d9-c930838f3417">Manual for contributors</Link></li>
                  <li><Link to="/doc/531acbfb-d484-4c46-9c5c-dc6ed84ef62a">FAQ</Link></li>
                  </ul>
-                )}
+              )}
+
+              {frontmatter.type === "videogame" && (
+                 <ul>
+                 <li><Link to="/gamedoc/b69e79d8-8b00-4a26-89c7-6af8d12518ee">Introduction</Link></li>
+                 <li><Link to="/gamedoc/6bb5d2d3-876a-48c7-b956-eadcbec135db">Enhancing User Experience</Link></li>
+                 <li><Link to="/gamedoc/5761ffde-e42d-4697-973a-353c16f32590">Technical documentation</Link></li>
+                 </ul>
+              )}  
 
               {frontmatter.type === "firstperfdoc" && (
                 <ul>

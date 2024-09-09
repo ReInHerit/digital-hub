@@ -1,45 +1,48 @@
 import { graphql, useStaticQuery, Link } from "gatsby"
 import React from "react"
-import { Col, Row, Badge, Button, ListGroup, ListGroupItem } from "react-bootstrap"
+import ReinCardGrid from "../ReinCardGrid"
+import ReinGridCard from "../ReinCardGrid/ReinGridCard"
+import Thumbnail from "../Thumbnail"
 
-/**
- * Generated overview over BestPractices items
- * @returns
- */
-
-const GameDocFeed: React.FC = props => {
+const GameDocFeed: React.FC = () => {
 const data: GameDocQueryData.Data = useStaticQuery(GameDocQuery)
 
   return (
-    <ListGroup>
-        {data.allMarkdownRemark.edges.sort().map(edge => (
-        <ListGroupItem style={{border: "0px"}} eventKey={edge.node.frontmatter.pageId}>
-          <Link to={`/gamedoc/${edge.node.frontmatter.pageId}`} style={{textDecoration: "none"}}>{edge.node.frontmatter.title}</Link>
-          <hr/>
-        </ListGroupItem>
-        ))}
-    </ListGroup>
+    <ReinCardGrid>
+    {data.allMarkdownRemark.edges.map((gamedoc, i) => (
+      <ReinGridCard
+        key={gamedoc.node.frontmatter.pageId}
+        url={`/gamedoc/${gamedoc.node.frontmatter.pageId}`}
+        title={gamedoc.node.frontmatter.title}
+        body={gamedoc.node.excerpt}
+        uid={gamedoc.node.frontmatter.pageId}
+        >
+        {gamedoc.node.frontmatter.thumbnail && <Thumbnail src={gamedoc.node.frontmatter.thumbnail}></Thumbnail>}
+      </ReinGridCard>
+    ))}
+  </ReinCardGrid>
   )
 }
 
-export default GameDocFeed
+export default GameDocFeed 
 
 const GameDocQuery = graphql`
 query GameDocQuery {
   allMarkdownRemark(
-    filter: { fileAbsolutePath: { regex: "/gamedoc/" }, frontmatter: {} }
+    filter: { fileAbsolutePath: { regex: "/(/gamedoc/)/" } }
+    sort: {fields: frontmatter___title, order: DESC}
   ) {
     edges {
       node {
         html
         excerpt
         frontmatter {
+          pageId
           title
           date(fromNow: true)
           target_audience
-          pageId
-          license
           thumbnail
+          license
           mainImage
         }
       }

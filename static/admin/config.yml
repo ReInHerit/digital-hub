@@ -815,4 +815,5 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Target Audience", name: "target-audience", widget: "select", options: ["VISITOR", "PROFESSIONAL"], default: ["VISITOR"], multiple: true, }
       - { label: "Thumbnail", name: "thumbnail", hint: "Small image limited to 100kb to be used for overviews.", widget: "image", required: false, media_library: { config: { max_file_size: 100000 } }, } # in bytes, only for default media library
+      - { label: "Description", name: "description", widget: "string", required: false, }
       - { label: "Body", name: "body", widget: "markdown", media_library: { config: { max_file_size: 10000000 } }, }     

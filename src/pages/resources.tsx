@@ -87,7 +87,7 @@ const ResourcesPage = () => {
         <ReinGridCard
           title="Videogame Documentation"
           body="Video game developed within the ReInHerit project."
-          url="/gamedoc/5761ffde-e42d-4697-973a-353c16f32590"
+          url="/gamedoc/"
         />
         <ReinGridCard
           title="Best Practices"

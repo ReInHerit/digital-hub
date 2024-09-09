@@ -4,6 +4,7 @@ layout: blog
 type: travellingexhib
 title: Discover the ReThinking Exhibitions
 date: 2024-09-05T11:44:22.039Z
+description: The ReInHerit ReThinking exhibitions focus on the themes of "Conflicts", "Craftsmanship" and "Identities", and were shown at the Graz Museum (Austria), the Museum of Cycladic Art (Athens, Greece), and the Bank of Cyprus Cultural Foundation (Nicosia, Cyprus).
 target-audience:
   - VISITOR
 ---

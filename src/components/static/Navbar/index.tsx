@@ -132,7 +132,7 @@ const ReinNavbar: React.FC = () => {
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
-                  to="/gamedoc/5761ffde-e42d-4697-973a-353c16f32590"
+                  to="/gamedoc/"
                 >
                   Videogame Documentation
                 </Link>

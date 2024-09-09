@@ -46,18 +46,12 @@ export default function Template({
           addObj.label = "..."
           addObj.value = "/museumcalls"
           break;
-        case "travellingexhib":
+        default:
           breadCrumbObj.label = "ReInHerit travelling exhibitions"
           breadCrumbObj.value = "/travellingexhib"
           addObj.label = "..."
           addObj.value = "/travellingexhib"
           break;
-      default:
-        breadCrumbObj.label = "Videogame Documentation"
-        breadCrumbObj.value = "/gamedoc"
-        addObj.label = "..."
-        addObj.value = "/gamedoc"
-        break;
     }
   }
 

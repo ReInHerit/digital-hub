@@ -257,7 +257,7 @@ The ReInHerit project developed learning resources and provides detailed documen
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/firstperfdoc/">First Performance Documentation</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/secondperfdoc/">Second Performance Documentation</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/eshopdoc/7ad7993f-c1c6-42dc-a183-192aae852ccd">e-Shop Documentation</Button>
-    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/gamedoc/5761ffde-e42d-4697-973a-353c16f32590">Videogame Documentation</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/gamedoc/">Videogame Documentation</Button>
   </div>
 
 </Col>

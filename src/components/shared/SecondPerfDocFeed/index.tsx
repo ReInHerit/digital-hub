@@ -20,7 +20,7 @@ const SecondPerfDocFeed: React.FC = () => {
           >
           {SecondPerfDoc.node.frontmatter.thumbnail && <Thumbnail src={SecondPerfDoc.node.frontmatter.thumbnail}></Thumbnail>}
         </ReinGridCard>
-      ))}
+      ))} 
     </ReinCardGrid>
   )
 }

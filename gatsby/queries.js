@@ -71,7 +71,7 @@ query BestPracticesQuery {
 
 const GAMEDOC_PAGES = `
 query GameDocQuery {
-  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/gamedoc/"}}) {
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(/gamedoc/)/"}}) {
     edges {
       node {
         frontmatter {

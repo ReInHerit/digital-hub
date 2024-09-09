@@ -94,7 +94,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
     const mdId = edge.node.frontmatter.pageId
     actions.createPage({
       path: `/gamedoc/${mdId}`,
-      component: require.resolve(`./src/templates/gamedoc.js`),
+      component: require.resolve(`./src/templates/sidebar.js`), 
       context: { id: mdId },
     })
   });
@@ -127,7 +127,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
      const mdId = edge.node.frontmatter.pageId
      actions.createPage({
        path: `/about/${mdId}`,
-       component: require.resolve(`./src/templates/gamedoc.js`),
+       component: require.resolve(`./src/templates/onepage.js`),
        context: { id: mdId },
      })
    });
@@ -149,7 +149,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
      const mdId = edge.node.frontmatter.pageId
      actions.createPage({
        path: `/eshopdoc/${mdId}`,
-       component: require.resolve(`./src/templates/gamedoc.js`),
+       component: require.resolve(`./src/templates/onepage.js`),
        context: { id: mdId },
      })
    });
@@ -171,7 +171,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
      const mdId = edge.node.frontmatter.pageId
      actions.createPage({
        path: `/hackathonnicosia/${mdId}`,
-       component: require.resolve(`./src/templates/gamedoc.js`),
+       component: require.resolve(`./src/templates/onepage.js`),
        context: { id: mdId },
      })
    });
@@ -182,7 +182,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
      const mdId = edge.node.frontmatter.pageId
      actions.createPage({
        path: `/handbook/${mdId}`,
-       component: require.resolve(`./src/templates/gamedoc.js`),
+       component: require.resolve(`./src/templates/onepage.js`),
        context: { id: mdId },
      })
    });
@@ -193,7 +193,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
      const mdId = edge.node.frontmatter.pageId
      actions.createPage({
        path: `/museumcalls/${mdId}`,
-       component: require.resolve(`./src/templates/gamedoc.js`),
+       component: require.resolve(`./src/templates/onepage.js`),
        context: { id: mdId },
      })
    });
@@ -215,7 +215,7 @@ module.exports.createPages = async ({ graphql, actions}) => {
      const mdId = edge.node.frontmatter.pageId
      actions.createPage({
        path: `/travellingexhib/${mdId}`,
-       component: require.resolve(`./src/templates/gamedoc.js`),
+       component: require.resolve(`./src/templates/onepage.js`),
        context: { id: mdId },
      })
    });
