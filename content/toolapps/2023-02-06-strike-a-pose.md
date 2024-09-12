@@ -11,7 +11,6 @@ linkedWebinars:
     Vision for Cultural Heritage
   - f2a58e91-3c1a-43c0-baeb-45234da1cbce____Engaging Museum Visitors with
     Gamification Apps
-  - 7982ca67-54fa-4c84-9cf2-c1b6e874e9e5____ Compassion is a Rebellious Act
 license: CC BY 2.0
 status: completed
 thumbnail: https://ucarecdn.com/021b57b5-1152-4f4e-9a6f-b8fadbfc8174/
