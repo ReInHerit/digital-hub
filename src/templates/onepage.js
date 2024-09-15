@@ -28,6 +28,12 @@ export default function Template({
           addObj.label = "..."
           addObj.value = "/eshopdoc"
           break;
+        case "deliverables":
+          breadCrumbObj.label = "Project deliverables"
+          breadCrumbObj.value = "/deliverables"
+          addObj.label = "..."
+          addObj.value = "/deliverables"
+          break;
         case "hackathonnicosia":
           breadCrumbObj.label = "ReInHerit Hackathon in Nicosia"
           breadCrumbObj.value = "/hackathonnicosia"
@@ -99,6 +105,7 @@ query($id: String!) {
       thumbnail
       type
       mainImage
+      url
     }
   id
   excerpt

@@ -220,6 +220,17 @@ module.exports.createPages = async ({ graphql, actions}) => {
      })
    });
 
+   // adding deliverables data from markdown
+   const deliverablesResult = await graphql(DIGIHUB_QUERIES.DELIVERABLES_PAGES);
+   deliverablesResult.data.allMarkdownRemark.edges.forEach(edge => {
+     const mdId = edge.node.frontmatter.pageId
+     actions.createPage({
+       path: `/deliverables/${mdId}`,
+       component: require.resolve(`./src/templates/onepage.js`),
+       context: { id: mdId },
+     })
+   });
+
 
   // adding object-collection data from markdown
  // const exhibitionCollectionResult = await graphql(DIGIHUB_QUERIES.EXHIBITION_COLLECTION_PAGES);

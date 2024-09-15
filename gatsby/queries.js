@@ -261,7 +261,21 @@ query MyQuery {
     }
   }
 }
-` 
+`
+
+const DELIVERABLES_PAGES = `
+query DeliverablesQuery {
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(/deliverables/)/"}}) {
+    edges {
+      node {
+        frontmatter {
+          pageId
+        }
+      }
+    }
+  }
+}
+`
 
 
 
@@ -286,5 +300,6 @@ query MyQuery {
     MUSEUMCALLS_PAGES,
     SECONDPERFDOC_PAGES,
     TRAVELLINGEXHIB_PAGES,
+    DELIVERABLES_PAGES,
   }
 })()
