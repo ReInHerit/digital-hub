@@ -246,6 +246,7 @@ The ReInHerit project developed learning resources and provides detailed documen
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/bestpractices/">Best Practices</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/handbook/e85d8d26-e074-4f5e-b5f6-329d76bba0f0/">Handbook</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/about/3b438d0d-239e-4027-a5c3-917263e373aa">Scientific Publications</Button>
+    <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/deliverables">Public Deliverables</Button>
     <Button variant="primary" style={{padding:"0.5em", fontSize:"1em"}} href="/hackathonnicosia/">Hackathon Training Material</Button>
   </div>
     <Row className="mt-4"><h5>Documentation:</h5></Row>

@@ -45,6 +45,11 @@ const ResourcesPage = () => {
           url="/about/3b438d0d-239e-4027-a5c3-917263e373aa"
         />
         <ReinGridCard
+          title="Project deliverables"
+          body="Public deliverables from the ReInHerit project."
+          url="/deliverables"
+        />
+        <ReinGridCard
           title="Hackathon Training Material"
           body="Webinars and documentation from the ReInHerit Cultural Tourism Hackathon."
           url="/hackathonnicosia"

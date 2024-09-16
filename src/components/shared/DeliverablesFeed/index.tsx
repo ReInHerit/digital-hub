@@ -14,7 +14,7 @@ const DeliverablesFeed: React.FC = () => {
         <ReinGridCard
           key={Deliverables.node.frontmatter.pageId}
           title={Deliverables.node.frontmatter.title}
-          body={Deliverables.node.description}
+          body={Deliverables.node.frontmatter.description}
           uid={Deliverables.node.frontmatter.pageId}
           footerContent={
             <Row>
@@ -36,7 +36,7 @@ export default DeliverablesFeed
 const DELIVERABLES_QUERY = graphql`
   query DeliverablesQuery {
     allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/(/deliverables/)/" } }
-    sort: {fields: frontmatter___date, order: DESC}
+    sort: {fields: frontmatter___date, order: ASC}
     ) {
       edges {
         node {

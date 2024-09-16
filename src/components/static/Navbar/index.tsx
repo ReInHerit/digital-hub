@@ -114,6 +114,12 @@ const ReinNavbar: React.FC = () => {
                 </Link>
                 <Link
                   className="text-dark text-decoration-none dropdown-item"
+                  to="/deliverables"
+                >
+                  Public Deliverables
+                </Link>
+                <Link
+                  className="text-dark text-decoration-none dropdown-item"
                   to="/hackathonnicosia"
                 >
                   Hackathon Training Material
