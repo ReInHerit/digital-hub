@@ -105,7 +105,6 @@ query($id: String!) {
       thumbnail
       type
       mainImage
-      url
     }
   id
   excerpt
