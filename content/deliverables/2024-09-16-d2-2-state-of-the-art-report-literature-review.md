@@ -8,5 +8,6 @@ target-audience:
   - PROFESSIONAL
 description: This report outlines the relevant scientific literature on cultural
   heritage management and position this project within it.
+mainImage: https://ucarecdn.com/9adf0667-71dd-49d1-b00d-3645cec446f8/
 ---
 This report will outline the relevant scientific literature on cultural heritage management and position this project within it.
