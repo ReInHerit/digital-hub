@@ -34,4 +34,6 @@ Due to computational costs the demo handles only images. People interested in vi
 
 Try the **demo** for image restoration at this link (the online demo works on photos and not videos, for timing reasons): <http://solaris.micc.unifi.it:8000>[](http://solaris.micc.unifi.it:8000)
 
+> #### "We are sorry but the server hosting this app has suffered severe disk corruption and is being recovered" (24 September 2024) The link will be online soon!
+
 ![Smart Video/Photo Restoration](https://ucarecdn.com/f013c43e-ff3b-4951-bb17-3e83030a5cbc/ "Smart Video/Photo Restoration")
