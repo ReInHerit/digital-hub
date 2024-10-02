@@ -32,5 +32,3 @@ Smart Retrieval can also be used to perform tagging, or annotation of images, us
 
 Try a **demo**  of  Smart Retrieval at the following link:\
 h[ttp://solaris.micc.unifi.it](http://solaris.micc.unifi.it)
-
-> #### "We are sorry but the server hosting this app has suffered severe disk corruption and is being recovered" (24 September 2024) The link will be online soon!
