@@ -92,8 +92,6 @@ Code for a new metric to evaluate video quality in a no-reference setting (usefu
 
  **Demo** of "Smart Video Restoration"  is available at the following link (the online demo works on photos and not videos, for timing reasons): <http://solaris.micc.unifi.it:8000>
 
-> #### "We are sorry but the server hosting this app has suffered severe disk corruption and is being recovered" (24 September 2024) The link will be online soon!
-
 The code of the demo is available here: <https://github.com/ReInHerit/image_restoration>
 
 ![Smart Video/Photo Restoration](https://ucarecdn.com/58c061bd-e99a-4ecd-8c17-b710ac4f1987/ "Smart Video/Photo Restoration")
