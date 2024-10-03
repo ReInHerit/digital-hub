@@ -4,7 +4,7 @@ layout: blog
 type: news
 title: New EU booklet "Driving a green, digital & innovative European cultural
   heritage"
-date: 2024-05-20T06:43:48.302Z
+date: 2024-10-03T06:43:48.302Z
 target-audience:
   - VISITOR
 referenceTo:
