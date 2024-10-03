@@ -11,6 +11,8 @@ target-audience:
 
 The H2020 ReInHerit project published its results in a series of scientific publications. Here we present the list of publications, with links to their Open Access versions.
 
+Y﻿ou can also easily access them all via our Zenodo page, available here: <https://zenodo.org/communities/reinherit>
+
 * Alberto Baldrati, Marco Bertini, Tiberio Uricchio, & Alberto Del Bimbo. (2022, September 27). Effective conditioned and composed image retrieval combining CLIP-based features. <https://doi.org/10.1109/CVPR52688.2022.02080>  
 * Alberto Baldrati, Marco Bertini, Tiberio Uricchio, & Alberto Del Bimbo. (2022, August 23). Conditioned and composed image retrieval combining and partially fine-tuning CLIP-based features.  <https://doi.org/10.1109/CVPRW56347.2022.00543>
 * Leonardo Galteri, Lorenzo Seidenari, Pietro Bongini, Marco Bertini, and Alberto Del Bimbo. (June 2022). LANBIQUE: LANguage-based Blind Image QUality Evaluation. ACM Trans. Multimedia Comput. Commun. Appl. 18, 2s, Article 116, 19 pages. [https://doi.org/10.1145/​3538649](https://doi.org/10.1145/3538649)
