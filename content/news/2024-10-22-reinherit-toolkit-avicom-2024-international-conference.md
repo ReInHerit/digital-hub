@@ -10,6 +10,7 @@ target-audience:
 referenceTo: News
 status: completed
 theme: Technology
+thumbnail: https://ucarecdn.com/b11a4426-1480-43c1-930b-7a42b163b0a5/-/crop/566x547/0,0/-/preview/
 ---
 
 
