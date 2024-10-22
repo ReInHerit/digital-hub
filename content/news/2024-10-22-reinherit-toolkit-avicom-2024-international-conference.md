@@ -22,7 +22,7 @@ On Friday, October 18, Paolo Mazzanti from the Media Integration and Communicati
 
 ![RelnHerit AI Toolkit - AVICOM 2024](https://ucarecdn.com/93bf8d86-0110-4b32-b3a8-b08016d67069/ "RelnHerit AI Toolkit - AVICOM 2024")
 
-The event focused on the latest developments in the digital museum world, with special attention to Artificial Intelligence and its ethical implications. A great opportunity to share insights on how AI can transform the museum experience while navigating the complex ethical challenges involved.
+The event focused on the latest developments in the digital museum world, with special attention to Artificial Intelligence and its ethical implications. It provided a great opportunity to share insights on how AI can transform the museum experience while addressing the complex ethical challenges involved.
 
 ![RelnHerit AI Toolkit - AVICOM 2024](https://ucarecdn.com/946cf158-5236-4c2e-a68f-73eae28f7539/ "RelnHerit AI Toolkit - AVICOM 2024")
 
