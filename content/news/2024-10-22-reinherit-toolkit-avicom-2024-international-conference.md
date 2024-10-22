@@ -12,11 +12,9 @@ status: completed
 theme: Technology
 thumbnail: https://ucarecdn.com/b11a4426-1480-43c1-930b-7a42b163b0a5/-/crop/566x547/0,0/-/preview/
 ---
-
-
 ![AVICOM 2024](https://ucarecdn.com/d1e241dd-eeac-4f6f-9ce7-0f883cc488cb/ "AVICOM 2024")
 
-On Friday, October 18, Paolo Mazzanti from the Media Integration and Communication Center MICC, [](https://www.facebook.com/UNIFIOFFICIAL?__cft__[0]=AZX-ZnF4mferbmlvxgf_ZWSn4IAc8t4SAmqsSiGKFOR_RT8mL5QWis6u6_UJny_KmRUdq6y7yT_4cq4_CC1N84VkKLCklMVAeuW8MoPFSVzWxSU7E4KOFiAmN2qeeD-OyXC6OtKE5vjoJ_kc8AvPsusd2kPAbH6GmXdoVZ9OdHewlFfdbFqc1SqjZSOJ1_FMGNY&__tn__=-]K-R) Univ. Florence IT,  participated in [AVICOM Annual Conference ](https://avicom.mini.icom.museum/updated-program-avicom-annual-conference-turin-oct-17-19-2024/)in Turin from October 17-19, 2024, in a session dedicated to "Artificial Intelligence: Museum Relevance, Ethical and Legal Aspects."
+On Friday, October 18, Paolo Mazzanti from the Media Integration and Communication Center MICC, [](https://www.facebook.com/UNIFIOFFICIAL?__cft__[0]=AZX-ZnF4mferbmlvxgf_ZWSn4IAc8t4SAmqsSiGKFOR_RT8mL5QWis6u6_UJny_KmRUdq6y7yT_4cq4_CC1N84VkKLCklMVAeuW8MoPFSVzWxSU7E4KOFiAmN2qeeD-OyXC6OtKE5vjoJ_kc8AvPsusd2kPAbH6GmXdoVZ9OdHewlFfdbFqc1SqjZSOJ1_FMGNY&__tn__=-]K-R) Univ. Florence IT,  participated in [AVICOM Annual Conference ](https://avicom.mini.icom.museum/updated-program-avicom-annual-conference-turin-oct-17-19-2024/)in Turin, IT from October 17-19, 2024, in a session dedicated to "Artificial Intelligence: Museum Relevance, Ethical and Legal Aspects."
 
 ![RelnHerit AI Toolkit - AVICOM 2024](https://ucarecdn.com/0542a7f5-cf41-4700-a968-f3817151d684/ "RelnHerit AI Toolkit - AVICOM 2024")
 
