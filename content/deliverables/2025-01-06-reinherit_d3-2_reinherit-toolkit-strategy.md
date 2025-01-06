@@ -2,7 +2,7 @@
 pageId: 23e0772f-1039-4871-b549-9a518c2d25fe
 layout: blog
 type: secondperfdoc
-title: D3.2 ReInHerit Toolkit Strategy
+title: D3.2 - ReInHerit Toolkit Strategy
 date: 2025-01-06T18:38:08.629Z
 target-audience:
   - PROFESSIONAL
